@@ -37,6 +37,11 @@ for r in rows:
             if ord(ch) > 127 and ch not in ALLOWED:
                 sys.exit(f"rank {r['r']}: bad character {ch!r} (U+{ord(ch):04X}) in {col}: {r[col]}")
 
+# A note admitting the entry isn't a verb means the row should never have shipped.
+for r in rows:
+    if 'not a verb' in r['n'].lower():
+        sys.exit(f"rank {r['r']} ({r['v']}): note says it isn't a verb - replace the row")
+
 rows.sort(key=lambda x: x['r'])
 
 tpl = open(os.path.join(ROOT, 'src', 'template.html'), encoding='utf-8').read()
