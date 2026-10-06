@@ -110,6 +110,7 @@ header{
   background:var(--surface-2);color:var(--accent);font-size:16px;cursor:pointer;
 }
 .empty{text-align:center;color:var(--muted);padding:40px 0;font-size:15px}
+.tablecount{font-size:12.5px;color:var(--muted);margin:-2px 0 6px;font-variant-numeric:tabular-nums}
 
 /* ---------- settings ---------- */
 .sheet{
@@ -198,6 +199,7 @@ header{
 
   <div id="tableView" style="display:none">
     <input class="search" id="search" placeholder="Search Spanish, English or verb…" autocomplete="off">
+    <div class="tablecount" id="tableCount"></div>
     <div id="rows"></div>
   </div>
 
@@ -554,15 +556,25 @@ function startAuto(){
 }
 
 /* ---------- table ---------- */
-function renderTable(){
+function tableMatches(){
   const q = $('search').value.trim().toLowerCase();
-  const matches = q
-    ? DATA.filter(r => (r.s+' '+r.t+' '+r.v+' '+r.ve).toLowerCase().includes(q))
-    : current();
+  if(!q) return DATA;
+  return DATA.filter(r => (r.s+' '+r.t+' '+r.v+' '+r.ve).toLowerCase().includes(q));
+}
+
+function renderTable(){
+  const matches = tableMatches();
   const box = $('rows');
-  if(!matches.length){ box.innerHTML = '<div class="empty">Nothing matches that.</div>'; return; }
   box.innerHTML = '';
-  matches.slice(0, 400).forEach(r=>{
+  $('tableCount').textContent = matches.length === DATA.length
+    ? `all ${DATA.length} verbs`
+    : `${matches.length} of ${DATA.length}`;
+  if(!matches.length){ box.innerHTML = '<div class="empty">Nothing matches that.</div>'; return; }
+
+  // All rows at once. A fragment keeps it to a single reflow, which is what makes
+  // two thousand rows cheap enough to skip virtualising.
+  const frag = document.createDocumentFragment();
+  matches.forEach(r=>{
     const d = document.createElement('div');
     d.className='rowitem';
     d.innerHTML = `<div class="n">${r.r}</div>
@@ -573,8 +585,9 @@ function renderTable(){
       </div>
       <button class="spk" aria-label="Speak">🔊</button>`;
     d.querySelector('.spk').onclick = () => play(r,'full');
-    box.appendChild(d);
+    frag.appendChild(d);
   });
+  box.appendChild(frag);
 }
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 
