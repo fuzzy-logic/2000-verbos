@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<title>2000 Verbos</title>
+<style>
+:root{
+  --bg:#0f1115; --surface:#171a21; --surface-2:#1e222b; --line:#2a2f3a;
+  --text:#e8eaf0; --muted:#949cad; --accent:#f2a93b; --accent-2:#4ea1ff;
+  --good:#3fb950; --warn:#e5534b;
+  --radius:14px; --gutter:16px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+:root[data-theme="light"]{
+  --bg:#f7f8fa; --surface:#ffffff; --surface-2:#eef0f4; --line:#dcdfe6;
+  --text:#14161b; --muted:#5e6672; --accent:#b87315; --accent-2:#1b6fd0;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--text); font-family:var(--font);
+  font-size:17px; line-height:1.5; overscroll-behavior-y:contain;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 var(--gutter)}
+
+/* ---------- header ---------- */
+header{
+  position:sticky;top:0;z-index:20;background:var(--bg);
+  border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top);
+}
+.hrow{display:flex;align-items:center;gap:10px;padding:10px 0}
+.brand{font-weight:700;font-size:15px;letter-spacing:.02em;margin-right:auto}
+.brand span{color:var(--accent)}
+.iconbtn{
+  background:var(--surface-2);border:1px solid var(--line);color:var(--text);
+  width:38px;height:38px;border-radius:10px;font-size:16px;cursor:pointer;
+  display:grid;place-items:center;flex:none;
+}
+.iconbtn:active{transform:scale(.94)}
+.tabs{display:flex;gap:6px;padding-bottom:10px}
+.tab{
+  flex:1;padding:9px 4px;text-align:center;border-radius:10px;cursor:pointer;
+  background:var(--surface-2);border:1px solid var(--line);color:var(--muted);
+  font-size:13px;font-weight:600;user-select:none;
+}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#14161b}
+
+/* ---------- chunk bar ---------- */
+.chunkbar{display:flex;align-items:center;gap:8px;padding:10px 0 4px}
+.chunkbar select{
+  flex:1;background:var(--surface-2);color:var(--text);border:1px solid var(--line);
+  border-radius:10px;padding:9px;font-size:14px;font-family:inherit;
+}
+.counter{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
+.bar{height:4px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin:8px 0 14px}
+.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .25s}
+
+/* ---------- card ---------- */
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px 18px;min-height:230px;display:flex;flex-direction:column;
+  justify-content:center;gap:14px;text-align:center;
+}
+.verbtag{
+  font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--accent);
+}
+.verbtag b{color:var(--muted);font-weight:600}
+.es{font-size:25px;font-weight:600;line-height:1.35;transition:filter .18s,opacity .18s}
+.en{font-size:17px;color:var(--muted);line-height:1.4}
+.note{font-size:12.5px;color:var(--accent-2);font-style:italic}
+.es.hidden-text{filter:blur(9px);opacity:.55;transition:none;cursor:pointer}
+.reveal-hint{font-size:13px;color:var(--muted)}
+
+.controls{display:flex;gap:8px;margin:14px 0}
+.btn{
+  flex:1;padding:14px 8px;border-radius:12px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--text);font-size:15px;font-weight:600;
+  font-family:inherit;cursor:pointer;
+}
+.btn:active{transform:scale(.97)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#14161b}
+.btn.wide{flex:2}
+.btn:disabled{opacity:.4}
+.markrow{display:flex;gap:8px;margin-bottom:18px}
+.btn.small{font-size:13.5px;padding:11px 6px}
+.btn.good{color:var(--good)} .btn.warn{color:var(--warn)}
+
+/* ---------- table ---------- */
+.search{
+  width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--text);font-size:16px;font-family:inherit;
+  margin-bottom:10px;
+}
+.rowitem{
+  display:flex;gap:10px;align-items:flex-start;padding:12px 0;
+  border-bottom:1px solid var(--line);
+}
+.rowitem .n{font-size:12px;color:var(--muted);min-width:34px;font-variant-numeric:tabular-nums;padding-top:3px}
+.rowitem .txt{flex:1;min-width:0}
+.rowitem .txt .v{font-size:11.5px;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.rowitem .txt .s{font-size:16px;margin-top:2px}
+.rowitem .txt .t{font-size:14px;color:var(--muted);margin-top:2px}
+.rowitem .spk{
+  flex:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--accent);font-size:16px;cursor:pointer;
+}
+.empty{text-align:center;color:var(--muted);padding:40px 0;font-size:15px}
+
+/* ---------- settings ---------- */
+.sheet{
+  position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:50;display:none;
+  align-items:flex-end;
+}
+.sheet.open{display:flex}
+.sheetinner{
+  background:var(--surface);width:100%;max-height:88vh;overflow:auto;
+  border-radius:18px 18px 0 0;padding:20px var(--gutter) calc(28px + env(safe-area-inset-bottom));
+  max-width:760px;margin:0 auto;
+}
+.sheetinner h2{margin:0 0 16px;font-size:17px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px;font-weight:600}
+.field select,.field input[type=range]{width:100%}
+.field select{
+  background:var(--surface-2);color:var(--text);border:1px solid var(--line);
+  border-radius:10px;padding:10px;font-size:15px;font-family:inherit;
+}
+.val{float:right;color:var(--accent);font-variant-numeric:tabular-nums}
+.foot{font-size:12.5px;color:var(--muted);line-height:1.6;margin-top:18px;
+  border-top:1px solid var(--line);padding-top:14px}
+.foot b{color:var(--text)}
+.linkbtn{background:none;border:none;color:var(--accent-2);font-size:13px;
+  cursor:pointer;padding:0;font-family:inherit;text-decoration:underline}
+.warnbox{background:var(--surface-2);border:1px solid var(--line);border-left:3px solid var(--warn);
+  padding:10px 12px;border-radius:8px;font-size:13px;color:var(--muted);margin-bottom:14px;display:none}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="hrow">
+      <div class="brand">2000 <span>VERBOS</span></div>
+      <button class="iconbtn" id="themeBtn" title="Theme">◐</button>
+      <button class="iconbtn" id="setBtn" title="Settings">⚙</button>
+    </div>
+    <div class="tabs" role="tablist">
+      <div class="tab" role="tab" data-mode="listen"  aria-selected="true">Listen</div>
+      <div class="tab" role="tab" data-mode="recall"  aria-selected="false">Recall</div>
+      <div class="tab" role="tab" data-mode="table"   aria-selected="false">Table</div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div id="studyView">
+    <div class="chunkbar">
+      <select id="chunkSel"></select>
+      <div class="counter" id="counter">0 / 0</div>
+    </div>
+    <div class="bar"><i id="progBar"></i></div>
+
+    <div class="card" id="card">
+      <div class="verbtag" id="verbTag"></div>
+      <div class="es" id="esText"></div>
+      <div class="en" id="enText"></div>
+      <div class="note" id="noteText"></div>
+      <div class="reveal-hint" id="hint"></div>
+    </div>
+
+    <div class="controls">
+      <button class="btn" id="prevBtn">←</button>
+      <button class="btn wide primary" id="playBtn">▶ Play</button>
+      <button class="btn" id="nextBtn">→</button>
+    </div>
+    <div class="markrow">
+      <button class="btn small good" id="knownBtn">✓ Got it</button>
+      <button class="btn small warn" id="shakyBtn">↻ Shaky</button>
+      <button class="btn small" id="autoBtn">⏯ Auto</button>
+    </div>
+  </div>
+
+  <div id="tableView" style="display:none">
+    <input class="search" id="search" placeholder="Search Spanish, English or verb…" autocomplete="off">
+    <div id="rows"></div>
+  </div>
+
+</main>
+
+<div class="sheet" id="sheet">
+  <div class="sheetinner">
+    <h2>Settings</h2>
+    <div class="warnbox" id="voiceWarn"></div>
+    <div class="field">
+      <label for="voiceSel">Voice</label>
+      <select id="voiceSel"></select>
+    </div>
+    <div class="field">
+      <label for="rate">Speed <span class="val" id="rateVal">1.0×</span></label>
+      <input type="range" id="rate" min="0.5" max="2" step="0.05" value="1">
+    </div>
+    <div class="field">
+      <label for="gap">Auto-advance gap <span class="val" id="gapVal">1.2s</span></label>
+      <input type="range" id="gap" min="0" max="5" step="0.1" value="1.2">
+    </div>
+    <div class="field">
+      <label for="reps">Repeats per sentence <span class="val" id="repsVal">1</span></label>
+      <input type="range" id="reps" min="1" max="4" step="1" value="1">
+    </div>
+    <div class="field">
+      <label for="chunkSize">Chunk size <span class="val" id="chunkVal">100</span></label>
+      <input type="range" id="chunkSize" min="25" max="250" step="25" value="100">
+    </div>
+    <div class="foot">
+      <p><b>Listen</b> — read the Spanish while you hear it, glance at the English. Fast, no pressure. This is wave one.</p>
+      <p><b>Recall</b> — the Spanish is blurred. Read the English, say it out loud in Spanish, then tap to check. You will get most wrong at first. That is the exercise working, not failing.</p>
+      <p><b>The sandwich</b> — once these feel easy, push the speed to 1.25–1.5× and alternate: five minutes of a real Paraguayan podcast, then back here when it gets tiring. Repeat. That gap is where listening comprehension is actually built.</p>
+      <p style="margin-bottom:0">
+        <button class="linkbtn" id="exportBtn">Export CSV</button> &nbsp;·&nbsp;
+        <button class="linkbtn" id="resetBtn">Reset progress</button>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/[];
+
+/* ---------- state ---------- */
+const LS = 'verbos2000';
+const save = () => { try{ localStorage.setItem(LS, JSON.stringify(state)); }catch(e){} };
+let state = { mode:'listen', chunk:0, idx:0, rate:1, gap:1.2, reps:1, chunkSize:100,
+              voice:'', theme:'dark', marks:{} };
+try { const s = localStorage.getItem(LS); if(s) state = Object.assign(state, JSON.parse(s)); } catch(e){}
+
+const $ = id => document.getElementById(id);
+let auto = false, autoTimer = null, voices = [], voice = null;
+
+/* ---------- voices ---------- */
+// Preference order: Paraguay first, then the other voseo countries, then
+// neutral Latin American, then anything Spanish at all.
+const VOICE_RANK = ['es-py','es-ar','es-uy','es-bo','es-419','es-mx','es-co','es-cl','es-pe','es-us','es-es','es'];
+function voiceScore(v){
+  const l = (v.lang||'').toLowerCase().replace('_','-');
+  for(let i=0;i<VOICE_RANK.length;i++){ if(l.startsWith(VOICE_RANK[i])) return i; }
+  return 99;
+}
+function loadVoices(){
+  voices = (speechSynthesis.getVoices()||[]).filter(v=>(v.lang||'').toLowerCase().startsWith('es'));
+  voices.sort((a,b)=>voiceScore(a)-voiceScore(b));
+  const sel = $('voiceSel'); sel.innerHTML='';
+  if(!voices.length){
+    sel.innerHTML = '<option>No Spanish voice found</option>';
+    const w = $('voiceWarn');
+    w.style.display='block';
+    w.textContent = 'No Spanish voice is installed on this device. On Android install Google Text-to-Speech + the Spanish voice; on Linux install a Spanish speech-dispatcher voice; iOS has them built in (Settings → Accessibility → Spoken Content → Voices).';
+    return;
+  }
+  voices.forEach((v,i)=>{
+    const o=document.createElement('option');
+    o.value=v.voiceURI; o.textContent=`${v.name} (${v.lang})`;
+    sel.appendChild(o);
+  });
+  voice = voices.find(v=>v.voiceURI===state.voice) || voices[0];
+  sel.value = voice.voiceURI;
+}
+speechSynthesis.onvoiceschanged = loadVoices;
+loadVoices();
+
+/* ---------- speech ---------- */
+// Safari/iOS drops long queues and pauses when backgrounded; nudging resume()
+// keeps a sequence alive.
+setInterval(()=>{ if(speechSynthesis.speaking && !speechSynthesis.paused) speechSynthesis.resume(); }, 8000);
+
+function speak(text, done){
+  try{ speechSynthesis.cancel(); }catch(e){}
+  let n = 0;
+  const once = () => {
+    const u = new SpeechSynthesisUtterance(text);
+    if(voice){ u.voice = voice; u.lang = voice.lang; } else { u.lang = 'es-419'; }
+    u.rate = state.rate;
+    u.onend = () => { n++; if(n < state.reps){ setTimeout(once, 260); } else if(done) done(); };
+    u.onerror = () => { if(done) done(); };
+    speechSynthesis.speak(u);
+  };
+  once();
+}
+
+/* ---------- data slicing ---------- */
+const chunks = () => {
+  const out=[], n=state.chunkSize;
+  for(let i=0;i<DATA.length;i+=n) out.push([i, Math.min(i+n, DATA.length)]);
+  return out.length?out:[[0,0]];
+};
+const current = () => {
+  const c = chunks()[state.chunk] || [0,0];
+  return DATA.slice(c[0], c[1]);
+};
+function buildChunkSel(){
+  const sel=$('chunkSel'); sel.innerHTML='';
+  chunks().forEach((c,i)=>{
+    const o=document.createElement('option');
+    o.value=i; o.textContent=`Verbs ${c[0]+1}–${c[1]}`;
+    sel.appendChild(o);
+  });
+  if(state.chunk >= chunks().length) state.chunk = 0;
+  sel.value = state.chunk;
+}
+
+/* ---------- render ---------- */
+function render(){
+  const list = current();
+  if(!list.length){ $('esText').textContent='No data'; return; }
+  if(state.idx >= list.length) state.idx = 0;
+  if(state.idx < 0) state.idx = list.length-1;
+  const r = list[state.idx];
+  const recall = state.mode === 'recall';
+
+  $('verbTag').innerHTML = `${r.v} <b>· ${r.ve}</b>`;
+  $('esText').textContent = r.s;
+  $('enText').textContent = r.t;
+  $('noteText').textContent = r.n || '';
+  $('noteText').style.display = r.n ? '' : 'none';
+
+  $('esText').className = 'es' + (recall ? ' hidden-text' : '');
+  $('verbTag').style.visibility = recall ? 'hidden' : 'visible';
+  $('hint').textContent = recall ? 'Say it in Spanish, then tap to check' : '';
+
+  $('counter').textContent = `${state.idx+1} / ${list.length}`;
+  $('progBar').style.width = ((state.idx+1)/list.length*100) + '%';
+
+  const key = r.r, m = state.marks[key];
+  $('knownBtn').style.opacity = m==='known' ? 1 : .55;
+  $('shakyBtn').style.opacity = m==='shaky' ? 1 : .55;
+  save();
+}
+
+function go(d){
+  const list = current();
+  state.idx += d;
+  if(state.idx >= list.length){
+    if(auto){ stopAuto(); state.idx = list.length-1; render(); return; }
+    state.idx = 0;
+  }
+  if(state.idx < 0) state.idx = list.length-1;
+  render();
+}
+
+/* ---------- auto play ---------- */
+function stopAuto(){ auto=false; clearTimeout(autoTimer); try{speechSynthesis.cancel();}catch(e){}
+  $('autoBtn').textContent='⏯ Auto'; $('autoBtn').style.color=''; }
+function startAuto(){
+  auto=true; $('autoBtn').textContent='■ Stop'; $('autoBtn').style.color='var(--warn)';
+  const step = () => {
+    if(!auto) return;
+    const r = current()[state.idx]; if(!r) return stopAuto();
+    speak(r.s, () => {
+      if(!auto) return;
+      autoTimer = setTimeout(()=>{
+        if(!auto) return;
+        const list = current();
+        if(state.idx >= list.length-1){ stopAuto(); return; }
+        state.idx++; render(); step();
+      }, state.gap*1000);
+    });
+  };
+  step();
+}
+
+/* ---------- table ---------- */
+function renderTable(){
+  const q = $('search').value.trim().toLowerCase();
+  const matches = q
+    ? DATA.filter(r => (r.s+' '+r.t+' '+r.v+' '+r.ve).toLowerCase().includes(q))
+    : current();
+  const box = $('rows');
+  if(!matches.length){ box.innerHTML = '<div class="empty">Nothing matches that.</div>'; return; }
+  box.innerHTML = '';
+  matches.slice(0, 400).forEach(r=>{
+    const d = document.createElement('div');
+    d.className='rowitem';
+    d.innerHTML = `<div class="n">${r.r}</div>
+      <div class="txt">
+        <div class="v">${esc(r.v)} · ${esc(r.ve)}</div>
+        <div class="s">${esc(r.s)}</div>
+        <div class="t">${esc(r.t)}</div>
+      </div>
+      <button class="spk" aria-label="Speak">🔊</button>`;
+    d.querySelector('.spk').onclick = () => speak(r.s);
+    box.appendChild(d);
+  });
+}
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+/* ---------- export ---------- */
+function exportCSV(){
+  const q = s => '"' + String(s==null?'':s).replace(/"/g,'""') + '"';
+  const head = ['rank','verb_es','verb_en','sentence_es','sentence_en','note'].map(q).join(',');
+  const body = DATA.map(r=>[r.r,r.v,r.ve,r.s,r.t,r.n||''].map(q).join(',')).join('\n');
+  const blob = new Blob(['﻿'+head+'\n'+body], {type:'text/csv;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = '2000-verbos.csv';
+  document.body.appendChild(a); a.click(); a.remove();
+}
+
+/* ---------- wiring ---------- */
+document.querySelectorAll('.tab').forEach(t=>{
+  t.onclick = () => {
+    stopAuto();
+    document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected','false'));
+    t.setAttribute('aria-selected','true');
+    state.mode = t.dataset.mode;
+    const table = state.mode === 'table';
+    $('studyView').style.display = table ? 'none' : '';
+    $('tableView').style.display = table ? '' : 'none';
+    if(table) renderTable(); else render();
+    save();
+  };
+});
+
+$('card').onclick = () => {
+  if(state.mode==='recall'){
+    const el = $('esText');
+    if(el.classList.contains('hidden-text')){
+      el.classList.remove('hidden-text');
+      $('verbTag').style.visibility='visible';
+      $('hint').textContent='';
+      speak(current()[state.idx].s);
+    } else { go(1); }
+  } else {
+    speak(current()[state.idx].s);
+  }
+};
+$('playBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx]; if(r) speak(r.s); };
+$('prevBtn').onclick = e => { e.stopPropagation(); stopAuto(); go(-1); };
+$('nextBtn').onclick = e => { e.stopPropagation(); stopAuto(); go(1); };
+$('autoBtn').onclick = e => { e.stopPropagation(); auto ? stopAuto() : startAuto(); };
+$('knownBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx];
+  state.marks[r.r] = state.marks[r.r]==='known' ? null : 'known'; render(); };
+$('shakyBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx];
+  state.marks[r.r] = state.marks[r.r]==='shaky' ? null : 'shaky'; render(); };
+
+$('chunkSel').onchange = e => { stopAuto(); state.chunk = +e.target.value; state.idx = 0;
+  render(); if(state.mode==='table') renderTable(); save(); };
+$('search').oninput = renderTable;
+
+$('setBtn').onclick = () => $('sheet').classList.add('open');
+$('sheet').onclick = e => { if(e.target===$('sheet')) $('sheet').classList.remove('open'); };
+$('voiceSel').onchange = e => { voice = voices.find(v=>v.voiceURI===e.target.value);
+  state.voice = e.target.value; save(); if(voice) speak('Hola, vamos a practicar.'); };
+
+function slider(id, key, fmt, after){
+  const el = $(id);
+  el.value = state[key];
+  $(id+'Val') && ($(id+'Val').textContent = fmt(state[key]));
+  el.oninput = () => { state[key] = +el.value;
+    $(id+'Val') && ($(id+'Val').textContent = fmt(state[key])); save(); after && after(); };
+}
+slider('rate','rate', v=>v.toFixed(2).replace(/0$/,'')+'×');
+slider('gap','gap', v=>v.toFixed(1)+'s');
+slider('reps','reps', v=>String(v));
+slider('chunkSize','chunkSize', v=>String(v), ()=>{ state.chunk=0; state.idx=0;
+  buildChunkSel(); render(); if(state.mode==='table') renderTable(); });
+$('rateVal').textContent = state.rate.toFixed(2).replace(/0$/,'')+'×';
+$('chunkVal').textContent = String(state.chunkSize);
+
+$('exportBtn').onclick = exportCSV;
+$('resetBtn').onclick = () => {
+  if(confirm('Clear all progress marks and settings on this device?')){
+    state.marks = {}; state.idx = 0; state.chunk = 0; save(); render();
+  }
+};
+$('themeBtn').onclick = () => {
+  state.theme = state.theme==='dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', state.theme); save();
+};
+document.documentElement.setAttribute('data-theme', state.theme);
+
+document.addEventListener('keydown', e=>{
+  if(state.mode==='table' || e.target.tagName==='INPUT') return;
+  if(e.key==='ArrowRight'){ stopAuto(); go(1); }
+  if(e.key==='ArrowLeft'){ stopAuto(); go(-1); }
+  if(e.key===' '){ e.preventDefault(); $('card').click(); }
+});
+
+buildChunkSel();
+document.querySelector(`.tab[data-mode="${state.mode==='table'?'table':state.mode}"]`)?.click();
+render();
+</script>
+</body>
+</html>
