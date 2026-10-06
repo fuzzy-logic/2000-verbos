@@ -3,3 +3,4 @@ audio/silence/
 audio/*.wav
 .venv/
 .concat.txt
+PLAN.local.md
