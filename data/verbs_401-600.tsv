@@ -1,0 +1,201 @@
+rank	verb_es	verb_en	sentence_es	sentence_en	note
+401	llover	to rain	Llueve casi todas las tardes en verano.	It rains almost every afternoon in summer.	
+402	nevar	to snow	Acá nunca nieva.	It never snows here.	
+403	tronar	to thunder	Tronó toda la noche.	It thundered all night.	
+404	soplar	to blow	Sopla un viento fuerte del sur.	A strong wind is blowing from the south.	
+405	amanecer	to dawn	Amaneció nublado.	It dawned cloudy.	
+406	anochecer	to get dark	Anochece temprano en invierno.	It gets dark early in winter.	
+407	inundar	to flood	Se inundó toda la calle.	The whole street flooded.	
+408	secar	to dry	La ropa se seca rápido con este sol.	The washing dries fast in this sun.	
+409	mojar	to get wet	Me mojé entero volviendo a casa.	I got soaked walking home.	
+410	regar	to water	Riego las plantas cada mañana.	I water the plants every morning.	
+411	sembrar	to sow	Siembran soja en toda esta zona.	They sow soy all over this area.	
+412	cosechar	to harvest	Cosechan en marzo.	They harvest in March.	
+413	podar	to prune	Hay que podar ese árbol.	That tree needs pruning.	
+414	florecer	to bloom	Los lapachos florecen en agosto.	The lapachos bloom in August.	lapacho: PY national tree
+415	crecer	to grow (plants)	El pasto crece rapidísimo con la lluvia.	The grass grows so fast with the rain.	
+416	pudrir	to rot	Se pudrió la fruta con el calor.	The fruit rotted in the heat.	
+417	madurar	to ripen	Todavía no maduró el mango.	The mango isn't ripe yet.	
+418	ladrar	to bark	El perro ladra toda la noche.	The dog barks all night.	
+419	morder	to bite	Cuidado, ese perro muerde.	Careful, that dog bites.	
+420	picar	to sting / to itch	Me picaron los mosquitos.	The mosquitoes bit me.	
+421	rascar	to scratch	No te rasques, va a empeorar.	Don't scratch it, it'll get worse.	
+422	volar	to fly	Los pájaros vuelan bajo antes de la lluvia.	The birds fly low before rain.	
+423	nadar	to swim	Nadamos en el río.	We swam in the river.	
+424	pescar	to fish	Van a pescar los domingos.	They go fishing on Sundays.	
+425	cazar	to hunt	Antes se cazaba por acá.	People used to hunt around here.	
+426	trepar	to climb	El gato trepó al techo.	The cat climbed onto the roof.	
+427	saltar	to jump	Saltó la pared sin problema.	He jumped the wall easily.	
+428	patear	to kick	Pateó la pelota al arco.	He kicked the ball at the goal.	
+429	lanzar	to throw	Lanzame la pelota.	Throw me the ball.	voseo imperative
+430	atrapar	to catch	Atrapé la pelota en el aire.	I caught the ball in mid-air.	
+431	entrenar	to train	Entreno tres veces por semana.	I train three times a week.	
+432	competir	to compete	Compiten el fin de semana.	They compete at the weekend.	
+433	empatar	to draw	Empatamos uno a uno.	We drew one all.	
+434	toser	to cough	Toso desde ayer.	I've been coughing since yesterday.	
+435	estornudar	to sneeze	Estornudo por el polen.	I sneeze because of the pollen.	
+436	respirar	to breathe	Respirá hondo.	Breathe deeply.	voseo imperative
+437	sudar	to sweat	Sudo muchísimo con esta humedad.	I sweat so much in this humidity.	
+438	temblar	to shake	Me temblaban las manos.	My hands were shaking.	
+439	sangrar	to bleed	Me sangra la nariz con el calor.	My nose bleeds in the heat.	
+440	hinchar	to swell	Se me hinchó el tobillo.	My ankle swelled up.	
+441	torcer	to twist	Me torcí el tobillo jugando.	I twisted my ankle playing.	
+442	recetar	to prescribe	Me recetaron antibióticos.	They prescribed me antibiotics.	
+443	operar	to operate	Lo operaron la semana pasada.	He had surgery last week.	
+444	internar	to admit (hospital)	Lo internaron dos días.	They kept him in for two days.	
+445	depositar	to deposit	Deposité la plata en tu cuenta.	I deposited the money in your account.	
+446	retirar	to withdraw	Retiré todo del cajero.	I took it all out of the ATM.	
+447	transferir	to transfer	Te transfiero ahora mismo.	I'll transfer it to you right now.	
+448	invertir	to invest	Invirtieron en tierras.	They invested in land.	
+449	tramitar	to process (paperwork)	Estoy tramitando la residencia.	I'm applying for residency.	
+450	renovar	to renew	Tengo que renovar el pasaporte.	I have to renew my passport.	
+451	vencer	to expire	Se venció mi carnet.	My ID card expired.	
+452	registrar	to register	Registrá tu dirección acá.	Register your address here.	voseo imperative
+453	inscribir	to enrol	Me inscribí en un curso.	I signed up for a course.	
+454	certificar	to certify	Necesito certificar estos papeles.	I need to get these papers certified.	
+455	sellar	to stamp	Te lo sellan en la ventanilla tres.	They stamp it for you at window three.	
+456	denunciar	to report (a crime)	Denunciamos el robo.	We reported the theft.	
+457	demandar	to sue	Lo demandaron por incumplimiento.	They sued him for breach of contract.	
+458	juzgar	to judge	No juzgues tan rápido.	Don't judge so quickly.	
+459	heredar	to inherit	Heredó la casa de su abuela.	He inherited his grandmother's house.	
+460	poseer	to own	Posee tierras en el Chaco.	He owns land in the Chaco.	Chaco: PY region
+461	adquirir	to acquire	Adquirimos el terreno el año pasado.	We acquired the plot last year.	
+462	pintar	to paint	Pintamos la casa de blanco.	We painted the house white.	
+463	clavar	to nail	Clavá esto en la pared.	Nail this to the wall.	voseo imperative
+464	atornillar	to screw	Atornillalo bien fuerte.	Screw it in nice and tight.	voseo imperative
+465	pegar	to stick / to glue	Pegá el cartel en la puerta.	Stick the sign on the door.	voseo imperative
+466	soldar	to weld	Vino un tipo a soldar el portón.	A guy came to weld the gate.	
+467	excavar	to dig	Excavaron para el pozo.	They dug for the well.	
+468	demoler	to demolish	Van a demoler el edificio viejo.	They're going to demolish the old building.	
+469	reformar	to renovate	Estamos reformando la cocina.	We're renovating the kitchen.	
+470	decorar	to decorate	Decoraron todo para la fiesta.	They decorated everything for the party.	
+471	programar	to program	Programo en varios lenguajes.	I program in several languages.	
+472	reiniciar	to restart	Reiniciá el router.	Restart the router.	voseo imperative
+473	respaldar	to back up	Respaldá tus archivos.	Back up your files.	voseo imperative
+474	restaurar	to restore	Restauré la copia de seguridad.	I restored the backup.	
+475	navegar	to browse / to sail	Navego por internet un rato antes de dormir.	I browse the internet a while before sleeping.	
+476	etiquetar	to tag	Me etiquetaron en una foto.	They tagged me in a photo.	
+477	bloquear	to block	Lo bloqueé en todos lados.	I blocked him everywhere.	
+478	silenciar	to mute	Silencié el grupo, hablaban demasiado.	I muted the group, they talked too much.	
+479	dibujar	to draw	Dibuja muy bien.	She draws very well.	
+480	fotografiar	to photograph	Fotografió toda la ciudad.	He photographed the whole city.	
+481	filmar	to film	Filmaron un documental acá.	They filmed a documentary here.	
+482	editar	to edit	Estoy editando el video.	I'm editing the video.	
+483	publicar	to publish	Publicó su primer libro.	She published her first book.	
+484	componer	to compose	Compone canciones en guaraní.	He writes songs in Guaraní.	
+485	ensayar	to rehearse	Ensayan los jueves.	They rehearse on Thursdays.	
+486	actuar	to act	Actuó en una obra de teatro.	He acted in a play.	
+487	interpretar	to interpret / to perform	Interpretó la canción hermosamente.	She performed the song beautifully.	
+488	estrenar	to premiere / to use for the first time	Estreno zapatos hoy.	I'm wearing new shoes today.	
+489	aplaudir	to applaud	Todos aplaudieron de pie.	Everyone applauded standing up.	
+490	coquetear	to flirt	Le coquetea a todo el mundo.	He flirts with everyone.	
+491	enamorar	to fall in love	Me enamoré de este país.	I fell in love with this country.	
+492	divorciar	to divorce	Se divorciaron hace años.	They divorced years ago.	
+493	parir	to give birth	Parió en el hospital del centro.	She gave birth at the hospital downtown.	
+494	adoptar	to adopt	Adoptaron un perro de la calle.	They adopted a street dog.	
+495	educar	to educate	Educan a los hijos en dos idiomas.	They raise their children in two languages.	
+496	mimar	to spoil (a person)	Los abuelos los miman demasiado.	The grandparents spoil them too much.	
+497	regañar	to tell off	Mi mamá me regañaba por eso.	My mum used to tell me off for that.	
+498	castigar	to punish	Lo castigaron sin salir.	They grounded him.	
+499	premiar	to reward	Premiaron al mejor alumno.	They gave a prize to the best student.	
+500	reflexionar	to reflect	Reflexioné mucho sobre eso.	I thought about that a lot.	
+501	meditar	to meditate	Medito veinte minutos al despertar.	I meditate for twenty minutes on waking.	
+502	concentrar	to concentrate	No me puedo concentrar con ese ruido.	I can't concentrate with that noise.	
+503	distraer	to distract	Me distraigo con cualquier cosa.	I get distracted by anything.	
+504	confundir	to confuse	Me confundí de día.	I got the day wrong.	
+505	deducir	to deduce	Deduje que no vendría.	I worked out that he wouldn't come.	
+506	predecir	to predict	Nadie predijo esa tormenta.	Nobody predicted that storm.	
+507	adivinar	to guess	Adiviná qué pasó.	Guess what happened.	voseo imperative
+508	acertar	to get right	Acerté la respuesta.	I got the answer right.	
+509	avanzar	to advance	Avanzamos bastante hoy.	We made good progress today.	
+510	retroceder	to go back	Retrocedé un poco.	Back up a bit.	voseo imperative
+511	girar	to turn / to spin	El ventilador gira muy despacio.	The fan spins very slowly.	
+512	rodear	to surround	Un muro rodea toda la casa.	A wall surrounds the whole house.	
+513	atravesar	to cross through	Atravesamos el país en auto.	We drove across the country.	
+514	recorrer	to travel around	Recorrí todo el centro a pie.	I walked all over the centre.	
+515	perseguir	to chase	Lo persiguió un perro.	A dog chased him.	
+516	escapar	to escape	Se escapó el gato.	The cat got out.	
+517	huir	to flee	Huyeron antes de que llegara la policía.	They fled before the police arrived.	
+518	desaparecer	to disappear	Desapareció sin decir nada.	He vanished without a word.	
+519	pasear	to stroll	Paseamos por la costanera.	We strolled along the riverfront.	costanera: Asunción riverside
+520	transformar	to transform	La ciudad se transformó en diez años.	The city has transformed in ten years.	
+521	reducir	to reduce	Redujeron el precio a la mitad.	They cut the price in half.	
+522	aumentar	to increase	Aumentó mucho el alquiler.	The rent has gone up a lot.	
+523	disminuir	to decrease	Disminuyó el tráfico en enero.	The traffic eased off in January.	
+524	duplicar	to double	Se duplicó el costo.	The cost doubled.	
+525	expandir	to expand	La empresa se expandió a Brasil.	The company expanded into Brazil.	
+526	encoger	to shrink	Se me encogió la remera.	My t-shirt shrank.	remera = t-shirt (PY/AR)
+527	estirar	to stretch	Estirate antes de correr.	Stretch before you run.	voseo imperative
+528	derretir	to melt	Se derritió el helado.	The ice cream melted.	
+529	evaporar	to evaporate	El agua se evapora enseguida.	The water evaporates straight away.	
+530	oxidar	to rust	Se oxidó con la humedad.	It rusted in the damp.	
+531	afirmar	to state	Afirmó que era inocente.	He stated that he was innocent.	
+532	jurar	to swear	Te juro que es verdad.	I swear to you it's true.	
+533	amenazar	to threaten	Lo amenazaron por teléfono.	They threatened him over the phone.	
+534	insultar	to insult	Se insultaron en la calle.	They insulted each other in the street.	
+535	elogiar	to praise	Elogió mi español.	He praised my Spanish.	
+536	burlar	to mock	No te burles de mi acento.	Don't make fun of my accent.	
+537	bromear	to joke	Estoy bromeando, tranquilo.	I'm joking, relax.	
+538	exagerar	to exaggerate	Siempre exagera todo.	He always exaggerates everything.	
+539	susurrar	to whisper	Me susurró algo al oído.	She whispered something in my ear.	
+540	murmurar	to mutter	Murmuraba algo entre dientes.	He was muttering something under his breath.	
+541	tartamudear	to stutter	Tartamudeo cuando estoy nervioso.	I stutter when I'm nervous.	
+542	suspirar	to sigh	Suspiró y no dijo nada más.	She sighed and said nothing more.	
+543	quejar	to complain	Se queja de todo.	He complains about everything.	
+544	protestar	to protest	Protestaron frente al congreso.	They protested outside congress.	
+545	reclamar	to claim / to complain formally	Reclamé en la empresa.	I made a complaint to the company.	
+546	rogar	to beg	Le rogué que se quedara.	I begged her to stay.	
+547	suplicar	to plead	Suplicó que lo perdonaran.	He pleaded to be forgiven.	
+548	saludar	to wave	Me saludó desde el auto.	He waved at me from the car.	
+549	señalar	to point out	Señaló el camino correcto.	He pointed out the right way.	
+550	indicar	to indicate	El cartel indica la salida.	The sign indicates the exit.	
+551	mostrar	to display	La tienda muestra todo en la vidriera.	The shop displays everything in the window.	
+552	ocultar	to hide (something)	Ocultó la verdad mucho tiempo.	He hid the truth for a long time.	
+553	revelar	to reveal	Reveló el secreto sin querer.	He revealed the secret accidentally.	
+554	descubrirse	to take off one's hat	Se descubrió la cabeza al entrar.	He took his hat off as he went in.	
+555	cubrir	to cover	Cubrí la olla.	Cover the pot.	voseo imperative
+556	destapar	to uncover	Destapá la botella.	Open the bottle.	voseo imperative
+557	envolver	to wrap	¿Me lo envolvés para regalo?	Could you gift-wrap it for me?	voseo: envolvés
+558	desenvolver	to unwrap	Desenvolvió el regalo despacio.	She unwrapped the present slowly.	
+559	atar	to tie	Atá bien el paquete.	Tie the parcel up properly.	voseo imperative
+560	desatar	to untie	No puedo desatar este nudo.	I can't undo this knot.	
+561	apretar	to squeeze / to tighten	Apretá bien el tornillo.	Tighten the screw well.	voseo imperative
+562	aflojar	to loosen	Aflojá un poco la cuerda.	Loosen the rope a bit.	voseo imperative
+563	doblar	to fold	Doblá la ropa, por favor.	Fold the clothes, please.	voseo imperative
+564	desdoblar	to unfold	Desdoblé el mapa en la mesa.	I unfolded the map on the table.	
+565	estrujar	to wring	Estrujá bien el trapo.	Wring the cloth out well.	voseo imperative
+566	barrer	to sweep	Barro el patio todas las mañanas.	I sweep the yard every morning.	
+567	fregar	to scrub	Fregué el piso entero.	I scrubbed the whole floor.	
+568	planchar	to iron	Odio planchar camisas.	I hate ironing shirts.	
+569	tender	to hang out (washing)	Tendé la ropa antes de que llueva.	Hang the washing out before it rains.	voseo imperative
+570	coser	to sew	Mi abuela cose todo a mano.	My grandmother sews everything by hand.	
+571	tejer	to knit	Teje mantas para vender.	She knits blankets to sell.	
+572	bordar	to embroider	Borda ñandutí precioso.	She embroiders beautiful ñandutí.	ñandutí: PY lace
+573	remendar	to mend	Remendó el pantalón.	She mended the trousers.	
+574	manchar	to stain	Me manché la camisa con tereré.	I stained my shirt with tereré.	
+575	ensuciar	to dirty	Los chicos ensuciaron todo.	The kids made everything filthy.	
+576	ordeñar	to milk	Ordeñan las vacas a las cinco.	They milk the cows at five.	
+577	criar	to breed	Crían ganado en el Chaco.	They raise cattle in the Chaco.	
+578	arar	to plough	Araron el campo en septiembre.	They ploughed the field in September.	
+579	abonar	to fertilise	Hay que abonar la tierra.	The soil needs fertilising.	
+580	talar	to fell	Talaron todos los árboles.	They felled all the trees.	
+581	quemar	to burn	Quemaron la basura atrás.	They burnt the rubbish out back.	
+582	encender	to light (a fire)	Encendieron el fuego para el asado.	They lit the fire for the barbecue.	
+583	soplar	to blow out	Sopló las velas de una.	He blew out the candles in one go.	
+584	derramar	to spill	Derramé el café sobre la mesa.	I spilled the coffee on the table.	
+585	gotear	to drip	Gotea la canilla del baño.	The bathroom tap is dripping.	canilla = tap (PY/AR)
+586	rebalsar	to overflow	Rebalsó el tanque de agua.	The water tank overflowed.	
+587	hundir	to sink	Se hundió el bote.	The boat sank.	
+588	flotar	to float	Flotaba todo en el patio.	Everything was floating in the yard.	
+589	arrastrar	to drag	Arrastré la mesa hasta la sombra.	I dragged the table into the shade.	
+590	empacar	to pack	Empaqué todo en dos valijas.	I packed everything into two suitcases.	valija = suitcase
+591	desempacar	to unpack	Todavía no desempaqué.	I haven't unpacked yet.	
+592	acomodar	to arrange	Acomodá las sillas en círculo.	Arrange the chairs in a circle.	voseo imperative
+593	apilar	to stack	Apilaron las cajas en el rincón.	They stacked the boxes in the corner.	
+594	amontonar	to pile up	Se amontonó la ropa sucia.	The dirty washing piled up.	
+595	tirar	to throw away	Tiré todo lo que no servía.	I threw away everything that was no use.	
+596	reciclar	to recycle	Acá casi no se recicla.	There's hardly any recycling here.	
+597	reparar	to repair	Repararon el techo después de la tormenta.	They repaired the roof after the storm.	
+598	reemplazar	to replace	Reemplazaron la pieza rota.	They replaced the broken part.	
+599	ajustar	to adjust	Ajustá el espejo antes de salir.	Adjust the mirror before you set off.	voseo imperative
+600	revisar	to check over	Revisá el aceite antes del viaje.	Check the oil before the trip.	voseo imperative
