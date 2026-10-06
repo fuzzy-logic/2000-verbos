@@ -51,9 +51,16 @@ header{
 
 /* ---------- chunk bar ---------- */
 .chunkbar{display:flex;align-items:center;gap:8px;padding:10px 0 4px}
-.chunkbar select{
-  flex:1;background:var(--surface-2);color:var(--text);border:1px solid var(--line);
-  border-radius:10px;padding:9px;font-size:14px;font-family:inherit;
+.chunknav{
+  flex:none;width:40px;height:38px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--text);font-size:20px;line-height:1;
+  font-family:inherit;cursor:pointer;
+}
+.chunknav:active{transform:scale(.94)}
+.chunknav:disabled{opacity:.3;cursor:default}
+.chunklabel{
+  flex:1;text-align:center;font-size:14px;font-weight:600;
+  font-variant-numeric:tabular-nums;white-space:nowrap;
 }
 .counter{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
 .bar{height:4px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin:8px 0 14px}
@@ -70,6 +77,7 @@ header{
   color:var(--accent);
 }
 .verbtag b{color:var(--muted);font-weight:600}
+.verbtag .inf{font-size:14px;letter-spacing:.04em}
 .es{font-size:25px;font-weight:600;line-height:1.35;transition:filter .18s,opacity .18s}
 .en{font-size:17px;color:var(--muted);line-height:1.4}
 .note{font-size:12.5px;color:var(--accent-2);font-style:italic}
@@ -172,7 +180,9 @@ header{
 
   <div id="studyView">
     <div class="chunkbar">
-      <select id="chunkSel"></select>
+      <button class="chunknav" id="chunkPrev" aria-label="Previous block">‹</button>
+      <div class="chunklabel" id="chunkLabel">—</div>
+      <button class="chunknav" id="chunkNext" aria-label="Next block">›</button>
       <div class="counter" id="counter">0 / 0</div>
     </div>
     <div class="bar"><i id="progBar"></i></div>
@@ -467,14 +477,26 @@ const current = () => {
   return DATA.slice(c[0], c[1]);
 };
 function buildChunkSel(){
-  const sel=$('chunkSel'); sel.innerHTML='';
-  chunks().forEach((c,i)=>{
-    const o=document.createElement('option');
-    o.value=i; o.textContent=`Verbs ${c[0]+1}–${c[1]}`;
-    sel.appendChild(o);
-  });
-  if(state.chunk >= chunks().length) state.chunk = 0;
-  sel.value = state.chunk;
+  const all = chunks();
+  if(state.chunk >= all.length) state.chunk = 0;
+  if(state.chunk < 0) state.chunk = 0;
+  const c = all[state.chunk];
+  $('chunkLabel').textContent = `Verbs ${c[0]+1}–${c[1]}`;
+  $('chunkPrev').disabled = state.chunk === 0;
+  $('chunkNext').disabled = state.chunk >= all.length - 1;
+}
+
+function goChunk(d){
+  const all = chunks();
+  const next = state.chunk + d;
+  if(next < 0 || next >= all.length) return;
+  stopAuto();
+  state.chunk = next;
+  state.idx = 0;
+  buildChunkSel();
+  render();
+  if(state.mode === 'table') renderTable();
+  save();
 }
 
 /* ---------- render ---------- */
@@ -486,14 +508,14 @@ function render(){
   const r = list[state.idx];
   const recall = state.mode === 'recall';
 
-  $('verbTag').innerHTML = `${r.v} <b>· ${r.ve}</b>`;
+  $('verbTag').innerHTML =
+    `<span class="inf">${esc(r.v)}</span> <b>· ${esc(r.ve)}</b>`;
   $('esText').textContent = r.s;
   $('enText').textContent = r.t;
   $('noteText').textContent = r.n || '';
   $('noteText').style.display = r.n ? '' : 'none';
 
   $('esText').className = 'es' + (recall ? ' hidden-text' : '');
-  $('verbTag').style.visibility = recall ? 'hidden' : 'visible';
   $('hint').textContent = recall ? 'Say it in Spanish, then tap to check' : '';
 
   $('counter').textContent = `${state.idx+1} / ${list.length}`;
@@ -622,7 +644,6 @@ $('card').onclick = () => {
     const el = $('esText');
     if(el.classList.contains('hidden-text')){
       el.classList.remove('hidden-text');
-      $('verbTag').style.visibility='visible';
       $('hint').textContent='';
       play(current()[state.idx], 'full');
     } else { go(1); }
@@ -639,8 +660,8 @@ $('knownBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx]
 $('shakyBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx];
   state.marks[r.r] = state.marks[r.r]==='shaky' ? null : 'shaky'; render(); };
 
-$('chunkSel').onchange = e => { stopAuto(); state.chunk = +e.target.value; state.idx = 0;
-  render(); if(state.mode==='table') renderTable(); save(); };
+$('chunkPrev').onclick = () => goChunk(-1);
+$('chunkNext').onclick = () => goChunk(1);
 $('search').oninput = renderTable;
 
 $('setBtn').onclick = () => $('sheet').classList.add('open');
