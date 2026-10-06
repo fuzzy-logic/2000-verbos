@@ -28,6 +28,15 @@ for path in sorted(glob.glob(os.path.join(ROOT, 'data', '*.tsv'))):
                 'n': (r.get('note') or '').strip(),
             })
 
+# Catch stray characters that aren't Spanish or English - a typo like "Llena"
+# with a Polish hook instead of an accent would otherwise be read aloud wrong.
+ALLOWED = set("áéíóúüñÁÉÍÓÚÜÑ¿¡")
+for r in rows:
+    for col in ('v', 've', 's', 't', 'n'):
+        for ch in r[col]:
+            if ord(ch) > 127 and ch not in ALLOWED:
+                sys.exit(f"rank {r['r']}: bad character {ch!r} (U+{ord(ch):04X}) in {col}: {r[col]}")
+
 rows.sort(key=lambda x: x['r'])
 
 tpl = open(os.path.join(ROOT, 'src', 'template.html'), encoding='utf-8').read()
@@ -45,6 +54,14 @@ with open(dest, 'w', encoding='utf-8') as fh:
     fh.write(out)
 
 missing = [n for n in range(1, max(seen) + 1) if n not in seen] if seen else []
+lemmas = {}
+for r in rows:
+    lemmas.setdefault(r['v'].lower(), []).append(r['r'])
+repeats = {k: v for k, v in lemmas.items() if len(v) > 1}
 print(f"{len(rows)} sentences -> dist/index.html ({os.path.getsize(dest)/1024:.0f} KB)")
+print(f"{len(lemmas)} distinct verbs; {len(repeats)} appear more than once")
+if repeats:
+    sample = sorted(repeats.items(), key=lambda kv: -len(kv[1]))[:6]
+    print('  most repeated: ' + ', '.join(f"{k}×{len(v)}" for k, v in sample))
 if missing:
     print(f"gaps in rank sequence: {len(missing)} missing, first few {missing[:10]}")

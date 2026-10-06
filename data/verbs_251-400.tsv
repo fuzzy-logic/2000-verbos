@@ -1,0 +1,151 @@
+rank	verb_es	verb_en	sentence_es	sentence_en	note
+251	desayunar	to have breakfast	Desayuno café con leche y tostadas.	I have white coffee and toast for breakfast.	
+252	almorzar	to have lunch	Almorzamos a mediodía en punto.	We have lunch at midday sharp.	
+253	cenar	to have dinner	¿Cenamos afuera esta noche?	Shall we eat out tonight?	
+254	merendar	to have an afternoon snack	Meriendan cocido con chipa.	They have cocido with chipa in the afternoon.	cocido & chipa: PY staples
+255	beber	to drink	Hay que beber mucha agua acá.	You have to drink a lot of water here.	
+256	encender	to turn on	Encendé el ventilador, por favor.	Turn on the fan, please.	voseo imperative
+257	apagar	to turn off	Apagá la luz al salir.	Turn the light off when you leave.	voseo imperative
+258	prender	to switch on	Prendé el aire que me muero.	Put the AC on, I'm dying.	prender common in PY/AR
+259	conectar	to connect	No me conecto al wifi.	I can't connect to the wifi.	
+260	cargar	to charge / to load	Se me descargó el celular.	My phone ran out of battery.	
+261	descargar	to download	Descargá la aplicación del banco.	Download the bank's app.	voseo imperative
+262	instalar	to install	Instalaron el internet ayer.	They installed the internet yesterday.	
+263	borrar	to delete	Borré el mensaje sin querer.	I deleted the message by accident.	
+264	grabar	to record	¿Puedo grabar la clase?	Can I record the class?	
+265	imprimir	to print	Necesito imprimir unos papeles.	I need to print some papers.	
+266	actualizar	to update	Actualizá la app, está vieja.	Update the app, it's out of date.	voseo imperative
+267	conducir	to drive	Conducir acá requiere paciencia.	Driving here requires patience.	
+268	estacionar	to park	No se puede estacionar acá.	You can't park here.	
+269	arrancar	to start (engine)	El auto no arranca.	The car won't start.	
+270	frenar	to brake	Frenó de golpe.	He braked suddenly.	
+271	cruzar	to cross	Cruzá por la esquina.	Cross at the corner.	voseo imperative
+272	doblar	to turn	Doblá a la derecha en el semáforo.	Turn right at the traffic light.	voseo imperative
+273	regresar	to return	Regreso el mes que viene.	I'm coming back next month.	
+274	despegar	to take off	El avión despegó tarde.	The plane took off late.	
+275	aterrizar	to land	Aterrizamos a las seis de la mañana.	We land at six in the morning.	
+276	reservar	to book	Reservé una mesa para cuatro.	I booked a table for four.	
+277	atender	to serve / to see to	Enseguida te atienden.	They'll be with you shortly.	
+278	ordenar	to order / to tidy	Ordená tu cuarto.	Tidy your room.	voseo imperative
+279	contratar	to hire	Contrataron a dos personas más.	They hired two more people.	
+280	renunciar	to resign	Renunció sin avisar.	He quit without notice.	
+281	jubilar	to retire	Se jubila el año que viene.	She retires next year.	
+282	negociar	to negotiate	Acá se negocia todo el precio.	Here you haggle over every price.	
+283	acordar	to agree	Acordamos vernos el martes.	We agreed to meet on Tuesday.	
+284	facturar	to invoice	Te facturo a fin de mes.	I'll invoice you at the end of the month.	
+285	prohibir	to forbid	Está prohibido fumar adentro.	Smoking is forbidden inside.	
+286	obligar	to force	Nadie te obliga a ir.	Nobody is forcing you to go.	
+287	exigir	to demand	Exigen comprobante de domicilio.	They require proof of address.	
+288	sugerir	to suggest	Te sugiero que llegues temprano.	I suggest you arrive early.	triggers subjunctive
+289	recomendar	to recommend	¿Qué me recomendás?	What do you recommend?	voseo: recomendás
+290	aconsejar	to advise	Me aconsejaron no andar de noche.	They advised me not to walk around at night.	
+291	advertir	to warn	Te advertí que iba a llover.	I warned you it was going to rain.	
+292	informar	to inform	Nos informaron por correo.	They informed us by email.	
+293	anunciar	to announce	Anunciaron un feriado largo.	They announced a long weekend.	
+294	confesar	to confess	Te confieso que no entendí nada.	I'll confess I didn't understand a thing.	
+295	admitir	to admit	Admito que me equivoqué.	I admit I was wrong.	
+296	negar	to deny	Niega todo, como siempre.	He denies everything, as always.	
+297	rechazar	to reject	Rechazaron mi solicitud.	They rejected my application.	
+298	dudar	to doubt	Dudo que venga.	I doubt he'll come.	triggers subjunctive
+299	confiar	to trust	Confío en vos.	I trust you.	voseo pronoun
+300	sospechar	to suspect	Sospecho que no le gustó.	I suspect he didn't like it.	
+301	acusar	to accuse	Lo acusaron sin pruebas.	They accused him without evidence.	
+302	culpar	to blame	No me culpes a mí.	Don't blame me.	
+303	defender	to defend	Siempre defiende a su hermano.	He always defends his brother.	
+304	proteger	to protect	Protegete del sol, pega fuerte.	Protect yourself from the sun, it's strong.	voseo imperative
+305	cuidar	to look after	¿Me cuidás las cosas un momento?	Can you watch my things for a moment?	voseo: cuidás
+306	controlar	to control	No puedo controlar el tráfico.	I can't control the traffic.	
+307	obedecer	to obey	Los chicos no obedecen nunca.	The kids never do as they're told.	
+308	respetar	to respect	Acá se respeta mucho a los mayores.	Older people are greatly respected here.	
+309	admirar	to admire	Admiro tu paciencia.	I admire your patience.	
+310	criticar	to criticise	No critiques si no ayudás.	Don't criticise if you're not helping.	voseo: ayudás
+311	felicitar	to congratulate	Te felicito por el trabajo.	Congratulations on the job.	
+312	celebrar	to celebrate	Celebramos hasta tarde.	We celebrated until late.	
+313	festejar	to celebrate	Festejamos su cumpleaños el sábado.	We're celebrating her birthday on Saturday.	festejar common in PY/AR
+314	brindar	to toast	Brindemos por eso.	Let's drink to that.	
+315	analizar	to analyse	Analicemos las opciones.	Let's look at the options.	
+316	investigar	to investigate	Estoy investigando dónde vivir.	I'm researching where to live.	
+317	averiguar	to find out	Voy a averiguar el precio.	I'll find out the price.	
+318	comprobar	to check	Comprobá que esté bien escrito.	Check that it's spelled right.	voseo imperative
+319	verificar	to verify	Verificaron mis documentos.	They checked my documents.	
+320	confirmar	to confirm	Confirmame si venís.	Confirm whether you're coming.	voseo imperative
+321	asegurar	to assure	Te aseguro que vale la pena.	I assure you it's worth it.	
+322	garantizar	to guarantee	No te garantizo nada.	I can't guarantee you anything.	
+323	demostrar	to demonstrate	Demostró que tenía razón.	He proved he was right.	
+324	aclarar	to clarify	Aclaremos una cosa.	Let's get one thing clear.	
+325	resumir	to summarise	Resumime lo que pasó.	Give me the short version of what happened.	voseo imperative
+326	concluir	to conclude	Concluimos que no servía.	We concluded that it was no good.	
+327	asumir	to assume	Asumí que ya sabías.	I assumed you already knew.	
+328	emocionar	to move (emotionally)	Me emocioné con la película.	The film moved me.	
+329	sorprender	to surprise	Me sorprendió lo amables que son.	I was surprised at how kind they are.	
+330	impresionar	to impress	Me impresionó la ciudad.	The city impressed me.	
+331	decepcionar	to disappoint	No quiero decepcionarte.	I don't want to let you down.	
+332	frustrar	to frustrate	Me frustra no poder expresarme.	It frustrates me not being able to express myself.	
+333	molestar	to bother	¿Te molesta si abro la ventana?	Do you mind if I open the window?	
+334	fastidiar	to annoy	Me fastidian los mosquitos.	The mosquitoes annoy me.	
+335	calmar	to calm	Calmate un poco.	Calm down a bit.	voseo imperative
+336	animar	to encourage	Me animaron a seguir.	They encouraged me to keep going.	
+337	apoyar	to support	Mi familia me apoya mucho.	My family supports me a lot.	
+338	acostumbrar	to get used to	Ya me acostumbré al calor.	I've got used to the heat now.	
+339	adaptar	to adapt	Me estoy adaptando de a poco.	I'm adapting little by little.	
+340	mudar	to move house	Nos mudamos el mes pasado.	We moved house last month.	
+341	instalar	to settle in	Nos instalamos cerca del río.	We settled near the river.	
+342	establecer	to establish	Establecieron la empresa acá.	They set up the company here.	
+343	pertenecer	to belong	Esto le pertenece a ella.	This belongs to her.	
+344	depender	to depend	Depende del día.	It depends on the day.	
+345	significar	to signify	Eso significa mucho para mí.	That means a lot to me.	
+346	importar	to matter	No me importa lo que digan.	I don't care what they say.	
+347	interesar	to interest	Me interesa aprender guaraní.	I'm interested in learning Guaraní.	
+348	convenir	to suit / to be worth	Te conviene ir temprano.	You're better off going early.	
+349	tratar	to deal with	Se trata de otra cosa.	It's about something else.	
+350	referir	to refer	Me refiero al otro.	I mean the other one.	
+351	ocupar	to occupy	Está ocupado el baño.	The bathroom is occupied.	
+352	llenar	to fill	Llená el formulario, por favor.	Fill in the form, please.	
+353	vaciar	to empty	Vaciaron la pileta.	They emptied the pool.	pileta = pool (PY/AR)
+354	colgar	to hang	Colgá la ropa afuera.	Hang the washing outside.	voseo imperative
+355	meter	to put in	Metelo en la heladera.	Put it in the fridge.	heladera = fridge
+356	sacar	to take a photo	Sacame una foto acá.	Take a photo of me here.	voseo imperative
+357	mezclar	to mix	Mezclá bien los ingredientes.	Mix the ingredients well.	voseo imperative
+358	cortar	to cut	Cortá el pan en rodajas.	Cut the bread into slices.	voseo imperative
+359	hervir	to boil	Hay que hervir el agua.	You need to boil the water.	
+360	freír	to fry	Frió las milanesas.	She fried the milanesas.	milanesa: breaded cutlet
+361	calentar	to heat	Calentá la comida un minuto.	Heat the food for a minute.	voseo imperative
+362	enfriar	to cool	Dejá que se enfríe.	Let it cool down.	voseo imperative
+363	congelar	to freeze	Congelé la carne.	I froze the meat.	
+364	probar	to taste	Probá un poco de tereré.	Try a bit of tereré.	voseo imperative
+365	masticar	to chew	Masticá despacio.	Chew slowly.	voseo imperative
+366	tragar	to swallow	Me cuesta tragar las pastillas.	I find it hard to swallow pills.	
+367	cargar	to carry	Cargá vos las bolsas.	You carry the bags.	voseo pronoun
+368	pesar	to weigh	¿Cuánto pesa esto?	How much does this weigh?	
+369	medir	to measure	¿Cuánto medís?	How tall are you?	voseo: medís
+370	contar	to count	Conté mal la plata.	I counted the money wrong.	
+371	sumar	to add	Sumá todo y decime.	Add it all up and tell me.	voseo imperative
+372	restar	to subtract	Restale el descuento.	Take the discount off it.	voseo imperative
+373	multiplicar	to multiply	Se multiplicaron los problemas.	The problems multiplied.	
+374	dividir	to divide	Dividamos la cuenta.	Let's split the bill.	
+375	repartir	to share out	Repartieron la comida entre todos.	They shared the food among everyone.	
+376	compartir	to share	Compartimos un departamento.	We share a flat.	
+377	prestar atención	to pay attention	Prestá atención a lo que dice.	Pay attention to what he's saying.	fixed expression
+378	aprovechar	to make the most of	Aprovechá que está fresco.	Make the most of it while it's cool.	voseo imperative
+379	desperdiciar	to waste	No desperdicies el agua.	Don't waste the water.	
+380	ahorrar	to save (time)	Así ahorramos tiempo.	That way we save time.	
+381	apurar	to rush	No me apures.	Don't rush me.	
+382	esperar	to hold on	Esperá, ya salgo.	Hold on, I'm coming.	voseo imperative
+383	acabar	to run out	Se acabó el azúcar.	We've run out of sugar.	
+384	quedar	to have left	Me quedan dos días.	I have two days left.	
+385	sobrar	to have spare	¿Te sobra una silla?	Do you have a spare chair?	
+386	caber	to fit	No cabe en el auto.	It doesn't fit in the car.	
+387	alcanzar	to reach	No alcanzo el estante de arriba.	I can't reach the top shelf.	
+388	acercar	to bring closer	Acercate, no te escucho.	Come closer, I can't hear you.	voseo imperative
+389	alejar	to move away	Alejate del fuego.	Move away from the fire.	voseo imperative
+390	acostar	to lie down	Me acuesto temprano los domingos.	I go to bed early on Sundays.	
+391	levantar	to pick up	Levantá eso del piso.	Pick that up off the floor.	voseo imperative
+392	sentar	to sit	Sentate donde quieras.	Sit wherever you like.	voseo imperative
+393	parar	to stand	Me paré para saludarlo.	I stood up to greet him.	pararse = to stand (LatAm)
+394	caer	to suit / to strike	Me cae muy bien tu hermana.	I really like your sister.	caer bien = to like a person
+395	llevar	to wear	Lleva una camisa blanca.	He's wearing a white shirt.	
+396	ponerse	to put on	Ponete un abrigo, hace frío.	Put a coat on, it's cold.	voseo imperative
+397	quitar	to take off	Quitate los zapatos al entrar.	Take your shoes off when you come in.	voseo imperative
+398	vestir	to dress	Se viste muy elegante.	He dresses very smartly.	
+399	peinar	to comb	Me peino antes de salir.	I do my hair before going out.	
+400	afeitar	to shave	Me afeité la barba.	I shaved my beard off.	
