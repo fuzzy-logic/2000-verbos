@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0f1115">
+<link rel="manifest" href="manifest.webmanifest">
 <title>2000 Verbos</title>
 <style>
 :root{
@@ -135,6 +136,16 @@ header{
 .foot b{color:var(--text)}
 .linkbtn{background:none;border:none;color:var(--accent-2);font-size:13px;
   cursor:pointer;padding:0;font-family:inherit;text-decoration:underline}
+.packlist{display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
+.packrow{display:flex;align-items:center;gap:10px;background:var(--surface-2);
+  border:1px solid var(--line);border-radius:10px;padding:9px 11px;font-size:14px}
+.packrow .pname{flex:1;min-width:0}
+.packrow .psize{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.packrow button{background:var(--accent);border:none;color:#14161b;border-radius:8px;
+  padding:7px 12px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;flex:none}
+.packrow button.saved{background:var(--surface);color:var(--good);border:1px solid var(--line)}
+.packrow button:disabled{opacity:.6}
+.packnote{font-size:12px;color:var(--muted);line-height:1.5;margin:0}
 .warnbox{background:var(--surface-2);border:1px solid var(--line);border-left:3px solid var(--warn);
   padding:10px 12px;border-radius:8px;font-size:13px;color:var(--muted);margin-bottom:14px;display:none}
 </style>
@@ -197,7 +208,14 @@ header{
     <h2>Settings</h2>
     <div class="warnbox" id="voiceWarn"></div>
     <div class="field">
-      <label for="voiceSel">Voice</label>
+      <label>Offline audio <span class="val" id="packSummary"></span></label>
+      <div id="packList" class="packlist"></div>
+      <p class="packnote">Downloads the real Paraguayan recordings to this device. Once a pack
+      is saved, every speak button plays it instead of a synthetic voice, and the walking
+      track works offline with the screen off. Use wifi.</p>
+    </div>
+    <div class="field">
+      <label for="voiceSel">Fallback voice <span class="val">used only when no pack is saved</span></label>
       <select id="voiceSel"></select>
     </div>
     <div class="field">
@@ -272,9 +290,104 @@ function loadVoices(){
 speechSynthesis.onvoiceschanged = loadVoices;
 loadVoices();
 
-/* ---------- speech ---------- */
+/* ---------- offline audio packs (IndexedDB) ---------- */
+// Blobs in IndexedDB rather than Cache Storage: a media element seeks by issuing
+// Range requests, which a cached Response does not satisfy without the service
+// worker hand-rolling 206 replies. An object URL over a Blob seeks natively.
+const DB='verbos-audio', STORE='packs';
+let packs=[], saved={}, urls={};
+
+function idb(){
+  return new Promise((res,rej)=>{
+    const rq=indexedDB.open(DB,1);
+    rq.onupgradeneeded=()=>{ if(!rq.result.objectStoreNames.contains(STORE)) rq.result.createObjectStore(STORE); };
+    rq.onsuccess=()=>res(rq.result); rq.onerror=()=>rej(rq.error);
+  });
+}
+async function idbGet(k){ const d=await idb(); return new Promise((res,rej)=>{
+  const r=d.transaction(STORE,'readonly').objectStore(STORE).get(k);
+  r.onsuccess=()=>res(r.result); r.onerror=()=>rej(r.error); }); }
+async function idbPut(k,v){ const d=await idb(); return new Promise((res,rej)=>{
+  const t=d.transaction(STORE,'readwrite'); t.objectStore(STORE).put(v,k);
+  t.oncomplete=()=>res(); t.onerror=()=>rej(t.error); }); }
+async function idbKeys(){ const d=await idb(); return new Promise((res,rej)=>{
+  const r=d.transaction(STORE,'readonly').objectStore(STORE).getAllKeys();
+  r.onsuccess=()=>res(r.result||[]); r.onerror=()=>rej(r.error); }); }
+
+async function loadPacks(){
+  try{
+    const r = await fetch('audio/packs.json', {cache:'no-cache'});
+    if(r.ok) packs = await r.json();
+  }catch(e){ packs = []; }
+  try{
+    const keys = await idbKeys();
+    for(const k of keys){ const v = await idbGet(k); if(v) saved[k]=v; }
+  }catch(e){}
+  if(!packs.length) packs = Object.values(saved).map(v=>v.meta).filter(Boolean);
+  renderPacks();
+}
+
+function packFor(rank){
+  for(const k in saved){ const m=saved[k].meta;
+    if(m && rank>=m.start && rank<=m.end) return saved[k]; }
+  return null;
+}
+function clipOf(pack, rank, which){
+  const e = pack.index.sentences.find(x=>x.r===rank);
+  return e ? e[which] : null;
+}
+function urlFor(pack){
+  const k = pack.meta.stem;
+  if(!urls[k]) urls[k] = URL.createObjectURL(pack.blob);
+  return urls[k];
+}
+
+async function downloadPack(meta, btn){
+  btn.disabled=true; const label=btn.textContent;
+  try{
+    btn.textContent='…';
+    const [mp3, idx] = await Promise.all([
+      fetch(`audio/${meta.stem}.mp3`).then(r=>{ if(!r.ok) throw new Error(r.status); return r.blob(); }),
+      fetch(`audio/${meta.stem}.json`).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+    ]);
+    const rec = {meta, blob:mp3, index:idx, savedAt:Date.now()};
+    await idbPut(meta.stem, rec);
+    saved[meta.stem]=rec;
+    renderPacks(); render();
+  }catch(e){
+    btn.textContent='failed'; setTimeout(()=>{ btn.textContent=label; btn.disabled=false; }, 2000);
+    return;
+  }
+  btn.disabled=false;
+}
+
+function renderPacks(){
+  const box=$('packList'); if(!box) return;
+  if(!packs.length){ box.innerHTML='<div class="packnote">No audio packs published yet.</div>';
+    $('packSummary').textContent=''; return; }
+  box.innerHTML='';
+  packs.forEach(m=>{
+    const has = !!saved[m.stem];
+    const row=document.createElement('div'); row.className='packrow';
+    row.innerHTML=`<div class="pname">Verbs ${m.start}–${m.end}
+        <div class="psize">${Math.round((m.duration||0)/60)} min${m.mb?` · ${m.mb} MB`:''}</div></div>`;
+    const b=document.createElement('button');
+    b.textContent = has ? '✓ Saved' : 'Download';
+    if(has) b.className='saved';
+    b.onclick = () => { if(!has) downloadPack(m, b); };
+    row.appendChild(b); box.appendChild(row);
+  });
+  const n=Object.keys(saved).length;
+  $('packSummary').textContent = n ? `${n} of ${packs.length} saved` : '';
+}
+
+/* ---------- playback ---------- */
+const el = new Audio();
+el.preload='auto';
+let stopAt=null, seqTimer=null;
+
 // Safari/iOS drops long queues and pauses when backgrounded; nudging resume()
-// keeps a sequence alive.
+// keeps a synthetic-speech sequence alive. Real audio does not need this.
 setInterval(()=>{ if(speechSynthesis.speaking && !speechSynthesis.paused) speechSynthesis.resume(); }, 8000);
 
 function speak(text, done){
@@ -289,6 +402,56 @@ function speak(text, done){
     speechSynthesis.speak(u);
   };
   once();
+}
+
+function stopAudio(){
+  clearTimeout(seqTimer); seqTimer=null; stopAt=null; follow=null;
+  try{ el.pause(); }catch(e){}
+  try{ speechSynthesis.cancel(); }catch(e){}
+}
+
+let follow = null;
+el.addEventListener('timeupdate', ()=>{
+  if(stopAt!==null && el.currentTime >= stopAt){ el.pause(); stopAt=null; }
+  if(follow) follow();
+});
+el.addEventListener('ended', ()=>{ if(auto) stopAuto(); });
+
+/** Play one clip of one row: real recording when a pack is saved, else TTS. */
+function play(row, which, done){
+  stopAudio();
+  const pack = packFor(row.r);
+  const seg = pack && clipOf(pack, row.r, which||'full');
+  if(!seg){ speak(which==='en' ? row.t : row.s, done); return; }
+  const [start, dur] = seg;
+  el.src = urlFor(pack);
+  el.playbackRate = state.rate;
+  el.currentTime = start;
+  stopAt = start + dur + 0.05;
+  el.play().catch(()=>{ speak(row.s, done); });
+  if(done) seqTimer = setTimeout(done, ((dur+0.12)/state.rate)*1000);
+}
+
+/** Walking mode: let the pre-rendered track run on from here, screen off. */
+function playTrack(row){
+  const pack = packFor(row.r);
+  const entry = pack && pack.index.sentences.find(x=>x.r===row.r);
+  if(!entry) return false;
+  stopAudio();
+  el.src = urlFor(pack);
+  el.playbackRate = state.rate;
+  el.currentTime = entry.verb[0];
+  el.play().catch(()=>{});
+  if('mediaSession' in navigator){
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: row.s, artist: `${row.v} · ${row.ve}`, album: '2000 Verbos'
+    });
+    navigator.mediaSession.setActionHandler('play', ()=>el.play());
+    navigator.mediaSession.setActionHandler('pause', ()=>el.pause());
+    navigator.mediaSession.setActionHandler('previoustrack', ()=>{ stopAuto(); go(-1); startAuto(); });
+    navigator.mediaSession.setActionHandler('nexttrack', ()=>{ stopAuto(); go(1); startAuto(); });
+  }
+  return true;
 }
 
 /* ---------- data slicing ---------- */
@@ -352,19 +515,37 @@ function go(d){
 }
 
 /* ---------- auto play ---------- */
-function stopAuto(){ auto=false; clearTimeout(autoTimer); try{speechSynthesis.cancel();}catch(e){}
+function stopAuto(){ auto=false; clearTimeout(autoTimer); stopAudio();
   $('autoBtn').textContent='⏯ Auto'; $('autoBtn').style.color=''; }
 function startAuto(){
   auto=true; $('autoBtn').textContent='■ Stop'; $('autoBtn').style.color='var(--warn)';
+  const list = current(), r0 = list[state.idx];
+
+  // Walking mode. One continuous media element keeps playing with the screen off;
+  // a JS-driven speech sequence would be throttled to a halt in your pocket.
+  const pack = r0 && packFor(r0.r);
+  if(pack && playTrack(r0)){
+    follow = () => {
+      if(!auto) return;
+      const t = el.currentTime;
+      const i = list.findIndex(x => {
+        const e = pack.index.sentences.find(y => y.r === x.r);
+        return e && t >= e.verb[0] && t < e.end;
+      });
+      if(i >= 0 && i !== state.idx){ state.idx = i; render(); }
+    };
+    return;
+  }
+
   const step = () => {
     if(!auto) return;
     const r = current()[state.idx]; if(!r) return stopAuto();
-    speak(r.s, () => {
+    play(r, 'full', () => {
       if(!auto) return;
       autoTimer = setTimeout(()=>{
         if(!auto) return;
-        const list = current();
-        if(state.idx >= list.length-1){ stopAuto(); return; }
+        const l = current();
+        if(state.idx >= l.length-1){ stopAuto(); return; }
         state.idx++; render(); step();
       }, state.gap*1000);
     });
@@ -391,7 +572,7 @@ function renderTable(){
         <div class="t">${esc(r.t)}</div>
       </div>
       <button class="spk" aria-label="Speak">🔊</button>`;
-    d.querySelector('.spk').onclick = () => speak(r.s);
+    d.querySelector('.spk').onclick = () => play(r,'full');
     box.appendChild(d);
   });
 }
@@ -430,13 +611,13 @@ $('card').onclick = () => {
       el.classList.remove('hidden-text');
       $('verbTag').style.visibility='visible';
       $('hint').textContent='';
-      speak(current()[state.idx].s);
+      play(current()[state.idx], 'full');
     } else { go(1); }
   } else {
-    speak(current()[state.idx].s);
+    play(current()[state.idx], 'full');
   }
 };
-$('playBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx]; if(r) speak(r.s); };
+$('playBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx]; if(r) play(r,'full'); };
 $('prevBtn').onclick = e => { e.stopPropagation(); stopAuto(); go(-1); };
 $('nextBtn').onclick = e => { e.stopPropagation(); stopAuto(); go(1); };
 $('autoBtn').onclick = e => { e.stopPropagation(); auto ? stopAuto() : startAuto(); };
@@ -487,6 +668,15 @@ document.addEventListener('keydown', e=>{
   if(e.key==='ArrowLeft'){ stopAuto(); go(-1); }
   if(e.key===' '){ e.preventDefault(); $('card').click(); }
 });
+
+if('serviceWorker' in navigator){
+  // 'load' may already have fired by the time this runs, in which case a listener
+  // would never be called and the app would silently never go offline-capable.
+  const reg = () => navigator.serviceWorker.register('sw.js').catch(()=>{});
+  if(document.readyState === 'complete') reg();
+  else window.addEventListener('load', reg);
+}
+loadPacks();
 
 buildChunkSel();
 document.querySelector(`.tab[data-mode="${state.mode==='table'?'table':state.mode}"]`)?.click();

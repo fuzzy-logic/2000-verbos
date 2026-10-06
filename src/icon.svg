@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#0f1115"/>
+  <text x="256" y="300" font-family="Helvetica,Arial,sans-serif" font-size="210"
+        font-weight="700" fill="#f2a93b" text-anchor="middle">vos</text>
+  <rect x="140" y="348" width="232" height="16" rx="8" fill="#4ea1ff"/>
+</svg>

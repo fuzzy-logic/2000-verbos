@@ -1,3 +1,5 @@
-audio/*.mp3
+audio/clips/
+audio/silence/
 audio/*.wav
 .venv/
+.concat.txt
