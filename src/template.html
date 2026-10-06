@@ -709,6 +709,17 @@ if('serviceWorker' in navigator){
   const reg = () => navigator.serviceWorker.register('sw.js').catch(()=>{});
   if(document.readyState === 'complete') reg();
   else window.addEventListener('load', reg);
+
+  // If a NEW worker takes over a page that already had one, the HTML currently
+  // running came from the old cache. Reload once so the page matches the deploy.
+  // Guarded on hadController so a first-ever registration doesn't reload.
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if(!hadController || reloaded) return;
+    reloaded = true;
+    location.reload();
+  });
 }
 loadPacks();
 

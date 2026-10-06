@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Merge data/*.tsv into src/template.html -> dist/index.html (single deployable file)."""
-import csv, glob, json, os, shutil, subprocess, sys
+import csv, glob, hashlib, json, os, shutil, subprocess, sys
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 rows, seen = [], {}
@@ -59,10 +59,20 @@ dest = os.path.join(DIST, 'index.html')
 with open(dest, 'w', encoding='utf-8') as fh:
     fh.write(out)
 
-# Static PWA assets alongside the page.
+# Static PWA assets alongside the page. sw.js gets the build hash stamped in so
+# each deploy uses a fresh cache name and the previous one is purged.
+build_id = hashlib.sha1(out.encode()).hexdigest()[:12]
 for name in ('sw.js', 'manifest.webmanifest', 'icon.svg'):
     src = os.path.join(ROOT, 'src', name)
-    if os.path.exists(src):
+    if not os.path.exists(src):
+        continue
+    if name == 'sw.js':
+        sw = open(src, encoding='utf-8').read()
+        if '__BUILD__' not in sw:
+            sys.exit('sw.js is missing the __BUILD__ placeholder')
+        with open(os.path.join(DIST, name), 'w', encoding='utf-8') as fh:
+            fh.write(sw.replace('__BUILD__', build_id))
+    else:
         shutil.copy2(src, os.path.join(DIST, name))
 
 # Android's install prompt wants raster icons; the SVG alone isn't reliably enough.
@@ -94,7 +104,7 @@ lemmas = {}
 for r in rows:
     lemmas.setdefault(r['v'].lower(), []).append(r['r'])
 repeats = {k: v for k, v in lemmas.items() if len(v) > 1}
-print(f"{len(rows)} sentences -> dist/index.html ({os.path.getsize(dest)/1024:.0f} KB)")
+print(f"{len(rows)} sentences -> dist/index.html ({os.path.getsize(dest)/1024:.0f} KB), build {build_id}")
 if packs:
     tot = sum(p['mb'] for p in packs)
     print(f"{len(packs)} audio pack(s), {tot:.1f} MB total")
