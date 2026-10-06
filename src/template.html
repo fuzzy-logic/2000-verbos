@@ -78,7 +78,15 @@ header{
 }
 .verbtag b{color:var(--muted);font-weight:600}
 .verbtag .inf{font-size:14px;letter-spacing:.04em}
-.es{font-size:25px;font-weight:600;line-height:1.35;transition:filter .18s,opacity .18s}
+.es{
+  font-size:25px;font-weight:600;line-height:1.35;
+  /* blur(0), never the `none` keyword. Some Chrome builds fail to interpolate
+     filter to or from `none` and leave the property stuck at its old value -
+     which showed up as the answer staying blurred after reveal, and as the
+     blur never applying in the first place. blur(0) keeps both ends animatable. */
+  filter:blur(0);
+  transition:filter .18s,opacity .18s,color .18s,text-shadow .18s;
+}
 .en{font-size:17px;color:var(--muted);line-height:1.4}
 .note{font-size:12.5px;color:var(--accent-2);font-style:italic}
 .es.hidden-text{
