@@ -81,7 +81,18 @@ header{
 .es{font-size:25px;font-weight:600;line-height:1.35;transition:filter .18s,opacity .18s}
 .en{font-size:17px;color:var(--muted);line-height:1.4}
 .note{font-size:12.5px;color:var(--accent-2);font-style:italic}
-.es.hidden-text{filter:blur(9px);opacity:.55;transition:none;cursor:pointer}
+.es.hidden-text{
+  /* Obscured two independent ways on purpose. filter:blur alone is a single
+     point of failure - if it is unsupported or stripped, the answer renders
+     perfectly readable and the exercise silently breaks. Transparent text with
+     a shadow hides it even with no filter support at all. */
+  color:transparent;
+  text-shadow:0 0 13px var(--text);
+  filter:blur(3px);
+  transition:none;
+  cursor:pointer;
+  user-select:none;
+}
 .reveal-hint{font-size:13px;color:var(--muted)}
 
 .controls{display:flex;gap:8px;margin:14px 0}

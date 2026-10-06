@@ -4,7 +4,7 @@
 // deploy gets its own cache and the old one is deleted on activate. Without
 // that, a hardcoded cache name plus cache-first HTML means a returning visitor
 // is pinned to whatever build they first loaded, forever.
-const BUILD = '8c3d5da3bd05';
+const BUILD = '28db8218fe21';
 const CACHE = 'verbos-shell-' + BUILD;
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
 
