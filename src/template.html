@@ -138,6 +138,27 @@ header{
 }
 .empty{text-align:center;color:var(--muted);padding:40px 0;font-size:15px}
 .tablecount{font-size:12.5px;color:var(--muted);margin:-2px 0 6px;font-variant-numeric:tabular-nums}
+.bsection{font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);margin:22px 0 8px}
+.bgroup{border:1px solid var(--line);border-radius:var(--radius);margin-bottom:8px;
+  background:var(--surface);overflow:hidden}
+.bhead{display:flex;align-items:center;gap:10px;padding:13px 14px;cursor:pointer;user-select:none}
+.bhead:active{background:var(--surface-2)}
+.bhead .bt{flex:1;min-width:0}
+.bhead .btitle{font-size:15px;font-weight:600}
+.bhead .bblurb{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.4}
+.bhead .bn{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
+.bhead .bchev{flex:none;color:var(--muted);font-size:13px;transition:transform .15s}
+.bgroup.open .bchev{transform:rotate(90deg)}
+.bbody{display:none;padding:0 14px 6px}
+.bgroup.open .bbody{display:block}
+.brow{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line)}
+.brow .bes{font-size:16px;font-weight:600}
+.brow .ben{font-size:14px;color:var(--muted);margin-top:1px}
+.brow .bnote{font-size:12px;color:var(--accent-2);font-style:italic;margin-top:2px;line-height:1.4}
+.brow .btx{flex:1;min-width:0}
+.brow .spk{flex:none;width:36px;height:36px;border-radius:9px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--accent);font-size:15px;cursor:pointer}
 
 /* ---------- settings ---------- */
 .sheet{
@@ -188,9 +209,10 @@ header{
       <button class="iconbtn" id="setBtn" title="Settings">⚙</button>
     </div>
     <div class="tabs" role="tablist">
-      <div class="tab" role="tab" data-mode="listen"  aria-selected="true">Listen</div>
-      <div class="tab" role="tab" data-mode="recall"  aria-selected="false">Recall</div>
-      <div class="tab" role="tab" data-mode="table"   aria-selected="false">Table</div>
+      <div class="tab" role="tab" data-mode="listen" aria-selected="true">Listen</div>
+      <div class="tab" role="tab" data-mode="recall" aria-selected="false">Recall</div>
+      <div class="tab" role="tab" data-mode="deck"   aria-selected="false">Deck</div>
+      <div class="tab" role="tab" data-mode="basics" aria-selected="false">Basics</div>
     </div>
   </div>
 </header>
@@ -224,6 +246,12 @@ header{
       <button class="btn small warn" id="shakyBtn">↻ Shaky</button>
       <button class="btn small" id="autoBtn">⏯ Auto</button>
     </div>
+  </div>
+
+  <div id="basicsView" style="display:none">
+    <input class="search" id="bSearch" placeholder="Search the tables…" autocomplete="off">
+    <div class="tablecount" id="bCount"></div>
+    <div id="bSections"></div>
   </div>
 
   <div id="tableView" style="display:none">
@@ -279,6 +307,7 @@ header{
 
 <script>
 const DATA = /*__DATA__*/[];
+const TABLES = /*__TABLES__*/[];
 
 /* ---------- state ---------- */
 const LS = 'verbos2000';
@@ -286,6 +315,9 @@ const save = () => { try{ localStorage.setItem(LS, JSON.stringify(state)); }catc
 let state = { mode:'listen', chunk:0, idx:0, rate:1, gap:1.2, reps:1, chunkSize:100,
               voice:'', theme:'dark', marks:{} };
 try { const s = localStorage.getItem(LS); if(s) state = Object.assign(state, JSON.parse(s)); } catch(e){}
+// 'table' was the deck's mode key before the Basics tab existed.
+if(state.mode === 'table') state.mode = 'deck';
+if(!state.openTables) state.openTables = {};
 
 const $ = id => document.getElementById(id);
 let auto = false, autoTimer = null, voices = [], voice = null;
@@ -400,7 +432,8 @@ function renderPacks(){
   packs.forEach(m=>{
     const has = !!saved[m.stem];
     const row=document.createElement('div'); row.className='packrow';
-    row.innerHTML=`<div class="pname">Verbs ${m.start}–${m.end}
+    const name = m.kind === 'tables' ? 'Basics tables' : `Verbs ${m.start}–${m.end}`;
+    row.innerHTML=`<div class="pname">${name}
         <div class="psize">${Math.round((m.duration||0)/60)} min${m.mb?` · ${m.mb} MB`:''}</div></div>`;
     const b=document.createElement('button');
     b.textContent = has ? '✓ Saved' : 'Download';
@@ -463,6 +496,24 @@ function play(row, which, done){
   if(done) seqTimer = setTimeout(done, ((dur+0.12)/state.rate)*1000);
 }
 
+function tablesPack(){
+  for(const k in saved){ if(saved[k].meta && saved[k].meta.stem === 'tables') return saved[k]; }
+  return null;
+}
+
+/** Speak one reference-table row: the recording if saved, else device TTS. */
+function playTableRow(row){
+  stopAudio();
+  const pack = tablesPack();
+  const seg = pack && pack.index.map && pack.index.map[row.i];
+  if(!seg){ speak(row.s); return; }
+  el.src = urlFor(pack);
+  el.playbackRate = state.rate;
+  el.currentTime = seg[0];
+  stopAt = seg[0] + seg[1] + 0.05;
+  el.play().catch(()=>speak(row.s));
+}
+
 /** Walking mode: let the pre-rendered track run on from here, screen off. */
 function playTrack(row){
   const pack = packFor(row.r);
@@ -514,7 +565,7 @@ function goChunk(d){
   state.idx = 0;
   buildChunkSel();
   render();
-  if(state.mode === 'table') renderTable();
+  if(state.mode === 'deck') renderTable();
   save();
 }
 
@@ -630,6 +681,61 @@ function renderTable(){
   });
   box.appendChild(frag);
 }
+function renderBasics(){
+  const q = $('bSearch').value.trim().toLowerCase();
+  const box = $('bSections');
+  box.innerHTML = '';
+  let shown = 0, total = 0, lastSection = null;
+  const frag = document.createDocumentFragment();
+
+  TABLES.forEach(t => {
+    total += t.rows.length;
+    const rows = q ? t.rows.filter(r => (r.s+' '+r.e+' '+r.n).toLowerCase().includes(q)) : t.rows;
+    if(q && !rows.length) return;
+    shown += rows.length;
+
+    if(t.section !== lastSection){
+      const h = document.createElement('div');
+      h.className = 'bsection'; h.textContent = t.section;
+      frag.appendChild(h); lastSection = t.section;
+    }
+
+    const g = document.createElement('div');
+    // A search opens every group that matched, so hits are never hidden behind a tap.
+    g.className = 'bgroup' + ((q || state.openTables[t.slug]) ? ' open' : '');
+    const head = document.createElement('div');
+    head.className = 'bhead';
+    head.innerHTML = `<div class="bt"><div class="btitle">${esc(t.title)}</div>
+        <div class="bblurb">${esc(t.blurb)}</div></div>
+      <div class="bn">${rows.length}</div><div class="bchev">&#9654;</div>`;
+    head.onclick = () => {
+      g.classList.toggle('open');
+      state.openTables[t.slug] = g.classList.contains('open');
+      save();
+    };
+
+    const body = document.createElement('div');
+    body.className = 'bbody';
+    rows.forEach(r => {
+      const d = document.createElement('div');
+      d.className = 'brow';
+      d.innerHTML = `<div class="btx"><div class="bes">${esc(r.s)}</div>
+          <div class="ben">${esc(r.e)}</div>
+          ${r.n ? `<div class="bnote">${esc(r.n)}</div>` : ''}</div>
+        <button class="spk" aria-label="Speak">&#128266;</button>`;
+      d.querySelector('.spk').onclick = e => { e.stopPropagation(); playTableRow(r); };
+      body.appendChild(d);
+    });
+
+    g.appendChild(head); g.appendChild(body); frag.appendChild(g);
+  });
+
+  box.appendChild(frag);
+  $('bCount').textContent = q ? `${shown} of ${total}`
+    : `${total} entries across ${TABLES.length} tables`;
+  if(q && !shown) box.innerHTML = '<div class="empty">Nothing matches that.</div>';
+}
+
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 
 /* ---------- export ---------- */
@@ -650,10 +756,11 @@ document.querySelectorAll('.tab').forEach(t=>{
     document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected','false'));
     t.setAttribute('aria-selected','true');
     state.mode = t.dataset.mode;
-    const table = state.mode === 'table';
-    $('studyView').style.display = table ? 'none' : '';
-    $('tableView').style.display = table ? '' : 'none';
-    if(table) renderTable(); else render();
+    const deck = state.mode === 'deck', basics = state.mode === 'basics';
+    $('studyView').style.display = (deck || basics) ? 'none' : '';
+    $('tableView').style.display = deck ? '' : 'none';
+    $('basicsView').style.display = basics ? '' : 'none';
+    if(deck) renderTable(); else if(basics) renderBasics(); else render();
     save();
   };
 });
@@ -682,6 +789,7 @@ $('shakyBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx]
 $('chunkPrev').onclick = () => goChunk(-1);
 $('chunkNext').onclick = () => goChunk(1);
 $('search').oninput = renderTable;
+$('bSearch').oninput = renderBasics;
 
 $('setBtn').onclick = () => $('sheet').classList.add('open');
 $('sheet').onclick = e => { if(e.target===$('sheet')) $('sheet').classList.remove('open'); };
@@ -699,7 +807,7 @@ slider('rate','rate', v=>v.toFixed(2).replace(/0$/,'')+'×');
 slider('gap','gap', v=>v.toFixed(1)+'s');
 slider('reps','reps', v=>String(v));
 slider('chunkSize','chunkSize', v=>String(v), ()=>{ state.chunk=0; state.idx=0;
-  buildChunkSel(); render(); if(state.mode==='table') renderTable(); });
+  buildChunkSel(); render(); if(state.mode==='deck') renderTable(); });
 $('rateVal').textContent = state.rate.toFixed(2).replace(/0$/,'')+'×';
 $('chunkVal').textContent = String(state.chunkSize);
 
@@ -716,7 +824,7 @@ $('themeBtn').onclick = () => {
 document.documentElement.setAttribute('data-theme', state.theme);
 
 document.addEventListener('keydown', e=>{
-  if(state.mode==='table' || e.target.tagName==='INPUT') return;
+  if(state.mode==='deck' || state.mode==='basics' || e.target.tagName==='INPUT') return;
   if(e.key==='ArrowRight'){ stopAuto(); go(1); }
   if(e.key==='ArrowLeft'){ stopAuto(); go(-1); }
   if(e.key===' '){ e.preventDefault(); $('card').click(); }
@@ -743,7 +851,7 @@ if('serviceWorker' in navigator){
 loadPacks();
 
 buildChunkSel();
-document.querySelector(`.tab[data-mode="${state.mode==='table'?'table':state.mode}"]`)?.click();
+document.querySelector(`.tab[data-mode="${state.mode}"]`)?.click();
 render();
 </script>
 </body>

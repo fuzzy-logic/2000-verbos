@@ -30,7 +30,11 @@ for path in sorted(glob.glob(os.path.join(ROOT, 'data', '*.tsv'))):
 
 # Catch stray characters that aren't Spanish or English - a typo like "Llena"
 # with a Polish hook instead of an accent would otherwise be read aloud wrong.
-ALLOWED = set("áéíóúüñÁÉÍÓÚÜÑ¿¡")
+ALLOWED = set("áéíóúüñÁÉÍÓÚÜÑ¿¡"          # Spanish
+              "ẽĩũỹÃãẼĨŨỸ\u0303"          # Guaraní nasal vowels
+              "₲"                          # guaraní currency sign
+              "—–’‘“”…·"                   # typographic punctuation
+              "→←↔")                        # arrows, used in grammar notes
 for r in rows:
     for col in ('v', 've', 's', 't', 'n'):
         for ch in r[col]:
@@ -44,14 +48,48 @@ for r in rows:
 
 rows.sort(key=lambda x: x['r'])
 
+# ---- reference tables (the Basics tab) ----
+TDIR = os.path.join(ROOT, 'data', 'tables')
+tables = []
+idx_path = os.path.join(TDIR, '_index.tsv')
+if os.path.exists(idx_path):
+    with open(idx_path, encoding='utf-8') as fh:
+        meta = sorted(csv.DictReader(fh, delimiter='\t'), key=lambda r: int(r['order']))
+    for m in meta:
+        tpath = os.path.join(TDIR, m['slug'] + '.tsv')
+        if not os.path.exists(tpath):
+            sys.exit(f"_index.tsv lists {m['slug']} but {m['slug']}.tsv is missing")
+        trows = []
+        with open(tpath, encoding='utf-8') as fh:
+            for i, r in enumerate(csv.DictReader(fh, delimiter='\t')):
+                if not (r.get('spanish') or '').strip():
+                    sys.exit(f"{m['slug']}.tsv row {i+2}: empty spanish")
+                trows.append({'i': f"{m['slug']}#{i}",
+                              's': r['spanish'].strip(),
+                              'e': (r.get('english') or '').strip(),
+                              'n': (r.get('note') or '').strip()})
+        tables.append({'slug': m['slug'], 'section': m['section'],
+                       'title': m['title'], 'blurb': m.get('blurb', '').strip(),
+                       'rows': trows})
+    # same charset rule as the deck
+    for t in tables:
+        for r in t['rows']:
+            for ch in r['s'] + r['e'] + r['n']:
+                if ord(ch) > 127 and ch not in ALLOWED:
+                    sys.exit(f"{t['slug']}: bad character {ch!r} (U+{ord(ch):04X}) in {r['s']}")
+
 tpl = open(os.path.join(ROOT, 'src', 'template.html'), encoding='utf-8').read()
 if '/*__DATA__*/' not in tpl:
     sys.exit('template.html is missing the /*__DATA__*/ placeholder')
 
-payload = json.dumps(rows, ensure_ascii=False, separators=(',', ':'))
-# Can't let a literal </script> inside the data close the script tag early.
-payload = payload.replace('</', '<\\/')
-out = tpl.replace('/*__DATA__*/[]', payload)
+def inline(obj):
+    # Can't let a literal </script> inside the data close the script tag early.
+    return json.dumps(obj, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
+
+out = tpl.replace('/*__DATA__*/[]', inline(rows))
+if '/*__TABLES__*/[]' not in out:
+    sys.exit('template.html is missing the /*__TABLES__*/ placeholder')
+out = out.replace('/*__TABLES__*/[]', inline(tables))
 
 DIST = os.path.join(ROOT, 'dist')
 os.makedirs(DIST, exist_ok=True)
@@ -96,6 +134,14 @@ for jf in sorted(glob.glob(os.path.join(adir, 'verbos_*.json'))):
     packs.append({'stem': meta['stem'], 'start': meta['start'], 'end': meta['end'],
                   'duration': meta['duration'],
                   'mb': round(os.path.getsize(mp3) / 1e6, 1)})
+
+tj = os.path.join(adir, 'tables.json')
+tm = os.path.join(adir, 'tables.mp3')
+if os.path.exists(tj) and os.path.exists(tm):
+    meta = json.load(open(tj, encoding='utf-8'))
+    packs.append({'stem': 'tables', 'kind': 'tables',
+                  'duration': meta['duration'],
+                  'mb': round(os.path.getsize(tm) / 1e6, 1)})
 if packs:
     json.dump(packs, open(os.path.join(adir, 'packs.json'), 'w'), separators=(',', ':'))
 
@@ -105,6 +151,9 @@ for r in rows:
     lemmas.setdefault(r['v'].lower(), []).append(r['r'])
 repeats = {k: v for k, v in lemmas.items() if len(v) > 1}
 print(f"{len(rows)} sentences -> dist/index.html ({os.path.getsize(dest)/1024:.0f} KB), build {build_id}")
+if tables:
+    print(f"{len(tables)} reference tables, "
+          f"{sum(len(t['rows']) for t in tables)} rows")
 if packs:
     tot = sum(p['mb'] for p in packs)
     print(f"{len(packs)} audio pack(s), {tot:.1f} MB total")
