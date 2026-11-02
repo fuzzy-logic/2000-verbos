@@ -741,8 +741,9 @@ function playForm(verb, slot, text){
 }
 
 function playTrack(row){
-  const pack = packFor(row.r);
-  const entry = pack && pack.index.sentences.find(x=>x.r===row.r);
+  const key = row.k || String(row.r);
+  const pack = packFor(key);
+  const entry = pack && packIndex(pack)[key];
   if(!entry) return false;
   stopAudio();
   el.src = urlFor(pack);
@@ -751,7 +752,8 @@ function playTrack(row){
   el.play().catch(()=>{});
   if('mediaSession' in navigator){
     navigator.mediaSession.metadata = new MediaMetadata({
-      title: row.s, artist: `${row.v} · ${row.ve}`, album: '2000 Verbos'
+      title: row.s, artist: `${row.v} · ${row.ve}`,
+      album: TOPIC_TITLE[row.tp] || '2000 Verbos'
     });
     navigator.mediaSession.setActionHandler('play', ()=>el.play());
     navigator.mediaSession.setActionHandler('pause', ()=>el.pause());
