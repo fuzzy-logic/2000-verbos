@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build walking-track MP3s (+ a seek index) from data/*.tsv using edge-tts.
+Build one walking-track MP3 per topic (+ a seek index) using edge-tts.
 
 Per sentence the track plays:
     verb (es)  ...3s...  verb (es)  ...  verb (en)
@@ -13,11 +13,13 @@ Alongside each MP3 it writes a .json seek index giving the offset and duration o
 every individual clip, so the web app can play one verb or one sentence out of the
 same file instead of shipping the clips twice.
 
-    .venv/bin/python3 audio/make_track.py --start 1 --end 200
+    .venv/bin/python3 audio/make_track.py --topic buying-paying
+    .venv/bin/python3 audio/make_track.py --all
 """
 import argparse, asyncio, csv, glob, hashlib, json, os, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, 'lib'))
 CLIPS = os.path.join(ROOT, 'audio', 'clips')
 SIL = os.path.join(ROOT, 'audio', 'silence')
 DURCACHE = os.path.join(CLIPS, '_durations.json')
@@ -32,11 +34,9 @@ _durs = {}
 
 
 def load_rows():
-    rows = []
-    for path in sorted(glob.glob(os.path.join(ROOT, 'data', '*.tsv'))):
-        with open(path, encoding='utf-8') as fh:
-            rows.extend(csv.DictReader(fh, delimiter='\t'))
-    rows.sort(key=lambda r: int(r['rank']))
+    """The same merged corpus the app is built from, so keys line up."""
+    from corpus import load
+    rows, _ = load(ROOT)
     return rows
 
 
@@ -107,8 +107,8 @@ def silence(seconds):
 
 async def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--start', type=int, default=1)
-    ap.add_argument('--end', type=int, default=200)
+    ap.add_argument('--topic', help='topic slug to build')
+    ap.add_argument('--all', action='store_true', help='build every topic')
     ap.add_argument('--es-voice', default='es-PY-TaniaNeural')
     ap.add_argument('--en-voice', default='en-GB-SoniaNeural')
     ap.add_argument('--slow', default='-35%')
@@ -125,22 +125,41 @@ async def main():
     if os.path.exists(DURCACHE):
         _durs = json.load(open(DURCACHE))
 
-    rows = [r for r in load_rows() if a.start <= int(r['rank']) <= a.end]
+    from corpus import topics as load_topics
+    meta = {t['slug']: t for t in load_topics(ROOT)}
+    if a.all:
+        slugs = list(meta)
+    elif a.topic:
+        if a.topic not in meta:
+            sys.exit(f"unknown topic {a.topic!r}; known: {', '.join(meta)}")
+        slugs = [a.topic]
+    else:
+        sys.exit('pass --topic SLUG or --all')
+    everything = load_rows()
+    for slug in slugs:
+        await build_topic(a, slug, meta[slug],
+                          [r for r in everything if r['tp'] == slug])
+    json.dump(_durs, open(DURCACHE, 'w'))
+
+
+async def build_topic(a, slug, meta, rows):
     if not rows:
-        sys.exit(f"no rows in range {a.start}-{a.end}")
+        print(f"{slug}: no sentences, skipped")
+        return
 
     jobs = []
     for r in rows:
         jobs += [
-            (r['sentence_es'], a.es_voice, a.slow),
-            (r['sentence_es'], a.es_voice, '+0%'),
-            (r['verb_es'],     a.es_voice, '+0%'),
-            (r['verb_en'],     a.en_voice, '+0%'),
-            (r['sentence_en'], a.en_voice, '+0%'),
+            (r['s'],  a.es_voice, a.slow),
+            (r['s'],  a.es_voice, '+0%'),
+            (r['v'],  a.es_voice, '+0%'),
+            (r['ve'], a.en_voice, '+0%'),
+            (r['t'],  a.en_voice, '+0%'),
         ]
     jobs = list(dict.fromkeys(jobs))
     todo = sum(1 for j in jobs if not os.path.exists(clip_path(*j)))
-    print(f"{len(rows)} sentences | {len(jobs)} clips ({todo} to synthesise)")
+    print(f"{slug}: {len(rows)} sentences | {len(jobs)} clips "
+          f"({todo} to synthesise)", flush=True)
 
     sem = asyncio.Semaphore(6)
     tasks = [asyncio.create_task(synth(t, v, rt, sem)) for t, v, rt in jobs]
@@ -167,13 +186,14 @@ async def main():
         return round(start, 3)
 
     for r in rows:
-        es_v = clip_path(r['verb_es'], a.es_voice, '+0%')
-        en_v = clip_path(r['verb_en'], a.en_voice, '+0%')
-        es_slow = clip_path(r['sentence_es'], a.es_voice, a.slow)
-        en_s = clip_path(r['sentence_en'], a.en_voice, '+0%')
-        es_full = clip_path(r['sentence_es'], a.es_voice, '+0%')
+        es_v = clip_path(r['v'], a.es_voice, '+0%')
+        en_v = clip_path(r['ve'], a.en_voice, '+0%')
+        es_slow = clip_path(r['s'], a.es_voice, a.slow)
+        en_s = clip_path(r['t'], a.en_voice, '+0%')
+        es_full = clip_path(r['s'], a.es_voice, '+0%')
 
-        entry = {'r': int(r['rank'])}
+        # keyed by the sentence key, not the rank: the extra forms share a rank
+        entry = {'k': r['k']}
         entry['verb'] = [put(es_v), dur(es_v)]
         put(g_verb); put(es_v); put(g_short)
         entry['verbEn'] = [put(en_v), dur(en_v)]
@@ -187,9 +207,7 @@ async def main():
         entry['end'] = round(t, 3)
         index.append(entry)
 
-    json.dump(_durs, open(DURCACHE, 'w'))
-
-    stem = f"verbos_{a.start:04d}-{a.end:04d}"
+    stem = f"topic_{slug}"
     listfile = os.path.join(ROOT, 'audio', '.concat.txt')
     with open(listfile, 'w', encoding='utf-8') as fh:
         for p in seq:
@@ -201,7 +219,7 @@ async def main():
     subprocess.run(
         ['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', listfile,
          '-c:a', 'libmp3lame', '-q:a', '6', '-ar', '24000', '-ac', '1',
-         '-metadata', f'title=Verbos {a.start}-{a.end}',
+         '-metadata', f'title={meta["title"]}',
          '-metadata', 'artist=2000 Verbos', out],
         check=True)
     os.remove(listfile)
@@ -210,15 +228,16 @@ async def main():
         ['ffprobe', '-v', 'error', '-show_entries', 'format=duration',
          '-of', 'csv=p=0', out], capture_output=True, text=True).stdout.strip() or 0)
 
-    json.dump({'stem': stem, 'start': a.start, 'end': a.end,
+    json.dump({'stem': stem, 'topic': slug, 'title': meta['title'],
+               'section': meta['section'],
                'duration': round(real, 3), 'voice': a.es_voice,
                'sentences': index},
               open(os.path.join(a.outdir, stem + '.json'), 'w'),
               ensure_ascii=False, separators=(',', ':'))
 
     drift = real - t
-    print(f"\n{out}\n{real/60:.0f} min | {os.path.getsize(out)/1e6:.1f} MB "
-          f"| {real/len(rows):.0f}s per sentence | index drift {drift:+.3f}s")
+    print(f"  -> {stem}.mp3  {real/60:.0f} min | {os.path.getsize(out)/1e6:.1f} MB "
+          f"| {real/len(rows):.0f}s each | drift {drift:+.3f}s", flush=True)
     if abs(drift) > 0.5:
         print("WARNING: index drift over 0.5s - seeking will be noticeably off")
 

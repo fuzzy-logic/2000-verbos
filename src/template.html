@@ -517,6 +517,9 @@ async function idbGet(k){ const d=await idb(); return new Promise((res,rej)=>{
 async function idbPut(k,v){ const d=await idb(); return new Promise((res,rej)=>{
   const t=d.transaction(STORE,'readwrite'); t.objectStore(STORE).put(v,k);
   t.oncomplete=()=>res(); t.onerror=()=>rej(t.error); }); }
+async function idbDel(k){ const d=await idb(); return new Promise((res,rej)=>{
+  const r=d.transaction(STORE,'readwrite').objectStore(STORE).delete(k);
+  r.onsuccess=()=>res(true); r.onerror=()=>rej(r.error); }); }
 async function idbKeys(){ const d=await idb(); return new Promise((res,rej)=>{
   const r=d.transaction(STORE,'readonly').objectStore(STORE).getAllKeys();
   r.onsuccess=()=>res(r.result||[]); r.onerror=()=>rej(r.error); }); }
@@ -534,14 +537,48 @@ async function loadPacks(){
   renderPacks();
 }
 
-function packFor(rank){
-  for(const k in saved){ const m=saved[k].meta;
-    if(m && rank>=m.start && rank<=m.end) return saved[k]; }
+/* Packs saved before the deck was reorganised are keyed by rank range and
+   point at files that no longer exist. Rather than let them fail silently at
+   play time, say so and offer to clear them. */
+function stalePacks(){
+  const live = new Set(packs.map(p => p.stem));
+  return Object.keys(saved).filter(k => !live.has(k));
+}
+
+async function clearStale(btn){
+  btn.disabled = true;
+  for(const k of stalePacks()){
+    try{ await idbDel(k); }catch(e){}
+    if(urls[k]){ URL.revokeObjectURL(urls[k]); delete urls[k]; }
+    delete saved[k];
+  }
+  renderPacks();
+  render();
+}
+
+// A pack holds one topic. Its index is keyed by the sentence key, so a lookup
+// map is built once per pack rather than scanning the list on every play.
+function packIndex(pack){
+  if(!pack._by){
+    pack._by = {};
+    for(const e of (pack.index.sentences || [])) pack._by[e.k] = e;
+  }
+  return pack._by;
+}
+function packFor(key){
+  for(const k in saved){
+    const p = saved[k];
+    if(p.meta && p.meta.topic && packIndex(p)[key]) return p;
+  }
   return null;
 }
-function clipOf(pack, rank, which){
-  const e = pack.index.sentences.find(x=>x.r===rank);
+function clipOf(pack, key, which){
+  const e = packIndex(pack)[key];
   return e ? e[which] : null;
+}
+function namedPack(stem){
+  for(const k in saved){ if(saved[k].meta && saved[k].meta.stem === stem) return saved[k]; }
+  return null;
 }
 function urlFor(pack){
   const k = pack.meta.stem;
@@ -573,10 +610,17 @@ function renderPacks(){
   if(!packs.length){ box.innerHTML='<div class="packnote">No audio packs published yet.</div>';
     $('packSummary').textContent=''; return; }
   box.innerHTML='';
+  let sec = null;
   packs.forEach(m=>{
+    if(m.section && m.section !== sec){
+      sec = m.section;
+      const h = document.createElement('div');
+      h.className = 'picksec'; h.textContent = sec;
+      box.appendChild(h);
+    }
     const has = !!saved[m.stem];
     const row=document.createElement('div'); row.className='packrow';
-    const name = m.kind === 'tables' ? 'Basics tables' : `Verbs ${m.start}–${m.end}`;
+    const name = m.title || (m.kind === 'tables' ? 'Basics tables' : m.stem);
     row.innerHTML=`<div class="pname">${name}
         <div class="psize">${Math.round((m.duration||0)/60)} min${m.mb?` · ${m.mb} MB`:''}</div></div>`;
     const b=document.createElement('button');
@@ -585,7 +629,20 @@ function renderPacks(){
     b.onclick = () => { if(!has) downloadPack(m, b); };
     row.appendChild(b); box.appendChild(row);
   });
-  const n=Object.keys(saved).length;
+  const stale = stalePacks();
+  if(stale.length){
+    const warn = document.createElement('div');
+    warn.className = 'packnote';
+    warn.style.cssText = 'border-left:3px solid var(--warn);padding-left:10px;margin-bottom:10px';
+    warn.innerHTML = `<b>${stale.length} saved pack${stale.length>1?'s are':' is'} from the ` +
+      `old rank layout</b> and no longer play. The audio is now one pack per topic.`;
+    const b = document.createElement('button');
+    b.textContent = 'Remove them'; b.style.cssText='margin-top:8px';
+    b.onclick = () => clearStale(b);
+    warn.appendChild(b);
+    box.prepend(warn);
+  }
+  const n = Object.keys(saved).length - stale.length;
   $('packSummary').textContent = n ? `${n} of ${packs.length} saved` : '';
 }
 
@@ -628,8 +685,9 @@ el.addEventListener('ended', ()=>{ if(auto) stopAuto(); });
 /** Play one clip of one row: real recording when a pack is saved, else TTS. */
 function play(row, which, done){
   stopAudio();
-  const pack = packFor(row.r);
-  const seg = pack && clipOf(pack, row.r, which||'full');
+  const key = row.k || String(row.r);
+  const pack = packFor(key);
+  const seg = pack && clipOf(pack, key, which||'full');
   if(!seg){ speak(which==='en' ? row.t : row.s, done); return; }
   const [start, dur] = seg;
   el.src = urlFor(pack);
@@ -640,10 +698,7 @@ function play(row, which, done){
   if(done) seqTimer = setTimeout(done, ((dur+0.12)/state.rate)*1000);
 }
 
-function tablesPack(){
-  for(const k in saved){ if(saved[k].meta && saved[k].meta.stem === 'tables') return saved[k]; }
-  return null;
-}
+const tablesPack = () => namedPack('tables');
 
 /** Speak one reference-table row: the recording if saved, else device TTS. */
 function playTableRow(row){
@@ -659,6 +714,18 @@ function playTableRow(row){
 }
 
 /** Walking mode: let the pre-rendered track run on from here, screen off. */
+function playForm(verb, slot, text){
+  stopAudio();
+  const pack = namedPack('conj');
+  const seg = pack && pack.index.map && pack.index.map[verb + '|' + slot];
+  if(!seg){ speak(text); return; }
+  el.src = urlFor(pack);
+  el.playbackRate = state.rate;
+  el.currentTime = seg[0];
+  stopAt = seg[0] + seg[1] + 0.05;
+  el.play().catch(()=>speak(text));
+}
+
 function playTrack(row){
   const pack = packFor(row.r);
   const entry = pack && pack.index.sentences.find(x=>x.r===row.r);
@@ -865,7 +932,8 @@ function renderConj(r){
   for(const c of show){
     const here = c.s === r.f;
     out.push(
-      `<div class="conjrow${here ? ' here' : ''}" data-form="${esc(c.f)}">` +
+      `<div class="conjrow${here ? ' here' : ''}" data-form="${esc(c.f)}"` +
+      ` data-slot="${esc(c.s)}">` +
       `<div class="lbl">${esc(c.l)}</div>` +
       `<div class="frm">${esc(c.f)}</div>` +
       `<div class="pr">${esc(c.p)}</div>` +
@@ -881,7 +949,7 @@ function renderConj(r){
     b.onclick = () => { state.level = b.dataset.level; renderConj(r); save(); };
   });
   panel.querySelectorAll('.conjrow').forEach(d => {
-    d.onclick = () => speak(d.dataset.form, null);
+    d.onclick = () => playForm(r.v, d.dataset.slot, d.dataset.form);
   });
 }
 
@@ -1101,7 +1169,8 @@ function renderVerbs(){
       html += '<div class="conjpanel">';
       for(const c of CONJ[v]){
         if(LEVELS.indexOf(c.lv) > upto) continue;
-        html += `<div class="conjrow" data-form="${esc(c.f)}">` +
+        html += `<div class="conjrow" data-form="${esc(c.f)}" data-slot="${esc(c.s)}" ` +
+          `data-verb="${esc(v)}">` +
           `<div class="lbl">${esc(c.l)}</div><div class="frm">${esc(c.f)}</div>` +
           `<div class="pr">${esc(c.p)}</div><div class="en">${esc(c.e)}</div>` +
           (c.n ? `<div class="nt">${esc(c.n)}</div>` : '') + '</div>';
@@ -1126,7 +1195,7 @@ function renderVerbs(){
     b.onclick = () => { state.level = b.dataset.level; save(); renderVerbs(); };
   });
   box.querySelectorAll('.conjrow').forEach(d => {
-    d.onclick = () => speak(d.dataset.form, null);
+    d.onclick = () => playForm(d.dataset.verb, d.dataset.slot, d.dataset.form);
   });
 }
 

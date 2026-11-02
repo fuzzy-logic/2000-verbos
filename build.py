@@ -3,35 +3,10 @@
 import csv, glob, hashlib, json, os, shutil, subprocess, sys
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-rows, seen = [], {}
+sys.path.insert(0, os.path.join(ROOT, 'lib'))
+from corpus import load, topics as load_topics          # noqa: E402
 
-for path in sorted(glob.glob(os.path.join(ROOT, 'data', 'verbs_*.tsv'))):
-    with open(path, encoding='utf-8') as fh:
-        for i, r in enumerate(csv.DictReader(fh, delimiter='\t'), start=2):
-            try:
-                rank = int(r['rank'])
-            except (KeyError, ValueError, TypeError):
-                sys.exit(f"{os.path.basename(path)}:{i}: bad or missing rank")
-            for col in ('verb_es', 'verb_en', 'sentence_es', 'sentence_en'):
-                if not (r.get(col) or '').strip():
-                    sys.exit(f"{os.path.basename(path)}:{i}: empty {col}")
-            if rank in seen:
-                sys.exit(f"{os.path.basename(path)}:{i}: duplicate rank {rank} "
-                         f"(already in {seen[rank]})")
-            seen[rank] = os.path.basename(path)
-            rows.append({
-                'r': rank,
-                'v': r['verb_es'].strip(),
-                've': r['verb_en'].strip(),
-                's': r['sentence_es'].strip(),
-                't': r['sentence_en'].strip(),
-                'n': (r.get('note') or '').strip(),
-                'tp': (r.get('topic') or '').strip(),
-                'f': (r.get('form') or '').strip(),
-                'vt': (r.get('verb_token') or '').strip(),
-                'sq': 0,
-                'k': str(rank),
-            })
+rows, extra_n = load(ROOT)
 
 # Catch stray characters that aren't Spanish or English - a typo like "Llena"
 # with a Polish hook instead of an accent would otherwise be read aloud wrong.
@@ -51,48 +26,9 @@ for r in rows:
     if 'not a verb' in r['n'].lower():
         sys.exit(f"rank {r['r']} ({r['v']}): note says it isn't a verb - replace the row")
 
-# ---- extra sentences: more forms of the top verbs ----
-# They inherit their verb's rank, topic and gloss, and sit directly after it
-# inside whichever group is open, so a verb and its other tenses stay together.
-XPATH = os.path.join(ROOT, 'data', 'sentences_extra.tsv')
-extra_n = 0
-if os.path.exists(XPATH):
-    base = {}
-    for r in rows:
-        base.setdefault(r['v'], r)
-    seq = {}
-    with open(XPATH, encoding='utf-8') as fh:
-        for i, r in enumerate(csv.DictReader(fh, delimiter='\t'), start=2):
-            verb = r['verb'].strip()
-            b = base.get(verb)
-            if not b:
-                sys.exit(f'sentences_extra.tsv:{i}: {verb!r} is not in the corpus')
-            for col in ('form', 'sentence_es', 'sentence_en'):
-                if not (r.get(col) or '').strip():
-                    sys.exit(f'sentences_extra.tsv:{i}: empty {col} for {verb}')
-            seq[verb] = seq.get(verb, 0) + 1
-            rows.append({
-                'r': b['r'], 'v': verb, 've': b['ve'],
-                's': r['sentence_es'].strip(), 't': r['sentence_en'].strip(),
-                'n': (r.get('note') or '').strip(),
-                'tp': b['tp'], 'f': r['form'].strip(),
-                'vt': (r.get('verb_token') or '').strip(),
-                'sq': seq[verb], 'k': f"{b['r']}x{seq[verb]}",
-            })
-            extra_n += 1
-
-rows.sort(key=lambda x: (x['r'], x['sq']))
-
 # ---- topics (the Deck's by-topic view) ----
-TDIR_T = os.path.join(ROOT, 'data', 'topics')
-topics = []
-tidx = os.path.join(TDIR_T, '_index.tsv')
-if os.path.exists(tidx):
-    with open(tidx, encoding='utf-8') as fh:
-        topics = sorted(csv.DictReader(fh, delimiter='\t'),
-                        key=lambda r: int(r['order']))
-    topics = [{'slug': t['slug'], 'section': t['section'], 'title': t['title'],
-               'blurb': (t.get('blurb') or '').strip()} for t in topics]
+topics = load_topics(ROOT)
+if topics:
     known_topics = {t['slug'] for t in topics}
     for r in rows:
         if not r['tp']:
@@ -232,29 +168,51 @@ if edges:
 # tracks have actually been generated into dist/audio/.
 adir = os.path.join(DIST, 'audio')
 packs = []
-for jf in sorted(glob.glob(os.path.join(adir, 'verbos_*.json'))):
+order = {t['slug']: i for i, t in enumerate(topics)}
+tfiles = sorted(glob.glob(os.path.join(adir, 'topic_*.json')),
+                key=lambda f: order.get(
+                    json.load(open(f, encoding='utf-8')).get('topic', ''), 999))
+for jf in tfiles:
     meta = json.load(open(jf, encoding='utf-8'))
     mp3 = os.path.join(adir, meta['stem'] + '.mp3')
     if not os.path.exists(mp3):
         continue
-    packs.append({'stem': meta['stem'], 'start': meta['start'], 'end': meta['end'],
+    packs.append({'stem': meta['stem'], 'topic': meta['topic'],
+                  'title': meta['title'], 'section': meta.get('section', ''),
                   'duration': meta['duration'],
                   'mb': round(os.path.getsize(mp3) / 1e6, 1)})
+
+cj = os.path.join(adir, 'conj.json')
+cm = os.path.join(adir, 'conj.mp3')
+if os.path.exists(cj) and os.path.exists(cm):
+    meta = json.load(open(cj, encoding='utf-8'))
+    packs.append({'stem': 'conj', 'kind': 'conj', 'title': 'Conjugation forms',
+                  'section': 'Reference',
+                  'duration': meta['duration'],
+                  'mb': round(os.path.getsize(cm) / 1e6, 1)})
 
 tj = os.path.join(adir, 'tables.json')
 tm = os.path.join(adir, 'tables.mp3')
 if os.path.exists(tj) and os.path.exists(tm):
     meta = json.load(open(tj, encoding='utf-8'))
-    packs.append({'stem': 'tables', 'kind': 'tables',
+    packs.append({'stem': 'tables', 'kind': 'tables', 'title': 'Basics tables',
+                  'section': 'Reference',
                   'duration': meta['duration'],
                   'mb': round(os.path.getsize(tm) / 1e6, 1)})
 if packs:
     json.dump(packs, open(os.path.join(adir, 'packs.json'), 'w'), separators=(',', ':'))
 
-missing = [n for n in range(1, max(seen) + 1) if n not in seen] if seen else []
+ranks = {r['r'] for r in rows}
+stale = glob.glob(os.path.join(adir, 'verbos_*.mp3'))
+if stale:
+    print(f"NOTE: {len(stale)} old rank-range packs are still in dist/audio. "
+          f"They are no longer referenced; delete them once the topic packs are built.")
+
+missing = [n for n in range(1, max(ranks) + 1) if n not in ranks] if ranks else []
 lemmas = {}
 for r in rows:
-    lemmas.setdefault(r['v'].lower(), []).append(r['r'])
+    if not r['sq']:                      # extra forms repeat their verb by design
+        lemmas.setdefault(r['v'].lower(), []).append(r['r'])
 repeats = {k: v for k, v in lemmas.items() if len(v) > 1}
 print(f"{len(rows)} sentences ({extra_n} extra forms) -> dist/index.html ({os.path.getsize(dest)/1024:.0f} KB), build {build_id}")
 if tables:
