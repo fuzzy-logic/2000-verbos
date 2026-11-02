@@ -97,6 +97,9 @@ async def main():
     ap.add_argument('--es-voice', default='es-PY-TaniaNeural')
     ap.add_argument('--gap', type=float, default=0.35)
     ap.add_argument('--outdir', default=os.path.join(ROOT, 'dist', 'audio'))
+    ap.add_argument('--concurrency', type=int, default=6,
+                    help='parallel TTS requests; raise it when latency, not the '
+                         'service, is the bottleneck (a slow proxied link)')
     a = ap.parse_args()
 
     os.makedirs(CLIPS, exist_ok=True); os.makedirs(SIL, exist_ok=True)
@@ -110,7 +113,7 @@ async def main():
     todo = sum(1 for t in texts if not os.path.exists(clip_path(t, a.es_voice, '+0%')))
     print(f"{len(rows)} forms | {len(texts)} distinct ({todo} to synthesise)", flush=True)
 
-    sem = asyncio.Semaphore(6)
+    sem = asyncio.Semaphore(a.concurrency)
     tasks = [asyncio.create_task(synth(t, a.es_voice, '+0%', sem)) for t in texts]
     done = 0
     for fut in asyncio.as_completed(tasks):

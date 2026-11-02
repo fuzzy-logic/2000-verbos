@@ -1,382 +1,382 @@
 from_verb	to_verb	type	note
-deshacerse	hacerse	family	conjugates exactly like it
-hacerse	deshacerse	family	conjugates exactly like it
-atender	tender	family	conjugates exactly like it
-tender	atender	family	conjugates exactly like it
-impedir	pedir	family	conjugates exactly like it
-pedir	impedir	family	conjugates exactly like it
-exponer	poner	family	conjugates exactly like it
-poner	exponer	family	conjugates exactly like it
-connotar	notar	family	conjugates exactly like it
-notar	connotar	family	conjugates exactly like it
-convenir	venir	family	conjugates exactly like it
-venir	convenir	family	conjugates exactly like it
-rehabilitar	habilitar	family	conjugates exactly like it
-habilitar	rehabilitar	family	conjugates exactly like it
-prometer	meter	family	conjugates exactly like it
-meter	prometer	family	conjugates exactly like it
-desanimar	animar	family	conjugates exactly like it
-animar	desanimar	family	conjugates exactly like it
-compensar	pensar	family	looks related but conjugates differently
-pensar	compensar	family	looks related but conjugates differently
-descuidar	cuidar	family	conjugates exactly like it
-cuidar	descuidar	family	conjugates exactly like it
-contradecir	decir	family	conjugates exactly like it
-decir	contradecir	family	conjugates exactly like it
-desaparecer	aparecer	family	conjugates exactly like it
-aparecer	desaparecer	family	conjugates exactly like it
-desayunar	ayunar	family	conjugates exactly like it
-ayunar	desayunar	family	conjugates exactly like it
-comparecer	parecer	family	conjugates exactly like it
-parecer	comparecer	family	conjugates exactly like it
-refinanciar	financiar	family	conjugates exactly like it
-financiar	refinanciar	family	conjugates exactly like it
-suponer	poner	family	conjugates exactly like it
-poner	suponer	family	conjugates exactly like it
-descargar	cargar	family	conjugates exactly like it
-cargar	descargar	family	conjugates exactly like it
-desempacar	empacar	family	conjugates exactly like it
-empacar	desempacar	family	conjugates exactly like it
-devolver	volver	family	conjugates exactly like it
-volver	devolver	family	conjugates exactly like it
-descomprimir	comprimir	family	conjugates exactly like it
-comprimir	descomprimir	family	conjugates exactly like it
-derogar	rogar	family	looks related but conjugates differently
-rogar	derogar	family	looks related but conjugates differently
-rebajar	bajar	family	conjugates exactly like it
-bajar	rebajar	family	conjugates exactly like it
-devolverse	volverse	family	conjugates exactly like it
-volverse	devolverse	family	conjugates exactly like it
-retirar	tirar	family	conjugates exactly like it
-tirar	retirar	family	conjugates exactly like it
-compartir	partir	family	conjugates exactly like it
-partir	compartir	family	conjugates exactly like it
-incumplir	cumplir	family	conjugates exactly like it
-cumplir	incumplir	family	conjugates exactly like it
-retener	tener	family	conjugates exactly like it
-tener	retener	family	conjugates exactly like it
-demostrar	mostrar	family	conjugates exactly like it
-mostrar	demostrar	family	conjugates exactly like it
-perdurar	durar	family	conjugates exactly like it
-durar	perdurar	family	conjugates exactly like it
-denotar	notar	family	conjugates exactly like it
-notar	denotar	family	conjugates exactly like it
-reparar	parar	family	conjugates exactly like it
-parar	reparar	family	conjugates exactly like it
-pervivir	vivir	family	conjugates exactly like it
-vivir	pervivir	family	conjugates exactly like it
-sobrellevar	llevar	family	conjugates exactly like it
-llevar	sobrellevar	family	conjugates exactly like it
-inmigrar	migrar	family	conjugates exactly like it
-migrar	inmigrar	family	conjugates exactly like it
-posponerse	ponerse	family	conjugates exactly like it
-ponerse	posponerse	family	conjugates exactly like it
-comparar	parar	family	conjugates exactly like it
-parar	comparar	family	conjugates exactly like it
-descansar	cansar	family	conjugates exactly like it
-cansar	descansar	family	conjugates exactly like it
-informar	formar	family	conjugates exactly like it
-formar	informar	family	conjugates exactly like it
-suceder	ceder	family	conjugates exactly like it
-ceder	suceder	family	conjugates exactly like it
-desabrochar	abrochar	family	conjugates exactly like it
-abrochar	desabrochar	family	conjugates exactly like it
-subsanar	sanar	family	conjugates exactly like it
-sanar	subsanar	family	conjugates exactly like it
-descentrarse	centrarse	family	conjugates exactly like it
-centrarse	descentrarse	family	conjugates exactly like it
-retomar	tomar	family	conjugates exactly like it
-tomar	retomar	family	conjugates exactly like it
-desenvolver	envolver	family	conjugates exactly like it
-envolver	desenvolver	family	conjugates exactly like it
-convencer	vencer	family	conjugates exactly like it
-vencer	convencer	family	conjugates exactly like it
-decaer	caer	family	conjugates exactly like it
-caer	decaer	family	conjugates exactly like it
-configurar	figurar	family	conjugates exactly like it
-figurar	configurar	family	conjugates exactly like it
-prevenir	venir	family	conjugates exactly like it
-venir	prevenir	family	conjugates exactly like it
-comprobar	probar	family	conjugates exactly like it
-probar	comprobar	family	conjugates exactly like it
-acercar	cercar	family	conjugates exactly like it
-cercar	acercar	family	conjugates exactly like it
-exterminar	terminar	family	conjugates exactly like it
-terminar	exterminar	family	conjugates exactly like it
-incitar	citar	family	conjugates exactly like it
-citar	incitar	family	conjugates exactly like it
-propagar	pagar	family	conjugates exactly like it
-pagar	propagar	family	conjugates exactly like it
-malinterpretar	interpretar	family	conjugates exactly like it
-interpretar	malinterpretar	family	conjugates exactly like it
-sobrevivir	vivir	family	conjugates exactly like it
-vivir	sobrevivir	family	conjugates exactly like it
-despreocuparse	preocuparse	family	conjugates exactly like it
-preocuparse	despreocuparse	family	conjugates exactly like it
-prometerse	meterse	family	conjugates exactly like it
-meterse	prometerse	family	conjugates exactly like it
-posponer	poner	family	conjugates exactly like it
-poner	posponer	family	conjugates exactly like it
-debatir	batir	family	conjugates exactly like it
-batir	debatir	family	conjugates exactly like it
-anotar	notar	family	conjugates exactly like it
-notar	anotar	family	conjugates exactly like it
-traspasar	pasar	family	conjugates exactly like it
-pasar	traspasar	family	conjugates exactly like it
-desatar	atar	family	conjugates exactly like it
-atar	desatar	family	conjugates exactly like it
-conceder	ceder	family	conjugates exactly like it
-ceder	conceder	family	conjugates exactly like it
-recursar	cursar	family	conjugates exactly like it
-cursar	recursar	family	conjugates exactly like it
-demoler	moler	family	conjugates exactly like it
-moler	demoler	family	conjugates exactly like it
-subestimar	estimar	family	conjugates exactly like it
-estimar	subestimar	family	conjugates exactly like it
-agravar	gravar	family	conjugates exactly like it
-gravar	agravar	family	conjugates exactly like it
-repasar	pasar	family	conjugates exactly like it
-pasar	repasar	family	conjugates exactly like it
-abordar	bordar	family	conjugates exactly like it
-bordar	abordar	family	conjugates exactly like it
-inculpar	culpar	family	conjugates exactly like it
-culpar	inculpar	family	conjugates exactly like it
-afirmar	firmar	family	conjugates exactly like it
-firmar	afirmar	family	conjugates exactly like it
-comportarse	portarse	family	conjugates exactly like it
-portarse	comportarse	family	conjugates exactly like it
-reintegrar	integrar	family	conjugates exactly like it
-integrar	reintegrar	family	conjugates exactly like it
-sonreír	reír	family	conjugates exactly like it
-reír	sonreír	family	conjugates exactly like it
-condonar	donar	family	conjugates exactly like it
-donar	condonar	family	conjugates exactly like it
-desocupar	ocupar	family	conjugates exactly like it
-ocupar	desocupar	family	conjugates exactly like it
-indisponerse	disponerse	family	conjugates exactly like it
-disponerse	indisponerse	family	conjugates exactly like it
-presentir	sentir	family	conjugates exactly like it
-sentir	presentir	family	conjugates exactly like it
-envolver	volver	family	conjugates exactly like it
-volver	envolver	family	conjugates exactly like it
-disculpar	culpar	family	conjugates exactly like it
-culpar	disculpar	family	conjugates exactly like it
-regatear	gatear	family	conjugates exactly like it
-gatear	regatear	family	conjugates exactly like it
-componerse	ponerse	family	conjugates exactly like it
-ponerse	componerse	family	conjugates exactly like it
-reponerse	ponerse	family	conjugates exactly like it
-ponerse	reponerse	family	conjugates exactly like it
-confirmar	firmar	family	conjugates exactly like it
-firmar	confirmar	family	conjugates exactly like it
-asaltar	saltar	family	conjugates exactly like it
-saltar	asaltar	family	conjugates exactly like it
-encerrar	cerrar	family	conjugates exactly like it
-cerrar	encerrar	family	conjugates exactly like it
-encubrir	cubrir	family	conjugates exactly like it
-cubrir	encubrir	family	conjugates exactly like it
-despedir	pedir	family	conjugates exactly like it
-pedir	despedir	family	conjugates exactly like it
-reformar	formar	family	conjugates exactly like it
-formar	reformar	family	conjugates exactly like it
-reconocer	conocer	family	conjugates exactly like it
-conocer	reconocer	family	conjugates exactly like it
-preparar	parar	family	conjugates exactly like it
-parar	preparar	family	conjugates exactly like it
-sobreestimar	estimar	family	conjugates exactly like it
-estimar	sobreestimar	family	conjugates exactly like it
-delegar	legar	family	conjugates exactly like it
-legar	delegar	family	conjugates exactly like it
-demandar	mandar	family	conjugates exactly like it
-mandar	demandar	family	conjugates exactly like it
-aprobarse	probarse	family	conjugates exactly like it
-probarse	aprobarse	family	conjugates exactly like it
-exceder	ceder	family	conjugates exactly like it
-ceder	exceder	family	conjugates exactly like it
-desilusionarse	ilusionarse	family	conjugates exactly like it
-ilusionarse	desilusionarse	family	conjugates exactly like it
-perseguir	seguir	family	conjugates exactly like it
-seguir	perseguir	family	conjugates exactly like it
-reponer	poner	family	conjugates exactly like it
-poner	reponer	family	conjugates exactly like it
-denegar	negar	family	conjugates exactly like it
-negar	denegar	family	conjugates exactly like it
-apelar	pelar	family	conjugates exactly like it
-pelar	apelar	family	conjugates exactly like it
-desatender	atender	family	conjugates exactly like it
-atender	desatender	family	conjugates exactly like it
-rellenar	llenar	family	conjugates exactly like it
-llenar	rellenar	family	conjugates exactly like it
-preocuparse	ocuparse	family	conjugates exactly like it
-ocuparse	preocuparse	family	conjugates exactly like it
-encargar	cargar	family	conjugates exactly like it
-cargar	encargar	family	conjugates exactly like it
-recargarse	cargarse	family	conjugates exactly like it
-cargarse	recargarse	family	conjugates exactly like it
-recobrar	cobrar	family	conjugates exactly like it
-cobrar	recobrar	family	conjugates exactly like it
-provenir	venir	family	conjugates exactly like it
-venir	provenir	family	conjugates exactly like it
-expedir	pedir	family	conjugates exactly like it
-pedir	expedir	family	conjugates exactly like it
-desempeñar	empeñar	family	conjugates exactly like it
-empeñar	desempeñar	family	conjugates exactly like it
-descomponerse	componerse	family	conjugates exactly like it
-componerse	descomponerse	family	conjugates exactly like it
-malgastar	gastar	family	conjugates exactly like it
-gastar	malgastar	family	conjugates exactly like it
-conseguir	seguir	family	conjugates exactly like it
-seguir	conseguir	family	conjugates exactly like it
-recalentar	calentar	family	conjugates exactly like it
-calentar	recalentar	family	conjugates exactly like it
-recorrer	correr	family	conjugates exactly like it
-correr	recorrer	family	conjugates exactly like it
-exculpar	culpar	family	conjugates exactly like it
-culpar	exculpar	family	conjugates exactly like it
-preocupar	ocupar	family	conjugates exactly like it
-ocupar	preocupar	family	conjugates exactly like it
-predominar	dominar	family	conjugates exactly like it
-dominar	predominar	family	conjugates exactly like it
-rebatir	batir	family	conjugates exactly like it
-batir	rebatir	family	conjugates exactly like it
-descubrir	cubrir	family	conjugates exactly like it
-cubrir	descubrir	family	conjugates exactly like it
-mantener	tener	family	conjugates exactly like it
-tener	mantener	family	conjugates exactly like it
-desequilibrar	equilibrar	family	conjugates exactly like it
-equilibrar	desequilibrar	family	conjugates exactly like it
-acostar	costar	family	conjugates exactly like it
-costar	acostar	family	conjugates exactly like it
-desentenderse	entenderse	family	conjugates exactly like it
-entenderse	desentenderse	family	conjugates exactly like it
-aprobar	probar	family	conjugates exactly like it
-probar	aprobar	family	conjugates exactly like it
-desgastar	gastar	family	conjugates exactly like it
-gastar	desgastar	family	conjugates exactly like it
-descongelar	congelar	family	conjugates exactly like it
-congelar	descongelar	family	conjugates exactly like it
-reproducir	producir	family	conjugates exactly like it
-producir	reproducir	family	conjugates exactly like it
-sostener	tener	family	conjugates exactly like it
-tener	sostener	family	conjugates exactly like it
-recostar	costar	family	conjugates exactly like it
-costar	recostar	family	conjugates exactly like it
-subastar	bastar	family	conjugates exactly like it
-bastar	subastar	family	conjugates exactly like it
-sobreescribir	escribir	family	conjugates exactly like it
-escribir	sobreescribir	family	conjugates exactly like it
 sobresalir	salir	family	conjugates exactly like it
 salir	sobresalir	family	conjugates exactly like it
-destapar	tapar	family	conjugates exactly like it
-tapar	destapar	family	conjugates exactly like it
-consentir	sentir	family	conjugates exactly like it
-sentir	consentir	family	conjugates exactly like it
-eximirse	irse	family	looks related but conjugates differently
-irse	eximirse	family	looks related but conjugates differently
-desacatar	acatar	family	conjugates exactly like it
-acatar	desacatar	family	conjugates exactly like it
-detener	tener	family	conjugates exactly like it
-tener	detener	family	conjugates exactly like it
-contratar	tratar	family	conjugates exactly like it
-tratar	contratar	family	conjugates exactly like it
-enderezar	rezar	family	conjugates exactly like it
-rezar	enderezar	family	conjugates exactly like it
-representar	presentar	family	conjugates exactly like it
-presentar	representar	family	conjugates exactly like it
-componer	poner	family	conjugates exactly like it
-poner	componer	family	conjugates exactly like it
-imponerse	ponerse	family	conjugates exactly like it
-ponerse	imponerse	family	conjugates exactly like it
-disponerse	ponerse	family	conjugates exactly like it
-ponerse	disponerse	family	conjugates exactly like it
-revivir	vivir	family	conjugates exactly like it
-vivir	revivir	family	conjugates exactly like it
-aprender	prender	family	conjugates exactly like it
-prender	aprender	family	conjugates exactly like it
-desafinar	afinar	family	conjugates exactly like it
-afinar	desafinar	family	conjugates exactly like it
-anegarse	negarse	family	conjugates exactly like it
-negarse	anegarse	family	conjugates exactly like it
-comprobarse	probarse	family	conjugates exactly like it
-probarse	comprobarse	family	conjugates exactly like it
-sobrevolar	volar	family	conjugates exactly like it
-volar	sobrevolar	family	conjugates exactly like it
-condecorar	decorar	family	conjugates exactly like it
-decorar	condecorar	family	conjugates exactly like it
-comprometerse	prometerse	family	conjugates exactly like it
-prometerse	comprometerse	family	conjugates exactly like it
-sobreentenderse	entenderse	family	conjugates exactly like it
-entenderse	sobreentenderse	family	conjugates exactly like it
-degustar	gustar	family	conjugates exactly like it
-gustar	degustar	family	conjugates exactly like it
-predecir	decir	family	conjugates exactly like it
-decir	predecir	family	conjugates exactly like it
-resurgir	surgir	family	conjugates exactly like it
-surgir	resurgir	family	conjugates exactly like it
-desinstalar	instalar	family	conjugates exactly like it
-instalar	desinstalar	family	conjugates exactly like it
-comprender	prender	family	conjugates exactly like it
-prender	comprender	family	conjugates exactly like it
-repartir	partir	family	conjugates exactly like it
-partir	repartir	family	conjugates exactly like it
-desmentir	mentir	family	conjugates exactly like it
-mentir	desmentir	family	conjugates exactly like it
-bendecir	decir	family	conjugates exactly like it
-decir	bendecir	family	conjugates exactly like it
-aparecer	parecer	family	conjugates exactly like it
-parecer	aparecer	family	conjugates exactly like it
-entender	tender	family	conjugates exactly like it
-tender	entender	family	conjugates exactly like it
-desaprovechar	aprovechar	family	conjugates exactly like it
-aprovechar	desaprovechar	family	conjugates exactly like it
-apagar	pagar	family	conjugates exactly like it
-pagar	apagar	family	conjugates exactly like it
-apercibir	percibir	family	conjugates exactly like it
-percibir	apercibir	family	conjugates exactly like it
-conjugar	jugar	family	looks related but conjugates differently
-jugar	conjugar	family	looks related but conjugates differently
-desdoblar	doblar	family	conjugates exactly like it
-doblar	desdoblar	family	conjugates exactly like it
-reprender	prender	family	conjugates exactly like it
-prender	reprender	family	conjugates exactly like it
-desaprobar	aprobar	family	conjugates exactly like it
-aprobar	desaprobar	family	conjugates exactly like it
-pretender	tender	family	looks related but conjugates differently
-tender	pretender	family	looks related but conjugates differently
-despegar	pegar	family	conjugates exactly like it
-pegar	despegar	family	conjugates exactly like it
-remediar	mediar	family	conjugates exactly like it
-mediar	remediar	family	conjugates exactly like it
-distraer	traer	family	conjugates exactly like it
-traer	distraer	family	conjugates exactly like it
-recitar	citar	family	conjugates exactly like it
-citar	recitar	family	conjugates exactly like it
-perdonar	donar	family	conjugates exactly like it
-donar	perdonar	family	conjugates exactly like it
-desembarcar	embarcar	family	conjugates exactly like it
-embarcar	desembarcar	family	conjugates exactly like it
-encargarse	cargarse	family	conjugates exactly like it
-cargarse	encargarse	family	conjugates exactly like it
+rellenar	llenar	family	conjugates exactly like it
+llenar	rellenar	family	conjugates exactly like it
 desarmar	armar	family	conjugates exactly like it
 armar	desarmar	family	conjugates exactly like it
-reprobar	probar	family	conjugates exactly like it
-probar	reprobar	family	conjugates exactly like it
-revolver	volver	family	conjugates exactly like it
-volver	revolver	family	conjugates exactly like it
-proceder	ceder	family	conjugates exactly like it
-ceder	proceder	family	conjugates exactly like it
-presentar	sentar	family	looks related but conjugates differently
-sentar	presentar	family	looks related but conjugates differently
-revelar	velar	family	conjugates exactly like it
-velar	revelar	family	conjugates exactly like it
-desgravar	gravar	family	conjugates exactly like it
-gravar	desgravar	family	conjugates exactly like it
-descalificar	calificar	family	conjugates exactly like it
-calificar	descalificar	family	conjugates exactly like it
+suceder	ceder	family	conjugates exactly like it
+ceder	suceder	family	conjugates exactly like it
+debatir	batir	family	conjugates exactly like it
+batir	debatir	family	conjugates exactly like it
+destapar	tapar	family	conjugates exactly like it
+tapar	destapar	family	conjugates exactly like it
+devolver	volver	family	conjugates exactly like it
+volver	devolver	family	conjugates exactly like it
+comprometerse	prometerse	family	conjugates exactly like it
+prometerse	comprometerse	family	conjugates exactly like it
+informar	formar	family	conjugates exactly like it
+formar	informar	family	conjugates exactly like it
 deshabitar	habitar	family	conjugates exactly like it
 habitar	deshabitar	family	conjugates exactly like it
+traspasar	pasar	family	conjugates exactly like it
+pasar	traspasar	family	conjugates exactly like it
+prometer	meter	family	conjugates exactly like it
+meter	prometer	family	conjugates exactly like it
+despreocuparse	preocuparse	family	conjugates exactly like it
+preocuparse	despreocuparse	family	conjugates exactly like it
+encargar	cargar	family	conjugates exactly like it
+cargar	encargar	family	conjugates exactly like it
+regatear	gatear	family	conjugates exactly like it
+gatear	regatear	family	conjugates exactly like it
+perdurar	durar	family	conjugates exactly like it
+durar	perdurar	family	conjugates exactly like it
+presentir	sentir	family	conjugates exactly like it
+sentir	presentir	family	conjugates exactly like it
+descomponerse	componerse	family	conjugates exactly like it
+componerse	descomponerse	family	conjugates exactly like it
+denotar	notar	family	conjugates exactly like it
+notar	denotar	family	conjugates exactly like it
+convencer	vencer	family	conjugates exactly like it
+vencer	convencer	family	conjugates exactly like it
+eximirse	irse	family	looks related but conjugates differently
+irse	eximirse	family	looks related but conjugates differently
+demostrar	mostrar	family	conjugates exactly like it
+mostrar	demostrar	family	conjugates exactly like it
+propagar	pagar	family	conjugates exactly like it
+pagar	propagar	family	conjugates exactly like it
+descargar	cargar	family	conjugates exactly like it
+cargar	descargar	family	conjugates exactly like it
+exceder	ceder	family	conjugates exactly like it
+ceder	exceder	family	conjugates exactly like it
+envolver	volver	family	conjugates exactly like it
+volver	envolver	family	conjugates exactly like it
+consentir	sentir	family	conjugates exactly like it
+sentir	consentir	family	conjugates exactly like it
+despegar	pegar	family	conjugates exactly like it
+pegar	despegar	family	conjugates exactly like it
+recursar	cursar	family	conjugates exactly like it
+cursar	recursar	family	conjugates exactly like it
+convenir	venir	family	conjugates exactly like it
+venir	convenir	family	conjugates exactly like it
+condonar	donar	family	conjugates exactly like it
+donar	condonar	family	conjugates exactly like it
+comparecer	parecer	family	conjugates exactly like it
+parecer	comparecer	family	conjugates exactly like it
+apercibir	percibir	family	conjugates exactly like it
+percibir	apercibir	family	conjugates exactly like it
+afirmar	firmar	family	conjugates exactly like it
+firmar	afirmar	family	conjugates exactly like it
+incumplir	cumplir	family	conjugates exactly like it
+cumplir	incumplir	family	conjugates exactly like it
 desalojarse	alojarse	family	conjugates exactly like it
 alojarse	desalojarse	family	conjugates exactly like it
+compensar	pensar	family	looks related but conjugates differently
+pensar	compensar	family	looks related but conjugates differently
+inmigrar	migrar	family	conjugates exactly like it
+migrar	inmigrar	family	conjugates exactly like it
+sobreentenderse	entenderse	family	conjugates exactly like it
+entenderse	sobreentenderse	family	conjugates exactly like it
+preocuparse	ocuparse	family	conjugates exactly like it
+ocuparse	preocuparse	family	conjugates exactly like it
+comparar	parar	family	conjugates exactly like it
+parar	comparar	family	conjugates exactly like it
+sobreescribir	escribir	family	conjugates exactly like it
+escribir	sobreescribir	family	conjugates exactly like it
+desempeñar	empeñar	family	conjugates exactly like it
+empeñar	desempeñar	family	conjugates exactly like it
+comprender	prender	family	conjugates exactly like it
+prender	comprender	family	conjugates exactly like it
+recalentar	calentar	family	conjugates exactly like it
+calentar	recalentar	family	conjugates exactly like it
+conceder	ceder	family	conjugates exactly like it
+ceder	conceder	family	conjugates exactly like it
+desempacar	empacar	family	conjugates exactly like it
+empacar	desempacar	family	conjugates exactly like it
+sobreestimar	estimar	family	conjugates exactly like it
+estimar	sobreestimar	family	conjugates exactly like it
+desabrochar	abrochar	family	conjugates exactly like it
+abrochar	desabrochar	family	conjugates exactly like it
+suponer	poner	family	conjugates exactly like it
+poner	suponer	family	conjugates exactly like it
+abordar	bordar	family	conjugates exactly like it
+bordar	abordar	family	conjugates exactly like it
+contratar	tratar	family	conjugates exactly like it
+tratar	contratar	family	conjugates exactly like it
+reponer	poner	family	conjugates exactly like it
+poner	reponer	family	conjugates exactly like it
+anegarse	negarse	family	conjugates exactly like it
+negarse	anegarse	family	conjugates exactly like it
+anotar	notar	family	conjugates exactly like it
+notar	anotar	family	conjugates exactly like it
+delegar	legar	family	conjugates exactly like it
+legar	delegar	family	conjugates exactly like it
+predecir	decir	family	conjugates exactly like it
+decir	predecir	family	conjugates exactly like it
+aprobar	probar	family	conjugates exactly like it
+probar	aprobar	family	conjugates exactly like it
+conjugar	jugar	family	looks related but conjugates differently
+jugar	conjugar	family	looks related but conjugates differently
+proceder	ceder	family	conjugates exactly like it
+ceder	proceder	family	conjugates exactly like it
+exculpar	culpar	family	conjugates exactly like it
+culpar	exculpar	family	conjugates exactly like it
+rehabilitar	habilitar	family	conjugates exactly like it
+habilitar	rehabilitar	family	conjugates exactly like it
+desenvolver	envolver	family	conjugates exactly like it
+envolver	desenvolver	family	conjugates exactly like it
+componer	poner	family	conjugates exactly like it
+poner	componer	family	conjugates exactly like it
+revivir	vivir	family	conjugates exactly like it
+vivir	revivir	family	conjugates exactly like it
+sostener	tener	family	conjugates exactly like it
+tener	sostener	family	conjugates exactly like it
+mantener	tener	family	conjugates exactly like it
+tener	mantener	family	conjugates exactly like it
+sobrevolar	volar	family	conjugates exactly like it
+volar	sobrevolar	family	conjugates exactly like it
+connotar	notar	family	conjugates exactly like it
+notar	connotar	family	conjugates exactly like it
+desaparecer	aparecer	family	conjugates exactly like it
+aparecer	desaparecer	family	conjugates exactly like it
+posponerse	ponerse	family	conjugates exactly like it
+ponerse	posponerse	family	conjugates exactly like it
+desatender	atender	family	conjugates exactly like it
+atender	desatender	family	conjugates exactly like it
+derogar	rogar	family	looks related but conjugates differently
+rogar	derogar	family	looks related but conjugates differently
+desgravar	gravar	family	conjugates exactly like it
+gravar	desgravar	family	conjugates exactly like it
+desocupar	ocupar	family	conjugates exactly like it
+ocupar	desocupar	family	conjugates exactly like it
+descuidar	cuidar	family	conjugates exactly like it
+cuidar	descuidar	family	conjugates exactly like it
+disponerse	ponerse	family	conjugates exactly like it
+ponerse	disponerse	family	conjugates exactly like it
+recostar	costar	family	conjugates exactly like it
+costar	recostar	family	conjugates exactly like it
+demandar	mandar	family	conjugates exactly like it
+mandar	demandar	family	conjugates exactly like it
+malinterpretar	interpretar	family	conjugates exactly like it
+interpretar	malinterpretar	family	conjugates exactly like it
+conseguir	seguir	family	conjugates exactly like it
+seguir	conseguir	family	conjugates exactly like it
+rebajar	bajar	family	conjugates exactly like it
+bajar	rebajar	family	conjugates exactly like it
+desdoblar	doblar	family	conjugates exactly like it
+doblar	desdoblar	family	conjugates exactly like it
+distraer	traer	family	conjugates exactly like it
+traer	distraer	family	conjugates exactly like it
+decaer	caer	family	conjugates exactly like it
+caer	decaer	family	conjugates exactly like it
+rebatir	batir	family	conjugates exactly like it
+batir	rebatir	family	conjugates exactly like it
+desinstalar	instalar	family	conjugates exactly like it
+instalar	desinstalar	family	conjugates exactly like it
+desentenderse	entenderse	family	conjugates exactly like it
+entenderse	desentenderse	family	conjugates exactly like it
+acercar	cercar	family	conjugates exactly like it
+cercar	acercar	family	conjugates exactly like it
+representar	presentar	family	conjugates exactly like it
+presentar	representar	family	conjugates exactly like it
+reformar	formar	family	conjugates exactly like it
+formar	reformar	family	conjugates exactly like it
+degustar	gustar	family	conjugates exactly like it
+gustar	degustar	family	conjugates exactly like it
+revelar	velar	family	conjugates exactly like it
+velar	revelar	family	conjugates exactly like it
+predominar	dominar	family	conjugates exactly like it
+dominar	predominar	family	conjugates exactly like it
+sobrellevar	llevar	family	conjugates exactly like it
+llevar	sobrellevar	family	conjugates exactly like it
+incitar	citar	family	conjugates exactly like it
+citar	incitar	family	conjugates exactly like it
+encerrar	cerrar	family	conjugates exactly like it
+cerrar	encerrar	family	conjugates exactly like it
+descentrarse	centrarse	family	conjugates exactly like it
+centrarse	descentrarse	family	conjugates exactly like it
+disculpar	culpar	family	conjugates exactly like it
+culpar	disculpar	family	conjugates exactly like it
+detener	tener	family	conjugates exactly like it
+tener	detener	family	conjugates exactly like it
+atender	tender	family	conjugates exactly like it
+tender	atender	family	conjugates exactly like it
+despedir	pedir	family	conjugates exactly like it
+pedir	despedir	family	conjugates exactly like it
+componerse	ponerse	family	conjugates exactly like it
+ponerse	componerse	family	conjugates exactly like it
+reprobar	probar	family	conjugates exactly like it
+probar	reprobar	family	conjugates exactly like it
+descubrir	cubrir	family	conjugates exactly like it
+cubrir	descubrir	family	conjugates exactly like it
+descalificar	calificar	family	conjugates exactly like it
+calificar	descalificar	family	conjugates exactly like it
+indisponerse	disponerse	family	conjugates exactly like it
+disponerse	indisponerse	family	conjugates exactly like it
+prevenir	venir	family	conjugates exactly like it
+venir	prevenir	family	conjugates exactly like it
+desatar	atar	family	conjugates exactly like it
+atar	desatar	family	conjugates exactly like it
+pretender	tender	family	looks related but conjugates differently
+tender	pretender	family	looks related but conjugates differently
+desanimar	animar	family	conjugates exactly like it
+animar	desanimar	family	conjugates exactly like it
+reconocer	conocer	family	conjugates exactly like it
+conocer	reconocer	family	conjugates exactly like it
+encargarse	cargarse	family	conjugates exactly like it
+cargarse	encargarse	family	conjugates exactly like it
+comprobarse	probarse	family	conjugates exactly like it
+probarse	comprobarse	family	conjugates exactly like it
+acostar	costar	family	conjugates exactly like it
+costar	acostar	family	conjugates exactly like it
+devolverse	volverse	family	conjugates exactly like it
+volverse	devolverse	family	conjugates exactly like it
+refinanciar	financiar	family	conjugates exactly like it
+financiar	refinanciar	family	conjugates exactly like it
+condecorar	decorar	family	conjugates exactly like it
+decorar	condecorar	family	conjugates exactly like it
+perdonar	donar	family	conjugates exactly like it
+donar	perdonar	family	conjugates exactly like it
+desaprobar	aprobar	family	conjugates exactly like it
+aprobar	desaprobar	family	conjugates exactly like it
+preocupar	ocupar	family	conjugates exactly like it
+ocupar	preocupar	family	conjugates exactly like it
+perseguir	seguir	family	conjugates exactly like it
+seguir	perseguir	family	conjugates exactly like it
+agravar	gravar	family	conjugates exactly like it
+gravar	agravar	family	conjugates exactly like it
+desilusionarse	ilusionarse	family	conjugates exactly like it
+ilusionarse	desilusionarse	family	conjugates exactly like it
+reparar	parar	family	conjugates exactly like it
+parar	reparar	family	conjugates exactly like it
+desafinar	afinar	family	conjugates exactly like it
+afinar	desafinar	family	conjugates exactly like it
+comportarse	portarse	family	conjugates exactly like it
+portarse	comportarse	family	conjugates exactly like it
+preparar	parar	family	conjugates exactly like it
+parar	preparar	family	conjugates exactly like it
+denegar	negar	family	conjugates exactly like it
+negar	denegar	family	conjugates exactly like it
+inculpar	culpar	family	conjugates exactly like it
+culpar	inculpar	family	conjugates exactly like it
+desgastar	gastar	family	conjugates exactly like it
+gastar	desgastar	family	conjugates exactly like it
+reintegrar	integrar	family	conjugates exactly like it
+integrar	reintegrar	family	conjugates exactly like it
+recobrar	cobrar	family	conjugates exactly like it
+cobrar	recobrar	family	conjugates exactly like it
+enderezar	rezar	family	conjugates exactly like it
+rezar	enderezar	family	conjugates exactly like it
+retirar	tirar	family	conjugates exactly like it
+tirar	retirar	family	conjugates exactly like it
+desmentir	mentir	family	conjugates exactly like it
+mentir	desmentir	family	conjugates exactly like it
+aprender	prender	family	conjugates exactly like it
+prender	aprender	family	conjugates exactly like it
+reprender	prender	family	conjugates exactly like it
+prender	reprender	family	conjugates exactly like it
+compartir	partir	family	conjugates exactly like it
+partir	compartir	family	conjugates exactly like it
+aprobarse	probarse	family	conjugates exactly like it
+probarse	aprobarse	family	conjugates exactly like it
+apagar	pagar	family	conjugates exactly like it
+pagar	apagar	family	conjugates exactly like it
+entender	tender	family	conjugates exactly like it
+tender	entender	family	conjugates exactly like it
+resurgir	surgir	family	conjugates exactly like it
+surgir	resurgir	family	conjugates exactly like it
+desacatar	acatar	family	conjugates exactly like it
+acatar	desacatar	family	conjugates exactly like it
+configurar	figurar	family	conjugates exactly like it
+figurar	configurar	family	conjugates exactly like it
+descomprimir	comprimir	family	conjugates exactly like it
+comprimir	descomprimir	family	conjugates exactly like it
+remediar	mediar	family	conjugates exactly like it
+mediar	remediar	family	conjugates exactly like it
+recorrer	correr	family	conjugates exactly like it
+correr	recorrer	family	conjugates exactly like it
+confirmar	firmar	family	conjugates exactly like it
+firmar	confirmar	family	conjugates exactly like it
+impedir	pedir	family	conjugates exactly like it
+pedir	impedir	family	conjugates exactly like it
+encubrir	cubrir	family	conjugates exactly like it
+cubrir	encubrir	family	conjugates exactly like it
+retomar	tomar	family	conjugates exactly like it
+tomar	retomar	family	conjugates exactly like it
+recitar	citar	family	conjugates exactly like it
+citar	recitar	family	conjugates exactly like it
+demoler	moler	family	conjugates exactly like it
+moler	demoler	family	conjugates exactly like it
+posponer	poner	family	conjugates exactly like it
+poner	posponer	family	conjugates exactly like it
+asaltar	saltar	family	conjugates exactly like it
+saltar	asaltar	family	conjugates exactly like it
+desayunar	ayunar	family	conjugates exactly like it
+ayunar	desayunar	family	conjugates exactly like it
+repartir	partir	family	conjugates exactly like it
+partir	repartir	family	conjugates exactly like it
+malgastar	gastar	family	conjugates exactly like it
+gastar	malgastar	family	conjugates exactly like it
+sonreír	reír	family	conjugates exactly like it
+reír	sonreír	family	conjugates exactly like it
+subestimar	estimar	family	conjugates exactly like it
+estimar	subestimar	family	conjugates exactly like it
+bendecir	decir	family	conjugates exactly like it
+decir	bendecir	family	conjugates exactly like it
+pervivir	vivir	family	conjugates exactly like it
+vivir	pervivir	family	conjugates exactly like it
+presentar	sentar	family	looks related but conjugates differently
+sentar	presentar	family	looks related but conjugates differently
+descansar	cansar	family	conjugates exactly like it
+cansar	descansar	family	conjugates exactly like it
+aparecer	parecer	family	conjugates exactly like it
+parecer	aparecer	family	conjugates exactly like it
+apelar	pelar	family	conjugates exactly like it
+pelar	apelar	family	conjugates exactly like it
+recargarse	cargarse	family	conjugates exactly like it
+cargarse	recargarse	family	conjugates exactly like it
+repasar	pasar	family	conjugates exactly like it
+pasar	repasar	family	conjugates exactly like it
+reponerse	ponerse	family	conjugates exactly like it
+ponerse	reponerse	family	conjugates exactly like it
+imponerse	ponerse	family	conjugates exactly like it
+ponerse	imponerse	family	conjugates exactly like it
+revolver	volver	family	conjugates exactly like it
+volver	revolver	family	conjugates exactly like it
+sobrevivir	vivir	family	conjugates exactly like it
+vivir	sobrevivir	family	conjugates exactly like it
+deshacerse	hacerse	family	conjugates exactly like it
+hacerse	deshacerse	family	conjugates exactly like it
+comprobar	probar	family	conjugates exactly like it
+probar	comprobar	family	conjugates exactly like it
+reproducir	producir	family	conjugates exactly like it
+producir	reproducir	family	conjugates exactly like it
+prometerse	meterse	family	conjugates exactly like it
+meterse	prometerse	family	conjugates exactly like it
+expedir	pedir	family	conjugates exactly like it
+pedir	expedir	family	conjugates exactly like it
+desequilibrar	equilibrar	family	conjugates exactly like it
+equilibrar	desequilibrar	family	conjugates exactly like it
+contradecir	decir	family	conjugates exactly like it
+decir	contradecir	family	conjugates exactly like it
+desaprovechar	aprovechar	family	conjugates exactly like it
+aprovechar	desaprovechar	family	conjugates exactly like it
+retener	tener	family	conjugates exactly like it
+tener	retener	family	conjugates exactly like it
+subsanar	sanar	family	conjugates exactly like it
+sanar	subsanar	family	conjugates exactly like it
+desembarcar	embarcar	family	conjugates exactly like it
+embarcar	desembarcar	family	conjugates exactly like it
+exponer	poner	family	conjugates exactly like it
+poner	exponer	family	conjugates exactly like it
+descongelar	congelar	family	conjugates exactly like it
+congelar	descongelar	family	conjugates exactly like it
+subastar	bastar	family	conjugates exactly like it
+bastar	subastar	family	conjugates exactly like it
+exterminar	terminar	family	conjugates exactly like it
+terminar	exterminar	family	conjugates exactly like it
+provenir	venir	family	conjugates exactly like it
+venir	provenir	family	conjugates exactly like it
 llegar	hablar	pattern	conjugates like hablar
 pasar	hablar	pattern	conjugates like hablar
 deber	comer	pattern	conjugates like comer
@@ -2222,530 +2222,530 @@ agravar	hablar	pattern	conjugates like hablar
 solucionarse	hablar	pattern	conjugates like hablar
 resolverse	resolver	pattern	conjugates like resolver
 dominar	hablar	pattern	conjugates like hablar
-improvisarse	improvisar	reflexive	the plain form
-improvisar	improvisarse	reflexive	the reflexive form, often a shift in meaning
-cotizarse	cotizar	reflexive	the plain form
-cotizar	cotizarse	reflexive	the reflexive form, often a shift in meaning
-capacitarse	capacitar	reflexive	the plain form
-capacitar	capacitarse	reflexive	the reflexive form, often a shift in meaning
-reclamarse	reclamar	reflexive	the plain form
-reclamar	reclamarse	reflexive	the reflexive form, often a shift in meaning
-parecerse	parecer	reflexive	the plain form
-parecer	parecerse	reflexive	the reflexive form, often a shift in meaning
-rodearse	rodear	reflexive	the plain form
-rodear	rodearse	reflexive	the reflexive form, often a shift in meaning
-volverse	volver	reflexive	the plain form
-volver	volverse	reflexive	the reflexive form, often a shift in meaning
-apresurarse	apresurar	reflexive	the plain form
-apresurar	apresurarse	reflexive	the reflexive form, often a shift in meaning
-acostumbrarse	acostumbrar	reflexive	the plain form
-acostumbrar	acostumbrarse	reflexive	the reflexive form, often a shift in meaning
-escucharse	escuchar	reflexive	the plain form
-escuchar	escucharse	reflexive	the reflexive form, often a shift in meaning
-quebrarse	quebrar	reflexive	the plain form
-quebrar	quebrarse	reflexive	the reflexive form, often a shift in meaning
-frenarse	frenar	reflexive	the plain form
-frenar	frenarse	reflexive	the reflexive form, often a shift in meaning
-aplaudirse	aplaudir	reflexive	the plain form
-aplaudir	aplaudirse	reflexive	the reflexive form, often a shift in meaning
-murmurarse	murmurar	reflexive	the plain form
-murmurar	murmurarse	reflexive	the reflexive form, often a shift in meaning
-compadecerse	compadecer	reflexive	the plain form
-compadecer	compadecerse	reflexive	the reflexive form, often a shift in meaning
-indexarse	indexar	reflexive	the plain form
-indexar	indexarse	reflexive	the reflexive form, often a shift in meaning
-empatarse	empatar	reflexive	the plain form
-empatar	empatarse	reflexive	the reflexive form, often a shift in meaning
-inscribirse	inscribir	reflexive	the plain form
-inscribir	inscribirse	reflexive	the reflexive form, often a shift in meaning
-brindarse	brindar	reflexive	the plain form
-brindar	brindarse	reflexive	the reflexive form, often a shift in meaning
-financiarse	financiar	reflexive	the plain form
-financiar	financiarse	reflexive	the reflexive form, often a shift in meaning
-adherirse	adherir	reflexive	the plain form
-adherir	adherirse	reflexive	the reflexive form, often a shift in meaning
-visitarse	visitar	reflexive	the plain form
-visitar	visitarse	reflexive	the reflexive form, often a shift in meaning
-cargarse	cargar	reflexive	the plain form
-cargar	cargarse	reflexive	the reflexive form, often a shift in meaning
-verificarse	verificar	reflexive	the plain form
-verificar	verificarse	reflexive	the reflexive form, often a shift in meaning
-extrañarse	extrañar	reflexive	the plain form
-extrañar	extrañarse	reflexive	the reflexive form, often a shift in meaning
-ponerse	poner	reflexive	the plain form
-poner	ponerse	reflexive	the reflexive form, often a shift in meaning
-clasificarse	clasificar	reflexive	the plain form
-clasificar	clasificarse	reflexive	the reflexive form, often a shift in meaning
-cortarse	cortar	reflexive	the plain form
-cortar	cortarse	reflexive	the reflexive form, often a shift in meaning
-resumirse	resumir	reflexive	the plain form
-resumir	resumirse	reflexive	the reflexive form, often a shift in meaning
-festejarse	festejar	reflexive	the plain form
-festejar	festejarse	reflexive	the reflexive form, often a shift in meaning
-esclarecerse	esclarecer	reflexive	the plain form
-esclarecer	esclarecerse	reflexive	the reflexive form, often a shift in meaning
-empadronarse	empadronar	reflexive	the plain form
-empadronar	empadronarse	reflexive	the reflexive form, often a shift in meaning
-asegurarse	asegurar	reflexive	the plain form
-asegurar	asegurarse	reflexive	the reflexive form, often a shift in meaning
-devolverse	devolver	reflexive	the plain form
-devolver	devolverse	reflexive	the reflexive form, often a shift in meaning
-emocionarse	emocionar	reflexive	the plain form
-emocionar	emocionarse	reflexive	the reflexive form, often a shift in meaning
-destaparse	destapar	reflexive	the plain form
-destapar	destaparse	reflexive	the reflexive form, often a shift in meaning
-realizarse	realizar	reflexive	the plain form
-realizar	realizarse	reflexive	the reflexive form, often a shift in meaning
-deberse	deber	reflexive	the plain form
-deber	deberse	reflexive	the reflexive form, often a shift in meaning
-jurarse	jurar	reflexive	the plain form
-jurar	jurarse	reflexive	the reflexive form, often a shift in meaning
-emitirse	emitir	reflexive	the plain form
-emitir	emitirse	reflexive	the reflexive form, often a shift in meaning
 resolverse	resolver	reflexive	the plain form
 resolver	resolverse	reflexive	the reflexive form, often a shift in meaning
-deducirse	deducir	reflexive	the plain form
-deducir	deducirse	reflexive	the reflexive form, often a shift in meaning
-deletrearse	deletrear	reflexive	the plain form
-deletrear	deletrearse	reflexive	the reflexive form, often a shift in meaning
+timbrarse	timbrar	reflexive	the plain form
+timbrar	timbrarse	reflexive	the reflexive form, often a shift in meaning
+agradecerse	agradecer	reflexive	the plain form
+agradecer	agradecerse	reflexive	the reflexive form, often a shift in meaning
+murmurarse	murmurar	reflexive	the plain form
+murmurar	murmurarse	reflexive	the reflexive form, often a shift in meaning
+etiquetarse	etiquetar	reflexive	the plain form
+etiquetar	etiquetarse	reflexive	the reflexive form, often a shift in meaning
+quemarse	quemar	reflexive	the plain form
+quemar	quemarse	reflexive	the reflexive form, often a shift in meaning
+ordenarse	ordenar	reflexive	the plain form
+ordenar	ordenarse	reflexive	the reflexive form, often a shift in meaning
+abrazarse	abrazar	reflexive	the plain form
+abrazar	abrazarse	reflexive	the reflexive form, often a shift in meaning
+cumplirse	cumplir	reflexive	the plain form
+cumplir	cumplirse	reflexive	the reflexive form, often a shift in meaning
+extinguirse	extinguir	reflexive	the plain form
+extinguir	extinguirse	reflexive	the reflexive form, often a shift in meaning
+integrarse	integrar	reflexive	the plain form
+integrar	integrarse	reflexive	the reflexive form, often a shift in meaning
+homologarse	homologar	reflexive	the plain form
+homologar	homologarse	reflexive	the reflexive form, often a shift in meaning
+depurarse	depurar	reflexive	the plain form
+depurar	depurarse	reflexive	the reflexive form, often a shift in meaning
+ayudarse	ayudar	reflexive	the plain form
+ayudar	ayudarse	reflexive	the reflexive form, often a shift in meaning
+producirse	producir	reflexive	the plain form
+producir	producirse	reflexive	the reflexive form, often a shift in meaning
+descubrirse	descubrir	reflexive	the plain form
+descubrir	descubrirse	reflexive	the reflexive form, often a shift in meaning
+liquidarse	liquidar	reflexive	the plain form
+liquidar	liquidarse	reflexive	the reflexive form, often a shift in meaning
+rodearse	rodear	reflexive	the plain form
+rodear	rodearse	reflexive	the reflexive form, often a shift in meaning
+pesarse	pesar	reflexive	the plain form
+pesar	pesarse	reflexive	the reflexive form, often a shift in meaning
+filtrarse	filtrar	reflexive	the plain form
+filtrar	filtrarse	reflexive	the reflexive form, often a shift in meaning
+resumirse	resumir	reflexive	the plain form
+resumir	resumirse	reflexive	the reflexive form, often a shift in meaning
+acatarse	acatar	reflexive	the plain form
+acatar	acatarse	reflexive	the reflexive form, often a shift in meaning
+acompañarse	acompañar	reflexive	the plain form
+acompañar	acompañarse	reflexive	the reflexive form, often a shift in meaning
 empeñarse	empeñar	reflexive	the plain form
 empeñar	empeñarse	reflexive	the reflexive form, often a shift in meaning
+restablecerse	restablecer	reflexive	the plain form
+restablecer	restablecerse	reflexive	the reflexive form, often a shift in meaning
+empatarse	empatar	reflexive	the plain form
+empatar	empatarse	reflexive	the reflexive form, often a shift in meaning
+juntarse	juntar	reflexive	the plain form
+juntar	juntarse	reflexive	the reflexive form, often a shift in meaning
+negarse	negar	reflexive	the plain form
+negar	negarse	reflexive	the reflexive form, often a shift in meaning
+aclararse	aclarar	reflexive	the plain form
+aclarar	aclararse	reflexive	the reflexive form, often a shift in meaning
+rendirse	rendir	reflexive	the plain form
+rendir	rendirse	reflexive	the reflexive form, often a shift in meaning
+entrenarse	entrenar	reflexive	the plain form
+entrenar	entrenarse	reflexive	the reflexive form, often a shift in meaning
+sosegarse	sosegar	reflexive	the plain form
+sosegar	sosegarse	reflexive	the reflexive form, often a shift in meaning
+empadronarse	empadronar	reflexive	the plain form
+empadronar	empadronarse	reflexive	the reflexive form, often a shift in meaning
+aburrirse	aburrir	reflexive	the plain form
+aburrir	aburrirse	reflexive	the reflexive form, often a shift in meaning
+oírse	oír	reflexive	the plain form
+oír	oírse	reflexive	the reflexive form, often a shift in meaning
+evaporarse	evaporar	reflexive	the plain form
+evaporar	evaporarse	reflexive	the reflexive form, often a shift in meaning
+derivarse	derivar	reflexive	the plain form
+derivar	derivarse	reflexive	the reflexive form, often a shift in meaning
+perderse	perder	reflexive	the plain form
+perder	perderse	reflexive	the reflexive form, often a shift in meaning
+enojarse	enojar	reflexive	the plain form
+enojar	enojarse	reflexive	the reflexive form, often a shift in meaning
+abonarse	abonar	reflexive	the plain form
+abonar	abonarse	reflexive	the reflexive form, often a shift in meaning
+exigirse	exigir	reflexive	the plain form
+exigir	exigirse	reflexive	the reflexive form, often a shift in meaning
+invertirse	invertir	reflexive	the plain form
+invertir	invertirse	reflexive	the reflexive form, often a shift in meaning
+interrumpirse	interrumpir	reflexive	the plain form
+interrumpir	interrumpirse	reflexive	the reflexive form, often a shift in meaning
+volverse	volver	reflexive	the plain form
+volver	volverse	reflexive	the reflexive form, often a shift in meaning
+postularse	postular	reflexive	the plain form
+postular	postularse	reflexive	the reflexive form, often a shift in meaning
+acostumbrarse	acostumbrar	reflexive	the plain form
+acostumbrar	acostumbrarse	reflexive	the reflexive form, often a shift in meaning
+despertarse	despertar	reflexive	the plain form
+despertar	despertarse	reflexive	the reflexive form, often a shift in meaning
+amasarse	amasar	reflexive	the plain form
+amasar	amasarse	reflexive	the reflexive form, often a shift in meaning
+investigarse	investigar	reflexive	the plain form
+investigar	investigarse	reflexive	the reflexive form, often a shift in meaning
+aprovecharse	aprovechar	reflexive	the plain form
+aprovechar	aprovecharse	reflexive	the reflexive form, often a shift in meaning
+hospedarse	hospedar	reflexive	the plain form
+hospedar	hospedarse	reflexive	the reflexive form, often a shift in meaning
+levantarse	levantar	reflexive	the plain form
+levantar	levantarse	reflexive	the reflexive form, often a shift in meaning
+tramitarse	tramitar	reflexive	the plain form
+tramitar	tramitarse	reflexive	the reflexive form, often a shift in meaning
+corresponderse	corresponder	reflexive	the plain form
+corresponder	corresponderse	reflexive	the reflexive form, often a shift in meaning
+desalojarse	desalojar	reflexive	the plain form
+desalojar	desalojarse	reflexive	the reflexive form, often a shift in meaning
+preocuparse	preocupar	reflexive	the plain form
+preocupar	preocuparse	reflexive	the reflexive form, often a shift in meaning
+allanarse	allanar	reflexive	the plain form
+allanar	allanarse	reflexive	the reflexive form, often a shift in meaning
+anticiparse	anticipar	reflexive	the plain form
+anticipar	anticiparse	reflexive	the reflexive form, often a shift in meaning
+verificarse	verificar	reflexive	the plain form
+verificar	verificarse	reflexive	the reflexive form, often a shift in meaning
+financiarse	financiar	reflexive	the plain form
+financiar	financiarse	reflexive	the reflexive form, often a shift in meaning
+presentarse	presentar	reflexive	the plain form
+presentar	presentarse	reflexive	the reflexive form, often a shift in meaning
+cobrarse	cobrar	reflexive	the plain form
+cobrar	cobrarse	reflexive	the reflexive form, often a shift in meaning
 firmarse	firmar	reflexive	the plain form
 firmar	firmarse	reflexive	the reflexive form, often a shift in meaning
-estirarse	estirar	reflexive	the plain form
-estirar	estirarse	reflexive	the reflexive form, often a shift in meaning
+presupuestarse	presupuestar	reflexive	the plain form
+presupuestar	presupuestarse	reflexive	the reflexive form, often a shift in meaning
+grabarse	grabar	reflexive	the plain form
+grabar	grabarse	reflexive	the reflexive form, often a shift in meaning
+emitirse	emitir	reflexive	the plain form
+emitir	emitirse	reflexive	the reflexive form, often a shift in meaning
+conservarse	conservar	reflexive	the plain form
+conservar	conservarse	reflexive	the reflexive form, often a shift in meaning
+atravesarse	atravesar	reflexive	the plain form
+atravesar	atravesarse	reflexive	the reflexive form, often a shift in meaning
+despegarse	despegar	reflexive	the plain form
+despegar	despegarse	reflexive	the reflexive form, often a shift in meaning
+tratarse	tratar	reflexive	the plain form
+tratar	tratarse	reflexive	the reflexive form, often a shift in meaning
+demorarse	demorar	reflexive	the plain form
+demorar	demorarse	reflexive	the reflexive form, often a shift in meaning
+enfocarse	enfocar	reflexive	the plain form
+enfocar	enfocarse	reflexive	the reflexive form, often a shift in meaning
+convertirse	convertir	reflexive	the plain form
+convertir	convertirse	reflexive	the reflexive form, often a shift in meaning
+mudarse	mudar	reflexive	the plain form
+mudar	mudarse	reflexive	the reflexive form, often a shift in meaning
+torcerse	torcer	reflexive	the plain form
+torcer	torcerse	reflexive	the reflexive form, often a shift in meaning
+conmemorarse	conmemorar	reflexive	the plain form
+conmemorar	conmemorarse	reflexive	the reflexive form, often a shift in meaning
+reconocerse	reconocer	reflexive	the plain form
+reconocer	reconocerse	reflexive	the reflexive form, often a shift in meaning
+separarse	separar	reflexive	the plain form
+separar	separarse	reflexive	the reflexive form, often a shift in meaning
+destaparse	destapar	reflexive	the plain form
+destapar	destaparse	reflexive	the reflexive form, often a shift in meaning
+disolverse	disolver	reflexive	the plain form
+disolver	disolverse	reflexive	the reflexive form, often a shift in meaning
+adjuntarse	adjuntar	reflexive	the plain form
+adjuntar	adjuntarse	reflexive	the reflexive form, often a shift in meaning
+navegarse	navegar	reflexive	the plain form
+navegar	navegarse	reflexive	the reflexive form, often a shift in meaning
+jubilarse	jubilar	reflexive	the plain form
+jubilar	jubilarse	reflexive	the reflexive form, often a shift in meaning
+expandirse	expandir	reflexive	the plain form
+expandir	expandirse	reflexive	the reflexive form, often a shift in meaning
+hervirse	hervir	reflexive	the plain form
+hervir	hervirse	reflexive	the reflexive form, often a shift in meaning
+provocarse	provocar	reflexive	the plain form
+provocar	provocarse	reflexive	the reflexive form, often a shift in meaning
+programarse	programar	reflexive	the plain form
+programar	programarse	reflexive	the reflexive form, often a shift in meaning
+despedirse	despedir	reflexive	the plain form
+despedir	despedirse	reflexive	the reflexive form, often a shift in meaning
 posponerse	posponer	reflexive	the plain form
 posponer	posponerse	reflexive	the reflexive form, often a shift in meaning
 fijarse	fijar	reflexive	the plain form
 fijar	fijarse	reflexive	the reflexive form, often a shift in meaning
-conservarse	conservar	reflexive	the plain form
-conservar	conservarse	reflexive	the reflexive form, often a shift in meaning
-casarse	casar	reflexive	the plain form
-casar	casarse	reflexive	the reflexive form, often a shift in meaning
-animarse	animar	reflexive	the plain form
-animar	animarse	reflexive	the reflexive form, often a shift in meaning
-meterse	meter	reflexive	the plain form
-meter	meterse	reflexive	the reflexive form, often a shift in meaning
-caerse	caer	reflexive	the plain form
-caer	caerse	reflexive	the reflexive form, often a shift in meaning
-criticarse	criticar	reflexive	the plain form
-criticar	criticarse	reflexive	the reflexive form, often a shift in meaning
-gestionarse	gestionar	reflexive	the plain form
-gestionar	gestionarse	reflexive	the reflexive form, often a shift in meaning
-amanecerse	amanecer	reflexive	the plain form
-amanecer	amanecerse	reflexive	the reflexive form, often a shift in meaning
-grabarse	grabar	reflexive	the plain form
-grabar	grabarse	reflexive	the reflexive form, often a shift in meaning
-retrasarse	retrasar	reflexive	the plain form
-retrasar	retrasarse	reflexive	the reflexive form, often a shift in meaning
-puntualizarse	puntualizar	reflexive	the plain form
-puntualizar	puntualizarse	reflexive	the reflexive form, often a shift in meaning
-mejorarse	mejorar	reflexive	the plain form
-mejorar	mejorarse	reflexive	the reflexive form, often a shift in meaning
-saludarse	saludar	reflexive	the plain form
-saludar	saludarse	reflexive	the reflexive form, often a shift in meaning
-estabilizarse	estabilizar	reflexive	the plain form
-estabilizar	estabilizarse	reflexive	the reflexive form, often a shift in meaning
-presupuestarse	presupuestar	reflexive	the plain form
-presupuestar	presupuestarse	reflexive	the reflexive form, often a shift in meaning
-quemarse	quemar	reflexive	the plain form
-quemar	quemarse	reflexive	the reflexive form, often a shift in meaning
-sosegarse	sosegar	reflexive	the plain form
-sosegar	sosegarse	reflexive	the reflexive form, often a shift in meaning
-prevenirse	prevenir	reflexive	the plain form
-prevenir	prevenirse	reflexive	the reflexive form, often a shift in meaning
-disolverse	disolver	reflexive	the plain form
-disolver	disolverse	reflexive	the reflexive form, often a shift in meaning
 arriesgarse	arriesgar	reflexive	the plain form
 arriesgar	arriesgarse	reflexive	the reflexive form, often a shift in meaning
-colgarse	colgar	reflexive	the plain form
-colgar	colgarse	reflexive	the reflexive form, often a shift in meaning
-deteriorarse	deteriorar	reflexive	the plain form
-deteriorar	deteriorarse	reflexive	the reflexive form, often a shift in meaning
-servirse	servir	reflexive	the plain form
-servir	servirse	reflexive	the reflexive form, often a shift in meaning
-permitirse	permitir	reflexive	the plain form
-permitir	permitirse	reflexive	the reflexive form, often a shift in meaning
-mudarse	mudar	reflexive	the plain form
-mudar	mudarse	reflexive	the reflexive form, often a shift in meaning
-ayudarse	ayudar	reflexive	the plain form
-ayudar	ayudarse	reflexive	the reflexive form, often a shift in meaning
-suscribirse	suscribir	reflexive	the plain form
-suscribir	suscribirse	reflexive	the reflexive form, often a shift in meaning
-rendirse	rendir	reflexive	the plain form
-rendir	rendirse	reflexive	the reflexive form, often a shift in meaning
-enfocarse	enfocar	reflexive	the plain form
-enfocar	enfocarse	reflexive	the reflexive form, often a shift in meaning
-aclararse	aclarar	reflexive	the plain form
-aclarar	aclararse	reflexive	the reflexive form, often a shift in meaning
-corregirse	corregir	reflexive	the plain form
-corregir	corregirse	reflexive	the reflexive form, often a shift in meaning
-premiarse	premiar	reflexive	the plain form
-premiar	premiarse	reflexive	the reflexive form, often a shift in meaning
-vencerse	vencer	reflexive	the plain form
-vencer	vencerse	reflexive	the reflexive form, often a shift in meaning
-llorarse	llorar	reflexive	the plain form
-llorar	llorarse	reflexive	the reflexive form, often a shift in meaning
-amasarse	amasar	reflexive	the plain form
-amasar	amasarse	reflexive	the reflexive form, often a shift in meaning
-despedirse	despedir	reflexive	the plain form
-despedir	despedirse	reflexive	the reflexive form, often a shift in meaning
-acatarse	acatar	reflexive	the plain form
-acatar	acatarse	reflexive	the reflexive form, often a shift in meaning
-inundarse	inundar	reflexive	the plain form
-inundar	inundarse	reflexive	the reflexive form, often a shift in meaning
-dormirse	dormir	reflexive	the plain form
-dormir	dormirse	reflexive	the reflexive form, often a shift in meaning
-homologarse	homologar	reflexive	the plain form
-homologar	homologarse	reflexive	the reflexive form, often a shift in meaning
-prometerse	prometer	reflexive	the plain form
-prometer	prometerse	reflexive	the reflexive form, often a shift in meaning
-reconocerse	reconocer	reflexive	the plain form
-reconocer	reconocerse	reflexive	the reflexive form, often a shift in meaning
-conmemorarse	conmemorar	reflexive	the plain form
-conmemorar	conmemorarse	reflexive	the reflexive form, often a shift in meaning
-depurarse	depurar	reflexive	the plain form
-depurar	depurarse	reflexive	the reflexive form, often a shift in meaning
-abastecerse	abastecer	reflexive	the plain form
-abastecer	abastecerse	reflexive	the reflexive form, often a shift in meaning
-agradecerse	agradecer	reflexive	the plain form
-agradecer	agradecerse	reflexive	the reflexive form, often a shift in meaning
-agravarse	agravar	reflexive	the plain form
-agravar	agravarse	reflexive	the reflexive form, often a shift in meaning
-negociarse	negociar	reflexive	the plain form
-negociar	negociarse	reflexive	the reflexive form, often a shift in meaning
-rechazarse	rechazar	reflexive	the plain form
-rechazar	rechazarse	reflexive	the reflexive form, often a shift in meaning
-encenderse	encender	reflexive	the plain form
-encender	encenderse	reflexive	the reflexive form, often a shift in meaning
-exigirse	exigir	reflexive	the plain form
-exigir	exigirse	reflexive	the reflexive form, often a shift in meaning
-referirse	referir	reflexive	the plain form
-referir	referirse	reflexive	the reflexive form, often a shift in meaning
-timbrarse	timbrar	reflexive	the plain form
-timbrar	timbrarse	reflexive	the reflexive form, often a shift in meaning
-cumplirse	cumplir	reflexive	the plain form
-cumplir	cumplirse	reflexive	the reflexive form, often a shift in meaning
-programarse	programar	reflexive	the plain form
-programar	programarse	reflexive	the reflexive form, often a shift in meaning
-pronunciarse	pronunciar	reflexive	the plain form
-pronunciar	pronunciarse	reflexive	the reflexive form, often a shift in meaning
-separarse	separar	reflexive	the plain form
-separar	separarse	reflexive	the reflexive form, often a shift in meaning
-despegarse	despegar	reflexive	the plain form
-despegar	despegarse	reflexive	the reflexive form, often a shift in meaning
-sustituirse	sustituir	reflexive	the plain form
-sustituir	sustituirse	reflexive	the reflexive form, often a shift in meaning
-resarcirse	resarcir	reflexive	the plain form
-resarcir	resarcirse	reflexive	the reflexive form, often a shift in meaning
-demorarse	demorar	reflexive	the plain form
-demorar	demorarse	reflexive	the reflexive form, often a shift in meaning
-aburrirse	aburrir	reflexive	the plain form
-aburrir	aburrirse	reflexive	the reflexive form, often a shift in meaning
-solucionarse	solucionar	reflexive	the plain form
-solucionar	solucionarse	reflexive	the reflexive form, often a shift in meaning
-compensarse	compensar	reflexive	the plain form
-compensar	compensarse	reflexive	the reflexive form, often a shift in meaning
-entrenarse	entrenar	reflexive	the plain form
-entrenar	entrenarse	reflexive	the reflexive form, often a shift in meaning
-orientarse	orientar	reflexive	the plain form
-orientar	orientarse	reflexive	the reflexive form, often a shift in meaning
-repartirse	repartir	reflexive	the plain form
-repartir	repartirse	reflexive	the reflexive form, often a shift in meaning
-congelarse	congelar	reflexive	the plain form
-congelar	congelarse	reflexive	the reflexive form, often a shift in meaning
-significarse	significar	reflexive	the plain form
-significar	significarse	reflexive	the reflexive form, often a shift in meaning
-reiniciarse	reiniciar	reflexive	the plain form
-reiniciar	reiniciarse	reflexive	the reflexive form, often a shift in meaning
-remolcarse	remolcar	reflexive	the plain form
-remolcar	remolcarse	reflexive	the reflexive form, often a shift in meaning
-aprovecharse	aprovechar	reflexive	the plain form
-aprovechar	aprovecharse	reflexive	the reflexive form, often a shift in meaning
 caducarse	caducar	reflexive	the plain form
 caducar	caducarse	reflexive	the reflexive form, often a shift in meaning
-interrumpirse	interrumpir	reflexive	the plain form
-interrumpir	interrumpirse	reflexive	the reflexive form, often a shift in meaning
-componerse	componer	reflexive	the plain form
-componer	componerse	reflexive	the reflexive form, often a shift in meaning
-advertirse	advertir	reflexive	the plain form
-advertir	advertirse	reflexive	the reflexive form, often a shift in meaning
-reponerse	reponer	reflexive	the plain form
-reponer	reponerse	reflexive	the reflexive form, often a shift in meaning
-rescindirse	rescindir	reflexive	the plain form
-rescindir	rescindirse	reflexive	the reflexive form, often a shift in meaning
-limitarse	limitar	reflexive	the plain form
-limitar	limitarse	reflexive	the reflexive form, often a shift in meaning
-acompañarse	acompañar	reflexive	the plain form
-acompañar	acompañarse	reflexive	the reflexive form, often a shift in meaning
-filtrarse	filtrar	reflexive	the plain form
-filtrar	filtrarse	reflexive	the reflexive form, often a shift in meaning
-aprobarse	aprobar	reflexive	the plain form
-aprobar	aprobarse	reflexive	the reflexive form, often a shift in meaning
-celebrarse	celebrar	reflexive	the plain form
-celebrar	celebrarse	reflexive	the reflexive form, often a shift in meaning
-consultarse	consultar	reflexive	the plain form
-consultar	consultarse	reflexive	the reflexive form, often a shift in meaning
-heredarse	heredar	reflexive	the plain form
-heredar	heredarse	reflexive	the reflexive form, often a shift in meaning
-abonarse	abonar	reflexive	the plain form
-abonar	abonarse	reflexive	the reflexive form, often a shift in meaning
-ubicarse	ubicar	reflexive	the plain form
-ubicar	ubicarse	reflexive	the reflexive form, often a shift in meaning
-excederse	exceder	reflexive	the plain form
-exceder	excederse	reflexive	the reflexive form, often a shift in meaning
-hervirse	hervir	reflexive	the plain form
-hervir	hervirse	reflexive	the reflexive form, often a shift in meaning
-asustarse	asustar	reflexive	the plain form
-asustar	asustarse	reflexive	the reflexive form, often a shift in meaning
-divertirse	divertir	reflexive	the plain form
-divertir	divertirse	reflexive	the reflexive form, often a shift in meaning
-jubilarse	jubilar	reflexive	the plain form
-jubilar	jubilarse	reflexive	the reflexive form, often a shift in meaning
-descansarse	descansar	reflexive	the plain form
-descansar	descansarse	reflexive	the reflexive form, often a shift in meaning
-doblarse	doblar	reflexive	the plain form
-doblar	doblarse	reflexive	the reflexive form, often a shift in meaning
-expandirse	expandir	reflexive	the plain form
-expandir	expandirse	reflexive	the reflexive form, often a shift in meaning
-despertarse	despertar	reflexive	the plain form
-despertar	despertarse	reflexive	the reflexive form, often a shift in meaning
-preocuparse	preocupar	reflexive	the plain form
-preocupar	preocuparse	reflexive	the reflexive form, often a shift in meaning
-gastarse	gastar	reflexive	the plain form
-gastar	gastarse	reflexive	the reflexive form, often a shift in meaning
-consolarse	consolar	reflexive	the plain form
-consolar	consolarse	reflexive	the reflexive form, often a shift in meaning
-entenderse	entender	reflexive	the plain form
-entender	entenderse	reflexive	the reflexive form, often a shift in meaning
-reciclarse	reciclar	reflexive	the plain form
-reciclar	reciclarse	reflexive	the reflexive form, often a shift in meaning
-derogarse	derogar	reflexive	the plain form
-derogar	derogarse	reflexive	the reflexive form, often a shift in meaning
-empaparse	empapar	reflexive	the plain form
-empapar	empaparse	reflexive	the reflexive form, often a shift in meaning
-rescatarse	rescatar	reflexive	the plain form
-rescatar	rescatarse	reflexive	the reflexive form, often a shift in meaning
-prorrogarse	prorrogar	reflexive	the plain form
-prorrogar	prorrogarse	reflexive	the reflexive form, often a shift in meaning
-pasarse	pasar	reflexive	the plain form
-pasar	pasarse	reflexive	the reflexive form, often a shift in meaning
-odiarse	odiar	reflexive	the plain form
-odiar	odiarse	reflexive	the reflexive form, often a shift in meaning
-insistirse	insistir	reflexive	the plain form
-insistir	insistirse	reflexive	the reflexive form, often a shift in meaning
-trasnocharse	trasnochar	reflexive	the plain form
-trasnochar	trasnocharse	reflexive	the reflexive form, often a shift in meaning
-juntarse	juntar	reflexive	the plain form
-juntar	juntarse	reflexive	the reflexive form, often a shift in meaning
-denunciarse	denunciar	reflexive	the plain form
-denunciar	denunciarse	reflexive	the reflexive form, often a shift in meaning
-tratarse	tratar	reflexive	the plain form
-tratar	tratarse	reflexive	the reflexive form, often a shift in meaning
-ocuparse	ocupar	reflexive	the plain form
-ocupar	ocuparse	reflexive	the reflexive form, often a shift in meaning
-silenciarse	silenciar	reflexive	the plain form
-silenciar	silenciarse	reflexive	the reflexive form, often a shift in meaning
-quedarse	quedar	reflexive	the plain form
-quedar	quedarse	reflexive	the reflexive form, often a shift in meaning
-perderse	perder	reflexive	the plain form
-perder	perderse	reflexive	the reflexive form, often a shift in meaning
-derivarse	derivar	reflexive	the plain form
-derivar	derivarse	reflexive	the reflexive form, often a shift in meaning
-registrarse	registrar	reflexive	the plain form
-registrar	registrarse	reflexive	the reflexive form, often a shift in meaning
-mezclarse	mezclar	reflexive	the plain form
-mezclar	mezclarse	reflexive	the reflexive form, often a shift in meaning
-traducirse	traducir	reflexive	the plain form
-traducir	traducirse	reflexive	the reflexive form, often a shift in meaning
-levantarse	levantar	reflexive	the plain form
-levantar	levantarse	reflexive	the reflexive form, often a shift in meaning
-evaporarse	evaporar	reflexive	the plain form
-evaporar	evaporarse	reflexive	the reflexive form, often a shift in meaning
-respaldarse	respaldar	reflexive	the plain form
-respaldar	respaldarse	reflexive	the reflexive form, often a shift in meaning
-cobrarse	cobrar	reflexive	the plain form
-cobrar	cobrarse	reflexive	the reflexive form, often a shift in meaning
-avergonzarse	avergonzar	reflexive	the plain form
-avergonzar	avergonzarse	reflexive	the reflexive form, often a shift in meaning
-enamorarse	enamorar	reflexive	the plain form
-enamorar	enamorarse	reflexive	the reflexive form, often a shift in meaning
-acordarse	acordar	reflexive	the plain form
-acordar	acordarse	reflexive	the reflexive form, often a shift in meaning
-reírse	reír	reflexive	the plain form
-reír	reírse	reflexive	the reflexive form, often a shift in meaning
-atravesarse	atravesar	reflexive	the plain form
-atravesar	atravesarse	reflexive	the reflexive form, often a shift in meaning
-hacerse	hacer	reflexive	the plain form
-hacer	hacerse	reflexive	the reflexive form, often a shift in meaning
-ocultarse	ocultar	reflexive	the plain form
-ocultar	ocultarse	reflexive	the reflexive form, often a shift in meaning
-etiquetarse	etiquetar	reflexive	the plain form
-etiquetar	etiquetarse	reflexive	the reflexive form, often a shift in meaning
-medirse	medir	reflexive	the plain form
-medir	medirse	reflexive	the reflexive form, often a shift in meaning
-peregrinarse	peregrinar	reflexive	the plain form
-peregrinar	peregrinarse	reflexive	the reflexive form, often a shift in meaning
-disculparse	disculpar	reflexive	the plain form
-disculpar	disculparse	reflexive	the reflexive form, often a shift in meaning
-resistirse	resistir	reflexive	the plain form
-resistir	resistirse	reflexive	the reflexive form, often a shift in meaning
-pesarse	pesar	reflexive	the plain form
-pesar	pesarse	reflexive	the reflexive form, often a shift in meaning
-llevarse	llevar	reflexive	the plain form
-llevar	llevarse	reflexive	the reflexive form, often a shift in meaning
-transferirse	transferir	reflexive	the plain form
-transferir	transferirse	reflexive	the reflexive form, often a shift in meaning
-oírse	oír	reflexive	the plain form
-oír	oírse	reflexive	the reflexive form, often a shift in meaning
-integrarse	integrar	reflexive	the plain form
-integrar	integrarse	reflexive	the reflexive form, often a shift in meaning
-actualizarse	actualizar	reflexive	the plain form
-actualizar	actualizarse	reflexive	the reflexive form, often a shift in meaning
-apagarse	apagar	reflexive	the plain form
-apagar	apagarse	reflexive	the reflexive form, often a shift in meaning
 duplicarse	duplicar	reflexive	the plain form
 duplicar	duplicarse	reflexive	the reflexive form, often a shift in meaning
-decidirse	decidir	reflexive	the plain form
-decidir	decidirse	reflexive	the reflexive form, often a shift in meaning
-allanarse	allanar	reflexive	the plain form
-allanar	allanarse	reflexive	the reflexive form, often a shift in meaning
-tramitarse	tramitar	reflexive	the plain form
-tramitar	tramitarse	reflexive	the reflexive form, often a shift in meaning
-ordenarse	ordenar	reflexive	the plain form
-ordenar	ordenarse	reflexive	the reflexive form, often a shift in meaning
-torcerse	torcer	reflexive	the plain form
-torcer	torcerse	reflexive	the reflexive form, often a shift in meaning
-secarse	secar	reflexive	the plain form
-secar	secarse	reflexive	the reflexive form, often a shift in meaning
-dispersarse	dispersar	reflexive	the plain form
-dispersar	dispersarse	reflexive	the reflexive form, often a shift in meaning
-armarse	armar	reflexive	the plain form
-armar	armarse	reflexive	the reflexive form, often a shift in meaning
-navegarse	navegar	reflexive	the plain form
-navegar	navegarse	reflexive	the reflexive form, often a shift in meaning
-prepararse	preparar	reflexive	the plain form
-preparar	prepararse	reflexive	the reflexive form, often a shift in meaning
-redondearse	redondear	reflexive	the plain form
-redondear	redondearse	reflexive	the reflexive form, often a shift in meaning
-convertirse	convertir	reflexive	the plain form
-convertir	convertirse	reflexive	the reflexive form, often a shift in meaning
-admirarse	admirar	reflexive	the plain form
-admirar	admirarse	reflexive	the reflexive form, often a shift in meaning
-apoyarse	apoyar	reflexive	the plain form
-apoyar	apoyarse	reflexive	the reflexive form, often a shift in meaning
-descuidarse	descuidar	reflexive	the plain form
-descuidar	descuidarse	reflexive	the reflexive form, often a shift in meaning
-endeudarse	endeudar	reflexive	the plain form
-endeudar	endeudarse	reflexive	the reflexive form, often a shift in meaning
-derretirse	derretir	reflexive	the plain form
-derretir	derretirse	reflexive	the reflexive form, often a shift in meaning
-ensayarse	ensayar	reflexive	the plain form
-ensayar	ensayarse	reflexive	the reflexive form, often a shift in meaning
-enojarse	enojar	reflexive	the plain form
-enojar	enojarse	reflexive	the reflexive form, often a shift in meaning
-acentuarse	acentuar	reflexive	the plain form
-acentuar	acentuarse	reflexive	the reflexive form, often a shift in meaning
-archivarse	archivar	reflexive	the plain form
-archivar	archivarse	reflexive	the reflexive form, often a shift in meaning
-comprobarse	comprobar	reflexive	the plain form
-comprobar	comprobarse	reflexive	the reflexive form, often a shift in meaning
-corresponderse	corresponder	reflexive	the plain form
-corresponder	corresponderse	reflexive	the reflexive form, often a shift in meaning
-postularse	postular	reflexive	the plain form
-postular	postularse	reflexive	the reflexive form, often a shift in meaning
-restablecerse	restablecer	reflexive	the plain form
-restablecer	restablecerse	reflexive	the reflexive form, often a shift in meaning
-fallarse	fallar	reflexive	the plain form
-fallar	fallarse	reflexive	the reflexive form, often a shift in meaning
-adelantarse	adelantar	reflexive	the plain form
-adelantar	adelantarse	reflexive	the reflexive form, often a shift in meaning
-hospedarse	hospedar	reflexive	the plain form
-hospedar	hospedarse	reflexive	the reflexive form, often a shift in meaning
-abrazarse	abrazar	reflexive	the plain form
-abrazar	abrazarse	reflexive	the reflexive form, often a shift in meaning
-anticiparse	anticipar	reflexive	the plain form
-anticipar	anticiparse	reflexive	the reflexive form, often a shift in meaning
-liquidarse	liquidar	reflexive	the plain form
-liquidar	liquidarse	reflexive	the reflexive form, often a shift in meaning
-burlarse	burlar	reflexive	the plain form
-burlar	burlarse	reflexive	the reflexive form, often a shift in meaning
-probarse	probar	reflexive	the plain form
-probar	probarse	reflexive	the reflexive form, often a shift in meaning
-descubrirse	descubrir	reflexive	the plain form
-descubrir	descubrirse	reflexive	the reflexive form, often a shift in meaning
-reunirse	reunir	reflexive	the plain form
-reunir	reunirse	reflexive	the reflexive form, often a shift in meaning
-amontonarse	amontonar	reflexive	the plain form
-amontonar	amontonarse	reflexive	the reflexive form, often a shift in meaning
-alternarse	alternar	reflexive	the plain form
-alternar	alternarse	reflexive	the reflexive form, often a shift in meaning
-cruzarse	cruzar	reflexive	the plain form
-cruzar	cruzarse	reflexive	the reflexive form, often a shift in meaning
-compartirse	compartir	reflexive	the plain form
-compartir	compartirse	reflexive	the reflexive form, often a shift in meaning
-superarse	superar	reflexive	the plain form
-superar	superarse	reflexive	the reflexive form, often a shift in meaning
-enfriarse	enfriar	reflexive	the plain form
-enfriar	enfriarse	reflexive	the reflexive form, often a shift in meaning
-notificarse	notificar	reflexive	the plain form
-notificar	notificarse	reflexive	the reflexive form, often a shift in meaning
-empeorarse	empeorar	reflexive	the plain form
-empeorar	empeorarse	reflexive	the reflexive form, often a shift in meaning
-provocarse	provocar	reflexive	the plain form
-provocar	provocarse	reflexive	the reflexive form, often a shift in meaning
-recalentarse	recalentar	reflexive	the plain form
-recalentar	recalentarse	reflexive	the reflexive form, often a shift in meaning
-tardarse	tardar	reflexive	the plain form
-tardar	tardarse	reflexive	the reflexive form, often a shift in meaning
-congregarse	congregar	reflexive	the plain form
-congregar	congregarse	reflexive	the reflexive form, often a shift in meaning
-extinguirse	extinguir	reflexive	the plain form
-extinguir	extinguirse	reflexive	the reflexive form, often a shift in meaning
-recostarse	recostar	reflexive	the plain form
-recostar	recostarse	reflexive	the reflexive form, often a shift in meaning
-recuperarse	recuperar	reflexive	the plain form
-recuperar	recuperarse	reflexive	the reflexive form, often a shift in meaning
-presentarse	presentar	reflexive	the plain form
-presentar	presentarse	reflexive	the reflexive form, often a shift in meaning
-quejarse	quejar	reflexive	the plain form
-quejar	quejarse	reflexive	the reflexive form, often a shift in meaning
-adjuntarse	adjuntar	reflexive	the plain form
-adjuntar	adjuntarse	reflexive	the reflexive form, often a shift in meaning
-producirse	producir	reflexive	the plain form
-producir	producirse	reflexive	the reflexive form, often a shift in meaning
-respetarse	respetar	reflexive	the plain form
-respetar	respetarse	reflexive	the reflexive form, often a shift in meaning
-invertirse	invertir	reflexive	the plain form
-invertir	invertirse	reflexive	the reflexive form, often a shift in meaning
-renovarse	renovar	reflexive	the plain form
-renovar	renovarse	reflexive	the reflexive form, often a shift in meaning
-arrastrarse	arrastrar	reflexive	the plain form
-arrastrar	arrastrarse	reflexive	the reflexive form, often a shift in meaning
-perdonarse	perdonar	reflexive	the plain form
-perdonar	perdonarse	reflexive	the reflexive form, often a shift in meaning
-someterse	someter	reflexive	the plain form
-someter	someterse	reflexive	the reflexive form, often a shift in meaning
-confiarse	confiar	reflexive	the plain form
-confiar	confiarse	reflexive	the reflexive form, often a shift in meaning
-elogiarse	elogiar	reflexive	the plain form
-elogiar	elogiarse	reflexive	the reflexive form, often a shift in meaning
+estirarse	estirar	reflexive	the plain form
+estirar	estirarse	reflexive	the reflexive form, often a shift in meaning
+deberse	deber	reflexive	the plain form
+deber	deberse	reflexive	the reflexive form, often a shift in meaning
+inundarse	inundar	reflexive	the plain form
+inundar	inundarse	reflexive	the reflexive form, often a shift in meaning
+congelarse	congelar	reflexive	the plain form
+congelar	congelarse	reflexive	the reflexive form, often a shift in meaning
+cargarse	cargar	reflexive	the plain form
+cargar	cargarse	reflexive	the reflexive form, often a shift in meaning
+hacerse	hacer	reflexive	the plain form
+hacer	hacerse	reflexive	the reflexive form, often a shift in meaning
+escucharse	escuchar	reflexive	the plain form
+escuchar	escucharse	reflexive	the reflexive form, often a shift in meaning
 flotarse	flotar	reflexive	the plain form
 flotar	flotarse	reflexive	the reflexive form, often a shift in meaning
-negarse	negar	reflexive	the plain form
-negar	negarse	reflexive	the reflexive form, often a shift in meaning
-encargarse	encargar	reflexive	the plain form
-encargar	encargarse	reflexive	the reflexive form, often a shift in meaning
-investigarse	investigar	reflexive	the plain form
-investigar	investigarse	reflexive	the reflexive form, often a shift in meaning
-instalarse	instalar	reflexive	the plain form
-instalar	instalarse	reflexive	the reflexive form, often a shift in meaning
-canjearse	canjear	reflexive	the plain form
-canjear	canjearse	reflexive	the reflexive form, often a shift in meaning
+compartirse	compartir	reflexive	the plain form
+compartir	compartirse	reflexive	the reflexive form, often a shift in meaning
+perdonarse	perdonar	reflexive	the plain form
+perdonar	perdonarse	reflexive	the reflexive form, often a shift in meaning
+excederse	exceder	reflexive	the plain form
+exceder	excederse	reflexive	the reflexive form, often a shift in meaning
+llorarse	llorar	reflexive	the plain form
+llorar	llorarse	reflexive	the reflexive form, often a shift in meaning
+acentuarse	acentuar	reflexive	the plain form
+acentuar	acentuarse	reflexive	the reflexive form, often a shift in meaning
+armarse	armar	reflexive	the plain form
+armar	armarse	reflexive	the reflexive form, often a shift in meaning
+burlarse	burlar	reflexive	the plain form
+burlar	burlarse	reflexive	the reflexive form, often a shift in meaning
+heredarse	heredar	reflexive	the plain form
+heredar	heredarse	reflexive	the reflexive form, often a shift in meaning
+abastecerse	abastecer	reflexive	the plain form
+abastecer	abastecerse	reflexive	the reflexive form, often a shift in meaning
+rescindirse	rescindir	reflexive	the plain form
+rescindir	rescindirse	reflexive	the reflexive form, often a shift in meaning
+transferirse	transferir	reflexive	the plain form
+transferir	transferirse	reflexive	the reflexive form, often a shift in meaning
+estabilizarse	estabilizar	reflexive	the plain form
+estabilizar	estabilizarse	reflexive	the reflexive form, often a shift in meaning
 arreglarse	arreglar	reflexive	the plain form
 arreglar	arreglarse	reflexive	the reflexive form, often a shift in meaning
-desalojarse	desalojar	reflexive	the plain form
-desalojar	desalojarse	reflexive	the reflexive form, often a shift in meaning
+redondearse	redondear	reflexive	the plain form
+redondear	redondearse	reflexive	the reflexive form, often a shift in meaning
+corregirse	corregir	reflexive	the plain form
+corregir	corregirse	reflexive	the reflexive form, often a shift in meaning
+deletrearse	deletrear	reflexive	the plain form
+deletrear	deletrearse	reflexive	the reflexive form, often a shift in meaning
+brindarse	brindar	reflexive	the plain form
+brindar	brindarse	reflexive	the reflexive form, often a shift in meaning
+recuperarse	recuperar	reflexive	the plain form
+recuperar	recuperarse	reflexive	the reflexive form, often a shift in meaning
+dispersarse	dispersar	reflexive	the plain form
+dispersar	dispersarse	reflexive	the reflexive form, often a shift in meaning
+peregrinarse	peregrinar	reflexive	the plain form
+peregrinar	peregrinarse	reflexive	the reflexive form, often a shift in meaning
+retrasarse	retrasar	reflexive	the plain form
+retrasar	retrasarse	reflexive	the reflexive form, often a shift in meaning
+descuidarse	descuidar	reflexive	the plain form
+descuidar	descuidarse	reflexive	the reflexive form, often a shift in meaning
+asegurarse	asegurar	reflexive	the plain form
+asegurar	asegurarse	reflexive	the reflexive form, often a shift in meaning
+compadecerse	compadecer	reflexive	the plain form
+compadecer	compadecerse	reflexive	the reflexive form, often a shift in meaning
+componerse	componer	reflexive	the plain form
+componer	componerse	reflexive	the reflexive form, often a shift in meaning
+odiarse	odiar	reflexive	the plain form
+odiar	odiarse	reflexive	the reflexive form, often a shift in meaning
+reírse	reír	reflexive	the plain form
+reír	reírse	reflexive	the reflexive form, often a shift in meaning
+improvisarse	improvisar	reflexive	the plain form
+improvisar	improvisarse	reflexive	the reflexive form, often a shift in meaning
+prevenirse	prevenir	reflexive	the plain form
+prevenir	prevenirse	reflexive	the reflexive form, often a shift in meaning
+colgarse	colgar	reflexive	the plain form
+colgar	colgarse	reflexive	the reflexive form, often a shift in meaning
+entenderse	entender	reflexive	the plain form
+entender	entenderse	reflexive	the reflexive form, often a shift in meaning
+someterse	someter	reflexive	the plain form
+someter	someterse	reflexive	the reflexive form, often a shift in meaning
+enamorarse	enamorar	reflexive	the plain form
+enamorar	enamorarse	reflexive	the reflexive form, often a shift in meaning
+divertirse	divertir	reflexive	the plain form
+divertir	divertirse	reflexive	the reflexive form, often a shift in meaning
+medirse	medir	reflexive	the plain form
+medir	medirse	reflexive	the reflexive form, often a shift in meaning
+indexarse	indexar	reflexive	the plain form
+indexar	indexarse	reflexive	the reflexive form, often a shift in meaning
+encargarse	encargar	reflexive	the plain form
+encargar	encargarse	reflexive	the reflexive form, often a shift in meaning
+negociarse	negociar	reflexive	the plain form
+negociar	negociarse	reflexive	the reflexive form, often a shift in meaning
+dormirse	dormir	reflexive	the plain form
+dormir	dormirse	reflexive	the reflexive form, often a shift in meaning
+significarse	significar	reflexive	the plain form
+significar	significarse	reflexive	the reflexive form, often a shift in meaning
+comprobarse	comprobar	reflexive	the plain form
+comprobar	comprobarse	reflexive	the reflexive form, often a shift in meaning
+devolverse	devolver	reflexive	the plain form
+devolver	devolverse	reflexive	the reflexive form, often a shift in meaning
+premiarse	premiar	reflexive	the plain form
+premiar	premiarse	reflexive	the reflexive form, often a shift in meaning
+asustarse	asustar	reflexive	the plain form
+asustar	asustarse	reflexive	the reflexive form, often a shift in meaning
+quebrarse	quebrar	reflexive	the plain form
+quebrar	quebrarse	reflexive	the reflexive form, often a shift in meaning
+doblarse	doblar	reflexive	the plain form
+doblar	doblarse	reflexive	the reflexive form, often a shift in meaning
+consultarse	consultar	reflexive	the plain form
+consultar	consultarse	reflexive	the reflexive form, often a shift in meaning
+notificarse	notificar	reflexive	the plain form
+notificar	notificarse	reflexive	the reflexive form, often a shift in meaning
+actualizarse	actualizar	reflexive	the plain form
+actualizar	actualizarse	reflexive	the reflexive form, often a shift in meaning
+caerse	caer	reflexive	the plain form
+caer	caerse	reflexive	the reflexive form, often a shift in meaning
+alternarse	alternar	reflexive	the plain form
+alternar	alternarse	reflexive	the reflexive form, often a shift in meaning
+apoyarse	apoyar	reflexive	the plain form
+apoyar	apoyarse	reflexive	the reflexive form, often a shift in meaning
+cortarse	cortar	reflexive	the plain form
+cortar	cortarse	reflexive	the reflexive form, often a shift in meaning
+puntualizarse	puntualizar	reflexive	the plain form
+puntualizar	puntualizarse	reflexive	the reflexive form, often a shift in meaning
+congregarse	congregar	reflexive	the plain form
+congregar	congregarse	reflexive	the reflexive form, often a shift in meaning
+prepararse	preparar	reflexive	the plain form
+preparar	prepararse	reflexive	the reflexive form, often a shift in meaning
+quejarse	quejar	reflexive	the plain form
+quejar	quejarse	reflexive	the reflexive form, often a shift in meaning
+empeorarse	empeorar	reflexive	the plain form
+empeorar	empeorarse	reflexive	the reflexive form, often a shift in meaning
+aplaudirse	aplaudir	reflexive	the plain form
+aplaudir	aplaudirse	reflexive	the reflexive form, often a shift in meaning
+resarcirse	resarcir	reflexive	the plain form
+resarcir	resarcirse	reflexive	the reflexive form, often a shift in meaning
+meterse	meter	reflexive	the plain form
+meter	meterse	reflexive	the reflexive form, often a shift in meaning
+criticarse	criticar	reflexive	the plain form
+criticar	criticarse	reflexive	the reflexive form, often a shift in meaning
+limitarse	limitar	reflexive	the plain form
+limitar	limitarse	reflexive	the reflexive form, often a shift in meaning
+deteriorarse	deteriorar	reflexive	the plain form
+deteriorar	deteriorarse	reflexive	the reflexive form, often a shift in meaning
+reunirse	reunir	reflexive	the plain form
+reunir	reunirse	reflexive	the reflexive form, often a shift in meaning
+permitirse	permitir	reflexive	the plain form
+permitir	permitirse	reflexive	the reflexive form, often a shift in meaning
+registrarse	registrar	reflexive	the plain form
+registrar	registrarse	reflexive	the reflexive form, often a shift in meaning
+rechazarse	rechazar	reflexive	the plain form
+rechazar	rechazarse	reflexive	the reflexive form, often a shift in meaning
+casarse	casar	reflexive	the plain form
+casar	casarse	reflexive	the reflexive form, often a shift in meaning
+canjearse	canjear	reflexive	the plain form
+canjear	canjearse	reflexive	the reflexive form, often a shift in meaning
+decidirse	decidir	reflexive	the plain form
+decidir	decidirse	reflexive	the reflexive form, often a shift in meaning
+mejorarse	mejorar	reflexive	the plain form
+mejorar	mejorarse	reflexive	the reflexive form, often a shift in meaning
+solucionarse	solucionar	reflexive	the plain form
+solucionar	solucionarse	reflexive	the reflexive form, often a shift in meaning
+saludarse	saludar	reflexive	the plain form
+saludar	saludarse	reflexive	the reflexive form, often a shift in meaning
+festejarse	festejar	reflexive	the plain form
+festejar	festejarse	reflexive	the reflexive form, often a shift in meaning
+acordarse	acordar	reflexive	the plain form
+acordar	acordarse	reflexive	the reflexive form, often a shift in meaning
+llevarse	llevar	reflexive	the plain form
+llevar	llevarse	reflexive	the reflexive form, often a shift in meaning
+secarse	secar	reflexive	the plain form
+secar	secarse	reflexive	the reflexive form, often a shift in meaning
+ubicarse	ubicar	reflexive	the plain form
+ubicar	ubicarse	reflexive	the reflexive form, often a shift in meaning
+aprobarse	aprobar	reflexive	the plain form
+aprobar	aprobarse	reflexive	the reflexive form, often a shift in meaning
+consolarse	consolar	reflexive	the plain form
+consolar	consolarse	reflexive	the reflexive form, often a shift in meaning
+cotizarse	cotizar	reflexive	the plain form
+cotizar	cotizarse	reflexive	the reflexive form, often a shift in meaning
+visitarse	visitar	reflexive	the plain form
+visitar	visitarse	reflexive	the reflexive form, often a shift in meaning
+celebrarse	celebrar	reflexive	the plain form
+celebrar	celebrarse	reflexive	the reflexive form, often a shift in meaning
+animarse	animar	reflexive	the plain form
+animar	animarse	reflexive	the reflexive form, often a shift in meaning
+archivarse	archivar	reflexive	the plain form
+archivar	archivarse	reflexive	the reflexive form, often a shift in meaning
+rescatarse	rescatar	reflexive	the plain form
+rescatar	rescatarse	reflexive	the reflexive form, often a shift in meaning
+recalentarse	recalentar	reflexive	the plain form
+recalentar	recalentarse	reflexive	the reflexive form, often a shift in meaning
+ensayarse	ensayar	reflexive	the plain form
+ensayar	ensayarse	reflexive	the reflexive form, often a shift in meaning
+emocionarse	emocionar	reflexive	the plain form
+emocionar	emocionarse	reflexive	the reflexive form, often a shift in meaning
+fallarse	fallar	reflexive	the plain form
+fallar	fallarse	reflexive	the reflexive form, often a shift in meaning
+vencerse	vencer	reflexive	the plain form
+vencer	vencerse	reflexive	the reflexive form, often a shift in meaning
+derretirse	derretir	reflexive	the plain form
+derretir	derretirse	reflexive	the reflexive form, often a shift in meaning
+trasnocharse	trasnochar	reflexive	the plain form
+trasnochar	trasnocharse	reflexive	the reflexive form, often a shift in meaning
+pronunciarse	pronunciar	reflexive	the plain form
+pronunciar	pronunciarse	reflexive	the reflexive form, often a shift in meaning
+prorrogarse	prorrogar	reflexive	the plain form
+prorrogar	prorrogarse	reflexive	the reflexive form, often a shift in meaning
+reciclarse	reciclar	reflexive	the plain form
+reciclar	reciclarse	reflexive	the reflexive form, often a shift in meaning
+arrastrarse	arrastrar	reflexive	the plain form
+arrastrar	arrastrarse	reflexive	the reflexive form, often a shift in meaning
+servirse	servir	reflexive	the plain form
+servir	servirse	reflexive	the reflexive form, often a shift in meaning
+pasarse	pasar	reflexive	the plain form
+pasar	pasarse	reflexive	the reflexive form, often a shift in meaning
+agravarse	agravar	reflexive	the plain form
+agravar	agravarse	reflexive	the reflexive form, often a shift in meaning
+sustituirse	sustituir	reflexive	the plain form
+sustituir	sustituirse	reflexive	the reflexive form, often a shift in meaning
+ponerse	poner	reflexive	the plain form
+poner	ponerse	reflexive	the reflexive form, often a shift in meaning
+suscribirse	suscribir	reflexive	the plain form
+suscribir	suscribirse	reflexive	the reflexive form, often a shift in meaning
+traducirse	traducir	reflexive	the plain form
+traducir	traducirse	reflexive	the reflexive form, often a shift in meaning
+parecerse	parecer	reflexive	the plain form
+parecer	parecerse	reflexive	the reflexive form, often a shift in meaning
+amanecerse	amanecer	reflexive	the plain form
+amanecer	amanecerse	reflexive	the reflexive form, often a shift in meaning
+respetarse	respetar	reflexive	the plain form
+respetar	respetarse	reflexive	the reflexive form, often a shift in meaning
+elogiarse	elogiar	reflexive	the plain form
+elogiar	elogiarse	reflexive	the reflexive form, often a shift in meaning
+adelantarse	adelantar	reflexive	the plain form
+adelantar	adelantarse	reflexive	the reflexive form, often a shift in meaning
+extrañarse	extrañar	reflexive	the plain form
+extrañar	extrañarse	reflexive	the reflexive form, often a shift in meaning
+apresurarse	apresurar	reflexive	the plain form
+apresurar	apresurarse	reflexive	the reflexive form, often a shift in meaning
+advertirse	advertir	reflexive	the plain form
+advertir	advertirse	reflexive	the reflexive form, often a shift in meaning
+avergonzarse	avergonzar	reflexive	the plain form
+avergonzar	avergonzarse	reflexive	the reflexive form, often a shift in meaning
+derogarse	derogar	reflexive	the plain form
+derogar	derogarse	reflexive	the reflexive form, often a shift in meaning
+mezclarse	mezclar	reflexive	the plain form
+mezclar	mezclarse	reflexive	the reflexive form, often a shift in meaning
+confiarse	confiar	reflexive	the plain form
+confiar	confiarse	reflexive	the reflexive form, often a shift in meaning
+respaldarse	respaldar	reflexive	the plain form
+respaldar	respaldarse	reflexive	the reflexive form, often a shift in meaning
+probarse	probar	reflexive	the plain form
+probar	probarse	reflexive	the reflexive form, often a shift in meaning
+silenciarse	silenciar	reflexive	the plain form
+silenciar	silenciarse	reflexive	the reflexive form, often a shift in meaning
+referirse	referir	reflexive	the plain form
+referir	referirse	reflexive	the reflexive form, often a shift in meaning
+cruzarse	cruzar	reflexive	the plain form
+cruzar	cruzarse	reflexive	the reflexive form, often a shift in meaning
+remolcarse	remolcar	reflexive	the plain form
+remolcar	remolcarse	reflexive	the reflexive form, often a shift in meaning
+descansarse	descansar	reflexive	the plain form
+descansar	descansarse	reflexive	the reflexive form, often a shift in meaning
+ocultarse	ocultar	reflexive	the plain form
+ocultar	ocultarse	reflexive	the reflexive form, often a shift in meaning
+tardarse	tardar	reflexive	the plain form
+tardar	tardarse	reflexive	the reflexive form, often a shift in meaning
+quedarse	quedar	reflexive	the plain form
+quedar	quedarse	reflexive	the reflexive form, often a shift in meaning
+frenarse	frenar	reflexive	the plain form
+frenar	frenarse	reflexive	the reflexive form, often a shift in meaning
+inscribirse	inscribir	reflexive	the plain form
+inscribir	inscribirse	reflexive	the reflexive form, often a shift in meaning
+instalarse	instalar	reflexive	the plain form
+instalar	instalarse	reflexive	the reflexive form, often a shift in meaning
+compensarse	compensar	reflexive	the plain form
+compensar	compensarse	reflexive	the reflexive form, often a shift in meaning
+reponerse	reponer	reflexive	the plain form
+reponer	reponerse	reflexive	the reflexive form, often a shift in meaning
+orientarse	orientar	reflexive	the plain form
+orientar	orientarse	reflexive	the reflexive form, often a shift in meaning
+ocuparse	ocupar	reflexive	the plain form
+ocupar	ocuparse	reflexive	the reflexive form, often a shift in meaning
+realizarse	realizar	reflexive	the plain form
+realizar	realizarse	reflexive	the reflexive form, often a shift in meaning
+admirarse	admirar	reflexive	the plain form
+admirar	admirarse	reflexive	the reflexive form, often a shift in meaning
+renovarse	renovar	reflexive	the plain form
+renovar	renovarse	reflexive	the reflexive form, often a shift in meaning
+empaparse	empapar	reflexive	the plain form
+empapar	empaparse	reflexive	the reflexive form, often a shift in meaning
+disculparse	disculpar	reflexive	the plain form
+disculpar	disculparse	reflexive	the reflexive form, often a shift in meaning
+reiniciarse	reiniciar	reflexive	the plain form
+reiniciar	reiniciarse	reflexive	the reflexive form, often a shift in meaning
+recostarse	recostar	reflexive	the plain form
+recostar	recostarse	reflexive	the reflexive form, often a shift in meaning
+amontonarse	amontonar	reflexive	the plain form
+amontonar	amontonarse	reflexive	the reflexive form, often a shift in meaning
+denunciarse	denunciar	reflexive	the plain form
+denunciar	denunciarse	reflexive	the reflexive form, often a shift in meaning
+endeudarse	endeudar	reflexive	the plain form
+endeudar	endeudarse	reflexive	the reflexive form, often a shift in meaning
+encenderse	encender	reflexive	the plain form
+encender	encenderse	reflexive	the reflexive form, often a shift in meaning
+prometerse	prometer	reflexive	the plain form
+prometer	prometerse	reflexive	the reflexive form, often a shift in meaning
+adherirse	adherir	reflexive	the plain form
+adherir	adherirse	reflexive	the reflexive form, often a shift in meaning
+capacitarse	capacitar	reflexive	the plain form
+capacitar	capacitarse	reflexive	the reflexive form, often a shift in meaning
+repartirse	repartir	reflexive	the plain form
+repartir	repartirse	reflexive	the reflexive form, often a shift in meaning
+resistirse	resistir	reflexive	the plain form
+resistir	resistirse	reflexive	the reflexive form, often a shift in meaning
+insistirse	insistir	reflexive	the plain form
+insistir	insistirse	reflexive	the reflexive form, often a shift in meaning
+reclamarse	reclamar	reflexive	the plain form
+reclamar	reclamarse	reflexive	the reflexive form, often a shift in meaning
+enfriarse	enfriar	reflexive	the plain form
+enfriar	enfriarse	reflexive	the reflexive form, often a shift in meaning
+gastarse	gastar	reflexive	the plain form
+gastar	gastarse	reflexive	the reflexive form, often a shift in meaning
+gestionarse	gestionar	reflexive	the plain form
+gestionar	gestionarse	reflexive	the reflexive form, often a shift in meaning
+esclarecerse	esclarecer	reflexive	the plain form
+esclarecer	esclarecerse	reflexive	the reflexive form, often a shift in meaning
+clasificarse	clasificar	reflexive	the plain form
+clasificar	clasificarse	reflexive	the reflexive form, often a shift in meaning
+superarse	superar	reflexive	the plain form
+superar	superarse	reflexive	the reflexive form, often a shift in meaning
+jurarse	jurar	reflexive	the plain form
+jurar	jurarse	reflexive	the reflexive form, often a shift in meaning
+deducirse	deducir	reflexive	the plain form
+deducir	deducirse	reflexive	the reflexive form, often a shift in meaning
+apagarse	apagar	reflexive	the plain form
+apagar	apagarse	reflexive	the reflexive form, often a shift in meaning
 poder	ayudar	takes-infinitive	poder + infinitive: «¿Podés ayudarme un momento?»
 querer	aprender	takes-infinitive	querer + infinitive: «Quiero aprender español rápido.»
 deber	ir	takes-infinitive	deber + infinitive: «Debo ir al banco mañana.»
@@ -2825,3 +2825,235 @@ ingeniarse	entrar	takes-infinitive	ingeniarse para + infinitive: «Se las ingeni
 armarse	defender	takes-infinitive	armarse para + infinitive: «Se armaron para defenderse.»
 rendirse a	pelear	takes-infinitive	rendirse sin + infinitive: «Se rindieron sin pelear.»
 demorarse en	contestar	takes-infinitive	demorarse en + infinitive: «Se demoró en contestar.»
+ser	estar	confusable	ser is what something IS; estar is how or where it is right now
+estar	ser	confusable	estar is the state or place; ser is the identity
+saber	conocer	confusable	saber is facts and skills: sé la respuesta, sé nadar
+conocer	saber	confusable	conocer is people and places you are acquainted with: conozco a Ana
+pedir	preguntar	confusable	pedir asks FOR a thing: pido un café
+preguntar	pedir	confusable	preguntar asks a question: pregunto dónde está
+tomar	llevar	confusable	tomar is taking hold of or drinking it
+llevar	tomar	confusable	llevar is carrying it with you somewhere
+llevar	traer	confusable	llevar carries away from where you are
+traer	llevar	confusable	traer brings toward where you are
+ir	venir	confusable	ir goes away from the speaker
+venir	ir	confusable	venir comes toward the speaker
+volver	devolver	confusable	volver is you going back
+devolver	volver	confusable	devolver is giving a thing back
+dejar	salir	confusable	dejar leaves a thing or person behind: dejé las llaves
+salir	dejar	confusable	salir is going out of a place: salí de casa
+jugar	tocar	confusable	jugar plays a game or sport
+tocar	jugar	confusable	tocar plays an instrument (and means to touch)
+ver	mirar	confusable	ver is seeing, whether you meant to or not
+mirar	ver	confusable	mirar is looking at on purpose
+oír	escuchar	confusable	oír is hearing, whether you meant to or not
+escuchar	oír	confusable	escuchar is listening on purpose
+decir	hablar	confusable	decir says words to someone: me dijo que sí
+hablar	decir	confusable	hablar is speaking or talking: hablo español
+decir	contar	confusable	decir reports what was said
+contar	decir	confusable	contar tells a story or recounts it
+gastar	pasar	confusable	gastar spends money
+pasar	gastar	confusable	pasar spends time: pasé dos horas allí
+guardar	ahorrar	confusable	guardar puts away and keeps
+ahorrar	guardar	confusable	ahorrar saves up money or effort
+guardar	salvar	confusable	guardar keeps or stores
+salvar	guardar	confusable	salvar rescues from danger
+conseguir	lograr	confusable	conseguir gets hold of a thing
+lograr	conseguir	confusable	lograr achieves an aim
+pensar	creer	confusable	pensar is the act of thinking it over
+creer	pensar	confusable	creer is holding an opinion or believing it
+esperar	querer	confusable	esperar is both waiting and hoping; context decides
+querer	esperar	confusable	querer is wanting outright
+realizar	hacer	confusable	false friend: realizar is to carry out, not to realise
+hacer	realizar	confusable	hacer is the everyday do or make
+asistir	ayudar	confusable	false friend: asistir is to attend, not to assist
+ayudar	asistir	confusable	ayudar is to help
+soportar	apoyar	confusable	false friend: soportar is to put up with
+apoyar	soportar	confusable	apoyar is to support a person or an idea
+intentar	probar	confusable	intentar is to attempt something
+probar	intentar	confusable	probar is to try it out or taste it
+funcionar	trabajar	confusable	funcionar is a machine working
+trabajar	funcionar	confusable	trabajar is a person working
+parecer	parecerse	confusable	parecer seems: parece difícil
+parecerse	parecer	confusable	parecerse looks like: se parece a su padre
+haber	tener	confusable	haber is the helper for perfect tenses, and hay = there is
+tener	haber	confusable	tener is to have as a possession
+hacer	hacerse	confusable	hacer makes or does
+hacerse	hacer	confusable	hacerse becomes, through your own doing
+poner	ponerse	confusable	poner puts a thing somewhere
+ponerse	poner	confusable	ponerse puts clothes on, or turns a sudden mood
+volver	volverse	confusable	volver returns
+volverse	volver	confusable	volverse turns into, usually unwillingly
+sacar	quitar	confusable	sacar takes something out of somewhere
+quitar	sacar	confusable	quitar removes or takes away from someone
+tomar	beber	confusable	tomar is the everyday word for drinking
+beber	tomar	confusable	beber is to drink, slightly more formal
+importar	interesar	confusable	importar is to matter to you
+interesar	importar	confusable	interesar is to be interesting to you
+gustar	querer	confusable	gustar is to be pleasing: me gusta
+querer	gustar	confusable	querer is to want, or to love a person
+querer	amar	confusable	querer is the ordinary love you say out loud
+amar	querer	confusable	amar is the weightier, more literary love
+deber	tener	confusable	deber + infinitive is a moral should
+tener	deber	confusable	tener que + infinitive is a practical have to
+poder	saber	confusable	poder is can as in allowed or able right now
+saber	poder	confusable	saber is can as in knows how
+buscar	encontrar	confusable	buscar is the searching
+encontrar	buscar	confusable	encontrar is the finding
+olvidar	recordar	confusable	olvidar forgets
+recordar	olvidar	confusable	recordar remembers, and also reminds someone
+acordar	acordarse	confusable	acordar is to agree on something
+acordarse	acordar	confusable	acordarse de is to remember it
+despertar	despertarse	confusable	despertar wakes someone else
+despertarse	despertar	confusable	despertarse is you waking up
+dormir	dormirse	confusable	dormir is to sleep
+dormirse	dormir	confusable	dormirse is to fall asleep
+ir	irse	confusable	ir goes to a place
+irse	ir	confusable	irse is leaving, with no destination needed
+empezar	comenzar	confusable	empezar is the everyday start
+comenzar	empezar	confusable	comenzar is the same, a touch more formal
+acabar	terminar	confusable	acabar finishes, and acabar de means to have just done
+terminar	acabar	confusable	terminar finishes off
+seguir	continuar	confusable	seguir keeps on, and also follows
+continuar	seguir	confusable	continuar continues, more formal
+andar	caminar	confusable	andar is to go about, and works for machines too
+caminar	andar	confusable	caminar is walking on foot
+regresar	volver	confusable	regresar returns, common in the Americas
+volver	regresar	confusable	volver is the everyday return
+responder	contestar	confusable	responder answers or responds
+contestar	responder	confusable	contestar answers, the everyday word
+mostrar	enseñar	confusable	mostrar shows
+enseñar	mostrar	confusable	enseñar teaches, and also shows
+quedar	quedarse	confusable	quedar is to be left, to arrange to meet, or how clothes fit
+quedarse	quedar	confusable	quedarse is to stay put
+levantar	levantarse	confusable	levantar lifts something
+levantarse	levantar	confusable	levantarse is you getting up
+casar	casarse	confusable	casar marries two people, as the official does
+casarse	casar	confusable	casarse is to get married
+perder	perderse	confusable	perder loses a thing or a game
+perderse	perder	confusable	perderse is getting lost, or missing out on
+subir	bajar	opposite	up: subir a go up, climb, get on, raise
+bajar	subir	opposite	down: bajar go down, get off, lower
+entrar	salir	opposite	in
+salir	entrar	opposite	out
+abrir	cerrar	opposite	open
+cerrar	abrir	opposite	close
+encender	apagar	opposite	switch on, light
+apagar	encender	opposite	switch off, put out
+empezar	terminar	opposite	start
+terminar	empezar	opposite	finish
+comenzar	acabar	opposite	begin
+acabar	comenzar	opposite	end
+llegar	salir	opposite	arrive
+salir	llegar	opposite	depart
+dar	recibir	opposite	give
+recibir	dar	opposite	receive
+comprar	vender	opposite	buy
+vender	comprar	opposite	sell
+ganar	perder	opposite	win, earn
+perder	ganar	opposite	lose
+ahorrar	gastar	opposite	save up
+gastar	ahorrar	opposite	spend
+recordar	olvidar	opposite	remember
+olvidar	recordar	opposite	forget
+dormir	despertar	opposite	sleep
+despertar	dormir	opposite	wake
+levantar	acostar	opposite	raise, get up
+acostar	levantar	opposite	lay down, put to bed
+nacer	morir	opposite	be born
+morir	nacer	opposite	die
+vivir	morir	opposite	live
+morir	vivir	opposite	die
+reír	llorar	opposite	laugh
+llorar	reír	opposite	cry
+amar	odiar	opposite	love
+odiar	amar	opposite	hate
+preguntar	responder	opposite	ask
+responder	preguntar	opposite	answer
+aceptar	rechazar	opposite	accept
+rechazar	aceptar	opposite	refuse
+permitir	prohibir	opposite	allow
+prohibir	permitir	opposite	forbid
+aparecer	desaparecer	opposite	appear
+desaparecer	aparecer	opposite	vanish
+encontrar	perder	opposite	find
+perder	encontrar	opposite	lose
+construir	romper	opposite	build
+romper	construir	opposite	break
+meter	sacar	opposite	put in
+sacar	meter	opposite	take out
+poner	quitar	opposite	put on
+quitar	poner	opposite	take off
+llenar	vaciar	opposite	fill
+vaciar	llenar	opposite	empty
+calentar	enfriar	opposite	heat
+enfriar	calentar	opposite	cool
+mojar	secar	opposite	wet
+secar	mojar	opposite	dry
+ensuciar	limpiar	opposite	dirty
+limpiar	ensuciar	opposite	clean
+contratar	despedir	opposite	hire
+despedir	contratar	opposite	fire
+prestar	devolver	opposite	lend
+devolver	prestar	opposite	give back
+esconder	mostrar	opposite	hide
+mostrar	esconder	opposite	show
+cubrir	descubrir	opposite	cover
+descubrir	cubrir	opposite	uncover, discover
+juntar	separar	opposite	gather
+separar	juntar	opposite	separate
+agarrar	soltar	opposite	grab
+soltar	agarrar	opposite	let go
+enviar	recibir	opposite	send
+recibir	enviar	opposite	receive
+mandar	recibir	opposite	send
+recibir	mandar	opposite	receive
+ofrecer	pedir	opposite	offer
+pedir	ofrecer	opposite	ask for
+parar	seguir	opposite	stop
+seguir	parar	opposite	carry on
+detener	continuar	opposite	halt
+continuar	detener	opposite	continue
+acercar	alejar	opposite	bring closer
+alejar	acercar	opposite	move away
+aumentar	disminuir	opposite	increase
+disminuir	aumentar	opposite	decrease
+crecer	reducir	opposite	grow
+reducir	crecer	opposite	shrink
+mejorar	empeorar	opposite	get better
+empeorar	mejorar	opposite	get worse
+aprender	enseñar	opposite	learn
+enseñar	aprender	opposite	teach
+trabajar	descansar	opposite	work
+descansar	trabajar	opposite	rest
+apretar	aflojar	opposite	tighten
+aflojar	apretar	opposite	loosen
+sobrar	faltar	opposite	be left over
+faltar	sobrar	opposite	be missing
+incluir	excluir	opposite	include
+excluir	incluir	opposite	leave out
+atar	desatar	opposite	tie
+desatar	atar	opposite	untie
+empujar	tirar	opposite	push
+tirar	empujar	opposite	pull, throw
+avanzar	retroceder	opposite	move forward
+retroceder	avanzar	opposite	move back
+subir	descender	opposite	go up
+descender	subir	opposite	descend
+triunfar	fracasar	opposite	succeed
+fracasar	triunfar	opposite	fail
+aprobar	suspender	opposite	pass
+suspender	aprobar	opposite	fail
+divertir	aburrir	opposite	amuse
+aburrir	divertir	opposite	bore
+divertirse	aburrirse	opposite	have fun
+aburrirse	divertirse	opposite	be bored
+despertar	dormirse	opposite	wake
+dormirse	despertar	opposite	fall asleep
+guardar	tirar	opposite	keep
+tirar	guardar	opposite	throw out
+alquilar	comprar	opposite	rent
+comprar	alquilar	opposite	buy
+tranquilizarse	preocuparse	opposite	calm down
+preocuparse	tranquilizarse	opposite	worry
+calmar	preocupar	opposite	calm
+preocupar	calmar	opposite	worry

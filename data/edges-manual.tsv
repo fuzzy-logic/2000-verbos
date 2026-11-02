@@ -1,0 +1,117 @@
+from_verb	to_verb	type	note	note_back
+ser	estar	confusable	ser is what something IS; estar is how or where it is right now	estar is the state or place; ser is the identity
+saber	conocer	confusable	saber is facts and skills: sé la respuesta, sé nadar	conocer is people and places you are acquainted with: conozco a Ana
+pedir	preguntar	confusable	pedir asks FOR a thing: pido un café	preguntar asks a question: pregunto dónde está
+tomar	llevar	confusable	tomar is taking hold of or drinking it	llevar is carrying it with you somewhere
+llevar	traer	confusable	llevar carries away from where you are	traer brings toward where you are
+ir	venir	confusable	ir goes away from the speaker	venir comes toward the speaker
+volver	devolver	confusable	volver is you going back	devolver is giving a thing back
+dejar	salir	confusable	dejar leaves a thing or person behind: dejé las llaves	salir is going out of a place: salí de casa
+jugar	tocar	confusable	jugar plays a game or sport	tocar plays an instrument (and means to touch)
+ver	mirar	confusable	ver is seeing, whether you meant to or not	mirar is looking at on purpose
+oír	escuchar	confusable	oír is hearing, whether you meant to or not	escuchar is listening on purpose
+decir	hablar	confusable	decir says words to someone: me dijo que sí	hablar is speaking or talking: hablo español
+decir	contar	confusable	decir reports what was said	contar tells a story or recounts it
+gastar	pasar	confusable	gastar spends money	pasar spends time: pasé dos horas allí
+guardar	ahorrar	confusable	guardar puts away and keeps	ahorrar saves up money or effort
+guardar	salvar	confusable	guardar keeps or stores	salvar rescues from danger
+conseguir	lograr	confusable	conseguir gets hold of a thing	lograr achieves an aim
+pensar	creer	confusable	pensar is the act of thinking it over	creer is holding an opinion or believing it
+esperar	querer	confusable	esperar is both waiting and hoping; context decides	querer is wanting outright
+realizar	hacer	confusable	false friend: realizar is to carry out, not to realise	hacer is the everyday do or make
+asistir	ayudar	confusable	false friend: asistir is to attend, not to assist	ayudar is to help
+soportar	apoyar	confusable	false friend: soportar is to put up with	apoyar is to support a person or an idea
+intentar	probar	confusable	intentar is to attempt something	probar is to try it out or taste it
+funcionar	trabajar	confusable	funcionar is a machine working	trabajar is a person working
+parecer	parecerse	confusable	parecer seems: parece difícil	parecerse looks like: se parece a su padre
+haber	tener	confusable	haber is the helper for perfect tenses, and hay = there is	tener is to have as a possession
+hacer	hacerse	confusable	hacer makes or does	hacerse becomes, through your own doing
+poner	ponerse	confusable	poner puts a thing somewhere	ponerse puts clothes on, or turns a sudden mood
+volver	volverse	confusable	volver returns	volverse turns into, usually unwillingly
+sacar	quitar	confusable	sacar takes something out of somewhere	quitar removes or takes away from someone
+tomar	beber	confusable	tomar is the everyday word for drinking	beber is to drink, slightly more formal
+importar	interesar	confusable	importar is to matter to you	interesar is to be interesting to you
+gustar	querer	confusable	gustar is to be pleasing: me gusta	querer is to want, or to love a person
+querer	amar	confusable	querer is the ordinary love you say out loud	amar is the weightier, more literary love
+deber	tener	confusable	deber + infinitive is a moral should	tener que + infinitive is a practical have to
+poder	saber	confusable	poder is can as in allowed or able right now	saber is can as in knows how
+buscar	encontrar	confusable	buscar is the searching	encontrar is the finding
+olvidar	recordar	confusable	olvidar forgets	recordar remembers, and also reminds someone
+acordar	acordarse	confusable	acordar is to agree on something	acordarse de is to remember it
+despertar	despertarse	confusable	despertar wakes someone else	despertarse is you waking up
+dormir	dormirse	confusable	dormir is to sleep	dormirse is to fall asleep
+ir	irse	confusable	ir goes to a place	irse is leaving, with no destination needed
+empezar	comenzar	confusable	empezar is the everyday start	comenzar is the same, a touch more formal
+acabar	terminar	confusable	acabar finishes, and acabar de means to have just done	terminar finishes off
+seguir	continuar	confusable	seguir keeps on, and also follows	continuar continues, more formal
+andar	caminar	confusable	andar is to go about, and works for machines too	caminar is walking on foot
+regresar	volver	confusable	regresar returns, common in the Americas	volver is the everyday return
+responder	contestar	confusable	responder answers or responds	contestar answers, the everyday word
+mostrar	enseñar	confusable	mostrar shows	enseñar teaches, and also shows
+quedar	quedarse	confusable	quedar is to be left, to arrange to meet, or how clothes fit	quedarse is to stay put
+levantar	levantarse	confusable	levantar lifts something	levantarse is you getting up
+casar	casarse	confusable	casar marries two people, as the official does	casarse is to get married
+perder	perderse	confusable	perder loses a thing or a game	perderse is getting lost, or missing out on
+subir	bajar	opposite	up: subir a go up, climb, get on, raise	down: bajar go down, get off, lower
+entrar	salir	opposite	in	out
+abrir	cerrar	opposite	open	close
+encender	apagar	opposite	switch on, light	switch off, put out
+empezar	terminar	opposite	start	finish
+comenzar	acabar	opposite	begin	end
+llegar	salir	opposite	arrive	depart
+dar	recibir	opposite	give	receive
+comprar	vender	opposite	buy	sell
+ganar	perder	opposite	win, earn	lose
+ahorrar	gastar	opposite	save up	spend
+recordar	olvidar	opposite	remember	forget
+dormir	despertar	opposite	sleep	wake
+levantar	acostar	opposite	raise, get up	lay down, put to bed
+nacer	morir	opposite	be born	die
+vivir	morir	opposite	live	die
+reír	llorar	opposite	laugh	cry
+amar	odiar	opposite	love	hate
+preguntar	responder	opposite	ask	answer
+aceptar	rechazar	opposite	accept	refuse
+permitir	prohibir	opposite	allow	forbid
+aparecer	desaparecer	opposite	appear	vanish
+encontrar	perder	opposite	find	lose
+construir	romper	opposite	build	break
+meter	sacar	opposite	put in	take out
+poner	quitar	opposite	put on	take off
+llenar	vaciar	opposite	fill	empty
+calentar	enfriar	opposite	heat	cool
+mojar	secar	opposite	wet	dry
+ensuciar	limpiar	opposite	dirty	clean
+contratar	despedir	opposite	hire	fire
+prestar	devolver	opposite	lend	give back
+esconder	mostrar	opposite	hide	show
+cubrir	descubrir	opposite	cover	uncover, discover
+juntar	separar	opposite	gather	separate
+agarrar	soltar	opposite	grab	let go
+enviar	recibir	opposite	send	receive
+mandar	recibir	opposite	send	receive
+ofrecer	pedir	opposite	offer	ask for
+parar	seguir	opposite	stop	carry on
+detener	continuar	opposite	halt	continue
+acercar	alejar	opposite	bring closer	move away
+aumentar	disminuir	opposite	increase	decrease
+crecer	reducir	opposite	grow	shrink
+mejorar	empeorar	opposite	get better	get worse
+aprender	enseñar	opposite	learn	teach
+trabajar	descansar	opposite	work	rest
+apretar	aflojar	opposite	tighten	loosen
+sobrar	faltar	opposite	be left over	be missing
+incluir	excluir	opposite	include	leave out
+atar	desatar	opposite	tie	untie
+empujar	tirar	opposite	push	pull, throw
+avanzar	retroceder	opposite	move forward	move back
+subir	descender	opposite	go up	descend
+triunfar	fracasar	opposite	succeed	fail
+aprobar	suspender	opposite	pass	fail
+divertir	aburrir	opposite	amuse	bore
+divertirse	aburrirse	opposite	have fun	be bored
+despertar	dormirse	opposite	wake	fall asleep
+guardar	tirar	opposite	keep	throw out
+alquilar	comprar	opposite	rent	buy
+tranquilizarse	preocuparse	opposite	calm down	worry
+calmar	preocupar	opposite	calm	worry

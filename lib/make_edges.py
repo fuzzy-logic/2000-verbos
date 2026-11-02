@@ -127,6 +127,24 @@ def main():
                 add(mine, target, 'takes-infinitive',
                     f'{head}{link} + infinitive: «{r["sentence_es"]}»')
 
+    # --- hand-written: confusable and opposite pairs
+    # These are the ones no rule can derive - the mistakes an English speaker
+    # actually makes. They live in their own file so regenerating the derived
+    # edges above never clobbers them. One line per pair; the reverse edge
+    # gets note_back, which usually needs to say something different.
+    manual = os.path.join(ROOT, 'data', 'edges-manual.tsv')
+    if os.path.exists(manual):
+        with open(manual, encoding='utf-8') as fh:
+            for i, r in enumerate(csv.DictReader(fh, delimiter='\t'), start=2):
+                a, b = r['from_verb'].strip(), r['to_verb'].strip()
+                for v in (a, b):
+                    if v not in rank:
+                        sys.exit(f'edges-manual.tsv:{i}: {v!r} is not in the corpus')
+                fwd = (r.get('note') or '').strip()
+                back = (r.get('note_back') or '').strip() or fwd
+                add(a, b, r['type'].strip(), fwd)
+                add(b, a, r['type'].strip(), back)
+
     path = os.path.join(ROOT, 'data', 'edges.tsv')
     with open(path, 'w', encoding='utf-8', newline='') as fh:
         w = csv.DictWriter(fh, COLS, delimiter='\t', lineterminator='\n')

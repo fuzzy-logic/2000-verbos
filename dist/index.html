@@ -895,7 +895,8 @@ function loadExtra(){
 }
 
 const EDGE_LABEL = {
-  'family': '↳', 'pattern': '≈', 'reflexive': '⇄', 'takes-infinitive': '→'
+  'family': '↳', 'pattern': '≈', 'reflexive': '⇄', 'takes-infinitive': '→',
+  'confusable': '≠', 'opposite': '↔'
 };
 
 function renderSideways(r){
@@ -904,11 +905,16 @@ function renderSideways(r){
   const es = (EDGES[r.v] || []);
   // one of each kind, most useful first: what it conjugates like, its
   // reflexive twin, the family it belongs to, what it takes after it
-  const pick = [], want = ['pattern', 'reflexive', 'takes-infinitive', 'family'];
+  // the hand-written pairs first: mixing up ser/estar costs more than not
+  // knowing what a verb conjugates like. Four buttons is all the row fits.
+  let pick = [];
+  const want = ['confusable', 'opposite', 'pattern', 'reflexive',
+                'takes-infinitive', 'family'];
   for(const t of want){
     const e = es.find(x => x.t === t);
     if(e) pick.push(e);
   }
+  pick = pick.slice(0, 4);
   box.innerHTML = pick.map(e =>
     `<button data-verb="${esc(e.to)}" title="${esc(e.n)}">` +
     `${EDGE_LABEL[e.t] || '·'} <b>${esc(e.to)}</b></button>`).join('');
