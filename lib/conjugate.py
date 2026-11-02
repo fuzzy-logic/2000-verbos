@@ -16,22 +16,22 @@ UNACCENT = {v: k for k, v in ACCENT.items()}
 
 # Slot -> (level, label, english template). Order here is display order.
 SLOTS = [
-    ('pres-1s',     'A1', 'yo',                 'I {}'),
-    ('pres-2s',     'A1', 'vos',                'you {}'),
-    ('pres-2s-tu',  'A1', 'tú',                 'you {}'),
-    ('pres-3s',     'A1', 'usted / él / ella',  'you / he / she {}'),
-    ('pres-1p',     'A1', 'nosotros',           'we {}'),
-    ('pres-3p',     'A1', 'ustedes / ellos',    'you all / they {}'),
-    ('cmd-vos',     'A1', 'command (vos)',      '{}!'),
-    ('going-1s',    'A1', 'going to',           "I'm going to {}"),
-    ('ger',         'A1', '-ing',               '{}ing'),
-    ('pret-1s',     'A2', 'preterite (yo)',     'I {} (once)'),
-    ('imp-1s',      'A2', 'imperfect (yo)',     'I used to {}'),
-    ('perf-1s',     'A2', 'perfect (yo)',       'I have {}'),
-    ('cmd-vos-neg', 'A2', 'negative command',   "don't {}"),
-    ('fut-1s',      'B1', 'future (yo)',        'I will {}'),
-    ('cond-1s',     'B1', 'conditional (yo)',   'I would {}'),
-    ('subj-1s',     'B1', 'subjunctive (yo)',   '(that) I {}'),
+    ('pres-1s',     'A1', 'yo',                 'I {base}'),
+    ('pres-2s',     'A1', 'vos',                'you {base}'),
+    ('pres-2s-tu',  'A1', 'tú',                 'you {base}'),
+    ('pres-3s',     'A1', 'usted / él / ella',  'you / he / she {third}'),
+    ('pres-1p',     'A1', 'nosotros',           'we {base}'),
+    ('pres-3p',     'A1', 'ustedes / ellos',    'you all / they {base}'),
+    ('cmd-vos',     'A1', 'command (vos)',      '{base}!'),
+    ('going-1s',    'A1', 'going to',           "I'm going to {base}"),
+    ('ger',         'A1', '-ing',               '{ing}'),
+    ('pret-1s',     'A2', 'preterite (yo)',     'I {past} (once)'),
+    ('imp-1s',      'A2', 'imperfect (yo)',     'I used to {base}'),
+    ('perf-1s',     'A2', 'perfect (yo)',       'I have {part}'),
+    ('cmd-vos-neg', 'A2', 'negative command',   "don't {base}"),
+    ('fut-1s',      'B1', 'future (yo)',        'I will {base}'),
+    ('cond-1s',     'B1', 'conditional (yo)',   'I would {base}'),
+    ('subj-1s',     'B1', 'subjunctive (yo)',   '(that) I {base}'),
 ]
 LEVELS = ['A1', 'A2', 'B1']          # B2/C1 slots reserved, not yet filled
 
