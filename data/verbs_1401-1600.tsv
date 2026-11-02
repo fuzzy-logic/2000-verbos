@@ -9,7 +9,7 @@ rank	verb_es	verb_en	sentence_es	sentence_en	note
 1408	disolverse	to dissolve	Se disuelve en agua fría.	It dissolves in cold water.	
 1409	saturar	to saturate	Se saturó el mercado.	The market became saturated.	
 1410	impregnar	to permeate	El olor impregnó toda la casa.	The smell permeated the whole house.	
-1411	empapar(se)	to be soaked through	Se empapó el colchón.	The mattress got soaked through.	
+1411	empaparse	to be soaked through	Se empapó el colchón.	The mattress got soaked through.	always reflexive: se empapó
 1412	chorrear	to pour off	Chorreaba agua del techo.	Water was pouring off the roof.	
 1413	salpicar	to splash	Me salpicó un auto en la calle.	A car splashed me in the street.	
 1414	rociar	to spray	Rociaron el patio con repelente.	They sprayed the yard with repellent.	
@@ -155,7 +155,7 @@ rank	verb_es	verb_en	sentence_es	sentence_en	note
 1554	manifestarse	to demonstrate	Se manifestaron frente al congreso.	They demonstrated outside congress.	
 1555	marchar	to march	Marcharon hasta la plaza.	They marched to the square.	
 1556	bloquear (ruta)	to blockade	Bloquearon la ruta dos días.	They blockaded the highway for two days.	
-1557	huelga (hacer)	to strike	Hicieron huelga una semana.	They went on strike for a week.	more usual: hacer huelga
+1557	hacer huelga	to strike	Hicieron huelga una semana.	They went on strike for a week.	huelga is the noun; the verb is hacer
 1558	paralizar	to bring to a standstill	El paro paralizó la ciudad.	The strike brought the city to a standstill.	paro = strike
 1559	reprimir	to repress	Reprimieron la manifestación.	They put down the demonstration.	
 1560	dispersar	to disperse	Dispersaron a la gente.	They dispersed the crowd.	
