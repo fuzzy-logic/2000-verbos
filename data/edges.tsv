@@ -1,0 +1,2827 @@
+from_verb	to_verb	type	note
+deshacerse	hacerse	family	conjugates exactly like it
+hacerse	deshacerse	family	conjugates exactly like it
+atender	tender	family	conjugates exactly like it
+tender	atender	family	conjugates exactly like it
+impedir	pedir	family	conjugates exactly like it
+pedir	impedir	family	conjugates exactly like it
+exponer	poner	family	conjugates exactly like it
+poner	exponer	family	conjugates exactly like it
+connotar	notar	family	conjugates exactly like it
+notar	connotar	family	conjugates exactly like it
+convenir	venir	family	conjugates exactly like it
+venir	convenir	family	conjugates exactly like it
+rehabilitar	habilitar	family	conjugates exactly like it
+habilitar	rehabilitar	family	conjugates exactly like it
+prometer	meter	family	conjugates exactly like it
+meter	prometer	family	conjugates exactly like it
+desanimar	animar	family	conjugates exactly like it
+animar	desanimar	family	conjugates exactly like it
+compensar	pensar	family	looks related but conjugates differently
+pensar	compensar	family	looks related but conjugates differently
+descuidar	cuidar	family	conjugates exactly like it
+cuidar	descuidar	family	conjugates exactly like it
+contradecir	decir	family	conjugates exactly like it
+decir	contradecir	family	conjugates exactly like it
+desaparecer	aparecer	family	conjugates exactly like it
+aparecer	desaparecer	family	conjugates exactly like it
+desayunar	ayunar	family	conjugates exactly like it
+ayunar	desayunar	family	conjugates exactly like it
+comparecer	parecer	family	conjugates exactly like it
+parecer	comparecer	family	conjugates exactly like it
+refinanciar	financiar	family	conjugates exactly like it
+financiar	refinanciar	family	conjugates exactly like it
+suponer	poner	family	conjugates exactly like it
+poner	suponer	family	conjugates exactly like it
+descargar	cargar	family	conjugates exactly like it
+cargar	descargar	family	conjugates exactly like it
+desempacar	empacar	family	conjugates exactly like it
+empacar	desempacar	family	conjugates exactly like it
+devolver	volver	family	conjugates exactly like it
+volver	devolver	family	conjugates exactly like it
+descomprimir	comprimir	family	conjugates exactly like it
+comprimir	descomprimir	family	conjugates exactly like it
+derogar	rogar	family	looks related but conjugates differently
+rogar	derogar	family	looks related but conjugates differently
+rebajar	bajar	family	conjugates exactly like it
+bajar	rebajar	family	conjugates exactly like it
+devolverse	volverse	family	conjugates exactly like it
+volverse	devolverse	family	conjugates exactly like it
+retirar	tirar	family	conjugates exactly like it
+tirar	retirar	family	conjugates exactly like it
+compartir	partir	family	conjugates exactly like it
+partir	compartir	family	conjugates exactly like it
+incumplir	cumplir	family	conjugates exactly like it
+cumplir	incumplir	family	conjugates exactly like it
+retener	tener	family	conjugates exactly like it
+tener	retener	family	conjugates exactly like it
+demostrar	mostrar	family	conjugates exactly like it
+mostrar	demostrar	family	conjugates exactly like it
+perdurar	durar	family	conjugates exactly like it
+durar	perdurar	family	conjugates exactly like it
+denotar	notar	family	conjugates exactly like it
+notar	denotar	family	conjugates exactly like it
+reparar	parar	family	conjugates exactly like it
+parar	reparar	family	conjugates exactly like it
+pervivir	vivir	family	conjugates exactly like it
+vivir	pervivir	family	conjugates exactly like it
+sobrellevar	llevar	family	conjugates exactly like it
+llevar	sobrellevar	family	conjugates exactly like it
+inmigrar	migrar	family	conjugates exactly like it
+migrar	inmigrar	family	conjugates exactly like it
+posponerse	ponerse	family	conjugates exactly like it
+ponerse	posponerse	family	conjugates exactly like it
+comparar	parar	family	conjugates exactly like it
+parar	comparar	family	conjugates exactly like it
+descansar	cansar	family	conjugates exactly like it
+cansar	descansar	family	conjugates exactly like it
+informar	formar	family	conjugates exactly like it
+formar	informar	family	conjugates exactly like it
+suceder	ceder	family	conjugates exactly like it
+ceder	suceder	family	conjugates exactly like it
+desabrochar	abrochar	family	conjugates exactly like it
+abrochar	desabrochar	family	conjugates exactly like it
+subsanar	sanar	family	conjugates exactly like it
+sanar	subsanar	family	conjugates exactly like it
+descentrarse	centrarse	family	conjugates exactly like it
+centrarse	descentrarse	family	conjugates exactly like it
+retomar	tomar	family	conjugates exactly like it
+tomar	retomar	family	conjugates exactly like it
+desenvolver	envolver	family	conjugates exactly like it
+envolver	desenvolver	family	conjugates exactly like it
+convencer	vencer	family	conjugates exactly like it
+vencer	convencer	family	conjugates exactly like it
+decaer	caer	family	conjugates exactly like it
+caer	decaer	family	conjugates exactly like it
+configurar	figurar	family	conjugates exactly like it
+figurar	configurar	family	conjugates exactly like it
+prevenir	venir	family	conjugates exactly like it
+venir	prevenir	family	conjugates exactly like it
+comprobar	probar	family	conjugates exactly like it
+probar	comprobar	family	conjugates exactly like it
+acercar	cercar	family	conjugates exactly like it
+cercar	acercar	family	conjugates exactly like it
+exterminar	terminar	family	conjugates exactly like it
+terminar	exterminar	family	conjugates exactly like it
+incitar	citar	family	conjugates exactly like it
+citar	incitar	family	conjugates exactly like it
+propagar	pagar	family	conjugates exactly like it
+pagar	propagar	family	conjugates exactly like it
+malinterpretar	interpretar	family	conjugates exactly like it
+interpretar	malinterpretar	family	conjugates exactly like it
+sobrevivir	vivir	family	conjugates exactly like it
+vivir	sobrevivir	family	conjugates exactly like it
+despreocuparse	preocuparse	family	conjugates exactly like it
+preocuparse	despreocuparse	family	conjugates exactly like it
+prometerse	meterse	family	conjugates exactly like it
+meterse	prometerse	family	conjugates exactly like it
+posponer	poner	family	conjugates exactly like it
+poner	posponer	family	conjugates exactly like it
+debatir	batir	family	conjugates exactly like it
+batir	debatir	family	conjugates exactly like it
+anotar	notar	family	conjugates exactly like it
+notar	anotar	family	conjugates exactly like it
+traspasar	pasar	family	conjugates exactly like it
+pasar	traspasar	family	conjugates exactly like it
+desatar	atar	family	conjugates exactly like it
+atar	desatar	family	conjugates exactly like it
+conceder	ceder	family	conjugates exactly like it
+ceder	conceder	family	conjugates exactly like it
+recursar	cursar	family	conjugates exactly like it
+cursar	recursar	family	conjugates exactly like it
+demoler	moler	family	conjugates exactly like it
+moler	demoler	family	conjugates exactly like it
+subestimar	estimar	family	conjugates exactly like it
+estimar	subestimar	family	conjugates exactly like it
+agravar	gravar	family	conjugates exactly like it
+gravar	agravar	family	conjugates exactly like it
+repasar	pasar	family	conjugates exactly like it
+pasar	repasar	family	conjugates exactly like it
+abordar	bordar	family	conjugates exactly like it
+bordar	abordar	family	conjugates exactly like it
+inculpar	culpar	family	conjugates exactly like it
+culpar	inculpar	family	conjugates exactly like it
+afirmar	firmar	family	conjugates exactly like it
+firmar	afirmar	family	conjugates exactly like it
+comportarse	portarse	family	conjugates exactly like it
+portarse	comportarse	family	conjugates exactly like it
+reintegrar	integrar	family	conjugates exactly like it
+integrar	reintegrar	family	conjugates exactly like it
+sonreír	reír	family	conjugates exactly like it
+reír	sonreír	family	conjugates exactly like it
+condonar	donar	family	conjugates exactly like it
+donar	condonar	family	conjugates exactly like it
+desocupar	ocupar	family	conjugates exactly like it
+ocupar	desocupar	family	conjugates exactly like it
+indisponerse	disponerse	family	conjugates exactly like it
+disponerse	indisponerse	family	conjugates exactly like it
+presentir	sentir	family	conjugates exactly like it
+sentir	presentir	family	conjugates exactly like it
+envolver	volver	family	conjugates exactly like it
+volver	envolver	family	conjugates exactly like it
+disculpar	culpar	family	conjugates exactly like it
+culpar	disculpar	family	conjugates exactly like it
+regatear	gatear	family	conjugates exactly like it
+gatear	regatear	family	conjugates exactly like it
+componerse	ponerse	family	conjugates exactly like it
+ponerse	componerse	family	conjugates exactly like it
+reponerse	ponerse	family	conjugates exactly like it
+ponerse	reponerse	family	conjugates exactly like it
+confirmar	firmar	family	conjugates exactly like it
+firmar	confirmar	family	conjugates exactly like it
+asaltar	saltar	family	conjugates exactly like it
+saltar	asaltar	family	conjugates exactly like it
+encerrar	cerrar	family	conjugates exactly like it
+cerrar	encerrar	family	conjugates exactly like it
+encubrir	cubrir	family	conjugates exactly like it
+cubrir	encubrir	family	conjugates exactly like it
+despedir	pedir	family	conjugates exactly like it
+pedir	despedir	family	conjugates exactly like it
+reformar	formar	family	conjugates exactly like it
+formar	reformar	family	conjugates exactly like it
+reconocer	conocer	family	conjugates exactly like it
+conocer	reconocer	family	conjugates exactly like it
+preparar	parar	family	conjugates exactly like it
+parar	preparar	family	conjugates exactly like it
+sobreestimar	estimar	family	conjugates exactly like it
+estimar	sobreestimar	family	conjugates exactly like it
+delegar	legar	family	conjugates exactly like it
+legar	delegar	family	conjugates exactly like it
+demandar	mandar	family	conjugates exactly like it
+mandar	demandar	family	conjugates exactly like it
+aprobarse	probarse	family	conjugates exactly like it
+probarse	aprobarse	family	conjugates exactly like it
+exceder	ceder	family	conjugates exactly like it
+ceder	exceder	family	conjugates exactly like it
+desilusionarse	ilusionarse	family	conjugates exactly like it
+ilusionarse	desilusionarse	family	conjugates exactly like it
+perseguir	seguir	family	conjugates exactly like it
+seguir	perseguir	family	conjugates exactly like it
+reponer	poner	family	conjugates exactly like it
+poner	reponer	family	conjugates exactly like it
+denegar	negar	family	conjugates exactly like it
+negar	denegar	family	conjugates exactly like it
+apelar	pelar	family	conjugates exactly like it
+pelar	apelar	family	conjugates exactly like it
+desatender	atender	family	conjugates exactly like it
+atender	desatender	family	conjugates exactly like it
+rellenar	llenar	family	conjugates exactly like it
+llenar	rellenar	family	conjugates exactly like it
+preocuparse	ocuparse	family	conjugates exactly like it
+ocuparse	preocuparse	family	conjugates exactly like it
+encargar	cargar	family	conjugates exactly like it
+cargar	encargar	family	conjugates exactly like it
+recargarse	cargarse	family	conjugates exactly like it
+cargarse	recargarse	family	conjugates exactly like it
+recobrar	cobrar	family	conjugates exactly like it
+cobrar	recobrar	family	conjugates exactly like it
+provenir	venir	family	conjugates exactly like it
+venir	provenir	family	conjugates exactly like it
+expedir	pedir	family	conjugates exactly like it
+pedir	expedir	family	conjugates exactly like it
+desempeñar	empeñar	family	conjugates exactly like it
+empeñar	desempeñar	family	conjugates exactly like it
+descomponerse	componerse	family	conjugates exactly like it
+componerse	descomponerse	family	conjugates exactly like it
+malgastar	gastar	family	conjugates exactly like it
+gastar	malgastar	family	conjugates exactly like it
+conseguir	seguir	family	conjugates exactly like it
+seguir	conseguir	family	conjugates exactly like it
+recalentar	calentar	family	conjugates exactly like it
+calentar	recalentar	family	conjugates exactly like it
+recorrer	correr	family	conjugates exactly like it
+correr	recorrer	family	conjugates exactly like it
+exculpar	culpar	family	conjugates exactly like it
+culpar	exculpar	family	conjugates exactly like it
+preocupar	ocupar	family	conjugates exactly like it
+ocupar	preocupar	family	conjugates exactly like it
+predominar	dominar	family	conjugates exactly like it
+dominar	predominar	family	conjugates exactly like it
+rebatir	batir	family	conjugates exactly like it
+batir	rebatir	family	conjugates exactly like it
+descubrir	cubrir	family	conjugates exactly like it
+cubrir	descubrir	family	conjugates exactly like it
+mantener	tener	family	conjugates exactly like it
+tener	mantener	family	conjugates exactly like it
+desequilibrar	equilibrar	family	conjugates exactly like it
+equilibrar	desequilibrar	family	conjugates exactly like it
+acostar	costar	family	conjugates exactly like it
+costar	acostar	family	conjugates exactly like it
+desentenderse	entenderse	family	conjugates exactly like it
+entenderse	desentenderse	family	conjugates exactly like it
+aprobar	probar	family	conjugates exactly like it
+probar	aprobar	family	conjugates exactly like it
+desgastar	gastar	family	conjugates exactly like it
+gastar	desgastar	family	conjugates exactly like it
+descongelar	congelar	family	conjugates exactly like it
+congelar	descongelar	family	conjugates exactly like it
+reproducir	producir	family	conjugates exactly like it
+producir	reproducir	family	conjugates exactly like it
+sostener	tener	family	conjugates exactly like it
+tener	sostener	family	conjugates exactly like it
+recostar	costar	family	conjugates exactly like it
+costar	recostar	family	conjugates exactly like it
+subastar	bastar	family	conjugates exactly like it
+bastar	subastar	family	conjugates exactly like it
+sobreescribir	escribir	family	conjugates exactly like it
+escribir	sobreescribir	family	conjugates exactly like it
+sobresalir	salir	family	conjugates exactly like it
+salir	sobresalir	family	conjugates exactly like it
+destapar	tapar	family	conjugates exactly like it
+tapar	destapar	family	conjugates exactly like it
+consentir	sentir	family	conjugates exactly like it
+sentir	consentir	family	conjugates exactly like it
+eximirse	irse	family	looks related but conjugates differently
+irse	eximirse	family	looks related but conjugates differently
+desacatar	acatar	family	conjugates exactly like it
+acatar	desacatar	family	conjugates exactly like it
+detener	tener	family	conjugates exactly like it
+tener	detener	family	conjugates exactly like it
+contratar	tratar	family	conjugates exactly like it
+tratar	contratar	family	conjugates exactly like it
+enderezar	rezar	family	conjugates exactly like it
+rezar	enderezar	family	conjugates exactly like it
+representar	presentar	family	conjugates exactly like it
+presentar	representar	family	conjugates exactly like it
+componer	poner	family	conjugates exactly like it
+poner	componer	family	conjugates exactly like it
+imponerse	ponerse	family	conjugates exactly like it
+ponerse	imponerse	family	conjugates exactly like it
+disponerse	ponerse	family	conjugates exactly like it
+ponerse	disponerse	family	conjugates exactly like it
+revivir	vivir	family	conjugates exactly like it
+vivir	revivir	family	conjugates exactly like it
+aprender	prender	family	conjugates exactly like it
+prender	aprender	family	conjugates exactly like it
+desafinar	afinar	family	conjugates exactly like it
+afinar	desafinar	family	conjugates exactly like it
+anegarse	negarse	family	conjugates exactly like it
+negarse	anegarse	family	conjugates exactly like it
+comprobarse	probarse	family	conjugates exactly like it
+probarse	comprobarse	family	conjugates exactly like it
+sobrevolar	volar	family	conjugates exactly like it
+volar	sobrevolar	family	conjugates exactly like it
+condecorar	decorar	family	conjugates exactly like it
+decorar	condecorar	family	conjugates exactly like it
+comprometerse	prometerse	family	conjugates exactly like it
+prometerse	comprometerse	family	conjugates exactly like it
+sobreentenderse	entenderse	family	conjugates exactly like it
+entenderse	sobreentenderse	family	conjugates exactly like it
+degustar	gustar	family	conjugates exactly like it
+gustar	degustar	family	conjugates exactly like it
+predecir	decir	family	conjugates exactly like it
+decir	predecir	family	conjugates exactly like it
+resurgir	surgir	family	conjugates exactly like it
+surgir	resurgir	family	conjugates exactly like it
+desinstalar	instalar	family	conjugates exactly like it
+instalar	desinstalar	family	conjugates exactly like it
+comprender	prender	family	conjugates exactly like it
+prender	comprender	family	conjugates exactly like it
+repartir	partir	family	conjugates exactly like it
+partir	repartir	family	conjugates exactly like it
+desmentir	mentir	family	conjugates exactly like it
+mentir	desmentir	family	conjugates exactly like it
+bendecir	decir	family	conjugates exactly like it
+decir	bendecir	family	conjugates exactly like it
+aparecer	parecer	family	conjugates exactly like it
+parecer	aparecer	family	conjugates exactly like it
+entender	tender	family	conjugates exactly like it
+tender	entender	family	conjugates exactly like it
+desaprovechar	aprovechar	family	conjugates exactly like it
+aprovechar	desaprovechar	family	conjugates exactly like it
+apagar	pagar	family	conjugates exactly like it
+pagar	apagar	family	conjugates exactly like it
+apercibir	percibir	family	conjugates exactly like it
+percibir	apercibir	family	conjugates exactly like it
+conjugar	jugar	family	looks related but conjugates differently
+jugar	conjugar	family	looks related but conjugates differently
+desdoblar	doblar	family	conjugates exactly like it
+doblar	desdoblar	family	conjugates exactly like it
+reprender	prender	family	conjugates exactly like it
+prender	reprender	family	conjugates exactly like it
+desaprobar	aprobar	family	conjugates exactly like it
+aprobar	desaprobar	family	conjugates exactly like it
+pretender	tender	family	looks related but conjugates differently
+tender	pretender	family	looks related but conjugates differently
+despegar	pegar	family	conjugates exactly like it
+pegar	despegar	family	conjugates exactly like it
+remediar	mediar	family	conjugates exactly like it
+mediar	remediar	family	conjugates exactly like it
+distraer	traer	family	conjugates exactly like it
+traer	distraer	family	conjugates exactly like it
+recitar	citar	family	conjugates exactly like it
+citar	recitar	family	conjugates exactly like it
+perdonar	donar	family	conjugates exactly like it
+donar	perdonar	family	conjugates exactly like it
+desembarcar	embarcar	family	conjugates exactly like it
+embarcar	desembarcar	family	conjugates exactly like it
+encargarse	cargarse	family	conjugates exactly like it
+cargarse	encargarse	family	conjugates exactly like it
+desarmar	armar	family	conjugates exactly like it
+armar	desarmar	family	conjugates exactly like it
+reprobar	probar	family	conjugates exactly like it
+probar	reprobar	family	conjugates exactly like it
+revolver	volver	family	conjugates exactly like it
+volver	revolver	family	conjugates exactly like it
+proceder	ceder	family	conjugates exactly like it
+ceder	proceder	family	conjugates exactly like it
+presentar	sentar	family	looks related but conjugates differently
+sentar	presentar	family	looks related but conjugates differently
+revelar	velar	family	conjugates exactly like it
+velar	revelar	family	conjugates exactly like it
+desgravar	gravar	family	conjugates exactly like it
+gravar	desgravar	family	conjugates exactly like it
+descalificar	calificar	family	conjugates exactly like it
+calificar	descalificar	family	conjugates exactly like it
+deshabitar	habitar	family	conjugates exactly like it
+habitar	deshabitar	family	conjugates exactly like it
+desalojarse	alojarse	family	conjugates exactly like it
+alojarse	desalojarse	family	conjugates exactly like it
+llegar	hablar	pattern	conjugates like hablar
+pasar	hablar	pattern	conjugates like hablar
+deber	comer	pattern	conjugates like comer
+parecer	comer	pattern	conjugates like comer
+quedar	hablar	pattern	conjugates like hablar
+creer	comer	pattern	conjugates like comer
+llevar	hablar	pattern	conjugates like hablar
+dejar	hablar	pattern	conjugates like hablar
+seguir	pedir	pattern	conjugates like pedir
+encontrar	volver	pattern	conjugates like volver
+llamar	hablar	pattern	conjugates like hablar
+tomar	hablar	pattern	conjugates like hablar
+conocer	comer	pattern	conjugates like comer
+sentir	pensar	pattern	conjugates like pensar
+tratar	hablar	pattern	conjugates like hablar
+mirar	hablar	pattern	conjugates like hablar
+contar	volver	pattern	conjugates like volver
+empezar	pensar	pattern	conjugates like pensar
+esperar	hablar	pattern	conjugates like hablar
+buscar	hablar	pattern	conjugates like hablar
+existir	vivir	pattern	conjugates like vivir
+entrar	hablar	pattern	conjugates like hablar
+trabajar	hablar	pattern	conjugates like hablar
+perder	pensar	pattern	conjugates like pensar
+producir	vivir	pattern	conjugates like vivir
+ocurrir	vivir	pattern	conjugates like vivir
+entender	pensar	pattern	conjugates like pensar
+recibir	vivir	pattern	conjugates like vivir
+recordar	volver	pattern	conjugates like volver
+terminar	hablar	pattern	conjugates like hablar
+permitir	vivir	pattern	conjugates like vivir
+aparecer	comer	pattern	conjugates like comer
+conseguir	pedir	pattern	conjugates like pedir
+comenzar	pensar	pattern	conjugates like pensar
+servir	pedir	pattern	conjugates like pedir
+sacar	hablar	pattern	conjugates like hablar
+necesitar	hablar	pattern	conjugates like hablar
+mantener	tener	pattern	conjugates like tener
+resultar	hablar	pattern	conjugates like hablar
+leer	comer	pattern	conjugates like comer
+cambiar	hablar	pattern	conjugates like hablar
+presentar	hablar	pattern	conjugates like hablar
+crear	hablar	pattern	conjugates like hablar
+considerar	hablar	pattern	conjugates like hablar
+acabar	hablar	pattern	conjugates like hablar
+convertir	pensar	pattern	conjugates like pensar
+ganar	hablar	pattern	conjugates like hablar
+formar	hablar	pattern	conjugates like hablar
+partir	vivir	pattern	conjugates like vivir
+aceptar	hablar	pattern	conjugates like hablar
+realizar	hablar	pattern	conjugates like hablar
+suponer	poner	pattern	conjugates like poner
+comprender	comer	pattern	conjugates like comer
+lograr	hablar	pattern	conjugates like hablar
+explicar	hablar	pattern	conjugates like hablar
+preguntar	hablar	pattern	conjugates like hablar
+tocar	hablar	pattern	conjugates like hablar
+reconocer	comer	pattern	conjugates like comer
+estudiar	hablar	pattern	conjugates like hablar
+alcanzar	hablar	pattern	conjugates like hablar
+nacer	comer	pattern	conjugates like comer
+dirigir	vivir	pattern	conjugates like vivir
+correr	comer	pattern	conjugates like comer
+utilizar	hablar	pattern	conjugates like hablar
+pagar	hablar	pattern	conjugates like hablar
+ayudar	hablar	pattern	conjugates like hablar
+gustar	hablar	pattern	conjugates like hablar
+jugar	volver	pattern	conjugates like volver
+escuchar	hablar	pattern	conjugates like hablar
+cumplir	vivir	pattern	conjugates like vivir
+ofrecer	comer	pattern	conjugates like comer
+descubrir	cubrir	pattern	conjugates like cubrir
+levantar	hablar	pattern	conjugates like hablar
+intentar	hablar	pattern	conjugates like hablar
+usar	hablar	pattern	conjugates like hablar
+decidir	vivir	pattern	conjugates like vivir
+repetir	pedir	pattern	conjugates like pedir
+olvidar	hablar	pattern	conjugates like hablar
+mostrar	volver	pattern	conjugates like volver
+incluir	vivir	pattern	conjugates like vivir
+cerrar	pensar	pattern	conjugates like pensar
+comprar	hablar	pattern	conjugates like hablar
+vender	comer	pattern	conjugates like comer
+subir	vivir	pattern	conjugates like vivir
+bajar	hablar	pattern	conjugates like hablar
+caminar	hablar	pattern	conjugates like hablar
+dormir	volver	pattern	conjugates like volver
+despertar	pensar	pattern	conjugates like pensar
+bañar	hablar	pattern	conjugates like hablar
+lavar	hablar	pattern	conjugates like hablar
+cocinar	hablar	pattern	conjugates like hablar
+limpiar	hablar	pattern	conjugates like hablar
+manejar	hablar	pattern	conjugates like hablar
+viajar	hablar	pattern	conjugates like hablar
+visitar	hablar	pattern	conjugates like hablar
+invitar	hablar	pattern	conjugates like hablar
+bailar	hablar	pattern	conjugates like hablar
+cantar	hablar	pattern	conjugates like hablar
+llorar	hablar	pattern	conjugates like hablar
+gritar	hablar	pattern	conjugates like hablar
+contestar	hablar	pattern	conjugates like hablar
+responder	comer	pattern	conjugates like comer
+saludar	hablar	pattern	conjugates like hablar
+agradecer	comer	pattern	conjugates like comer
+disculpar	hablar	pattern	conjugates like hablar
+perdonar	hablar	pattern	conjugates like hablar
+prometer	comer	pattern	conjugates like comer
+mentir	pensar	pattern	conjugates like pensar
+pelear	hablar	pattern	conjugates like hablar
+discutir	vivir	pattern	conjugates like vivir
+enojar	hablar	pattern	conjugates like hablar
+preocupar	hablar	pattern	conjugates like hablar
+asustar	hablar	pattern	conjugates like hablar
+alegrar	hablar	pattern	conjugates like hablar
+extrañar	hablar	pattern	conjugates like hablar
+amar	hablar	pattern	conjugates like hablar
+odiar	hablar	pattern	conjugates like hablar
+preferir	pensar	pattern	conjugates like pensar
+elegir	pedir	pattern	conjugates like pedir
+faltar	hablar	pattern	conjugates like hablar
+sobrar	hablar	pattern	conjugates like hablar
+bastar	hablar	pattern	conjugates like hablar
+durar	hablar	pattern	conjugates like hablar
+tardar	hablar	pattern	conjugates like hablar
+apurar	hablar	pattern	conjugates like hablar
+parar	hablar	pattern	conjugates like hablar
+empujar	hablar	pattern	conjugates like hablar
+tirar	hablar	pattern	conjugates like hablar
+agarrar	hablar	pattern	conjugates like hablar
+soltar	volver	pattern	conjugates like volver
+abrazar	hablar	pattern	conjugates like hablar
+besar	hablar	pattern	conjugates like hablar
+notar	hablar	pattern	conjugates like hablar
+observar	hablar	pattern	conjugates like hablar
+fijar	hablar	pattern	conjugates like hablar
+imaginar	hablar	pattern	conjugates like hablar
+soñar	volver	pattern	conjugates like volver
+desear	hablar	pattern	conjugates like hablar
+soportar	hablar	pattern	conjugates like hablar
+disfrutar	hablar	pattern	conjugates like hablar
+descansar	hablar	pattern	conjugates like hablar
+relajar	hablar	pattern	conjugates like hablar
+divertir	pensar	pattern	conjugates like pensar
+aburrir	vivir	pattern	conjugates like vivir
+cansar	hablar	pattern	conjugates like hablar
+enfermar	hablar	pattern	conjugates like hablar
+curar	hablar	pattern	conjugates like hablar
+doler	volver	pattern	conjugates like volver
+sanar	hablar	pattern	conjugates like hablar
+crecer	comer	pattern	conjugates like comer
+envejecer	comer	pattern	conjugates like comer
+casar	hablar	pattern	conjugates like hablar
+separar	hablar	pattern	conjugates like hablar
+surgir	vivir	pattern	conjugates like vivir
+construir	vivir	pattern	conjugates like vivir
+arreglar	hablar	pattern	conjugates like hablar
+funcionar	hablar	pattern	conjugates like hablar
+probar	volver	pattern	conjugates like volver
+planear	hablar	pattern	conjugates like hablar
+organizar	hablar	pattern	conjugates like hablar
+preparar	hablar	pattern	conjugates like hablar
+armar	hablar	pattern	conjugates like hablar
+juntar	hablar	pattern	conjugates like hablar
+acompañar	hablar	pattern	conjugates like hablar
+charlar	hablar	pattern	conjugates like hablar
+conversar	hablar	pattern	conjugates like hablar
+avisar	hablar	pattern	conjugates like hablar
+significar	hablar	pattern	conjugates like hablar
+traducir	vivir	pattern	conjugates like vivir
+pronunciar	hablar	pattern	conjugates like hablar
+deletrear	hablar	pattern	conjugates like hablar
+aprender	comer	pattern	conjugates like comer
+enseñar	hablar	pattern	conjugates like hablar
+practicar	hablar	pattern	conjugates like hablar
+mejorar	hablar	pattern	conjugates like hablar
+empeorar	hablar	pattern	conjugates like hablar
+corregir	pedir	pattern	conjugates like pedir
+equivocar	hablar	pattern	conjugates like hablar
+fallar	hablar	pattern	conjugates like hablar
+costar	volver	pattern	conjugates like volver
+gastar	hablar	pattern	conjugates like hablar
+ahorrar	hablar	pattern	conjugates like hablar
+prestar	hablar	pattern	conjugates like hablar
+cobrar	hablar	pattern	conjugates like hablar
+alquilar	hablar	pattern	conjugates like hablar
+firmar	hablar	pattern	conjugates like hablar
+entregar	hablar	pattern	conjugates like hablar
+recoger	comer	pattern	conjugates like comer
+mandar	hablar	pattern	conjugates like hablar
+devolver	volver	pattern	conjugates like volver
+guardar	hablar	pattern	conjugates like hablar
+esconder	comer	pattern	conjugates like comer
+desayunar	hablar	pattern	conjugates like hablar
+almorzar	volver	pattern	conjugates like volver
+cenar	hablar	pattern	conjugates like hablar
+merendar	pensar	pattern	conjugates like pensar
+beber	comer	pattern	conjugates like comer
+encender	pensar	pattern	conjugates like pensar
+apagar	hablar	pattern	conjugates like hablar
+prender	comer	pattern	conjugates like comer
+conectar	hablar	pattern	conjugates like hablar
+cargar	hablar	pattern	conjugates like hablar
+descargar	hablar	pattern	conjugates like hablar
+instalar	hablar	pattern	conjugates like hablar
+borrar	hablar	pattern	conjugates like hablar
+grabar	hablar	pattern	conjugates like hablar
+actualizar	hablar	pattern	conjugates like hablar
+estacionar	hablar	pattern	conjugates like hablar
+arrancar	hablar	pattern	conjugates like hablar
+frenar	hablar	pattern	conjugates like hablar
+cruzar	hablar	pattern	conjugates like hablar
+doblar	hablar	pattern	conjugates like hablar
+regresar	hablar	pattern	conjugates like hablar
+despegar	hablar	pattern	conjugates like hablar
+aterrizar	hablar	pattern	conjugates like hablar
+reservar	hablar	pattern	conjugates like hablar
+atender	pensar	pattern	conjugates like pensar
+ordenar	hablar	pattern	conjugates like hablar
+contratar	hablar	pattern	conjugates like hablar
+renunciar	hablar	pattern	conjugates like hablar
+jubilar	hablar	pattern	conjugates like hablar
+negociar	hablar	pattern	conjugates like hablar
+acordar	volver	pattern	conjugates like volver
+facturar	hablar	pattern	conjugates like hablar
+obligar	hablar	pattern	conjugates like hablar
+exigir	vivir	pattern	conjugates like vivir
+sugerir	pensar	pattern	conjugates like pensar
+recomendar	pensar	pattern	conjugates like pensar
+aconsejar	hablar	pattern	conjugates like hablar
+advertir	pensar	pattern	conjugates like pensar
+informar	hablar	pattern	conjugates like hablar
+anunciar	hablar	pattern	conjugates like hablar
+confesar	pensar	pattern	conjugates like pensar
+admitir	vivir	pattern	conjugates like vivir
+negar	pensar	pattern	conjugates like pensar
+rechazar	hablar	pattern	conjugates like hablar
+dudar	hablar	pattern	conjugates like hablar
+sospechar	hablar	pattern	conjugates like hablar
+acusar	hablar	pattern	conjugates like hablar
+culpar	hablar	pattern	conjugates like hablar
+defender	pensar	pattern	conjugates like pensar
+proteger	comer	pattern	conjugates like comer
+cuidar	hablar	pattern	conjugates like hablar
+controlar	hablar	pattern	conjugates like hablar
+obedecer	comer	pattern	conjugates like comer
+respetar	hablar	pattern	conjugates like hablar
+admirar	hablar	pattern	conjugates like hablar
+criticar	hablar	pattern	conjugates like hablar
+felicitar	hablar	pattern	conjugates like hablar
+celebrar	hablar	pattern	conjugates like hablar
+festejar	hablar	pattern	conjugates like hablar
+brindar	hablar	pattern	conjugates like hablar
+analizar	hablar	pattern	conjugates like hablar
+investigar	hablar	pattern	conjugates like hablar
+averiguar	hablar	pattern	conjugates like hablar
+comprobar	volver	pattern	conjugates like volver
+verificar	hablar	pattern	conjugates like hablar
+confirmar	hablar	pattern	conjugates like hablar
+asegurar	hablar	pattern	conjugates like hablar
+garantizar	hablar	pattern	conjugates like hablar
+demostrar	volver	pattern	conjugates like volver
+aclarar	hablar	pattern	conjugates like hablar
+resumir	vivir	pattern	conjugates like vivir
+concluir	vivir	pattern	conjugates like vivir
+asumir	vivir	pattern	conjugates like vivir
+emocionar	hablar	pattern	conjugates like hablar
+sorprender	comer	pattern	conjugates like comer
+impresionar	hablar	pattern	conjugates like hablar
+decepcionar	hablar	pattern	conjugates like hablar
+frustrar	hablar	pattern	conjugates like hablar
+molestar	hablar	pattern	conjugates like hablar
+fastidiar	hablar	pattern	conjugates like hablar
+calmar	hablar	pattern	conjugates like hablar
+animar	hablar	pattern	conjugates like hablar
+apoyar	hablar	pattern	conjugates like hablar
+acostumbrar	hablar	pattern	conjugates like hablar
+adaptar	hablar	pattern	conjugates like hablar
+mudar	hablar	pattern	conjugates like hablar
+establecer	comer	pattern	conjugates like comer
+pertenecer	comer	pattern	conjugates like comer
+depender	comer	pattern	conjugates like comer
+importar	hablar	pattern	conjugates like hablar
+interesar	hablar	pattern	conjugates like hablar
+convenir	venir	pattern	conjugates like venir
+referir	pensar	pattern	conjugates like pensar
+ocupar	hablar	pattern	conjugates like hablar
+llenar	hablar	pattern	conjugates like hablar
+colgar	volver	pattern	conjugates like volver
+meter	comer	pattern	conjugates like comer
+mezclar	hablar	pattern	conjugates like hablar
+cortar	hablar	pattern	conjugates like hablar
+hervir	pensar	pattern	conjugates like pensar
+calentar	pensar	pattern	conjugates like pensar
+congelar	hablar	pattern	conjugates like hablar
+masticar	hablar	pattern	conjugates like hablar
+tragar	hablar	pattern	conjugates like hablar
+pesar	hablar	pattern	conjugates like hablar
+medir	pedir	pattern	conjugates like pedir
+sumar	hablar	pattern	conjugates like hablar
+restar	hablar	pattern	conjugates like hablar
+multiplicar	hablar	pattern	conjugates like hablar
+dividir	vivir	pattern	conjugates like vivir
+repartir	vivir	pattern	conjugates like vivir
+compartir	vivir	pattern	conjugates like vivir
+prestar atención	hablar	pattern	conjugates like hablar
+aprovechar	hablar	pattern	conjugates like hablar
+desperdiciar	hablar	pattern	conjugates like hablar
+acercar	hablar	pattern	conjugates like hablar
+alejar	hablar	pattern	conjugates like hablar
+acostar	volver	pattern	conjugates like volver
+sentar	pensar	pattern	conjugates like pensar
+ponerse	poner	pattern	conjugates like poner
+quitar	hablar	pattern	conjugates like hablar
+vestir	pedir	pattern	conjugates like pedir
+peinar	hablar	pattern	conjugates like hablar
+afeitar	hablar	pattern	conjugates like hablar
+llover	volver	pattern	conjugates like volver
+nevar	pensar	pattern	conjugates like pensar
+tronar	volver	pattern	conjugates like volver
+soplar	hablar	pattern	conjugates like hablar
+amanecer	comer	pattern	conjugates like comer
+anochecer	comer	pattern	conjugates like comer
+inundar	hablar	pattern	conjugates like hablar
+secar	hablar	pattern	conjugates like hablar
+mojar	hablar	pattern	conjugates like hablar
+regar	pensar	pattern	conjugates like pensar
+sembrar	pensar	pattern	conjugates like pensar
+cosechar	hablar	pattern	conjugates like hablar
+podar	hablar	pattern	conjugates like hablar
+florecer	comer	pattern	conjugates like comer
+pudrir	vivir	pattern	conjugates like vivir
+madurar	hablar	pattern	conjugates like hablar
+ladrar	hablar	pattern	conjugates like hablar
+morder	volver	pattern	conjugates like volver
+picar	hablar	pattern	conjugates like hablar
+rascar	hablar	pattern	conjugates like hablar
+volar	volver	pattern	conjugates like volver
+nadar	hablar	pattern	conjugates like hablar
+pescar	hablar	pattern	conjugates like hablar
+cazar	hablar	pattern	conjugates like hablar
+trepar	hablar	pattern	conjugates like hablar
+saltar	hablar	pattern	conjugates like hablar
+patear	hablar	pattern	conjugates like hablar
+lanzar	hablar	pattern	conjugates like hablar
+atrapar	hablar	pattern	conjugates like hablar
+entrenar	hablar	pattern	conjugates like hablar
+competir	pedir	pattern	conjugates like pedir
+empatar	hablar	pattern	conjugates like hablar
+toser	comer	pattern	conjugates like comer
+estornudar	hablar	pattern	conjugates like hablar
+respirar	hablar	pattern	conjugates like hablar
+sudar	hablar	pattern	conjugates like hablar
+temblar	pensar	pattern	conjugates like pensar
+sangrar	hablar	pattern	conjugates like hablar
+hinchar	hablar	pattern	conjugates like hablar
+torcer	comer	pattern	conjugates like comer
+recetar	hablar	pattern	conjugates like hablar
+operar	hablar	pattern	conjugates like hablar
+internar	hablar	pattern	conjugates like hablar
+depositar	hablar	pattern	conjugates like hablar
+retirar	hablar	pattern	conjugates like hablar
+transferir	pensar	pattern	conjugates like pensar
+invertir	pensar	pattern	conjugates like pensar
+tramitar	hablar	pattern	conjugates like hablar
+renovar	volver	pattern	conjugates like volver
+vencer	comer	pattern	conjugates like comer
+registrar	hablar	pattern	conjugates like hablar
+inscribir	vivir	pattern	conjugates like vivir
+certificar	hablar	pattern	conjugates like hablar
+sellar	hablar	pattern	conjugates like hablar
+denunciar	hablar	pattern	conjugates like hablar
+demandar	hablar	pattern	conjugates like hablar
+juzgar	hablar	pattern	conjugates like hablar
+heredar	hablar	pattern	conjugates like hablar
+poseer	comer	pattern	conjugates like comer
+adquirir	vivir	pattern	conjugates like vivir
+pintar	hablar	pattern	conjugates like hablar
+clavar	hablar	pattern	conjugates like hablar
+atornillar	hablar	pattern	conjugates like hablar
+pegar	hablar	pattern	conjugates like hablar
+soldar	hablar	pattern	conjugates like hablar
+excavar	hablar	pattern	conjugates like hablar
+demoler	volver	pattern	conjugates like volver
+reformar	hablar	pattern	conjugates like hablar
+decorar	hablar	pattern	conjugates like hablar
+programar	hablar	pattern	conjugates like hablar
+reiniciar	hablar	pattern	conjugates like hablar
+respaldar	hablar	pattern	conjugates like hablar
+restaurar	hablar	pattern	conjugates like hablar
+navegar	hablar	pattern	conjugates like hablar
+etiquetar	hablar	pattern	conjugates like hablar
+bloquear	hablar	pattern	conjugates like hablar
+silenciar	hablar	pattern	conjugates like hablar
+dibujar	hablar	pattern	conjugates like hablar
+filmar	hablar	pattern	conjugates like hablar
+editar	hablar	pattern	conjugates like hablar
+publicar	hablar	pattern	conjugates like hablar
+componer	poner	pattern	conjugates like poner
+ensayar	hablar	pattern	conjugates like hablar
+interpretar	hablar	pattern	conjugates like hablar
+estrenar	hablar	pattern	conjugates like hablar
+aplaudir	vivir	pattern	conjugates like vivir
+coquetear	hablar	pattern	conjugates like hablar
+enamorar	hablar	pattern	conjugates like hablar
+divorciar	hablar	pattern	conjugates like hablar
+parir	vivir	pattern	conjugates like vivir
+adoptar	hablar	pattern	conjugates like hablar
+educar	hablar	pattern	conjugates like hablar
+mimar	hablar	pattern	conjugates like hablar
+regañar	hablar	pattern	conjugates like hablar
+castigar	hablar	pattern	conjugates like hablar
+premiar	hablar	pattern	conjugates like hablar
+reflexionar	hablar	pattern	conjugates like hablar
+meditar	hablar	pattern	conjugates like hablar
+concentrar	hablar	pattern	conjugates like hablar
+distraer	traer	pattern	conjugates like traer
+confundir	vivir	pattern	conjugates like vivir
+deducir	vivir	pattern	conjugates like vivir
+predecir	decir	pattern	conjugates like decir
+adivinar	hablar	pattern	conjugates like hablar
+acertar	pensar	pattern	conjugates like pensar
+avanzar	hablar	pattern	conjugates like hablar
+retroceder	comer	pattern	conjugates like comer
+girar	hablar	pattern	conjugates like hablar
+rodear	hablar	pattern	conjugates like hablar
+atravesar	pensar	pattern	conjugates like pensar
+recorrer	comer	pattern	conjugates like comer
+perseguir	pedir	pattern	conjugates like pedir
+escapar	hablar	pattern	conjugates like hablar
+huir	vivir	pattern	conjugates like vivir
+desaparecer	comer	pattern	conjugates like comer
+pasear	hablar	pattern	conjugates like hablar
+transformar	hablar	pattern	conjugates like hablar
+reducir	vivir	pattern	conjugates like vivir
+aumentar	hablar	pattern	conjugates like hablar
+disminuir	vivir	pattern	conjugates like vivir
+duplicar	hablar	pattern	conjugates like hablar
+expandir	vivir	pattern	conjugates like vivir
+encoger	comer	pattern	conjugates like comer
+estirar	hablar	pattern	conjugates like hablar
+derretir	pedir	pattern	conjugates like pedir
+evaporar	hablar	pattern	conjugates like hablar
+oxidar	hablar	pattern	conjugates like hablar
+afirmar	hablar	pattern	conjugates like hablar
+jurar	hablar	pattern	conjugates like hablar
+amenazar	hablar	pattern	conjugates like hablar
+insultar	hablar	pattern	conjugates like hablar
+elogiar	hablar	pattern	conjugates like hablar
+burlar	hablar	pattern	conjugates like hablar
+bromear	hablar	pattern	conjugates like hablar
+exagerar	hablar	pattern	conjugates like hablar
+susurrar	hablar	pattern	conjugates like hablar
+murmurar	hablar	pattern	conjugates like hablar
+tartamudear	hablar	pattern	conjugates like hablar
+suspirar	hablar	pattern	conjugates like hablar
+quejar	hablar	pattern	conjugates like hablar
+protestar	hablar	pattern	conjugates like hablar
+reclamar	hablar	pattern	conjugates like hablar
+rogar	volver	pattern	conjugates like volver
+suplicar	hablar	pattern	conjugates like hablar
+señalar	hablar	pattern	conjugates like hablar
+indicar	hablar	pattern	conjugates like hablar
+ocultar	hablar	pattern	conjugates like hablar
+revelar	hablar	pattern	conjugates like hablar
+descubrirse	cubrir	pattern	conjugates like cubrir
+destapar	hablar	pattern	conjugates like hablar
+envolver	volver	pattern	conjugates like volver
+desenvolver	volver	pattern	conjugates like volver
+atar	hablar	pattern	conjugates like hablar
+desatar	hablar	pattern	conjugates like hablar
+apretar	pensar	pattern	conjugates like pensar
+aflojar	hablar	pattern	conjugates like hablar
+desdoblar	hablar	pattern	conjugates like hablar
+estrujar	hablar	pattern	conjugates like hablar
+barrer	comer	pattern	conjugates like comer
+fregar	pensar	pattern	conjugates like pensar
+planchar	hablar	pattern	conjugates like hablar
+tender	pensar	pattern	conjugates like pensar
+coser	comer	pattern	conjugates like comer
+tejer	comer	pattern	conjugates like comer
+bordar	hablar	pattern	conjugates like hablar
+remendar	pensar	pattern	conjugates like pensar
+manchar	hablar	pattern	conjugates like hablar
+ensuciar	hablar	pattern	conjugates like hablar
+ordeñar	hablar	pattern	conjugates like hablar
+arar	hablar	pattern	conjugates like hablar
+abonar	hablar	pattern	conjugates like hablar
+talar	hablar	pattern	conjugates like hablar
+quemar	hablar	pattern	conjugates like hablar
+derramar	hablar	pattern	conjugates like hablar
+gotear	hablar	pattern	conjugates like hablar
+rebalsar	hablar	pattern	conjugates like hablar
+hundir	vivir	pattern	conjugates like vivir
+flotar	hablar	pattern	conjugates like hablar
+arrastrar	hablar	pattern	conjugates like hablar
+empacar	hablar	pattern	conjugates like hablar
+desempacar	hablar	pattern	conjugates like hablar
+acomodar	hablar	pattern	conjugates like hablar
+apilar	hablar	pattern	conjugates like hablar
+amontonar	hablar	pattern	conjugates like hablar
+reciclar	hablar	pattern	conjugates like hablar
+reparar	hablar	pattern	conjugates like hablar
+reemplazar	hablar	pattern	conjugates like hablar
+ajustar	hablar	pattern	conjugates like hablar
+revisar	hablar	pattern	conjugates like hablar
+acostumbrarse	hablar	pattern	conjugates like hablar
+atreverse	comer	pattern	conjugates like comer
+arrepentirse	pensar	pattern	conjugates like pensar
+quejarse	hablar	pattern	conjugates like hablar
+burlarse	hablar	pattern	conjugates like hablar
+darse cuenta	dar	pattern	conjugates like dar
+ponerse de acuerdo	poner	pattern	conjugates like poner
+hacer falta	hacer	pattern	conjugates like hacer
+tener ganas	tener	pattern	conjugates like tener
+dar lo mismo	dar	pattern	conjugates like dar
+valer la pena	valer	pattern	conjugates like valer
+echar de menos	hablar	pattern	conjugates like hablar
+acabar de	hablar	pattern	conjugates like hablar
+volver a	volver	pattern	conjugates like volver
+ponerse a	poner	pattern	conjugates like poner
+dejar de	hablar	pattern	conjugates like hablar
+tratar de	hablar	pattern	conjugates like hablar
+tardar en	hablar	pattern	conjugates like hablar
+soler	volver	pattern	conjugates like volver
+acordarse	volver	pattern	conjugates like volver
+fijarse	hablar	pattern	conjugates like hablar
+animarse	hablar	pattern	conjugates like hablar
+enterarse	hablar	pattern	conjugates like hablar
+aprovecharse	hablar	pattern	conjugates like hablar
+meterse	comer	pattern	conjugates like comer
+hacerse	hacer	pattern	conjugates like hacer
+volverse	volver	pattern	conjugates like volver
+quedarse	hablar	pattern	conjugates like hablar
+irse	ir	pattern	conjugates like ir
+llevarse	hablar	pattern	conjugates like hablar
+parecerse	comer	pattern	conjugates like comer
+convertirse	pensar	pattern	conjugates like pensar
+referirse	pensar	pattern	conjugates like pensar
+tratarse de	hablar	pattern	conjugates like hablar
+deshacerse	hacer	pattern	conjugates like hacer
+encargarse	hablar	pattern	conjugates like hablar
+ocuparse	hablar	pattern	conjugates like hablar
+preocuparse	hablar	pattern	conjugates like hablar
+esforzarse	volver	pattern	conjugates like volver
+empeñarse	hablar	pattern	conjugates like hablar
+negarse	pensar	pattern	conjugates like pensar
+rendirse	pedir	pattern	conjugates like pedir
+atenerse	tener	pattern	conjugates like tener
+aguantar	hablar	pattern	conjugates like hablar
+resistir	vivir	pattern	conjugates like vivir
+tolerar	hablar	pattern	conjugates like hablar
+permitirse	vivir	pattern	conjugates like vivir
+arriesgar	hablar	pattern	conjugates like hablar
+apostar	volver	pattern	conjugates like volver
+solucionar	hablar	pattern	conjugates like hablar
+complicar	hablar	pattern	conjugates like hablar
+simplificar	hablar	pattern	conjugates like hablar
+facilitar	hablar	pattern	conjugates like hablar
+dificultar	hablar	pattern	conjugates like hablar
+impedir	pedir	pattern	conjugates like pedir
+evitar	hablar	pattern	conjugates like hablar
+prevenir	venir	pattern	conjugates like venir
+provocar	hablar	pattern	conjugates like hablar
+causar	hablar	pattern	conjugates like hablar
+generar	hablar	pattern	conjugates like hablar
+producirse	vivir	pattern	conjugates like vivir
+suceder	comer	pattern	conjugates like comer
+acontecer	comer	pattern	conjugates like comer
+coincidir	vivir	pattern	conjugates like vivir
+corresponder	comer	pattern	conjugates like comer
+equivaler	comer	pattern	conjugates like comer
+comparar	hablar	pattern	conjugates like hablar
+distinguir	vivir	pattern	conjugates like vivir
+diferenciar	hablar	pattern	conjugates like hablar
+clasificar	hablar	pattern	conjugates like hablar
+agrupar	hablar	pattern	conjugates like hablar
+seleccionar	hablar	pattern	conjugates like hablar
+descartar	hablar	pattern	conjugates like hablar
+excluir	vivir	pattern	conjugates like vivir
+añadir	vivir	pattern	conjugates like vivir
+agregar	hablar	pattern	conjugates like hablar
+sustituir	vivir	pattern	conjugates like vivir
+intercambiar	hablar	pattern	conjugates like hablar
+canjear	hablar	pattern	conjugates like hablar
+regalar	hablar	pattern	conjugates like hablar
+donar	hablar	pattern	conjugates like hablar
+merecer	comer	pattern	conjugates like comer
+corresponderse	comer	pattern	conjugates like comer
+incumplir	vivir	pattern	conjugates like vivir
+engañar	hablar	pattern	conjugates like hablar
+estafar	hablar	pattern	conjugates like hablar
+robar	hablar	pattern	conjugates like hablar
+hospedar	hablar	pattern	conjugates like hablar
+alojarse	hablar	pattern	conjugates like hablar
+mudarse	hablar	pattern	conjugates like hablar
+instalarse	hablar	pattern	conjugates like hablar
+radicarse	hablar	pattern	conjugates like hablar
+emigrar	hablar	pattern	conjugates like hablar
+inmigrar	hablar	pattern	conjugates like hablar
+extrañarse	hablar	pattern	conjugates like hablar
+frecuentar	hablar	pattern	conjugates like hablar
+asistir	vivir	pattern	conjugates like vivir
+presenciar	hablar	pattern	conjugates like hablar
+participar	hablar	pattern	conjugates like hablar
+colaborar	hablar	pattern	conjugates like hablar
+contribuir	vivir	pattern	conjugates like vivir
+aportar	hablar	pattern	conjugates like hablar
+financiar	hablar	pattern	conjugates like hablar
+patrocinar	hablar	pattern	conjugates like hablar
+administrar	hablar	pattern	conjugates like hablar
+gestionar	hablar	pattern	conjugates like hablar
+supervisar	hablar	pattern	conjugates like hablar
+coordinar	hablar	pattern	conjugates like hablar
+delegar	hablar	pattern	conjugates like hablar
+asignar	hablar	pattern	conjugates like hablar
+encargar	hablar	pattern	conjugates like hablar
+solicitar	hablar	pattern	conjugates like hablar
+postular	hablar	pattern	conjugates like hablar
+ascender	pensar	pattern	conjugates like pensar
+despedir	pedir	pattern	conjugates like pedir
+emplear	hablar	pattern	conjugates like hablar
+capacitar	hablar	pattern	conjugates like hablar
+calificar	hablar	pattern	conjugates like hablar
+aprobar	volver	pattern	conjugates like volver
+reprobar	volver	pattern	conjugates like volver
+memorizar	hablar	pattern	conjugates like hablar
+repasar	hablar	pattern	conjugates like hablar
+exponer	poner	pattern	conjugates like poner
+debatir	vivir	pattern	conjugates like vivir
+argumentar	hablar	pattern	conjugates like hablar
+convencer	comer	pattern	conjugates like comer
+persuadir	vivir	pattern	conjugates like vivir
+influir	vivir	pattern	conjugates like vivir
+inspirar	hablar	pattern	conjugates like hablar
+motivar	hablar	pattern	conjugates like hablar
+desanimar	hablar	pattern	conjugates like hablar
+fracasar	hablar	pattern	conjugates like hablar
+triunfar	hablar	pattern	conjugates like hablar
+destacar	hablar	pattern	conjugates like hablar
+sobresalir	salir	pattern	conjugates like salir
+superar	hablar	pattern	conjugates like hablar
+posponer	poner	pattern	conjugates like poner
+adelantar	hablar	pattern	conjugates like hablar
+atrasar	hablar	pattern	conjugates like hablar
+cancelar	hablar	pattern	conjugates like hablar
+suspender	comer	pattern	conjugates like comer
+reanudar	hablar	pattern	conjugates like hablar
+interrumpir	vivir	pattern	conjugates like vivir
+detener	tener	pattern	conjugates like tener
+encerrar	pensar	pattern	conjugates like pensar
+liberar	hablar	pattern	conjugates like hablar
+rescatar	hablar	pattern	conjugates like hablar
+salvar	hablar	pattern	conjugates like hablar
+sobrevivir	vivir	pattern	conjugates like vivir
+fallecer	comer	pattern	conjugates like comer
+enterrar	pensar	pattern	conjugates like pensar
+rezar	hablar	pattern	conjugates like hablar
+bendecir	decir	pattern	conjugates like decir
+creer en	comer	pattern	conjugates like comer
+adorar	hablar	pattern	conjugates like hablar
+venerar	hablar	pattern	conjugates like hablar
+peregrinar	hablar	pattern	conjugates like hablar
+festejarse	hablar	pattern	conjugates like hablar
+conmemorar	hablar	pattern	conjugates like hablar
+heredarse	hablar	pattern	conjugates like hablar
+conservar	hablar	pattern	conjugates like hablar
+perderse	pensar	pattern	conjugates like pensar
+orientarse	hablar	pattern	conjugates like hablar
+ubicar	hablar	pattern	conjugates like hablar
+rodearse	hablar	pattern	conjugates like hablar
+integrarse	hablar	pattern	conjugates like hablar
+relacionarse	hablar	pattern	conjugates like hablar
+presentarse	hablar	pattern	conjugates like hablar
+comportarse	hablar	pattern	conjugates like hablar
+portarse	hablar	pattern	conjugates like hablar
+disculparse	hablar	pattern	conjugates like hablar
+agradecerse	comer	pattern	conjugates like comer
+deberse	comer	pattern	conjugates like comer
+tratarse	hablar	pattern	conjugates like hablar
+acostumbrarse a	hablar	pattern	conjugates like hablar
+echar	hablar	pattern	conjugates like hablar
+volcar	volver	pattern	conjugates like volver
+verter	pensar	pattern	conjugates like pensar
+servirse	pedir	pattern	conjugates like pedir
+acelerar	hablar	pattern	conjugates like hablar
+retrasar	hablar	pattern	conjugates like hablar
+apresurar	hablar	pattern	conjugates like hablar
+demorar	hablar	pattern	conjugates like hablar
+permanecer	comer	pattern	conjugates like comer
+persistir	vivir	pattern	conjugates like vivir
+insistir	vivir	pattern	conjugates like vivir
+desistir	vivir	pattern	conjugates like vivir
+abandonar	hablar	pattern	conjugates like hablar
+renunciar a	hablar	pattern	conjugates like hablar
+conformarse	hablar	pattern	conjugates like hablar
+exigirse	vivir	pattern	conjugates like vivir
+acostumbrar a	hablar	pattern	conjugates like hablar
+entrenarse	hablar	pattern	conjugates like hablar
+prepararse	hablar	pattern	conjugates like hablar
+disponerse	poner	pattern	conjugates like poner
+decidirse	vivir	pattern	conjugates like vivir
+comprometerse	comer	pattern	conjugates like comer
+casarse	hablar	pattern	conjugates like hablar
+enamorarse	hablar	pattern	conjugates like hablar
+separarse	hablar	pattern	conjugates like hablar
+reconciliarse	hablar	pattern	conjugates like hablar
+despedirse	pedir	pattern	conjugates like pedir
+saludarse	hablar	pattern	conjugates like hablar
+abrazarse	hablar	pattern	conjugates like hablar
+juntarse	hablar	pattern	conjugates like hablar
+visitarse	hablar	pattern	conjugates like hablar
+ayudarse	hablar	pattern	conjugates like hablar
+entenderse	pensar	pattern	conjugates like pensar
+comunicarse	hablar	pattern	conjugates like hablar
+expresarse	hablar	pattern	conjugates like hablar
+callarse	hablar	pattern	conjugates like hablar
+interrumpirse	vivir	pattern	conjugates like vivir
+escucharse	hablar	pattern	conjugates like hablar
+oírse	oír	pattern	conjugates like oír
+sonar	volver	pattern	conjugates like volver
+timbrar	hablar	pattern	conjugates like hablar
+golpear	hablar	pattern	conjugates like hablar
+chocar	hablar	pattern	conjugates like hablar
+atropellar	hablar	pattern	conjugates like hablar
+frenarse	hablar	pattern	conjugates like hablar
+resbalar	hablar	pattern	conjugates like hablar
+tropezar	pensar	pattern	conjugates like pensar
+caerse	caer	pattern	conjugates like caer
+levantarse	hablar	pattern	conjugates like hablar
+agacharse	hablar	pattern	conjugates like hablar
+arrodillarse	hablar	pattern	conjugates like hablar
+estirarse	hablar	pattern	conjugates like hablar
+recostarse	volver	pattern	conjugates like volver
+bostezar	hablar	pattern	conjugates like hablar
+roncar	hablar	pattern	conjugates like hablar
+soñar con	volver	pattern	conjugates like volver
+despertarse	pensar	pattern	conjugates like pensar
+dormirse	volver	pattern	conjugates like volver
+trasnochar	hablar	pattern	conjugates like hablar
+madrugar	hablar	pattern	conjugates like hablar
+descansarse	hablar	pattern	conjugates like hablar
+aburrirse	vivir	pattern	conjugates like vivir
+divertirse	pensar	pattern	conjugates like pensar
+reírse	reír	pattern	conjugates like reír
+sonreír	reír	pattern	conjugates like reír
+llorarse	hablar	pattern	conjugates like hablar
+emocionarse	hablar	pattern	conjugates like hablar
+entusiasmarse	hablar	pattern	conjugates like hablar
+ilusionarse	hablar	pattern	conjugates like hablar
+desilusionarse	hablar	pattern	conjugates like hablar
+asustarse	hablar	pattern	conjugates like hablar
+alarmarse	hablar	pattern	conjugates like hablar
+tranquilizarse	hablar	pattern	conjugates like hablar
+enfadarse	hablar	pattern	conjugates like hablar
+enojarse	hablar	pattern	conjugates like hablar
+odiarse	hablar	pattern	conjugates like hablar
+envidiar	hablar	pattern	conjugates like hablar
+celar	hablar	pattern	conjugates like hablar
+avergonzarse	volver	pattern	conjugates like volver
+sonrojarse	hablar	pattern	conjugates like hablar
+acomplejarse	hablar	pattern	conjugates like hablar
+enorgullecerse	comer	pattern	conjugates like comer
+humillar	hablar	pattern	conjugates like hablar
+respetarse	hablar	pattern	conjugates like hablar
+admirarse	hablar	pattern	conjugates like hablar
+asombrar	hablar	pattern	conjugates like hablar
+maravillar	hablar	pattern	conjugates like hablar
+deslumbrar	hablar	pattern	conjugates like hablar
+alumbrar	hablar	pattern	conjugates like hablar
+apagarse	hablar	pattern	conjugates like hablar
+encenderse	pensar	pattern	conjugates like pensar
+cortarse	hablar	pattern	conjugates like hablar
+restablecerse	comer	pattern	conjugates like comer
+descomponerse	poner	pattern	conjugates like poner
+estropear	hablar	pattern	conjugates like hablar
+arruinar	hablar	pattern	conjugates like hablar
+deteriorar	hablar	pattern	conjugates like hablar
+desgastar	hablar	pattern	conjugates like hablar
+gastarse	hablar	pattern	conjugates like hablar
+resistirse	vivir	pattern	conjugates like vivir
+tapar	hablar	pattern	conjugates like hablar
+abrochar	hablar	pattern	conjugates like hablar
+desabrochar	hablar	pattern	conjugates like hablar
+calzar	hablar	pattern	conjugates like hablar
+probarse	volver	pattern	conjugates like volver
+devolverse	volver	pattern	conjugates like volver
+canjearse	hablar	pattern	conjugates like hablar
+rebajar	hablar	pattern	conjugates like hablar
+regatear	hablar	pattern	conjugates like hablar
+encarecer	comer	pattern	conjugates like comer
+abaratar	hablar	pattern	conjugates like hablar
+endeudarse	hablar	pattern	conjugates like hablar
+quebrar	pensar	pattern	conjugates like pensar
+prosperar	hablar	pattern	conjugates like hablar
+rendir	pedir	pattern	conjugates like pedir
+desaprovechar	hablar	pattern	conjugates like hablar
+malgastar	hablar	pattern	conjugates like hablar
+economizar	hablar	pattern	conjugates like hablar
+presupuestar	hablar	pattern	conjugates like hablar
+calcular	hablar	pattern	conjugates like hablar
+estimar	hablar	pattern	conjugates like hablar
+aproximar	hablar	pattern	conjugates like hablar
+redondear	hablar	pattern	conjugates like hablar
+contabilizar	hablar	pattern	conjugates like hablar
+votar	hablar	pattern	conjugates like hablar
+gobernar	pensar	pattern	conjugates like pensar
+legislar	hablar	pattern	conjugates like hablar
+reglamentar	hablar	pattern	conjugates like hablar
+aplicar	hablar	pattern	conjugates like hablar
+acatar	hablar	pattern	conjugates like hablar
+infringir	vivir	pattern	conjugates like vivir
+multar	hablar	pattern	conjugates like hablar
+sancionar	hablar	pattern	conjugates like hablar
+apelar	hablar	pattern	conjugates like hablar
+absolver	volver	pattern	conjugates like volver
+condenar	hablar	pattern	conjugates like hablar
+testificar	hablar	pattern	conjugates like hablar
+declarar	hablar	pattern	conjugates like hablar
+ocultarse	hablar	pattern	conjugates like hablar
+vigilar	hablar	pattern	conjugates like hablar
+custodiar	hablar	pattern	conjugates like hablar
+patrullar	hablar	pattern	conjugates like hablar
+alertar	hablar	pattern	conjugates like hablar
+socorrer	comer	pattern	conjugates like comer
+atender a	pensar	pattern	conjugates like pensar
+diagnosticar	hablar	pattern	conjugates like hablar
+inyectar	hablar	pattern	conjugates like hablar
+vendar	hablar	pattern	conjugates like hablar
+cicatrizar	hablar	pattern	conjugates like hablar
+contagiar	hablar	pattern	conjugates like hablar
+vacunar	hablar	pattern	conjugates like hablar
+desinfectar	hablar	pattern	conjugates like hablar
+esterilizar	hablar	pattern	conjugates like hablar
+hervirse	pensar	pattern	conjugates like pensar
+filtrar	hablar	pattern	conjugates like hablar
+colar	volver	pattern	conjugates like volver
+exprimir	vivir	pattern	conjugates like vivir
+rallar	hablar	pattern	conjugates like hablar
+amasar	hablar	pattern	conjugates like hablar
+hornear	hablar	pattern	conjugates like hablar
+asar	hablar	pattern	conjugates like hablar
+guisar	hablar	pattern	conjugates like hablar
+condimentar	hablar	pattern	conjugates like hablar
+salar	hablar	pattern	conjugates like hablar
+endulzar	hablar	pattern	conjugates like hablar
+recalentar	pensar	pattern	conjugates like pensar
+descongelar	hablar	pattern	conjugates like hablar
+conservarse	hablar	pattern	conjugates like hablar
+caducar	hablar	pattern	conjugates like hablar
+oler	volver	pattern	conjugates like volver
+saborear	hablar	pattern	conjugates like hablar
+degustar	hablar	pattern	conjugates like hablar
+atragantarse	hablar	pattern	conjugates like hablar
+empacharse	hablar	pattern	conjugates like hablar
+adelgazar	hablar	pattern	conjugates like hablar
+engordar	hablar	pattern	conjugates like hablar
+alimentarse	hablar	pattern	conjugates like hablar
+nutrir	vivir	pattern	conjugates like vivir
+hidratar	hablar	pattern	conjugates like hablar
+deshidratarse	hablar	pattern	conjugates like hablar
+insolarse	hablar	pattern	conjugates like hablar
+broncearse	hablar	pattern	conjugates like hablar
+quemarse	hablar	pattern	conjugates like hablar
+abrigarse	hablar	pattern	conjugates like hablar
+destaparse	hablar	pattern	conjugates like hablar
+refrescar	hablar	pattern	conjugates like hablar
+ventilar	hablar	pattern	conjugates like hablar
+humedecer	comer	pattern	conjugates like comer
+empapar	hablar	pattern	conjugates like hablar
+escurrir	vivir	pattern	conjugates like vivir
+tender a	pensar	pattern	conjugates like pensar
+predominar	hablar	pattern	conjugates like hablar
+abundar	hablar	pattern	conjugates like hablar
+escasear	hablar	pattern	conjugates like hablar
+acudir	vivir	pattern	conjugates like vivir
+concurrir	vivir	pattern	conjugates like vivir
+convocar	hablar	pattern	conjugates like hablar
+citar	hablar	pattern	conjugates like hablar
+agendar	hablar	pattern	conjugates like hablar
+coincidir con	vivir	pattern	conjugates like vivir
+discrepar	hablar	pattern	conjugates like hablar
+objetar	hablar	pattern	conjugates like hablar
+consentir	pensar	pattern	conjugates like pensar
+autorizar	hablar	pattern	conjugates like hablar
+denegar	pensar	pattern	conjugates like pensar
+conceder	comer	pattern	conjugates like comer
+otorgar	hablar	pattern	conjugates like hablar
+adjudicar	hablar	pattern	conjugates like hablar
+licitar	hablar	pattern	conjugates like hablar
+subastar	hablar	pattern	conjugates like hablar
+rematar	hablar	pattern	conjugates like hablar
+liquidar	hablar	pattern	conjugates like hablar
+saldar	hablar	pattern	conjugates like hablar
+amortizar	hablar	pattern	conjugates like hablar
+hipotecar	hablar	pattern	conjugates like hablar
+embargar	hablar	pattern	conjugates like hablar
+desalojar	hablar	pattern	conjugates like hablar
+arrendar	pensar	pattern	conjugates like pensar
+ceder	comer	pattern	conjugates like comer
+traspasar	hablar	pattern	conjugates like hablar
+legar	hablar	pattern	conjugates like hablar
+repartirse	vivir	pattern	conjugates like vivir
+disputar	hablar	pattern	conjugates like hablar
+litigar	hablar	pattern	conjugates like hablar
+mediar	hablar	pattern	conjugates like hablar
+arbitrar	hablar	pattern	conjugates like hablar
+negociarse	hablar	pattern	conjugates like hablar
+pactar	hablar	pattern	conjugates like hablar
+firmarse	hablar	pattern	conjugates like hablar
+rescindir	vivir	pattern	conjugates like vivir
+prorrogar	hablar	pattern	conjugates like hablar
+caducarse	hablar	pattern	conjugates like hablar
+tramitarse	hablar	pattern	conjugates like hablar
+habilitar	hablar	pattern	conjugates like hablar
+clausurar	hablar	pattern	conjugates like hablar
+inaugurar	hablar	pattern	conjugates like hablar
+fundar	hablar	pattern	conjugates like hablar
+constituir	vivir	pattern	conjugates like vivir
+disolver	volver	pattern	conjugates like volver
+fusionar	hablar	pattern	conjugates like hablar
+privatizar	hablar	pattern	conjugates like hablar
+estatizar	hablar	pattern	conjugates like hablar
+exportar	hablar	pattern	conjugates like hablar
+contrabandear	hablar	pattern	conjugates like hablar
+colindar	hablar	pattern	conjugates like hablar
+limitar	hablar	pattern	conjugates like hablar
+atravesarse	pensar	pattern	conjugates like pensar
+cruzarse	hablar	pattern	conjugates like hablar
+toparse	hablar	pattern	conjugates like hablar
+encontrarse con	volver	pattern	conjugates like volver
+acompañarse	hablar	pattern	conjugates like hablar
+orientar	hablar	pattern	conjugates like hablar
+hallar	hablar	pattern	conjugates like hablar
+rastrear	hablar	pattern	conjugates like hablar
+localizar	hablar	pattern	conjugates like hablar
+ubicarse	hablar	pattern	conjugates like hablar
+abarcar	hablar	pattern	conjugates like hablar
+constar	hablar	pattern	conjugates like hablar
+componerse	poner	pattern	conjugates like poner
+integrar	hablar	pattern	conjugates like hablar
+formar parte	hablar	pattern	conjugates like hablar
+pertenecer a	comer	pattern	conjugates like comer
+proceder	comer	pattern	conjugates like comer
+provenir	venir	pattern	conjugates like venir
+derivar	hablar	pattern	conjugates like hablar
+originar	hablar	pattern	conjugates like hablar
+desencadenar	hablar	pattern	conjugates like hablar
+estallar	hablar	pattern	conjugates like hablar
+explotar	hablar	pattern	conjugates like hablar
+arder	comer	pattern	conjugates like comer
+incendiar	hablar	pattern	conjugates like hablar
+extinguir	vivir	pattern	conjugates like vivir
+sofocar	hablar	pattern	conjugates like hablar
+asfixiar	hablar	pattern	conjugates like hablar
+ahogarse	hablar	pattern	conjugates like hablar
+sumergir	vivir	pattern	conjugates like vivir
+emerger	comer	pattern	conjugates like comer
+brotar	hablar	pattern	conjugates like hablar
+germinar	hablar	pattern	conjugates like hablar
+marchitarse	hablar	pattern	conjugates like hablar
+secarse	hablar	pattern	conjugates like hablar
+reverdecer	comer	pattern	conjugates like comer
+sombrear	hablar	pattern	conjugates like hablar
+asolear	hablar	pattern	conjugates like hablar
+despejar	hablar	pattern	conjugates like hablar
+nublarse	hablar	pattern	conjugates like hablar
+relampaguear	hablar	pattern	conjugates like hablar
+granizar	hablar	pattern	conjugates like hablar
+escampar	hablar	pattern	conjugates like hablar
+chispear	hablar	pattern	conjugates like hablar
+lloviznar	hablar	pattern	conjugates like hablar
+congelarse	hablar	pattern	conjugates like hablar
+derretirse	pedir	pattern	conjugates like pedir
+evaporarse	hablar	pattern	conjugates like hablar
+esfumarse	hablar	pattern	conjugates like hablar
+desvanecerse	comer	pattern	conjugates like comer
+desmayarse	hablar	pattern	conjugates like hablar
+recuperarse	hablar	pattern	conjugates like hablar
+empeorarse	hablar	pattern	conjugates like hablar
+agravarse	hablar	pattern	conjugates like hablar
+estabilizarse	hablar	pattern	conjugates like hablar
+mejorarse	hablar	pattern	conjugates like hablar
+rehabilitar	hablar	pattern	conjugates like hablar
+fortalecer	comer	pattern	conjugates like comer
+debilitar	hablar	pattern	conjugates like hablar
+agotar	hablar	pattern	conjugates like hablar
+rendirse ante	pedir	pattern	conjugates like pedir
+reponerse	poner	pattern	conjugates like poner
+reponer	poner	pattern	conjugates like poner
+abastecer	comer	pattern	conjugates like comer
+surtir	vivir	pattern	conjugates like vivir
+distribuir	vivir	pattern	conjugates like vivir
+almacenar	hablar	pattern	conjugates like hablar
+acumular	hablar	pattern	conjugates like hablar
+coleccionar	hablar	pattern	conjugates like hablar
+archivar	hablar	pattern	conjugates like hablar
+catalogar	hablar	pattern	conjugates like hablar
+numerar	hablar	pattern	conjugates like hablar
+rotular	hablar	pattern	conjugates like hablar
+firmar por	hablar	pattern	conjugates like hablar
+timbrarse	hablar	pattern	conjugates like hablar
+fotocopiar	hablar	pattern	conjugates like hablar
+escanear	hablar	pattern	conjugates like hablar
+adjuntar	hablar	pattern	conjugates like hablar
+reenviar	hablar	pattern	conjugates like hablar
+responder a	comer	pattern	conjugates like comer
+suscribirse	vivir	pattern	conjugates like vivir
+dar de baja	dar	pattern	conjugates like dar
+registrarse	hablar	pattern	conjugates like hablar
+loguearse	hablar	pattern	conjugates like hablar
+desconectarse	hablar	pattern	conjugates like hablar
+actualizarse	hablar	pattern	conjugates like hablar
+sincronizar	hablar	pattern	conjugates like hablar
+configurar	hablar	pattern	conjugates like hablar
+desinstalar	hablar	pattern	conjugates like hablar
+formatear	hablar	pattern	conjugates like hablar
+comprimir	vivir	pattern	conjugates like vivir
+descomprimir	vivir	pattern	conjugates like vivir
+codificar	hablar	pattern	conjugates like hablar
+encriptar	hablar	pattern	conjugates like hablar
+depurar	hablar	pattern	conjugates like hablar
+compilar	hablar	pattern	conjugates like hablar
+ejecutar	hablar	pattern	conjugates like hablar
+fallarse	hablar	pattern	conjugates like hablar
+colgarse	volver	pattern	conjugates like volver
+reiniciarse	hablar	pattern	conjugates like hablar
+cargarse	hablar	pattern	conjugates like hablar
+navegarse	hablar	pattern	conjugates like hablar
+transmitir	vivir	pattern	conjugates like vivir
+emitir	vivir	pattern	conjugates like vivir
+sintonizar	hablar	pattern	conjugates like hablar
+grabarse	hablar	pattern	conjugates like hablar
+reproducir	vivir	pattern	conjugates like vivir
+pausar	hablar	pattern	conjugates like hablar
+adelantarse	hablar	pattern	conjugates like hablar
+retroceder (media)	comer	pattern	conjugates like comer
+subtitular	hablar	pattern	conjugates like hablar
+doblar (cine)	hablar	pattern	conjugates like hablar
+narrar	hablar	pattern	conjugates like hablar
+relatar	hablar	pattern	conjugates like hablar
+describir	vivir	pattern	conjugates like vivir
+detallar	hablar	pattern	conjugates like hablar
+resumirse	vivir	pattern	conjugates like vivir
+citar (texto)	hablar	pattern	conjugates like hablar
+plagiar	hablar	pattern	conjugates like hablar
+redactar	hablar	pattern	conjugates like hablar
+corregirse	pedir	pattern	conjugates like pedir
+tachar	hablar	pattern	conjugates like hablar
+subrayar	hablar	pattern	conjugates like hablar
+anotar	hablar	pattern	conjugates like hablar
+apuntar	hablar	pattern	conjugates like hablar
+registrar (datos)	hablar	pattern	conjugates like hablar
+completar	hablar	pattern	conjugates like hablar
+rellenar	hablar	pattern	conjugates like hablar
+adjuntarse	hablar	pattern	conjugates like hablar
+constar en	hablar	pattern	conjugates like hablar
+figurar	hablar	pattern	conjugates like hablar
+inscribirse	vivir	pattern	conjugates like vivir
+empadronarse	hablar	pattern	conjugates like hablar
+censar	hablar	pattern	conjugates like hablar
+encuestar	hablar	pattern	conjugates like hablar
+sondear	hablar	pattern	conjugates like hablar
+muestrear	hablar	pattern	conjugates like hablar
+medirse	pedir	pattern	conjugates like pedir
+pesarse	hablar	pattern	conjugates like hablar
+cronometrar	hablar	pattern	conjugates like hablar
+demorarse	hablar	pattern	conjugates like hablar
+puntualizar	hablar	pattern	conjugates like hablar
+aclararse	hablar	pattern	conjugates like hablar
+esclarecer	comer	pattern	conjugates like comer
+indagar	hablar	pattern	conjugates like hablar
+interrogar	hablar	pattern	conjugates like hablar
+inquirir	vivir	pattern	conjugates like vivir
+consultar	hablar	pattern	conjugates like hablar
+asesorar	hablar	pattern	conjugates like hablar
+orientarse por	hablar	pattern	conjugates like hablar
+deducirse	vivir	pattern	conjugates like vivir
+inferir	vivir	pattern	conjugates like vivir
+intuir	vivir	pattern	conjugates like vivir
+presentir	pensar	pattern	conjugates like pensar
+vislumbrar	hablar	pattern	conjugates like hablar
+percibir	vivir	pattern	conjugates like vivir
+captar	hablar	pattern	conjugates like hablar
+asimilar	hablar	pattern	conjugates like hablar
+interiorizar	hablar	pattern	conjugates like hablar
+retener	tener	pattern	conjugates like tener
+evocar	hablar	pattern	conjugates like hablar
+rememorar	hablar	pattern	conjugates like hablar
+añorar	hablar	pattern	conjugates like hablar
+anhelar	hablar	pattern	conjugates like hablar
+ansiar	hablar	pattern	conjugates like hablar
+ambicionar	hablar	pattern	conjugates like hablar
+aspirar a	hablar	pattern	conjugates like hablar
+pretender	comer	pattern	conjugates like comer
+fingir	vivir	pattern	conjugates like vivir
+disimular	hablar	pattern	conjugates like hablar
+aparentar	hablar	pattern	conjugates like hablar
+simular	hablar	pattern	conjugates like hablar
+imitar	hablar	pattern	conjugates like hablar
+remedar	hablar	pattern	conjugates like hablar
+parodiar	hablar	pattern	conjugates like hablar
+caricaturizar	hablar	pattern	conjugates like hablar
+ridiculizar	hablar	pattern	conjugates like hablar
+avergonzar	volver	pattern	conjugates like volver
+halagar	hablar	pattern	conjugates like hablar
+adular	hablar	pattern	conjugates like hablar
+consentir a	pensar	pattern	conjugates like pensar
+malcriar	hablar	pattern	conjugates like hablar
+disciplinar	hablar	pattern	conjugates like hablar
+reprender	comer	pattern	conjugates like comer
+amonestar	hablar	pattern	conjugates like hablar
+advertirse	pensar	pattern	conjugates like pensar
+constatar	hablar	pattern	conjugates like hablar
+cerciorarse	hablar	pattern	conjugates like hablar
+asegurarse	hablar	pattern	conjugates like hablar
+comprobarse	volver	pattern	conjugates like volver
+refutar	hablar	pattern	conjugates like hablar
+rebatir	vivir	pattern	conjugates like vivir
+contradecir	decir	pattern	conjugates like decir
+coincidir en	vivir	pattern	conjugates like vivir
+conciliar	hablar	pattern	conjugates like hablar
+apaciguar	hablar	pattern	conjugates like hablar
+sosegar	pensar	pattern	conjugates like pensar
+aliviar	hablar	pattern	conjugates like hablar
+consolar	volver	pattern	conjugates like volver
+compadecer	comer	pattern	conjugates like comer
+solidarizarse	hablar	pattern	conjugates like hablar
+compadecerse	comer	pattern	conjugates like comer
+amparar	hablar	pattern	conjugates like hablar
+acoger	comer	pattern	conjugates like comer
+albergar	hablar	pattern	conjugates like hablar
+cobijar	hablar	pattern	conjugates like hablar
+refugiarse	hablar	pattern	conjugates like hablar
+resguardar	hablar	pattern	conjugates like hablar
+preservar	hablar	pattern	conjugates like hablar
+rescatarse	hablar	pattern	conjugates like hablar
+recobrar	hablar	pattern	conjugates like hablar
+restituir	vivir	pattern	conjugates like vivir
+reintegrar	hablar	pattern	conjugates like hablar
+compensar	hablar	pattern	conjugates like hablar
+indemnizar	hablar	pattern	conjugates like hablar
+resarcir	vivir	pattern	conjugates like vivir
+reparar en	hablar	pattern	conjugates like hablar
+percatarse	hablar	pattern	conjugates like hablar
+advertir a	pensar	pattern	conjugates like pensar
+prevenirse	venir	pattern	conjugates like venir
+precaver	comer	pattern	conjugates like comer
+arriesgarse	hablar	pattern	conjugates like hablar
+aventurarse	hablar	pattern	conjugates like hablar
+atreverse a	comer	pattern	conjugates like comer
+osar	hablar	pattern	conjugates like hablar
+desafiar	hablar	pattern	conjugates like hablar
+retar	hablar	pattern	conjugates like hablar
+provocarse	hablar	pattern	conjugates like hablar
+incitar	hablar	pattern	conjugates like hablar
+instigar	hablar	pattern	conjugates like hablar
+agitar	hablar	pattern	conjugates like hablar
+revolver	volver	pattern	conjugates like volver
+batir	vivir	pattern	conjugates like vivir
+amasarse	hablar	pattern	conjugates like hablar
+moler	volver	pattern	conjugates like volver
+triturar	hablar	pattern	conjugates like hablar
+machacar	hablar	pattern	conjugates like hablar
+pelar	hablar	pattern	conjugates like hablar
+picar (cocina)	hablar	pattern	conjugates like hablar
+rebanar	hablar	pattern	conjugates like hablar
+trozar	hablar	pattern	conjugates like hablar
+deshuesar	hablar	pattern	conjugates like hablar
+desplumar	hablar	pattern	conjugates like hablar
+marinar	hablar	pattern	conjugates like hablar
+adobar	hablar	pattern	conjugates like hablar
+ahumar	hablar	pattern	conjugates like hablar
+curar (alimento)	hablar	pattern	conjugates like hablar
+fermentar	hablar	pattern	conjugates like hablar
+destilar	hablar	pattern	conjugates like hablar
+embotellar	hablar	pattern	conjugates like hablar
+enlatar	hablar	pattern	conjugates like hablar
+envasar	hablar	pattern	conjugates like hablar
+etiquetarse	hablar	pattern	conjugates like hablar
+caducarse (comida)	hablar	pattern	conjugates like hablar
+descomponerse (carne)	poner	pattern	conjugates like poner
+congelar (comida)	hablar	pattern	conjugates like hablar
+recalentarse	pensar	pattern	conjugates like pensar
+servir (comida)	pedir	pattern	conjugates like pedir
+repartir (comida)	vivir	pattern	conjugates like vivir
+compartirse	vivir	pattern	conjugates like vivir
+cebar	hablar	pattern	conjugates like hablar
+brindarse	hablar	pattern	conjugates like hablar
+emborracharse	hablar	pattern	conjugates like hablar
+embriagar	hablar	pattern	conjugates like hablar
+desvelarse	hablar	pattern	conjugates like hablar
+amanecerse	comer	pattern	conjugates like comer
+trasnocharse	hablar	pattern	conjugates like hablar
+desperezarse	hablar	pattern	conjugates like hablar
+acurrucarse	hablar	pattern	conjugates like hablar
+arroparse	hablar	pattern	conjugates like hablar
+hamacarse	hablar	pattern	conjugates like hablar
+mecerse	comer	pattern	conjugates like comer
+balancearse	hablar	pattern	conjugates like hablar
+tambalearse	hablar	pattern	conjugates like hablar
+cojear	hablar	pattern	conjugates like hablar
+arrastrarse	hablar	pattern	conjugates like hablar
+gatear	hablar	pattern	conjugates like hablar
+andar a gatas	andar	pattern	conjugates like andar
+trotar	hablar	pattern	conjugates like hablar
+esprintar	hablar	pattern	conjugates like hablar
+remar	hablar	pattern	conjugates like hablar
+bucear	hablar	pattern	conjugates like hablar
+zambullirse	vivir	pattern	conjugates like vivir
+chapotear	hablar	pattern	conjugates like hablar
+escalar	hablar	pattern	conjugates like hablar
+descender	pensar	pattern	conjugates like pensar
+acampar	hablar	pattern	conjugates like hablar
+pernoctar	hablar	pattern	conjugates like hablar
+hospedarse	hablar	pattern	conjugates like hablar
+desplazarse	hablar	pattern	conjugates like hablar
+trasladar	hablar	pattern	conjugates like hablar
+transportar	hablar	pattern	conjugates like hablar
+acarrear	hablar	pattern	conjugates like hablar
+remolcar	hablar	pattern	conjugates like hablar
+embarcar	hablar	pattern	conjugates like hablar
+desembarcar	hablar	pattern	conjugates like hablar
+zarpar	hablar	pattern	conjugates like hablar
+atracar	hablar	pattern	conjugates like hablar
+naufragar	hablar	pattern	conjugates like hablar
+rescatarse de	hablar	pattern	conjugates like hablar
+encallar	hablar	pattern	conjugates like hablar
+flotarse	hablar	pattern	conjugates like hablar
+remolcarse	hablar	pattern	conjugates like hablar
+aterrizar (forzoso)	hablar	pattern	conjugates like hablar
+sobrevolar	volver	pattern	conjugates like volver
+despegarse	hablar	pattern	conjugates like hablar
+adherirse	pensar	pattern	conjugates like pensar
+fijarse a	hablar	pattern	conjugates like hablar
+sujetar	hablar	pattern	conjugates like hablar
+soportar (peso)	hablar	pattern	conjugates like hablar
+sostener	tener	pattern	conjugates like tener
+apoyarse	hablar	pattern	conjugates like hablar
+recostar	volver	pattern	conjugates like volver
+inclinar	hablar	pattern	conjugates like hablar
+enderezar	hablar	pattern	conjugates like hablar
+torcerse	comer	pattern	conjugates like comer
+curvar	hablar	pattern	conjugates like hablar
+doblarse	hablar	pattern	conjugates like hablar
+quebrarse	pensar	pattern	conjugates like pensar
+astillarse	hablar	pattern	conjugates like hablar
+agrietarse	hablar	pattern	conjugates like hablar
+desmoronarse	hablar	pattern	conjugates like hablar
+derrumbarse	hablar	pattern	conjugates like hablar
+ceder (estructura)	comer	pattern	conjugates like comer
+apuntalar	hablar	pattern	conjugates like hablar
+reforzar	volver	pattern	conjugates like volver
+cimentar	hablar	pattern	conjugates like hablar
+levantar (construir)	hablar	pattern	conjugates like hablar
+techar	hablar	pattern	conjugates like hablar
+revocar	hablar	pattern	conjugates like hablar
+azulejar	hablar	pattern	conjugates like hablar
+empapelar	hablar	pattern	conjugates like hablar
+barnizar	hablar	pattern	conjugates like hablar
+lijar	hablar	pattern	conjugates like hablar
+cercar	hablar	pattern	conjugates like hablar
+alambrar	hablar	pattern	conjugates like hablar
+amurallar	hablar	pattern	conjugates like hablar
+amoblar	hablar	pattern	conjugates like hablar
+desocupar	hablar	pattern	conjugates like hablar
+habitar	hablar	pattern	conjugates like hablar
+deshabitar	hablar	pattern	conjugates like hablar
+suavizar	hablar	pattern	conjugates like hablar
+endurecer	comer	pattern	conjugates like comer
+ablandar	hablar	pattern	conjugates like hablar
+espesar	hablar	pattern	conjugates like hablar
+diluir	vivir	pattern	conjugates like vivir
+disolverse	volver	pattern	conjugates like volver
+saturar	hablar	pattern	conjugates like hablar
+impregnar	hablar	pattern	conjugates like hablar
+empaparse	hablar	pattern	conjugates like hablar
+chorrear	hablar	pattern	conjugates like hablar
+salpicar	hablar	pattern	conjugates like hablar
+fumigar	hablar	pattern	conjugates like hablar
+exterminar	hablar	pattern	conjugates like hablar
+ahuyentar	hablar	pattern	conjugates like hablar
+espantar	hablar	pattern	conjugates like hablar
+acechar	hablar	pattern	conjugates like hablar
+emboscar	hablar	pattern	conjugates like hablar
+asaltar	hablar	pattern	conjugates like hablar
+hurtar	hablar	pattern	conjugates like hablar
+saquear	hablar	pattern	conjugates like hablar
+despojar	hablar	pattern	conjugates like hablar
+usurpar	hablar	pattern	conjugates like hablar
+invadir	vivir	pattern	conjugates like vivir
+ocupar (ilegalmente)	hablar	pattern	conjugates like hablar
+expulsar	hablar	pattern	conjugates like hablar
+deportar	hablar	pattern	conjugates like hablar
+exiliar	hablar	pattern	conjugates like hablar
+asilar	hablar	pattern	conjugates like hablar
+naturalizarse	hablar	pattern	conjugates like hablar
+empadronar	hablar	pattern	conjugates like hablar
+legalizar	hablar	pattern	conjugates like hablar
+apostillar	hablar	pattern	conjugates like hablar
+traducirse	vivir	pattern	conjugates like vivir
+transcribir	vivir	pattern	conjugates like vivir
+interpretar (idioma)	hablar	pattern	conjugates like hablar
+deletrearse	hablar	pattern	conjugates like hablar
+pronunciarse	hablar	pattern	conjugates like hablar
+conjugar	hablar	pattern	conjugates like hablar
+declinar	hablar	pattern	conjugates like hablar
+derivarse	hablar	pattern	conjugates like hablar
+prestarse (idioma)	hablar	pattern	conjugates like hablar
+mezclarse	hablar	pattern	conjugates like hablar
+alternar	hablar	pattern	conjugates like hablar
+intercalar	hablar	pattern	conjugates like hablar
+balbucear	hablar	pattern	conjugates like hablar
+farfullar	hablar	pattern	conjugates like hablar
+vocalizar	hablar	pattern	conjugates like hablar
+entonar	hablar	pattern	conjugates like hablar
+recitar	hablar	pattern	conjugates like hablar
+declamar	hablar	pattern	conjugates like hablar
+improvisar	hablar	pattern	conjugates like hablar
+ensayarse	hablar	pattern	conjugates like hablar
+afinar	hablar	pattern	conjugates like hablar
+desafinar	hablar	pattern	conjugates like hablar
+tararear	hablar	pattern	conjugates like hablar
+silbar	hablar	pattern	conjugates like hablar
+aplaudirse	vivir	pattern	conjugates like vivir
+abuchear	hablar	pattern	conjugates like hablar
+ovacionar	hablar	pattern	conjugates like hablar
+alentar	pensar	pattern	conjugates like pensar
+hinchar por	hablar	pattern	conjugates like hablar
+clasificarse	hablar	pattern	conjugates like hablar
+descalificar	hablar	pattern	conjugates like hablar
+eliminar	hablar	pattern	conjugates like hablar
+golear	hablar	pattern	conjugates like hablar
+marcar (gol)	hablar	pattern	conjugates like hablar
+atajar	hablar	pattern	conjugates like hablar
+driblar	hablar	pattern	conjugates like hablar
+rematar (fútbol)	hablar	pattern	conjugates like hablar
+empatarse	hablar	pattern	conjugates like hablar
+prorrogarse	hablar	pattern	conjugates like hablar
+entrenarse para	hablar	pattern	conjugates like hablar
+calentar (deporte)	pensar	pattern	conjugates like pensar
+lesionarse	hablar	pattern	conjugates like hablar
+recuperarse de	hablar	pattern	conjugates like hablar
+jubilarse	hablar	pattern	conjugates like hablar
+relevar	hablar	pattern	conjugates like hablar
+turnarse	hablar	pattern	conjugates like hablar
+alternarse	hablar	pattern	conjugates like hablar
+sustituirse	vivir	pattern	conjugates like vivir
+renovarse	volver	pattern	conjugates like volver
+reciclarse	hablar	pattern	conjugates like hablar
+especializarse	hablar	pattern	conjugates like hablar
+diversificar	hablar	pattern	conjugates like hablar
+expandirse	vivir	pattern	conjugates like vivir
+consolidar	hablar	pattern	conjugates like hablar
+estancarse	hablar	pattern	conjugates like hablar
+decaer	caer	pattern	conjugates like caer
+repuntar	hablar	pattern	conjugates like hablar
+recuperar	hablar	pattern	conjugates like hablar
+rentabilizar	hablar	pattern	conjugates like hablar
+capitalizar	hablar	pattern	conjugates like hablar
+especular	hablar	pattern	conjugates like hablar
+inflacionar	hablar	pattern	conjugates like hablar
+indexar	hablar	pattern	conjugates like hablar
+cotizar	hablar	pattern	conjugates like hablar
+presupuestarse	hablar	pattern	conjugates like hablar
+auditar	hablar	pattern	conjugates like hablar
+fiscalizar	hablar	pattern	conjugates like hablar
+recaudar	hablar	pattern	conjugates like hablar
+tributar	hablar	pattern	conjugates like hablar
+evadir	vivir	pattern	conjugates like vivir
+blanquear	hablar	pattern	conjugates like hablar
+sobornar	hablar	pattern	conjugates like hablar
+coimear	hablar	pattern	conjugates like hablar
+corromper	comer	pattern	conjugates like comer
+denunciarse	hablar	pattern	conjugates like hablar
+investigarse	hablar	pattern	conjugates like hablar
+destituir	vivir	pattern	conjugates like vivir
+renunciar (cargo)	hablar	pattern	conjugates like hablar
+asumir (cargo)	vivir	pattern	conjugates like vivir
+posesionarse	hablar	pattern	conjugates like hablar
+jurar (cargo)	hablar	pattern	conjugates like hablar
+proclamar	hablar	pattern	conjugates like hablar
+promulgar	hablar	pattern	conjugates like hablar
+derogar	hablar	pattern	conjugates like hablar
+vetar	hablar	pattern	conjugates like hablar
+ratificar	hablar	pattern	conjugates like hablar
+suscribir	vivir	pattern	conjugates like vivir
+adherir	pensar	pattern	conjugates like pensar
+retirarse de	hablar	pattern	conjugates like hablar
+romper (relaciones)	romper	pattern	conjugates like romper
+restablecer	comer	pattern	conjugates like comer
+normalizar	hablar	pattern	conjugates like hablar
+regularizar	hablar	pattern	conjugates like hablar
+formalizar	hablar	pattern	conjugates like hablar
+oficializar	hablar	pattern	conjugates like hablar
+reconocerse	comer	pattern	conjugates like comer
+difundir	vivir	pattern	conjugates like vivir
+divulgar	hablar	pattern	conjugates like hablar
+propagar	hablar	pattern	conjugates like hablar
+viralizarse	hablar	pattern	conjugates like hablar
+tendenciar	hablar	pattern	conjugates like hablar
+censurar	hablar	pattern	conjugates like hablar
+silenciarse	hablar	pattern	conjugates like hablar
+desmentir	pensar	pattern	conjugates like pensar
+rectificar	hablar	pattern	conjugates like hablar
+aclarar (públicamente)	hablar	pattern	conjugates like hablar
+polemizar	hablar	pattern	conjugates like hablar
+criticarse	hablar	pattern	conjugates like hablar
+elogiarse	hablar	pattern	conjugates like hablar
+premiarse	hablar	pattern	conjugates like hablar
+nominar	hablar	pattern	conjugates like hablar
+postularse	hablar	pattern	conjugates like hablar
+hacer campaña	hacer	pattern	conjugates like hacer
+militar	hablar	pattern	conjugates like hablar
+manifestarse	pensar	pattern	conjugates like pensar
+marchar	hablar	pattern	conjugates like hablar
+bloquear (ruta)	hablar	pattern	conjugates like hablar
+hacer huelga	hacer	pattern	conjugates like hacer
+paralizar	hablar	pattern	conjugates like hablar
+reprimir	vivir	pattern	conjugates like vivir
+dispersar	hablar	pattern	conjugates like hablar
+concentrarse (gente)	hablar	pattern	conjugates like hablar
+congregar	hablar	pattern	conjugates like hablar
+aglomerarse	hablar	pattern	conjugates like hablar
+amontonarse	hablar	pattern	conjugates like hablar
+apretujarse	hablar	pattern	conjugates like hablar
+dispersarse	hablar	pattern	conjugates like hablar
+desalojarse	hablar	pattern	conjugates like hablar
+inundarse	hablar	pattern	conjugates like hablar
+anegarse	pensar	pattern	conjugates like pensar
+drenar	hablar	pattern	conjugates like hablar
+bombear	hablar	pattern	conjugates like hablar
+canalizar	hablar	pattern	conjugates like hablar
+represar	hablar	pattern	conjugates like hablar
+generar (energía)	hablar	pattern	conjugates like hablar
+abastecerse	comer	pattern	conjugates like comer
+racionar	hablar	pattern	conjugates like hablar
+restringir	vivir	pattern	conjugates like vivir
+limitarse	hablar	pattern	conjugates like hablar
+estrechar	hablar	pattern	conjugates like hablar
+pavimentar	hablar	pattern	conjugates like hablar
+asfaltar	hablar	pattern	conjugates like hablar
+empedrar	hablar	pattern	conjugates like hablar
+señalizar	hablar	pattern	conjugates like hablar
+demarcar	hablar	pattern	conjugates like hablar
+medir (terreno)	pedir	pattern	conjugates like pedir
+lotear	hablar	pattern	conjugates like hablar
+urbanizar	hablar	pattern	conjugates like hablar
+poblar	volver	pattern	conjugates like volver
+despoblarse	volver	pattern	conjugates like volver
+migrar	hablar	pattern	conjugates like hablar
+asentarse	pensar	pattern	conjugates like pensar
+colonizar	hablar	pattern	conjugates like hablar
+evangelizar	hablar	pattern	conjugates like hablar
+catequizar	hablar	pattern	conjugates like hablar
+bautizar	hablar	pattern	conjugates like hablar
+confirmar (sacramento)	hablar	pattern	conjugates like hablar
+casarse por iglesia	hablar	pattern	conjugates like hablar
+velar	hablar	pattern	conjugates like hablar
+enlutar	hablar	pattern	conjugates like hablar
+consolarse	volver	pattern	conjugates like volver
+resignarse	hablar	pattern	conjugates like hablar
+sobrellevar	hablar	pattern	conjugates like hablar
+superarse	hablar	pattern	conjugates like hablar
+empeñar	hablar	pattern	conjugates like hablar
+desempeñar	hablar	pattern	conjugates like hablar
+ejercer	comer	pattern	conjugates like comer
+profesar	hablar	pattern	conjugates like hablar
+ordenarse	hablar	pattern	conjugates like hablar
+predicar	hablar	pattern	conjugates like hablar
+congregarse	hablar	pattern	conjugates like hablar
+peregrinarse	hablar	pattern	conjugates like hablar
+ayunar	hablar	pattern	conjugates like hablar
+abstenerse	tener	pattern	conjugates like tener
+privarse	hablar	pattern	conjugates like hablar
+sacrificarse	hablar	pattern	conjugates like hablar
+ofrendar	hablar	pattern	conjugates like hablar
+encomendarse	pensar	pattern	conjugates like pensar
+jurarse	hablar	pattern	conjugates like hablar
+prometerse	comer	pattern	conjugates like comer
+comprometerse con	comer	pattern	conjugates like comer
+desposar	hablar	pattern	conjugates like hablar
+apadrinar	hablar	pattern	conjugates like hablar
+ahijar	hablar	pattern	conjugates like hablar
+emparentar	hablar	pattern	conjugates like hablar
+descender de	pensar	pattern	conjugates like pensar
+remontarse	hablar	pattern	conjugates like hablar
+datar	hablar	pattern	conjugates like hablar
+perdurar	hablar	pattern	conjugates like hablar
+pervivir	vivir	pattern	conjugates like vivir
+extinguirse	vivir	pattern	conjugates like vivir
+resurgir	vivir	pattern	conjugates like vivir
+revivir	vivir	pattern	conjugates like vivir
+rescatar (cultura)	hablar	pattern	conjugates like hablar
+recopilar	hablar	pattern	conjugates like hablar
+documentar	hablar	pattern	conjugates like hablar
+registrar (patrimonio)	hablar	pattern	conjugates like hablar
+restaurar (edificio)	hablar	pattern	conjugates like hablar
+conservarse (ruinas)	hablar	pattern	conjugates like hablar
+deteriorarse	hablar	pattern	conjugates like hablar
+descuidar	hablar	pattern	conjugates like hablar
+desatender	pensar	pattern	conjugates like pensar
+atender (un negocio)	pensar	pattern	conjugates like pensar
+regentear	hablar	pattern	conjugates like hablar
+emprender	comer	pattern	conjugates like comer
+innovar	hablar	pattern	conjugates like hablar
+patentar	hablar	pattern	conjugates like hablar
+registrar (marca)	hablar	pattern	conjugates like hablar
+falsificar	hablar	pattern	conjugates like hablar
+adulterar	hablar	pattern	conjugates like hablar
+piratear	hablar	pattern	conjugates like hablar
+decomisar	hablar	pattern	conjugates like hablar
+incautar	hablar	pattern	conjugates like hablar
+requisar	hablar	pattern	conjugates like hablar
+inspeccionar	hablar	pattern	conjugates like hablar
+allanar	hablar	pattern	conjugates like hablar
+cachear	hablar	pattern	conjugates like hablar
+esposar	hablar	pattern	conjugates like hablar
+encarcelar	hablar	pattern	conjugates like hablar
+indultar	hablar	pattern	conjugates like hablar
+amnistiar	hablar	pattern	conjugates like hablar
+exculpar	hablar	pattern	conjugates like hablar
+inculpar	hablar	pattern	conjugates like hablar
+imputar	hablar	pattern	conjugates like hablar
+procesar	hablar	pattern	conjugates like hablar
+sentenciar	hablar	pattern	conjugates like hablar
+recusar	hablar	pattern	conjugates like hablar
+peritar	hablar	pattern	conjugates like hablar
+tasar	hablar	pattern	conjugates like hablar
+depreciar	hablar	pattern	conjugates like hablar
+revalorizar	hablar	pattern	conjugates like hablar
+cotizarse	hablar	pattern	conjugates like hablar
+negociarse (mercado)	hablar	pattern	conjugates like hablar
+invertirse	pensar	pattern	conjugates like pensar
+financiarse	hablar	pattern	conjugates like hablar
+endeudar	hablar	pattern	conjugates like hablar
+refinanciar	hablar	pattern	conjugates like hablar
+condonar	hablar	pattern	conjugates like hablar
+exonerar	hablar	pattern	conjugates like hablar
+gravar	hablar	pattern	conjugates like hablar
+arancelar	hablar	pattern	conjugates like hablar
+desgravar	hablar	pattern	conjugates like hablar
+deducir (impuesto)	vivir	pattern	conjugates like vivir
+retener (impuesto)	tener	pattern	conjugates like tener
+liquidarse	hablar	pattern	conjugates like hablar
+cobrarse	hablar	pattern	conjugates like hablar
+abonarse	hablar	pattern	conjugates like hablar
+fraccionar	hablar	pattern	conjugates like hablar
+cuotificar	hablar	pattern	conjugates like hablar
+adelantar (dinero)	hablar	pattern	conjugates like hablar
+anticipar	hablar	pattern	conjugates like hablar
+aplazar	hablar	pattern	conjugates like hablar
+vencerse	comer	pattern	conjugates like comer
+prescribir	vivir	pattern	conjugates like vivir
+reclamarse	hablar	pattern	conjugates like hablar
+gestionarse	hablar	pattern	conjugates like hablar
+agilizar	hablar	pattern	conjugates like hablar
+entorpecer	comer	pattern	conjugates like comer
+trabarse	hablar	pattern	conjugates like hablar
+destrabar	hablar	pattern	conjugates like hablar
+derivar (expediente)	hablar	pattern	conjugates like hablar
+remitir	vivir	pattern	conjugates like vivir
+acusar recibo	hablar	pattern	conjugates like hablar
+expedir	pedir	pattern	conjugates like pedir
+emitirse	vivir	pattern	conjugates like vivir
+refrendar	hablar	pattern	conjugates like hablar
+compulsar	hablar	pattern	conjugates like hablar
+autenticar	hablar	pattern	conjugates like hablar
+notarizar	hablar	pattern	conjugates like hablar
+apoderar	hablar	pattern	conjugates like hablar
+representar	hablar	pattern	conjugates like hablar
+comparecer	comer	pattern	conjugates like comer
+citarse (judicial)	hablar	pattern	conjugates like hablar
+notificar	hablar	pattern	conjugates like hablar
+intimar	hablar	pattern	conjugates like hablar
+apercibir	vivir	pattern	conjugates like vivir
+desacatar	hablar	pattern	conjugates like hablar
+acatarse	hablar	pattern	conjugates like hablar
+homologar	hablar	pattern	conjugates like hablar
+convalidar	hablar	pattern	conjugates like hablar
+revalidar	hablar	pattern	conjugates like hablar
+titularse	hablar	pattern	conjugates like hablar
+doctorarse	hablar	pattern	conjugates like hablar
+becar	hablar	pattern	conjugates like hablar
+matricular	hablar	pattern	conjugates like hablar
+egresar	hablar	pattern	conjugates like hablar
+cursar	hablar	pattern	conjugates like hablar
+rendir (examen)	pedir	pattern	conjugates like pedir
+recursar	hablar	pattern	conjugates like hablar
+eximirse	vivir	pattern	conjugates like vivir
+promocionar	hablar	pattern	conjugates like hablar
+desaprobar	volver	pattern	conjugates like volver
+repetir (año)	pedir	pattern	conjugates like pedir
+abandonar (estudios)	hablar	pattern	conjugates like hablar
+retomar	hablar	pattern	conjugates like hablar
+capacitarse	hablar	pattern	conjugates like hablar
+perfeccionarse	hablar	pattern	conjugates like hablar
+actualizar (conocimientos)	hablar	pattern	conjugates like hablar
+profundizar	hablar	pattern	conjugates like hablar
+ahondar	hablar	pattern	conjugates like hablar
+abordar	hablar	pattern	conjugates like hablar
+enfocar	hablar	pattern	conjugates like hablar
+centrarse	hablar	pattern	conjugates like hablar
+descentrarse	hablar	pattern	conjugates like hablar
+dispersarse (atención)	hablar	pattern	conjugates like hablar
+enfocarse	hablar	pattern	conjugates like hablar
+priorizar	hablar	pattern	conjugates like hablar
+posponerse	poner	pattern	conjugates like poner
+programarse	hablar	pattern	conjugates like hablar
+calendarizar	hablar	pattern	conjugates like hablar
+planificar	hablar	pattern	conjugates like hablar
+proyectar	hablar	pattern	conjugates like hablar
+prever	comer	pattern	conjugates like comer
+anticiparse	hablar	pattern	conjugates like hablar
+improvisarse	hablar	pattern	conjugates like hablar
+acondicionar	hablar	pattern	conjugates like hablar
+equipar	hablar	pattern	conjugates like hablar
+dotar	hablar	pattern	conjugates like hablar
+proveer	comer	pattern	conjugates like comer
+suministrar	hablar	pattern	conjugates like hablar
+racionalizar	hablar	pattern	conjugates like hablar
+optimizar	hablar	pattern	conjugates like hablar
+automatizar	hablar	pattern	conjugates like hablar
+digitalizar	hablar	pattern	conjugates like hablar
+informatizar	hablar	pattern	conjugates like hablar
+modernizar	hablar	pattern	conjugates like hablar
+actualizarse (sistema)	hablar	pattern	conjugates like hablar
+migrar (datos)	hablar	pattern	conjugates like hablar
+respaldarse	hablar	pattern	conjugates like hablar
+recuperarse (datos)	hablar	pattern	conjugates like hablar
+corromperse (archivo)	comer	pattern	conjugates like comer
+sobreescribir	escribir	pattern	conjugates like escribir
+duplicarse	hablar	pattern	conjugates like hablar
+depurarse	hablar	pattern	conjugates like hablar
+indexarse	hablar	pattern	conjugates like hablar
+consultarse	hablar	pattern	conjugates like hablar
+verificarse	hablar	pattern	conjugates like hablar
+validarse	hablar	pattern	conjugates like hablar
+rechazarse	hablar	pattern	conjugates like hablar
+aprobarse	volver	pattern	conjugates like volver
+acreditarse	hablar	pattern	conjugates like hablar
+debitarse	hablar	pattern	conjugates like hablar
+transferirse	pensar	pattern	conjugates like pensar
+convertirse (moneda)	pensar	pattern	conjugates like pensar
+redondearse	hablar	pattern	conjugates like hablar
+descontarse	volver	pattern	conjugates like volver
+recargarse	hablar	pattern	conjugates like hablar
+bonificarse	hablar	pattern	conjugates like hablar
+premiarse (fidelidad)	hablar	pattern	conjugates like hablar
+canjearse (puntos)	hablar	pattern	conjugates like hablar
+caducar (puntos)	hablar	pattern	conjugates like hablar
+renovarse (contrato)	volver	pattern	conjugates like volver
+rescindirse	vivir	pattern	conjugates like vivir
+notificarse	hablar	pattern	conjugates like hablar
+archivarse	hablar	pattern	conjugates like hablar
+tramitar (residencia)	hablar	pattern	conjugates like hablar
+acriollarse	hablar	pattern	conjugates like hablar
+aguaratear	hablar	pattern	conjugates like hablar
+chamuyar	hablar	pattern	conjugates like hablar
+bardear	hablar	pattern	conjugates like hablar
+zafar	hablar	pattern	conjugates like hablar
+bancar	hablar	pattern	conjugates like hablar
+curtir	vivir	pattern	conjugates like vivir
+pilotear	hablar	pattern	conjugates like hablar
+morfar	hablar	pattern	conjugates like hablar
+laburar	hablar	pattern	conjugates like hablar
+changuear	hablar	pattern	conjugates like hablar
+rebuscarse	hablar	pattern	conjugates like hablar
+arreglarse	hablar	pattern	conjugates like hablar
+apañarse	hablar	pattern	conjugates like hablar
+ingeniarse	hablar	pattern	conjugates like hablar
+apechugar	hablar	pattern	conjugates like hablar
+remar (esfuerzo)	hablar	pattern	conjugates like hablar
+fajarse	hablar	pattern	conjugates like hablar
+descansarse en	hablar	pattern	conjugates like hablar
+escaquearse	hablar	pattern	conjugates like hablar
+holgazanear	hablar	pattern	conjugates like hablar
+vaguear	hablar	pattern	conjugates like hablar
+deambular	hablar	pattern	conjugates like hablar
+merodear	hablar	pattern	conjugates like hablar
+husmear	hablar	pattern	conjugates like hablar
+fisgonear	hablar	pattern	conjugates like hablar
+chusmear	hablar	pattern	conjugates like hablar
+cotillear	hablar	pattern	conjugates like hablar
+murmurarse	hablar	pattern	conjugates like hablar
+rumorearse	hablar	pattern	conjugates like hablar
+trascender	comer	pattern	conjugates like comer
+filtrarse	hablar	pattern	conjugates like hablar
+destaparse (escándalo)	hablar	pattern	conjugates like hablar
+encubrir	cubrir	pattern	conjugates like cubrir
+tapar (asunto)	hablar	pattern	conjugates like hablar
+esclarecerse	comer	pattern	conjugates like comer
+zanjar	hablar	pattern	conjugates like hablar
+dirimir	vivir	pattern	conjugates like vivir
+allanarse	hablar	pattern	conjugates like hablar
+avenirse	venir	pattern	conjugates like venir
+transigir	vivir	pattern	conjugates like vivir
+ceder terreno	comer	pattern	conjugates like comer
+imponerse	poner	pattern	conjugates like poner
+prevalecer	comer	pattern	conjugates like comer
+predominar sobre	hablar	pattern	conjugates like hablar
+subordinar	hablar	pattern	conjugates like hablar
+someter	comer	pattern	conjugates like comer
+someterse	comer	pattern	conjugates like comer
+rebelarse	hablar	pattern	conjugates like hablar
+sublevarse	hablar	pattern	conjugates like hablar
+amotinarse	hablar	pattern	conjugates like hablar
+sofocarse (revuelta)	hablar	pattern	conjugates like hablar
+pacificar	hablar	pattern	conjugates like hablar
+desarmar	hablar	pattern	conjugates like hablar
+armarse	hablar	pattern	conjugates like hablar
+atrincherarse	hablar	pattern	conjugates like hablar
+replegarse	hablar	pattern	conjugates like hablar
+avanzar sobre	hablar	pattern	conjugates like hablar
+rendirse a	pedir	pattern	conjugates like pedir
+capitular	hablar	pattern	conjugates like hablar
+claudicar	hablar	pattern	conjugates like hablar
+perseverar	hablar	pattern	conjugates like hablar
+porfiar	hablar	pattern	conjugates like hablar
+insistirse	vivir	pattern	conjugates like vivir
+recalcar	hablar	pattern	conjugates like hablar
+enfatizar	hablar	pattern	conjugates like hablar
+matizar	hablar	pattern	conjugates like hablar
+puntualizarse	hablar	pattern	conjugates like hablar
+estipular	hablar	pattern	conjugates like hablar
+pormenorizar	hablar	pattern	conjugates like hablar
+generalizar	hablar	pattern	conjugates like hablar
+particularizar	hablar	pattern	conjugates like hablar
+ejemplificar	hablar	pattern	conjugates like hablar
+ilustrar	hablar	pattern	conjugates like hablar
+esquematizar	hablar	pattern	conjugates like hablar
+sintetizar	hablar	pattern	conjugates like hablar
+condensar	hablar	pattern	conjugates like hablar
+extenderse	pensar	pattern	conjugates like pensar
+explayarse	hablar	pattern	conjugates like hablar
+divagar	hablar	pattern	conjugates like hablar
+irse por las ramas	ir	pattern	conjugates like ir
+concretar	hablar	pattern	conjugates like hablar
+materializar	hablar	pattern	conjugates like hablar
+plasmar	hablar	pattern	conjugates like hablar
+encarnar	hablar	pattern	conjugates like hablar
+simbolizar	hablar	pattern	conjugates like hablar
+representar (simbolizar)	hablar	pattern	conjugates like hablar
+significarse	hablar	pattern	conjugates like hablar
+connotar	hablar	pattern	conjugates like hablar
+denotar	hablar	pattern	conjugates like hablar
+aludir	vivir	pattern	conjugates like vivir
+sobreentenderse	pensar	pattern	conjugates like pensar
+malinterpretar	hablar	pattern	conjugates like hablar
+tergiversar	hablar	pattern	conjugates like hablar
+aclarar el malentendido	hablar	pattern	conjugates like hablar
+congeniar	hablar	pattern	conjugates like hablar
+simpatizar	hablar	pattern	conjugates like hablar
+empatizar	hablar	pattern	conjugates like hablar
+identificarse	hablar	pattern	conjugates like hablar
+distanciarse	hablar	pattern	conjugates like hablar
+enemistarse	hablar	pattern	conjugates like hablar
+indisponerse	poner	pattern	conjugates like poner
+malquistarse	hablar	pattern	conjugates like hablar
+reconciliarse con	hablar	pattern	conjugates like hablar
+perdonarse	hablar	pattern	conjugates like hablar
+olvidarse de	hablar	pattern	conjugates like hablar
+desentenderse	pensar	pattern	conjugates like pensar
+despreocuparse	hablar	pattern	conjugates like hablar
+descuidarse	hablar	pattern	conjugates like hablar
+precipitarse	hablar	pattern	conjugates like hablar
+apresurarse	hablar	pattern	conjugates like hablar
+demorarse en	hablar	pattern	conjugates like hablar
+tardarse	hablar	pattern	conjugates like hablar
+adelantarse a	hablar	pattern	conjugates like hablar
+retrasarse	hablar	pattern	conjugates like hablar
+puntualizar la hora	hablar	pattern	conjugates like hablar
+cumplirse	vivir	pattern	conjugates like vivir
+verificarse (ocurrir)	hablar	pattern	conjugates like hablar
+llevarse a cabo	hablar	pattern	conjugates like hablar
+realizarse	hablar	pattern	conjugates like hablar
+celebrarse	hablar	pattern	conjugates like hablar
+conmemorarse	hablar	pattern	conjugates like hablar
+festejarse (fecha)	hablar	pattern	conjugates like hablar
+homenajear	hablar	pattern	conjugates like hablar
+rendir homenaje	pedir	pattern	conjugates like pedir
+condecorar	hablar	pattern	conjugates like hablar
+distinguir (honrar)	vivir	pattern	conjugates like vivir
+galardonar	hablar	pattern	conjugates like hablar
+laurear	hablar	pattern	conjugates like hablar
+ensalzar	hablar	pattern	conjugates like hablar
+enaltecer	comer	pattern	conjugates like comer
+dignificar	hablar	pattern	conjugates like hablar
+denigrar	hablar	pattern	conjugates like hablar
+menospreciar	hablar	pattern	conjugates like hablar
+subestimar	hablar	pattern	conjugates like hablar
+sobreestimar	hablar	pattern	conjugates like hablar
+valorar	hablar	pattern	conjugates like hablar
+apreciar	hablar	pattern	conjugates like hablar
+estimar (apreciar)	hablar	pattern	conjugates like hablar
+reconocer (mérito)	comer	pattern	conjugates like comer
+agradecerse (público)	comer	pattern	conjugates like comer
+corresponder (sentimiento)	comer	pattern	conjugates like comer
+retribuir	vivir	pattern	conjugates like vivir
+devolver (favor)	volver	pattern	conjugates like volver
+endeudarse con	hablar	pattern	conjugates like hablar
+saldar cuentas	hablar	pattern	conjugates like hablar
+ajustar cuentas	hablar	pattern	conjugates like hablar
+vengarse	hablar	pattern	conjugates like hablar
+desquitarse	hablar	pattern	conjugates like hablar
+resarcirse	vivir	pattern	conjugates like vivir
+compensarse	hablar	pattern	conjugates like hablar
+equilibrar	hablar	pattern	conjugates like hablar
+desequilibrar	hablar	pattern	conjugates like hablar
+estabilizar	hablar	pattern	conjugates like hablar
+oscilar	hablar	pattern	conjugates like hablar
+alterarse	hablar	pattern	conjugates like hablar
+trastornar	hablar	pattern	conjugates like hablar
+perturbar	hablar	pattern	conjugates like hablar
+inquietar	hablar	pattern	conjugates like hablar
+sosegarse	pensar	pattern	conjugates like pensar
+serenarse	hablar	pattern	conjugates like hablar
+templar	hablar	pattern	conjugates like hablar
+moderar	hablar	pattern	conjugates like hablar
+exceder	comer	pattern	conjugates like comer
+excederse	comer	pattern	conjugates like comer
+pasarse	hablar	pattern	conjugates like hablar
+extralimitarse	hablar	pattern	conjugates like hablar
+abusar	hablar	pattern	conjugates like hablar
+aprovecharse de	hablar	pattern	conjugates like hablar
+explotar (laboral)	hablar	pattern	conjugates like hablar
+precarizar	hablar	pattern	conjugates like hablar
+sindicalizarse	hablar	pattern	conjugates like hablar
+negociar (colectivo)	hablar	pattern	conjugates like hablar
+acordarse (convenio)	volver	pattern	conjugates like volver
+firmarse (convenio)	hablar	pattern	conjugates like hablar
+homologarse	hablar	pattern	conjugates like hablar
+aplicarse (norma)	hablar	pattern	conjugates like hablar
+entrar en vigor	hablar	pattern	conjugates like hablar
+regir	pedir	pattern	conjugates like pedir
+derogarse	hablar	pattern	conjugates like hablar
+modificarse	hablar	pattern	conjugates like hablar
+enmendar	hablar	pattern	conjugates like hablar
+subsanar	hablar	pattern	conjugates like hablar
+remediar	hablar	pattern	conjugates like hablar
+paliar	hablar	pattern	conjugates like hablar
+mitigar	hablar	pattern	conjugates like hablar
+agravar	hablar	pattern	conjugates like hablar
+solucionarse	hablar	pattern	conjugates like hablar
+resolverse	resolver	pattern	conjugates like resolver
+dominar	hablar	pattern	conjugates like hablar
+improvisarse	improvisar	reflexive	the plain form
+improvisar	improvisarse	reflexive	the reflexive form, often a shift in meaning
+cotizarse	cotizar	reflexive	the plain form
+cotizar	cotizarse	reflexive	the reflexive form, often a shift in meaning
+capacitarse	capacitar	reflexive	the plain form
+capacitar	capacitarse	reflexive	the reflexive form, often a shift in meaning
+reclamarse	reclamar	reflexive	the plain form
+reclamar	reclamarse	reflexive	the reflexive form, often a shift in meaning
+parecerse	parecer	reflexive	the plain form
+parecer	parecerse	reflexive	the reflexive form, often a shift in meaning
+rodearse	rodear	reflexive	the plain form
+rodear	rodearse	reflexive	the reflexive form, often a shift in meaning
+volverse	volver	reflexive	the plain form
+volver	volverse	reflexive	the reflexive form, often a shift in meaning
+apresurarse	apresurar	reflexive	the plain form
+apresurar	apresurarse	reflexive	the reflexive form, often a shift in meaning
+acostumbrarse	acostumbrar	reflexive	the plain form
+acostumbrar	acostumbrarse	reflexive	the reflexive form, often a shift in meaning
+escucharse	escuchar	reflexive	the plain form
+escuchar	escucharse	reflexive	the reflexive form, often a shift in meaning
+quebrarse	quebrar	reflexive	the plain form
+quebrar	quebrarse	reflexive	the reflexive form, often a shift in meaning
+frenarse	frenar	reflexive	the plain form
+frenar	frenarse	reflexive	the reflexive form, often a shift in meaning
+aplaudirse	aplaudir	reflexive	the plain form
+aplaudir	aplaudirse	reflexive	the reflexive form, often a shift in meaning
+murmurarse	murmurar	reflexive	the plain form
+murmurar	murmurarse	reflexive	the reflexive form, often a shift in meaning
+compadecerse	compadecer	reflexive	the plain form
+compadecer	compadecerse	reflexive	the reflexive form, often a shift in meaning
+indexarse	indexar	reflexive	the plain form
+indexar	indexarse	reflexive	the reflexive form, often a shift in meaning
+empatarse	empatar	reflexive	the plain form
+empatar	empatarse	reflexive	the reflexive form, often a shift in meaning
+inscribirse	inscribir	reflexive	the plain form
+inscribir	inscribirse	reflexive	the reflexive form, often a shift in meaning
+brindarse	brindar	reflexive	the plain form
+brindar	brindarse	reflexive	the reflexive form, often a shift in meaning
+financiarse	financiar	reflexive	the plain form
+financiar	financiarse	reflexive	the reflexive form, often a shift in meaning
+adherirse	adherir	reflexive	the plain form
+adherir	adherirse	reflexive	the reflexive form, often a shift in meaning
+visitarse	visitar	reflexive	the plain form
+visitar	visitarse	reflexive	the reflexive form, often a shift in meaning
+cargarse	cargar	reflexive	the plain form
+cargar	cargarse	reflexive	the reflexive form, often a shift in meaning
+verificarse	verificar	reflexive	the plain form
+verificar	verificarse	reflexive	the reflexive form, often a shift in meaning
+extrañarse	extrañar	reflexive	the plain form
+extrañar	extrañarse	reflexive	the reflexive form, often a shift in meaning
+ponerse	poner	reflexive	the plain form
+poner	ponerse	reflexive	the reflexive form, often a shift in meaning
+clasificarse	clasificar	reflexive	the plain form
+clasificar	clasificarse	reflexive	the reflexive form, often a shift in meaning
+cortarse	cortar	reflexive	the plain form
+cortar	cortarse	reflexive	the reflexive form, often a shift in meaning
+resumirse	resumir	reflexive	the plain form
+resumir	resumirse	reflexive	the reflexive form, often a shift in meaning
+festejarse	festejar	reflexive	the plain form
+festejar	festejarse	reflexive	the reflexive form, often a shift in meaning
+esclarecerse	esclarecer	reflexive	the plain form
+esclarecer	esclarecerse	reflexive	the reflexive form, often a shift in meaning
+empadronarse	empadronar	reflexive	the plain form
+empadronar	empadronarse	reflexive	the reflexive form, often a shift in meaning
+asegurarse	asegurar	reflexive	the plain form
+asegurar	asegurarse	reflexive	the reflexive form, often a shift in meaning
+devolverse	devolver	reflexive	the plain form
+devolver	devolverse	reflexive	the reflexive form, often a shift in meaning
+emocionarse	emocionar	reflexive	the plain form
+emocionar	emocionarse	reflexive	the reflexive form, often a shift in meaning
+destaparse	destapar	reflexive	the plain form
+destapar	destaparse	reflexive	the reflexive form, often a shift in meaning
+realizarse	realizar	reflexive	the plain form
+realizar	realizarse	reflexive	the reflexive form, often a shift in meaning
+deberse	deber	reflexive	the plain form
+deber	deberse	reflexive	the reflexive form, often a shift in meaning
+jurarse	jurar	reflexive	the plain form
+jurar	jurarse	reflexive	the reflexive form, often a shift in meaning
+emitirse	emitir	reflexive	the plain form
+emitir	emitirse	reflexive	the reflexive form, often a shift in meaning
+resolverse	resolver	reflexive	the plain form
+resolver	resolverse	reflexive	the reflexive form, often a shift in meaning
+deducirse	deducir	reflexive	the plain form
+deducir	deducirse	reflexive	the reflexive form, often a shift in meaning
+deletrearse	deletrear	reflexive	the plain form
+deletrear	deletrearse	reflexive	the reflexive form, often a shift in meaning
+empeñarse	empeñar	reflexive	the plain form
+empeñar	empeñarse	reflexive	the reflexive form, often a shift in meaning
+firmarse	firmar	reflexive	the plain form
+firmar	firmarse	reflexive	the reflexive form, often a shift in meaning
+estirarse	estirar	reflexive	the plain form
+estirar	estirarse	reflexive	the reflexive form, often a shift in meaning
+posponerse	posponer	reflexive	the plain form
+posponer	posponerse	reflexive	the reflexive form, often a shift in meaning
+fijarse	fijar	reflexive	the plain form
+fijar	fijarse	reflexive	the reflexive form, often a shift in meaning
+conservarse	conservar	reflexive	the plain form
+conservar	conservarse	reflexive	the reflexive form, often a shift in meaning
+casarse	casar	reflexive	the plain form
+casar	casarse	reflexive	the reflexive form, often a shift in meaning
+animarse	animar	reflexive	the plain form
+animar	animarse	reflexive	the reflexive form, often a shift in meaning
+meterse	meter	reflexive	the plain form
+meter	meterse	reflexive	the reflexive form, often a shift in meaning
+caerse	caer	reflexive	the plain form
+caer	caerse	reflexive	the reflexive form, often a shift in meaning
+criticarse	criticar	reflexive	the plain form
+criticar	criticarse	reflexive	the reflexive form, often a shift in meaning
+gestionarse	gestionar	reflexive	the plain form
+gestionar	gestionarse	reflexive	the reflexive form, often a shift in meaning
+amanecerse	amanecer	reflexive	the plain form
+amanecer	amanecerse	reflexive	the reflexive form, often a shift in meaning
+grabarse	grabar	reflexive	the plain form
+grabar	grabarse	reflexive	the reflexive form, often a shift in meaning
+retrasarse	retrasar	reflexive	the plain form
+retrasar	retrasarse	reflexive	the reflexive form, often a shift in meaning
+puntualizarse	puntualizar	reflexive	the plain form
+puntualizar	puntualizarse	reflexive	the reflexive form, often a shift in meaning
+mejorarse	mejorar	reflexive	the plain form
+mejorar	mejorarse	reflexive	the reflexive form, often a shift in meaning
+saludarse	saludar	reflexive	the plain form
+saludar	saludarse	reflexive	the reflexive form, often a shift in meaning
+estabilizarse	estabilizar	reflexive	the plain form
+estabilizar	estabilizarse	reflexive	the reflexive form, often a shift in meaning
+presupuestarse	presupuestar	reflexive	the plain form
+presupuestar	presupuestarse	reflexive	the reflexive form, often a shift in meaning
+quemarse	quemar	reflexive	the plain form
+quemar	quemarse	reflexive	the reflexive form, often a shift in meaning
+sosegarse	sosegar	reflexive	the plain form
+sosegar	sosegarse	reflexive	the reflexive form, often a shift in meaning
+prevenirse	prevenir	reflexive	the plain form
+prevenir	prevenirse	reflexive	the reflexive form, often a shift in meaning
+disolverse	disolver	reflexive	the plain form
+disolver	disolverse	reflexive	the reflexive form, often a shift in meaning
+arriesgarse	arriesgar	reflexive	the plain form
+arriesgar	arriesgarse	reflexive	the reflexive form, often a shift in meaning
+colgarse	colgar	reflexive	the plain form
+colgar	colgarse	reflexive	the reflexive form, often a shift in meaning
+deteriorarse	deteriorar	reflexive	the plain form
+deteriorar	deteriorarse	reflexive	the reflexive form, often a shift in meaning
+servirse	servir	reflexive	the plain form
+servir	servirse	reflexive	the reflexive form, often a shift in meaning
+permitirse	permitir	reflexive	the plain form
+permitir	permitirse	reflexive	the reflexive form, often a shift in meaning
+mudarse	mudar	reflexive	the plain form
+mudar	mudarse	reflexive	the reflexive form, often a shift in meaning
+ayudarse	ayudar	reflexive	the plain form
+ayudar	ayudarse	reflexive	the reflexive form, often a shift in meaning
+suscribirse	suscribir	reflexive	the plain form
+suscribir	suscribirse	reflexive	the reflexive form, often a shift in meaning
+rendirse	rendir	reflexive	the plain form
+rendir	rendirse	reflexive	the reflexive form, often a shift in meaning
+enfocarse	enfocar	reflexive	the plain form
+enfocar	enfocarse	reflexive	the reflexive form, often a shift in meaning
+aclararse	aclarar	reflexive	the plain form
+aclarar	aclararse	reflexive	the reflexive form, often a shift in meaning
+corregirse	corregir	reflexive	the plain form
+corregir	corregirse	reflexive	the reflexive form, often a shift in meaning
+premiarse	premiar	reflexive	the plain form
+premiar	premiarse	reflexive	the reflexive form, often a shift in meaning
+vencerse	vencer	reflexive	the plain form
+vencer	vencerse	reflexive	the reflexive form, often a shift in meaning
+llorarse	llorar	reflexive	the plain form
+llorar	llorarse	reflexive	the reflexive form, often a shift in meaning
+amasarse	amasar	reflexive	the plain form
+amasar	amasarse	reflexive	the reflexive form, often a shift in meaning
+despedirse	despedir	reflexive	the plain form
+despedir	despedirse	reflexive	the reflexive form, often a shift in meaning
+acatarse	acatar	reflexive	the plain form
+acatar	acatarse	reflexive	the reflexive form, often a shift in meaning
+inundarse	inundar	reflexive	the plain form
+inundar	inundarse	reflexive	the reflexive form, often a shift in meaning
+dormirse	dormir	reflexive	the plain form
+dormir	dormirse	reflexive	the reflexive form, often a shift in meaning
+homologarse	homologar	reflexive	the plain form
+homologar	homologarse	reflexive	the reflexive form, often a shift in meaning
+prometerse	prometer	reflexive	the plain form
+prometer	prometerse	reflexive	the reflexive form, often a shift in meaning
+reconocerse	reconocer	reflexive	the plain form
+reconocer	reconocerse	reflexive	the reflexive form, often a shift in meaning
+conmemorarse	conmemorar	reflexive	the plain form
+conmemorar	conmemorarse	reflexive	the reflexive form, often a shift in meaning
+depurarse	depurar	reflexive	the plain form
+depurar	depurarse	reflexive	the reflexive form, often a shift in meaning
+abastecerse	abastecer	reflexive	the plain form
+abastecer	abastecerse	reflexive	the reflexive form, often a shift in meaning
+agradecerse	agradecer	reflexive	the plain form
+agradecer	agradecerse	reflexive	the reflexive form, often a shift in meaning
+agravarse	agravar	reflexive	the plain form
+agravar	agravarse	reflexive	the reflexive form, often a shift in meaning
+negociarse	negociar	reflexive	the plain form
+negociar	negociarse	reflexive	the reflexive form, often a shift in meaning
+rechazarse	rechazar	reflexive	the plain form
+rechazar	rechazarse	reflexive	the reflexive form, often a shift in meaning
+encenderse	encender	reflexive	the plain form
+encender	encenderse	reflexive	the reflexive form, often a shift in meaning
+exigirse	exigir	reflexive	the plain form
+exigir	exigirse	reflexive	the reflexive form, often a shift in meaning
+referirse	referir	reflexive	the plain form
+referir	referirse	reflexive	the reflexive form, often a shift in meaning
+timbrarse	timbrar	reflexive	the plain form
+timbrar	timbrarse	reflexive	the reflexive form, often a shift in meaning
+cumplirse	cumplir	reflexive	the plain form
+cumplir	cumplirse	reflexive	the reflexive form, often a shift in meaning
+programarse	programar	reflexive	the plain form
+programar	programarse	reflexive	the reflexive form, often a shift in meaning
+pronunciarse	pronunciar	reflexive	the plain form
+pronunciar	pronunciarse	reflexive	the reflexive form, often a shift in meaning
+separarse	separar	reflexive	the plain form
+separar	separarse	reflexive	the reflexive form, often a shift in meaning
+despegarse	despegar	reflexive	the plain form
+despegar	despegarse	reflexive	the reflexive form, often a shift in meaning
+sustituirse	sustituir	reflexive	the plain form
+sustituir	sustituirse	reflexive	the reflexive form, often a shift in meaning
+resarcirse	resarcir	reflexive	the plain form
+resarcir	resarcirse	reflexive	the reflexive form, often a shift in meaning
+demorarse	demorar	reflexive	the plain form
+demorar	demorarse	reflexive	the reflexive form, often a shift in meaning
+aburrirse	aburrir	reflexive	the plain form
+aburrir	aburrirse	reflexive	the reflexive form, often a shift in meaning
+solucionarse	solucionar	reflexive	the plain form
+solucionar	solucionarse	reflexive	the reflexive form, often a shift in meaning
+compensarse	compensar	reflexive	the plain form
+compensar	compensarse	reflexive	the reflexive form, often a shift in meaning
+entrenarse	entrenar	reflexive	the plain form
+entrenar	entrenarse	reflexive	the reflexive form, often a shift in meaning
+orientarse	orientar	reflexive	the plain form
+orientar	orientarse	reflexive	the reflexive form, often a shift in meaning
+repartirse	repartir	reflexive	the plain form
+repartir	repartirse	reflexive	the reflexive form, often a shift in meaning
+congelarse	congelar	reflexive	the plain form
+congelar	congelarse	reflexive	the reflexive form, often a shift in meaning
+significarse	significar	reflexive	the plain form
+significar	significarse	reflexive	the reflexive form, often a shift in meaning
+reiniciarse	reiniciar	reflexive	the plain form
+reiniciar	reiniciarse	reflexive	the reflexive form, often a shift in meaning
+remolcarse	remolcar	reflexive	the plain form
+remolcar	remolcarse	reflexive	the reflexive form, often a shift in meaning
+aprovecharse	aprovechar	reflexive	the plain form
+aprovechar	aprovecharse	reflexive	the reflexive form, often a shift in meaning
+caducarse	caducar	reflexive	the plain form
+caducar	caducarse	reflexive	the reflexive form, often a shift in meaning
+interrumpirse	interrumpir	reflexive	the plain form
+interrumpir	interrumpirse	reflexive	the reflexive form, often a shift in meaning
+componerse	componer	reflexive	the plain form
+componer	componerse	reflexive	the reflexive form, often a shift in meaning
+advertirse	advertir	reflexive	the plain form
+advertir	advertirse	reflexive	the reflexive form, often a shift in meaning
+reponerse	reponer	reflexive	the plain form
+reponer	reponerse	reflexive	the reflexive form, often a shift in meaning
+rescindirse	rescindir	reflexive	the plain form
+rescindir	rescindirse	reflexive	the reflexive form, often a shift in meaning
+limitarse	limitar	reflexive	the plain form
+limitar	limitarse	reflexive	the reflexive form, often a shift in meaning
+acompañarse	acompañar	reflexive	the plain form
+acompañar	acompañarse	reflexive	the reflexive form, often a shift in meaning
+filtrarse	filtrar	reflexive	the plain form
+filtrar	filtrarse	reflexive	the reflexive form, often a shift in meaning
+aprobarse	aprobar	reflexive	the plain form
+aprobar	aprobarse	reflexive	the reflexive form, often a shift in meaning
+celebrarse	celebrar	reflexive	the plain form
+celebrar	celebrarse	reflexive	the reflexive form, often a shift in meaning
+consultarse	consultar	reflexive	the plain form
+consultar	consultarse	reflexive	the reflexive form, often a shift in meaning
+heredarse	heredar	reflexive	the plain form
+heredar	heredarse	reflexive	the reflexive form, often a shift in meaning
+abonarse	abonar	reflexive	the plain form
+abonar	abonarse	reflexive	the reflexive form, often a shift in meaning
+ubicarse	ubicar	reflexive	the plain form
+ubicar	ubicarse	reflexive	the reflexive form, often a shift in meaning
+excederse	exceder	reflexive	the plain form
+exceder	excederse	reflexive	the reflexive form, often a shift in meaning
+hervirse	hervir	reflexive	the plain form
+hervir	hervirse	reflexive	the reflexive form, often a shift in meaning
+asustarse	asustar	reflexive	the plain form
+asustar	asustarse	reflexive	the reflexive form, often a shift in meaning
+divertirse	divertir	reflexive	the plain form
+divertir	divertirse	reflexive	the reflexive form, often a shift in meaning
+jubilarse	jubilar	reflexive	the plain form
+jubilar	jubilarse	reflexive	the reflexive form, often a shift in meaning
+descansarse	descansar	reflexive	the plain form
+descansar	descansarse	reflexive	the reflexive form, often a shift in meaning
+doblarse	doblar	reflexive	the plain form
+doblar	doblarse	reflexive	the reflexive form, often a shift in meaning
+expandirse	expandir	reflexive	the plain form
+expandir	expandirse	reflexive	the reflexive form, often a shift in meaning
+despertarse	despertar	reflexive	the plain form
+despertar	despertarse	reflexive	the reflexive form, often a shift in meaning
+preocuparse	preocupar	reflexive	the plain form
+preocupar	preocuparse	reflexive	the reflexive form, often a shift in meaning
+gastarse	gastar	reflexive	the plain form
+gastar	gastarse	reflexive	the reflexive form, often a shift in meaning
+consolarse	consolar	reflexive	the plain form
+consolar	consolarse	reflexive	the reflexive form, often a shift in meaning
+entenderse	entender	reflexive	the plain form
+entender	entenderse	reflexive	the reflexive form, often a shift in meaning
+reciclarse	reciclar	reflexive	the plain form
+reciclar	reciclarse	reflexive	the reflexive form, often a shift in meaning
+derogarse	derogar	reflexive	the plain form
+derogar	derogarse	reflexive	the reflexive form, often a shift in meaning
+empaparse	empapar	reflexive	the plain form
+empapar	empaparse	reflexive	the reflexive form, often a shift in meaning
+rescatarse	rescatar	reflexive	the plain form
+rescatar	rescatarse	reflexive	the reflexive form, often a shift in meaning
+prorrogarse	prorrogar	reflexive	the plain form
+prorrogar	prorrogarse	reflexive	the reflexive form, often a shift in meaning
+pasarse	pasar	reflexive	the plain form
+pasar	pasarse	reflexive	the reflexive form, often a shift in meaning
+odiarse	odiar	reflexive	the plain form
+odiar	odiarse	reflexive	the reflexive form, often a shift in meaning
+insistirse	insistir	reflexive	the plain form
+insistir	insistirse	reflexive	the reflexive form, often a shift in meaning
+trasnocharse	trasnochar	reflexive	the plain form
+trasnochar	trasnocharse	reflexive	the reflexive form, often a shift in meaning
+juntarse	juntar	reflexive	the plain form
+juntar	juntarse	reflexive	the reflexive form, often a shift in meaning
+denunciarse	denunciar	reflexive	the plain form
+denunciar	denunciarse	reflexive	the reflexive form, often a shift in meaning
+tratarse	tratar	reflexive	the plain form
+tratar	tratarse	reflexive	the reflexive form, often a shift in meaning
+ocuparse	ocupar	reflexive	the plain form
+ocupar	ocuparse	reflexive	the reflexive form, often a shift in meaning
+silenciarse	silenciar	reflexive	the plain form
+silenciar	silenciarse	reflexive	the reflexive form, often a shift in meaning
+quedarse	quedar	reflexive	the plain form
+quedar	quedarse	reflexive	the reflexive form, often a shift in meaning
+perderse	perder	reflexive	the plain form
+perder	perderse	reflexive	the reflexive form, often a shift in meaning
+derivarse	derivar	reflexive	the plain form
+derivar	derivarse	reflexive	the reflexive form, often a shift in meaning
+registrarse	registrar	reflexive	the plain form
+registrar	registrarse	reflexive	the reflexive form, often a shift in meaning
+mezclarse	mezclar	reflexive	the plain form
+mezclar	mezclarse	reflexive	the reflexive form, often a shift in meaning
+traducirse	traducir	reflexive	the plain form
+traducir	traducirse	reflexive	the reflexive form, often a shift in meaning
+levantarse	levantar	reflexive	the plain form
+levantar	levantarse	reflexive	the reflexive form, often a shift in meaning
+evaporarse	evaporar	reflexive	the plain form
+evaporar	evaporarse	reflexive	the reflexive form, often a shift in meaning
+respaldarse	respaldar	reflexive	the plain form
+respaldar	respaldarse	reflexive	the reflexive form, often a shift in meaning
+cobrarse	cobrar	reflexive	the plain form
+cobrar	cobrarse	reflexive	the reflexive form, often a shift in meaning
+avergonzarse	avergonzar	reflexive	the plain form
+avergonzar	avergonzarse	reflexive	the reflexive form, often a shift in meaning
+enamorarse	enamorar	reflexive	the plain form
+enamorar	enamorarse	reflexive	the reflexive form, often a shift in meaning
+acordarse	acordar	reflexive	the plain form
+acordar	acordarse	reflexive	the reflexive form, often a shift in meaning
+reírse	reír	reflexive	the plain form
+reír	reírse	reflexive	the reflexive form, often a shift in meaning
+atravesarse	atravesar	reflexive	the plain form
+atravesar	atravesarse	reflexive	the reflexive form, often a shift in meaning
+hacerse	hacer	reflexive	the plain form
+hacer	hacerse	reflexive	the reflexive form, often a shift in meaning
+ocultarse	ocultar	reflexive	the plain form
+ocultar	ocultarse	reflexive	the reflexive form, often a shift in meaning
+etiquetarse	etiquetar	reflexive	the plain form
+etiquetar	etiquetarse	reflexive	the reflexive form, often a shift in meaning
+medirse	medir	reflexive	the plain form
+medir	medirse	reflexive	the reflexive form, often a shift in meaning
+peregrinarse	peregrinar	reflexive	the plain form
+peregrinar	peregrinarse	reflexive	the reflexive form, often a shift in meaning
+disculparse	disculpar	reflexive	the plain form
+disculpar	disculparse	reflexive	the reflexive form, often a shift in meaning
+resistirse	resistir	reflexive	the plain form
+resistir	resistirse	reflexive	the reflexive form, often a shift in meaning
+pesarse	pesar	reflexive	the plain form
+pesar	pesarse	reflexive	the reflexive form, often a shift in meaning
+llevarse	llevar	reflexive	the plain form
+llevar	llevarse	reflexive	the reflexive form, often a shift in meaning
+transferirse	transferir	reflexive	the plain form
+transferir	transferirse	reflexive	the reflexive form, often a shift in meaning
+oírse	oír	reflexive	the plain form
+oír	oírse	reflexive	the reflexive form, often a shift in meaning
+integrarse	integrar	reflexive	the plain form
+integrar	integrarse	reflexive	the reflexive form, often a shift in meaning
+actualizarse	actualizar	reflexive	the plain form
+actualizar	actualizarse	reflexive	the reflexive form, often a shift in meaning
+apagarse	apagar	reflexive	the plain form
+apagar	apagarse	reflexive	the reflexive form, often a shift in meaning
+duplicarse	duplicar	reflexive	the plain form
+duplicar	duplicarse	reflexive	the reflexive form, often a shift in meaning
+decidirse	decidir	reflexive	the plain form
+decidir	decidirse	reflexive	the reflexive form, often a shift in meaning
+allanarse	allanar	reflexive	the plain form
+allanar	allanarse	reflexive	the reflexive form, often a shift in meaning
+tramitarse	tramitar	reflexive	the plain form
+tramitar	tramitarse	reflexive	the reflexive form, often a shift in meaning
+ordenarse	ordenar	reflexive	the plain form
+ordenar	ordenarse	reflexive	the reflexive form, often a shift in meaning
+torcerse	torcer	reflexive	the plain form
+torcer	torcerse	reflexive	the reflexive form, often a shift in meaning
+secarse	secar	reflexive	the plain form
+secar	secarse	reflexive	the reflexive form, often a shift in meaning
+dispersarse	dispersar	reflexive	the plain form
+dispersar	dispersarse	reflexive	the reflexive form, often a shift in meaning
+armarse	armar	reflexive	the plain form
+armar	armarse	reflexive	the reflexive form, often a shift in meaning
+navegarse	navegar	reflexive	the plain form
+navegar	navegarse	reflexive	the reflexive form, often a shift in meaning
+prepararse	preparar	reflexive	the plain form
+preparar	prepararse	reflexive	the reflexive form, often a shift in meaning
+redondearse	redondear	reflexive	the plain form
+redondear	redondearse	reflexive	the reflexive form, often a shift in meaning
+convertirse	convertir	reflexive	the plain form
+convertir	convertirse	reflexive	the reflexive form, often a shift in meaning
+admirarse	admirar	reflexive	the plain form
+admirar	admirarse	reflexive	the reflexive form, often a shift in meaning
+apoyarse	apoyar	reflexive	the plain form
+apoyar	apoyarse	reflexive	the reflexive form, often a shift in meaning
+descuidarse	descuidar	reflexive	the plain form
+descuidar	descuidarse	reflexive	the reflexive form, often a shift in meaning
+endeudarse	endeudar	reflexive	the plain form
+endeudar	endeudarse	reflexive	the reflexive form, often a shift in meaning
+derretirse	derretir	reflexive	the plain form
+derretir	derretirse	reflexive	the reflexive form, often a shift in meaning
+ensayarse	ensayar	reflexive	the plain form
+ensayar	ensayarse	reflexive	the reflexive form, often a shift in meaning
+enojarse	enojar	reflexive	the plain form
+enojar	enojarse	reflexive	the reflexive form, often a shift in meaning
+acentuarse	acentuar	reflexive	the plain form
+acentuar	acentuarse	reflexive	the reflexive form, often a shift in meaning
+archivarse	archivar	reflexive	the plain form
+archivar	archivarse	reflexive	the reflexive form, often a shift in meaning
+comprobarse	comprobar	reflexive	the plain form
+comprobar	comprobarse	reflexive	the reflexive form, often a shift in meaning
+corresponderse	corresponder	reflexive	the plain form
+corresponder	corresponderse	reflexive	the reflexive form, often a shift in meaning
+postularse	postular	reflexive	the plain form
+postular	postularse	reflexive	the reflexive form, often a shift in meaning
+restablecerse	restablecer	reflexive	the plain form
+restablecer	restablecerse	reflexive	the reflexive form, often a shift in meaning
+fallarse	fallar	reflexive	the plain form
+fallar	fallarse	reflexive	the reflexive form, often a shift in meaning
+adelantarse	adelantar	reflexive	the plain form
+adelantar	adelantarse	reflexive	the reflexive form, often a shift in meaning
+hospedarse	hospedar	reflexive	the plain form
+hospedar	hospedarse	reflexive	the reflexive form, often a shift in meaning
+abrazarse	abrazar	reflexive	the plain form
+abrazar	abrazarse	reflexive	the reflexive form, often a shift in meaning
+anticiparse	anticipar	reflexive	the plain form
+anticipar	anticiparse	reflexive	the reflexive form, often a shift in meaning
+liquidarse	liquidar	reflexive	the plain form
+liquidar	liquidarse	reflexive	the reflexive form, often a shift in meaning
+burlarse	burlar	reflexive	the plain form
+burlar	burlarse	reflexive	the reflexive form, often a shift in meaning
+probarse	probar	reflexive	the plain form
+probar	probarse	reflexive	the reflexive form, often a shift in meaning
+descubrirse	descubrir	reflexive	the plain form
+descubrir	descubrirse	reflexive	the reflexive form, often a shift in meaning
+reunirse	reunir	reflexive	the plain form
+reunir	reunirse	reflexive	the reflexive form, often a shift in meaning
+amontonarse	amontonar	reflexive	the plain form
+amontonar	amontonarse	reflexive	the reflexive form, often a shift in meaning
+alternarse	alternar	reflexive	the plain form
+alternar	alternarse	reflexive	the reflexive form, often a shift in meaning
+cruzarse	cruzar	reflexive	the plain form
+cruzar	cruzarse	reflexive	the reflexive form, often a shift in meaning
+compartirse	compartir	reflexive	the plain form
+compartir	compartirse	reflexive	the reflexive form, often a shift in meaning
+superarse	superar	reflexive	the plain form
+superar	superarse	reflexive	the reflexive form, often a shift in meaning
+enfriarse	enfriar	reflexive	the plain form
+enfriar	enfriarse	reflexive	the reflexive form, often a shift in meaning
+notificarse	notificar	reflexive	the plain form
+notificar	notificarse	reflexive	the reflexive form, often a shift in meaning
+empeorarse	empeorar	reflexive	the plain form
+empeorar	empeorarse	reflexive	the reflexive form, often a shift in meaning
+provocarse	provocar	reflexive	the plain form
+provocar	provocarse	reflexive	the reflexive form, often a shift in meaning
+recalentarse	recalentar	reflexive	the plain form
+recalentar	recalentarse	reflexive	the reflexive form, often a shift in meaning
+tardarse	tardar	reflexive	the plain form
+tardar	tardarse	reflexive	the reflexive form, often a shift in meaning
+congregarse	congregar	reflexive	the plain form
+congregar	congregarse	reflexive	the reflexive form, often a shift in meaning
+extinguirse	extinguir	reflexive	the plain form
+extinguir	extinguirse	reflexive	the reflexive form, often a shift in meaning
+recostarse	recostar	reflexive	the plain form
+recostar	recostarse	reflexive	the reflexive form, often a shift in meaning
+recuperarse	recuperar	reflexive	the plain form
+recuperar	recuperarse	reflexive	the reflexive form, often a shift in meaning
+presentarse	presentar	reflexive	the plain form
+presentar	presentarse	reflexive	the reflexive form, often a shift in meaning
+quejarse	quejar	reflexive	the plain form
+quejar	quejarse	reflexive	the reflexive form, often a shift in meaning
+adjuntarse	adjuntar	reflexive	the plain form
+adjuntar	adjuntarse	reflexive	the reflexive form, often a shift in meaning
+producirse	producir	reflexive	the plain form
+producir	producirse	reflexive	the reflexive form, often a shift in meaning
+respetarse	respetar	reflexive	the plain form
+respetar	respetarse	reflexive	the reflexive form, often a shift in meaning
+invertirse	invertir	reflexive	the plain form
+invertir	invertirse	reflexive	the reflexive form, often a shift in meaning
+renovarse	renovar	reflexive	the plain form
+renovar	renovarse	reflexive	the reflexive form, often a shift in meaning
+arrastrarse	arrastrar	reflexive	the plain form
+arrastrar	arrastrarse	reflexive	the reflexive form, often a shift in meaning
+perdonarse	perdonar	reflexive	the plain form
+perdonar	perdonarse	reflexive	the reflexive form, often a shift in meaning
+someterse	someter	reflexive	the plain form
+someter	someterse	reflexive	the reflexive form, often a shift in meaning
+confiarse	confiar	reflexive	the plain form
+confiar	confiarse	reflexive	the reflexive form, often a shift in meaning
+elogiarse	elogiar	reflexive	the plain form
+elogiar	elogiarse	reflexive	the reflexive form, often a shift in meaning
+flotarse	flotar	reflexive	the plain form
+flotar	flotarse	reflexive	the reflexive form, often a shift in meaning
+negarse	negar	reflexive	the plain form
+negar	negarse	reflexive	the reflexive form, often a shift in meaning
+encargarse	encargar	reflexive	the plain form
+encargar	encargarse	reflexive	the reflexive form, often a shift in meaning
+investigarse	investigar	reflexive	the plain form
+investigar	investigarse	reflexive	the reflexive form, often a shift in meaning
+instalarse	instalar	reflexive	the plain form
+instalar	instalarse	reflexive	the reflexive form, often a shift in meaning
+canjearse	canjear	reflexive	the plain form
+canjear	canjearse	reflexive	the reflexive form, often a shift in meaning
+arreglarse	arreglar	reflexive	the plain form
+arreglar	arreglarse	reflexive	the reflexive form, often a shift in meaning
+desalojarse	desalojar	reflexive	the plain form
+desalojar	desalojarse	reflexive	the reflexive form, often a shift in meaning
+poder	ayudar	takes-infinitive	poder + infinitive: «¿Podés ayudarme un momento?»
+querer	aprender	takes-infinitive	querer + infinitive: «Quiero aprender español rápido.»
+deber	ir	takes-infinitive	deber + infinitive: «Debo ir al banco mañana.»
+quedar	ver	takes-infinitive	quedar en + infinitive: «Quedamos en vernos a las ocho.»
+pensar	mudar	takes-infinitive	pensar en + infinitive: «Estoy pensando en mudarme.»
+tratar	hablar	takes-infinitive	tratar de + infinitive: «Trato de hablar solo en español.»
+terminar	trabajar	takes-infinitive	terminar de + infinitive: «Termino de trabajar a las seis.»
+permitir	entrar	takes-infinitive	permitir + infinitive: «No me permiten entrar sin documento.»
+acabar	llegar	takes-infinitive	acabar de + infinitive: «Acabo de llegar.»
+lograr	entender	takes-infinitive	lograr + infinitive: «Logré entender casi todo.»
+alegrar	ver	takes-infinitive	alegrar + infinitive: «Me alegra verte.»
+preferir	quedar	takes-infinitive	preferir + infinitive: «Prefiero quedarme en casa.»
+tardar	llegar	takes-infinitive	tardar en + infinitive: «¿Cuánto tarda en llegar?»
+imaginar	vivir	takes-infinitive	imaginar + infinitive: «Imaginate vivir acá para siempre.»
+aburrir	hacer	takes-infinitive	aburrir sin + infinitive: «Me aburro sin hacer nada.»
+pensar	quedar	takes-infinitive	pensar + infinitive: «Pienso quedarme dos años.»
+renunciar	avisar	takes-infinitive	renunciar sin + infinitive: «Renunció sin avisar.»
+acordar	ver	takes-infinitive	acordar + infinitive: «Acordamos vernos el martes.»
+obligar	ir	takes-infinitive	obligar a + infinitive: «Nadie te obliga a ir.»
+animar	seguir	takes-infinitive	animar a + infinitive: «Me animaron a seguir.»
+interesar	aprender	takes-infinitive	interesar + infinitive: «Me interesa aprender guaraní.»
+convenir	ir	takes-infinitive	convenir + infinitive: «Te conviene ir temprano.»
+parar	saludar	takes-infinitive	parar + infinitive: «Me paré para saludarlo.»
+castigar	salir	takes-infinitive	castigar sin + infinitive: «Lo castigaron sin salir.»
+desaparecer	decir	takes-infinitive	desaparecer sin + infinitive: «Desapareció sin decir nada.»
+atreverse	hablar	takes-infinitive	atreverse a + infinitive: «No me atrevo a hablar en reuniones.»
+acabar de	llegar	takes-infinitive	acabar de + infinitive: «Acabamos de llegar.»
+volver a	leer	takes-infinitive	volver a + infinitive: «Volví a leerlo.»
+ponerse a	llover	takes-infinitive	ponerse a + infinitive: «Se puso a llover de golpe.»
+tardar en	entender	takes-infinitive	tardar en + infinitive: «Tardé en entender el acento.»
+soler	levantar	takes-infinitive	soler + infinitive: «Suelo levantarme temprano.»
+animarse	probar	takes-infinitive	animarse a + infinitive: «¿Te animás a probar?»
+empeñarse	pagar	takes-infinitive	empeñarse en + infinitive: «Se empeñó en pagar él.»
+negarse	firmar	takes-infinitive	negarse a + infinitive: «Se negó a firmar.»
+impedir	intentar	takes-infinitive	impedir + infinitive: «Nada te impide intentarlo.»
+prevenir	curar	takes-infinitive	prevenir que + infinitive: «Mejor prevenir que curar.»
+deber	llegar	takes-infinitive	deber + infinitive: «Debería llegar a las ocho.»
+acostumbrar	cenar	takes-infinitive	acostumbrar + infinitive: «Acostumbran cenar tarde.»
+soler	hacer	takes-infinitive	soler + infinitive: «Suele hacer calor hasta abril.»
+persuadir	quedar	takes-infinitive	persuadir de + infinitive: «Lo persuadieron de quedarse.»
+inspirar	seguir	takes-infinitive	inspirar a + infinitive: «Me inspiró a seguir estudiando.»
+motivar	ver	takes-infinitive	motivar + infinitive: «Me motiva ver el progreso.»
+acelerar	pasar	takes-infinitive	acelerar para + infinitive: «Aceleró para pasar al camión.»
+insistir	acompañar	takes-infinitive	insistir en + infinitive: «Insistió en acompañarme.»
+acostumbrar a	comer	takes-infinitive	acostumbrar a + infinitive: «Lo acostumbraron a comer de todo.»
+disponerse	salir	takes-infinitive	disponerse a + infinitive: «Se disponía a salir cuando llamé.»
+comprometerse	estudiar	takes-infinitive	comprometerse a + infinitive: «Me comprometí a estudiar una hora por día.»
+juntarse	tomar	takes-infinitive	juntarse a + infinitive: «Nos juntamos a tomar tereré.»
+agacharse	pasar	takes-infinitive	agacharse para + infinitive: «Agachate para pasar.»
+arrodillarse	rezar	takes-infinitive	arrodillarse para + infinitive: «Se arrodilló para rezar.»
+multar	estacionar	takes-infinitive	multar por + infinitive: «Me multaron por estacionar mal.»
+tender a	llover	takes-infinitive	tender a + infinitive: «Tiende a llover a la tarde.»
+consentir	discutir	takes-infinitive	consentir sin + infinitive: «Consintió sin discutir.»
+esfumarse	avisar	takes-infinitive	esfumarse sin + infinitive: «Se esfumó sin avisar.»
+adelantarse	querer	takes-infinitive	adelantarse sin + infinitive: «Me adelanté sin querer.»
+anhelar	volver	takes-infinitive	anhelar + infinitive: «Anhelaba volver algún día.»
+aspirar a	hablar	takes-infinitive	aspirar a + infinitive: «Aspiro a hablar sin pensar.»
+pretender	hablar	takes-infinitive	pretender + infinitive: «Pretende hablar cinco idiomas.»
+reprender	llegar	takes-infinitive	reprender por + infinitive: «Lo reprendieron por llegar tarde.»
+cerciorarse	cerrar	takes-infinitive	cerciorarse de + infinitive: «Cerciorate de cerrar bien.»
+asegurarse	llevar	takes-infinitive	asegurarse de + infinitive: «Asegurate de llevar el documento.»
+aliviar	saber	takes-infinitive	aliviar + infinitive: «Me alivió saberlo.»
+atreverse a	pedir	takes-infinitive	atreverse a + infinitive: «Me atreví a pedirlo en guaraní.»
+osar	contradecir	takes-infinitive	osar + infinitive: «Nadie osó contradecirlo.»
+retar	llegar	takes-infinitive	retar por + infinitive: «Lo retaron por llegar tarde.»
+incitar	pelear	takes-infinitive	incitar a + infinitive: «Lo incitaron a pelear.»
+turnarse	manejar	takes-infinitive	turnarse para + infinitive: «Nos turnamos para manejar.»
+resignarse	esperar	takes-infinitive	resignarse a + infinitive: «Me resigné a esperar.»
+apoderar	firmar	takes-infinitive	apoderar para + infinitive: «Lo apoderó para firmar.»
+citarse (judicial)	declarar	takes-infinitive	citarse a + infinitive: «Se lo citó a declarar.»
+intimar	pagar	takes-infinitive	intimar a + infinitive: «Lo intimaron a pagar.»
+becar	estudiar	takes-infinitive	becar para + infinitive: «Lo becaron para estudiar afuera.»
+centrarse	escuchar	takes-infinitive	centrarse en + infinitive: «Me centré en escuchar.»
+proyectar	abrir	takes-infinitive	proyectar + infinitive: «Proyectan abrir otra sucursal.»
+recargarse	pagar	takes-infinitive	recargarse por + infinitive: «Se recarga por pagar en cuotas.»
+ingeniarse	entrar	takes-infinitive	ingeniarse para + infinitive: «Se las ingenió para entrar.»
+armarse	defender	takes-infinitive	armarse para + infinitive: «Se armaron para defenderse.»
+rendirse a	pelear	takes-infinitive	rendirse sin + infinitive: «Se rindieron sin pelear.»
+demorarse en	contestar	takes-infinitive	demorarse en + infinitive: «Se demoró en contestar.»

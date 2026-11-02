@@ -7,9 +7,19 @@
 const BUILD = '__BUILD__';
 const CACHE = 'verbos-shell-' + BUILD;
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
+// Conjugations and edges are large and only needed by the Verbs tab and the
+// card panel. They are cached best-effort: addAll rejects atomically, so a
+// missing data file would otherwise fail the whole install and silently lose
+// offline support for the page itself.
+const DATA = ['./conjugations.json', './edges.json'];
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  e.waitUntil(
+    caches.open(CACHE)
+      .then(c => c.addAll(SHELL)
+        .then(() => Promise.all(DATA.map(u => c.add(u).catch(() => {})))))
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener('activate', e => {

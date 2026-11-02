@@ -51,6 +51,64 @@ for r in rows:
 
 rows.sort(key=lambda x: x['r'])
 
+# ---- topics (the Deck's by-topic view) ----
+TDIR_T = os.path.join(ROOT, 'data', 'topics')
+topics = []
+tidx = os.path.join(TDIR_T, '_index.tsv')
+if os.path.exists(tidx):
+    with open(tidx, encoding='utf-8') as fh:
+        topics = sorted(csv.DictReader(fh, delimiter='\t'),
+                        key=lambda r: int(r['order']))
+    topics = [{'slug': t['slug'], 'section': t['section'], 'title': t['title'],
+               'blurb': (t.get('blurb') or '').strip()} for t in topics]
+    known_topics = {t['slug'] for t in topics}
+    for r in rows:
+        if not r['tp']:
+            sys.exit(f"rank {r['r']} ({r['v']}): no topic assigned")
+        if r['tp'] not in known_topics:
+            sys.exit(f"rank {r['r']} ({r['v']}): unknown topic {r['tp']!r}")
+    empty = known_topics - {r['tp'] for r in rows}
+    if empty:
+        sys.exit(f"topics with no verbs in them: {sorted(empty)}")
+
+# ---- conjugation tables (the Verbs tab and the card panel) ----
+conj = {}
+cpath = os.path.join(ROOT, 'data', 'conjugations.tsv')
+if os.path.exists(cpath):
+    corpus_verbs = {r['v'] for r in rows}
+    with open(cpath, encoding='utf-8') as fh:
+        for i, r in enumerate(csv.DictReader(fh, delimiter='\t'), start=2):
+            v = r['verb'].strip()
+            if v not in corpus_verbs:
+                sys.exit(f'conjugations.tsv:{i}: {v!r} is not in the corpus')
+            for col in ('slot', 'form', 'pron', 'english', 'level', 'label'):
+                if not (r.get(col) or '').strip():
+                    sys.exit(f'conjugations.tsv:{i}: empty {col} for {v}')
+            conj.setdefault(v, []).append(
+                {'s': r['slot'], 'lv': r['level'], 'l': r['label'],
+                 'f': r['form'], 'p': r['pron'], 'e': r['english'],
+                 'n': (r.get('note') or '').strip()})
+    # every conjugated verb must have a complete A1 block, or the table lies
+    a1 = {c['s'] for c in next(iter(conj.values())) if c['lv'] == 'A1'}
+    for v, cs in conj.items():
+        have = {c['s'] for c in cs if c['lv'] == 'A1'}
+        if have != a1 and v != 'haber':
+            sys.exit(f'conjugations.tsv: {v} is missing A1 slots {sorted(a1-have)}')
+
+# ---- edges (the card's sideways row) ----
+edges = {}
+epath = os.path.join(ROOT, 'data', 'edges.tsv')
+if os.path.exists(epath):
+    corpus_verbs = {r['v'] for r in rows}
+    with open(epath, encoding='utf-8') as fh:
+        for i, r in enumerate(csv.DictReader(fh, delimiter='\t'), start=2):
+            a, b = r['from_verb'].strip(), r['to_verb'].strip()
+            for v in (a, b):
+                if v not in corpus_verbs:
+                    sys.exit(f'edges.tsv:{i}: {v!r} is not in the corpus')
+            edges.setdefault(a, []).append(
+                {'to': b, 't': r['type'], 'n': (r.get('note') or '').strip()})
+
 # ---- reference tables (the Basics tab) ----
 TDIR = os.path.join(ROOT, 'data', 'tables')
 tables = []
@@ -93,6 +151,10 @@ out = tpl.replace('/*__DATA__*/[]', inline(rows))
 if '/*__TABLES__*/[]' not in out:
     sys.exit('template.html is missing the /*__TABLES__*/ placeholder')
 out = out.replace('/*__TABLES__*/[]', inline(tables))
+# Topics are small enough to inline. Conjugations and edges are not, and go
+# out as separate files the app fetches when a tab or a card first needs them.
+if '/*__TOPICS__*/[]' in out:
+    out = out.replace('/*__TOPICS__*/[]', inline(topics))
 
 DIST = os.path.join(ROOT, 'dist')
 os.makedirs(DIST, exist_ok=True)
@@ -124,6 +186,15 @@ if os.path.exists(svg) and shutil.which('rsvg-convert'):
         if not os.path.exists(png) or os.path.getmtime(svg) > os.path.getmtime(png):
             subprocess.run(['rsvg-convert', '-w', str(px), '-h', str(px),
                             svg, '-o', png], check=True)
+
+# Conjugations and edges ship as their own files so the first page load stays
+# small; the service worker precaches them for offline use.
+if conj:
+    json.dump(conj, open(os.path.join(DIST, 'conjugations.json'), 'w'),
+              separators=(',', ':'), ensure_ascii=False)
+if edges:
+    json.dump(edges, open(os.path.join(DIST, 'edges.json'), 'w'),
+              separators=(',', ':'), ensure_ascii=False)
 
 # packs.json: what the app offers for offline download, built from whatever
 # tracks have actually been generated into dist/audio/.
