@@ -275,6 +275,12 @@ header{
 .packrow button.saved{background:var(--surface);color:var(--good);border:1px solid var(--line)}
 .packrow button:disabled{opacity:.6}
 .packnote{font-size:12px;color:var(--muted);line-height:1.5;margin:0}
+.stalebtn{
+  display:block;margin-top:9px;padding:7px 12px;border-radius:8px;
+  border:1px solid var(--line);background:var(--surface-2);color:var(--text);
+  font-size:12px;font-family:inherit;cursor:pointer;
+}
+.stalebtn:disabled{opacity:.5}
 .warnbox{background:var(--surface-2);border:1px solid var(--line);border-left:3px solid var(--warn);
   padding:10px 12px;border-radius:8px;font-size:13px;color:var(--muted);margin-bottom:14px;display:none}
 </style>
@@ -634,10 +640,13 @@ function renderPacks(){
     const warn = document.createElement('div');
     warn.className = 'packnote';
     warn.style.cssText = 'border-left:3px solid var(--warn);padding-left:10px;margin-bottom:10px';
-    warn.innerHTML = `<b>${stale.length} saved pack${stale.length>1?'s are':' is'} from the ` +
-      `old rank layout</b> and no longer play. The audio is now one pack per topic.`;
+    const many = stale.length > 1;
+    warn.innerHTML = `<b>${stale.length} saved pack${many?'s':''} ${many?'are':'is'} from the ` +
+      `old rank layout</b> and no longer play${many?'':'s'}. The audio is now one pack ` +
+      `per topic, matching the deck.`;
     const b = document.createElement('button');
-    b.textContent = 'Remove them'; b.style.cssText='margin-top:8px';
+    b.textContent = many ? 'Remove them' : 'Remove it';
+    b.className = 'stalebtn';
     b.onclick = () => clearStale(b);
     warn.appendChild(b);
     box.prepend(warn);
