@@ -1,10 +1,10 @@
 verb	rank	level	slot	label	form	pron	english	note
-ser	1	A1	pres-1s	yo	soy	SOY	I be	
-ser	1	A1	pres-2s	vos	sos	SOS	you be	voseo - this is the one you use here
-ser	1	A1	pres-2s-tu	tú	eres	EH-res	you be	not used in Paraguay; recognise it, do not say it
+ser	1	A1	pres-1s	yo	soy	SOY	I am	
+ser	1	A1	pres-2s	vos	sos	SOS	you are	voseo - this is the one you use here
+ser	1	A1	pres-2s-tu	tú	eres	EH-res	you are	not used in Paraguay; recognise it, do not say it
 ser	1	A1	pres-3s	usted / él / ella	es	ES	you / he / she is	
-ser	1	A1	pres-1p	nosotros	somos	SOH-mos	we be	
-ser	1	A1	pres-3p	ustedes / ellos	son	SON	you all / they be	
+ser	1	A1	pres-1p	nosotros	somos	SOH-mos	we are	
+ser	1	A1	pres-3p	ustedes / ellos	son	SON	you all / they are	
 ser	1	A1	cmd-vos	command (vos)	sé	SEH	be!	
 ser	1	A1	going-1s	going to	voy a ser	boy ah SER	I'm going to be	ir a + infinitive - how the future is usually said
 ser	1	A1	ger	-ing	siendo	see-EN-doh	being	
@@ -14,7 +14,7 @@ ser	1	A2	perf-1s	perfect (yo)	he sido	eh SEE-doh	I have been
 ser	1	A2	cmd-vos-neg	negative command	no seas	noh SEH-as	don't be	also heard: no seás
 ser	1	B1	fut-1s	future (yo)	seré	seh-REH	I will be	
 ser	1	B1	cond-1s	conditional (yo)	sería	seh-REE-ah	I would be	
-ser	1	B1	subj-1s	subjunctive (yo)	sea	SEH-ah	(that) I be	
+ser	1	B1	subj-1s	subjunctive (yo)	sea	SEH-ah	(that) I am	
 haber	2	A1	pres-1s	yo	he	EH	I have	
 haber	2	A1	pres-2s	vos	has	AS	you have	voseo - this is the one you use here
 haber	2	A1	pres-2s-tu	tú	has	AS	you have	not used in Paraguay; recognise it, do not say it
@@ -30,12 +30,12 @@ haber	2	A2	cmd-vos-neg	negative command	no hayas	noh AH-yas	don't have	also hear
 haber	2	B1	fut-1s	future (yo)	habré	ah-BREH	I will have	
 haber	2	B1	cond-1s	conditional (yo)	habría	ah-BREE-ah	I would have	
 haber	2	B1	subj-1s	subjunctive (yo)	haya	AH-yah	(that) I have	
-estar	3	A1	pres-1s	yo	estoy	es-TOY	I be	
-estar	3	A1	pres-2s	vos	estás	es-TAS	you be	voseo - this is the one you use here
-estar	3	A1	pres-2s-tu	tú	estás	es-TAS	you be	not used in Paraguay; recognise it, do not say it
+estar	3	A1	pres-1s	yo	estoy	es-TOY	I am	
+estar	3	A1	pres-2s	vos	estás	es-TAS	you are	voseo - this is the one you use here
+estar	3	A1	pres-2s-tu	tú	estás	es-TAS	you are	not used in Paraguay; recognise it, do not say it
 estar	3	A1	pres-3s	usted / él / ella	está	es-TAH	you / he / she is	
-estar	3	A1	pres-1p	nosotros	estamos	es-TAH-mos	we be	
-estar	3	A1	pres-3p	ustedes / ellos	están	es-TAN	you all / they be	
+estar	3	A1	pres-1p	nosotros	estamos	es-TAH-mos	we are	
+estar	3	A1	pres-3p	ustedes / ellos	están	es-TAN	you all / they are	
 estar	3	A1	cmd-vos	command (vos)	está	es-TAH	be!	
 estar	3	A1	going-1s	going to	voy a estar	boy ah es-TAR	I'm going to be	ir a + infinitive - how the future is usually said
 estar	3	A1	ger	-ing	estando	es-TAN-doh	being	
@@ -45,7 +45,7 @@ estar	3	A2	perf-1s	perfect (yo)	he estado	eh es-TAH-doh	I have been
 estar	3	A2	cmd-vos-neg	negative command	no estés	noh es-TES	don't be	
 estar	3	B1	fut-1s	future (yo)	estaré	es-tah-REH	I will be	
 estar	3	B1	cond-1s	conditional (yo)	estaría	es-tah-REE-ah	I would be	
-estar	3	B1	subj-1s	subjunctive (yo)	esté	es-TEH	(that) I be	
+estar	3	B1	subj-1s	subjunctive (yo)	esté	es-TEH	(that) I am	
 tener	4	A1	pres-1s	yo	tengo	TEN-goh	I have	
 tener	4	A1	pres-2s	vos	tenés	teh-NES	you have	voseo - this is the one you use here
 tener	4	A1	pres-2s-tu	tú	tienes	tee-EH-nes	you have	not used in Paraguay; recognise it, do not say it
@@ -78,12 +78,12 @@ hacer	5	A2	cmd-vos-neg	negative command	no hazcas	noh AS-kas	don't do	also heard
 hacer	5	B1	fut-1s	future (yo)	haré	ah-REH	I will do	
 hacer	5	B1	cond-1s	conditional (yo)	haría	ah-REE-ah	I would do	
 hacer	5	B1	subj-1s	subjunctive (yo)	hazca	AS-kah	(that) I do	
-poder	6	A1	pres-1s	yo	puedo	poo-EH-doh	I be able to	
-poder	6	A1	pres-2s	vos	podés	poh-DES	you be able to	voseo - this is the one you use here
-poder	6	A1	pres-2s-tu	tú	puedes	poo-EH-des	you be able to	not used in Paraguay; recognise it, do not say it
+poder	6	A1	pres-1s	yo	puedo	poo-EH-doh	I am able to	
+poder	6	A1	pres-2s	vos	podés	poh-DES	you are able to	voseo - this is the one you use here
+poder	6	A1	pres-2s-tu	tú	puedes	poo-EH-des	you are able to	not used in Paraguay; recognise it, do not say it
 poder	6	A1	pres-3s	usted / él / ella	puede	poo-EH-deh	you / he / she is able to	
-poder	6	A1	pres-1p	nosotros	podemos	poh-DEH-mos	we be able to	
-poder	6	A1	pres-3p	ustedes / ellos	pueden	poo-EH-den	you all / they be able to	
+poder	6	A1	pres-1p	nosotros	podemos	poh-DEH-mos	we are able to	
+poder	6	A1	pres-3p	ustedes / ellos	pueden	poo-EH-den	you all / they are able to	
 poder	6	A1	cmd-vos	command (vos)	podé	poh-DEH	be able to!	
 poder	6	A1	going-1s	going to	voy a poder	boy ah poh-DER	I'm going to be able to	ir a + infinitive - how the future is usually said
 poder	6	A1	ger	-ing	pudiendo	poo-dee-EN-doh	being able to	
@@ -93,7 +93,7 @@ poder	6	A2	perf-1s	perfect (yo)	he podido	eh poh-DEE-doh	I have been able to
 poder	6	A2	cmd-vos-neg	negative command	no puedas	noh poo-EH-das	don't be able to	also heard: no podás
 poder	6	B1	fut-1s	future (yo)	podré	poh-DREH	I will be able to	
 poder	6	B1	cond-1s	conditional (yo)	podría	poh-DREE-ah	I would be able to	
-poder	6	B1	subj-1s	subjunctive (yo)	pueda	poo-EH-dah	(that) I be able to	
+poder	6	B1	subj-1s	subjunctive (yo)	pueda	poo-EH-dah	(that) I am able to	
 decir	7	A1	pres-1s	yo	digo	DEE-goh	I say	
 decir	7	A1	pres-2s	vos	decís	deh-SIS	you say	voseo - this is the one you use here
 decir	7	A1	pres-2s-tu	tú	dices	DEE-ses	you say	not used in Paraguay; recognise it, do not say it
@@ -1374,12 +1374,12 @@ alcanzar	86	A2	cmd-vos-neg	negative command	no alcances	noh al-KAN-ses	don't rea
 alcanzar	86	B1	fut-1s	future (yo)	alcanzaré	al-kan-sah-REH	I will reach	
 alcanzar	86	B1	cond-1s	conditional (yo)	alcanzaría	al-kan-sah-REE-ah	I would reach	
 alcanzar	86	B1	subj-1s	subjunctive (yo)	alcance	al-KAN-seh	(that) I reach	
-nacer	87	A1	pres-1s	yo	nazco	NAS-koh	I be born	
-nacer	87	A1	pres-2s	vos	nacés	nah-SES	you be born	voseo - this is the one you use here
-nacer	87	A1	pres-2s-tu	tú	naces	NAH-ses	you be born	not used in Paraguay; recognise it, do not say it
+nacer	87	A1	pres-1s	yo	nazco	NAS-koh	I am born	
+nacer	87	A1	pres-2s	vos	nacés	nah-SES	you are born	voseo - this is the one you use here
+nacer	87	A1	pres-2s-tu	tú	naces	NAH-ses	you are born	not used in Paraguay; recognise it, do not say it
 nacer	87	A1	pres-3s	usted / él / ella	nace	NAH-seh	you / he / she is born	
-nacer	87	A1	pres-1p	nosotros	nacemos	nah-SEH-mos	we be born	
-nacer	87	A1	pres-3p	ustedes / ellos	nacen	NAH-sen	you all / they be born	
+nacer	87	A1	pres-1p	nosotros	nacemos	nah-SEH-mos	we are born	
+nacer	87	A1	pres-3p	ustedes / ellos	nacen	NAH-sen	you all / they are born	
 nacer	87	A1	cmd-vos	command (vos)	nacé	nah-SEH	be born!	
 nacer	87	A1	going-1s	going to	voy a nacer	boy ah nah-SER	I'm going to be born	ir a + infinitive - how the future is usually said
 nacer	87	A1	ger	-ing	naciendo	nah-see-EN-doh	being born	
@@ -1389,7 +1389,7 @@ nacer	87	A2	perf-1s	perfect (yo)	he nacido	eh nah-SEE-doh	I have been born
 nacer	87	A2	cmd-vos-neg	negative command	no nazcas	noh NAS-kas	don't be born	also heard: no nazcás
 nacer	87	B1	fut-1s	future (yo)	naceré	nah-seh-REH	I will be born	
 nacer	87	B1	cond-1s	conditional (yo)	nacería	nah-seh-REE-ah	I would be born	
-nacer	87	B1	subj-1s	subjunctive (yo)	nazca	NAS-kah	(that) I be born	
+nacer	87	B1	subj-1s	subjunctive (yo)	nazca	NAS-kah	(that) I am born	
 dirigir	88	A1	pres-1s	yo	dirijo	dee-REE-hoh	I direct	
 dirigir	88	A1	pres-2s	vos	dirigís	dee-ree-HIS	you direct	voseo - this is the one you use here
 dirigir	88	A1	pres-2s-tu	tú	diriges	dee-REE-hes	you direct	not used in Paraguay; recognise it, do not say it
@@ -1470,12 +1470,12 @@ ayudar	92	A2	cmd-vos-neg	negative command	no ayudes	noh ah-YOO-des	don't help	al
 ayudar	92	B1	fut-1s	future (yo)	ayudaré	ah-yoo-dah-REH	I will help	
 ayudar	92	B1	cond-1s	conditional (yo)	ayudaría	ah-yoo-dah-REE-ah	I would help	
 ayudar	92	B1	subj-1s	subjunctive (yo)	ayude	ah-YOO-deh	(that) I help	
-gustar	93	A1	pres-1s	yo	gusto	GWSTOH	I be pleasing	
-gustar	93	A1	pres-2s	vos	gustás	GWSTAS	you be pleasing	voseo - this is the one you use here
-gustar	93	A1	pres-2s-tu	tú	gustas	GWSTAS	you be pleasing	not used in Paraguay; recognise it, do not say it
+gustar	93	A1	pres-1s	yo	gusto	GWSTOH	I am pleasing	
+gustar	93	A1	pres-2s	vos	gustás	GWSTAS	you are pleasing	voseo - this is the one you use here
+gustar	93	A1	pres-2s-tu	tú	gustas	GWSTAS	you are pleasing	not used in Paraguay; recognise it, do not say it
 gustar	93	A1	pres-3s	usted / él / ella	gusta	GWSTAH	you / he / she is pleasing	
-gustar	93	A1	pres-1p	nosotros	gustamos	GWSTAH-mos	we be pleasing	
-gustar	93	A1	pres-3p	ustedes / ellos	gustan	GWSTAN	you all / they be pleasing	
+gustar	93	A1	pres-1p	nosotros	gustamos	GWSTAH-mos	we are pleasing	
+gustar	93	A1	pres-3p	ustedes / ellos	gustan	GWSTAN	you all / they are pleasing	
 gustar	93	A1	cmd-vos	command (vos)	gustá	GWSTAH	be pleasing!	
 gustar	93	A1	going-1s	going to	voy a gustar	boy ah GWSTAR	I'm going to be pleasing	ir a + infinitive - how the future is usually said
 gustar	93	A1	ger	-ing	gustando	GWSTAN-doh	being pleasing	
@@ -1485,7 +1485,7 @@ gustar	93	A2	perf-1s	perfect (yo)	he gustado	eh GWSTAH-doh	I have been pleasing
 gustar	93	A2	cmd-vos-neg	negative command	no gustes	noh GWSTES	don't be pleasing	also heard: no gustés
 gustar	93	B1	fut-1s	future (yo)	gustaré	gwstah-REH	I will be pleasing	
 gustar	93	B1	cond-1s	conditional (yo)	gustaría	gwstah-REE-ah	I would be pleasing	
-gustar	93	B1	subj-1s	subjunctive (yo)	guste	GWSTEH	(that) I be pleasing	
+gustar	93	B1	subj-1s	subjunctive (yo)	guste	GWSTEH	(that) I am pleasing	
 jugar	94	A1	pres-1s	yo	juego	hoo-EH-goh	I play	
 jugar	94	A1	pres-2s	vos	jugás	hoo-GAS	you play	voseo - this is the one you use here
 jugar	94	A1	pres-2s-tu	tú	juegas	hoo-EH-gas	you play	not used in Paraguay; recognise it, do not say it
@@ -1662,12 +1662,12 @@ olvidar	104	A2	cmd-vos-neg	negative command	no olvides	noh ol-BEE-des	don't forg
 olvidar	104	B1	fut-1s	future (yo)	olvidaré	ol-bee-dah-REH	I will forget	
 olvidar	104	B1	cond-1s	conditional (yo)	olvidaría	ol-bee-dah-REE-ah	I would forget	
 olvidar	104	B1	subj-1s	subjunctive (yo)	olvide	ol-BEE-deh	(that) I forget	
-valer	105	A1	pres-1s	yo	valgo	BAL-goh	I be worth	
-valer	105	A1	pres-2s	vos	valés	bah-LES	you be worth	voseo - this is the one you use here
-valer	105	A1	pres-2s-tu	tú	vales	BAH-les	you be worth	not used in Paraguay; recognise it, do not say it
+valer	105	A1	pres-1s	yo	valgo	BAL-goh	I am worth	
+valer	105	A1	pres-2s	vos	valés	bah-LES	you are worth	voseo - this is the one you use here
+valer	105	A1	pres-2s-tu	tú	vales	BAH-les	you are worth	not used in Paraguay; recognise it, do not say it
 valer	105	A1	pres-3s	usted / él / ella	vale	BAH-leh	you / he / she is worth	
-valer	105	A1	pres-1p	nosotros	valemos	bah-LEH-mos	we be worth	
-valer	105	A1	pres-3p	ustedes / ellos	valen	BAH-len	you all / they be worth	
+valer	105	A1	pres-1p	nosotros	valemos	bah-LEH-mos	we are worth	
+valer	105	A1	pres-3p	ustedes / ellos	valen	BAH-len	you all / they are worth	
 valer	105	A1	cmd-vos	command (vos)	valé	bah-LEH	be worth!	
 valer	105	A1	going-1s	going to	voy a valer	boy ah bah-LER	I'm going to be worth	ir a + infinitive - how the future is usually said
 valer	105	A1	ger	-ing	valendo	bah-LEN-doh	being worth	
@@ -1677,7 +1677,7 @@ valer	105	A2	perf-1s	perfect (yo)	he valido	eh bah-LEE-doh	I have been worth
 valer	105	A2	cmd-vos-neg	negative command	no valgas	noh BAL-gas	don't be worth	also heard: no valgás
 valer	105	B1	fut-1s	future (yo)	valdré	bal-DREH	I will be worth	
 valer	105	B1	cond-1s	conditional (yo)	valdría	bal-DREE-ah	I would be worth	
-valer	105	B1	subj-1s	subjunctive (yo)	valga	BAL-gah	(that) I be worth	
+valer	105	B1	subj-1s	subjunctive (yo)	valga	BAL-gah	(that) I am worth	
 comer	106	A1	pres-1s	yo	como	KOH-moh	I eat	
 comer	106	A1	pres-2s	vos	comés	koh-MES	you eat	voseo - this is the one you use here
 comer	106	A1	pres-2s-tu	tú	comes	KOH-mes	you eat	not used in Paraguay; recognise it, do not say it
@@ -2382,12 +2382,12 @@ elegir	149	A2	cmd-vos-neg	negative command	no elijas	noh eh-LEE-has	don't choose
 elegir	149	B1	fut-1s	future (yo)	elegiré	eh-leh-hee-REH	I will choose	
 elegir	149	B1	cond-1s	conditional (yo)	elegiría	eh-leh-hee-REE-ah	I would choose	
 elegir	149	B1	subj-1s	subjunctive (yo)	elija	eh-LEE-hah	(that) I choose	
-faltar	153	A1	pres-1s	yo	falto	FAL-toh	I be lacking	
-faltar	153	A1	pres-2s	vos	faltás	fal-TAS	you be lacking	voseo - this is the one you use here
-faltar	153	A1	pres-2s-tu	tú	faltas	FAL-tas	you be lacking	not used in Paraguay; recognise it, do not say it
+faltar	153	A1	pres-1s	yo	falto	FAL-toh	I am lacking	
+faltar	153	A1	pres-2s	vos	faltás	fal-TAS	you are lacking	voseo - this is the one you use here
+faltar	153	A1	pres-2s-tu	tú	faltas	FAL-tas	you are lacking	not used in Paraguay; recognise it, do not say it
 faltar	153	A1	pres-3s	usted / él / ella	falta	FAL-tah	you / he / she is lacking	
-faltar	153	A1	pres-1p	nosotros	faltamos	fal-TAH-mos	we be lacking	
-faltar	153	A1	pres-3p	ustedes / ellos	faltan	FAL-tan	you all / they be lacking	
+faltar	153	A1	pres-1p	nosotros	faltamos	fal-TAH-mos	we are lacking	
+faltar	153	A1	pres-3p	ustedes / ellos	faltan	FAL-tan	you all / they are lacking	
 faltar	153	A1	cmd-vos	command (vos)	faltá	fal-TAH	be lacking!	
 faltar	153	A1	going-1s	going to	voy a faltar	boy ah fal-TAR	I'm going to be lacking	ir a + infinitive - how the future is usually said
 faltar	153	A1	ger	-ing	faltando	fal-TAN-doh	being lacking	
@@ -2397,13 +2397,13 @@ faltar	153	A2	perf-1s	perfect (yo)	he faltado	eh fal-TAH-doh	I have been lacking
 faltar	153	A2	cmd-vos-neg	negative command	no faltes	noh FAL-tes	don't be lacking	also heard: no faltés
 faltar	153	B1	fut-1s	future (yo)	faltaré	fal-tah-REH	I will be lacking	
 faltar	153	B1	cond-1s	conditional (yo)	faltaría	fal-tah-REE-ah	I would be lacking	
-faltar	153	B1	subj-1s	subjunctive (yo)	falte	FAL-teh	(that) I be lacking	
-sobrar	154	A1	pres-1s	yo	sobro	SOH-broh	I be left over	
-sobrar	154	A1	pres-2s	vos	sobrás	soh-BRAS	you be left over	voseo - this is the one you use here
-sobrar	154	A1	pres-2s-tu	tú	sobras	SOH-bras	you be left over	not used in Paraguay; recognise it, do not say it
+faltar	153	B1	subj-1s	subjunctive (yo)	falte	FAL-teh	(that) I am lacking	
+sobrar	154	A1	pres-1s	yo	sobro	SOH-broh	I am left over	
+sobrar	154	A1	pres-2s	vos	sobrás	soh-BRAS	you are left over	voseo - this is the one you use here
+sobrar	154	A1	pres-2s-tu	tú	sobras	SOH-bras	you are left over	not used in Paraguay; recognise it, do not say it
 sobrar	154	A1	pres-3s	usted / él / ella	sobra	SOH-brah	you / he / she is left over	
-sobrar	154	A1	pres-1p	nosotros	sobramos	soh-BRAH-mos	we be left over	
-sobrar	154	A1	pres-3p	ustedes / ellos	sobran	SOH-bran	you all / they be left over	
+sobrar	154	A1	pres-1p	nosotros	sobramos	soh-BRAH-mos	we are left over	
+sobrar	154	A1	pres-3p	ustedes / ellos	sobran	SOH-bran	you all / they are left over	
 sobrar	154	A1	cmd-vos	command (vos)	sobrá	soh-BRAH	be left over!	
 sobrar	154	A1	going-1s	going to	voy a sobrar	boy ah soh-BRAR	I'm going to be left over	ir a + infinitive - how the future is usually said
 sobrar	154	A1	ger	-ing	sobrando	soh-BRAN-doh	being left over	
@@ -2413,13 +2413,13 @@ sobrar	154	A2	perf-1s	perfect (yo)	he sobrado	eh soh-BRAH-doh	I have been left o
 sobrar	154	A2	cmd-vos-neg	negative command	no sobres	noh SOH-bres	don't be left over	also heard: no sobrés
 sobrar	154	B1	fut-1s	future (yo)	sobraré	soh-brah-REH	I will be left over	
 sobrar	154	B1	cond-1s	conditional (yo)	sobraría	soh-brah-REE-ah	I would be left over	
-sobrar	154	B1	subj-1s	subjunctive (yo)	sobre	SOH-breh	(that) I be left over	
-bastar	155	A1	pres-1s	yo	basto	BAS-toh	I be enough	
-bastar	155	A1	pres-2s	vos	bastás	bas-TAS	you be enough	voseo - this is the one you use here
-bastar	155	A1	pres-2s-tu	tú	bastas	BAS-tas	you be enough	not used in Paraguay; recognise it, do not say it
+sobrar	154	B1	subj-1s	subjunctive (yo)	sobre	SOH-breh	(that) I am left over	
+bastar	155	A1	pres-1s	yo	basto	BAS-toh	I am enough	
+bastar	155	A1	pres-2s	vos	bastás	bas-TAS	you are enough	voseo - this is the one you use here
+bastar	155	A1	pres-2s-tu	tú	bastas	BAS-tas	you are enough	not used in Paraguay; recognise it, do not say it
 bastar	155	A1	pres-3s	usted / él / ella	basta	BAS-tah	you / he / she is enough	
-bastar	155	A1	pres-1p	nosotros	bastamos	bas-TAH-mos	we be enough	
-bastar	155	A1	pres-3p	ustedes / ellos	bastan	BAS-tan	you all / they be enough	
+bastar	155	A1	pres-1p	nosotros	bastamos	bas-TAH-mos	we are enough	
+bastar	155	A1	pres-3p	ustedes / ellos	bastan	BAS-tan	you all / they are enough	
 bastar	155	A1	cmd-vos	command (vos)	bastá	bas-TAH	be enough!	
 bastar	155	A1	going-1s	going to	voy a bastar	boy ah bas-TAR	I'm going to be enough	ir a + infinitive - how the future is usually said
 bastar	155	A1	ger	-ing	bastando	bas-TAN-doh	being enough	
@@ -2429,7 +2429,7 @@ bastar	155	A2	perf-1s	perfect (yo)	he bastado	eh bas-TAH-doh	I have been enough
 bastar	155	A2	cmd-vos-neg	negative command	no bastes	noh BAS-tes	don't be enough	also heard: no bastés
 bastar	155	B1	fut-1s	future (yo)	bastaré	bas-tah-REH	I will be enough	
 bastar	155	B1	cond-1s	conditional (yo)	bastaría	bas-tah-REE-ah	I would be enough	
-bastar	155	B1	subj-1s	subjunctive (yo)	baste	BAS-teh	(that) I be enough	
+bastar	155	B1	subj-1s	subjunctive (yo)	baste	BAS-teh	(that) I am enough	
 durar	156	A1	pres-1s	yo	duro	DOO-roh	I last	
 durar	156	A1	pres-2s	vos	durás	doo-RAS	you last	voseo - this is the one you use here
 durar	156	A1	pres-2s-tu	tú	duras	DOO-ras	you last	not used in Paraguay; recognise it, do not say it

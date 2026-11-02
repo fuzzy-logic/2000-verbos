@@ -61,10 +61,90 @@ header{
 .chunklabel{
   flex:1;text-align:center;font-size:14px;font-weight:600;
   font-variant-numeric:tabular-nums;white-space:nowrap;
+  background:var(--surface-2);color:var(--text);border:1px solid var(--line);
+  border-radius:10px;padding:9px 10px;font-family:inherit;cursor:pointer;
+  overflow:hidden;text-overflow:ellipsis;
 }
+.chunklabel:active{transform:scale(.98)}
+.chunklabel small{display:block;font-size:11px;font-weight:500;color:var(--muted)}
 .counter{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
 .bar{height:4px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin:8px 0 14px}
 .bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .25s}
+
+/* ---------- group picker ---------- */
+.segrow{display:flex;gap:8px;margin-bottom:14px}
+.seg{
+  flex:1;padding:10px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--muted);font-size:14px;font-weight:600;
+  font-family:inherit;cursor:pointer;
+}
+.seg[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#14161b}
+.picksec{
+  font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);
+  font-weight:700;margin:16px 0 6px;
+}
+.picksec:first-child{margin-top:0}
+.pickrow{
+  display:flex;align-items:baseline;gap:10px;width:100%;text-align:left;
+  padding:11px 12px;margin-bottom:5px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--text);font-family:inherit;cursor:pointer;
+}
+.pickrow[aria-current="true"]{border-color:var(--accent)}
+.pickrow b{font-size:15px;font-weight:600;flex:1}
+.pickrow i{font-style:normal;font-size:13px;color:var(--muted);
+  font-variant-numeric:tabular-nums;flex:none}
+.pickrow span{display:block;font-size:12px;color:var(--muted);line-height:1.45;
+  font-weight:400;margin-top:3px}
+
+/* ---------- conjugation panel ---------- */
+.conjpanel{
+  background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:4px 0 2px;margin:-6px 0 14px;overflow:hidden;
+}
+.conjhead{
+  display:flex;align-items:baseline;gap:8px;padding:9px 14px 7px;
+  font-size:12px;color:var(--muted);
+}
+.conjhead b{color:var(--text);font-size:13px}
+.conjrow{
+  display:grid;grid-template-columns:minmax(74px,.9fr) 1.15fr 1.3fr;gap:8px;
+  padding:7px 14px;align-items:baseline;border-top:1px solid var(--line);
+}
+.conjrow.here{background:var(--surface-2)}
+.conjrow .lbl{font-size:12px;color:var(--muted);line-height:1.3}
+.conjrow .frm{font-size:15px;font-weight:600}
+.conjrow.here .frm{color:var(--accent)}
+.conjrow .pr{font-size:12px;color:var(--muted);letter-spacing:.02em}
+.conjrow .en{font-size:12px;color:var(--muted);grid-column:2/4;margin-top:-3px}
+.conjrow .nt{grid-column:1/4;font-size:11px;color:var(--muted);font-style:italic;margin-top:2px}
+.conjmore{
+  display:flex;gap:8px;padding:9px 14px 10px;border-top:1px solid var(--line);flex-wrap:wrap;
+}
+.conjmore button{
+  padding:6px 11px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--muted);font-size:12px;font-family:inherit;cursor:pointer;
+}
+.conjmore button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+
+/* ---------- sideways links ---------- */
+.meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:5px}
+.metabtn{
+  font-size:11px;color:var(--muted);background:transparent;border:1px solid var(--line);
+  border-radius:999px;padding:2px 8px;font-family:inherit;cursor:pointer;
+}
+.metabtn:active{transform:scale(.97)}
+.formtag{
+  font-size:11px;font-weight:600;color:var(--muted);border:1px solid var(--line);
+  border-radius:999px;padding:2px 8px;white-space:nowrap;
+}
+.sideways{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.sideways button{
+  padding:5px 10px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--muted);font-size:12px;
+  font-family:inherit;cursor:pointer;max-width:100%;
+}
+.sideways button b{color:var(--text);font-weight:600}
+.sideways button:active{transform:scale(.97)}
 
 /* ---------- card ---------- */
 .card{
@@ -212,6 +292,7 @@ header{
       <div class="tab" role="tab" data-mode="listen" aria-selected="true">Listen</div>
       <div class="tab" role="tab" data-mode="recall" aria-selected="false">Recall</div>
       <div class="tab" role="tab" data-mode="deck"   aria-selected="false">Deck</div>
+      <div class="tab" role="tab" data-mode="verbs"  aria-selected="false">Verbs</div>
       <div class="tab" role="tab" data-mode="basics" aria-selected="false">Basics</div>
     </div>
   </div>
@@ -221,9 +302,9 @@ header{
 
   <div id="studyView">
     <div class="chunkbar">
-      <button class="chunknav" id="chunkPrev" aria-label="Previous block">‹</button>
-      <div class="chunklabel" id="chunkLabel">—</div>
-      <button class="chunknav" id="chunkNext" aria-label="Next block">›</button>
+      <button class="chunknav" id="chunkPrev" aria-label="Previous group">‹</button>
+      <button class="chunklabel" id="groupBtn" aria-label="Choose a group">—</button>
+      <button class="chunknav" id="chunkNext" aria-label="Next group">›</button>
       <div class="counter" id="counter">0 / 0</div>
     </div>
     <div class="bar"><i id="progBar"></i></div>
@@ -234,7 +315,10 @@ header{
       <div class="en" id="enText"></div>
       <div class="note" id="noteText"></div>
       <div class="reveal-hint" id="hint"></div>
+      <div class="sideways" id="sideways"></div>
     </div>
+
+    <div class="conjpanel" id="conjPanel" style="display:none"></div>
 
     <div class="controls">
       <button class="btn" id="prevBtn">←</button>
@@ -244,8 +328,15 @@ header{
     <div class="markrow">
       <button class="btn small good" id="knownBtn">✓ Got it</button>
       <button class="btn small warn" id="shakyBtn">↻ Shaky</button>
+      <button class="btn small" id="conjBtn">▾ Forms</button>
       <button class="btn small" id="autoBtn">⏯ Auto</button>
     </div>
+  </div>
+
+  <div id="verbsView" style="display:none">
+    <input class="search" id="vSearch" placeholder="Search a verb or its meaning…" autocomplete="off">
+    <div class="tablecount" id="vCount"></div>
+    <div id="vList"></div>
   </div>
 
   <div id="basicsView" style="display:none">
@@ -261,6 +352,18 @@ header{
   </div>
 
 </main>
+
+<div class="sheet" id="pickSheet">
+  <div class="sheetinner">
+    <h2>What do you want to work on?</h2>
+    <div class="segrow">
+      <button class="seg" id="segTopic" data-view="topic" aria-selected="true">By topic</button>
+      <button class="seg" id="segForm" data-view="form" aria-selected="false">By tense</button>
+    </div>
+    <input class="search" id="pickSearch" placeholder="Filter…" autocomplete="off">
+    <div id="pickList"></div>
+  </div>
+</div>
 
 <div class="sheet" id="sheet">
   <div class="sheetinner">
@@ -308,16 +411,52 @@ header{
 <script>
 const DATA = /*__DATA__*/[];
 const TABLES = /*__TABLES__*/[];
+const TOPICS = /*__TOPICS__*/[];
+
+// Which tense/person each sentence uses, as the by-tense view labels them.
+// Section first, then the label, with a model verb so the shape is visible.
+const FORM_META = {
+  'pres-1s':    ['Present',     'yo — hablo',                    'present · yo'],
+  'pres-2s':    ['Present',     'vos — hablás',                  'present · vos'],
+  'pres-2s-tu': ['Present',     'tú — hablas',                   'present · tú'],
+  'pres-3s':    ['Present',     'él / ella / usted — habla',     'present · él/ella'],
+  'pres-1p':    ['Present',     'nosotros — hablamos',           'present · nosotros'],
+  'pres-3p':    ['Present',     'ellos / ustedes — hablan',      'present · ellos'],
+  'cmd-vos':    ['Commands',    '¡vení! ¡mirá! ¡tomá!',          'command (vos)'],
+  'pret-1s':    ['Preterite',   'yo — hablé',                    'preterite · yo'],
+  'pret-2s':    ['Preterite',   'vos — hablaste',                'preterite · vos'],
+  'pret-3s':    ['Preterite',   'él / ella — habló',             'preterite · él/ella'],
+  'pret-1p':    ['Preterite',   'nosotros — hablamos',           'preterite · nosotros'],
+  'pret-3p':    ['Preterite',   'ellos / ustedes — hablaron',    'preterite · ellos'],
+  'imperf-3s':  ['Imperfect',   'él / ella — hablaba',           'imperfect · él/ella'],
+  'imperf-3p':  ['Imperfect',   'ellos — hablaban',              'imperfect · ellos'],
+  'subj-2s':    ['Subjunctive', 'after no… — no hables',         'subjunctive · vos'],
+  'subj-3s':    ['Subjunctive', 'él / ella — hable',             'subjunctive · él/ella'],
+  'subj-1p':    ['Subjunctive', 'nosotros — hablemos',           'subjunctive · nosotros'],
+  'inf':        ['Other forms', 'infinitive after another verb',  'infinitive'],
+  'prog':       ['Other forms', 'estoy + -ando / -iendo',        'progressive'],
+  'part':       ['Other forms', 'participle — hablado',          'participle'],
+  'cond-1s':    ['Other forms', 'conditional — hablaría',        'conditional'],
+  'impersonal': ['Other forms', 'hay',                           'impersonal'],
+};
+const FORM_SECTIONS = ['Present','Commands','Preterite','Imperfect','Subjunctive','Other forms'];
+const LEVELS = ['A1','A2','B1'];
 
 /* ---------- state ---------- */
 const LS = 'verbos2000';
 const save = () => { try{ localStorage.setItem(LS, JSON.stringify(state)); }catch(e){} };
-let state = { mode:'listen', chunk:0, idx:0, rate:1, gap:1.2, reps:1, chunkSize:100,
+let state = { mode:'listen', view:'topic', group:'', idx:0, rate:1, gap:1.2, reps:1,
+              chunkSize:100, level:'A1', conjOpen:false,
               voice:'', theme:'dark', marks:{} };
 try { const s = localStorage.getItem(LS); if(s) state = Object.assign(state, JSON.parse(s)); } catch(e){}
 // 'table' was the deck's mode key before the Basics tab existed.
 if(state.mode === 'table') state.mode = 'deck';
 if(!state.openTables) state.openTables = {};
+// The deck used to be sliced into blocks of 100 by rank. Anyone carrying that
+// state lands on the first topic instead.
+if(state.view !== 'topic' && state.view !== 'form') state.view = 'topic';
+if(!state.level || LEVELS.indexOf(state.level) < 0) state.level = 'A1';
+if(!state.openVerbs) state.openVerbs = {};
 
 const $ = id => document.getElementById(id);
 let auto = false, autoTimer = null, voices = [], voice = null;
@@ -536,37 +675,209 @@ function playTrack(row){
   return true;
 }
 
-/* ---------- data slicing ---------- */
-const chunks = () => {
-  const out=[], n=state.chunkSize;
-  for(let i=0;i<DATA.length;i+=n) out.push([i, Math.min(i+n, DATA.length)]);
-  return out.length?out:[[0,0]];
-};
-const current = () => {
-  const c = chunks()[state.chunk] || [0,0];
-  return DATA.slice(c[0], c[1]);
-};
+/* ---------- groups ----------
+   Two ways of cutting the same 2000 cards: by topic (what you need first in
+   Asunción) or by the tense the sentence uses. Frequency survives as the sort
+   order inside every group, so the common verbs still come first. */
+const GROUPS = { topic: [], form: [] };
+
+function buildGroups(){
+  const byTopic = new Map(TOPICS.map(t => [t.slug, []]));
+  const byForm = new Map();
+  for(const r of DATA){
+    if(byTopic.has(r.tp)) byTopic.get(r.tp).push(r);
+    if(!byForm.has(r.f)) byForm.set(r.f, []);
+    byForm.get(r.f).push(r);
+  }
+  GROUPS.topic = TOPICS
+    .map(t => ({ key:t.slug, title:t.title, section:t.section,
+                 blurb:t.blurb, rows:byTopic.get(t.slug) || [] }))
+    .filter(g => g.rows.length);
+  GROUPS.form = [];
+  for(const sec of FORM_SECTIONS){
+    for(const key of Object.keys(FORM_META)){
+      const m = FORM_META[key];
+      if(m[0] === sec && byForm.has(key))
+        GROUPS.form.push({ key, title:m[1], section:sec, blurb:'', rows:byForm.get(key) });
+    }
+  }
+  // anything the label table does not cover still gets a home
+  for(const [key, rows] of byForm)
+    if(!FORM_META[key]) GROUPS.form.push({ key, title:key, section:'Other forms', blurb:'', rows });
+}
+
+const TOPIC_TITLE = {};
+TOPICS.forEach(t => { TOPIC_TITLE[t.slug] = t.title; });
+
+/* Jump straight from a Deck row into the group it belongs to. */
+function openGroup(view, key, row){
+  stopAuto();
+  state.view = view;
+  state.group = key;
+  const g = (GROUPS[view] || []).find(x => x.key === key);
+  state.idx = g && row ? Math.max(0, g.rows.indexOf(row)) : 0;
+  document.querySelector('.tab[data-mode="listen"]').click();
+  buildChunkSel();
+  render();
+  save();
+}
+
+const activeGroups = () => GROUPS[state.view].length ? GROUPS[state.view] : GROUPS.topic;
+
+function groupIndex(){
+  const gs = activeGroups();
+  const i = gs.findIndex(g => g.key === state.group);
+  return i < 0 ? 0 : i;
+}
+
+const current = () => (activeGroups()[groupIndex()] || { rows:[] }).rows;
+
 function buildChunkSel(){
-  const all = chunks();
-  if(state.chunk >= all.length) state.chunk = 0;
-  if(state.chunk < 0) state.chunk = 0;
-  const c = all[state.chunk];
-  $('chunkLabel').textContent = `Verbs ${c[0]+1}–${c[1]}`;
-  $('chunkPrev').disabled = state.chunk === 0;
-  $('chunkNext').disabled = state.chunk >= all.length - 1;
+  const gs = activeGroups(), g = gs[groupIndex()];
+  if(!g){ $('groupBtn').textContent = '—'; return; }
+  state.group = g.key;
+  $('groupBtn').innerHTML =
+    `${esc(g.title)}<small>${esc(g.section)} · ${g.rows.length} cards</small>`;
+  $('chunkPrev').disabled = groupIndex() === 0;
+  $('chunkNext').disabled = groupIndex() >= gs.length - 1;
 }
 
 function goChunk(d){
-  const all = chunks();
-  const next = state.chunk + d;
-  if(next < 0 || next >= all.length) return;
+  const gs = activeGroups(), next = groupIndex() + d;
+  if(next < 0 || next >= gs.length) return;
   stopAuto();
-  state.chunk = next;
+  state.group = gs[next].key;
   state.idx = 0;
   buildChunkSel();
   render();
   if(state.mode === 'deck') renderTable();
   save();
+}
+
+/* ---------- the group picker ---------- */
+function renderPicker(){
+  const q = ($('pickSearch').value || '').trim().toLowerCase();
+  const gs = GROUPS[state.view];
+  const out = [];
+  let sec = null;
+  for(const g of gs){
+    if(q && !(g.title + ' ' + g.section + ' ' + g.blurb).toLowerCase().includes(q)) continue;
+    if(g.section !== sec){ sec = g.section; out.push(`<div class="picksec">${esc(sec)}</div>`); }
+    out.push(
+      `<button class="pickrow" data-key="${esc(g.key)}"` +
+      ` aria-current="${g.key === state.group}">` +
+      `<b>${esc(g.title)}${g.blurb ? `<span>${esc(g.blurb)}</span>` : ''}</b>` +
+      `<i>${g.rows.length}</i></button>`);
+  }
+  $('pickList').innerHTML = out.join('') || '<p class="packnote">Nothing matches.</p>';
+  $('pickList').querySelectorAll('.pickrow').forEach(b => {
+    b.onclick = () => {
+      stopAuto();
+      state.group = b.dataset.key;
+      state.idx = 0;
+      $('pickSheet').classList.remove('open');
+      buildChunkSel();
+      render();
+      if(state.mode === 'deck') renderTable();
+      save();
+    };
+  });
+  document.querySelectorAll('.seg').forEach(x =>
+    x.setAttribute('aria-selected', String(x.dataset.view === state.view)));
+}
+
+function openPicker(){
+  $('pickSearch').value = '';
+  renderPicker();
+  $('pickSheet').classList.add('open');
+}
+
+/* ---------- conjugations and edges ----------
+   Both are fetched rather than inlined: together they are nearly a megabyte,
+   and the first paint should not wait for them. The service worker precaches
+   them, so offline still works. */
+let CONJ = null, EDGES = null, extraPromise = null;
+
+function loadExtra(){
+  if(extraPromise) return extraPromise;
+  const get = u => fetch(u).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+  extraPromise = Promise.all([get('conjugations.json'), get('edges.json')])
+    .then(([c, e]) => { CONJ = c; EDGES = e; });
+  return extraPromise;
+}
+
+const EDGE_LABEL = {
+  'family': '↳', 'pattern': '≈', 'reflexive': '⇄', 'takes-infinitive': '→'
+};
+
+function renderSideways(r){
+  const box = $('sideways');
+  if(!EDGES){ box.innerHTML = ''; return; }
+  const es = (EDGES[r.v] || []);
+  // one of each kind, most useful first: what it conjugates like, its
+  // reflexive twin, the family it belongs to, what it takes after it
+  const pick = [], want = ['pattern', 'reflexive', 'takes-infinitive', 'family'];
+  for(const t of want){
+    const e = es.find(x => x.t === t);
+    if(e) pick.push(e);
+  }
+  box.innerHTML = pick.map(e =>
+    `<button data-verb="${esc(e.to)}" title="${esc(e.n)}">` +
+    `${EDGE_LABEL[e.t] || '·'} <b>${esc(e.to)}</b></button>`).join('');
+  box.querySelectorAll('button').forEach(b => {
+    b.onclick = ev => { ev.stopPropagation(); jumpToVerb(b.dataset.verb); };
+  });
+}
+
+function jumpToVerb(verb){
+  const row = DATA.find(x => x.v === verb);
+  if(!row) return;
+  stopAuto();
+  // follow the link in whichever view is open, switching group if need be
+  const gs = activeGroups();
+  const key = state.view === 'form' ? row.f : row.tp;
+  const g = gs.find(x => x.key === key);
+  if(g){ state.group = g.key; state.idx = Math.max(0, g.rows.indexOf(row)); }
+  buildChunkSel();
+  render();
+  save();
+}
+
+function renderConj(r){
+  const panel = $('conjPanel');
+  if(!state.conjOpen){ panel.style.display = 'none'; return; }
+  panel.style.display = '';
+  if(!CONJ){ panel.innerHTML = '<div class="conjhead">Loading forms…</div>'; return; }
+  const rows = CONJ[r.v];
+  if(!rows){
+    panel.innerHTML = '<div class="conjhead">No table for this verb yet — ' +
+      'the first 400 have one. <b>' + esc(r.v) + '</b> conjugates regularly.</div>';
+    return;
+  }
+  const upto = LEVELS.indexOf(state.level);
+  const show = rows.filter(c => LEVELS.indexOf(c.lv) <= upto);
+  const out = [`<div class="conjhead"><b>${esc(r.v)}</b> · ${esc(r.ve)}</div>`];
+  for(const c of show){
+    const here = c.s === r.f;
+    out.push(
+      `<div class="conjrow${here ? ' here' : ''}" data-form="${esc(c.f)}">` +
+      `<div class="lbl">${esc(c.l)}</div>` +
+      `<div class="frm">${esc(c.f)}</div>` +
+      `<div class="pr">${esc(c.p)}</div>` +
+      `<div class="en">${esc(c.e)}</div>` +
+      (c.n ? `<div class="nt">${esc(c.n)}</div>` : '') +
+      `</div>`);
+  }
+  out.push('<div class="conjmore">' + LEVELS.map(l =>
+    `<button data-level="${l}" aria-pressed="${l === state.level}">` +
+    (l === 'A1' ? 'A1 only' : 'show ' + l) + '</button>').join('') + '</div>');
+  panel.innerHTML = out.join('');
+  panel.querySelectorAll('[data-level]').forEach(b => {
+    b.onclick = () => { state.level = b.dataset.level; renderConj(r); save(); };
+  });
+  panel.querySelectorAll('.conjrow').forEach(d => {
+    d.onclick = () => speak(d.dataset.form, null);
+  });
 }
 
 /* ---------- render ---------- */
@@ -578,8 +889,6 @@ function render(){
   const r = list[state.idx];
   const recall = state.mode === 'recall';
 
-  $('verbTag').innerHTML =
-    `<span class="inf">${esc(r.v)}</span> <b>· ${esc(r.ve)}</b>`;
   $('esText').textContent = r.s;
   $('enText').textContent = r.t;
   $('noteText').textContent = r.n || '';
@@ -594,6 +903,15 @@ function render(){
   const key = r.r, m = state.marks[key];
   $('knownBtn').style.opacity = m==='known' ? 1 : .55;
   $('shakyBtn').style.opacity = m==='shaky' ? 1 : .55;
+
+  // the form this sentence uses, named on the card, and the table behind it
+  const fm = FORM_META[r.f];
+  $('verbTag').innerHTML =
+    `<span class="inf">${esc(r.v)}</span> <b>· ${esc(r.ve)}</b>` +
+    (fm ? ` <span class="formtag">${esc(fm[2])}</span>` : '');
+  renderSideways(r);
+  renderConj(r);
+  $('conjBtn').textContent = (state.conjOpen ? '▴' : '▾') + ' Forms';
   save();
 }
 
@@ -651,7 +969,11 @@ function startAuto(){
 function tableMatches(){
   const q = $('search').value.trim().toLowerCase();
   if(!q) return DATA;
-  return DATA.filter(r => (r.s+' '+r.t+' '+r.v+' '+r.ve).toLowerCase().includes(q));
+  // the topic title and the form are searchable too, so "shopping" or
+  // "preterite" narrows the deck the same way a Spanish word does
+  return DATA.filter(r => (r.s + ' ' + r.t + ' ' + r.v + ' ' + r.ve + ' ' +
+    (TOPIC_TITLE[r.tp] || '') + ' ' + ((FORM_META[r.f] || [,,''])[2] || ''))
+    .toLowerCase().includes(q));
 }
 
 function renderTable(){
@@ -674,9 +996,16 @@ function renderTable(){
         <div class="v">${esc(r.v)} · ${esc(r.ve)}</div>
         <div class="s">${esc(r.s)}</div>
         <div class="t">${esc(r.t)}</div>
+        <div class="meta">
+          <button class="metabtn" data-topic="${esc(r.tp)}">${esc(TOPIC_TITLE[r.tp] || r.tp)}</button>
+          <button class="metabtn" data-form="${esc(r.f)}">${esc((FORM_META[r.f]||[,,r.f])[2])}</button>
+        </div>
       </div>
       <button class="spk" aria-label="Speak">🔊</button>`;
     d.querySelector('.spk').onclick = () => play(r,'full');
+    // tapping either chip opens that group in the study view
+    d.querySelector('[data-topic]').onclick = () => openGroup('topic', r.tp, r);
+    d.querySelector('[data-form]').onclick = () => openGroup('form', r.f, r);
     frag.appendChild(d);
   });
   box.appendChild(frag);
@@ -736,6 +1065,66 @@ function renderBasics(){
   if(q && !shown) box.innerHTML = '<div class="empty">Nothing matches that.</div>';
 }
 
+/* ---------- the Verbs tab ---------- */
+function renderVerbs(){
+  const box = $('vList'), count = $('vCount');
+  if(!CONJ){
+    count.textContent = '';
+    box.innerHTML = '<p class="packnote">Loading the tables…</p>';
+    loadExtra().then(renderVerbs);
+    return;
+  }
+  const gloss = {};
+  for(const r of DATA) if(!(r.v in gloss)) gloss[r.v] = r.ve;
+  const q = ($('vSearch').value || '').trim().toLowerCase();
+  const verbs = Object.keys(CONJ).filter(v => {
+    if(!q) return true;
+    if((v + ' ' + (gloss[v] || '')).toLowerCase().includes(q)) return true;
+    // searching a conjugated form should find its verb: "tuve" -> tener
+    return CONJ[v].some(c => c.f.toLowerCase().includes(q));
+  });
+  count.textContent = `${verbs.length} of ${Object.keys(CONJ).length} verbs`;
+  const upto = LEVELS.indexOf(state.level);
+  const frag = document.createDocumentFragment();
+  for(const v of verbs){
+    const open = !!state.openVerbs[v];
+    const d = document.createElement('div');
+    let html = `<button class="pickrow" data-verb="${esc(v)}">` +
+      `<b>${esc(v)}<span>${esc(gloss[v] || '')}</span></b>` +
+      `<i>${open ? '▴' : '▾'}</i></button>`;
+    if(open){
+      html += '<div class="conjpanel">';
+      for(const c of CONJ[v]){
+        if(LEVELS.indexOf(c.lv) > upto) continue;
+        html += `<div class="conjrow" data-form="${esc(c.f)}">` +
+          `<div class="lbl">${esc(c.l)}</div><div class="frm">${esc(c.f)}</div>` +
+          `<div class="pr">${esc(c.p)}</div><div class="en">${esc(c.e)}</div>` +
+          (c.n ? `<div class="nt">${esc(c.n)}</div>` : '') + '</div>';
+      }
+      html += '<div class="conjmore">' + LEVELS.map(l =>
+        `<button data-level="${l}" aria-pressed="${l === state.level}">` +
+        (l === 'A1' ? 'A1 only' : 'show ' + l) + '</button>').join('') + '</div></div>';
+    }
+    d.innerHTML = html;
+    frag.appendChild(d);
+  }
+  box.innerHTML = '';
+  box.appendChild(frag);
+  box.querySelectorAll('[data-verb]').forEach(b => {
+    b.onclick = () => {
+      const v = b.dataset.verb;
+      state.openVerbs[v] = !state.openVerbs[v];
+      save(); renderVerbs();
+    };
+  });
+  box.querySelectorAll('[data-level]').forEach(b => {
+    b.onclick = () => { state.level = b.dataset.level; save(); renderVerbs(); };
+  });
+  box.querySelectorAll('.conjrow').forEach(d => {
+    d.onclick = () => speak(d.dataset.form, null);
+  });
+}
+
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 
 /* ---------- export ---------- */
@@ -756,11 +1145,16 @@ document.querySelectorAll('.tab').forEach(t=>{
     document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected','false'));
     t.setAttribute('aria-selected','true');
     state.mode = t.dataset.mode;
-    const deck = state.mode === 'deck', basics = state.mode === 'basics';
-    $('studyView').style.display = (deck || basics) ? 'none' : '';
+    const deck = state.mode === 'deck', basics = state.mode === 'basics',
+          verbs = state.mode === 'verbs';
+    $('studyView').style.display = (deck || basics || verbs) ? 'none' : '';
     $('tableView').style.display = deck ? '' : 'none';
     $('basicsView').style.display = basics ? '' : 'none';
-    if(deck) renderTable(); else if(basics) renderBasics(); else render();
+    $('verbsView').style.display = verbs ? '' : 'none';
+    if(deck) renderTable();
+    else if(basics) renderBasics();
+    else if(verbs) renderVerbs();
+    else render();
     save();
   };
 });
@@ -814,7 +1208,8 @@ $('chunkVal').textContent = String(state.chunkSize);
 $('exportBtn').onclick = exportCSV;
 $('resetBtn').onclick = () => {
   if(confirm('Clear all progress marks and settings on this device?')){
-    state.marks = {}; state.idx = 0; state.chunk = 0; save(); render();
+    state.marks = {}; state.idx = 0; state.group = ''; save();
+    buildChunkSel(); render();
   }
 };
 $('themeBtn').onclick = () => {
@@ -823,8 +1218,33 @@ $('themeBtn').onclick = () => {
 };
 document.documentElement.setAttribute('data-theme', state.theme);
 
+$('groupBtn').onclick = openPicker;
+$('pickSheet').onclick = e => { if(e.target.id === 'pickSheet') e.currentTarget.classList.remove('open'); };
+$('pickSearch').oninput = renderPicker;
+document.querySelectorAll('.seg').forEach(b => {
+  b.onclick = () => {
+    state.view = b.dataset.view;
+    // the group key only means something inside one view, so reset it
+    state.group = (GROUPS[state.view][0] || {}).key || '';
+    state.idx = 0;
+    $('pickSearch').value = '';     // a filter from the other view is noise here
+    renderPicker();
+    buildChunkSel();
+    render();
+    if(state.mode === 'deck') renderTable();
+    save();
+  };
+});
+$('conjBtn').onclick = () => {
+  state.conjOpen = !state.conjOpen;
+  save();
+  if(state.conjOpen && !CONJ) loadExtra().then(() => render());
+  render();
+};
+
 document.addEventListener('keydown', e=>{
-  if(state.mode==='deck' || state.mode==='basics' || e.target.tagName==='INPUT') return;
+  if(state.mode==='deck' || state.mode==='basics' || state.mode==='verbs' ||
+     e.target.tagName==='INPUT') return;
   if(e.key==='ArrowRight'){ stopAuto(); go(1); }
   if(e.key==='ArrowLeft'){ stopAuto(); go(-1); }
   if(e.key===' '){ e.preventDefault(); $('card').click(); }
@@ -849,9 +1269,15 @@ if('serviceWorker' in navigator){
   });
 }
 loadPacks();
+$('vSearch').oninput = renderVerbs;
 
+buildGroups();
+if(!state.group || !activeGroups().some(g => g.key === state.group))
+  state.group = (activeGroups()[0] || {}).key || '';
 buildChunkSel();
 document.querySelector(`.tab[data-mode="${state.mode}"]`)?.click();
+// the sideways row and the form panel both need these; fetch them quietly
+loadExtra().then(() => { if(state.mode === 'listen' || state.mode === 'recall') render(); });
 render();
 </script>
 </body>

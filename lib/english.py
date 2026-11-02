@@ -144,6 +144,16 @@ def participle(base):
     return past(base)
 
 
+# "I be" is not English. Only `be` has distinct person forms in the present,
+# and it is the gloss of ser, estar, and every "to be able/worth/born" phrase,
+# so it is worth the special case.
+BE = {'1s': 'am', '2s': 'are', '1p': 'are', '3p': 'are'}
+
+
+def person(base, slot):
+    return BE[slot] if base == 'be' else base
+
+
 def parts(verb_en):
     """-> dict of the forms needed to gloss a conjugation table."""
     base, rest = split_gloss(verb_en)
@@ -152,4 +162,6 @@ def parts(verb_en):
     tail = (' ' + rest) if rest else ''
     return {'base': base + tail, 'third': third(base) + tail,
             'ing': ing(base) + tail, 'past': past(base) + tail,
-            'part': participle(base) + tail}
+            'part': participle(base) + tail,
+            'p1s': person(base, '1s') + tail, 'p2s': person(base, '2s') + tail,
+            'p1p': person(base, '1p') + tail, 'p3p': person(base, '3p') + tail}

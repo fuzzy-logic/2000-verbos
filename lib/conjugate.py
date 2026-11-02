@@ -16,12 +16,12 @@ UNACCENT = {v: k for k, v in ACCENT.items()}
 
 # Slot -> (level, label, english template). Order here is display order.
 SLOTS = [
-    ('pres-1s',     'A1', 'yo',                 'I {base}'),
-    ('pres-2s',     'A1', 'vos',                'you {base}'),
-    ('pres-2s-tu',  'A1', 'tú',                 'you {base}'),
+    ('pres-1s',     'A1', 'yo',                 'I {p1s}'),
+    ('pres-2s',     'A1', 'vos',                'you {p2s}'),
+    ('pres-2s-tu',  'A1', 'tú',                 'you {p2s}'),
     ('pres-3s',     'A1', 'usted / él / ella',  'you / he / she {third}'),
-    ('pres-1p',     'A1', 'nosotros',           'we {base}'),
-    ('pres-3p',     'A1', 'ustedes / ellos',    'you all / they {base}'),
+    ('pres-1p',     'A1', 'nosotros',           'we {p1p}'),
+    ('pres-3p',     'A1', 'ustedes / ellos',    'you all / they {p3p}'),
     ('cmd-vos',     'A1', 'command (vos)',      '{base}!'),
     ('going-1s',    'A1', 'going to',           "I'm going to {base}"),
     ('ger',         'A1', '-ing',               '{ing}'),
@@ -31,7 +31,7 @@ SLOTS = [
     ('cmd-vos-neg', 'A2', 'negative command',   "don't {base}"),
     ('fut-1s',      'B1', 'future (yo)',        'I will {base}'),
     ('cond-1s',     'B1', 'conditional (yo)',   'I would {base}'),
-    ('subj-1s',     'B1', 'subjunctive (yo)',   '(that) I {base}'),
+    ('subj-1s',     'B1', 'subjunctive (yo)',   '(that) I {p1s}'),
 ]
 LEVELS = ['A1', 'A2', 'B1']          # B2/C1 slots reserved, not yet filled
 
