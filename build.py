@@ -29,6 +29,8 @@ for path in sorted(glob.glob(os.path.join(ROOT, 'data', 'verbs_*.tsv'))):
                 'tp': (r.get('topic') or '').strip(),
                 'f': (r.get('form') or '').strip(),
                 'vt': (r.get('verb_token') or '').strip(),
+                'sq': 0,
+                'k': str(rank),
             })
 
 # Catch stray characters that aren't Spanish or English - a typo like "Llena"
@@ -49,7 +51,37 @@ for r in rows:
     if 'not a verb' in r['n'].lower():
         sys.exit(f"rank {r['r']} ({r['v']}): note says it isn't a verb - replace the row")
 
-rows.sort(key=lambda x: x['r'])
+# ---- extra sentences: more forms of the top verbs ----
+# They inherit their verb's rank, topic and gloss, and sit directly after it
+# inside whichever group is open, so a verb and its other tenses stay together.
+XPATH = os.path.join(ROOT, 'data', 'sentences_extra.tsv')
+extra_n = 0
+if os.path.exists(XPATH):
+    base = {}
+    for r in rows:
+        base.setdefault(r['v'], r)
+    seq = {}
+    with open(XPATH, encoding='utf-8') as fh:
+        for i, r in enumerate(csv.DictReader(fh, delimiter='\t'), start=2):
+            verb = r['verb'].strip()
+            b = base.get(verb)
+            if not b:
+                sys.exit(f'sentences_extra.tsv:{i}: {verb!r} is not in the corpus')
+            for col in ('form', 'sentence_es', 'sentence_en'):
+                if not (r.get(col) or '').strip():
+                    sys.exit(f'sentences_extra.tsv:{i}: empty {col} for {verb}')
+            seq[verb] = seq.get(verb, 0) + 1
+            rows.append({
+                'r': b['r'], 'v': verb, 've': b['ve'],
+                's': r['sentence_es'].strip(), 't': r['sentence_en'].strip(),
+                'n': (r.get('note') or '').strip(),
+                'tp': b['tp'], 'f': r['form'].strip(),
+                'vt': (r.get('verb_token') or '').strip(),
+                'sq': seq[verb], 'k': f"{b['r']}x{seq[verb]}",
+            })
+            extra_n += 1
+
+rows.sort(key=lambda x: (x['r'], x['sq']))
 
 # ---- topics (the Deck's by-topic view) ----
 TDIR_T = os.path.join(ROOT, 'data', 'topics')
@@ -224,7 +256,7 @@ lemmas = {}
 for r in rows:
     lemmas.setdefault(r['v'].lower(), []).append(r['r'])
 repeats = {k: v for k, v in lemmas.items() if len(v) > 1}
-print(f"{len(rows)} sentences -> dist/index.html ({os.path.getsize(dest)/1024:.0f} KB), build {build_id}")
+print(f"{len(rows)} sentences ({extra_n} extra forms) -> dist/index.html ({os.path.getsize(dest)/1024:.0f} KB), build {build_id}")
 if tables:
     print(f"{len(tables)} reference tables, "
           f"{sum(len(t['rows']) for t in tables)} rows")

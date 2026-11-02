@@ -1,0 +1,767 @@
+verb	form	sentence_es	sentence_en	note	verb_token
+ser	pres-2s	¿Vos sos de acá o viniste de afuera?	Are you from here or did you come from abroad?		sos
+ser	pret-1s	Fui profesor antes de venirme.	I was a teacher before I came over.		fui
+ser	imperf-1s	De chico era bastante tímido.	As a kid I was quite shy.		era
+ser	cmd-vos	Sé paciente, el trámite tarda.	Be patient, the paperwork takes a while.	sé is the only irregular vos command	sé
+ser	perf-1s	Siempre he sido así, no cambio más.	I've always been like this, I won't change now.		sido
+haber	imperf-3s	Había mucha gente en la terminal.	There were a lot of people at the terminal.	"había, never habían, for ""there were"""	había
+haber	pret-3s	Hubo un corte de luz toda la tarde.	There was a power cut all afternoon.		hubo
+haber	inf	Va a haber tormenta esta noche.	There's going to be a storm tonight.	va a haber, never van a haber	haber
+estar	pres-2s	¿Dónde estás? Te espero en la esquina.	Where are you? I'm waiting on the corner.		estás
+estar	pret-1s	Estuve dos semanas en Encarnación.	I was in Encarnación for two weeks.		estuve
+estar	imperf-1s	Estaba por salir cuando llamaste.	I was about to leave when you called.	estar por = to be about to	estaba
+estar	cmd-vos	Está tranquilo, ya va a llegar.	Take it easy, it'll get here.		está
+estar	perf-1s	Nunca he estado en el Chaco.	I've never been to the Chaco.		estado
+tener	pres-1s	Tengo que irme, ya es tarde.	I have to go, it's late already.	tener que = to have to	tengo
+tener	pret-1s	Ayer tuve un problema con la moto.	Yesterday I had a problem with the moto.		tuve
+tener	imperf-1s	Antes tenía otro teléfono.	I used to have a different phone.		tenía
+tener	cmd-vos	Tené cuidado con el perro.	Be careful of the dog.		tené
+tener	perf-1s	Nunca he tenido dengue, por suerte.	I've never had dengue, luckily.		tenido
+hacer	pres-1s	Hago lo que puedo con mi español.	I do what I can with my Spanish.		hago
+hacer	pres-2s	¿Qué hacés el fin de semana?	What are you doing at the weekend?		hacés
+hacer	pret-1s	Hice el trámite y salió rápido.	I did the paperwork and it came out quickly.		hice
+hacer	imperf-1s	Hacía frío cuando llegué.	It was cold when I arrived.	weather uses hacer impersonally	hacía
+hacer	cmd-vos	Hacé de cuenta que no pasó nada.	Pretend nothing happened.	hacé de cuenta = pretend	hacé
+hacer	perf-1s	He hecho todo lo que me pediste.	I've done everything you asked me.		hecho
+poder	pres-1s	No puedo ahora, estoy ocupado.	I can't right now, I'm busy.		puedo
+poder	pret-1s	No pude venir, perdoname.	I couldn't come, forgive me.		pude
+poder	imperf-1s	No podía dormir con ese calor.	I couldn't sleep in that heat.		podía
+poder	perf-1s	No he podido encontrar la dirección.	I haven't been able to find the address.		podido
+decir	pres-1s	Te digo la verdad, no sabía.	I'm telling you the truth, I didn't know.		digo
+decir	pres-2s	¿Vos qué decís de todo esto?	What do you make of all this?		decís
+decir	pret-1s	Le dije que venía más tarde.	I told them I was coming later.		dije
+decir	imperf-1s	Siempre decía que iba a volver.	He always said he was going to come back.		decía
+decir	cmd-vos	Decime la verdad, nomás.	Just tell me the truth.	decime = decí + me	decime
+decir	perf-1s	No he dicho nada a nadie.	I haven't said anything to anyone.		dicho
+ir	pres-2s	¿Vas al centro? Te acompaño.	Are you going downtown? I'll come with you.		vas
+ir	pret-1s	Fui al mercado temprano.	I went to the market early.		fui
+ir	imperf-1s	Iba todos los días a la misma panadería.	I used to go to the same bakery every day.		iba
+ir	cmd-vos	Andá tranquilo, yo cierro.	Go ahead, I'll lock up.	the vos command of ir is andá	andá
+ir	perf-1s	Todavía no he ido a Ciudad del Este.	I still haven't been to Ciudad del Este.		ido
+ver	pres-2s	¿Ves aquel edificio verde?	Do you see that green building?		ves
+ver	pret-1s	Vi a tu hermano en la plaza.	I saw your brother in the square.		vi
+ver	imperf-1s	Antes veía más televisión.	I used to watch more television.		veía
+ver	perf-1s	Nunca he visto llover así.	I've never seen it rain like that.		visto
+dar	pres-1s	Te doy mi número por las dudas.	I'll give you my number just in case.	por las dudas = just in case	doy
+dar	pret-1s	Le di la plata al casero.	I gave the money to the landlord.		di
+dar	imperf-1s	Me daba vergüenza hablar.	I was embarrassed to speak.	dar vergüenza = to embarrass	daba
+dar	cmd-vos	Dame una mano con esto.	Give me a hand with this.	dame = dá + me	dame
+dar	perf-1s	Ya he dado todo lo que tenía.	I've already given everything I had.		dado
+saber	pres-2s	¿Sabés dónde queda la farmacia?	Do you know where the pharmacy is?		sabés
+saber	pret-1s	Recién supe lo que pasó.	I only just found out what happened.	"in the preterite saber means ""found out"""	supe
+saber	imperf-1s	No sabía que era feriado.	I didn't know it was a holiday.		sabía
+saber	cmd-vos	Sabé que acá siempre tenés lugar.	Know that you always have a place here.		sabé
+saber	perf-1s	Nunca he sabido explicarlo bien.	I've never known how to explain it well.		sabido
+querer	pres-2s	¿Querés tomar un tereré?	Do you want to drink some tereré?		querés
+querer	pret-1s	Quise avisarte pero no había señal.	I tried to let you know but there was no signal.	"in the preterite querer means ""tried"""	quise
+querer	imperf-1s	Quería preguntarte una cosa.	I wanted to ask you something.	the imperfect is the polite one	quería
+querer	cmd-vos	Quereme un poco, nomás.	Love me a little, that's all.		quereme
+querer	perf-1s	Siempre he querido aprender guaraní.	I've always wanted to learn Guaraní.		querido
+llegar	pres-1s	Llego en diez minutos.	I'll be there in ten minutes.	the present often covers the near future	llego
+llegar	pres-2s	¿A qué hora llegás?	What time do you get in?		llegás
+llegar	pret-1s	Llegué tarde por el tráfico.	I arrived late because of the traffic.		llegué
+llegar	imperf-1s	Siempre llegaba primero a la oficina.	I always used to get to the office first.		llegaba
+llegar	cmd-vos	Llegá temprano que hay cola.	Get there early, there's a queue.		llegá
+llegar	perf-1s	He llegado a conocer bien el barrio.	I've come to know the neighbourhood well.	llegar a + infinitive = to come to	llegado
+pasar	pres-1s	Paso por tu casa a la tarde.	I'll come by your place in the afternoon.	pasar por = to drop by	paso
+pasar	pres-2s	¿Pasás por el centro hoy?	Are you going through town today?		pasás
+pasar	pret-1s	Pasé toda la mañana en la fila.	I spent the whole morning in the queue.		pasé
+pasar	imperf-1s	Pasaba las tardes leyendo.	I used to spend the afternoons reading.		pasaba
+pasar	cmd-vos	Pasá, no te quedes en la puerta.	Come in, don't stand in the doorway.		pasá
+pasar	perf-1s	He pasado por eso también.	I've been through that too.		pasado
+deber	pres-2s	Debés avisar con un día de anticipación.	You must give a day's notice.		debés
+deber	pret-1s	Debí preguntar antes de firmar.	I should have asked before signing.		debí
+deber	imperf-1s	Debía plata y la pagué toda.	I owed money and I paid it all.		debía
+deber	perf-1s	He debido aprender a esperar.	I've had to learn to wait.		debido
+poner	pres-1s	Pongo la pava y charlamos.	I'll put the kettle on and we'll chat.		pongo
+poner	pres-2s	¿Dónde ponés las llaves?	Where do you put the keys?		ponés
+poner	pret-1s	Puse la plata en la mesa.	I put the money on the table.		puse
+poner	imperf-1s	Me ponía nervioso hablar por teléfono.	Talking on the phone made me nervous.	ponerse = to become	ponía
+poner	perf-1s	He puesto todo en una caja.	I've put everything in one box.		puesto
+parecer	pres-1s	Parezco más joven de lo que soy.	I look younger than I am.		parezco
+parecer	pres-2s	Te parecés mucho a tu hermano.	You look a lot like your brother.	parecerse a = to look like	parecés
+parecer	pret-1s	Parecí tranquilo pero estaba nervioso.	I seemed calm but I was nervous.		parecí
+parecer	imperf-1s	Me parecía más lejos de lo que era.	It seemed further than it was.		parecía
+parecer	perf-1s	Siempre me ha parecido injusto.	It's always seemed unfair to me.		parecido
+quedar	pres-1s	Quedo en el centro hasta las seis.	I'll be downtown until six.		quedo
+quedar	pres-2s	¿Dónde quedás vos? Te paso a buscar.	Where are you staying? I'll pick you up.		quedás
+quedar	pret-1s	Quedé en verlo el lunes.	I agreed to see him on Monday.	quedar en = to agree to	quedé
+quedar	imperf-1s	Me quedaba sin plata a fin de mes.	I used to run out of money at the end of the month.		quedaba
+quedar	cmd-vos	Quedate un rato más.	Stay a bit longer.	quedate = quedá + te	quedate
+quedar	perf-1s	Me he quedado sin saldo.	I've run out of credit.		quedado
+creer	pres-2s	¿Creés que va a llover?	Do you think it's going to rain?		creés
+creer	pret-1s	Creí que era feriado.	I thought it was a holiday.		creí
+creer	imperf-1s	Creía que hablabas guaraní.	I thought you spoke Guaraní.		creía
+creer	cmd-vos	Creeme que no fue a propósito.	Believe me, it wasn't on purpose.		creeme
+creer	perf-1s	Siempre he creído en eso.	I've always believed in that.		creído
+hablar	pres-2s	¿Hablás guaraní o solo español?	Do you speak Guaraní or only Spanish?		hablás
+hablar	pret-1s	Hablé con el dueño ayer.	I spoke to the owner yesterday.		hablé
+hablar	imperf-1s	Hablaba muy poco cuando llegué.	I spoke very little when I arrived.		hablaba
+hablar	cmd-vos	Hablá más despacio, por favor.	Speak more slowly, please.		hablá
+hablar	perf-1s	He hablado con todo el mundo acá.	I've spoken to everybody here.		hablado
+llevar	pres-1s	Llevo dos meses en Asunción.	I've been in Asunción for two months.	llevar + time = to have been	llevo
+llevar	pret-1s	Llevé el auto al taller.	I took the car to the garage.		llevé
+llevar	imperf-1s	Llevaba siempre un paraguas.	I always used to carry an umbrella.		llevaba
+llevar	cmd-vos	Llevá esto a la cocina.	Take this to the kitchen.		llevá
+llevar	perf-1s	He llevado a mis hijos a la escuela.	I've taken my children to school.		llevado
+dejar	pres-1s	Dejo las llaves abajo.	I'll leave the keys downstairs.		dejo
+dejar	pres-2s	¿Me dejás pasar un segundo?	Will you let me through for a second?		dejás
+dejar	pret-1s	Dejé de fumar hace un año.	I gave up smoking a year ago.	dejar de = to stop doing	dejé
+dejar	imperf-1s	Dejaba la puerta abierta siempre.	I always used to leave the door open.		dejaba
+dejar	perf-1s	He dejado todo listo.	I've left everything ready.		dejado
+seguir	pres-1s	Sigo estudiando todas las noches.	I keep studying every night.	seguir + gerund = to keep doing	sigo
+seguir	pres-2s	¿Seguís viviendo en el mismo lugar?	Are you still living in the same place?		seguís
+seguir	pret-1s	Seguí el consejo y salió bien.	I followed the advice and it worked out.		seguí
+seguir	imperf-1s	Seguía sin entender el acento.	I still couldn't understand the accent.		seguía
+seguir	perf-1s	He seguido tu consejo al pie de la letra.	I've followed your advice to the letter.		seguido
+encontrar	pres-1s	No encuentro las llaves.	I can't find the keys.		encuentro
+encontrar	pres-2s	¿Encontrás todo bien?	Are you finding everything all right?		encontrás
+encontrar	imperf-1s	No encontraba la calle en el mapa.	I couldn't find the street on the map.		encontraba
+encontrar	cmd-vos	Encontrame en la esquina.	Meet me on the corner.		encontrame
+encontrar	perf-1s	He encontrado un lugar bárbaro.	I've found a great place.	bárbaro = great, very Rioplatense	encontrado
+llamar	pres-2s	¿Cómo te llamás?	What's your name?	"llamarse, literally ""to call oneself"""	llamás
+llamar	pret-1s	Llamé tres veces y no atendió.	I called three times and he didn't pick up.		llamé
+llamar	imperf-1s	Me llamaba todos los domingos.	He used to call me every Sunday.		llamaba
+llamar	cmd-vos	Llamame cuando llegues.	Call me when you get there.		llamame
+llamar	perf-1s	He llamado pero no hay señal.	I've called but there's no signal.		llamado
+venir	pres-1s	Vengo de la oficina, estoy muerto.	I'm coming from the office, I'm shattered.		vengo
+venir	pret-1s	Vine en colectivo, salió más barato.	I came by bus, it was cheaper.		vine
+venir	imperf-1s	Venía caminando cuando empezó a llover.	I was walking over when it started to rain.		venía
+venir	cmd-vos	Vení un ratito, te muestro algo.	Come over for a bit, I'll show you something.	vení is the single most useful vos command	vení
+venir	perf-1s	He venido tres veces y nunca está.	I've come three times and he's never in.		venido
+pensar	pres-2s	¿Qué pensás de la idea?	What do you think of the idea?		pensás
+pensar	pret-1s	Pensé que era más lejos.	I thought it was further.		pensé
+pensar	imperf-1s	Pensaba quedarme sólo un año.	I was planning to stay only a year.	pensar + infinitive = to plan to	pensaba
+pensar	cmd-vos	Pensá bien antes de firmar.	Think carefully before you sign.		pensá
+pensar	perf-1s	He pensado mucho en eso.	I've thought about it a lot.		pensado
+salir	pres-1s	Salgo a las siete de la mañana.	I leave at seven in the morning.		salgo
+salir	pres-2s	¿Salís esta noche?	Are you going out tonight?		salís
+salir	pret-1s	Salí temprano para evitar el tráfico.	I left early to avoid the traffic.		salí
+salir	imperf-1s	Salía a correr antes de que hiciera calor.	I used to go running before it got hot.		salía
+salir	cmd-vos	Salí por la otra puerta.	Go out the other door.		salí
+salir	perf-1s	He salido poco desde que llegué.	I haven't been out much since I arrived.		salido
+volver	pres-2s	¿Cuándo volvés a Paraguay?	When are you coming back to Paraguay?		volvés
+volver	pret-1s	Volví a las dos de la mañana.	I got back at two in the morning.		volví
+volver	imperf-1s	Volvía siempre por el mismo camino.	I always used to come back the same way.		volvía
+volver	cmd-vos	Volvé cuando quieras.	Come back whenever you like.		volvé
+volver	perf-1s	He vuelto a empezar de cero.	I've started again from scratch.	volver a + infinitive = to do again	vuelto
+tomar	pres-1s	Tomo tereré todas las mañanas.	I drink tereré every morning.		tomo
+tomar	pres-2s	¿Tomás mate o tereré?	Do you drink mate or tereré?	mate is hot, tereré is cold	tomás
+tomar	pret-1s	Tomé el colectivo equivocado.	I took the wrong bus.		tomé
+tomar	imperf-1s	Tomaba café antes, ahora tereré.	I used to drink coffee, now it's tereré.		tomaba
+tomar	cmd-vos	Tomá, es para vos.	Here, it's for you.	"tomá also means ""here you are"""	tomá
+tomar	perf-1s	He tomado mucho sol hoy.	I've had too much sun today.		tomado
+conocer	pres-1s	Conozco un lugar bueno y barato.	I know a place that's good and cheap.		conozco
+conocer	imperf-1s	No conocía a nadie cuando llegué.	I didn't know anybody when I arrived.		conocía
+conocer	cmd-vos	Conocé el centro antes de opinar.	Get to know the centre before you judge.		conocé
+conocer	perf-1s	He conocido gente muy amable acá.	I've met very kind people here.		conocido
+vivir	pres-2s	¿Hace cuánto vivís acá?	How long have you been living here?	hace cuánto + present	vivís
+vivir	pret-1s	Viví dos años en Inglaterra.	I lived in England for two years.		viví
+vivir	imperf-1s	Vivía solo antes de casarme.	I lived alone before I got married.		vivía
+vivir	cmd-vos	Viví el momento, nomás.	Just live in the moment.		viví
+vivir	perf-1s	He vivido en tres países.	I've lived in three countries.		vivido
+sentir	pres-2s	¿Sentís el calor o soy yo?	Do you feel the heat or is it just me?		sentís
+sentir	pret-1s	Sentí un dolor raro en la espalda.	I felt a strange pain in my back.		sentí
+sentir	imperf-1s	Me sentía incómodo hablando español.	I used to feel awkward speaking Spanish.		sentía
+sentir	cmd-vos	Sentate y sentí la diferencia.	Sit down and feel the difference.		sentí
+sentir	perf-1s	Nunca me he sentido tan bienvenido.	I've never felt so welcome.		sentido
+tratar	pres-2s	¿Tratás de hablar en español siempre?	Do you try to speak Spanish all the time?	tratar de = to try to	tratás
+tratar	pret-1s	Traté de explicarlo pero no me entendió.	I tried to explain it but he didn't understand me.		traté
+tratar	imperf-1s	Trataba de estudiar una hora por día.	I used to try to study an hour a day.		trataba
+tratar	cmd-vos	Tratá de llegar antes de las ocho.	Try to get there before eight.		tratá
+tratar	perf-1s	He tratado de todo y nada funciona.	I've tried everything and nothing works.		tratado
+mirar	pres-1s	Miro series en español para practicar.	I watch series in Spanish to practise.		miro
+mirar	pres-2s	¿Mirás el partido esta noche?	Are you watching the match tonight?		mirás
+mirar	pret-1s	Miré el precio y me fui.	I looked at the price and left.		miré
+mirar	imperf-1s	Miraba por la ventana todo el viaje.	I looked out of the window the whole trip.		miraba
+mirar	perf-1s	He mirado en todos lados.	I've looked everywhere.		mirado
+contar	pres-1s	Te cuento lo que pasó.	Let me tell you what happened.	contar = both to count and to tell	cuento
+contar	pres-2s	¿Me contás cómo llegar?	Will you tell me how to get there?		contás
+contar	imperf-1s	Mi abuela contaba historias en guaraní.	My grandmother used to tell stories in Guaraní.		contaba
+contar	perf-1s	Ya te he contado esa historia.	I've already told you that story.		contado
+empezar	pres-1s	Empiezo a entender el acento.	I'm starting to understand the accent.	empezar a + infinitive	empiezo
+empezar	pres-2s	¿A qué hora empezás a trabajar?	What time do you start work?		empezás
+empezar	pret-1s	Empecé a estudiar en enero.	I started studying in January.	empecé: z becomes c before e	empecé
+empezar	imperf-1s	Empezaba a acostumbrarme al calor.	I was starting to get used to the heat.		empezaba
+empezar	cmd-vos	Empezá por lo más fácil.	Start with the easiest thing.		empezá
+empezar	perf-1s	He empezado de nuevo varias veces.	I've started over several times.		empezado
+esperar	pres-2s	¿Esperás a alguien?	Are you waiting for someone?		esperás
+esperar	pret-1s	Esperé media hora y no vino.	I waited half an hour and he didn't come.		esperé
+esperar	imperf-1s	Esperaba que fuera más fácil.	I was hoping it would be easier.	esperar = both to wait and to hope	esperaba
+esperar	perf-1s	He esperado este momento mucho tiempo.	I've waited a long time for this.		esperado
+buscar	pres-1s	Busco un departamento cerca del centro.	I'm looking for a flat near the centre.		busco
+buscar	pres-2s	¿Qué buscás? Capaz te ayudo.	What are you looking for? Maybe I can help.	capaz = maybe, very Rioplatense	buscás
+buscar	pret-1s	Busqué por todos lados y nada.	I looked everywhere and nothing.	busqué: c becomes qu before e	busqué
+buscar	imperf-1s	Buscaba trabajo cuando lo conocí.	I was looking for work when I met him.		buscaba
+buscar	cmd-vos	Buscá en el cajón de abajo.	Look in the bottom drawer.		buscá
+buscar	perf-1s	He buscado esa palabra tres veces.	I've looked that word up three times.		buscado
+existir	pret-3s	Existió un mercado acá hace años.	There was a market here years ago.		existió
+existir	imperf-3s	Existía otra forma de hacerlo.	There used to be another way of doing it.		existía
+existir	pres-3p	Existen dos idiomas oficiales acá.	There are two official languages here.	Spanish and Guaraní	existen
+entrar	pres-1s	Entro a las ocho todos los días.	I start at eight every day.	entrar a = to start work	entro
+entrar	pres-2s	¿Entrás o te quedás afuera?	Are you coming in or staying outside?		entrás
+entrar	pret-1s	Entré sin tocar, perdón.	I came in without knocking, sorry.		entré
+entrar	imperf-1s	Entraba por atrás para no molestar.	I used to come in the back so as not to disturb.		entraba
+entrar	perf-1s	Nunca he entrado a esa iglesia.	I've never been inside that church.		entrado
+trabajar	pres-2s	¿En qué trabajás?	What do you do for a living?		trabajás
+trabajar	pret-1s	Trabajé doce horas ayer.	I worked twelve hours yesterday.		trabajé
+trabajar	imperf-1s	Trabajaba de noche antes.	I used to work nights.	trabajar de = to work as	trabajaba
+trabajar	cmd-vos	Trabajá tranquilo, hay tiempo.	Take your time with it, there's no rush.		trabajá
+trabajar	perf-1s	He trabajado en esto toda la semana.	I've worked on this all week.		trabajado
+escribir	pres-1s	Escribo todo en un cuaderno.	I write everything in a notebook.		escribo
+escribir	pres-2s	¿Me escribís la dirección?	Will you write the address down for me?		escribís
+escribir	pret-1s	Le escribí pero no contestó.	I wrote to him but he didn't reply.		escribí
+escribir	imperf-1s	Escribía cartas a mano antes.	I used to write letters by hand.		escribía
+escribir	perf-1s	He escrito mi nombre mal otra vez.	I've written my name wrong again.	escrito, not escribido	escrito
+perder	pres-1s	Pierdo el colectivo todos los lunes.	I miss the bus every Monday.	perder also means to miss a bus	pierdo
+perder	pres-2s	¿Perdés mucho tiempo en el tráfico?	Do you lose much time in the traffic?		perdés
+perder	imperf-1s	Perdía las llaves constantemente.	I used to lose my keys constantly.		perdía
+perder	cmd-vos	Perdé el miedo y hablá nomás.	Lose your fear and just speak.	nomás softens it, very Paraguayan	perdé
+perder	perf-1s	He perdido el documento otra vez.	I've lost the document again.		perdido
+producir	pres-1s	Produzco más en la mañana.	I get more done in the morning.		produzco
+producir	pret-3s	Produjo un cambio grande en el barrio.	It brought about a big change in the neighbourhood.	produjo, not produció	produjo
+producir	imperf-3s	Producía soja en el campo.	He used to grow soya on the land.		producía
+ocurrir	pres-3s	Eso ocurre bastante seguido acá.	That happens fairly often here.		ocurre
+ocurrir	imperf-3s	Ocurría lo mismo todos los veranos.	The same thing used to happen every summer.		ocurría
+ocurrir	perf-1s	Se me ha ocurrido una idea.	I've had an idea.	ocurrírsele a alguien = to occur to someone	ocurrido
+entender	pres-2s	¿Entendés lo que digo?	Do you understand what I'm saying?		entendés
+entender	pret-1s	No entendí nada la primera vez.	I didn't understand a thing the first time.		entendí
+entender	imperf-1s	No entendía el acento paraguayo.	I didn't understand the Paraguayan accent.		entendía
+entender	cmd-vos	Entendé que no es personal.	Understand that it isn't personal.		entendé
+entender	perf-1s	Recién he entendido el chiste.	I've only just got the joke.		entendido
+pedir	pres-1s	Pido siempre lo mismo.	I always order the same thing.		pido
+pedir	pres-2s	¿Qué pedís vos?	What are you having?		pedís
+pedir	pret-1s	Pedí una empanada y me trajeron dos.	I ordered one empanada and they brought two.		pedí
+pedir	imperf-1s	Pedía ayuda a cada rato al principio.	I asked for help constantly at the start.		pedía
+pedir	perf-1s	He pedido el certificado dos veces.	I've asked for the certificate twice.		pedido
+recibir	pres-1s	Recibo el sueldo el día cinco.	I get paid on the fifth.		recibo
+recibir	pres-2s	¿Recibís mensajes míos?	Are you getting my messages?		recibís
+recibir	pret-1s	Recibí la encomienda ayer.	I got the parcel yesterday.	encomienda = parcel	recibí
+recibir	imperf-1s	Recibía visitas todos los domingos.	I used to have visitors every Sunday.		recibía
+recibir	perf-1s	No he recibido nada todavía.	I haven't received anything yet.		recibido
+recordar	pres-2s	¿Recordás dónde lo dejamos?	Do you remember where we left it?	acordarse is far more common in speech	recordás
+recordar	pret-1s	Recordé la contraseña justo a tiempo.	I remembered the password just in time.		recordé
+recordar	imperf-1s	No recordaba su nombre.	I couldn't remember his name.		recordaba
+recordar	cmd-vos	Recordá llevar el documento.	Remember to take your ID.		recordá
+recordar	perf-1s	He recordado algo importante.	I've remembered something important.		recordado
+terminar	pres-2s	¿A qué hora terminás hoy?	What time do you finish today?		terminás
+terminar	pret-1s	Terminé el trámite por fin.	I finally finished the paperwork.		terminé
+terminar	imperf-1s	Terminaba siempre tarde los viernes.	I always used to finish late on Fridays.		terminaba
+terminar	cmd-vos	Terminá eso y vamos.	Finish that and let's go.		terminá
+terminar	perf-1s	He terminado por acostumbrarme.	I've ended up getting used to it.	terminar por = to end up	terminado
+permitir	pres-1s	Me permito una cerveza los sábados.	I allow myself one beer on Saturdays.		permito
+permitir	pres-2s	¿Me permitís pasar?	May I come past?	formal and polite	permitís
+permitir	pret-1s	No me permití bajar el ritmo.	I didn't let myself slow down.		permití
+permitir	imperf-3s	No permitía que nadie entrara.	He wouldn't let anyone in.		permitía
+permitir	perf-1s	Me he permitido un descanso.	I've allowed myself a break.		permitido
+aparecer	pres-1s	Aparezco por ahí a la tarde.	I'll turn up there in the afternoon.		aparezco
+aparecer	pres-2s	¿Aparecés mañana por la oficina?	Will you show up at the office tomorrow?		aparecés
+aparecer	imperf-3s	Aparecía siempre sin avisar.	He always used to turn up unannounced.		aparecía
+aparecer	cmd-vos	Aparecé temprano si podés.	Turn up early if you can.		aparecé
+aparecer	perf-1s	He aparecido en una foto del diario.	I've turned up in a newspaper photo.		aparecido
+conseguir	pres-2s	¿Dónde conseguís yerba buena?	Where do you get good yerba?		conseguís
+conseguir	pret-1s	Conseguí turno para el lunes.	I got an appointment for Monday.	turno = appointment	conseguí
+conseguir	imperf-1s	No conseguía que me entendieran.	I couldn't get them to understand me.		conseguía
+conseguir	cmd-vos	Conseguí el formulario primero.	Get the form first.		conseguí
+conseguir	perf-1s	He conseguido todo lo que necesitaba.	I've got everything I needed.		conseguido
+comenzar	pres-1s	Comienzo las clases el lunes.	I start classes on Monday.	empezar is far more common in speech	comienzo
+comenzar	pres-2s	¿Cuándo comenzás?	When do you start?		comenzás
+comenzar	pret-1s	Comencé con lo más difícil.	I started with the hardest part.	comencé: z becomes c	comencé
+comenzar	imperf-3s	Comenzaba a llover justo entonces.	It was just starting to rain then.		comenzaba
+comenzar	perf-1s	He comenzado a entender mejor.	I've begun to understand better.		comenzado
+servir	pres-1s	Te sirvo un poco más.	I'll serve you a bit more.		sirvo
+servir	pres-2s	¿Me servís un vaso de agua?	Will you pour me a glass of water?		servís
+servir	pret-1s	Serví el almuerzo a la una.	I served lunch at one.		serví
+servir	imperf-3s	No servía para nada ese aparato.	That gadget was useless.	no servir = to be useless	servía
+servir	cmd-vos	Servite vos primero.	Help yourself first.	servite = serví + te	servite
+servir	perf-1s	Me ha servido muchísimo ese consejo.	That advice has been really useful to me.		servido
+sacar	pres-1s	Saco plata del cajero de la esquina.	I take money out of the cashpoint on the corner.	cajero = cashpoint	saco
+sacar	pres-2s	¿Sacás vos las entradas?	Will you get the tickets?		sacás
+sacar	pret-1s	Saqué una foto del recibo.	I took a photo of the receipt.	saqué: c becomes qu	saqué
+sacar	imperf-1s	Sacaba la basura todas las noches.	I used to take the rubbish out every night.		sacaba
+sacar	perf-1s	He sacado el pasaje para el viernes.	I've bought the ticket for Friday.		sacado
+necesitar	pret-1s	Necesité ayuda con el formulario.	I needed help with the form.		necesité
+necesitar	imperf-1s	Necesitaba un garante para alquilar.	I needed a guarantor to rent.	garante = guarantor, you will meet this word	necesitaba
+necesitar	cmd-vos	Necesitá menos y vas a estar mejor.	Need less and you'll be better off.		necesitá
+necesitar	perf-1s	He necesitado paciencia más que nada.	What I've needed most is patience.		necesitado
+mantener	pres-1s	Mantengo la casa con lo que gano.	I keep the house going on what I earn.		mantengo
+mantener	pres-2s	¿Mantenés contacto con tu familia?	Do you keep in touch with your family?		mantenés
+mantener	pret-1s	Mantuve la calma como pude.	I kept calm as best I could.	mantuve, like tuve	mantuve
+mantener	imperf-1s	Mantenía dos trabajos al mismo tiempo.	I was holding down two jobs at once.		mantenía
+mantener	perf-1s	He mantenido la costumbre del tereré.	I've kept up the tereré habit.		mantenido
+resultar	pres-3s	Resulta que estaba cerrado.	It turns out it was closed.	resulta que = it turns out	resulta
+resultar	imperf-3s	Resultaba difícil entender el acento.	It was proving hard to understand the accent.		resultaba
+resultar	inf	Va a resultar más barato en efectivo.	It'll work out cheaper in cash.	efectivo = cash	resultar
+leer	pres-2s	¿Leés en español ya?	Do you read in Spanish yet?		leés
+leer	pret-1s	Leí el contrato dos veces.	I read the contract twice.		leí
+leer	imperf-1s	Leía el diario todas las mañanas.	I used to read the paper every morning.		leía
+leer	cmd-vos	Leé la letra chica antes de firmar.	Read the small print before you sign.		leé
+leer	perf-1s	He leído sólo la mitad.	I've only read half of it.	leído takes an accent	leído
+caer	pres-1s	Me caigo mal con ese calor.	That heat knocks me out.		caigo
+caer	pres-2s	¿Te caés bien con los vecinos?	Do you get on with the neighbours?	caer bien = to get on with	caés
+caer	pret-1s	Me caí en la vereda mojada.	I fell over on the wet pavement.	vereda = pavement	caí
+caer	imperf-1s	Me caía mal el agua de ahí.	The water there didn't agree with me.		caía
+caer	perf-1s	Recién he caído en la cuenta.	I've only just realised.	caer en la cuenta = to realise	caído
+cambiar	pres-1s	Cambio plata en la casa de cambio.	I change money at the bureau de change.		cambio
+cambiar	pres-2s	¿Cambiás de opinión siempre así?	Do you always change your mind like that?		cambiás
+cambiar	pret-1s	Cambié de barrio el mes pasado.	I moved neighbourhood last month.		cambié
+cambiar	imperf-1s	Cambiaba de trabajo cada dos años.	I used to change jobs every two years.		cambiaba
+cambiar	cmd-vos	Cambiá de tema, por favor.	Change the subject, please.		cambiá
+cambiar	perf-1s	He cambiado bastante desde que llegué.	I've changed a fair bit since I arrived.		cambiado
+presentar	pres-2s	¿Me presentás a tu amigo?	Will you introduce me to your friend?		presentás
+presentar	pret-1s	Presenté los papeles en migraciones.	I handed the papers in at immigration.	migraciones = immigration office	presenté
+presentar	imperf-1s	Presentaba el informe cada lunes.	I used to hand the report in every Monday.		presentaba
+presentar	cmd-vos	Presentá todo junto, es más rápido.	Hand it all in together, it's quicker.		presentá
+presentar	perf-1s	He presentado la solicitud ya.	I've already submitted the application.		presentado
+crear	pres-1s	Creo un grupo para organizarnos.	I'll set up a group so we can organise.	"careful: creo is also ""I believe"""	creo
+crear	pres-2s	¿Creás vos el documento o yo?	Will you create the document or shall I?		creás
+crear	pret-1s	Creé una cuenta nueva.	I created a new account.		creé
+crear	imperf-3s	Creaba problemas donde no había.	He used to create problems where there were none.		creaba
+crear	perf-1s	He creado una rutina que funciona.	I've built a routine that works.		creado
+abrir	pres-1s	Abro a las nueve todos los días.	I open at nine every day.		abro
+abrir	pres-2s	¿Abrís vos o abro yo?	Will you open it or shall I?		abro
+abrir	pret-1s	Abrí la cuenta en el banco de acá.	I opened the account at the local bank.		abrí
+abrir	imperf-1s	Abría las ventanas de noche por el calor.	I used to open the windows at night because of the heat.		abría
+abrir	cmd-vos	Abrí despacio, está trabada.	Open it slowly, it's stuck.		abrí
+abrir	perf-1s	He abierto todo y no encuentro nada.	I've opened everything and I can't find a thing.	abierto, not abrido	abierto
+considerar	pres-1s	Considero mudarme más cerca.	I'm considering moving closer.		considero
+considerar	pres-2s	¿Considerás quedarte más tiempo?	Are you considering staying longer?		considerás
+considerar	pret-1s	Consideré la oferta y la rechacé.	I considered the offer and turned it down.		consideré
+considerar	imperf-1s	Consideraba volver a Inglaterra.	I was considering going back to England.		consideraba
+considerar	perf-1s	Lo he considerado desde todos los ángulos.	I've considered it from every angle.		considerado
+oír	pres-2s	¿Oís ese ruido?	Do you hear that noise?		oís
+oír	pret-1s	Oí un golpe en la cocina.	I heard a bang in the kitchen.		oí
+oír	imperf-1s	No oía bien por el ventilador.	I couldn't hear well because of the fan.		oía
+oír	cmd-vos	Oí lo que te digo, nomás.	Just listen to what I'm telling you.	escuchá is more usual	oí
+oír	perf-1s	He oído hablar de ese lugar.	I've heard of that place.	oír hablar de = to hear of	oído
+acabar	pres-2s	¿Acabás de llegar?	Have you just arrived?	acabar de = to have just	acabás
+acabar	pret-1s	Acabé agotado después del trámite.	I ended up exhausted after the paperwork.		acabé
+acabar	imperf-1s	Acababa el día sin energía.	I used to finish the day with no energy.		acababa
+acabar	cmd-vos	Acabá con eso de una vez.	Put an end to that once and for all.		acabá
+acabar	perf-1s	He acabado por entenderlo.	I've come to understand it.		acabado
+convertir	pres-3s	Se convierte en costumbre rápido.	It becomes a habit quickly.	convertirse en = to turn into	convierte
+convertir	pret-1s	Me convertí en un fanático del tereré.	I turned into a tereré fanatic.		convertí
+convertir	imperf-3s	Se convertía en un problema serio.	It was turning into a serious problem.		convertía
+convertir	perf-1s	Me he convertido en uno más del barrio.	I've become just another local.		convertido
+ganar	pres-2s	¿Cuánto ganás por hora?	How much do you earn an hour?		ganás
+ganar	pret-1s	Gané lo justo el primer año.	I earned just enough the first year.		gané
+ganar	imperf-1s	Ganaba menos pero vivía más tranquilo.	I used to earn less but live more peacefully.		ganaba
+ganar	cmd-vos	Ganá experiencia primero.	Get some experience first.		ganá
+ganar	perf-1s	He ganado un poco de confianza hablando.	I've gained a bit of confidence speaking.		ganado
+formar	pres-1s	Formo parte de un grupo de español.	I'm part of a Spanish group.	formar parte de = to be part of	formo
+formar	pres-2s	¿Formás fila acá o allá?	Do you queue here or over there?	formar fila = to queue	formás
+formar	pret-1s	Formé el equipo en dos semanas.	I put the team together in two weeks.		formé
+formar	imperf-3s	Se formaba una cola enorme los lunes.	A huge queue used to form on Mondays.		formaba
+formar	perf-1s	He formado buenos amigos acá.	I've made good friends here.		formado
+traer	pres-1s	Traigo algo para compartir.	I'm bringing something to share.		traigo
+traer	pres-2s	¿Traés la yerba vos?	Are you bringing the yerba?		traés
+traer	pret-1s	Traje el recibo por las dudas.	I brought the receipt just in case.	traje, not traí	traje
+traer	imperf-1s	Traía siempre un termo conmigo.	I always used to carry a flask with me.	termo = thermos, essential for tereré	traía
+traer	perf-1s	He traído todo lo que pediste.	I've brought everything you asked for.		traído
+partir	pres-1s	Parto el pan en dos.	I'll break the bread in two.	partir also means to split	parto
+partir	pret-1s	Partí a las cinco de la mañana.	I set off at five in the morning.		partí
+partir	imperf-3s	Partía un colectivo cada media hora.	A bus used to leave every half hour.		partía
+partir	cmd-vos	Partilo por la mitad.	Split it down the middle.		partilo
+partir	perf-1s	He partido de cero varias veces.	I've started from nothing several times.	partir de = to start from	partido
+morir	pres-2s	¿Te morís de calor vos también?	Are you dying of heat too?	morirse de = to be dying of	morís
+morir	pret-1s	Me morí de vergüenza.	I died of embarrassment.		morí
+morir	imperf-1s	Me moría de ganas de ir.	I was dying to go.	morirse de ganas = to be dying to	moría
+morir	perf-1s	Me he muerto de risa con eso.	I laughed myself silly at that.		muerto
+aceptar	pres-1s	Acepto tarjeta o efectivo.	I take card or cash.		acepto
+aceptar	pres-2s	¿Aceptás el trato?	Do you accept the deal?		aceptás
+aceptar	pret-1s	Acepté sin pensarlo mucho.	I accepted without thinking about it much.		acepté
+aceptar	imperf-1s	No aceptaba ayuda de nadie.	I wouldn't accept help from anyone.		aceptaba
+aceptar	cmd-vos	Aceptá que no siempre se puede.	Accept that you can't always manage it.		aceptá
+aceptar	perf-1s	He aceptado que me va a llevar tiempo.	I've accepted it's going to take me time.		aceptado
+realizar	pres-1s	Realizo el pago por transferencia.	I make the payment by transfer.		realizo
+realizar	pres-2s	¿Realizás vos el trámite o un gestor?	Will you do the paperwork or a fixer?	gestor = someone paid to do your paperwork	realizás
+realizar	pret-1s	Realicé el trámite en una mañana.	I got the paperwork done in one morning.	realicé: z becomes c	realicé
+realizar	imperf-3s	Se realizaba la feria cada domingo.	The market used to be held every Sunday.		realizaba
+realizar	perf-1s	He realizado todos los pagos.	I've made all the payments.		realizado
+suponer	pres-2s	¿Suponés que va a venir?	Do you suppose he'll come?		suponés
+suponer	pret-1s	Supuse que estaba abierto.	I assumed it was open.	supuse, like puse	supuse
+suponer	imperf-1s	Suponía que hablaban inglés.	I assumed they spoke English.		suponía
+suponer	cmd-vos	Suponé que no llega, ¿qué hacemos?	Suppose he doesn't come, what do we do?		suponé
+suponer	perf-1s	He supuesto demasiado, lo admito.	I've assumed too much, I admit it.	supuesto, like puesto	supuesto
+comprender	pres-2s	¿Comprendés el guaraní cuando lo hablan rápido?	Do you understand Guaraní when they speak it fast?		comprendés
+comprender	pret-1s	Comprendí recién al tercer intento.	I only understood on the third try.		comprendí
+comprender	imperf-1s	No comprendía por qué se reían.	I didn't understand why they were laughing.		comprendía
+comprender	cmd-vos	Comprendé que recién empiezo.	Understand that I'm only starting out.		comprendé
+comprender	perf-1s	He comprendido lo esencial, creo.	I've understood the essentials, I think.		comprendido
+lograr	pres-1s	Logro entender casi todo ya.	I manage to understand almost everything now.		logro
+lograr	pres-2s	¿Lográs seguir la conversación?	Do you manage to follow the conversation?		lográs
+lograr	imperf-1s	No lograba pronunciar la doble erre.	I couldn't manage the rolled r.		lograba
+lograr	cmd-vos	Lográ hablar diez minutos sin inglés.	Manage ten minutes without English.		lográ
+lograr	perf-1s	He logrado más de lo que esperaba.	I've achieved more than I expected.		logrado
+explicar	pres-1s	Te explico una sola vez.	I'll explain it to you just once.		explico
+explicar	pret-1s	Expliqué todo pero igual no entendió.	I explained everything but he still didn't get it.	expliqué: c becomes qu	expliqué
+explicar	imperf-1s	Explicaba con las manos cuando no sabía la palabra.	I used to explain with my hands when I didn't know the word.		explicaba
+explicar	cmd-vos	Explicame de nuevo, más despacio.	Explain it to me again, more slowly.		explicame
+explicar	perf-1s	Ya te he explicado tres veces.	I've already explained it to you three times.		explicado
+preguntar	pres-1s	Pregunto siempre antes de pagar.	I always ask before paying.		pregunto
+preguntar	pres-2s	¿Por qué no preguntás nomás?	Why don't you just ask?		preguntás
+preguntar	pret-1s	Pregunté en la esquina y me indicaron.	I asked on the corner and they gave me directions.		pregunté
+preguntar	imperf-1s	Preguntaba todo dos veces al principio.	I used to ask everything twice at the start.		preguntaba
+preguntar	perf-1s	He preguntado y nadie sabe.	I've asked and nobody knows.		preguntado
+tocar	pres-1s	Toco la guitarra mal pero con ganas.	I play the guitar badly but with enthusiasm.		toco
+tocar	pres-2s	¿Tocás algún instrumento?	Do you play an instrument?		tocás
+tocar	pret-1s	Toqué el timbre tres veces.	I rang the bell three times.	toqué: c becomes qu	toqué
+tocar	imperf-3s	Me tocaba esperar siempre.	It always fell to me to wait.	tocarle a alguien = to be someone's turn	tocaba
+tocar	cmd-vos	Tocá el timbre, está abierto el portón.	Ring the bell, the gate's open.	portón = gate	tocá
+tocar	perf-1s	He tocado fondo con el idioma esta semana.	I've hit rock bottom with the language this week.		tocado
+reconocer	pres-1s	Reconozco que me equivoqué.	I admit I got it wrong.	reconocer = both to recognise and to admit	reconozco
+reconocer	pres-2s	¿Reconocés la voz?	Do you recognise the voice?		reconocés
+reconocer	imperf-1s	No reconocía a nadie en la foto.	I didn't recognise anyone in the photo.		reconocía
+reconocer	cmd-vos	Reconocé que tenía razón.	Admit that I was right.		reconocé
+reconocer	perf-1s	He reconocido el acento enseguida.	I recognised the accent straight away.		reconocido
+estudiar	pres-2s	¿Estudiás español hace mucho?	Have you been studying Spanish long?		estudiás
+estudiar	pret-1s	Estudié una hora antes de dormir.	I studied for an hour before sleeping.		estudié
+estudiar	imperf-1s	Estudiaba con fichas al principio.	I used to study with flashcards at the start.		estudiaba
+estudiar	cmd-vos	Estudiá un poco todos los días.	Study a little every day.		estudiá
+estudiar	perf-1s	He estudiado todas las noches este mes.	I've studied every night this month.		estudiado
+alcanzar	pres-3s	¿Te alcanza la plata hasta fin de mes?	Does your money last until the end of the month?	works like gustar: la plata is the subject	alcanza
+alcanzar	imperf-1s	No me alcanzaba el sueldo.	My wages weren't enough.		alcanzaba
+alcanzar	cmd-vos	Alcanzame la sal, por favor.	Pass me the salt, please.	alcanzar also means to pass something	alcanzame
+alcanzar	perf-1s	He alcanzado a terminar justo.	I've just managed to finish.	alcanzar a = to manage to	alcanzado
+nacer	pres-3s	Nace mucha gente en setiembre acá.	A lot of people are born in September here.	setiembre, often without the p	nace
+nacer	pret-1s	Nací en Inglaterra pero vivo acá.	I was born in England but I live here.		nací
+nacer	imperf-3s	Nacía un ternero cada semana.	A calf was born every week.		nacía
+nacer	perf-1s	He nacido de nuevo con este clima.	I've been born again with this climate.		nacido
+dirigir	pres-1s	Dirijo un equipo chico.	I run a small team.	dirijo: g becomes j	dirijo
+dirigir	pres-2s	¿Dirigís vos la reunión?	Are you chairing the meeting?		dirigís
+dirigir	pret-1s	Dirigí la obra durante dos años.	I ran the project for two years.		dirigí
+dirigir	imperf-1s	Me dirigía al centro cuando lo vi.	I was heading downtown when I saw him.	dirigirse a = to head for	dirigía
+dirigir	perf-1s	He dirigido proyectos más grandes.	I've run bigger projects.		dirigido
+correr	pres-2s	¿Corrés a la mañana o a la tarde?	Do you run in the morning or the afternoon?		corrés
+correr	pret-1s	Corrí para alcanzar el colectivo.	I ran to catch the bus.		corrí
+correr	imperf-1s	Corría cinco kilómetros antes del calor.	I used to run five kilometres before the heat.		corría
+correr	cmd-vos	Corré que ya sale.	Run, it's leaving.		corré
+correr	perf-1s	He corrido todas las mañanas esta semana.	I've run every morning this week.		corrido
+utilizar	pres-2s	¿Utilizás esa aplicación?	Do you use that app?	usar is more common in speech	utilizás
+utilizar	pret-1s	Utilicé el traductor sólo una vez.	I used the translator only once.	utilicé: z becomes c	utilicé
+utilizar	imperf-1s	Utilizaba un diccionario de papel.	I used to use a paper dictionary.		utilizaba
+utilizar	cmd-vos	Utilizá el formulario nuevo.	Use the new form.		utilizá
+utilizar	perf-1s	He utilizado todos los trucos posibles.	I've used every trick going.		utilizado
+pagar	pres-1s	Pago en efectivo si hay descuento.	I pay cash if there's a discount.		pago
+pagar	pres-2s	¿Pagás vos o pago yo?	Are you paying or am I?		pago
+pagar	pret-1s	Pagué de más y no me di cuenta.	I overpaid and didn't notice.	pagué: g becomes gu	pagué
+pagar	imperf-1s	Pagaba el alquiler el día uno.	I used to pay the rent on the first.		pagaba
+pagar	cmd-vos	Pagá en la caja de la entrada.	Pay at the till by the entrance.	caja = till	pagá
+pagar	perf-1s	He pagado todo por adelantado.	I've paid everything up front.		pagado
+ayudar	pres-1s	Ayudo los sábados en la feria.	I help out at the market on Saturdays.		ayudo
+ayudar	pres-2s	¿Me ayudás un segundo?	Can you help me a second?		ayudás
+ayudar	pret-1s	Ayudé a mudarse a un vecino.	I helped a neighbour move.		ayudé
+ayudar	imperf-1s	Ayudaba en la cocina cuando era chico.	I used to help in the kitchen as a kid.		ayudaba
+ayudar	cmd-vos	Ayudame a bajar esto.	Help me get this down.		ayudame
+ayudar	perf-1s	Me han ayudado mucho acá.	People have helped me a lot here.		ayudado
+gustar	pres-3s	Me gusta el tereré más que el mate.	I like tereré more than mate.	"literally ""it pleases me"""	gusta
+gustar	pret-3s	No me gustó nada el trato.	I didn't like the deal at all.		gustó
+gustar	imperf-3s	Me gustaba caminar de noche.	I used to like walking at night.		gustaba
+gustar	pres-3p	Me gustan las chipas recién hechas.	I like chipas when they're fresh.	chipa: the national snack	gustan
+gustar	perf-1s	Me ha gustado todo hasta ahora.	I've liked everything so far.		gustado
+jugar	pres-1s	Juego al fútbol los domingos.	I play football on Sundays.	jugar al, with the article	juego
+jugar	pres-2s	¿Jugás a algo?	Do you play anything?		jugás
+jugar	pret-1s	Jugué dos partidos seguidos.	I played two matches in a row.	jugué: g becomes gu	jugué
+jugar	imperf-1s	Jugaba en la calle de chico.	I used to play in the street as a kid.		jugaba
+jugar	cmd-vos	Jugá vos, yo miro.	You play, I'll watch.		jugá
+jugar	perf-1s	He jugado poco desde que llegué.	I haven't played much since I arrived.		jugado
+escuchar	pres-1s	Escucho radio paraguaya para acostumbrarme.	I listen to Paraguayan radio to get used to it.		escucho
+escuchar	pres-2s	¿Escuchás lo que te digo?	Are you listening to what I'm saying?		escuchás
+escuchar	pret-1s	Escuché el audio tres veces.	I listened to the recording three times.		escuché
+escuchar	imperf-1s	Escuchaba podcasts en el colectivo.	I used to listen to podcasts on the bus.		escuchaba
+escuchar	perf-1s	He escuchado ese tema mil veces.	I've heard that song a thousand times.		escuchado
+cumplir	pres-2s	¿Cuándo cumplís años?	When's your birthday?	cumplir años = to have a birthday	cumplís
+cumplir	pret-1s	Cumplí con todo lo que pidieron.	I did everything they asked.	cumplir con = to fulfil	cumplí
+cumplir	imperf-1s	Cumplía el horario al minuto.	I used to keep to the timetable exactly.		cumplía
+cumplir	cmd-vos	Cumplí con el plazo y listo.	Meet the deadline and that's it.	plazo = deadline	cumplí
+cumplir	perf-1s	He cumplido mi parte del trato.	I've kept my side of the bargain.		cumplido
+ofrecer	pres-1s	Ofrezco clases de inglés a cambio.	I offer English lessons in exchange.	a cambio = in exchange	ofrezco
+ofrecer	pres-2s	¿Qué ofrecés por el usado?	What are you offering for the second-hand one?		ofrecés
+ofrecer	pret-1s	Ofrecí la mitad y aceptaron.	I offered half and they accepted.	a useful haggling move	ofrecí
+ofrecer	imperf-3s	Ofrecía descuento los martes.	They used to offer a discount on Tuesdays.		ofrecía
+ofrecer	cmd-vos	Ofrecé menos, siempre bajan.	Offer less, they always come down.		ofrecé
+ofrecer	perf-1s	Me han ofrecido trabajo dos veces.	I've been offered work twice.		ofrecido
+descubrir	pres-1s	Descubro algo nuevo cada semana.	I discover something new every week.		descubro
+descubrir	pres-2s	¿Descubrís lugares caminando?	Do you find places by walking?		descubrís
+descubrir	pret-1s	Descubrí una panadería bárbara.	I found a terrific bakery.		descubrí
+descubrir	imperf-1s	Descubría palabras nuevas todos los días.	I used to discover new words every day.		descubría
+descubrir	perf-1s	He descubierto que el guaraní está en todo.	I've discovered Guaraní is in everything.	descubierto, not descubrido	descubierto
+levantar	pres-2s	¿A qué hora te levantás?	What time do you get up?	levantarse = to get up	levantás
+levantar	pret-1s	Me levanté a las cinco.	I got up at five.		levanté
+levantar	imperf-1s	Me levantaba con el sol.	I used to get up with the sun.		levantaba
+levantar	perf-1s	Me he levantado tarde todos los días.	I've got up late every day.		levantado
+intentar	pres-1s	Intento no usar inglés en la calle.	I try not to use English in the street.		intento
+intentar	pres-2s	¿Intentás hablar sólo en español?	Do you try to speak only Spanish?		intentás
+intentar	pret-1s	Intenté explicarlo con señas.	I tried to explain it with gestures.		intenté
+intentar	imperf-1s	Intentaba leer el diario cada mañana.	I used to try to read the paper every morning.		intentaba
+intentar	cmd-vos	Intentá de nuevo, sale mejor la segunda vez.	Try again, it comes out better the second time.		intentá
+intentar	perf-1s	He intentado de todo con la pronunciación.	I've tried everything with the pronunciation.		intentado
+usar	pres-1s	Uso el colectivo todos los días.	I use the bus every day.		uso
+usar	pres-2s	¿Usás repelente? Hay dengue.	Do you use repellent? There's dengue around.		usás
+usar	pret-1s	Usé la bici hasta que se rompió.	I used the bike until it broke.		usé
+usar	imperf-1s	Usaba ojotas todo el verano.	I used to wear flip-flops all summer.	ojotas = flip-flops	usaba
+usar	cmd-vos	Usá protector, pega fuerte el sol.	Use sunscreen, the sun's strong.		usá
+usar	perf-1s	He usado la misma mochila tres años.	I've used the same bag for three years.		usado
+decidir	pres-1s	Decido mañana y te aviso.	I'll decide tomorrow and let you know.		decido
+decidir	pres-2s	¿Decidís vos o lo charlamos?	Will you decide or shall we talk it over?		decidís
+decidir	pret-1s	Decidí quedarme un año más.	I decided to stay another year.		decidí
+decidir	imperf-1s	No me decidía por ningún barrio.	I couldn't make up my mind about a neighbourhood.		decidía
+decidir	perf-1s	He decidido empezar de nuevo.	I've decided to start again.		decidido
+repetir	pres-1s	Repito en voz alta para practicar.	I repeat out loud to practise.	the core of the method	repito
+repetir	pret-1s	Repetí la frase hasta que salió.	I repeated the phrase until it came out right.		repetí
+repetir	imperf-1s	Repetía cada oración cinco veces.	I used to repeat each sentence five times.		repetía
+repetir	cmd-vos	Repetí más despacio, por favor.	Say it again more slowly, please.	the single most useful sentence here	repetí
+repetir	perf-1s	He repetido esto cien veces.	I've repeated this a hundred times.		repetido
+olvidar	pres-1s	Me olvido los nombres enseguida.	I forget names straight away.	olvidarse is the usual form	olvido
+olvidar	pres-2s	¿Te olvidás siempre las llaves?	Do you always forget your keys?		olvidás
+olvidar	imperf-1s	Me olvidaba de saludar al entrar.	I used to forget to greet people on arriving.	saludar matters socially here	olvidaba
+olvidar	cmd-vos	Olvidate de eso, no vale la pena.	Forget about that, it isn't worth it.	olvidate = olvidá + te	olvidate
+olvidar	perf-1s	Me he olvidado la contraseña otra vez.	I've forgotten the password again.		olvidado
+valer	pres-3s	¿Cuánto vale el kilo?	How much is a kilo?		vale
+valer	pret-3s	Valió la pena el viaje.	The trip was worth it.	valer la pena = to be worth it	valió
+valer	imperf-3s	Valía el doble hace un año.	It was worth twice as much a year ago.		valía
+valer	pres-3p	Valen más baratas en el mercado.	They're cheaper at the market.		valen
+comer	pres-1s	Como en casa casi siempre.	I eat at home almost always.		como
+comer	pres-2s	¿Comés carne?	Do you eat meat?		comés
+comer	pret-1s	Comí demasiado en el asado.	I ate too much at the barbecue.	asado = barbecue, a social institution	comí
+comer	imperf-1s	Comía más liviano en Inglaterra.	I used to eat lighter in England.		comía
+comer	cmd-vos	Comé algo antes de salir.	Eat something before you go out.		comé
+comer	perf-1s	He comido chipa todos los días.	I've eaten chipa every day.		comido
+mostrar	pres-1s	Te muestro cómo se hace.	I'll show you how it's done.		muestro
+mostrar	pres-2s	¿Me mostrás la foto?	Will you show me the photo?		mostrás
+mostrar	pret-1s	Le mostré el pasaporte y pasé.	I showed him my passport and went through.		mostré
+mostrar	imperf-1s	Mostraba el mapa cada vez que me perdía.	I used to show the map every time I got lost.		mostraba
+mostrar	perf-1s	Ya te he mostrado el lugar.	I've already shown you the place.		mostrado
+incluir	pres-3s	Incluye el desayuno el precio.	The price includes breakfast.		incluye
+incluir	pres-2s	¿Incluís el delivery en el total?	Are you including delivery in the total?		incluís
+incluir	pret-1s	Incluí todo en el presupuesto.	I included everything in the quote.	presupuesto = quote	incluí
+incluir	imperf-3s	Incluía la limpieza el alquiler.	The rent used to include cleaning.		incluía
+incluir	perf-1s	He incluido los dos documentos.	I've included both documents.		incluido
+continuar	pres-1s	Continúo estudiando igual.	I'm carrying on studying all the same.	continúo takes an accent	continúo
+continuar	pres-2s	¿Continuás con las clases?	Are you continuing with the classes?		continuás
+continuar	pret-1s	Continué hasta terminarlo.	I carried on until I finished it.		continué
+continuar	imperf-3s	Continuaba lloviendo a la mañana.	It was still raining in the morning.		continuaba
+continuar	perf-1s	He continuado con la rutina.	I've kept up the routine.		continuado
+cerrar	pres-1s	Cierro a las siete.	I close at seven.		cierro
+cerrar	pres-2s	¿A qué hora cerrás?	What time do you close?		cerrás
+cerrar	pret-1s	Cerré la cuenta del banco viejo.	I closed the old bank account.		cerré
+cerrar	imperf-3s	Cerraba al mediodía por la siesta.	It used to close at midday for the siesta.	the siesta is real here	cerraba
+cerrar	cmd-vos	Cerrá bien el portón.	Shut the gate properly.		cerrá
+cerrar	perf-1s	He cerrado todo antes de salir.	I've locked everything before leaving.		cerrado
+comprar	pres-1s	Compro la verdura en la feria.	I buy vegetables at the market.	feria = street market	compro
+comprar	pres-2s	¿Dónde comprás la yerba?	Where do you buy your yerba?		comprás
+comprar	imperf-1s	Compraba todo en el supermercado antes.	I used to buy everything at the supermarket.		compraba
+comprar	cmd-vos	Comprá en la feria, sale la mitad.	Buy at the market, it's half the price.		comprá
+comprar	perf-1s	He comprado de más otra vez.	I've bought too much again.		comprado
+vender	pres-1s	Vendo la moto, está casi nueva.	I'm selling the moto, it's nearly new.		vendo
+vender	pres-2s	¿Vendés fiado?	Do you sell on credit?	fiado = on credit, common in small shops	vendés
+vender	pret-1s	Vendí todo antes de mudarme.	I sold everything before I moved.		vendí
+vender	imperf-3s	Vendía chipa en la esquina.	She used to sell chipa on the corner.		vendía
+vender	cmd-vos	Vendé antes de que baje el precio.	Sell before the price drops.		vendé
+vender	perf-1s	He vendido casi todo ya.	I've sold almost everything now.		vendido
+subir	pres-1s	Subo por la escalera, no hay ascensor.	I go up the stairs, there's no lift.		subo
+subir	pres-2s	¿Subís vos adelante?	Are you getting in the front?		subís
+subir	pret-1s	Subí al colectivo equivocado.	I got on the wrong bus.		subí
+subir	imperf-1s	Subía caminando todos los días.	I used to walk up every day.		subía
+subir	perf-1s	Ha subido mucho el precio.	The price has gone up a lot.		subido
+bajar	pres-1s	Bajo en la próxima esquina.	I'm getting off at the next corner.		bajo
+bajar	pres-2s	¿Bajás acá o seguís?	Are you getting off here or carrying on?		bajás
+bajar	pret-1s	Bajé dos cuadras antes.	I got off two blocks early.	cuadra = block, how distance is counted	bajé
+bajar	imperf-1s	Bajaba siempre en la misma parada.	I always used to get off at the same stop.		bajaba
+bajar	perf-1s	He bajado el precio todo lo que pude.	I've brought the price down as far as I can.		bajado
+caminar	pres-1s	Camino al trabajo si no hace mucho calor.	I walk to work if it isn't too hot.		camino
+caminar	pres-2s	¿Caminás mucho vos?	Do you walk much?		caminás
+caminar	pret-1s	Caminé veinte cuadras de gusto.	I walked twenty blocks for the pleasure of it.	de gusto = just for the sake of it	caminé
+caminar	imperf-1s	Caminaba al centro todas las mañanas.	I used to walk into town every morning.		caminaba
+caminar	cmd-vos	Caminá por la sombra.	Walk in the shade.	genuinely good advice here	caminá
+caminar	perf-1s	He caminado todo el barrio ya.	I've walked the whole neighbourhood by now.		caminado
+dormir	pres-1s	Duermo con el ventilador prendido.	I sleep with the fan on.		duermo
+dormir	pres-2s	¿Dormís bien con este calor?	Do you sleep well in this heat?		dormís
+dormir	pret-1s	Dormí mal por los mosquitos.	I slept badly because of the mosquitoes.		dormí
+dormir	imperf-1s	Dormía la siesta todos los días.	I used to have a siesta every day.		dormía
+dormir	perf-1s	No he dormido nada esta noche.	I haven't slept at all tonight.		dormido
+despertar	pres-1s	Me despierto antes del amanecer.	I wake up before dawn.		despierto
+despertar	pres-2s	¿Te despertás con el calor?	Does the heat wake you up?		despertás
+despertar	imperf-1s	Me despertaba con los gallos.	I used to wake up with the cockerels.		despertaba
+despertar	cmd-vos	Despertame a las seis.	Wake me at six.		despertame
+despertar	perf-1s	Me he despertado tarde otra vez.	I've woken up late again.		despertado
+bañar	pres-2s	¿Te bañás a la mañana o a la noche?	Do you shower in the morning or at night?		bañás
+bañar	pret-1s	Me bañé con agua fría de nuevo.	I showered in cold water again.		bañé
+bañar	imperf-1s	Me bañaba dos veces por día en verano.	I used to shower twice a day in summer.		bañaba
+bañar	cmd-vos	Bañate antes de que se corte el agua.	Shower before the water goes off.	water cuts are routine	bañate
+bañar	perf-1s	Me he bañado recién.	I've just had a shower.		bañado
+lavar	pres-1s	Lavo la ropa los domingos.	I do the washing on Sundays.		lavo
+lavar	pres-2s	¿Lavás a mano o en lavarropas?	Do you wash by hand or in a machine?	lavarropas = washing machine	lavás
+lavar	pret-1s	Lavé todo y no secó nada.	I washed everything and nothing dried.		lavé
+lavar	imperf-1s	Lavaba los platos mientras practicaba.	I used to do the dishes while practising.		lavaba
+lavar	cmd-vos	Lavate las manos antes de comer.	Wash your hands before eating.		lavate
+lavar	perf-1s	He lavado la misma remera tres veces.	I've washed the same shirt three times.	remera = t-shirt	lavado
+cocinar	pres-1s	Cocino casi todos los días.	I cook almost every day.		cocino
+cocinar	pres-2s	¿Cocinás vos hoy?	Are you cooking today?		cocinás
+cocinar	pret-1s	Cociné para diez personas.	I cooked for ten people.		cociné
+cocinar	imperf-1s	Cocinaba con lo que había nomás.	I used to cook with whatever there was.		cocinaba
+cocinar	cmd-vos	Cociná vos, yo lavo.	You cook, I'll wash up.		cociná
+cocinar	perf-1s	He cocinado sopa paraguaya dos veces.	I've cooked sopa paraguaya twice.	it is a cornbread, not a soup	cocinado
+limpiar	pres-1s	Limpio los sábados a la mañana.	I clean on Saturday mornings.		limpio
+limpiar	pres-2s	¿Limpiás vos el patio?	Do you clean the yard?		limpiás
+limpiar	pret-1s	Limpié toda la casa en una tarde.	I cleaned the whole house in one afternoon.		limpié
+limpiar	imperf-1s	Limpiaba más seguido antes.	I used to clean more often.		limpiaba
+limpiar	perf-1s	He limpiado y se ensució otra vez.	I've cleaned and it got dirty again.		limpiado
+manejar	pres-1s	Manejo despacio, hay muchas motos.	I drive slowly, there are lots of motos.		manejo
+manejar	pres-2s	¿Manejás vos o tomamos un taxi?	Will you drive or shall we take a taxi?		manejás
+manejar	pret-1s	Manejé cinco horas hasta Encarnación.	I drove five hours to Encarnación.		manejé
+manejar	imperf-1s	Manejaba del otro lado en Inglaterra.	I used to drive on the other side in England.		manejaba
+manejar	perf-1s	No he manejado nunca acá.	I've never driven here.		manejado
+viajar	pres-2s	¿Viajás mucho por trabajo?	Do you travel much for work?		viajás
+viajar	pret-1s	Viajé en colectivo toda la noche.	I travelled by bus all night.		viajé
+viajar	imperf-1s	Viajaba una vez por año nomás.	I used to travel only once a year.		viajaba
+viajar	cmd-vos	Viajá de día, se ve más.	Travel by day, you see more.		viajá
+viajar	perf-1s	He viajado poco por el país todavía.	I haven't travelled much around the country yet.		viajado
+visitar	pres-1s	Visito a mis suegros los domingos.	I visit my in-laws on Sundays.		visito
+visitar	pres-2s	¿Visitás a tu familia seguido?	Do you visit your family often?		visitás
+visitar	pret-1s	Visité las ruinas jesuíticas.	I visited the Jesuit ruins.	the ruins are a UNESCO site	visité
+visitar	imperf-1s	Visitaba a los vecinos sin avisar.	I used to visit the neighbours unannounced.	normal here, not rude	visitaba
+visitar	cmd-vos	Visitanos cuando quieras.	Come and see us whenever you like.		visitanos
+visitar	perf-1s	He visitado casi todo el departamento.	I've visited nearly the whole department.	departamento = province	visitado
+invitar	pres-2s	¿Me invitás un tereré?	Will you share a tereré with me?	invitar also means to share, not just to pay	invitás
+invitar	pret-1s	Invité a todos a casa.	I invited everybody round.		invité
+invitar	imperf-1s	Invitaba yo siempre, ahora es por turnos.	I always used to pay, now we take turns.		invitaba
+invitar	cmd-vos	Invitale algo, es tradición.	Offer him something, it's the custom.		invitale
+invitar	perf-1s	Me han invitado a un asado el sábado.	I've been invited to a barbecue on Saturday.		invitado
+bailar	pres-1s	Bailo mal pero bailo.	I dance badly but I dance.		bailo
+bailar	pres-2s	¿Bailás polca?	Do you dance polka?	polca paraguaya, the national dance	bailás
+bailar	pret-1s	Bailé hasta las cuatro.	I danced until four.		bailé
+bailar	imperf-1s	No bailaba nunca antes de venir acá.	I never used to dance before coming here.		bailaba
+bailar	cmd-vos	Bailá, nadie te mira.	Dance, nobody's watching you.		bailá
+bailar	perf-1s	He bailado más este año que en mi vida.	I've danced more this year than in my life.		bailado
+cantar	pres-1s	Canto en la ducha solamente.	I sing in the shower only.		canto
+cantar	pres-2s	¿Cantás algo en guaraní?	Do you sing anything in Guaraní?		cantás
+cantar	pret-1s	Canté con ellos sin saber la letra.	I sang along without knowing the words.		canté
+cantar	imperf-1s	Cantaba en el coro de chico.	I used to sing in the choir as a kid.		cantaba
+cantar	cmd-vos	Cantá vos, yo te sigo.	You sing, I'll follow.		cantá
+cantar	perf-1s	He cantado esa canción mil veces.	I've sung that song a thousand times.		cantado
+reír	pres-1s	Me río de mis propios errores.	I laugh at my own mistakes.		río
+reír	pres-2s	¿De qué te reís?	What are you laughing at?		reís
+reír	pret-1s	Me reí hasta llorar.	I laughed until I cried.		reí
+reír	imperf-1s	Me reía nervioso cuando no entendía.	I used to laugh nervously when I didn't understand.		reía
+reír	cmd-vos	Reíte, no pasa nada.	Laugh it off, it's nothing.		reíte
+reír	perf-1s	Me he reído mucho con ustedes.	I've laughed a lot with you lot.		reído
+llorar	pres-1s	Lloro con las películas, qué le voy a hacer.	I cry at films, what can I say.		lloro
+llorar	pres-2s	¿Llorás vos también con eso?	Do you cry at that too?		llorás
+llorar	pret-1s	Lloré de bronca, no de pena.	I cried out of anger, not sadness.	bronca = anger, very Rioplatense	lloré
+llorar	imperf-1s	Lloraba de frustración al principio.	I used to cry from frustration at the start.		lloraba
+llorar	subj-2s-voseo	No llorés, ya pasó.	Don't cry, it's over.	the voseo negative, heard constantly	llorés
+llorar	perf-1s	He llorado de risa con eso.	I've cried laughing at that.		llorado
+gritar	pres-1s	No grito, hablo fuerte nomás.	I'm not shouting, I just talk loudly.		grito
+gritar	pres-2s	¿Por qué gritás?	Why are you shouting?		gritás
+gritar	pret-1s	Grité para que me oyeran.	I shouted so they'd hear me.		grité
+gritar	imperf-3s	Gritaba el vendedor todo el día.	The seller used to shout all day.		gritaba
+gritar	cmd-vos	Gritá si necesitás algo.	Shout if you need anything.		gritá
+gritar	perf-1s	He gritado tanto que quedé afónico.	I've shouted so much I've lost my voice.		gritado
+contestar	pres-1s	Contesto los mensajes a la noche.	I answer messages at night.		contesto
+contestar	pres-2s	¿Por qué no contestás el teléfono?	Why don't you answer the phone?		contestás
+contestar	pret-1s	Contesté mal y quedé como un tonto.	I answered wrongly and looked like a fool.		contesté
+contestar	imperf-1s	Contestaba siempre en inglés sin querer.	I used to answer in English without meaning to.		contestaba
+contestar	cmd-vos	Contestame cuando puedas.	Get back to me when you can.		contestame
+contestar	perf-1s	No he contestado todavía.	I haven't replied yet.		contestado
+responder	pres-2s	¿Me respondés el correo?	Will you answer my email?		respondés
+responder	pret-1s	Respondí a todo lo que preguntaron.	I answered everything they asked.		respondí
+responder	imperf-1s	Respondía con monosílabos al principio.	I used to answer in monosyllables at the start.		respondía
+responder	cmd-vos	Respondé con la verdad nomás.	Just answer truthfully.		respondé
+responder	perf-1s	He respondido tres veces ya.	I've replied three times now.		respondido
+saludar	pres-1s	Saludo a todos al entrar.	I greet everybody when I walk in.	not optional here	saludo
+saludar	pres-2s	¿Saludás con un beso o con la mano?	Do you greet with a kiss or a handshake?	one kiss, on the right cheek	saludás
+saludar	pret-1s	Saludé y me fui.	I said hello and left.		saludé
+saludar	imperf-1s	No saludaba a nadie y quedaba mal.	I used not to greet anyone and it looked bad.		saludaba
+saludar	perf-1s	Ya he saludado a todos.	I've already said hello to everyone.		saludado
+agradecer	pres-2s	¿Agradecés en guaraní o en español?	Do you say thank you in Guaraní or Spanish?	aguyje is Guaraní for thank you	agradecés
+agradecer	pret-1s	Agradecí y me despedí.	I said thank you and took my leave.		agradecí
+agradecer	imperf-1s	Agradecía todo dos veces, por las dudas.	I used to thank people twice, just in case.		agradecía
+agradecer	cmd-vos	Agradecele, se tomó el trabajo.	Thank him, he went to the trouble.		agradecele
+agradecer	perf-1s	Le he agradecido mil veces.	I've thanked him a thousand times.		agradecido
+disculpar	pres-1s	Me disculpo si dije algo raro.	I apologise if I said something odd.		disculpo
+disculpar	pres-2s	¿Te disculpás vos o lo dejamos así?	Will you apologise or shall we leave it?		disculpás
+disculpar	pret-1s	Me disculpé por llegar tarde.	I apologised for being late.		disculpé
+disculpar	imperf-1s	Me disculpaba por todo al principio.	I used to apologise for everything at the start.		disculpaba
+disculpar	perf-1s	Ya me he disculpado dos veces.	I've already apologised twice.		disculpado
+perdonar	pres-1s	Perdono pero no olvido.	I forgive but I don't forget.		perdono
+perdonar	pres-2s	¿Me perdonás la demora?	Will you forgive the delay?		perdonás
+perdonar	pret-1s	Perdoné y seguimos como antes.	I forgave and we carried on as before.		perdoné
+perdonar	imperf-1s	Perdonaba todo cuando era más joven.	I used to forgive everything when I was younger.		perdonaba
+perdonar	perf-1s	Lo he perdonado hace rato.	I forgave him a while back.		perdonado
+prometer	pres-2s	¿Prometés que vas a venir?	Do you promise you'll come?		prometés
+prometer	pret-1s	Prometí ir y no fui.	I promised to go and didn't.		prometí
+prometer	imperf-1s	Prometía cosas que no podía cumplir.	I used to promise things I couldn't deliver.		prometía
+prometer	cmd-vos	Prometeme que vas a avisar.	Promise me you'll let me know.		prometeme
+prometer	perf-1s	He prometido demasiado esta semana.	I've promised too much this week.		prometido
+mentir	pres-1s	No miento, te lo juro.	I'm not lying, I swear.		miento
+mentir	pres-2s	¿Me mentís o es verdad?	Are you lying to me or is it true?		mentís
+mentir	pret-1s	Mentí para no quedar mal.	I lied so as not to look bad.		mentí
+mentir	imperf-1s	Mentía sobre mi nivel de español.	I used to lie about my level of Spanish.		mentía
+mentir	subj-2s	No mientas, se nota.	Don't lie, it shows.		mientas
+mentir	perf-1s	Nunca te he mentido.	I've never lied to you.		mentido
+pelear	pres-1s	No peleo con los vecinos, nunca.	I don't fight with the neighbours, ever.		peleo
+pelear	pres-2s	¿Peleás seguido con tu hermano?	Do you fight with your brother often?		peleás
+pelear	pret-1s	Peleé con el casero por el alquiler.	I had a row with the landlord about the rent.		peleé
+pelear	imperf-1s	Peleaba por cualquier cosa antes.	I used to argue over anything.		peleaba
+pelear	subj-2s-voseo	No peleés por eso, no vale.	Don't fight over that, it isn't worth it.		peleés
+pelear	perf-1s	Nunca he peleado con nadie acá.	I've never had a row with anyone here.		peleado
+discutir	pres-1s	Discuto poco, prefiero escuchar.	I argue little, I prefer to listen.		discuto
+discutir	pres-2s	¿Discutís de política con gente que recién conocés?	Do you discuss politics with people you've just met?		discutís
+discutir	pret-1s	Discutí el precio y bajó.	I argued the price down.		discutí
+discutir	imperf-1s	Discutía mucho antes de aprender a ceder.	I used to argue a lot before I learned to give way.		discutía
+discutir	cmd-vos	Discutilo con él, no conmigo.	Take it up with him, not me.		discutilo
+discutir	perf-1s	He discutido eso mil veces.	I've argued that a thousand times.		discutido
+enojar	pres-1s	Me enojo conmigo mismo, no con vos.	I get annoyed with myself, not with you.		enojo
+enojar	pres-2s	¿Te enojás si te corrijo?	Do you get annoyed if I correct you?		enojás
+enojar	pret-1s	Me enojé y después me arrepentí.	I got angry and then regretted it.		enojé
+enojar	imperf-1s	Me enojaba por no poder expresarme.	I used to get angry at not being able to express myself.		enojaba
+enojar	subj-2s-voseo	No te enojés, fue sin querer.	Don't get annoyed, it was an accident.		enojés
+enojar	perf-1s	Me he enojado una sola vez en un año.	I've got angry just once in a year.		enojado
+preocupar	pres-1s	Me preocupo por nada, lo sé.	I worry over nothing, I know.		preocupo
+preocupar	pres-2s	¿Te preocupás por el trámite?	Are you worried about the paperwork?		preocupás
+preocupar	pret-1s	Me preocupé de más.	I worried too much.		preocupé
+preocupar	imperf-1s	Me preocupaba el acento al principio.	The accent used to worry me at the start.		preocupaba
+preocupar	subj-2s-voseo	No te preocupés, se arregla.	Don't worry, it'll sort itself out.	the voseo negative, extremely common	preocupés
+preocupar	perf-1s	Me he preocupado al pedo.	I've worried for nothing.	al pedo = for nothing, crude but universal	preocupado
+asustar	pres-1s	Me asusto con las tormentas de acá.	The storms here frighten me.		asusto
+asustar	pres-2s	¿Te asustás con los truenos?	Does the thunder scare you?		asustás
+asustar	imperf-1s	Me asustaba hablar por teléfono.	Talking on the phone used to scare me.		asustaba
+asustar	subj-2s-voseo	No te asustés, es sólo un corte de luz.	Don't be alarmed, it's just a power cut.		asustés
+asustar	perf-1s	Me he asustado con el perro del vecino.	The neighbour's dog gave me a fright.		asustado
+alegrar	pres-1s	Me alegro de haber venido.	I'm glad I came.	alegrarse de = to be glad about	alegro
+alegrar	pres-2s	¿Te alegrás por la noticia?	Are you pleased about the news?		alegrás
+alegrar	pret-1s	Me alegré mucho de verlo.	I was really pleased to see him.		alegré
+alegrar	imperf-3s	Me alegraba el día un tereré.	A tereré used to make my day.		alegraba
+alegrar	cmd-vos	Alegrate, ya pasó lo peor.	Cheer up, the worst is over.		alegrate
+alegrar	perf-1s	Me he alegrado con tu mensaje.	Your message cheered me up.		alegrado
+extrañar	pres-2s	¿Extrañás tu país?	Do you miss your country?	extrañar, not echar de menos, here	extrañás
+extrañar	pret-1s	Extrañé el pan inglés los primeros meses.	I missed English bread the first few months.		extrañé
+extrañar	imperf-1s	Extrañaba el frío, aunque no lo crean.	I used to miss the cold, believe it or not.		extrañaba
+extrañar	cmd-vos	Extrañalo un poco pero no te quedes ahí.	Miss it a little but don't dwell on it.		extrañalo
+extrañar	perf-1s	He extrañado menos de lo que pensaba.	I've missed it less than I expected.		extrañado
+amar	pres-2s	¿Amás este país ya?	Do you love this country yet?	querer is used for people, amar is stronger	amás
+amar	pret-1s	Amé Asunción desde el primer día.	I loved Asunción from day one.		amé
+amar	imperf-1s	Amaba el invierno inglés, ahora no tanto.	I used to love the English winter, less so now.		amaba
+amar	cmd-vos	Amá el proceso, no sólo el resultado.	Love the process, not just the result.		amá
+amar	perf-1s	He amado y he odiado este idioma.	I've loved and hated this language.		amado
+odiar	pres-2s	¿Odiás el calor o te acostumbraste?	Do you hate the heat or have you got used to it?		odiás
+odiar	pret-1s	Odié el subjuntivo por un mes entero.	I hated the subjunctive for a whole month.		odié
+odiar	imperf-1s	Odiaba equivocarme delante de la gente.	I used to hate making mistakes in front of people.		odiaba
+odiar	subj-2s-voseo	No odiés la gramática, usala.	Don't hate the grammar, use it.		odiés
+odiar	perf-1s	He odiado y he superado el subjuntivo.	I've hated and got past the subjunctive.		odiado
+preferir	pres-2s	¿Preferís tereré o agua?	Do you prefer tereré or water?		preferís
+preferir	pret-1s	Preferí quedarme en casa.	I preferred to stay home.		preferí
+preferir	imperf-1s	Prefería escuchar antes que hablar.	I used to prefer listening to speaking.		prefería
+preferir	cmd-vos	Preferí lo simple al principio.	Go for the simple option at first.		preferí
+preferir	perf-1s	Siempre he preferido el mercado al shopping.	I've always preferred the market to the mall.	shopping = shopping centre	preferido
+elegir	pres-1s	Elijo siempre lo mismo, por costumbre.	I always choose the same thing, out of habit.	elijo: g becomes j	elijo
+elegir	pres-2s	¿Elegís vos el lugar?	Will you choose the place?		elegís
+elegir	pret-1s	Elegí mal el barrio la primera vez.	I chose the wrong neighbourhood the first time.		elegí
+elegir	imperf-1s	Elegía por precio nomás.	I used to choose on price alone.		elegía
+elegir	perf-1s	He elegido quedarme.	I've chosen to stay.		elegido
+faltar	pres-3s	Falta poco para que llegue.	It won't be long until he gets here.	faltar = to be lacking	falta
+faltar	pret-3s	Faltó plata para el alquiler.	We were short for the rent.		faltó
+faltar	imperf-3s	Faltaba siempre algo en la lista.	There was always something missing from the list.		faltaba
+faltar	pres-3p	Faltan dos firmas todavía.	Two signatures are still missing.		faltan
+faltar	perf-1s	He faltado al curso dos veces.	I've missed the class twice.	faltar a = to miss an appointment	faltado

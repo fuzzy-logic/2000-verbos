@@ -428,9 +428,13 @@ const FORM_META = {
   'pret-3s':    ['Preterite',   'él / ella — habló',             'preterite · él/ella'],
   'pret-1p':    ['Preterite',   'nosotros — hablamos',           'preterite · nosotros'],
   'pret-3p':    ['Preterite',   'ellos / ustedes — hablaron',    'preterite · ellos'],
+  'imperf-1s':  ['Imperfect',   'yo — hablaba',                  'imperfect · yo'],
   'imperf-3s':  ['Imperfect',   'él / ella — hablaba',           'imperfect · él/ella'],
   'imperf-3p':  ['Imperfect',   'ellos — hablaban',              'imperfect · ellos'],
-  'subj-2s':    ['Subjunctive', 'after no… — no hables',         'subjunctive · vos'],
+  'perf-1s':    ['Perfect',     'yo — he hablado',               'perfect · yo'],
+  'subj-2s':    ['Subjunctive', 'negative command — no hables',  'negative command'],
+  'subj-2s-voseo': ['Subjunctive', 'negative command, as spoken — no hablés',
+                                                                  'negative command (vos)'],
   'subj-3s':    ['Subjunctive', 'él / ella — hable',             'subjunctive · él/ella'],
   'subj-1p':    ['Subjunctive', 'nosotros — hablemos',           'subjunctive · nosotros'],
   'inf':        ['Other forms', 'infinitive after another verb',  'infinitive'],
@@ -439,7 +443,8 @@ const FORM_META = {
   'cond-1s':    ['Other forms', 'conditional — hablaría',        'conditional'],
   'impersonal': ['Other forms', 'hay',                           'impersonal'],
 };
-const FORM_SECTIONS = ['Present','Commands','Preterite','Imperfect','Subjunctive','Other forms'];
+const FORM_SECTIONS = ['Present','Commands','Preterite','Imperfect','Perfect',
+                       'Subjunctive','Other forms'];
 const LEVELS = ['A1','A2','B1'];
 
 /* ---------- state ---------- */
@@ -900,7 +905,7 @@ function render(){
   $('counter').textContent = `${state.idx+1} / ${list.length}`;
   $('progBar').style.width = ((state.idx+1)/list.length*100) + '%';
 
-  const key = r.r, m = state.marks[key];
+  const key = r.k || r.r, m = state.marks[key];
   $('knownBtn').style.opacity = m==='known' ? 1 : .55;
   $('shakyBtn').style.opacity = m==='shaky' ? 1 : .55;
 
@@ -981,7 +986,7 @@ function renderTable(){
   const box = $('rows');
   box.innerHTML = '';
   $('tableCount').textContent = matches.length === DATA.length
-    ? `all ${DATA.length} verbs`
+    ? `all ${DATA.length} sentences`
     : `${matches.length} of ${DATA.length}`;
   if(!matches.length){ box.innerHTML = '<div class="empty">Nothing matches that.</div>'; return; }
 
@@ -991,7 +996,7 @@ function renderTable(){
   matches.forEach(r=>{
     const d = document.createElement('div');
     d.className='rowitem';
-    d.innerHTML = `<div class="n">${r.r}</div>
+    d.innerHTML = `<div class="n">${r.r}${r.sq ? '<sup>+</sup>' : ''}</div>
       <div class="txt">
         <div class="v">${esc(r.v)} · ${esc(r.ve)}</div>
         <div class="s">${esc(r.s)}</div>
@@ -1130,8 +1135,8 @@ function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;'
 /* ---------- export ---------- */
 function exportCSV(){
   const q = s => '"' + String(s==null?'':s).replace(/"/g,'""') + '"';
-  const head = ['rank','verb_es','verb_en','sentence_es','sentence_en','note'].map(q).join(',');
-  const body = DATA.map(r=>[r.r,r.v,r.ve,r.s,r.t,r.n||''].map(q).join(',')).join('\n');
+  const head = ['rank','verb_es','verb_en','sentence_es','sentence_en','note','topic','form'].map(q).join(',');
+  const body = DATA.map(r=>[r.r,r.v,r.ve,r.s,r.t,r.n||'',r.tp||'',r.f||''].map(q).join(',')).join('\n');
   const blob = new Blob(['﻿'+head+'\n'+body], {type:'text/csv;charset=utf-8'});
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob); a.download = '2000-verbos.csv';
@@ -1176,9 +1181,11 @@ $('prevBtn').onclick = e => { e.stopPropagation(); stopAuto(); go(-1); };
 $('nextBtn').onclick = e => { e.stopPropagation(); stopAuto(); go(1); };
 $('autoBtn').onclick = e => { e.stopPropagation(); auto ? stopAuto() : startAuto(); };
 $('knownBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx];
-  state.marks[r.r] = state.marks[r.r]==='known' ? null : 'known'; render(); };
+  const k = r.k || r.r;
+  state.marks[k] = state.marks[k]==='known' ? null : 'known'; render(); };
 $('shakyBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx];
-  state.marks[r.r] = state.marks[r.r]==='shaky' ? null : 'shaky'; render(); };
+  const k = r.k || r.r;
+  state.marks[k] = state.marks[k]==='shaky' ? null : 'shaky'; render(); };
 
 $('chunkPrev').onclick = () => goChunk(-1);
 $('chunkNext').onclick = () => goChunk(1);

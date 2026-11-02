@@ -65,7 +65,7 @@ def strip_clitic(tok):
     """-> [(form, had_clitic)]. ayudarme -> ayudar, levantate -> levanta."""
     out = [(tok, False)]
     for c in CLITICS:
-        if tok.endswith(c) and len(tok) - len(c) >= 3:
+        if tok.endswith(c) and len(tok) - len(c) >= 2:
             out.append((tok[:-len(c)], True))
     return out
 
