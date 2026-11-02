@@ -2,5 +2,6 @@ audio/clips/
 audio/silence/
 audio/*.wav
 .venv/
+__pycache__/
 .concat.txt
 PLAN.local.md
