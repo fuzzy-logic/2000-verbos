@@ -1,151 +1,151 @@
 rank	verb_es	verb_en	sentence_es	sentence_en	note	topic	form	verb_token
-101	usar	to use	¿Puedo usar tu baño?	Can I use your bathroom?			inf	usar
-102	decidir	to decide	Todavía no decidí nada.	I haven't decided anything yet.			cmd-vos	decidí
-103	repetir	to repeat	¿Me lo repetís más despacio?	Can you repeat that more slowly for me?	voseo: repetís		pres-2s	repetís
-104	olvidar	to forget	Me olvidé las llaves en casa.	I forgot my keys at home.			pret-1s	olvidé
-105	valer	to be worth	¿Cuánto vale esto?	How much is this?			pres-3s	vale
-106	comer	to eat	¿Ya comiste?	Have you eaten yet?			pret-2s	comiste
-107	mostrar	to show	Mostrame la foto.	Show me the photo.	voseo imperative		cmd-vos	mostrame
-108	incluir	to include	El precio incluye el envío.	The price includes delivery.			pres-3s	incluye
-109	continuar	to continue	Continuamos mañana.	We'll continue tomorrow.			pres-1p	continuamos
-110	cerrar	to close	¿A qué hora cierran?	What time do you close?			pres-3p	cierran
-111	comprar	to buy	Compré fruta en el mercado.	I bought fruit at the market.			pret-1s	compré
-112	vender	to sell	Acá venden de todo.	They sell everything here.			pres-3p	venden
-113	subir	to go up	Subí al segundo piso.	Go up to the second floor.	voseo imperative		cmd-vos	subí
-114	bajar	to go down	Bajá con cuidado, está resbaloso.	Go down carefully, it's slippery.	voseo imperative		cmd-vos	bajá
-115	caminar	to walk	Caminamos hasta la plaza.	We walked to the square.			pres-1p	caminamos
-116	dormir	to sleep	No dormí casi nada anoche.	I barely slept last night.			cmd-vos	dormí
-117	despertar	to wake up	Me desperté a las cinco.	I woke up at five.			pret-1s	desperté
-118	bañar	to bathe	Me baño dos veces por día con este calor.	I shower twice a day in this heat.			pres-1s	baño
-119	lavar	to wash	Tengo que lavar la ropa.	I have to do the laundry.			inf	lavar
-120	cocinar	to cook	Mi suegra cocina increíble.	My mother-in-law cooks incredibly well.			pres-3s	cocina
-121	limpiar	to clean	Limpiá la mesa, por favor.	Clean the table, please.	voseo imperative		cmd-vos	limpiá
-122	manejar	to drive	Manejá con cuidado.	Drive carefully.	manejar = to drive (LatAm)		cmd-vos	manejá
-123	viajar	to travel	Viajo a Encarnación el viernes.	I'm travelling to Encarnación on Friday.			pres-1s	viajo
-124	visitar	to visit	Vamos a visitar a mi tía.	We're going to visit my aunt.			inf	visitar
-125	invitar	to invite	Te invito un tereré.	Let me buy you a tereré.	invitar = to treat someone		pres-1s	invito
-126	bailar	to dance	No sé bailar, pero lo intento.	I can't dance, but I try.			inf	bailar
-127	cantar	to sing	Canta en un coro los domingos.	She sings in a choir on Sundays.			pres-3s	canta
-128	reír	to laugh	Nos reímos toda la noche.	We laughed all night.			pres-1p	reímos
-129	llorar	to cry	El bebé llora cuando tiene hambre.	The baby cries when he's hungry.			pres-3s	llora
-130	gritar	to shout	No me grites, por favor.	Don't shout at me, please.			subj-2s	grites
-131	contestar	to answer	Nadie contesta el teléfono.	Nobody is answering the phone.			pres-3s	contesta
-132	responder	to respond	Te respondo apenas pueda.	I'll reply as soon as I can.			pres-1s	respondo
-133	saludar	to greet	Saludá a tu mamá de mi parte.	Say hello to your mum from me.	voseo imperative		cmd-vos	saludá
-134	agradecer	to thank	Te agradezco mucho la ayuda.	I really appreciate the help.			pres-1s	agradezco
-135	disculpar	to excuse	Disculpá, no te escuché.	Sorry, I didn't hear you.	voseo imperative		cmd-vos	disculpá
-136	perdonar	to forgive	Perdoname, llegué tarde.	Forgive me, I'm late.	voseo imperative		cmd-vos	perdoname
-137	prometer	to promise	Te prometo que voy a estudiar.	I promise you I'm going to study.			pres-1s	prometo
-138	mentir	to lie	No me mientas.	Don't lie to me.			subj-2s	mientas
-139	pelear	to fight	Se pelean por cualquier cosa.	They fight over anything.			pres-3p	pelean
-140	discutir	to argue	Discutimos por una tontería.	We argued over something silly.			pres-1p	discutimos
-141	enojar	to get angry	Se enojó conmigo sin razón.	He got angry with me for no reason.			pret-3s	enojó
-142	preocupar	to worry	No te preocupes, todo bien.	Don't worry, it's all fine.			subj-2s	preocupes
-143	asustar	to frighten	Me asusté con el ruido.	The noise frightened me.			pret-1s	asusté
-144	alegrar	to make glad	Me alegra verte.	I'm glad to see you.			pres-3s	alegra
-145	extrañar	to miss	Extraño a mi familia.	I miss my family.	extrañar = to miss (LatAm)		pres-1s	extraño
-146	amar	to love	Amo este país.	I love this country.			pres-1s	amo
-147	odiar	to hate	Odio el tráfico de la mañana.	I hate the morning traffic.			pres-1s	odio
-148	preferir	to prefer	Prefiero quedarme en casa.	I'd rather stay home.			pres-1s	prefiero
-149	elegir	to choose	Elegí el que más te guste.	Choose whichever you like best.	voseo imperative		cmd-vos	elegí
-150	cambiar	to swap	Cambiemos de tema.	Let's change the subject.			subj-1p	cambiemos
-151	esperar	to expect	Espero que te guste.	I hope you like it.	triggers subjunctive		pres-1s	espero
-152	necesitar	to require	Necesitás un documento para esto.	You need ID for this.	voseo: necesitás		pres-2s	necesitás
-153	faltar	to be lacking	Me falta un poco de plata.	I'm a bit short of money.			pres-3s	falta
-154	sobrar	to be left over	Sobró comida de anoche.	There's food left over from last night.			pret-3s	sobró
-155	bastar	to be enough	Basta, ya entendí.	That's enough, I get it.			pres-3s	basta
-156	durar	to last	La reunión duró dos horas.	The meeting lasted two hours.			pret-3s	duró
-157	tardar	to take time	¿Cuánto tarda en llegar?	How long does it take to get there?			pres-3s	tarda
-158	apurar	to hurry	Apurate que vamos tarde.	Hurry up, we're running late.	voseo imperative		cmd-vos	apurate
-159	parar	to stop	Pará un segundo.	Stop for a second.	voseo imperative		cmd-vos	pará
-160	seguir	to keep on	Seguí hablando, te escucho.	Keep talking, I'm listening.	voseo imperative		cmd-vos	seguí
-161	empujar	to push	Empujá la puerta, no tires.	Push the door, don't pull.	voseo imperative		cmd-vos	empujá
-162	tirar	to pull / to throw	No tires basura acá.	Don't throw rubbish here.			subj-2s	tires
-163	agarrar	to grab	Agarrá un taxi, está lejos.	Grab a taxi, it's far.	voseo imperative		cmd-vos	agarrá
-164	soltar	to let go	Soltá mi mano.	Let go of my hand.	voseo imperative		cmd-vos	soltá
-165	tocar	to knock	Tocaron la puerta.	Someone knocked at the door.			pret-3p	tocaron
-166	abrazar	to hug	Me abrazó muy fuerte.	She hugged me very tightly.			pret-3s	abrazó
-167	besar	to kiss	Acá se saluda con un beso.	Here people greet with a kiss.			pres-1s	beso
-168	mirar	to watch	Miramos el partido juntos.	We watched the match together.			pres-1p	miramos
-169	notar	to notice	Noté que estabas callado.	I noticed you were quiet.			pret-1s	noté
-170	observar	to observe	Observá cómo lo hacen ellos.	Watch how they do it.	voseo imperative		cmd-vos	observá
-171	fijar	to fix / to notice	Fijate bien antes de cruzar.	Look carefully before crossing.	fijarse = to pay attention		cmd-vos	fijate
-172	imaginar	to imagine	Imaginate vivir acá para siempre.	Imagine living here forever.	voseo imperative		cmd-vos	imaginate
-173	soñar	to dream	Soñé que hablaba español perfecto.	I dreamt I spoke perfect Spanish.			pret-1s	soñé
-174	desear	to wish	Te deseo lo mejor.	I wish you the best.			pres-1s	deseo
-175	soportar	to put up with	No soporto el calor del mediodía.	I can't stand the midday heat.			pres-1s	soporto
-176	disfrutar	to enjoy	Disfrutá el momento.	Enjoy the moment.	voseo imperative		cmd-vos	disfrutá
-177	descansar	to rest	Necesito descansar un rato.	I need to rest for a while.			inf	descansar
-178	relajar	to relax	Relajate, no pasa nada.	Relax, it's fine.	voseo imperative		cmd-vos	relajate
-179	divertir	to have fun	Nos divertimos muchísimo.	We had a great time.			pres-1p	divertimos
-180	aburrir	to bore	Me aburro sin hacer nada.	I get bored doing nothing.			pres-1s	aburro
-181	cansar	to tire	Me canso rápido con el calor.	I get tired quickly in the heat.			pres-1s	canso
-182	enfermar	to get sick	Me enfermé la semana pasada.	I got sick last week.			pret-1s	enfermé
-183	curar	to heal	Esto cura cualquier resfriado.	This cures any cold.			pres-3s	cura
-184	doler	to hurt	Me duele la cabeza.	My head hurts.			pres-3s	duele
-185	sanar	to recover	Ya sané del todo.	I've fully recovered now.			pret-1s	sané
-186	criar	to raise	Me crié en el campo.	I was raised in the countryside.			pret-1s	crié
-187	crecer	to grow	Los chicos crecen rapidísimo.	Kids grow up so fast.			pres-3p	crecen
-188	envejecer	to grow old	Todos envejecemos.	We all get older.			pres-1p	envejecemos
-189	casar	to marry	Se casaron el año pasado.	They got married last year.			pret-3p	casaron
-190	separar	to separate	Se separaron hace poco.	They split up recently.			pret-3p	separaron
-191	surgir	to arise	Surgió un problema con el alquiler.	A problem came up with the rent.			pret-3s	surgió
-192	construir	to build	Están construyendo un edificio enfrente.	They're building a block across the road.			prog	construyendo
-193	romper	to break	Se me rompió el celular.	My phone broke.			pret-3s	rompió
-194	arreglar	to fix	¿Sabés arreglar esto?	Do you know how to fix this?	voseo: sabés		inf	arreglar
-195	funcionar	to work (function)	El aire no funciona.	The air conditioning isn't working.			pres-3s	funciona
-196	servir	to work / to do	¿Te sirve así?	Does it work for you like this?			pres-3s	sirve
-197	andar	to go / to be	¿Cómo andás?	How's it going?	very common PY/AR greeting		pres-2s	andás
-198	quedar	to suit / to fit	Te queda bien ese color.	That colour suits you.			pres-3s	queda
-199	probar	to try / to taste	Probá esto, está riquísimo.	Try this, it's delicious.	voseo imperative		cmd-vos	probá
-200	parecer	to look like	Parece que va a llover.	It looks like it's going to rain.			pres-3s	parece
-201	pensar	to intend	Pienso quedarme dos años.	I'm planning to stay two years.			pres-1s	pienso
-202	planear	to plan	Estamos planeando un viaje.	We're planning a trip.			prog	planeando
-203	organizar	to organise	Organizamos una cena.	We organised a dinner.			pres-1p	organizamos
-204	preparar	to prepare	Preparé algo rico para vos.	I made something nice for you.	voseo pronoun: vos		pret-1s	preparé
-205	armar	to put together	Armemos el asado para el domingo.	Let's put together a barbecue for Sunday.	asado = barbecue		subj-1p	armemos
-206	juntar	to gather	Nos juntamos los viernes.	We get together on Fridays.			pres-1p	juntamos
-207	reunir	to meet	La familia se reúne los domingos.	The family gets together on Sundays.			pres-3s	reúne
-208	acompañar	to accompany	¿Me acompañás al banco?	Will you come with me to the bank?	voseo: acompañás		pres-2s	acompañás
-209	presentar	to introduce	Me presentaron a mucha gente.	I was introduced to a lot of people.			pret-3p	presentaron
-210	conocer	to meet	Ayer conocí a tu hermano.	I met your brother yesterday.			pret-1s	conocí
-211	saludar	to say hi	Siempre me saluda en la calle.	He always says hi to me in the street.			pres-3s	saluda
-212	charlar	to chat	Charlamos un rato largo.	We chatted for a good while.			pres-1p	charlamos
-213	conversar	to converse	Me gusta conversar con la gente de acá.	I like talking with people here.			inf	conversar
-214	contar	to recount	Contame todo.	Tell me everything.	voseo imperative		cmd-vos	contame
-215	avisar	to let know	Avisame cuando salgas.	Let me know when you leave.	voseo imperative		cmd-vos	avisame
-216	llamar	to name	¿Cómo se llama esto en guaraní?	What's this called in Guaraní?			pres-3s	llama
-217	significar	to mean	¿Qué significa esa palabra?	What does that word mean?			pres-3s	significa
-218	traducir	to translate	¿Me lo traducís?	Could you translate it for me?	voseo: traducís		pres-2s	traducís
-219	pronunciar	to pronounce	No sé pronunciar bien la erre.	I can't pronounce the rolled r properly.			inf	pronunciar
-220	escribir	to spell out	¿Cómo se escribe tu apellido?	How do you spell your surname?			pres-3s	escribe
-221	deletrear	to spell	Deletreámelo, por favor.	Spell it out for me, please.	voseo imperative		cmd-vos	deletreámelo
-222	aprender	to learn	Estoy aprendiendo de a poco.	I'm learning bit by bit.			prog	aprendiendo
-223	enseñar	to teach	¿Me enseñás una palabra en guaraní?	Will you teach me a word in Guaraní?	voseo: enseñás		pres-2s	enseñás
-224	practicar	to practise	Practico todos los días.	I practise every day.			pres-1s	practico
-225	mejorar	to improve	Mi español mejoró mucho.	My Spanish has improved a lot.			pret-3s	mejoró
-226	empeorar	to get worse	El tráfico empeora a esta hora.	Traffic gets worse at this time.			pres-3s	empeora
-227	corregir	to correct	Corregime si digo algo mal.	Correct me if I say something wrong.	voseo imperative		cmd-vos	corregime
-228	equivocar	to make a mistake	Me equivoqué de calle.	I took the wrong street.			pret-1s	equivoqué
-229	fallar	to fail	Me falló el internet.	My internet went down.			pret-3s	falló
-230	funcionar	to run	¿Cómo funciona esto?	How does this work?			pres-3s	funciona
-231	costar	to cost	¿Cuánto cuesta el pasaje?	How much is the fare?			pres-3s	cuesta
-232	gastar	to spend	Gasté demasiado este mes.	I spent too much this month.			pret-1s	gasté
-233	ahorrar	to save	Estoy ahorrando para un auto.	I'm saving for a car.			prog	ahorrando
-234	prestar	to lend	¿Me prestás tu lapicera?	Can you lend me your pen?	lapicera = pen (PY/AR)		pres-2s	prestás
-235	deber	to owe	Te debo un favor.	I owe you a favour.			pres-1s	debo
-236	cobrar	to charge	¿Cuánto me cobrás?	How much are you charging me?	voseo: cobrás		pres-2s	cobrás
-237	alquilar	to rent	Alquilo un departamento en Villa Morra.	I rent a flat in Villa Morra.	departamento = flat		pres-1s	alquilo
-238	firmar	to sign	Firmá acá abajo.	Sign down here.	voseo imperative		cmd-vos	firmá
-239	entregar	to deliver	Entregan a domicilio.	They deliver to your door.			pres-3p	entregan
-240	recoger	to pick up	Paso a recogerte a las ocho.	I'll pick you up at eight.			inf	recogerte
-241	buscar	to fetch	Vengo a buscar un paquete.	I'm here to collect a parcel.			inf	buscar
-242	enviar	to send	Te envío la dirección por mensaje.	I'll send you the address by message.			pres-1s	envío
-243	mandar	to send	Mandame un audio mejor.	Just send me a voice note instead.	audio = voice note		cmd-vos	mandame
-244	recibir	to get	Recibí la factura ayer.	I got the invoice yesterday.			cmd-vos	recibí
-245	devolver	to return	Tengo que devolver esto.	I have to return this.			inf	devolver
-246	guardar	to keep	Guardá el ticket por las dudas.	Keep the receipt just in case.	voseo imperative		cmd-vos	guardá
-247	perder	to waste	No quiero perder tiempo.	I don't want to waste time.			inf	perder
-248	encontrar	to come across	Me encontré con un amigo en el súper.	I ran into a friend at the supermarket.			pret-1s	encontré
-249	esconder	to hide	¿Dónde escondiste las llaves?	Where did you hide the keys?			pret-2s	escondiste
-250	descubrir	to find out	Descubrí que hablan guaraní en casa.	I found out they speak Guaraní at home.			cmd-vos	descubrí
+101	usar	to use	¿Puedo usar tu baño?	Can I use your bathroom?		doing-handling	inf	usar
+102	decidir	to decide	Todavía no decidí nada.	I haven't decided anything yet.		thinking-knowing	cmd-vos	decidí
+103	repetir	to repeat	¿Me lo repetís más despacio?	Can you repeat that more slowly for me?	voseo: repetís	asking-understanding	pres-2s	repetís
+104	olvidar	to forget	Me olvidé las llaves en casa.	I forgot my keys at home.		thinking-knowing	pret-1s	olvidé
+105	valer	to be worth	¿Cuánto vale esto?	How much is this?		being-feeling	pres-3s	vale
+106	comer	to eat	¿Ya comiste?	Have you eaten yet?		ordering-eating	pret-2s	comiste
+107	mostrar	to show	Mostrame la foto.	Show me the photo.	voseo imperative	doing-handling	cmd-vos	mostrame
+108	incluir	to include	El precio incluye el envío.	The price includes delivery.		change-cause	pres-3s	incluye
+109	continuar	to continue	Continuamos mañana.	We'll continue tomorrow.		change-cause	pres-1p	continuamos
+110	cerrar	to close	¿A qué hora cierran?	What time do you close?		doing-handling	pres-3p	cierran
+111	comprar	to buy	Compré fruta en el mercado.	I bought fruit at the market.		buying-paying	pret-1s	compré
+112	vender	to sell	Acá venden de todo.	They sell everything here.		buying-paying	pres-3p	venden
+113	subir	to go up	Subí al segundo piso.	Go up to the second floor.	voseo imperative	transport-colectivo	cmd-vos	subí
+114	bajar	to go down	Bajá con cuidado, está resbaloso.	Go down carefully, it's slippery.	voseo imperative	transport-colectivo	cmd-vos	bajá
+115	caminar	to walk	Caminamos hasta la plaza.	We walked to the square.		directions-places	pres-1p	caminamos
+116	dormir	to sleep	No dormí casi nada anoche.	I barely slept last night.		daily-routine	cmd-vos	dormí
+117	despertar	to wake up	Me desperté a las cinco.	I woke up at five.		daily-routine	pret-1s	desperté
+118	bañar	to bathe	Me baño dos veces por día con este calor.	I shower twice a day in this heat.		daily-routine	pres-1s	baño
+119	lavar	to wash	Tengo que lavar la ropa.	I have to do the laundry.		daily-routine	inf	lavar
+120	cocinar	to cook	Mi suegra cocina increíble.	My mother-in-law cooks incredibly well.		cooking-kitchen	pres-3s	cocina
+121	limpiar	to clean	Limpiá la mesa, por favor.	Clean the table, please.	voseo imperative	house-renting	cmd-vos	limpiá
+122	manejar	to drive	Manejá con cuidado.	Drive carefully.	manejar = to drive (LatAm)	driving-moto	cmd-vos	manejá
+123	viajar	to travel	Viajo a Encarnación el viernes.	I'm travelling to Encarnación on Friday.		transport-colectivo	pres-1s	viajo
+124	visitar	to visit	Vamos a visitar a mi tía.	We're going to visit my aunt.		family-friends	inf	visitar
+125	invitar	to invite	Te invito un tereré.	Let me buy you a tereré.	invitar = to treat someone	greeting-small-talk	pres-1s	invito
+126	bailar	to dance	No sé bailar, pero lo intento.	I can't dance, but I try.		free-time	inf	bailar
+127	cantar	to sing	Canta en un coro los domingos.	She sings in a choir on Sundays.		free-time	pres-3s	canta
+128	reír	to laugh	Nos reímos toda la noche.	We laughed all night.		feelings-conflict	pres-1p	reímos
+129	llorar	to cry	El bebé llora cuando tiene hambre.	The baby cries when he's hungry.		feelings-conflict	pres-3s	llora
+130	gritar	to shout	No me grites, por favor.	Don't shout at me, please.		feelings-conflict	subj-2s	grites
+131	contestar	to answer	Nadie contesta el teléfono.	Nobody is answering the phone.		conversation-opinion	pres-3s	contesta
+132	responder	to respond	Te respondo apenas pueda.	I'll reply as soon as I can.		conversation-opinion	pres-1s	respondo
+133	saludar	to greet	Saludá a tu mamá de mi parte.	Say hello to your mum from me.	voseo imperative	greeting-small-talk	cmd-vos	saludá
+134	agradecer	to thank	Te agradezco mucho la ayuda.	I really appreciate the help.		greeting-small-talk	pres-1s	agradezco
+135	disculpar	to excuse	Disculpá, no te escuché.	Sorry, I didn't hear you.	voseo imperative	feelings-conflict	cmd-vos	disculpá
+136	perdonar	to forgive	Perdoname, llegué tarde.	Forgive me, I'm late.	voseo imperative	feelings-conflict	cmd-vos	perdoname
+137	prometer	to promise	Te prometo que voy a estudiar.	I promise you I'm going to study.		conversation-opinion	pres-1s	prometo
+138	mentir	to lie	No me mientas.	Don't lie to me.		conversation-opinion	subj-2s	mientas
+139	pelear	to fight	Se pelean por cualquier cosa.	They fight over anything.		feelings-conflict	pres-3p	pelean
+140	discutir	to argue	Discutimos por una tontería.	We argued over something silly.		conversation-opinion	pres-1p	discutimos
+141	enojar	to get angry	Se enojó conmigo sin razón.	He got angry with me for no reason.		feelings-conflict	pret-3s	enojó
+142	preocupar	to worry	No te preocupes, todo bien.	Don't worry, it's all fine.		feelings-conflict	subj-2s	preocupes
+143	asustar	to frighten	Me asusté con el ruido.	The noise frightened me.		feelings-conflict	pret-1s	asusté
+144	alegrar	to make glad	Me alegra verte.	I'm glad to see you.		feelings-conflict	pres-3s	alegra
+145	extrañar	to miss	Extraño a mi familia.	I miss my family.	extrañar = to miss (LatAm)	family-friends	pres-1s	extraño
+146	amar	to love	Amo este país.	I love this country.		family-friends	pres-1s	amo
+147	odiar	to hate	Odio el tráfico de la mañana.	I hate the morning traffic.		feelings-conflict	pres-1s	odio
+148	preferir	to prefer	Prefiero quedarme en casa.	I'd rather stay home.		yes-no-maybe	pres-1s	prefiero
+149	elegir	to choose	Elegí el que más te guste.	Choose whichever you like best.	voseo imperative	buying-paying	cmd-vos	elegí
+150	cambiar	to swap	Cambiemos de tema.	Let's change the subject.		buying-paying	subj-1p	cambiemos
+151	esperar	to expect	Espero que te guste.	I hope you like it.	triggers subjunctive	thinking-knowing	pres-1s	espero
+152	necesitar	to require	Necesitás un documento para esto.	You need ID for this.	voseo: necesitás	yes-no-maybe	pres-2s	necesitás
+153	faltar	to be lacking	Me falta un poco de plata.	I'm a bit short of money.		haggling-quantities	pres-3s	falta
+154	sobrar	to be left over	Sobró comida de anoche.	There's food left over from last night.		haggling-quantities	pret-3s	sobró
+155	bastar	to be enough	Basta, ya entendí.	That's enough, I get it.		haggling-quantities	pres-3s	basta
+156	durar	to last	La reunión duró dos horas.	The meeting lasted two hours.		change-cause	pret-3s	duró
+157	tardar	to take time	¿Cuánto tarda en llegar?	How long does it take to get there?		arranging-to-meet	pres-3s	tarda
+158	apurar	to hurry	Apurate que vamos tarde.	Hurry up, we're running late.	voseo imperative	daily-routine	cmd-vos	apurate
+159	parar	to stop	Pará un segundo.	Stop for a second.	voseo imperative	transport-colectivo	cmd-vos	pará
+160	seguir	to keep on	Seguí hablando, te escucho.	Keep talking, I'm listening.	voseo imperative	directions-places	cmd-vos	seguí
+161	empujar	to push	Empujá la puerta, no tires.	Push the door, don't pull.	voseo imperative	doing-handling	cmd-vos	empujá
+162	tirar	to pull / to throw	No tires basura acá.	Don't throw rubbish here.		doing-handling	subj-2s	tires
+163	agarrar	to grab	Agarrá un taxi, está lejos.	Grab a taxi, it's far.	voseo imperative	doing-handling	cmd-vos	agarrá
+164	soltar	to let go	Soltá mi mano.	Let go of my hand.	voseo imperative	doing-handling	cmd-vos	soltá
+165	tocar	to knock	Tocaron la puerta.	Someone knocked at the door.		doing-handling	pret-3p	tocaron
+166	abrazar	to hug	Me abrazó muy fuerte.	She hugged me very tightly.		greeting-small-talk	pret-3s	abrazó
+167	besar	to kiss	Acá se saluda con un beso.	Here people greet with a kiss.		greeting-small-talk	pres-1s	beso
+168	mirar	to watch	Miramos el partido juntos.	We watched the match together.		seeing-noticing	pres-1p	miramos
+169	notar	to notice	Noté que estabas callado.	I noticed you were quiet.		seeing-noticing	pret-1s	noté
+170	observar	to observe	Observá cómo lo hacen ellos.	Watch how they do it.	voseo imperative	seeing-noticing	cmd-vos	observá
+171	fijar	to fix / to notice	Fijate bien antes de cruzar.	Look carefully before crossing.	fijarse = to pay attention	fixing-breaking-power	cmd-vos	fijate
+172	imaginar	to imagine	Imaginate vivir acá para siempre.	Imagine living here forever.	voseo imperative	thinking-knowing	cmd-vos	imaginate
+173	soñar	to dream	Soñé que hablaba español perfecto.	I dreamt I spoke perfect Spanish.		free-time	pret-1s	soñé
+174	desear	to wish	Te deseo lo mejor.	I wish you the best.		free-time	pres-1s	deseo
+175	soportar	to put up with	No soporto el calor del mediodía.	I can't stand the midday heat.		feelings-conflict	pres-1s	soporto
+176	disfrutar	to enjoy	Disfrutá el momento.	Enjoy the moment.	voseo imperative	free-time	cmd-vos	disfrutá
+177	descansar	to rest	Necesito descansar un rato.	I need to rest for a while.		daily-routine	inf	descansar
+178	relajar	to relax	Relajate, no pasa nada.	Relax, it's fine.	voseo imperative	free-time	cmd-vos	relajate
+179	divertir	to have fun	Nos divertimos muchísimo.	We had a great time.		free-time	pres-1p	divertimos
+180	aburrir	to bore	Me aburro sin hacer nada.	I get bored doing nothing.		feelings-conflict	pres-1s	aburro
+181	cansar	to tire	Me canso rápido con el calor.	I get tired quickly in the heat.		body-illness-pharmacy	pres-1s	canso
+182	enfermar	to get sick	Me enfermé la semana pasada.	I got sick last week.		body-illness-pharmacy	pret-1s	enfermé
+183	curar	to heal	Esto cura cualquier resfriado.	This cures any cold.		body-illness-pharmacy	pres-3s	cura
+184	doler	to hurt	Me duele la cabeza.	My head hurts.		body-illness-pharmacy	pres-3s	duele
+185	sanar	to recover	Ya sané del todo.	I've fully recovered now.		body-illness-pharmacy	pret-1s	sané
+186	criar	to raise	Me crié en el campo.	I was raised in the countryside.		family-friends	pret-1s	crié
+187	crecer	to grow	Los chicos crecen rapidísimo.	Kids grow up so fast.		family-friends	pres-3p	crecen
+188	envejecer	to grow old	Todos envejecemos.	We all get older.		family-friends	pres-1p	envejecemos
+189	casar	to marry	Se casaron el año pasado.	They got married last year.		family-friends	pret-3p	casaron
+190	separar	to separate	Se separaron hace poco.	They split up recently.		doing-handling	pret-3p	separaron
+191	surgir	to arise	Surgió un problema con el alquiler.	A problem came up with the rent.		change-cause	pret-3s	surgió
+192	construir	to build	Están construyendo un edificio enfrente.	They're building a block across the road.		house-renting	prog	construyendo
+193	romper	to break	Se me rompió el celular.	My phone broke.		fixing-breaking-power	pret-3s	rompió
+194	arreglar	to fix	¿Sabés arreglar esto?	Do you know how to fix this?	voseo: sabés	house-renting	inf	arreglar
+195	funcionar	to work (function)	El aire no funciona.	The air conditioning isn't working.		fixing-breaking-power	pres-3s	funciona
+196	servir	to work / to do	¿Te sirve así?	Does it work for you like this?		ordering-eating	pres-3s	sirve
+197	andar	to go / to be	¿Cómo andás?	How's it going?	very common PY/AR greeting	being-feeling	pres-2s	andás
+198	quedar	to suit / to fit	Te queda bien ese color.	That colour suits you.		being-feeling	pres-3s	queda
+199	probar	to try / to taste	Probá esto, está riquísimo.	Try this, it's delicious.	voseo imperative	yes-no-maybe	cmd-vos	probá
+200	parecer	to look like	Parece que va a llover.	It looks like it's going to rain.		being-feeling	pres-3s	parece
+201	pensar	to intend	Pienso quedarme dos años.	I'm planning to stay two years.		thinking-knowing	pres-1s	pienso
+202	planear	to plan	Estamos planeando un viaje.	We're planning a trip.		work-tasks	prog	planeando
+203	organizar	to organise	Organizamos una cena.	We organised a dinner.		work-tasks	pres-1p	organizamos
+204	preparar	to prepare	Preparé algo rico para vos.	I made something nice for you.	voseo pronoun: vos	cooking-kitchen	pret-1s	preparé
+205	armar	to put together	Armemos el asado para el domingo.	Let's put together a barbecue for Sunday.	asado = barbecue	fixing-breaking-power	subj-1p	armemos
+206	juntar	to gather	Nos juntamos los viernes.	We get together on Fridays.		doing-handling	pres-1p	juntamos
+207	reunir	to meet	La familia se reúne los domingos.	The family gets together on Sundays.		arranging-to-meet	pres-3s	reúne
+208	acompañar	to accompany	¿Me acompañás al banco?	Will you come with me to the bank?	voseo: acompañás	greeting-small-talk	pres-2s	acompañás
+209	presentar	to introduce	Me presentaron a mucha gente.	I was introduced to a lot of people.		greeting-small-talk	pret-3p	presentaron
+210	conocer	to meet	Ayer conocí a tu hermano.	I met your brother yesterday.		greeting-small-talk	pret-1s	conocí
+211	saludar	to say hi	Siempre me saluda en la calle.	He always says hi to me in the street.		greeting-small-talk	pres-3s	saluda
+212	charlar	to chat	Charlamos un rato largo.	We chatted for a good while.		conversation-opinion	pres-1p	charlamos
+213	conversar	to converse	Me gusta conversar con la gente de acá.	I like talking with people here.		conversation-opinion	inf	conversar
+214	contar	to recount	Contame todo.	Tell me everything.	voseo imperative	haggling-quantities	cmd-vos	contame
+215	avisar	to let know	Avisame cuando salgas.	Let me know when you leave.	voseo imperative	arranging-to-meet	cmd-vos	avisame
+216	llamar	to name	¿Cómo se llama esto en guaraní?	What's this called in Guaraní?		greeting-small-talk	pres-3s	llama
+217	significar	to mean	¿Qué significa esa palabra?	What does that word mean?		asking-understanding	pres-3s	significa
+218	traducir	to translate	¿Me lo traducís?	Could you translate it for me?	voseo: traducís	asking-understanding	pres-2s	traducís
+219	pronunciar	to pronounce	No sé pronunciar bien la erre.	I can't pronounce the rolled r properly.		asking-understanding	inf	pronunciar
+220	escribir	to spell out	¿Cómo se escribe tu apellido?	How do you spell your surname?		phone-computer	pres-3s	escribe
+221	deletrear	to spell	Deletreámelo, por favor.	Spell it out for me, please.	voseo imperative	asking-understanding	cmd-vos	deletreámelo
+222	aprender	to learn	Estoy aprendiendo de a poco.	I'm learning bit by bit.		work-tasks	prog	aprendiendo
+223	enseñar	to teach	¿Me enseñás una palabra en guaraní?	Will you teach me a word in Guaraní?	voseo: enseñás	work-tasks	pres-2s	enseñás
+224	practicar	to practise	Practico todos los días.	I practise every day.		free-time	pres-1s	practico
+225	mejorar	to improve	Mi español mejoró mucho.	My Spanish has improved a lot.		change-cause	pret-3s	mejoró
+226	empeorar	to get worse	El tráfico empeora a esta hora.	Traffic gets worse at this time.		body-illness-pharmacy	pres-3s	empeora
+227	corregir	to correct	Corregime si digo algo mal.	Correct me if I say something wrong.	voseo imperative	work-tasks	cmd-vos	corregime
+228	equivocar	to make a mistake	Me equivoqué de calle.	I took the wrong street.		asking-understanding	pret-1s	equivoqué
+229	fallar	to fail	Me falló el internet.	My internet went down.		fixing-breaking-power	pret-3s	falló
+230	funcionar	to run	¿Cómo funciona esto?	How does this work?		fixing-breaking-power	pres-3s	funciona
+231	costar	to cost	¿Cuánto cuesta el pasaje?	How much is the fare?		buying-paying	pres-3s	cuesta
+232	gastar	to spend	Gasté demasiado este mes.	I spent too much this month.		buying-paying	pret-1s	gasté
+233	ahorrar	to save	Estoy ahorrando para un auto.	I'm saving for a car.		buying-paying	prog	ahorrando
+234	prestar	to lend	¿Me prestás tu lapicera?	Can you lend me your pen?	lapicera = pen (PY/AR)	bank-cash-credit	pres-2s	prestás
+235	deber	to owe	Te debo un favor.	I owe you a favour.		yes-no-maybe	pres-1s	debo
+236	cobrar	to charge	¿Cuánto me cobrás?	How much are you charging me?	voseo: cobrás	buying-paying	pres-2s	cobrás
+237	alquilar	to rent	Alquilo un departamento en Villa Morra.	I rent a flat in Villa Morra.	departamento = flat	house-renting	pres-1s	alquilo
+238	firmar	to sign	Firmá acá abajo.	Sign down here.	voseo imperative	paperwork-bureaucracy	cmd-vos	firmá
+239	entregar	to deliver	Entregan a domicilio.	They deliver to your door.		buying-paying	pres-3p	entregan
+240	recoger	to pick up	Paso a recogerte a las ocho.	I'll pick you up at eight.		doing-handling	inf	recogerte
+241	buscar	to fetch	Vengo a buscar un paquete.	I'm here to collect a parcel.		seeing-noticing	inf	buscar
+242	enviar	to send	Te envío la dirección por mensaje.	I'll send you the address by message.		phone-computer	pres-1s	envío
+243	mandar	to send	Mandame un audio mejor.	Just send me a voice note instead.	audio = voice note	phone-computer	cmd-vos	mandame
+244	recibir	to get	Recibí la factura ayer.	I got the invoice yesterday.		greeting-small-talk	cmd-vos	recibí
+245	devolver	to return	Tengo que devolver esto.	I have to return this.		buying-paying	inf	devolver
+246	guardar	to keep	Guardá el ticket por las dudas.	Keep the receipt just in case.	voseo imperative	doing-handling	cmd-vos	guardá
+247	perder	to waste	No quiero perder tiempo.	I don't want to waste time.		haggling-quantities	inf	perder
+248	encontrar	to come across	Me encontré con un amigo en el súper.	I ran into a friend at the supermarket.		seeing-noticing	pret-1s	encontré
+249	esconder	to hide	¿Dónde escondiste las llaves?	Where did you hide the keys?		doing-handling	pret-2s	escondiste
+250	descubrir	to find out	Descubrí que hablan guaraní en casa.	I found out they speak Guaraní at home.		seeing-noticing	cmd-vos	descubrí

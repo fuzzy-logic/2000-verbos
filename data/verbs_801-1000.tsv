@@ -1,201 +1,201 @@
 rank	verb_es	verb_en	sentence_es	sentence_en	note	topic	form	verb_token
-801	acelerar	to accelerate	Aceleró para pasar al camión.	He accelerated to overtake the lorry.			pret-3s	aceleró
-802	retrasar	to put back	Retrasaron la obra dos meses.	They put the building work back two months.			pret-3p	retrasaron
-803	apresurar	to hasten	Apresuró el paso al ver la lluvia.	He quickened his pace when he saw the rain.			pret-3s	apresuró
-804	demorar	to take (time)	Demora una hora en colectivo.	It takes an hour by bus.			pres-3s	demora
-805	permanecer	to remain	Permaneció callado todo el rato.	He remained silent the whole time.			pret-3s	permaneció
-806	persistir	to persist	Persiste el problema con el agua.	The water problem persists.			pres-3s	persiste
-807	insistir	to insist	Insistió en acompañarme.	He insisted on coming with me.			pret-3s	insistió
-808	desistir	to desist	Desistió después de tres intentos.	He gave up after three attempts.			pret-3s	desistió
-809	abandonar	to abandon	Abandonó el curso a la mitad.	He dropped out of the course halfway.			pret-3s	abandonó
-810	renunciar a	to give up	Renuncié a esa idea.	I gave up on that idea.			pret-1s	renuncié
-811	conformarse	to settle for	Me conformo con poco.	I'm happy with little.			pres-1s	conformo
-812	exigirse	to demand of oneself	Se exige demasiado.	He's too hard on himself.			pres-3s	exige
-813	acostumbrar a	to get someone used to	Lo acostumbraron a comer de todo.	They got him used to eating everything.			pret-3p	acostumbraron
-814	entrenarse	to train oneself	Me entrené para la carrera.	I trained for the race.			pret-1s	entrené
-815	prepararse	to get ready	Preparate, salimos en diez.	Get ready, we're leaving in ten.	voseo imperative		cmd-vos	preparate
-816	disponerse	to be about to	Se disponía a salir cuando llamé.	He was about to leave when I called.			imperf-3s	disponía
-817	decidirse	to make up one's mind	No me decido todavía.	I still can't make up my mind.			pres-1s	decido
-818	comprometerse	to commit	Me comprometí a estudiar una hora por día.	I committed to studying an hour a day.			pret-1s	comprometí
-819	casarse	to get married	Se casan en noviembre.	They're getting married in November.			pres-3p	casan
-820	enamorarse	to fall in love	Se enamoró en dos semanas.	He fell in love in two weeks.			pret-3s	enamoró
-821	separarse	to split up	Se separaron de común acuerdo.	They separated amicably.			pret-3p	separaron
-822	reconciliarse	to make up	Se reconciliaron al mes.	They made up a month later.			pret-3p	reconciliaron
-823	despedirse	to say goodbye	Me despedí de todos antes de salir.	I said goodbye to everyone before leaving.			cmd-vos	despedí
-824	saludarse	to greet each other	Acá todos se saludan en la calle.	Here everyone greets each other in the street.			pres-3p	saludan
-825	abrazarse	to hug each other	Se abrazaron largo rato.	They hugged for a long while.			pret-3p	abrazaron
-826	reunirse	to meet up	Nos reunimos los viernes a la noche.	We meet up on Friday nights.			pres-1p	reunimos
-827	juntarse	to get together	Nos juntamos a tomar tereré.	We get together to drink tereré.			pres-1p	juntamos
-828	visitarse	to visit each other	Se visitan todos los domingos.	They visit each other every Sunday.			pres-3p	visitan
-829	ayudarse	to help each other	Acá la gente se ayuda mucho.	People help each other a lot here.			pres-3s	ayuda
-830	entenderse	to understand each other	Nos entendemos a señas.	We understand each other with gestures.			pres-1p	entendemos
-831	comunicarse	to communicate	Me comunico mejor cada mes.	I communicate better every month.			pres-1s	comunico
-832	expresarse	to express oneself	Todavía no me expreso bien.	I still can't express myself well.			pres-1s	expreso
-833	callarse	to go quiet	Se calló de golpe.	He went quiet all of a sudden.			pret-3s	calló
-834	interrumpirse	to break off	Se interrumpió la llamada.	The call cut out.			pret-3s	interrumpió
-835	escucharse	to be heard	No se escucha nada.	Nothing can be heard.			pres-3s	escucha
-836	oírse	to sound	Se oye raro ese acento.	That accent sounds odd.			pres-3s	oye
-837	sonar	to sound / to ring	Sonó el teléfono dos veces.	The phone rang twice.			pret-3s	sonó
-838	timbrar	to ring the bell	Timbraron en la puerta.	Someone rang at the door.			pret-3p	timbraron
-839	golpear	to hit / to knock	Golpearon la puerta fuerte.	They knocked loudly at the door.			pret-3p	golpearon
-840	chocar	to crash	Chocó contra un poste.	He crashed into a post.			pret-3s	chocó
-841	atropellar	to run over	Casi me atropella una moto.	A motorbike nearly ran me over.			pres-3s	atropella
-842	frenarse	to stop oneself	Me frené justo a tiempo.	I stopped myself just in time.			pret-1s	frené
-843	resbalar	to slip	Resbalé en el piso mojado.	I slipped on the wet floor.			pret-1s	resbalé
-844	tropezar	to trip	Tropecé con el escalón.	I tripped on the step.			pret-1s	tropecé
-845	caerse	to fall over	Me caí de la bici.	I fell off the bike.			pret-1s	caí
-846	levantarse	to get up	Me levanto a las seis.	I get up at six.			pres-1s	levanto
-847	agacharse	to crouch	Agachate para pasar.	Duck to get through.	voseo imperative		cmd-vos	agachate
-848	arrodillarse	to kneel	Se arrodilló para rezar.	He knelt to pray.			pret-3s	arrodilló
-849	estirarse	to stretch out	Me estiré en la hamaca.	I stretched out in the hammock.			pret-1s	estiré
-850	recostarse	to lie back	Se recostó un rato después de almorzar.	He lay down for a while after lunch.			pret-3s	recostó
-851	bostezar	to yawn	No paro de bostezar.	I can't stop yawning.			inf	bostezar
-852	roncar	to snore	Ronca muchísimo.	He snores terribly.			pres-3s	ronca
-853	soñar con	to dream about	Soñé con mi casa anoche.	I dreamt about home last night.			pret-1s	soñé
-854	despertarse	to wake up	Me desperté con el ruido.	I woke up with the noise.			pret-1s	desperté
-855	dormirse	to fall asleep	Me dormí en el colectivo.	I fell asleep on the bus.			cmd-vos	dormí
-856	trasnochar	to stay up late	Trasnoché estudiando.	I stayed up all night studying.			pret-1s	trasnoché
-857	madrugar	to get up early	Hay que madrugar mañana.	We have to get up early tomorrow.			inf	madrugar
-858	descansarse	to take a break	Descansá un poco, llevás horas.	Take a break, you've been at it for hours.	voseo imperative		cmd-vos	descansá
-859	aburrirse	to get bored	Me aburro los domingos.	I get bored on Sundays.			pres-1s	aburro
-860	divertirse	to enjoy oneself	Divertite esta noche.	Enjoy yourself tonight.	voseo imperative		cmd-vos	divertite
-861	reírse	to laugh	Nos reímos de cualquier cosa.	We laugh at anything.			pres-1p	reímos
-862	sonreír	to smile	Sonríe siempre, es su manera.	She always smiles, that's her way.			pres-3s	sonríe
-863	llorarse	to weep	Lloró de alegría.	She cried with happiness.			pret-3s	lloró
-864	emocionarse	to get emotional	Me emocioné con la despedida.	I got emotional at the farewell.			pret-1s	emocioné
-865	entusiasmarse	to get excited	Se entusiasmó con la idea.	He got excited about the idea.			pret-3s	entusiasmó
-866	ilusionarse	to get one's hopes up	No te ilusiones tanto.	Don't get your hopes up so much.			subj-2s	ilusiones
-867	desilusionarse	to be let down	Me desilusioné bastante.	I was pretty disappointed.			pret-1s	desilusioné
-868	asustarse	to get scared	Me asusté con el trueno.	The thunder startled me.			pret-1s	asusté
-869	alarmarse	to be alarmed	No te alarmes, es normal.	Don't be alarmed, it's normal.			subj-2s	alarmes
-870	tranquilizarse	to calm down	Tranquilizate, ya pasó.	Calm down, it's over.	voseo imperative		cmd-vos	tranquilizate
-871	enfadarse	to get cross	Se enfada por nada.	He gets cross over nothing.			pres-3s	enfada
-872	enojarse	to get angry	No te enojes conmigo.	Don't get angry with me.	enojarse commoner than enfadarse in LatAm		subj-2s	enojes
-873	odiarse	to hate each other	Se odiaron durante años.	They hated each other for years.			pret-3p	odiaron
-874	envidiar	to envy	Envidio tu tranquilidad.	I envy how calm you are.			pres-1s	envidio
-875	celar	to be jealous	Cela a su novia todo el tiempo.	He's jealous of his girlfriend constantly.			pres-3s	cela
-876	desconfiar	to distrust	Desconfío de ese precio.	I'm suspicious of that price.			pres-1s	desconfío
-877	fiarse	to trust	No me fío de él.	I don't trust him.			pres-1s	fío
-878	avergonzarse	to be ashamed	Me avergüenzo de mi gramática.	I'm embarrassed about my grammar.			pres-1s	avergüenzo
-879	sonrojarse	to blush	Se sonrojó cuando le hablé.	She blushed when I spoke to her.			pret-3s	sonrojó
-880	acomplejarse	to get a complex	No te acomplejes por el acento.	Don't get a complex about your accent.			subj-2s	acomplejes
-881	enorgullecerse	to take pride	Se enorgullece de sus raíces.	He takes pride in his roots.	always reflexive, takes de		pres-3s	enorgullece
-882	humillar	to humiliate	Lo humillaron en público.	They humiliated him in public.			pret-3p	humillaron
-883	respetarse	to respect each other	Se respetan mucho.	They respect each other a lot.			pres-3p	respetan
-884	admirarse	to be amazed	Me admiré de lo rápido que aprendió.	I was amazed at how fast he learnt.			pret-1s	admiré
-885	asombrar	to astonish	Me asombra su memoria.	His memory astonishes me.			pres-3s	asombra
-886	maravillar	to amaze	Me maravilló el paisaje.	The landscape amazed me.			pret-3s	maravilló
-887	deslumbrar	to dazzle	Me deslumbró el sol al salir.	The sun dazzled me as I came out.			pret-3s	deslumbró
-888	alumbrar	to light up	Una sola lámpara alumbra el patio.	A single lamp lights the yard.			pres-3s	alumbra
-889	apagarse	to go out	Se apagó la luz de golpe.	The light went out suddenly.			pret-3s	apagó
-890	encenderse	to come on	Se encendió solo el aire.	The air conditioning came on by itself.			pret-3s	encendió
-891	cortarse	to be cut off	Se cortó la luz toda la tarde.	The power was off all afternoon.			pret-3s	cortó
-892	restablecerse	to be restored	Se restableció el servicio a la noche.	The service came back at night.			pret-3s	restableció
-893	averiarse	to break down	Se averió la heladera.	The fridge broke down.			pret-3s	averió
-894	descomponerse	to break / to go off	Se descompuso la carne con el calor.	The meat went off in the heat.			pret-3s	descompuso
-895	estropear	to spoil	La lluvia estropeó la fiesta.	The rain spoilt the party.			pret-3s	estropeó
-896	arruinar	to ruin	Arruiné la camisa con lavandina.	I ruined the shirt with bleach.	lavandina = bleach (PY/AR)		pret-1s	arruiné
-897	deteriorar	to deteriorate	Se deterioró con los años.	It deteriorated over the years.			pret-3s	deterioró
-898	desgastar	to wear out	Se desgastaron las cubiertas.	The tyres wore out.	cubierta = tyre (PY/AR)		pret-3p	desgastaron
-899	gastarse	to wear down	Se me gastaron los zapatos.	My shoes wore out.			pret-3p	gastaron
-900	durar	to hold up	Esto no dura nada.	This doesn't last at all.			pres-3s	dura
-901	resistirse	to hold out	La tela se resiste bien al sol.	The fabric holds up well in the sun.			pres-3s	resiste
-902	proteger	to shield	Protegé los muebles del sol.	Shield the furniture from the sun.	voseo imperative		cmd-vos	protegé
-903	tapar	to cover up	Tapá la comida por las moscas.	Cover the food because of the flies.	voseo imperative		cmd-vos	tapá
-904	destapar	to uncork	Destapemos otra botella.	Let's open another bottle.			subj-1p	destapemos
-905	abrochar	to fasten	Abrochate el cinturón.	Fasten your seatbelt.	voseo imperative		cmd-vos	abrochate
-906	desabrochar	to unfasten	Se desabrochó el botón.	The button came undone.			pret-3s	desabrochó
-907	calzar	to wear (shoes)	¿Qué número calzás?	What shoe size are you?	voseo: calzás		pres-2s	calzás
-908	probarse	to try on	¿Me lo puedo probar?	Can I try it on?			inf	probar
-909	devolverse	to be returned	No se devuelve el dinero.	Money is not refunded.			pres-3s	devuelve
-910	canjearse	to be exchanged	Se canjea dentro de treinta días.	It can be exchanged within thirty days.			pres-3s	canjea
-911	rebajar	to discount	Me rebajaron un poco.	They knocked a bit off for me.			pret-3p	rebajaron
-912	regatear	to haggle	Acá se regatea en el mercado.	You haggle at the market here.			pres-3s	regatea
-913	encarecer	to make dearer	El transporte encareció todo.	Transport made everything dearer.			pret-3s	encareció
-914	abaratar	to make cheaper	Abarataron los pasajes.	They made the fares cheaper.			pret-3p	abarataron
-915	endeudarse	to get into debt	Se endeudó por la casa.	He got into debt over the house.			pret-3s	endeudó
-916	quebrar	to go bankrupt	La empresa quebró el año pasado.	The company went bust last year.			pret-3s	quebró
-917	prosperar	to prosper	El negocio prosperó rápido.	The business did well quickly.			pret-3s	prosperó
-918	rendir	to yield / to pay off	Rinde bien el esfuerzo.	The effort pays off.			pres-3s	rinde
-919	aprovechar	to seize	Aprovechemos que está fresco.	Let's take advantage while it's cool.			subj-1p	aprovechemos
-920	desaprovechar	to waste (an opportunity)	Desaproveché la oportunidad.	I wasted the opportunity.			pret-1s	desaproveché
-921	malgastar	to squander	Malgastó toda la herencia.	He squandered the whole inheritance.			pret-3s	malgastó
-922	economizar	to economise	Hay que economizar este mes.	We have to economise this month.			inf	economizar
-923	presupuestar	to budget	Presupuestaron la obra en dos meses.	They budgeted the work at two months.			pret-3p	presupuestaron
-924	calcular	to calculate	Calculá cuánto nos sale.	Work out what it comes to.	voseo imperative		cmd-vos	calculá
-925	estimar	to estimate	Estimo que llegamos a las seis.	I reckon we'll arrive at six.			pres-1s	estimo
-926	aproximar	to approximate	Aproximá el número nomás.	Just give a rough number.	nomás: PY filler		cmd-vos	aproximá
-927	redondear	to round off	Redondeá para arriba.	Round it up.	voseo imperative		cmd-vos	redondeá
-928	contabilizar	to count up	Contabilizaron todos los votos.	They counted up all the votes.			pret-3p	contabilizaron
-929	votar	to vote	Voté por primera vez acá.	I voted here for the first time.			pret-1s	voté
-930	elegir	to elect	Eligieron intendente nuevo.	They elected a new mayor.	intendente = mayor (PY/AR)		pret-3p	eligieron
-931	gobernar	to govern	Gobernó cinco años.	He governed for five years.			pret-3s	gobernó
-932	legislar	to legislate	Legislaron sobre eso en marzo.	They legislated on that in March.			pret-3p	legislaron
-933	reglamentar	to regulate	Reglamentaron el uso del agua.	They regulated water use.			pret-3p	reglamentaron
-934	aplicar	to apply	Aplicaron la ley sin excepción.	They applied the law without exception.			pret-3p	aplicaron
-935	acatar	to comply with	Hay que acatar las normas.	You have to comply with the rules.			inf	acatar
-936	infringir	to infringe	Infringió una norma menor.	He broke a minor rule.			pret-3s	infringió
-937	multar	to fine	Me multaron por estacionar mal.	I was fined for parking badly.			pret-3p	multaron
-938	sancionar	to penalise	Sancionaron al club.	They penalised the club.			pret-3p	sancionaron
-939	apelar	to appeal	Apelaron la decisión.	They appealed the decision.			pret-3p	apelaron
-940	absolver	to acquit	Lo absolvieron por falta de pruebas.	He was acquitted for lack of evidence.			pret-3p	absolvieron
-941	condenar	to convict	Lo condenaron a dos años.	He was sentenced to two years.			pret-3p	condenaron
-942	testificar	to testify	Testificó en el juicio.	He testified at the trial.			pret-3s	testificó
-943	declarar	to declare	Declaré todo en la aduana.	I declared everything at customs.			pret-1s	declaré
-944	ocultarse	to hide oneself	Se ocultó detrás del árbol.	He hid behind the tree.			pret-3s	ocultó
-945	vigilar	to watch over	Vigilan la entrada toda la noche.	They watch the entrance all night.			pres-3p	vigilan
-946	custodiar	to guard	Custodian el edificio.	They guard the building.			pres-3p	custodian
-947	patrullar	to patrol	Patrullan el barrio de noche.	They patrol the neighbourhood at night.			pres-3p	patrullan
-948	alertar	to alert	Alertaron a los vecinos.	They alerted the neighbours.			pret-3p	alertaron
-949	socorrer	to assist	Socorrieron a los heridos.	They helped the injured.			pret-3p	socorrieron
-950	atender a	to see to (a person)	Me atendieron muy bien en la clínica.	They looked after me very well at the clinic.			pret-3p	atendieron
-951	diagnosticar	to diagnose	Le diagnosticaron dengue.	He was diagnosed with dengue.	dengue: common in PY		pret-3p	diagnosticaron
-952	inyectar	to inject	Me inyectaron la vacuna ayer.	I got the vaccine jab yesterday.			pret-3p	inyectaron
-953	vendar	to bandage	Le vendaron la mano.	They bandaged his hand.			pret-3p	vendaron
-954	cicatrizar	to heal over	La herida cicatrizó rápido.	The wound healed over quickly.			pret-3s	cicatrizó
-955	contagiar	to infect	Me contagió el resfrío.	He gave me his cold.			pret-3s	contagió
-956	vacunar	to vaccinate	Vacunan gratis en el centro de salud.	They vaccinate free at the health centre.			pres-3p	vacunan
-957	desinfectar	to disinfect	Desinfectá la herida primero.	Disinfect the wound first.	voseo imperative		cmd-vos	desinfectá
-958	esterilizar	to sterilise	Esterilizan todo el instrumental.	They sterilise all the instruments.			pres-3p	esterilizan
-959	hervirse	to be boiled	El agua se hierve cinco minutos.	The water is boiled for five minutes.			pres-3s	hierve
-960	filtrar	to filter	Filtran el agua antes de tomarla.	They filter the water before drinking it.			pres-3p	filtran
-961	colar	to strain	Colá el jugo, por favor.	Strain the juice, please.	voseo imperative		cmd-vos	colá
-962	exprimir	to squeeze (juice)	Exprimí dos limones.	I squeezed two lemons.			cmd-vos	exprimí
-963	rallar	to grate	Rallá el queso encima.	Grate the cheese on top.	voseo imperative		cmd-vos	rallá
-964	amasar	to knead	Amasó la chipa a mano.	She kneaded the chipa by hand.	chipa: PY cheese bread		pret-3s	amasó
-965	hornear	to bake	Hornean el pan a la madrugada.	They bake the bread at dawn.			pres-3p	hornean
-966	asar	to roast / to grill	Asamos carne el domingo.	We grilled meat on Sunday.			pres-1p	asamos
-967	guisar	to stew	Guisó carne con verduras.	She stewed meat with vegetables.			pret-3s	guisó
-968	condimentar	to season	Condimentá a gusto.	Season to taste.	voseo imperative		cmd-vos	condimentá
-969	salar	to salt	Salé la carne antes de asar.	Salt the meat before grilling.	voseo imperative		pret-1s	salé
-970	endulzar	to sweeten	Endulzan el cocido con azúcar quemada.	They sweeten cocido with burnt sugar.	cocido: PY toasted yerba drink		pres-3p	endulzan
-971	enfriarse	to cool down	Dejá que se enfríe el tereré.	Let the tereré cool.	voseo imperative		subj-3s	enfríe
-972	recalentar	to reheat	Recalenté lo de ayer.	I reheated yesterday's food.			pret-1s	recalenté
-973	descongelar	to defrost	Descongelá la carne desde temprano.	Get the meat out to defrost early.	voseo imperative		cmd-vos	descongelá
-974	conservarse	to keep (food)	Se conserva bien en la heladera.	It keeps well in the fridge.			pres-3s	conserva
-975	caducar	to go out of date	Caducó el yogur.	The yoghurt went out of date.			pret-3s	caducó
-976	oler	to smell	Huele riquísimo.	It smells delicious.			pres-3s	huele
-977	saborear	to savour	Saboreá cada bocado.	Savour every mouthful.	voseo imperative		cmd-vos	saboreá
-978	degustar	to taste (formally)	Degustamos vinos de la zona.	We tasted wines from the area.			pres-1p	degustamos
-979	atragantarse	to choke	Me atraganté con el pan.	I choked on the bread.			pret-1s	atraganté
-980	empacharse	to overeat	Me empaché en el asado.	I stuffed myself at the barbecue.			pret-1s	empaché
-981	adelgazar	to lose weight	Adelgacé con el calor.	I lost weight in the heat.			pret-1s	adelgacé
-982	engordar	to put on weight	Engordé cinco kilos este año.	I put on five kilos this year.			pret-1s	engordé
-983	alimentarse	to feed oneself	Se alimenta muy mal.	He eats very badly.			pres-3s	alimenta
-984	nutrir	to nourish	Eso no nutre nada.	That has no nutrition in it at all.			pres-3s	nutre
-985	hidratar	to hydrate	Hay que hidratarse todo el día acá.	You have to keep hydrated all day here.			inf	hidratarse
-986	deshidratarse	to get dehydrated	Se deshidrató con el sol.	He got dehydrated in the sun.			pret-3s	deshidrató
-987	insolarse	to get sunstroke	Se insoló jugando al mediodía.	He got sunstroke playing at midday.			pret-3s	insoló
-988	broncearse	to get a tan	Me bronceé en el río.	I got a tan at the river.			pret-1s	bronceé
-989	quemarse	to get burnt	Me quemé la espalda.	I burnt my back.			pret-1s	quemé
-990	abrigarse	to wrap up warm	Abrigate, bajó la temperatura.	Wrap up, the temperature's dropped.	voseo imperative		cmd-vos	abrigate
-991	destaparse	to kick off the covers	Se destapa dormido.	He kicks the covers off in his sleep.			pres-3s	destapa
-992	refrescar	to cool off	Refrescó bastante anoche.	It cooled down quite a bit last night.			pret-3s	refrescó
-993	ventilar	to air out	Ventilá la pieza un rato.	Air the room for a while.	voseo imperative		cmd-vos	ventilá
-994	humedecer	to dampen	Humedecé el trapo.	Dampen the cloth.	voseo imperative		cmd-vos	humedecé
-995	empapar	to soak	Me empapé con la tormenta.	I got soaked in the storm.			pret-1s	empapé
-996	escurrir	to drain	Escurrí bien la ropa.	Wring the clothes out well.	voseo imperative		cmd-vos	escurrí
-997	tender a	to tend towards	Tiende a llover a la tarde.	It tends to rain in the afternoon.			pres-3s	tiende
-998	predominar	to predominate	Predomina el guaraní en el campo.	Guaraní predominates in the countryside.			pres-3s	predomina
-999	abundar	to abound	Abundan los mangos en diciembre.	Mangoes are everywhere in December.			pres-3p	abundan
-1000	escasear	to be scarce	Escasea el agua en septiembre.	Water is scarce in September.			pres-3s	escasea
+801	acelerar	to accelerate	Aceleró para pasar al camión.	He accelerated to overtake the lorry.		driving-moto	pret-3s	aceleró
+802	retrasar	to put back	Retrasaron la obra dos meses.	They put the building work back two months.		doing-handling	pret-3p	retrasaron
+803	apresurar	to hasten	Apresuró el paso al ver la lluvia.	He quickened his pace when he saw the rain.		daily-routine	pret-3s	apresuró
+804	demorar	to take (time)	Demora una hora en colectivo.	It takes an hour by bus.		transport-colectivo	pres-3s	demora
+805	permanecer	to remain	Permaneció callado todo el rato.	He remained silent the whole time.		being-feeling	pret-3s	permaneció
+806	persistir	to persist	Persiste el problema con el agua.	The water problem persists.		change-cause	pres-3s	persiste
+807	insistir	to insist	Insistió en acompañarme.	He insisted on coming with me.		conversation-opinion	pret-3s	insistió
+808	desistir	to desist	Desistió después de tres intentos.	He gave up after three attempts.		yes-no-maybe	pret-3s	desistió
+809	abandonar	to abandon	Abandonó el curso a la mitad.	He dropped out of the course halfway.		feelings-conflict	pret-3s	abandonó
+810	renunciar a	to give up	Renuncié a esa idea.	I gave up on that idea.		doing-handling	pret-1s	renuncié
+811	conformarse	to settle for	Me conformo con poco.	I'm happy with little.		feelings-conflict	pres-1s	conformo
+812	exigirse	to demand of oneself	Se exige demasiado.	He's too hard on himself.		work-tasks	pres-3s	exige
+813	acostumbrar a	to get someone used to	Lo acostumbraron a comer de todo.	They got him used to eating everything.		family-friends	pret-3p	acostumbraron
+814	entrenarse	to train oneself	Me entrené para la carrera.	I trained for the race.		weather-heat	pret-1s	entrené
+815	prepararse	to get ready	Preparate, salimos en diez.	Get ready, we're leaving in ten.	voseo imperative	daily-routine	cmd-vos	preparate
+816	disponerse	to be about to	Se disponía a salir cuando llamé.	He was about to leave when I called.		change-cause	imperf-3s	disponía
+817	decidirse	to make up one's mind	No me decido todavía.	I still can't make up my mind.		thinking-knowing	pres-1s	decido
+818	comprometerse	to commit	Me comprometí a estudiar una hora por día.	I committed to studying an hour a day.		arranging-to-meet	pret-1s	comprometí
+819	casarse	to get married	Se casan en noviembre.	They're getting married in November.		family-friends	pres-3p	casan
+820	enamorarse	to fall in love	Se enamoró en dos semanas.	He fell in love in two weeks.		family-friends	pret-3s	enamoró
+821	separarse	to split up	Se separaron de común acuerdo.	They separated amicably.		family-friends	pret-3p	separaron
+822	reconciliarse	to make up	Se reconciliaron al mes.	They made up a month later.		feelings-conflict	pret-3p	reconciliaron
+823	despedirse	to say goodbye	Me despedí de todos antes de salir.	I said goodbye to everyone before leaving.		greeting-small-talk	cmd-vos	despedí
+824	saludarse	to greet each other	Acá todos se saludan en la calle.	Here everyone greets each other in the street.		greeting-small-talk	pres-3p	saludan
+825	abrazarse	to hug each other	Se abrazaron largo rato.	They hugged for a long while.		greeting-small-talk	pret-3p	abrazaron
+826	reunirse	to meet up	Nos reunimos los viernes a la noche.	We meet up on Friday nights.		arranging-to-meet	pres-1p	reunimos
+827	juntarse	to get together	Nos juntamos a tomar tereré.	We get together to drink tereré.		arranging-to-meet	pres-1p	juntamos
+828	visitarse	to visit each other	Se visitan todos los domingos.	They visit each other every Sunday.		greeting-small-talk	pres-3p	visitan
+829	ayudarse	to help each other	Acá la gente se ayuda mucho.	People help each other a lot here.		family-friends	pres-3s	ayuda
+830	entenderse	to understand each other	Nos entendemos a señas.	We understand each other with gestures.		family-friends	pres-1p	entendemos
+831	comunicarse	to communicate	Me comunico mejor cada mes.	I communicate better every month.		conversation-opinion	pres-1s	comunico
+832	expresarse	to express oneself	Todavía no me expreso bien.	I still can't express myself well.		conversation-opinion	pres-1s	expreso
+833	callarse	to go quiet	Se calló de golpe.	He went quiet all of a sudden.		conversation-opinion	pret-3s	calló
+834	interrumpirse	to break off	Se interrumpió la llamada.	The call cut out.		fixing-breaking-power	pret-3s	interrumpió
+835	escucharse	to be heard	No se escucha nada.	Nothing can be heard.		conversation-opinion	pres-3s	escucha
+836	oírse	to sound	Se oye raro ese acento.	That accent sounds odd.		seeing-noticing	pres-3s	oye
+837	sonar	to sound / to ring	Sonó el teléfono dos veces.	The phone rang twice.		seeing-noticing	pret-3s	sonó
+838	timbrar	to ring the bell	Timbraron en la puerta.	Someone rang at the door.		house-renting	pret-3p	timbraron
+839	golpear	to hit / to knock	Golpearon la puerta fuerte.	They knocked loudly at the door.		doing-handling	pret-3p	golpearon
+840	chocar	to crash	Chocó contra un poste.	He crashed into a post.		greeting-small-talk	pret-3s	chocó
+841	atropellar	to run over	Casi me atropella una moto.	A motorbike nearly ran me over.		driving-moto	pres-3s	atropella
+842	frenarse	to stop oneself	Me frené justo a tiempo.	I stopped myself just in time.		feelings-conflict	pret-1s	frené
+843	resbalar	to slip	Resbalé en el piso mojado.	I slipped on the wet floor.		emergencies	pret-1s	resbalé
+844	tropezar	to trip	Tropecé con el escalón.	I tripped on the step.		emergencies	pret-1s	tropecé
+845	caerse	to fall over	Me caí de la bici.	I fell off the bike.		emergencies	pret-1s	caí
+846	levantarse	to get up	Me levanto a las seis.	I get up at six.		daily-routine	pres-1s	levanto
+847	agacharse	to crouch	Agachate para pasar.	Duck to get through.	voseo imperative	daily-routine	cmd-vos	agachate
+848	arrodillarse	to kneel	Se arrodilló para rezar.	He knelt to pray.		daily-routine	pret-3s	arrodilló
+849	estirarse	to stretch out	Me estiré en la hamaca.	I stretched out in the hammock.		daily-routine	pret-1s	estiré
+850	recostarse	to lie back	Se recostó un rato después de almorzar.	He lay down for a while after lunch.		daily-routine	pret-3s	recostó
+851	bostezar	to yawn	No paro de bostezar.	I can't stop yawning.		daily-routine	inf	bostezar
+852	roncar	to snore	Ronca muchísimo.	He snores terribly.		daily-routine	pres-3s	ronca
+853	soñar con	to dream about	Soñé con mi casa anoche.	I dreamt about home last night.		free-time	pret-1s	soñé
+854	despertarse	to wake up	Me desperté con el ruido.	I woke up with the noise.		daily-routine	pret-1s	desperté
+855	dormirse	to fall asleep	Me dormí en el colectivo.	I fell asleep on the bus.		daily-routine	cmd-vos	dormí
+856	trasnochar	to stay up late	Trasnoché estudiando.	I stayed up all night studying.		daily-routine	pret-1s	trasnoché
+857	madrugar	to get up early	Hay que madrugar mañana.	We have to get up early tomorrow.		daily-routine	inf	madrugar
+858	descansarse	to take a break	Descansá un poco, llevás horas.	Take a break, you've been at it for hours.	voseo imperative	daily-routine	cmd-vos	descansá
+859	aburrirse	to get bored	Me aburro los domingos.	I get bored on Sundays.		free-time	pres-1s	aburro
+860	divertirse	to enjoy oneself	Divertite esta noche.	Enjoy yourself tonight.	voseo imperative	free-time	cmd-vos	divertite
+861	reírse	to laugh	Nos reímos de cualquier cosa.	We laugh at anything.		feelings-conflict	pres-1p	reímos
+862	sonreír	to smile	Sonríe siempre, es su manera.	She always smiles, that's her way.		greeting-small-talk	pres-3s	sonríe
+863	llorarse	to weep	Lloró de alegría.	She cried with happiness.		feelings-conflict	pret-3s	lloró
+864	emocionarse	to get emotional	Me emocioné con la despedida.	I got emotional at the farewell.		feelings-conflict	pret-1s	emocioné
+865	entusiasmarse	to get excited	Se entusiasmó con la idea.	He got excited about the idea.		feelings-conflict	pret-3s	entusiasmó
+866	ilusionarse	to get one's hopes up	No te ilusiones tanto.	Don't get your hopes up so much.		feelings-conflict	subj-2s	ilusiones
+867	desilusionarse	to be let down	Me desilusioné bastante.	I was pretty disappointed.		feelings-conflict	pret-1s	desilusioné
+868	asustarse	to get scared	Me asusté con el trueno.	The thunder startled me.		feelings-conflict	pret-1s	asusté
+869	alarmarse	to be alarmed	No te alarmes, es normal.	Don't be alarmed, it's normal.		feelings-conflict	subj-2s	alarmes
+870	tranquilizarse	to calm down	Tranquilizate, ya pasó.	Calm down, it's over.	voseo imperative	feelings-conflict	cmd-vos	tranquilizate
+871	enfadarse	to get cross	Se enfada por nada.	He gets cross over nothing.		directions-places	pres-3s	enfada
+872	enojarse	to get angry	No te enojes conmigo.	Don't get angry with me.	enojarse commoner than enfadarse in LatAm	feelings-conflict	subj-2s	enojes
+873	odiarse	to hate each other	Se odiaron durante años.	They hated each other for years.		feelings-conflict	pret-3p	odiaron
+874	envidiar	to envy	Envidio tu tranquilidad.	I envy how calm you are.		feelings-conflict	pres-1s	envidio
+875	celar	to be jealous	Cela a su novia todo el tiempo.	He's jealous of his girlfriend constantly.		feelings-conflict	pres-3s	cela
+876	desconfiar	to distrust	Desconfío de ese precio.	I'm suspicious of that price.		thinking-knowing	pres-1s	desconfío
+877	fiarse	to trust	No me fío de él.	I don't trust him.		feelings-conflict	pres-1s	fío
+878	avergonzarse	to be ashamed	Me avergüenzo de mi gramática.	I'm embarrassed about my grammar.		feelings-conflict	pres-1s	avergüenzo
+879	sonrojarse	to blush	Se sonrojó cuando le hablé.	She blushed when I spoke to her.		feelings-conflict	pret-3s	sonrojó
+880	acomplejarse	to get a complex	No te acomplejes por el acento.	Don't get a complex about your accent.		feelings-conflict	subj-2s	acomplejes
+881	enorgullecerse	to take pride	Se enorgullece de sus raíces.	He takes pride in his roots.	always reflexive, takes de	feelings-conflict	pres-3s	enorgullece
+882	humillar	to humiliate	Lo humillaron en público.	They humiliated him in public.		feelings-conflict	pret-3p	humillaron
+883	respetarse	to respect each other	Se respetan mucho.	They respect each other a lot.		family-friends	pres-3p	respetan
+884	admirarse	to be amazed	Me admiré de lo rápido que aprendió.	I was amazed at how fast he learnt.		feelings-conflict	pret-1s	admiré
+885	asombrar	to astonish	Me asombra su memoria.	His memory astonishes me.		feelings-conflict	pres-3s	asombra
+886	maravillar	to amaze	Me maravilló el paisaje.	The landscape amazed me.		feelings-conflict	pret-3s	maravilló
+887	deslumbrar	to dazzle	Me deslumbró el sol al salir.	The sun dazzled me as I came out.		seeing-noticing	pret-3s	deslumbró
+888	alumbrar	to light up	Una sola lámpara alumbra el patio.	A single lamp lights the yard.		fixing-breaking-power	pres-3s	alumbra
+889	apagarse	to go out	Se apagó la luz de golpe.	The light went out suddenly.		fixing-breaking-power	pret-3s	apagó
+890	encenderse	to come on	Se encendió solo el aire.	The air conditioning came on by itself.		fixing-breaking-power	pret-3s	encendió
+891	cortarse	to be cut off	Se cortó la luz toda la tarde.	The power was off all afternoon.		fixing-breaking-power	pret-3s	cortó
+892	restablecerse	to be restored	Se restableció el servicio a la noche.	The service came back at night.		daily-routine	pret-3s	restableció
+893	averiarse	to break down	Se averió la heladera.	The fridge broke down.		fixing-breaking-power	pret-3s	averió
+894	descomponerse	to break / to go off	Se descompuso la carne con el calor.	The meat went off in the heat.		fixing-breaking-power	pret-3s	descompuso
+895	estropear	to spoil	La lluvia estropeó la fiesta.	The rain spoilt the party.		fixing-breaking-power	pret-3s	estropeó
+896	arruinar	to ruin	Arruiné la camisa con lavandina.	I ruined the shirt with bleach.	lavandina = bleach (PY/AR)	change-cause	pret-1s	arruiné
+897	deteriorar	to deteriorate	Se deterioró con los años.	It deteriorated over the years.		fixing-breaking-power	pret-3s	deterioró
+898	desgastar	to wear out	Se desgastaron las cubiertas.	The tyres wore out.	cubierta = tyre (PY/AR)	fixing-breaking-power	pret-3p	desgastaron
+899	gastarse	to wear down	Se me gastaron los zapatos.	My shoes wore out.		fixing-breaking-power	pret-3p	gastaron
+900	durar	to hold up	Esto no dura nada.	This doesn't last at all.		doing-handling	pres-3s	dura
+901	resistirse	to hold out	La tela se resiste bien al sol.	The fabric holds up well in the sun.		doing-handling	pres-3s	resiste
+902	proteger	to shield	Protegé los muebles del sol.	Shield the furniture from the sun.	voseo imperative	family-friends	cmd-vos	protegé
+903	tapar	to cover up	Tapá la comida por las moscas.	Cover the food because of the flies.	voseo imperative	doing-handling	cmd-vos	tapá
+904	destapar	to uncork	Destapemos otra botella.	Let's open another bottle.		doing-handling	subj-1p	destapemos
+905	abrochar	to fasten	Abrochate el cinturón.	Fasten your seatbelt.	voseo imperative	daily-routine	cmd-vos	abrochate
+906	desabrochar	to unfasten	Se desabrochó el botón.	The button came undone.		daily-routine	pret-3s	desabrochó
+907	calzar	to wear (shoes)	¿Qué número calzás?	What shoe size are you?	voseo: calzás	daily-routine	pres-2s	calzás
+908	probarse	to try on	¿Me lo puedo probar?	Can I try it on?		buying-paying	inf	probar
+909	devolverse	to be returned	No se devuelve el dinero.	Money is not refunded.		directions-places	pres-3s	devuelve
+910	canjearse	to be exchanged	Se canjea dentro de treinta días.	It can be exchanged within thirty days.		change-cause	pres-3s	canjea
+911	rebajar	to discount	Me rebajaron un poco.	They knocked a bit off for me.		haggling-quantities	pret-3p	rebajaron
+912	regatear	to haggle	Acá se regatea en el mercado.	You haggle at the market here.		haggling-quantities	pres-3s	regatea
+913	encarecer	to make dearer	El transporte encareció todo.	Transport made everything dearer.		buying-paying	pret-3s	encareció
+914	abaratar	to make cheaper	Abarataron los pasajes.	They made the fares cheaper.		buying-paying	pret-3p	abarataron
+915	endeudarse	to get into debt	Se endeudó por la casa.	He got into debt over the house.		bank-cash-credit	pret-3s	endeudó
+916	quebrar	to go bankrupt	La empresa quebró el año pasado.	The company went bust last year.		bank-cash-credit	pret-3s	quebró
+917	prosperar	to prosper	El negocio prosperó rápido.	The business did well quickly.		work-tasks	pret-3s	prosperó
+918	rendir	to yield / to pay off	Rinde bien el esfuerzo.	The effort pays off.		work-tasks	pres-3s	rinde
+919	aprovechar	to seize	Aprovechemos que está fresco.	Let's take advantage while it's cool.		doing-handling	subj-1p	aprovechemos
+920	desaprovechar	to waste (an opportunity)	Desaproveché la oportunidad.	I wasted the opportunity.		work-tasks	pret-1s	desaproveché
+921	malgastar	to squander	Malgastó toda la herencia.	He squandered the whole inheritance.		bank-cash-credit	pret-3s	malgastó
+922	economizar	to economise	Hay que economizar este mes.	We have to economise this month.		bank-cash-credit	inf	economizar
+923	presupuestar	to budget	Presupuestaron la obra en dos meses.	They budgeted the work at two months.		bank-cash-credit	pret-3p	presupuestaron
+924	calcular	to calculate	Calculá cuánto nos sale.	Work out what it comes to.	voseo imperative	haggling-quantities	cmd-vos	calculá
+925	estimar	to estimate	Estimo que llegamos a las seis.	I reckon we'll arrive at six.		haggling-quantities	pres-1s	estimo
+926	aproximar	to approximate	Aproximá el número nomás.	Just give a rough number.	nomás: PY filler	haggling-quantities	cmd-vos	aproximá
+927	redondear	to round off	Redondeá para arriba.	Round it up.	voseo imperative	haggling-quantities	cmd-vos	redondeá
+928	contabilizar	to count up	Contabilizaron todos los votos.	They counted up all the votes.		haggling-quantities	pret-3p	contabilizaron
+929	votar	to vote	Voté por primera vez acá.	I voted here for the first time.		news-institutions	pret-1s	voté
+930	elegir	to elect	Eligieron intendente nuevo.	They elected a new mayor.	intendente = mayor (PY/AR)	buying-paying	pret-3p	eligieron
+931	gobernar	to govern	Gobernó cinco años.	He governed for five years.		news-institutions	pret-3s	gobernó
+932	legislar	to legislate	Legislaron sobre eso en marzo.	They legislated on that in March.		news-institutions	pret-3p	legislaron
+933	reglamentar	to regulate	Reglamentaron el uso del agua.	They regulated water use.		formal-written	pret-3p	reglamentaron
+934	aplicar	to apply	Aplicaron la ley sin excepción.	They applied the law without exception.		formal-written	pret-3p	aplicaron
+935	acatar	to comply with	Hay que acatar las normas.	You have to comply with the rules.		formal-written	inf	acatar
+936	infringir	to infringe	Infringió una norma menor.	He broke a minor rule.		news-institutions	pret-3s	infringió
+937	multar	to fine	Me multaron por estacionar mal.	I was fined for parking badly.		news-institutions	pret-3p	multaron
+938	sancionar	to penalise	Sancionaron al club.	They penalised the club.		news-institutions	pret-3p	sancionaron
+939	apelar	to appeal	Apelaron la decisión.	They appealed the decision.		news-institutions	pret-3p	apelaron
+940	absolver	to acquit	Lo absolvieron por falta de pruebas.	He was acquitted for lack of evidence.		news-institutions	pret-3p	absolvieron
+941	condenar	to convict	Lo condenaron a dos años.	He was sentenced to two years.		news-institutions	pret-3p	condenaron
+942	testificar	to testify	Testificó en el juicio.	He testified at the trial.		news-institutions	pret-3s	testificó
+943	declarar	to declare	Declaré todo en la aduana.	I declared everything at customs.		news-institutions	pret-1s	declaré
+944	ocultarse	to hide oneself	Se ocultó detrás del árbol.	He hid behind the tree.		emergencies	pret-3s	ocultó
+945	vigilar	to watch over	Vigilan la entrada toda la noche.	They watch the entrance all night.		seeing-noticing	pres-3p	vigilan
+946	custodiar	to guard	Custodian el edificio.	They guard the building.		emergencies	pres-3p	custodian
+947	patrullar	to patrol	Patrullan el barrio de noche.	They patrol the neighbourhood at night.		emergencies	pres-3p	patrullan
+948	alertar	to alert	Alertaron a los vecinos.	They alerted the neighbours.		emergencies	pret-3p	alertaron
+949	socorrer	to assist	Socorrieron a los heridos.	They helped the injured.		emergencies	pret-3p	socorrieron
+950	atender a	to see to (a person)	Me atendieron muy bien en la clínica.	They looked after me very well at the clinic.		body-illness-pharmacy	pret-3p	atendieron
+951	diagnosticar	to diagnose	Le diagnosticaron dengue.	He was diagnosed with dengue.	dengue: common in PY	body-illness-pharmacy	pret-3p	diagnosticaron
+952	inyectar	to inject	Me inyectaron la vacuna ayer.	I got the vaccine jab yesterday.		body-illness-pharmacy	pret-3p	inyectaron
+953	vendar	to bandage	Le vendaron la mano.	They bandaged his hand.		body-illness-pharmacy	pret-3p	vendaron
+954	cicatrizar	to heal over	La herida cicatrizó rápido.	The wound healed over quickly.		body-illness-pharmacy	pret-3s	cicatrizó
+955	contagiar	to infect	Me contagió el resfrío.	He gave me his cold.		body-illness-pharmacy	pret-3s	contagió
+956	vacunar	to vaccinate	Vacunan gratis en el centro de salud.	They vaccinate free at the health centre.		body-illness-pharmacy	pres-3p	vacunan
+957	desinfectar	to disinfect	Desinfectá la herida primero.	Disinfect the wound first.	voseo imperative	body-illness-pharmacy	cmd-vos	desinfectá
+958	esterilizar	to sterilise	Esterilizan todo el instrumental.	They sterilise all the instruments.		body-illness-pharmacy	pres-3p	esterilizan
+959	hervirse	to be boiled	El agua se hierve cinco minutos.	The water is boiled for five minutes.		cooking-kitchen	pres-3s	hierve
+960	filtrar	to filter	Filtran el agua antes de tomarla.	They filter the water before drinking it.		cooking-kitchen	pres-3p	filtran
+961	colar	to strain	Colá el jugo, por favor.	Strain the juice, please.	voseo imperative	cooking-kitchen	cmd-vos	colá
+962	exprimir	to squeeze (juice)	Exprimí dos limones.	I squeezed two lemons.		doing-handling	cmd-vos	exprimí
+963	rallar	to grate	Rallá el queso encima.	Grate the cheese on top.	voseo imperative	cooking-kitchen	cmd-vos	rallá
+964	amasar	to knead	Amasó la chipa a mano.	She kneaded the chipa by hand.	chipa: PY cheese bread	cooking-kitchen	pret-3s	amasó
+965	hornear	to bake	Hornean el pan a la madrugada.	They bake the bread at dawn.		cooking-kitchen	pres-3p	hornean
+966	asar	to roast / to grill	Asamos carne el domingo.	We grilled meat on Sunday.		cooking-kitchen	pres-1p	asamos
+967	guisar	to stew	Guisó carne con verduras.	She stewed meat with vegetables.		cooking-kitchen	pret-3s	guisó
+968	condimentar	to season	Condimentá a gusto.	Season to taste.	voseo imperative	cooking-kitchen	cmd-vos	condimentá
+969	salar	to salt	Salé la carne antes de asar.	Salt the meat before grilling.	voseo imperative	cooking-kitchen	pret-1s	salé
+970	endulzar	to sweeten	Endulzan el cocido con azúcar quemada.	They sweeten cocido with burnt sugar.	cocido: PY toasted yerba drink	cooking-kitchen	pres-3p	endulzan
+971	enfriarse	to cool down	Dejá que se enfríe el tereré.	Let the tereré cool.	voseo imperative	weather-heat	subj-3s	enfríe
+972	recalentar	to reheat	Recalenté lo de ayer.	I reheated yesterday's food.		cooking-kitchen	pret-1s	recalenté
+973	descongelar	to defrost	Descongelá la carne desde temprano.	Get the meat out to defrost early.	voseo imperative	cooking-kitchen	cmd-vos	descongelá
+974	conservarse	to keep (food)	Se conserva bien en la heladera.	It keeps well in the fridge.		cooking-kitchen	pres-3s	conserva
+975	caducar	to go out of date	Caducó el yogur.	The yoghurt went out of date.		paperwork-bureaucracy	pret-3s	caducó
+976	oler	to smell	Huele riquísimo.	It smells delicious.		seeing-noticing	pres-3s	huele
+977	saborear	to savour	Saboreá cada bocado.	Savour every mouthful.	voseo imperative	ordering-eating	cmd-vos	saboreá
+978	degustar	to taste (formally)	Degustamos vinos de la zona.	We tasted wines from the area.		paperwork-bureaucracy	pres-1p	degustamos
+979	atragantarse	to choke	Me atraganté con el pan.	I choked on the bread.		ordering-eating	pret-1s	atraganté
+980	empacharse	to overeat	Me empaché en el asado.	I stuffed myself at the barbecue.		ordering-eating	pret-1s	empaché
+981	adelgazar	to lose weight	Adelgacé con el calor.	I lost weight in the heat.		haggling-quantities	pret-1s	adelgacé
+982	engordar	to put on weight	Engordé cinco kilos este año.	I put on five kilos this year.		body-illness-pharmacy	pret-1s	engordé
+983	alimentarse	to feed oneself	Se alimenta muy mal.	He eats very badly.		ordering-eating	pres-3s	alimenta
+984	nutrir	to nourish	Eso no nutre nada.	That has no nutrition in it at all.		ordering-eating	pres-3s	nutre
+985	hidratar	to hydrate	Hay que hidratarse todo el día acá.	You have to keep hydrated all day here.		body-illness-pharmacy	inf	hidratarse
+986	deshidratarse	to get dehydrated	Se deshidrató con el sol.	He got dehydrated in the sun.		weather-heat	pret-3s	deshidrató
+987	insolarse	to get sunstroke	Se insoló jugando al mediodía.	He got sunstroke playing at midday.		weather-heat	pret-3s	insoló
+988	broncearse	to get a tan	Me bronceé en el río.	I got a tan at the river.		weather-heat	pret-1s	bronceé
+989	quemarse	to get burnt	Me quemé la espalda.	I burnt my back.		cooking-kitchen	pret-1s	quemé
+990	abrigarse	to wrap up warm	Abrigate, bajó la temperatura.	Wrap up, the temperature's dropped.	voseo imperative	weather-heat	cmd-vos	abrigate
+991	destaparse	to kick off the covers	Se destapa dormido.	He kicks the covers off in his sleep.		daily-routine	pres-3s	destapa
+992	refrescar	to cool off	Refrescó bastante anoche.	It cooled down quite a bit last night.		weather-heat	pret-3s	refrescó
+993	ventilar	to air out	Ventilá la pieza un rato.	Air the room for a while.	voseo imperative	house-renting	cmd-vos	ventilá
+994	humedecer	to dampen	Humedecé el trapo.	Dampen the cloth.	voseo imperative	weather-heat	cmd-vos	humedecé
+995	empapar	to soak	Me empapé con la tormenta.	I got soaked in the storm.		weather-heat	pret-1s	empapé
+996	escurrir	to drain	Escurrí bien la ropa.	Wring the clothes out well.	voseo imperative	cooking-kitchen	cmd-vos	escurrí
+997	tender a	to tend towards	Tiende a llover a la tarde.	It tends to rain in the afternoon.		change-cause	pres-3s	tiende
+998	predominar	to predominate	Predomina el guaraní en el campo.	Guaraní predominates in the countryside.		change-cause	pres-3s	predomina
+999	abundar	to abound	Abundan los mangos en diciembre.	Mangoes are everywhere in December.		haggling-quantities	pres-3p	abundan
+1000	escasear	to be scarce	Escasea el agua en septiembre.	Water is scarce in September.		haggling-quantities	pres-3s	escasea

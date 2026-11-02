@@ -5,7 +5,7 @@ import csv, glob, hashlib, json, os, shutil, subprocess, sys
 ROOT = os.path.dirname(os.path.abspath(__file__))
 rows, seen = [], {}
 
-for path in sorted(glob.glob(os.path.join(ROOT, 'data', '*.tsv'))):
+for path in sorted(glob.glob(os.path.join(ROOT, 'data', 'verbs_*.tsv'))):
     with open(path, encoding='utf-8') as fh:
         for i, r in enumerate(csv.DictReader(fh, delimiter='\t'), start=2):
             try:
@@ -26,6 +26,9 @@ for path in sorted(glob.glob(os.path.join(ROOT, 'data', '*.tsv'))):
                 's': r['sentence_es'].strip(),
                 't': r['sentence_en'].strip(),
                 'n': (r.get('note') or '').strip(),
+                'tp': (r.get('topic') or '').strip(),
+                'f': (r.get('form') or '').strip(),
+                'vt': (r.get('verb_token') or '').strip(),
             })
 
 # Catch stray characters that aren't Spanish or English - a typo like "Llena"

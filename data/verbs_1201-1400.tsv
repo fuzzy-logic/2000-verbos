@@ -1,201 +1,201 @@
 rank	verb_es	verb_en	sentence_es	sentence_en	note	topic	form	verb_token
-1201	aclararse	to become clear	Se aclaró todo con una llamada.	It all became clear with one phone call.			pret-3s	aclaró
-1202	esclarecer	to shed light on	Esclarecieron el caso en dos semanas.	They solved the case in two weeks.			pret-3p	esclarecieron
-1203	indagar	to inquire into	Indagaron sobre su pasado.	They looked into his past.			pret-3p	indagaron
-1204	interrogar	to question	Interrogaron a los testigos.	They questioned the witnesses.			pret-3p	interrogaron
-1205	inquirir	to ask (formal)	Inquirió por su salud.	He asked after her health.			pret-3s	inquirió
-1206	consultar	to consult	Consultá con un abogado.	Check with a lawyer.	voseo imperative		cmd-vos	consultá
-1207	asesorar	to advise (professionally)	Nos asesoró un contador.	An accountant advised us.			pret-3s	asesoró
-1208	orientarse por	to go by	Me oriento por el río.	I navigate by the river.			pres-1s	oriento
-1209	deducirse	to be inferred	Se deduce del contexto.	It can be inferred from the context.			pres-3s	deduce
-1210	inferir	to infer	Inferí que estaba molesto.	I gathered he was annoyed.			cmd-vos	inferí
-1211	intuir	to sense	Intuí que algo pasaba.	I sensed something was going on.			cmd-vos	intuí
-1212	presentir	to have a feeling	Presentí que no iba a venir.	I had a feeling he wouldn't come.			cmd-vos	presentí
-1213	vislumbrar	to glimpse	Vislumbré una salida.	I glimpsed a way out.			pret-1s	vislumbré
-1214	percibir	to perceive	Percibo una diferencia en el acento.	I notice a difference in the accent.			pres-1s	percibo
-1215	captar	to pick up on	Capté la indirecta.	I got the hint.			pret-1s	capté
-1216	asimilar	to take in	Me cuesta asimilar tanta información.	I struggle to take in so much information.			inf	asimilar
-1217	interiorizar	to internalise	Interioricé la regla con la práctica.	I internalised the rule through practice.			pret-1s	interioricé
-1218	retener	to retain	Retengo mejor escuchando.	I retain things better by listening.			pres-1s	retengo
-1219	evocar	to evoke	Esa canción evoca mi infancia.	That song evokes my childhood.			pres-3s	evoca
-1220	rememorar	to reminisce	Rememoraron viejos tiempos.	They reminisced about old times.			pret-3p	rememoraron
-1221	añorar	to long for	Añoro el invierno de allá.	I long for the winter back home.			pres-1s	añoro
-1222	anhelar	to yearn	Anhelaba volver algún día.	He yearned to return one day.			imperf-3s	anhelaba
-1223	ansiar	to crave	Ansío un poco de sombra.	I'm craving a bit of shade.			pret-3s	ansío
-1224	ambicionar	to aspire to	Ambiciona un cargo mayor.	He aspires to a higher post.			pres-3s	ambiciona
-1225	aspirar a	to aim for	Aspiro a hablar sin pensar.	I aim to speak without thinking.			pres-1s	aspiro
-1226	pretender	to intend / to claim	Pretende hablar cinco idiomas.	He claims to speak five languages.			pres-3s	pretende
-1227	fingir	to pretend	Fingió no entenderme.	He pretended not to understand me.			pret-3s	fingió
-1228	disimular	to hide (feelings)	Disimulé la sorpresa.	I hid my surprise.			pret-1s	disimulé
-1229	aparentar	to appear	Aparenta menos edad.	He looks younger than he is.			pres-3s	aparenta
-1230	simular	to simulate	Simularon una emergencia.	They simulated an emergency.			pret-3p	simularon
-1231	imitar	to imitate	Imito el acento para practicar.	I imitate the accent to practise.			pres-1s	imito
-1232	remedar	to mimic	Remedaba a su profesor.	He used to mimic his teacher.			imperf-3s	remedaba
-1233	parodiar	to parody	Parodiaron el noticiero.	They parodied the news programme.			pret-3p	parodiaron
-1234	caricaturizar	to caricature	Lo caricaturizaron en el diario.	They caricatured him in the paper.			pret-3p	caricaturizaron
-1235	ridiculizar	to ridicule	No ridiculices a nadie por su acento.	Don't ridicule anyone for their accent.			subj-2s	ridiculices
-1236	avergonzar	to embarrass	Me avergonzó delante de todos.	He embarrassed me in front of everyone.			pret-3s	avergonzó
-1237	halagar	to flatter	Me halagó el comentario.	The comment flattered me.			pret-3s	halagó
-1238	adular	to butter up	Adula al jefe todo el tiempo.	He butters up the boss constantly.			pres-3s	adula
-1239	consentir a	to indulge	Consienten demasiado al menor.	They indulge the youngest too much.			pres-3p	consienten
-1240	malcriar	to spoil (a child)	Lo malcriaron de chico.	They spoiled him as a child.			pret-3p	malcriaron
-1241	disciplinar	to discipline	Disciplinan con mucha calma.	They discipline very calmly.			pres-3p	disciplinan
-1242	reprender	to reprimand	Lo reprendieron por llegar tarde.	They reprimanded him for being late.			pret-3p	reprendieron
-1243	amonestar	to warn (formally)	Lo amonestaron dos veces.	He was given two warnings.			pret-3p	amonestaron
-1244	advertirse	to be noticeable	Se advierte el cambio enseguida.	The change is noticeable immediately.			pres-3s	advierte
-1245	constatar	to verify	Constataron los daños.	They assessed the damage.			pret-3p	constataron
-1246	cerciorarse	to make sure	Cerciorate de cerrar bien.	Make sure you lock up properly.	voseo imperative		cmd-vos	cerciorate
-1247	asegurarse	to make certain	Asegurate de llevar el documento.	Make sure you take your ID.	voseo imperative		cmd-vos	asegurate
-1248	comprobarse	to be proven	Se comprobó que era falso.	It was proven to be false.			pret-3s	comprobó
-1249	refutar	to refute	Refutó el argumento con datos.	He refuted the argument with data.			pret-3s	refutó
-1250	rebatir	to counter	Rebatió cada punto.	He countered every point.			pret-3s	rebatió
-1251	contradecir	to contradict	Se contradice todo el tiempo.	He contradicts himself constantly.			pres-3s	contradice
-1252	coincidir en	to concur on	Coincidimos en lo esencial.	We agree on the essentials.			pres-1p	coincidimos
-1253	consensuar	to reach consensus	Consensuamos una fecha.	We agreed on a date together.			pres-1p	consensuamos
-1254	conciliar	to reconcile	Conciliaron posturas opuestas.	They reconciled opposing positions.			pret-3p	conciliaron
-1255	apaciguar	to pacify	Apaciguó los ánimos.	He calmed tempers.			pret-3s	apaciguó
-1256	sosegar	to soothe	El mate sosiega bastante.	Mate is quite soothing.			pres-3s	sosiega
-1257	aliviar	to relieve	Me alivió saberlo.	It was a relief to know.			pret-3s	alivió
-1258	consolar	to console	La consolaron entre todos.	They all consoled her.			pret-3p	consolaron
-1259	compadecer	to pity	Lo compadezco de verdad.	I genuinely feel for him.			pres-1s	compadezco
-1260	solidarizarse	to show solidarity	Se solidarizaron con los vecinos.	They stood by the neighbours.			pret-3p	solidarizaron
-1261	compadecerse	to take pity	Se compadeció del perro y lo llevó.	She took pity on the dog and took it home.			pret-3s	compadeció
-1262	amparar	to shelter	Los ampararon durante la inundación.	They sheltered them during the flood.			pret-3p	ampararon
-1263	acoger	to take in	Nos acogieron como familia.	They took us in like family.			pret-3p	acogieron
-1264	albergar	to house	El refugio alberga a cien personas.	The shelter houses a hundred people.			pres-3s	alberga
-1265	cobijar	to shelter	Nos cobijamos bajo un árbol.	We sheltered under a tree.			pres-1p	cobijamos
-1266	refugiarse	to take refuge	Nos refugiamos de la lluvia.	We took shelter from the rain.			pres-1p	refugiamos
-1267	resguardar	to safeguard	Resguardá los documentos.	Keep the documents safe.	voseo imperative		cmd-vos	resguardá
-1268	preservar	to preserve	Preservan el idioma en casa.	They preserve the language at home.			pres-3p	preservan
-1269	rescatarse	to be salvaged	Se rescató muy poco.	Very little was salvaged.			pret-3s	rescató
-1270	recobrar	to regain	Recobró la confianza de a poco.	He regained his confidence slowly.			pret-3s	recobró
-1271	restituir	to give back	Restituyeron lo robado.	They returned the stolen goods.			pret-3p	restituyeron
-1272	reintegrar	to reimburse	Me reintegraron el pasaje.	They refunded my fare.			pret-3p	reintegraron
-1273	compensar	to compensate	Compensaron la demora.	They made up for the delay.			pret-3p	compensaron
-1274	indemnizar	to compensate (legally)	Indemnizaron a los afectados.	They compensated those affected.			pret-3p	indemnizaron
-1275	resarcir	to make amends	Quiso resarcir el daño.	He wanted to make up for the harm.			inf	resarcir
-1276	reparar en	to notice	No reparé en el detalle.	I didn't notice the detail.			pret-1s	reparé
-1277	percatarse	to become aware	Me percaté tarde del error.	I became aware of the mistake too late.			pret-1s	percaté
-1278	advertir a	to tip off	Le advirtieron a tiempo.	They warned him in time.			pret-3p	advirtieron
-1279	prevenirse	to take precautions	Me previne con repelente.	I came prepared with repellent.			pret-1s	previne
-1280	precaver	to guard against	Hay que precaver el dengue.	You have to guard against dengue.			inf	precaver
-1281	arriesgarse	to take a chance	Me arriesgué y salió bien.	I took a chance and it worked out.			pret-1s	arriesgué
-1282	aventurarse	to venture	Se aventuró al Chaco solo.	He ventured into the Chaco alone.			pret-3s	aventuró
-1283	atreverse a	to venture to	Me atreví a pedirlo en guaraní.	I dared to ask for it in Guaraní.			pret-1s	atreví
-1284	osar	to dare (formal)	Nadie osó contradecirlo.	Nobody dared contradict him.			pret-3s	osó
-1285	desafiar	to challenge	Me desafió a una partida.	He challenged me to a game.			pret-3s	desafió
-1286	retar	to challenge / to tell off	Lo retaron por llegar tarde.	They told him off for being late.	retar = to scold in PY/AR		pret-3p	retaron
-1287	provocarse	to be brought on	Se provocó por el calor.	It was brought on by the heat.			pret-3s	provocó
-1288	incitar	to incite	Lo incitaron a pelear.	They egged him on to fight.			pret-3p	incitaron
-1289	instigar	to instigate	Instigaron el conflicto.	They instigated the conflict.			pret-3p	instigaron
-1290	agitar	to shake / to stir up	Agitá bien antes de usar.	Shake well before use.	voseo imperative		cmd-vos	agitá
-1291	revolver	to stir	Revolvé el cocido.	Stir the cocido.	voseo imperative		cmd-vos	revolvé
-1292	batir	to whisk	Batí los huevos.	Whisk the eggs.	voseo imperative		cmd-vos	batí
-1293	amasarse	to be kneaded	La chipa se amasa a mano.	Chipa is kneaded by hand.			pres-3s	amasa
-1294	moler	to grind	Muelen el maíz en el molino.	They grind the maize at the mill.			pres-3p	muelen
-1295	triturar	to crush	Trituraron el hielo para el tereré.	They crushed the ice for the tereré.			pret-3p	trituraron
-1296	machacar	to pound	Machacá el ajo con sal.	Pound the garlic with salt.	voseo imperative		cmd-vos	machacá
-1297	pelar	to peel	Pelá la mandioca primero.	Peel the cassava first.	mandioca: PY staple		cmd-vos	pelá
-1298	picar (cocina)	to chop	Picá la cebolla fina.	Chop the onion finely.	voseo imperative		cmd-vos	picá
-1299	rebanar	to slice	Rebanó el pan en la mesa.	He sliced the bread at the table.			pret-3s	rebanó
-1300	trozar	to cut into pieces	Trozaron la carne para el puchero.	They cut the meat up for the stew.			pret-3p	trozaron
-1301	deshuesar	to bone	Deshuesaron el pollo.	They boned the chicken.			pret-3p	deshuesaron
-1302	desplumar	to pluck	Desplumaron la gallina.	They plucked the chicken.			pret-3p	desplumaron
-1303	marinar	to marinate	Mariná la carne desde anoche.	Marinate the meat from last night.	voseo imperative		cmd-vos	mariná
-1304	adobar	to season (meat)	Adobaron el cerdo con ajo.	They seasoned the pork with garlic.			pret-3p	adobaron
-1305	ahumar	to smoke (food)	Ahúman el pescado del río.	They smoke the river fish.			pres-3p	ahúman
-1306	curar (alimento)	to cure	Curan la carne con sal.	They cure the meat with salt.			pres-3p	curan
-1307	fermentar	to ferment	Fermenta tres días.	It ferments for three days.			pres-3s	fermenta
-1308	destilar	to distil	Destilan caña en el pueblo.	They distil cane spirit in the village.	caña: PY sugarcane spirit		pres-3p	destilan
-1309	embotellar	to bottle	Embotellan todo a mano.	They bottle it all by hand.			pres-3p	embotellan
-1310	enlatar	to can	Enlatan el palmito acá.	They can the palm hearts here.			pres-3p	enlatan
-1311	envasar	to package	Envasan al vacío.	They vacuum-pack it.			pres-3p	envasan
-1312	etiquetarse	to be labelled	Se etiqueta con la fecha.	It's labelled with the date.			pres-3s	etiqueta
-1313	caducarse (comida)	to go past its date	Se caducó la leche.	The milk went past its date.			pret-3s	caducó
-1314	descomponerse (carne)	to spoil	Se descompone rápido con el calor.	It spoils fast in the heat.			pres-3s	descompone
-1315	congelar (comida)	to freeze	Congelá lo que sobre.	Freeze whatever is left over.	voseo imperative		cmd-vos	congelá
-1316	recalentarse	to be reheated	Se recalienta en dos minutos.	It reheats in two minutes.			pres-3s	recalienta
-1317	servir (comida)	to serve up	Sirvieron a las nueve en punto.	They served at nine on the dot.			pret-3p	sirvieron
-1318	repartir (comida)	to dish out	Repartió porciones enormes.	She dished out enormous portions.			pret-3s	repartió
-1319	compartirse	to be shared	La guampa se comparte siempre.	The guampa is always shared.	guampa: tereré cup		pres-3s	comparte
-1320	cebar	to prepare (mate/tereré)	Cebá vos, que lo hacés mejor.	You pour it, you do it better.	cebar: central to tereré culture		cmd-vos	cebá
-1321	brindarse	to toast each other	Se brindó por los novios.	A toast was made to the couple.			pret-3s	brindó
-1322	emborracharse	to get drunk	Se emborrachó en la fiesta.	He got drunk at the party.			pret-3s	emborrachó
-1323	embriagar	to intoxicate	La caña embriaga rápido.	Cane spirit goes to your head fast.			pres-3s	embriaga
-1324	desvelarse	to lose sleep	Me desvelé pensando en eso.	I lay awake thinking about it.			pret-1s	desvelé
-1325	amanecerse	to stay up till dawn	Nos amanecimos charlando.	We stayed up talking till dawn.			pret-1p	amanecimos
-1326	trasnocharse	to be up all night	Se trasnochó con el trabajo.	He was up all night with work.			pret-3s	trasnochó
-1327	desperezarse	to stretch on waking	Se desperezó al levantarse.	He stretched as he got up.			pret-3s	desperezó
-1328	acurrucarse	to curl up	Se acurrucó en el sillón.	She curled up on the sofa.			pret-3s	acurrucó
-1329	arroparse	to tuck oneself in	Se arropó bien por el frío.	He tucked himself in against the cold.			pret-3s	arropó
-1330	hamacarse	to swing	Los chicos se hamacan en la plaza.	The kids swing in the square.	hamaca: also hammock		pres-3p	hamacan
-1331	mecerse	to rock	La hamaca se mecía sola.	The hammock was rocking by itself.			imperf-3s	mecía
-1332	balancearse	to sway	Se balanceaban los árboles.	The trees were swaying.			imperf-3p	balanceaban
-1333	tambalearse	to stagger	Se tambaleó al pararse.	He staggered as he stood up.			pret-3s	tambaleó
-1334	cojear	to limp	Cojea desde el accidente.	He's limped since the accident.			pres-3s	cojea
-1335	arrastrarse	to crawl	El bebé ya se arrastra.	The baby crawls now.			pres-3s	arrastra
-1336	gatear	to crawl (baby)	Gatea por toda la casa.	He crawls all over the house.			pres-3s	gatea
-1337	andar a gatas	to go on all fours	Anda a gatas todavía.	He's still crawling.	fixed expression		pres-3s	anda
-1338	trotar	to jog	Troto por la costanera.	I jog along the riverfront.			pres-1s	troto
-1339	esprintar	to sprint	Esprintó los últimos metros.	He sprinted the last few metres.			pret-3s	esprintó
-1340	remar	to row	Remamos río arriba.	We rowed upstream.			pres-1p	remamos
-1341	bucear	to dive	Buceó en el lago.	He dived in the lake.			pret-3s	buceó
-1342	zambullirse	to plunge in	Se zambulló de cabeza.	He dived in head first.			pres-1s	zambulló
-1343	chapotear	to splash about	Los chicos chapotean en la pileta.	The kids splash about in the pool.			pres-3p	chapotean
-1344	escalar	to climb (mountain)	Escalaron el cerro al amanecer.	They climbed the hill at dawn.	cerro: common PY landscape		pret-3p	escalaron
-1345	descender	to descend	Descendieron por el otro lado.	They came down the other side.			pret-3p	descendieron
-1346	acampar	to camp	Acampamos cerca del río.	We camped near the river.			pres-1p	acampamos
-1347	pernoctar	to stay overnight	Pernoctamos en Encarnación.	We stayed overnight in Encarnación.			pres-1p	pernoctamos
-1348	hospedarse	to lodge	Nos hospedamos con una familia.	We stayed with a family.			pres-1p	hospedamos
-1349	desplazarse	to get around	Me desplazo en moto.	I get around by motorbike.			pres-1s	desplazo
-1350	trasladar	to move / to transfer	Trasladaron la oficina al centro.	They moved the office downtown.			pret-3p	trasladaron
-1351	transportar	to transport	Transportan carga al Brasil.	They haul freight to Brazil.			pres-3p	transportan
-1352	acarrear	to haul	Acarrearon ladrillos todo el día.	They hauled bricks all day.			pret-3p	acarrearon
-1353	remolcar	to tow	Remolcaron el auto hasta el taller.	They towed the car to the garage.			pret-3p	remolcaron
-1354	embarcar	to board	Embarcamos a las seis.	We board at six.			pres-1p	embarcamos
-1355	desembarcar	to disembark	Desembarcaron en el puerto.	They disembarked at the port.			pret-3p	desembarcaron
-1356	zarpar	to set sail	El barco zarpa al mediodía.	The boat sails at midday.			pres-3s	zarpa
-1357	atracar	to dock	Atracaron en el muelle viejo.	They docked at the old jetty.			pret-3p	atracaron
-1358	naufragar	to be shipwrecked	Naufragaron cerca de la orilla.	They were shipwrecked near the shore.			pret-3p	naufragaron
-1359	rescatarse de	to be rescued from	Se rescató a todos del agua.	Everyone was rescued from the water.			pret-3s	rescató
-1360	encallar	to run aground	Encalló en el banco de arena.	It ran aground on the sandbank.			pret-3s	encalló
-1361	flotarse	to stay afloat	Se mantuvo a flote dos horas.	He stayed afloat for two hours.			subj-3s	flote
-1362	remolcarse	to be towed	Se remolcó hasta la costa.	It was towed to the shore.			pret-3s	remolcó
-1363	aterrizar (forzoso)	to make an emergency landing	Aterrizaron de emergencia.	They made an emergency landing.			pret-3p	aterrizaron
-1364	sobrevolar	to fly over	Sobrevolamos el Chaco.	We flew over the Chaco.			pres-1p	sobrevolamos
-1365	despegarse	to come unstuck	Se despegó la etiqueta.	The label came unstuck.			pret-3s	despegó
-1366	adherirse	to adhere	No se adhiere bien al vidrio.	It doesn't stick well to glass.			pres-3s	adhiere
-1367	fijarse a	to be fixed to	Se fija a la pared con tornillos.	It fixes to the wall with screws.			pres-3s	fija
-1368	sujetar	to hold in place	Sujetá la escalera.	Hold the ladder steady.	voseo imperative		cmd-vos	sujetá
-1369	soportar (peso)	to bear	La viga soporta todo el techo.	The beam bears the whole roof.			pres-3s	soporta
-1370	sostener	to hold up	Sostené esto un segundo.	Hold this a second.	voseo imperative		cmd-vos	sostené
-1371	apoyarse	to lean on	Me apoyé en la pared.	I leaned against the wall.			pret-1s	apoyé
-1372	recostar	to lean (something)	Recostó la bici contra el árbol.	He leaned the bike against the tree.			pret-3s	recostó
-1373	inclinar	to tilt	Inclinó la cabeza para escuchar.	He tilted his head to listen.			pret-3s	inclinó
-1374	enderezar	to straighten	Enderezá el cuadro.	Straighten the picture.	voseo imperative		cmd-vos	enderezá
-1375	torcerse	to go crooked	Se torció el poste con el viento.	The post went crooked in the wind.			pret-3s	torció
-1376	curvar	to bend	Curvaron el hierro en el taller.	They bent the iron in the workshop.			pret-3p	curvaron
-1377	doblarse	to bend over	Se dobló el metal con el calor.	The metal buckled in the heat.			pret-3s	dobló
-1378	quebrarse	to snap	Se quebró la rama.	The branch snapped.			pret-3s	quebró
-1379	astillarse	to splinter	Se astilló la madera.	The wood splintered.			pret-3s	astilló
-1380	agrietarse	to crack	Se agrietó la pared.	The wall cracked.			pret-3s	agrietó
-1381	desmoronarse	to crumble	Se desmoronó el muro viejo.	The old wall crumbled.			pret-3s	desmoronó
-1382	derrumbarse	to collapse	Se derrumbó el techo con la lluvia.	The roof collapsed in the rain.			pret-3s	derrumbó
-1383	ceder (estructura)	to give way	Cedió el piso de madera.	The wooden floor gave way.			pret-3s	cedió
-1384	apuntalar	to prop up	Apuntalaron la pared.	They propped up the wall.			pret-3p	apuntalaron
-1385	reforzar	to reinforce	Reforzaron los cimientos.	They reinforced the foundations.			pret-3p	reforzaron
-1386	cimentar	to lay foundations	Cimentaron en una semana.	They laid the foundations in a week.			pret-3p	cimentaron
-1387	levantar (construir)	to put up	Levantaron la casa en seis meses.	They put the house up in six months.			pret-3p	levantaron
-1388	techar	to roof	Techaron con chapa.	They roofed it with sheet metal.	chapa: common PY roofing		pret-3p	techaron
-1389	revocar	to plaster	Revocaron las paredes de afuera.	They plastered the outside walls.			pret-3p	revocaron
-1390	azulejar	to tile	Azulejaron el baño entero.	They tiled the whole bathroom.			pret-3p	azulejaron
-1391	empapelar	to wallpaper	Empapelaron el dormitorio.	They wallpapered the bedroom.			pret-3p	empapelaron
-1392	barnizar	to varnish	Barnizó la mesa a mano.	He varnished the table by hand.			pret-3s	barnizó
-1393	lijar	to sand	Lijá antes de pintar.	Sand it before painting.	voseo imperative		cmd-vos	lijá
-1394	cercar	to fence in	Cercaron todo el terreno.	They fenced the whole plot.			pret-3p	cercaron
-1395	alambrar	to wire-fence	Alambraron el campo.	They wire-fenced the field.			pret-3p	alambraron
-1396	amurallar	to wall in	Amurallaron la propiedad.	They walled in the property.			pret-3p	amurallaron
-1397	amoblar	to furnish	Amoblamos de a poco.	We're furnishing it bit by bit.			pres-1p	amoblamos
-1398	desocupar	to vacate	Desocuparon la casa el lunes.	They vacated the house on Monday.			pret-3p	desocuparon
-1399	habitar	to inhabit	Habitan la zona desde siempre.	They have always lived in the area.			pres-3p	habitan
-1400	deshabitar	to leave uninhabited	Quedó deshabitada la casa.	The house was left empty.			part	deshabitada
+1201	aclararse	to become clear	Se aclaró todo con una llamada.	It all became clear with one phone call.		asking-understanding	pret-3s	aclaró
+1202	esclarecer	to shed light on	Esclarecieron el caso en dos semanas.	They solved the case in two weeks.		thinking-knowing	pret-3p	esclarecieron
+1203	indagar	to inquire into	Indagaron sobre su pasado.	They looked into his past.		thinking-knowing	pret-3p	indagaron
+1204	interrogar	to question	Interrogaron a los testigos.	They questioned the witnesses.		emergencies	pret-3p	interrogaron
+1205	inquirir	to ask (formal)	Inquirió por su salud.	He asked after her health.		paperwork-bureaucracy	pret-3s	inquirió
+1206	consultar	to consult	Consultá con un abogado.	Check with a lawyer.	voseo imperative	asking-understanding	cmd-vos	consultá
+1207	asesorar	to advise (professionally)	Nos asesoró un contador.	An accountant advised us.		work-tasks	pret-3s	asesoró
+1208	orientarse por	to go by	Me oriento por el río.	I navigate by the river.		directions-places	pres-1s	oriento
+1209	deducirse	to be inferred	Se deduce del contexto.	It can be inferred from the context.		thinking-knowing	pres-3s	deduce
+1210	inferir	to infer	Inferí que estaba molesto.	I gathered he was annoyed.		thinking-knowing	cmd-vos	inferí
+1211	intuir	to sense	Intuí que algo pasaba.	I sensed something was going on.		thinking-knowing	cmd-vos	intuí
+1212	presentir	to have a feeling	Presentí que no iba a venir.	I had a feeling he wouldn't come.		thinking-knowing	cmd-vos	presentí
+1213	vislumbrar	to glimpse	Vislumbré una salida.	I glimpsed a way out.		seeing-noticing	pret-1s	vislumbré
+1214	percibir	to perceive	Percibo una diferencia en el acento.	I notice a difference in the accent.		seeing-noticing	pres-1s	percibo
+1215	captar	to pick up on	Capté la indirecta.	I got the hint.		thinking-knowing	pret-1s	capté
+1216	asimilar	to take in	Me cuesta asimilar tanta información.	I struggle to take in so much information.		doing-handling	inf	asimilar
+1217	interiorizar	to internalise	Interioricé la regla con la práctica.	I internalised the rule through practice.		thinking-knowing	pret-1s	interioricé
+1218	retener	to retain	Retengo mejor escuchando.	I retain things better by listening.		thinking-knowing	pres-1s	retengo
+1219	evocar	to evoke	Esa canción evoca mi infancia.	That song evokes my childhood.		thinking-knowing	pres-3s	evoca
+1220	rememorar	to reminisce	Rememoraron viejos tiempos.	They reminisced about old times.		thinking-knowing	pret-3p	rememoraron
+1221	añorar	to long for	Añoro el invierno de allá.	I long for the winter back home.		feelings-conflict	pres-1s	añoro
+1222	anhelar	to yearn	Anhelaba volver algún día.	He yearned to return one day.		work-tasks	imperf-3s	anhelaba
+1223	ansiar	to crave	Ansío un poco de sombra.	I'm craving a bit of shade.		feelings-conflict	pret-3s	ansío
+1224	ambicionar	to aspire to	Ambiciona un cargo mayor.	He aspires to a higher post.		work-tasks	pres-3s	ambiciona
+1225	aspirar a	to aim for	Aspiro a hablar sin pensar.	I aim to speak without thinking.		work-tasks	pres-1s	aspiro
+1226	pretender	to intend / to claim	Pretende hablar cinco idiomas.	He claims to speak five languages.		thinking-knowing	pres-3s	pretende
+1227	fingir	to pretend	Fingió no entenderme.	He pretended not to understand me.		feelings-conflict	pret-3s	fingió
+1228	disimular	to hide (feelings)	Disimulé la sorpresa.	I hid my surprise.		being-feeling	pret-1s	disimulé
+1229	aparentar	to appear	Aparenta menos edad.	He looks younger than he is.		change-cause	pres-3s	aparenta
+1230	simular	to simulate	Simularon una emergencia.	They simulated an emergency.		thinking-knowing	pret-3p	simularon
+1231	imitar	to imitate	Imito el acento para practicar.	I imitate the accent to practise.		free-time	pres-1s	imito
+1232	remedar	to mimic	Remedaba a su profesor.	He used to mimic his teacher.		free-time	imperf-3s	remedaba
+1233	parodiar	to parody	Parodiaron el noticiero.	They parodied the news programme.		free-time	pret-3p	parodiaron
+1234	caricaturizar	to caricature	Lo caricaturizaron en el diario.	They caricatured him in the paper.		free-time	pret-3p	caricaturizaron
+1235	ridiculizar	to ridicule	No ridiculices a nadie por su acento.	Don't ridicule anyone for their accent.		feelings-conflict	subj-2s	ridiculices
+1236	avergonzar	to embarrass	Me avergonzó delante de todos.	He embarrassed me in front of everyone.		feelings-conflict	pret-3s	avergonzó
+1237	halagar	to flatter	Me halagó el comentario.	The comment flattered me.		greeting-small-talk	pret-3s	halagó
+1238	adular	to butter up	Adula al jefe todo el tiempo.	He butters up the boss constantly.		greeting-small-talk	pres-3s	adula
+1239	consentir a	to indulge	Consienten demasiado al menor.	They indulge the youngest too much.		family-friends	pres-3p	consienten
+1240	malcriar	to spoil (a child)	Lo malcriaron de chico.	They spoiled him as a child.		family-friends	pret-3p	malcriaron
+1241	disciplinar	to discipline	Disciplinan con mucha calma.	They discipline very calmly.		family-friends	pres-3p	disciplinan
+1242	reprender	to reprimand	Lo reprendieron por llegar tarde.	They reprimanded him for being late.		family-friends	pret-3p	reprendieron
+1243	amonestar	to warn (formally)	Lo amonestaron dos veces.	He was given two warnings.		paperwork-bureaucracy	pret-3p	amonestaron
+1244	advertirse	to be noticeable	Se advierte el cambio enseguida.	The change is noticeable immediately.		yes-no-maybe	pres-3s	advierte
+1245	constatar	to verify	Constataron los daños.	They assessed the damage.		thinking-knowing	pret-3p	constataron
+1246	cerciorarse	to make sure	Cerciorate de cerrar bien.	Make sure you lock up properly.	voseo imperative	thinking-knowing	cmd-vos	cerciorate
+1247	asegurarse	to make certain	Asegurate de llevar el documento.	Make sure you take your ID.	voseo imperative	thinking-knowing	cmd-vos	asegurate
+1248	comprobarse	to be proven	Se comprobó que era falso.	It was proven to be false.		thinking-knowing	pret-3s	comprobó
+1249	refutar	to refute	Refutó el argumento con datos.	He refuted the argument with data.		conversation-opinion	pret-3s	refutó
+1250	rebatir	to counter	Rebatió cada punto.	He countered every point.		haggling-quantities	pret-3s	rebatió
+1251	contradecir	to contradict	Se contradice todo el tiempo.	He contradicts himself constantly.		conversation-opinion	pres-3s	contradice
+1252	coincidir en	to concur on	Coincidimos en lo esencial.	We agree on the essentials.		conversation-opinion	pres-1p	coincidimos
+1253	consensuar	to reach consensus	Consensuamos una fecha.	We agreed on a date together.		conversation-opinion	pres-1p	consensuamos
+1254	conciliar	to reconcile	Conciliaron posturas opuestas.	They reconciled opposing positions.		feelings-conflict	pret-3p	conciliaron
+1255	apaciguar	to pacify	Apaciguó los ánimos.	He calmed tempers.		feelings-conflict	pret-3s	apaciguó
+1256	sosegar	to soothe	El mate sosiega bastante.	Mate is quite soothing.		feelings-conflict	pres-3s	sosiega
+1257	aliviar	to relieve	Me alivió saberlo.	It was a relief to know.		body-illness-pharmacy	pret-3s	alivió
+1258	consolar	to console	La consolaron entre todos.	They all consoled her.		feelings-conflict	pret-3p	consolaron
+1259	compadecer	to pity	Lo compadezco de verdad.	I genuinely feel for him.		feelings-conflict	pres-1s	compadezco
+1260	solidarizarse	to show solidarity	Se solidarizaron con los vecinos.	They stood by the neighbours.		family-friends	pret-3p	solidarizaron
+1261	compadecerse	to take pity	Se compadeció del perro y lo llevó.	She took pity on the dog and took it home.		feelings-conflict	pret-3s	compadeció
+1262	amparar	to shelter	Los ampararon durante la inundación.	They sheltered them during the flood.		emergencies	pret-3p	ampararon
+1263	acoger	to take in	Nos acogieron como familia.	They took us in like family.		doing-handling	pret-3p	acogieron
+1264	albergar	to house	El refugio alberga a cien personas.	The shelter houses a hundred people.		house-renting	pres-3s	alberga
+1265	cobijar	to shelter	Nos cobijamos bajo un árbol.	We sheltered under a tree.		emergencies	pres-1p	cobijamos
+1266	refugiarse	to take refuge	Nos refugiamos de la lluvia.	We took shelter from the rain.		emergencies	pres-1p	refugiamos
+1267	resguardar	to safeguard	Resguardá los documentos.	Keep the documents safe.	voseo imperative	emergencies	cmd-vos	resguardá
+1268	preservar	to preserve	Preservan el idioma en casa.	They preserve the language at home.		ordering-eating	pres-3p	preservan
+1269	rescatarse	to be salvaged	Se rescató muy poco.	Very little was salvaged.		emergencies	pret-3s	rescató
+1270	recobrar	to regain	Recobró la confianza de a poco.	He regained his confidence slowly.		body-illness-pharmacy	pret-3s	recobró
+1271	restituir	to give back	Restituyeron lo robado.	They returned the stolen goods.		doing-handling	pret-3p	restituyeron
+1272	reintegrar	to reimburse	Me reintegraron el pasaje.	They refunded my fare.		bank-cash-credit	pret-3p	reintegraron
+1273	compensar	to compensate	Compensaron la demora.	They made up for the delay.		bank-cash-credit	pret-3p	compensaron
+1274	indemnizar	to compensate (legally)	Indemnizaron a los afectados.	They compensated those affected.		news-institutions	pret-3p	indemnizaron
+1275	resarcir	to make amends	Quiso resarcir el daño.	He wanted to make up for the harm.		fixing-breaking-power	inf	resarcir
+1276	reparar en	to notice	No reparé en el detalle.	I didn't notice the detail.		seeing-noticing	pret-1s	reparé
+1277	percatarse	to become aware	Me percaté tarde del error.	I became aware of the mistake too late.		thinking-knowing	pret-1s	percaté
+1278	advertir a	to tip off	Le advirtieron a tiempo.	They warned him in time.		conversation-opinion	pret-3p	advirtieron
+1279	prevenirse	to take precautions	Me previne con repelente.	I came prepared with repellent.		thinking-knowing	pret-1s	previne
+1280	precaver	to guard against	Hay que precaver el dengue.	You have to guard against dengue.		thinking-knowing	inf	precaver
+1281	arriesgarse	to take a chance	Me arriesgué y salió bien.	I took a chance and it worked out.		thinking-knowing	pret-1s	arriesgué
+1282	aventurarse	to venture	Se aventuró al Chaco solo.	He ventured into the Chaco alone.		free-time	pret-3s	aventuró
+1283	atreverse a	to venture to	Me atreví a pedirlo en guaraní.	I dared to ask for it in Guaraní.		yes-no-maybe	pret-1s	atreví
+1284	osar	to dare (formal)	Nadie osó contradecirlo.	Nobody dared contradict him.		paperwork-bureaucracy	pret-3s	osó
+1285	desafiar	to challenge	Me desafió a una partida.	He challenged me to a game.		feelings-conflict	pret-3s	desafió
+1286	retar	to challenge / to tell off	Lo retaron por llegar tarde.	They told him off for being late.	retar = to scold in PY/AR	conversation-opinion	pret-3p	retaron
+1287	provocarse	to be brought on	Se provocó por el calor.	It was brought on by the heat.		change-cause	pret-3s	provocó
+1288	incitar	to incite	Lo incitaron a pelear.	They egged him on to fight.		feelings-conflict	pret-3p	incitaron
+1289	instigar	to instigate	Instigaron el conflicto.	They instigated the conflict.		news-institutions	pret-3p	instigaron
+1290	agitar	to shake / to stir up	Agitá bien antes de usar.	Shake well before use.	voseo imperative	cooking-kitchen	cmd-vos	agitá
+1291	revolver	to stir	Revolvé el cocido.	Stir the cocido.	voseo imperative	cooking-kitchen	cmd-vos	revolvé
+1292	batir	to whisk	Batí los huevos.	Whisk the eggs.	voseo imperative	cooking-kitchen	cmd-vos	batí
+1293	amasarse	to be kneaded	La chipa se amasa a mano.	Chipa is kneaded by hand.		cooking-kitchen	pres-3s	amasa
+1294	moler	to grind	Muelen el maíz en el molino.	They grind the maize at the mill.		cooking-kitchen	pres-3p	muelen
+1295	triturar	to crush	Trituraron el hielo para el tereré.	They crushed the ice for the tereré.		cooking-kitchen	pret-3p	trituraron
+1296	machacar	to pound	Machacá el ajo con sal.	Pound the garlic with salt.	voseo imperative	cooking-kitchen	cmd-vos	machacá
+1297	pelar	to peel	Pelá la mandioca primero.	Peel the cassava first.	mandioca: PY staple	cooking-kitchen	cmd-vos	pelá
+1298	picar (cocina)	to chop	Picá la cebolla fina.	Chop the onion finely.	voseo imperative	cooking-kitchen	cmd-vos	picá
+1299	rebanar	to slice	Rebanó el pan en la mesa.	He sliced the bread at the table.		cooking-kitchen	pret-3s	rebanó
+1300	trozar	to cut into pieces	Trozaron la carne para el puchero.	They cut the meat up for the stew.		cooking-kitchen	pret-3p	trozaron
+1301	deshuesar	to bone	Deshuesaron el pollo.	They boned the chicken.		cooking-kitchen	pret-3p	deshuesaron
+1302	desplumar	to pluck	Desplumaron la gallina.	They plucked the chicken.		cooking-kitchen	pret-3p	desplumaron
+1303	marinar	to marinate	Mariná la carne desde anoche.	Marinate the meat from last night.	voseo imperative	cooking-kitchen	cmd-vos	mariná
+1304	adobar	to season (meat)	Adobaron el cerdo con ajo.	They seasoned the pork with garlic.		cooking-kitchen	pret-3p	adobaron
+1305	ahumar	to smoke (food)	Ahúman el pescado del río.	They smoke the river fish.		cooking-kitchen	pres-3p	ahúman
+1306	curar (alimento)	to cure	Curan la carne con sal.	They cure the meat with salt.		body-illness-pharmacy	pres-3p	curan
+1307	fermentar	to ferment	Fermenta tres días.	It ferments for three days.		cooking-kitchen	pres-3s	fermenta
+1308	destilar	to distil	Destilan caña en el pueblo.	They distil cane spirit in the village.	caña: PY sugarcane spirit	cooking-kitchen	pres-3p	destilan
+1309	embotellar	to bottle	Embotellan todo a mano.	They bottle it all by hand.		cooking-kitchen	pres-3p	embotellan
+1310	enlatar	to can	Enlatan el palmito acá.	They can the palm hearts here.		yes-no-maybe	pres-3p	enlatan
+1311	envasar	to package	Envasan al vacío.	They vacuum-pack it.		cooking-kitchen	pres-3p	envasan
+1312	etiquetarse	to be labelled	Se etiqueta con la fecha.	It's labelled with the date.		buying-paying	pres-3s	etiqueta
+1313	caducarse (comida)	to go past its date	Se caducó la leche.	The milk went past its date.		cooking-kitchen	pret-3s	caducó
+1314	descomponerse (carne)	to spoil	Se descompone rápido con el calor.	It spoils fast in the heat.		cooking-kitchen	pres-3s	descompone
+1315	congelar (comida)	to freeze	Congelá lo que sobre.	Freeze whatever is left over.	voseo imperative	cooking-kitchen	cmd-vos	congelá
+1316	recalentarse	to be reheated	Se recalienta en dos minutos.	It reheats in two minutes.		ordering-eating	pres-3s	recalienta
+1317	servir (comida)	to serve up	Sirvieron a las nueve en punto.	They served at nine on the dot.		ordering-eating	pret-3p	sirvieron
+1318	repartir (comida)	to dish out	Repartió porciones enormes.	She dished out enormous portions.		doing-handling	pret-3s	repartió
+1319	compartirse	to be shared	La guampa se comparte siempre.	The guampa is always shared.	guampa: tereré cup	terere-drinking	pres-3s	comparte
+1320	cebar	to prepare (mate/tereré)	Cebá vos, que lo hacés mejor.	You pour it, you do it better.	cebar: central to tereré culture	terere-drinking	cmd-vos	cebá
+1321	brindarse	to toast each other	Se brindó por los novios.	A toast was made to the couple.		terere-drinking	pret-3s	brindó
+1322	emborracharse	to get drunk	Se emborrachó en la fiesta.	He got drunk at the party.		terere-drinking	pret-3s	emborrachó
+1323	embriagar	to intoxicate	La caña embriaga rápido.	Cane spirit goes to your head fast.		terere-drinking	pres-3s	embriaga
+1324	desvelarse	to lose sleep	Me desvelé pensando en eso.	I lay awake thinking about it.		daily-routine	pret-1s	desvelé
+1325	amanecerse	to stay up till dawn	Nos amanecimos charlando.	We stayed up talking till dawn.		daily-routine	pret-1p	amanecimos
+1326	trasnocharse	to be up all night	Se trasnochó con el trabajo.	He was up all night with work.		daily-routine	pret-3s	trasnochó
+1327	desperezarse	to stretch on waking	Se desperezó al levantarse.	He stretched as he got up.		daily-routine	pret-3s	desperezó
+1328	acurrucarse	to curl up	Se acurrucó en el sillón.	She curled up on the sofa.		daily-routine	pret-3s	acurrucó
+1329	arroparse	to tuck oneself in	Se arropó bien por el frío.	He tucked himself in against the cold.		daily-routine	pret-3s	arropó
+1330	hamacarse	to swing	Los chicos se hamacan en la plaza.	The kids swing in the square.	hamaca: also hammock	free-time	pres-3p	hamacan
+1331	mecerse	to rock	La hamaca se mecía sola.	The hammock was rocking by itself.		free-time	imperf-3s	mecía
+1332	balancearse	to sway	Se balanceaban los árboles.	The trees were swaying.		free-time	imperf-3p	balanceaban
+1333	tambalearse	to stagger	Se tambaleó al pararse.	He staggered as he stood up.		body-illness-pharmacy	pret-3s	tambaleó
+1334	cojear	to limp	Cojea desde el accidente.	He's limped since the accident.		body-illness-pharmacy	pres-3s	cojea
+1335	arrastrarse	to crawl	El bebé ya se arrastra.	The baby crawls now.		body-illness-pharmacy	pres-3s	arrastra
+1336	gatear	to crawl (baby)	Gatea por toda la casa.	He crawls all over the house.		family-friends	pres-3s	gatea
+1337	andar a gatas	to go on all fours	Anda a gatas todavía.	He's still crawling.	fixed expression	family-friends	pres-3s	anda
+1338	trotar	to jog	Troto por la costanera.	I jog along the riverfront.		free-time	pres-1s	troto
+1339	esprintar	to sprint	Esprintó los últimos metros.	He sprinted the last few metres.		phone-computer	pret-3s	esprintó
+1340	remar	to row	Remamos río arriba.	We rowed upstream.		free-time	pres-1p	remamos
+1341	bucear	to dive	Buceó en el lago.	He dived in the lake.		free-time	pret-3s	buceó
+1342	zambullirse	to plunge in	Se zambulló de cabeza.	He dived in head first.		free-time	pres-1s	zambulló
+1343	chapotear	to splash about	Los chicos chapotean en la pileta.	The kids splash about in the pool.		free-time	pres-3p	chapotean
+1344	escalar	to climb (mountain)	Escalaron el cerro al amanecer.	They climbed the hill at dawn.	cerro: common PY landscape	free-time	pret-3p	escalaron
+1345	descender	to descend	Descendieron por el otro lado.	They came down the other side.		directions-places	pret-3p	descendieron
+1346	acampar	to camp	Acampamos cerca del río.	We camped near the river.		free-time	pres-1p	acampamos
+1347	pernoctar	to stay overnight	Pernoctamos en Encarnación.	We stayed overnight in Encarnación.		transport-colectivo	pres-1p	pernoctamos
+1348	hospedarse	to lodge	Nos hospedamos con una familia.	We stayed with a family.		transport-colectivo	pres-1p	hospedamos
+1349	desplazarse	to get around	Me desplazo en moto.	I get around by motorbike.		transport-colectivo	pres-1s	desplazo
+1350	trasladar	to move / to transfer	Trasladaron la oficina al centro.	They moved the office downtown.		emergencies	pret-3p	trasladaron
+1351	transportar	to transport	Transportan carga al Brasil.	They haul freight to Brazil.		transport-colectivo	pres-3p	transportan
+1352	acarrear	to haul	Acarrearon ladrillos todo el día.	They hauled bricks all day.		doing-handling	pret-3p	acarrearon
+1353	remolcar	to tow	Remolcaron el auto hasta el taller.	They towed the car to the garage.		driving-moto	pret-3p	remolcaron
+1354	embarcar	to board	Embarcamos a las seis.	We board at six.		transport-colectivo	pres-1p	embarcamos
+1355	desembarcar	to disembark	Desembarcaron en el puerto.	They disembarked at the port.		transport-colectivo	pret-3p	desembarcaron
+1356	zarpar	to set sail	El barco zarpa al mediodía.	The boat sails at midday.		transport-colectivo	pres-3s	zarpa
+1357	atracar	to dock	Atracaron en el muelle viejo.	They docked at the old jetty.		transport-colectivo	pret-3p	atracaron
+1358	naufragar	to be shipwrecked	Naufragaron cerca de la orilla.	They were shipwrecked near the shore.		emergencies	pret-3p	naufragaron
+1359	rescatarse de	to be rescued from	Se rescató a todos del agua.	Everyone was rescued from the water.		emergencies	pret-3s	rescató
+1360	encallar	to run aground	Encalló en el banco de arena.	It ran aground on the sandbank.		transport-colectivo	pret-3s	encalló
+1361	flotarse	to stay afloat	Se mantuvo a flote dos horas.	He stayed afloat for two hours.		emergencies	subj-3s	flote
+1362	remolcarse	to be towed	Se remolcó hasta la costa.	It was towed to the shore.		driving-moto	pret-3s	remolcó
+1363	aterrizar (forzoso)	to make an emergency landing	Aterrizaron de emergencia.	They made an emergency landing.		transport-colectivo	pret-3p	aterrizaron
+1364	sobrevolar	to fly over	Sobrevolamos el Chaco.	We flew over the Chaco.		transport-colectivo	pres-1p	sobrevolamos
+1365	despegarse	to come unstuck	Se despegó la etiqueta.	The label came unstuck.		fixing-breaking-power	pret-3s	despegó
+1366	adherirse	to adhere	No se adhiere bien al vidrio.	It doesn't stick well to glass.		fixing-breaking-power	pres-3s	adhiere
+1367	fijarse a	to be fixed to	Se fija a la pared con tornillos.	It fixes to the wall with screws.		fixing-breaking-power	pres-3s	fija
+1368	sujetar	to hold in place	Sujetá la escalera.	Hold the ladder steady.	voseo imperative	doing-handling	cmd-vos	sujetá
+1369	soportar (peso)	to bear	La viga soporta todo el techo.	The beam bears the whole roof.		fixing-breaking-power	pres-3s	soporta
+1370	sostener	to hold up	Sostené esto un segundo.	Hold this a second.	voseo imperative	doing-handling	cmd-vos	sostené
+1371	apoyarse	to lean on	Me apoyé en la pared.	I leaned against the wall.		doing-handling	pret-1s	apoyé
+1372	recostar	to lean (something)	Recostó la bici contra el árbol.	He leaned the bike against the tree.		doing-handling	pret-3s	recostó
+1373	inclinar	to tilt	Inclinó la cabeza para escuchar.	He tilted his head to listen.		doing-handling	pret-3s	inclinó
+1374	enderezar	to straighten	Enderezá el cuadro.	Straighten the picture.	voseo imperative	fixing-breaking-power	cmd-vos	enderezá
+1375	torcerse	to go crooked	Se torció el poste con el viento.	The post went crooked in the wind.		fixing-breaking-power	pret-3s	torció
+1376	curvar	to bend	Curvaron el hierro en el taller.	They bent the iron in the workshop.		fixing-breaking-power	pret-3p	curvaron
+1377	doblarse	to bend over	Se dobló el metal con el calor.	The metal buckled in the heat.		fixing-breaking-power	pret-3s	dobló
+1378	quebrarse	to snap	Se quebró la rama.	The branch snapped.		fixing-breaking-power	pret-3s	quebró
+1379	astillarse	to splinter	Se astilló la madera.	The wood splintered.		fixing-breaking-power	pret-3s	astilló
+1380	agrietarse	to crack	Se agrietó la pared.	The wall cracked.		house-renting	pret-3s	agrietó
+1381	desmoronarse	to crumble	Se desmoronó el muro viejo.	The old wall crumbled.		house-renting	pret-3s	desmoronó
+1382	derrumbarse	to collapse	Se derrumbó el techo con la lluvia.	The roof collapsed in the rain.		house-renting	pret-3s	derrumbó
+1383	ceder (estructura)	to give way	Cedió el piso de madera.	The wooden floor gave way.		house-renting	pret-3s	cedió
+1384	apuntalar	to prop up	Apuntalaron la pared.	They propped up the wall.		house-renting	pret-3p	apuntalaron
+1385	reforzar	to reinforce	Reforzaron los cimientos.	They reinforced the foundations.		house-renting	pret-3p	reforzaron
+1386	cimentar	to lay foundations	Cimentaron en una semana.	They laid the foundations in a week.		house-renting	pret-3p	cimentaron
+1387	levantar (construir)	to put up	Levantaron la casa en seis meses.	They put the house up in six months.		doing-handling	pret-3p	levantaron
+1388	techar	to roof	Techaron con chapa.	They roofed it with sheet metal.	chapa: common PY roofing	house-renting	pret-3p	techaron
+1389	revocar	to plaster	Revocaron las paredes de afuera.	They plastered the outside walls.		house-renting	pret-3p	revocaron
+1390	azulejar	to tile	Azulejaron el baño entero.	They tiled the whole bathroom.		house-renting	pret-3p	azulejaron
+1391	empapelar	to wallpaper	Empapelaron el dormitorio.	They wallpapered the bedroom.		house-renting	pret-3p	empapelaron
+1392	barnizar	to varnish	Barnizó la mesa a mano.	He varnished the table by hand.		house-renting	pret-3s	barnizó
+1393	lijar	to sand	Lijá antes de pintar.	Sand it before painting.	voseo imperative	house-renting	cmd-vos	lijá
+1394	cercar	to fence in	Cercaron todo el terreno.	They fenced the whole plot.		house-renting	pret-3p	cercaron
+1395	alambrar	to wire-fence	Alambraron el campo.	They wire-fenced the field.		house-renting	pret-3p	alambraron
+1396	amurallar	to wall in	Amurallaron la propiedad.	They walled in the property.		house-renting	pret-3p	amurallaron
+1397	amoblar	to furnish	Amoblamos de a poco.	We're furnishing it bit by bit.		house-renting	pres-1p	amoblamos
+1398	desocupar	to vacate	Desocuparon la casa el lunes.	They vacated the house on Monday.		house-renting	pret-3p	desocuparon
+1399	habitar	to inhabit	Habitan la zona desde siempre.	They have always lived in the area.		house-renting	pres-3p	habitan
+1400	deshabitar	to leave uninhabited	Quedó deshabitada la casa.	The house was left empty.		house-renting	part	deshabitada

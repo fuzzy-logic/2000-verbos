@@ -1,151 +1,151 @@
 rank	verb_es	verb_en	sentence_es	sentence_en	note	topic	form	verb_token
-251	desayunar	to have breakfast	Desayuno café con leche y tostadas.	I have white coffee and toast for breakfast.			pres-1s	desayuno
-252	almorzar	to have lunch	Almorzamos a mediodía en punto.	We have lunch at midday sharp.			pres-1p	almorzamos
-253	cenar	to have dinner	¿Cenamos afuera esta noche?	Shall we eat out tonight?			pres-1p	cenamos
-254	merendar	to have an afternoon snack	Meriendan cocido con chipa.	They have cocido with chipa in the afternoon.	cocido & chipa: PY staples		pres-3p	meriendan
-255	beber	to drink	Hay que beber mucha agua acá.	You have to drink a lot of water here.			inf	beber
-256	encender	to turn on	Encendé el ventilador, por favor.	Turn on the fan, please.	voseo imperative		cmd-vos	encendé
-257	apagar	to turn off	Apagá la luz al salir.	Turn the light off when you leave.	voseo imperative		cmd-vos	apagá
-258	prender	to switch on	Prendé el aire que me muero.	Put the AC on, I'm dying.	prender common in PY/AR		cmd-vos	prendé
-259	conectar	to connect	No me conecto al wifi.	I can't connect to the wifi.			pres-1s	conecto
-260	cargar	to charge / to load	Cargué saldo en el celular.	I topped up credit on the phone.	cargar saldo = to top up phone credit		pret-1s	cargué
-261	descargar	to download	Descargá la aplicación del banco.	Download the bank's app.	voseo imperative		cmd-vos	descargá
-262	instalar	to install	Instalaron el internet ayer.	They installed the internet yesterday.			pret-3p	instalaron
-263	borrar	to delete	Borré el mensaje sin querer.	I deleted the message by accident.			pret-1s	borré
-264	grabar	to record	¿Puedo grabar la clase?	Can I record the class?			inf	grabar
-265	imprimir	to print	Necesito imprimir unos papeles.	I need to print some papers.			inf	imprimir
-266	actualizar	to update	Actualizá la app, está vieja.	Update the app, it's out of date.	voseo imperative		cmd-vos	actualizá
-267	conducir	to drive	Conducir acá requiere paciencia.	Driving here requires patience.			inf	conducir
-268	estacionar	to park	No se puede estacionar acá.	You can't park here.			inf	estacionar
-269	arrancar	to start (engine)	El auto no arranca.	The car won't start.			pres-3s	arranca
-270	frenar	to brake	Frenó de golpe.	He braked suddenly.			pret-3s	frenó
-271	cruzar	to cross	Cruzá por la esquina.	Cross at the corner.	voseo imperative		cmd-vos	cruzá
-272	doblar	to turn	Doblá a la derecha en el semáforo.	Turn right at the traffic light.	voseo imperative		cmd-vos	doblá
-273	regresar	to return	Regreso el mes que viene.	I'm coming back next month.			pres-1s	regreso
-274	despegar	to take off	El avión despegó tarde.	The plane took off late.			pret-3s	despegó
-275	aterrizar	to land	Aterrizamos a las seis de la mañana.	We land at six in the morning.			pres-1p	aterrizamos
-276	reservar	to book	Reservé una mesa para cuatro.	I booked a table for four.			pret-1s	reservé
-277	atender	to serve / to see to	Enseguida te atienden.	They'll be with you shortly.			pres-3p	atienden
-278	ordenar	to order / to tidy	Ordená tu cuarto.	Tidy your room.	voseo imperative		cmd-vos	ordená
-279	contratar	to hire	Contrataron a dos personas más.	They hired two more people.			pret-3p	contrataron
-280	renunciar	to resign	Renunció sin avisar.	He quit without notice.			pret-3s	renunció
-281	jubilar	to retire	Se jubila el año que viene.	She retires next year.			pres-3s	jubila
-282	negociar	to negotiate	Acá se negocia todo el precio.	Here you haggle over every price.			pres-3s	negocia
-283	acordar	to agree	Acordamos vernos el martes.	We agreed to meet on Tuesday.			pres-1p	acordamos
-284	facturar	to invoice	Te facturo a fin de mes.	I'll invoice you at the end of the month.			pres-1s	facturo
-285	prohibir	to forbid	Está prohibido fumar adentro.	Smoking is forbidden inside.			part	prohibido
-286	obligar	to force	Nadie te obliga a ir.	Nobody is forcing you to go.			pres-3s	obliga
-287	exigir	to demand	Exigen comprobante de domicilio.	They require proof of address.			pres-3p	exigen
-288	sugerir	to suggest	Te sugiero que llegues temprano.	I suggest you arrive early.	triggers subjunctive		pres-1s	sugiero
-289	recomendar	to recommend	¿Qué me recomendás?	What do you recommend?	voseo: recomendás		pres-2s	recomendás
-290	aconsejar	to advise	Me aconsejaron no andar de noche.	They advised me not to walk around at night.			pret-3p	aconsejaron
-291	advertir	to warn	Te advertí que iba a llover.	I warned you it was going to rain.			cmd-vos	advertí
-292	informar	to inform	Nos informaron por correo.	They informed us by email.			pret-3p	informaron
-293	anunciar	to announce	Anunciaron un feriado largo.	They announced a long weekend.			pret-3p	anunciaron
-294	confesar	to confess	Te confieso que no entendí nada.	I'll confess I didn't understand a thing.			pres-1s	confieso
-295	admitir	to admit	Admito que me equivoqué.	I admit I was wrong.			pres-1s	admito
-296	negar	to deny	Niega todo, como siempre.	He denies everything, as always.			pres-3s	niega
-297	rechazar	to reject	Rechazaron mi solicitud.	They rejected my application.			pret-3p	rechazaron
-298	dudar	to doubt	Dudo que venga.	I doubt he'll come.	triggers subjunctive		pres-1s	dudo
-299	confiar	to trust	Confío en vos.	I trust you.	voseo pronoun		pres-1s	confío
-300	sospechar	to suspect	Sospecho que no le gustó.	I suspect he didn't like it.			pres-1s	sospecho
-301	acusar	to accuse	Lo acusaron sin pruebas.	They accused him without evidence.			pret-3p	acusaron
-302	culpar	to blame	No me culpes a mí.	Don't blame me.			subj-2s	culpes
-303	defender	to defend	Siempre defiende a su hermano.	He always defends his brother.			pres-3s	defiende
-304	proteger	to protect	Protegete del sol, pega fuerte.	Protect yourself from the sun, it's strong.	voseo imperative		cmd-vos	protegete
-305	cuidar	to look after	¿Me cuidás las cosas un momento?	Can you watch my things for a moment?	voseo: cuidás		pres-2s	cuidás
-306	controlar	to control	No puedo controlar el tráfico.	I can't control the traffic.			inf	controlar
-307	obedecer	to obey	Los chicos no obedecen nunca.	The kids never do as they're told.			pres-3p	obedecen
-308	respetar	to respect	Acá se respeta mucho a los mayores.	Older people are greatly respected here.			pres-3s	respeta
-309	admirar	to admire	Admiro tu paciencia.	I admire your patience.			pres-1s	admiro
-310	criticar	to criticise	No critiques si no ayudás.	Don't criticise if you're not helping.	voseo: ayudás		subj-2s	critiques
-311	felicitar	to congratulate	Te felicito por el trabajo.	Congratulations on the job.			pres-1s	felicito
-312	celebrar	to celebrate	Celebramos hasta tarde.	We celebrated until late.			pres-1p	celebramos
-313	festejar	to celebrate	Festejamos su cumpleaños el sábado.	We're celebrating her birthday on Saturday.	festejar common in PY/AR		pres-1p	festejamos
-314	brindar	to toast	Brindemos por eso.	Let's drink to that.			subj-1p	brindemos
-315	analizar	to analyse	Analicemos las opciones.	Let's look at the options.			subj-1p	analicemos
-316	investigar	to investigate	Estoy investigando dónde vivir.	I'm researching where to live.			prog	investigando
-317	averiguar	to find out	Voy a averiguar el precio.	I'll find out the price.			inf	averiguar
-318	comprobar	to check	Comprobá que esté bien escrito.	Check that it's spelled right.	voseo imperative		cmd-vos	comprobá
-319	verificar	to verify	Verificaron mis documentos.	They checked my documents.			pret-3p	verificaron
-320	confirmar	to confirm	Confirmame si venís.	Confirm whether you're coming.	voseo imperative		cmd-vos	confirmame
-321	asegurar	to assure	Te aseguro que vale la pena.	I assure you it's worth it.			pres-1s	aseguro
-322	garantizar	to guarantee	No te garantizo nada.	I can't guarantee you anything.			pres-1s	garantizo
-323	demostrar	to demonstrate	Demostró que tenía razón.	He proved he was right.			pret-3s	demostró
-324	aclarar	to clarify	Aclaremos una cosa.	Let's get one thing clear.			subj-1p	aclaremos
-325	resumir	to summarise	Resumime lo que pasó.	Give me the short version of what happened.	voseo imperative		cmd-vos	resumime
-326	concluir	to conclude	Concluimos que no servía.	We concluded that it was no good.			pres-1p	concluimos
-327	asumir	to assume	Asumí que ya sabías.	I assumed you already knew.			cmd-vos	asumí
-328	emocionar	to move (emotionally)	Me emocioné con la película.	The film moved me.			pret-1s	emocioné
-329	sorprender	to surprise	Me sorprendió lo amables que son.	I was surprised at how kind they are.			pret-3s	sorprendió
-330	impresionar	to impress	Me impresionó la ciudad.	The city impressed me.			pret-3s	impresionó
-331	decepcionar	to disappoint	No quiero decepcionarte.	I don't want to let you down.			inf	decepcionarte
-332	frustrar	to frustrate	Me frustra no poder expresarme.	It frustrates me not being able to express myself.			pres-3s	frustra
-333	molestar	to bother	¿Te molesta si abro la ventana?	Do you mind if I open the window?			pres-3s	molesta
-334	fastidiar	to annoy	Me fastidian los mosquitos.	The mosquitoes annoy me.			pres-3p	fastidian
-335	calmar	to calm	Calmate un poco.	Calm down a bit.	voseo imperative		cmd-vos	calmate
-336	animar	to encourage	Me animaron a seguir.	They encouraged me to keep going.			pret-3p	animaron
-337	apoyar	to support	Mi familia me apoya mucho.	My family supports me a lot.			pres-3s	apoya
-338	acostumbrar	to get used to	Ya me acostumbré al calor.	I've got used to the heat now.			pret-1s	acostumbré
-339	adaptar	to adapt	Me estoy adaptando de a poco.	I'm adapting little by little.			prog	adaptando
-340	mudar	to move house	Nos mudamos el mes pasado.	We moved house last month.			pret-1p	mudamos
-341	instalar	to settle in	Nos instalamos cerca del río.	We settled near the river.			pres-1p	instalamos
-342	establecer	to establish	Establecieron la empresa acá.	They set up the company here.			pret-3p	establecieron
-343	pertenecer	to belong	Esto le pertenece a ella.	This belongs to her.			pres-3s	pertenece
-344	depender	to depend	Depende del día.	It depends on the day.			pres-3s	depende
-345	significar	to signify	Eso significa mucho para mí.	That means a lot to me.			pres-3s	significa
-346	importar	to matter	No me importa lo que digan.	I don't care what they say.			pres-3s	importa
-347	interesar	to interest	Me interesa aprender guaraní.	I'm interested in learning Guaraní.			pres-3s	interesa
-348	convenir	to suit / to be worth	Te conviene ir temprano.	You're better off going early.			pres-3s	conviene
-349	tratar	to deal with	Se trata de otra cosa.	It's about something else.			pres-3s	trata
-350	referir	to refer	Me refiero al otro.	I mean the other one.			pres-1s	refiero
-351	ocupar	to occupy	Está ocupado el baño.	The bathroom is occupied.			part	ocupado
-352	llenar	to fill	Llená el formulario, por favor.	Fill in the form, please.			cmd-vos	llená
-353	vaciar	to empty	Vaciaron la pileta.	They emptied the pool.	pileta = pool (PY/AR)		pret-3p	vaciaron
-354	colgar	to hang	Colgá la ropa afuera.	Hang the washing outside.	voseo imperative		cmd-vos	colgá
-355	meter	to put in	Metelo en la heladera.	Put it in the fridge.	heladera = fridge		cmd-vos	metelo
-356	sacar	to take a photo	Sacame una foto acá.	Take a photo of me here.	voseo imperative		cmd-vos	sacame
-357	mezclar	to mix	Mezclá bien los ingredientes.	Mix the ingredients well.	voseo imperative		cmd-vos	mezclá
-358	cortar	to cut	Cortá el pan en rodajas.	Cut the bread into slices.	voseo imperative		cmd-vos	cortá
-359	hervir	to boil	Hay que hervir el agua.	You need to boil the water.			inf	hervir
-360	freír	to fry	Frió las milanesas.	She fried the milanesas.	milanesa: breaded cutlet		pret-3s	frió
-361	calentar	to heat	Calentá la comida un minuto.	Heat the food for a minute.	voseo imperative		cmd-vos	calentá
-362	enfriar	to cool	Dejá que se enfríe.	Let it cool down.	voseo imperative		subj-3s	enfríe
-363	congelar	to freeze	Congelé la carne.	I froze the meat.			pret-1s	congelé
-364	probar	to taste	Probá un poco de tereré.	Try a bit of tereré.	voseo imperative		cmd-vos	probá
-365	masticar	to chew	Masticá despacio.	Chew slowly.	voseo imperative		cmd-vos	masticá
-366	tragar	to swallow	Me cuesta tragar las pastillas.	I find it hard to swallow pills.			inf	tragar
-367	cargar	to carry	Cargá vos las bolsas.	You carry the bags.	voseo pronoun		cmd-vos	cargá
-368	pesar	to weigh	¿Cuánto pesa esto?	How much does this weigh?			pres-3s	pesa
-369	medir	to measure	¿Cuánto medís?	How tall are you?	voseo: medís		pres-2s	medís
-370	contar	to count	Conté mal la plata.	I counted the money wrong.			pret-1s	conté
-371	sumar	to add	Sumá todo y decime.	Add it all up and tell me.	voseo imperative		cmd-vos	sumá
-372	restar	to subtract	Restale el descuento.	Take the discount off it.	voseo imperative		cmd-vos	restale
-373	multiplicar	to multiply	Se multiplicaron los problemas.	The problems multiplied.			pret-3p	multiplicaron
-374	dividir	to divide	Dividamos la cuenta.	Let's split the bill.			subj-1p	dividamos
-375	repartir	to share out	Repartieron la comida entre todos.	They shared the food among everyone.			pret-3p	repartieron
-376	compartir	to share	Compartimos un departamento.	We share a flat.			pres-1p	compartimos
-377	prestar atención	to pay attention	Prestá atención a lo que dice.	Pay attention to what he's saying.	fixed expression		cmd-vos	prestá
-378	aprovechar	to make the most of	Aprovechá que está fresco.	Make the most of it while it's cool.	voseo imperative		cmd-vos	aprovechá
-379	desperdiciar	to waste	No desperdicies el agua.	Don't waste the water.			subj-2s	desperdicies
-380	ahorrar	to save (time)	Así ahorramos tiempo.	That way we save time.			pres-1p	ahorramos
-381	apurar	to rush	No me apures.	Don't rush me.			subj-2s	apures
-382	esperar	to hold on	Esperá, ya salgo.	Hold on, I'm coming.	voseo imperative		cmd-vos	esperá
-383	acabar	to run out	Se acabó el azúcar.	We've run out of sugar.			pret-3s	acabó
-384	quedar	to have left	Me quedan dos días.	I have two days left.			pres-3p	quedan
-385	sobrar	to have spare	¿Te sobra una silla?	Do you have a spare chair?			pres-3s	sobra
-386	caber	to fit	No cabe en el auto.	It doesn't fit in the car.			pres-3s	cabe
-387	alcanzar	to reach	No alcanzo el estante de arriba.	I can't reach the top shelf.			pres-1s	alcanzo
-388	acercar	to bring closer	Acercate, no te escucho.	Come closer, I can't hear you.	voseo imperative		cmd-vos	acercate
-389	alejar	to move away	Alejate del fuego.	Move away from the fire.	voseo imperative		cmd-vos	alejate
-390	acostar	to lie down	Me acuesto temprano los domingos.	I go to bed early on Sundays.			pres-1s	acuesto
-391	levantar	to pick up	Levantá eso del piso.	Pick that up off the floor.	voseo imperative		cmd-vos	levantá
-392	sentar	to sit	Sentate donde quieras.	Sit wherever you like.	voseo imperative		cmd-vos	sentate
-393	parar	to stand	Me paré para saludarlo.	I stood up to greet him.	pararse = to stand (LatAm)		pres-3s	para
-394	caer	to suit / to strike	Me cae muy bien tu hermana.	I really like your sister.	caer bien = to like a person		pres-3s	cae
-395	llevar	to wear	Lleva una camisa blanca.	He's wearing a white shirt.			pres-3s	lleva
-396	ponerse	to put on	Ponete un abrigo, hace frío.	Put a coat on, it's cold.	voseo imperative		cmd-vos	ponete
-397	quitar	to take off	Quitate los zapatos al entrar.	Take your shoes off when you come in.	voseo imperative		cmd-vos	quitate
-398	vestir	to dress	Se viste muy elegante.	He dresses very smartly.			pres-3s	viste
-399	peinar	to comb	Me peino antes de salir.	I do my hair before going out.			pres-1s	peino
-400	afeitar	to shave	Me afeité la barba.	I shaved my beard off.			pret-1s	afeité
+251	desayunar	to have breakfast	Desayuno café con leche y tostadas.	I have white coffee and toast for breakfast.		ordering-eating	pres-1s	desayuno
+252	almorzar	to have lunch	Almorzamos a mediodía en punto.	We have lunch at midday sharp.		ordering-eating	pres-1p	almorzamos
+253	cenar	to have dinner	¿Cenamos afuera esta noche?	Shall we eat out tonight?		ordering-eating	pres-1p	cenamos
+254	merendar	to have an afternoon snack	Meriendan cocido con chipa.	They have cocido with chipa in the afternoon.	cocido & chipa: PY staples	ordering-eating	pres-3p	meriendan
+255	beber	to drink	Hay que beber mucha agua acá.	You have to drink a lot of water here.		terere-drinking	inf	beber
+256	encender	to turn on	Encendé el ventilador, por favor.	Turn on the fan, please.	voseo imperative	directions-places	cmd-vos	encendé
+257	apagar	to turn off	Apagá la luz al salir.	Turn the light off when you leave.	voseo imperative	fixing-breaking-power	cmd-vos	apagá
+258	prender	to switch on	Prendé el aire que me muero.	Put the AC on, I'm dying.	prender common in PY/AR	fixing-breaking-power	cmd-vos	prendé
+259	conectar	to connect	No me conecto al wifi.	I can't connect to the wifi.		phone-computer	pres-1s	conecto
+260	cargar	to charge / to load	Cargué saldo en el celular.	I topped up credit on the phone.	cargar saldo = to top up phone credit	bank-cash-credit	pret-1s	cargué
+261	descargar	to download	Descargá la aplicación del banco.	Download the bank's app.	voseo imperative	phone-computer	cmd-vos	descargá
+262	instalar	to install	Instalaron el internet ayer.	They installed the internet yesterday.		phone-computer	pret-3p	instalaron
+263	borrar	to delete	Borré el mensaje sin querer.	I deleted the message by accident.		phone-computer	pret-1s	borré
+264	grabar	to record	¿Puedo grabar la clase?	Can I record the class?		free-time	inf	grabar
+265	imprimir	to print	Necesito imprimir unos papeles.	I need to print some papers.		phone-computer	inf	imprimir
+266	actualizar	to update	Actualizá la app, está vieja.	Update the app, it's out of date.	voseo imperative	phone-computer	cmd-vos	actualizá
+267	conducir	to drive	Conducir acá requiere paciencia.	Driving here requires patience.		driving-moto	inf	conducir
+268	estacionar	to park	No se puede estacionar acá.	You can't park here.		driving-moto	inf	estacionar
+269	arrancar	to start (engine)	El auto no arranca.	The car won't start.		driving-moto	pres-3s	arranca
+270	frenar	to brake	Frenó de golpe.	He braked suddenly.		driving-moto	pret-3s	frenó
+271	cruzar	to cross	Cruzá por la esquina.	Cross at the corner.	voseo imperative	directions-places	cmd-vos	cruzá
+272	doblar	to turn	Doblá a la derecha en el semáforo.	Turn right at the traffic light.	voseo imperative	directions-places	cmd-vos	doblá
+273	regresar	to return	Regreso el mes que viene.	I'm coming back next month.		transport-colectivo	pres-1s	regreso
+274	despegar	to take off	El avión despegó tarde.	The plane took off late.		transport-colectivo	pret-3s	despegó
+275	aterrizar	to land	Aterrizamos a las seis de la mañana.	We land at six in the morning.		transport-colectivo	pres-1p	aterrizamos
+276	reservar	to book	Reservé una mesa para cuatro.	I booked a table for four.		buying-paying	pret-1s	reservé
+277	atender	to serve / to see to	Enseguida te atienden.	They'll be with you shortly.		greeting-small-talk	pres-3p	atienden
+278	ordenar	to order / to tidy	Ordená tu cuarto.	Tidy your room.	voseo imperative	house-renting	cmd-vos	ordená
+279	contratar	to hire	Contrataron a dos personas más.	They hired two more people.		work-tasks	pret-3p	contrataron
+280	renunciar	to resign	Renunció sin avisar.	He quit without notice.		work-tasks	pret-3s	renunció
+281	jubilar	to retire	Se jubila el año que viene.	She retires next year.		work-tasks	pres-3s	jubila
+282	negociar	to negotiate	Acá se negocia todo el precio.	Here you haggle over every price.		haggling-quantities	pres-3s	negocia
+283	acordar	to agree	Acordamos vernos el martes.	We agreed to meet on Tuesday.		arranging-to-meet	pres-1p	acordamos
+284	facturar	to invoice	Te facturo a fin de mes.	I'll invoice you at the end of the month.		buying-paying	pres-1s	facturo
+285	prohibir	to forbid	Está prohibido fumar adentro.	Smoking is forbidden inside.		yes-no-maybe	part	prohibido
+286	obligar	to force	Nadie te obliga a ir.	Nobody is forcing you to go.		yes-no-maybe	pres-3s	obliga
+287	exigir	to demand	Exigen comprobante de domicilio.	They require proof of address.		conversation-opinion	pres-3p	exigen
+288	sugerir	to suggest	Te sugiero que llegues temprano.	I suggest you arrive early.	triggers subjunctive	conversation-opinion	pres-1s	sugiero
+289	recomendar	to recommend	¿Qué me recomendás?	What do you recommend?	voseo: recomendás	fixing-breaking-power	pres-2s	recomendás
+290	aconsejar	to advise	Me aconsejaron no andar de noche.	They advised me not to walk around at night.		conversation-opinion	pret-3p	aconsejaron
+291	advertir	to warn	Te advertí que iba a llover.	I warned you it was going to rain.		conversation-opinion	cmd-vos	advertí
+292	informar	to inform	Nos informaron por correo.	They informed us by email.		paperwork-bureaucracy	pret-3p	informaron
+293	anunciar	to announce	Anunciaron un feriado largo.	They announced a long weekend.		news-institutions	pret-3p	anunciaron
+294	confesar	to confess	Te confieso que no entendí nada.	I'll confess I didn't understand a thing.		feelings-conflict	pres-1s	confieso
+295	admitir	to admit	Admito que me equivoqué.	I admit I was wrong.		feelings-conflict	pres-1s	admito
+296	negar	to deny	Niega todo, como siempre.	He denies everything, as always.		yes-no-maybe	pres-3s	niega
+297	rechazar	to reject	Rechazaron mi solicitud.	They rejected my application.		yes-no-maybe	pret-3p	rechazaron
+298	dudar	to doubt	Dudo que venga.	I doubt he'll come.	triggers subjunctive	asking-understanding	pres-1s	dudo
+299	confiar	to trust	Confío en vos.	I trust you.	voseo pronoun	thinking-knowing	pres-1s	confío
+300	sospechar	to suspect	Sospecho que no le gustó.	I suspect he didn't like it.		thinking-knowing	pres-1s	sospecho
+301	acusar	to accuse	Lo acusaron sin pruebas.	They accused him without evidence.		feelings-conflict	pret-3p	acusaron
+302	culpar	to blame	No me culpes a mí.	Don't blame me.		feelings-conflict	subj-2s	culpes
+303	defender	to defend	Siempre defiende a su hermano.	He always defends his brother.		feelings-conflict	pres-3s	defiende
+304	proteger	to protect	Protegete del sol, pega fuerte.	Protect yourself from the sun, it's strong.	voseo imperative	family-friends	cmd-vos	protegete
+305	cuidar	to look after	¿Me cuidás las cosas un momento?	Can you watch my things for a moment?	voseo: cuidás	family-friends	pres-2s	cuidás
+306	controlar	to control	No puedo controlar el tráfico.	I can't control the traffic.		work-tasks	inf	controlar
+307	obedecer	to obey	Los chicos no obedecen nunca.	The kids never do as they're told.		family-friends	pres-3p	obedecen
+308	respetar	to respect	Acá se respeta mucho a los mayores.	Older people are greatly respected here.		family-friends	pres-3s	respeta
+309	admirar	to admire	Admiro tu paciencia.	I admire your patience.		feelings-conflict	pres-1s	admiro
+310	criticar	to criticise	No critiques si no ayudás.	Don't criticise if you're not helping.	voseo: ayudás	conversation-opinion	subj-2s	critiques
+311	felicitar	to congratulate	Te felicito por el trabajo.	Congratulations on the job.		greeting-small-talk	pres-1s	felicito
+312	celebrar	to celebrate	Celebramos hasta tarde.	We celebrated until late.		free-time	pres-1p	celebramos
+313	festejar	to celebrate	Festejamos su cumpleaños el sábado.	We're celebrating her birthday on Saturday.	festejar common in PY/AR	free-time	pres-1p	festejamos
+314	brindar	to toast	Brindemos por eso.	Let's drink to that.		terere-drinking	subj-1p	brindemos
+315	analizar	to analyse	Analicemos las opciones.	Let's look at the options.		thinking-knowing	subj-1p	analicemos
+316	investigar	to investigate	Estoy investigando dónde vivir.	I'm researching where to live.		bank-cash-credit	prog	investigando
+317	averiguar	to find out	Voy a averiguar el precio.	I'll find out the price.		asking-understanding	inf	averiguar
+318	comprobar	to check	Comprobá que esté bien escrito.	Check that it's spelled right.	voseo imperative	thinking-knowing	cmd-vos	comprobá
+319	verificar	to verify	Verificaron mis documentos.	They checked my documents.		thinking-knowing	pret-3p	verificaron
+320	confirmar	to confirm	Confirmame si venís.	Confirm whether you're coming.	voseo imperative	arranging-to-meet	cmd-vos	confirmame
+321	asegurar	to assure	Te aseguro que vale la pena.	I assure you it's worth it.		conversation-opinion	pres-1s	aseguro
+322	garantizar	to guarantee	No te garantizo nada.	I can't guarantee you anything.		buying-paying	pres-1s	garantizo
+323	demostrar	to demonstrate	Demostró que tenía razón.	He proved he was right.		thinking-knowing	pret-3s	demostró
+324	aclarar	to clarify	Aclaremos una cosa.	Let's get one thing clear.		asking-understanding	subj-1p	aclaremos
+325	resumir	to summarise	Resumime lo que pasó.	Give me the short version of what happened.	voseo imperative	conversation-opinion	cmd-vos	resumime
+326	concluir	to conclude	Concluimos que no servía.	We concluded that it was no good.		thinking-knowing	pres-1p	concluimos
+327	asumir	to assume	Asumí que ya sabías.	I assumed you already knew.		thinking-knowing	cmd-vos	asumí
+328	emocionar	to move (emotionally)	Me emocioné con la película.	The film moved me.		feelings-conflict	pret-1s	emocioné
+329	sorprender	to surprise	Me sorprendió lo amables que son.	I was surprised at how kind they are.		feelings-conflict	pret-3s	sorprendió
+330	impresionar	to impress	Me impresionó la ciudad.	The city impressed me.		feelings-conflict	pret-3s	impresionó
+331	decepcionar	to disappoint	No quiero decepcionarte.	I don't want to let you down.		feelings-conflict	inf	decepcionarte
+332	frustrar	to frustrate	Me frustra no poder expresarme.	It frustrates me not being able to express myself.		feelings-conflict	pres-3s	frustra
+333	molestar	to bother	¿Te molesta si abro la ventana?	Do you mind if I open the window?		feelings-conflict	pres-3s	molesta
+334	fastidiar	to annoy	Me fastidian los mosquitos.	The mosquitoes annoy me.		feelings-conflict	pres-3p	fastidian
+335	calmar	to calm	Calmate un poco.	Calm down a bit.	voseo imperative	feelings-conflict	cmd-vos	calmate
+336	animar	to encourage	Me animaron a seguir.	They encouraged me to keep going.		feelings-conflict	pret-3p	animaron
+337	apoyar	to support	Mi familia me apoya mucho.	My family supports me a lot.		doing-handling	pres-3s	apoya
+338	acostumbrar	to get used to	Ya me acostumbré al calor.	I've got used to the heat now.		change-cause	pret-1s	acostumbré
+339	adaptar	to adapt	Me estoy adaptando de a poco.	I'm adapting little by little.		change-cause	prog	adaptando
+340	mudar	to move house	Nos mudamos el mes pasado.	We moved house last month.		house-renting	pret-1p	mudamos
+341	instalar	to settle in	Nos instalamos cerca del río.	We settled near the river.		phone-computer	pres-1p	instalamos
+342	establecer	to establish	Establecieron la empresa acá.	They set up the company here.		formal-written	pret-3p	establecieron
+343	pertenecer	to belong	Esto le pertenece a ella.	This belongs to her.		being-feeling	pres-3s	pertenece
+344	depender	to depend	Depende del día.	It depends on the day.		change-cause	pres-3s	depende
+345	significar	to signify	Eso significa mucho para mí.	That means a lot to me.		asking-understanding	pres-3s	significa
+346	importar	to matter	No me importa lo que digan.	I don't care what they say.		being-feeling	pres-3s	importa
+347	interesar	to interest	Me interesa aprender guaraní.	I'm interested in learning Guaraní.		daily-routine	pres-3s	interesa
+348	convenir	to suit / to be worth	Te conviene ir temprano.	You're better off going early.		being-feeling	pres-3s	conviene
+349	tratar	to deal with	Se trata de otra cosa.	It's about something else.		yes-no-maybe	pres-3s	trata
+350	referir	to refer	Me refiero al otro.	I mean the other one.		conversation-opinion	pres-1s	refiero
+351	ocupar	to occupy	Está ocupado el baño.	The bathroom is occupied.		doing-handling	part	ocupado
+352	llenar	to fill	Llená el formulario, por favor.	Fill in the form, please.		doing-handling	cmd-vos	llená
+353	vaciar	to empty	Vaciaron la pileta.	They emptied the pool.	pileta = pool (PY/AR)	doing-handling	pret-3p	vaciaron
+354	colgar	to hang	Colgá la ropa afuera.	Hang the washing outside.	voseo imperative	phone-computer	cmd-vos	colgá
+355	meter	to put in	Metelo en la heladera.	Put it in the fridge.	heladera = fridge	doing-handling	cmd-vos	metelo
+356	sacar	to take a photo	Sacame una foto acá.	Take a photo of me here.	voseo imperative	doing-handling	cmd-vos	sacame
+357	mezclar	to mix	Mezclá bien los ingredientes.	Mix the ingredients well.	voseo imperative	cooking-kitchen	cmd-vos	mezclá
+358	cortar	to cut	Cortá el pan en rodajas.	Cut the bread into slices.	voseo imperative	cooking-kitchen	cmd-vos	cortá
+359	hervir	to boil	Hay que hervir el agua.	You need to boil the water.		cooking-kitchen	inf	hervir
+360	freír	to fry	Frió las milanesas.	She fried the milanesas.	milanesa: breaded cutlet	cooking-kitchen	pret-3s	frió
+361	calentar	to heat	Calentá la comida un minuto.	Heat the food for a minute.	voseo imperative	cooking-kitchen	cmd-vos	calentá
+362	enfriar	to cool	Dejá que se enfríe.	Let it cool down.	voseo imperative	cooking-kitchen	subj-3s	enfríe
+363	congelar	to freeze	Congelé la carne.	I froze the meat.		cooking-kitchen	pret-1s	congelé
+364	probar	to taste	Probá un poco de tereré.	Try a bit of tereré.	voseo imperative	yes-no-maybe	cmd-vos	probá
+365	masticar	to chew	Masticá despacio.	Chew slowly.	voseo imperative	ordering-eating	cmd-vos	masticá
+366	tragar	to swallow	Me cuesta tragar las pastillas.	I find it hard to swallow pills.		ordering-eating	inf	tragar
+367	cargar	to carry	Cargá vos las bolsas.	You carry the bags.	voseo pronoun	bank-cash-credit	cmd-vos	cargá
+368	pesar	to weigh	¿Cuánto pesa esto?	How much does this weigh?		haggling-quantities	pres-3s	pesa
+369	medir	to measure	¿Cuánto medís?	How tall are you?	voseo: medís	haggling-quantities	pres-2s	medís
+370	contar	to count	Conté mal la plata.	I counted the money wrong.		haggling-quantities	pret-1s	conté
+371	sumar	to add	Sumá todo y decime.	Add it all up and tell me.	voseo imperative	haggling-quantities	cmd-vos	sumá
+372	restar	to subtract	Restale el descuento.	Take the discount off it.	voseo imperative	haggling-quantities	cmd-vos	restale
+373	multiplicar	to multiply	Se multiplicaron los problemas.	The problems multiplied.		haggling-quantities	pret-3p	multiplicaron
+374	dividir	to divide	Dividamos la cuenta.	Let's split the bill.		haggling-quantities	subj-1p	dividamos
+375	repartir	to share out	Repartieron la comida entre todos.	They shared the food among everyone.		doing-handling	pret-3p	repartieron
+376	compartir	to share	Compartimos un departamento.	We share a flat.		terere-drinking	pres-1p	compartimos
+377	prestar atención	to pay attention	Prestá atención a lo que dice.	Pay attention to what he's saying.	fixed expression	asking-understanding	cmd-vos	prestá
+378	aprovechar	to make the most of	Aprovechá que está fresco.	Make the most of it while it's cool.	voseo imperative	doing-handling	cmd-vos	aprovechá
+379	desperdiciar	to waste	No desperdicies el agua.	Don't waste the water.		haggling-quantities	subj-2s	desperdicies
+380	ahorrar	to save (time)	Así ahorramos tiempo.	That way we save time.		buying-paying	pres-1p	ahorramos
+381	apurar	to rush	No me apures.	Don't rush me.		daily-routine	subj-2s	apures
+382	esperar	to hold on	Esperá, ya salgo.	Hold on, I'm coming.	voseo imperative	doing-handling	cmd-vos	esperá
+383	acabar	to run out	Se acabó el azúcar.	We've run out of sugar.		doing-handling	pret-3s	acabó
+384	quedar	to have left	Me quedan dos días.	I have two days left.		being-feeling	pres-3p	quedan
+385	sobrar	to have spare	¿Te sobra una silla?	Do you have a spare chair?		haggling-quantities	pres-3s	sobra
+386	caber	to fit	No cabe en el auto.	It doesn't fit in the car.		doing-handling	pres-3s	cabe
+387	alcanzar	to reach	No alcanzo el estante de arriba.	I can't reach the top shelf.		haggling-quantities	pres-1s	alcanzo
+388	acercar	to bring closer	Acercate, no te escucho.	Come closer, I can't hear you.	voseo imperative	doing-handling	cmd-vos	acercate
+389	alejar	to move away	Alejate del fuego.	Move away from the fire.	voseo imperative	doing-handling	cmd-vos	alejate
+390	acostar	to lie down	Me acuesto temprano los domingos.	I go to bed early on Sundays.		daily-routine	pres-1s	acuesto
+391	levantar	to pick up	Levantá eso del piso.	Pick that up off the floor.	voseo imperative	doing-handling	cmd-vos	levantá
+392	sentar	to sit	Sentate donde quieras.	Sit wherever you like.	voseo imperative	daily-routine	cmd-vos	sentate
+393	parar	to stand	Me paré para saludarlo.	I stood up to greet him.	pararse = to stand (LatAm)	transport-colectivo	pres-3s	para
+394	caer	to suit / to strike	Me cae muy bien tu hermana.	I really like your sister.	caer bien = to like a person	emergencies	pres-3s	cae
+395	llevar	to wear	Lleva una camisa blanca.	He's wearing a white shirt.		doing-handling	pres-3s	lleva
+396	ponerse	to put on	Ponete un abrigo, hace frío.	Put a coat on, it's cold.	voseo imperative	doing-handling	cmd-vos	ponete
+397	quitar	to take off	Quitate los zapatos al entrar.	Take your shoes off when you come in.	voseo imperative	doing-handling	cmd-vos	quitate
+398	vestir	to dress	Se viste muy elegante.	He dresses very smartly.		daily-routine	pres-3s	viste
+399	peinar	to comb	Me peino antes de salir.	I do my hair before going out.		daily-routine	pres-1s	peino
+400	afeitar	to shave	Me afeité la barba.	I shaved my beard off.		daily-routine	pret-1s	afeité

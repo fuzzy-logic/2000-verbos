@@ -1,101 +1,101 @@
 rank	verb_es	verb_en	sentence_es	sentence_en	note	topic	form	verb_token
-1	ser	to be (permanent)	Soy de Inglaterra pero ahora vivo acá.	I'm from England but now I live here.			pres-1s	soy
-2	haber	to have (auxiliary)	Hay mucha gente en el mercado hoy.	There are a lot of people at the market today.	hay = impersonal form		impersonal	hay
-3	estar	to be (state/location)	Estoy cansado, pero estoy bien.	I'm tired, but I'm fine.			pres-1s	estoy
-4	tener	to have	¿Tenés cambio de cincuenta mil?	Do you have change for fifty thousand?	voseo: tenés		pres-2s	tenés
-5	hacer	to do / to make	Hace mucho calor en Asunción.	It's very hot in Asunción.			pres-3s	hace
-6	poder	to be able to	¿Podés ayudarme un momento?	Can you help me for a moment?	voseo: podés		pres-2s	podés
-7	decir	to say	Siempre dice la verdad.	He always tells the truth.			pres-3s	dice
-8	ir	to go	Mañana voy al centro.	Tomorrow I'm going downtown.			pres-1s	voy
-9	ver	to see	No veo nada sin mis lentes.	I can't see anything without my glasses.			pres-1s	veo
-10	dar	to give	¿Me das una mano, por favor?	Can you give me a hand, please?			pres-2s	das
-11	saber	to know (facts)	No sé cómo se dice eso en español.	I don't know how you say that in Spanish.			pres-1s	sé
-12	querer	to want / to love	Quiero aprender español rápido.	I want to learn Spanish fast.			pres-1s	quiero
-13	llegar	to arrive	El colectivo llega en diez minutos.	The bus arrives in ten minutes.	colectivo = bus (PY/AR)		pres-3s	llega
-14	pasar	to pass / to happen	¿Qué pasó anoche?	What happened last night?			pret-3s	pasó
-15	deber	to owe / must	Debo ir al banco mañana.	I have to go to the bank tomorrow.			pres-1s	debo
-16	poner	to put	Poné la plata en la mesa.	Put the money on the table.	voseo imperative; plata = money		cmd-vos	poné
-17	parecer	to seem	Me parece una buena idea.	That seems like a good idea to me.			pres-3s	parece
-18	quedar	to stay / to remain	Quedamos en vernos a las ocho.	We agreed to meet at eight.			pres-1p	quedamos
-19	creer	to believe	Creo que tenés razón.	I think you're right.			pres-1s	creo
-20	hablar	to speak	Hablo muy poco español todavía.	I speak very little Spanish still.			pres-1s	hablo
-21	llevar	to carry / to take	¿Me llevás hasta la esquina?	Can you take me to the corner?	voseo: llevás		pres-2s	llevás
-22	dejar	to leave / to let	Dejá tus cosas acá, no pasa nada.	Leave your things here, it's fine.	voseo imperative		cmd-vos	dejá
-23	seguir	to follow / to continue	Seguí derecho dos cuadras.	Keep going straight for two blocks.	voseo imperative		cmd-vos	seguí
-24	encontrar	to find	No encuentro mis llaves.	I can't find my keys.			pres-1s	encuentro
-25	llamar	to call	Te llamo más tarde.	I'll call you later.			pres-1s	llamo
-26	venir	to come	¿Venís conmigo al mercado?	Are you coming with me to the market?	voseo: venís		pres-2s	venís
-27	pensar	to think	Estoy pensando en mudarme.	I'm thinking about moving.			prog	pensando
-28	salir	to leave / to go out	Salimos de casa a las siete.	We leave the house at seven.			pres-1p	salimos
-29	volver	to return	Vuelvo en cinco minutos.	I'll be back in five minutes.			pres-1s	vuelvo
-30	tomar	to take / to drink	Tomamos tereré todas las tardes.	We drink tereré every afternoon.	tereré = PY cold yerba mate		pres-1p	tomamos
-31	conocer	to know (people/places)	¿Conocés un buen lugar para comer?	Do you know a good place to eat?	voseo: conocés		pres-2s	conocés
-32	vivir	to live	Vivo cerca del centro.	I live near the centre.			pres-1s	vivo
-33	sentir	to feel	Me siento mucho mejor hoy.	I feel much better today.			pres-1s	siento
-34	tratar	to try / to treat	Trato de hablar solo en español.	I try to speak only in Spanish.			pres-1s	trato
-35	mirar	to look / to watch	Mirá eso, qué lindo.	Look at that, how lovely.	voseo imperative		cmd-vos	mirá
-36	contar	to count / to tell	Contame qué hiciste el finde.	Tell me what you did at the weekend.	voseo imperative; finde = weekend		cmd-vos	contame
-37	empezar	to begin	La clase empieza a las nueve.	The class starts at nine.			pres-3s	empieza
-38	esperar	to wait / to hope	Esperame un ratito, ya vengo.	Wait for me a moment, I'll be right back.	voseo imperative		cmd-vos	esperame
-39	buscar	to look for	Estoy buscando una farmacia.	I'm looking for a pharmacy.			prog	buscando
-40	existir	to exist	No existe otra manera de hacerlo.	There's no other way to do it.			pres-3s	existe
-41	entrar	to enter	Entrá, la puerta está abierta.	Come in, the door is open.	voseo imperative		cmd-vos	entrá
-42	trabajar	to work	Trabajo desde casa todos los días.	I work from home every day.			pres-1s	trabajo
-43	escribir	to write	Escribime cuando llegues.	Write to me when you arrive.	voseo imperative		cmd-vos	escribime
-44	perder	to lose	Perdí el micro por dos minutos.	I missed the bus by two minutes.			pret-1s	perdí
-45	producir	to produce	Este país produce mucha soja.	This country produces a lot of soy.			pres-3s	produce
-46	ocurrir	to occur	Se me ocurrió una idea.	An idea occurred to me.			pret-3s	ocurrió
-47	entender	to understand	No entiendo nada cuando hablan rápido.	I don't understand anything when they speak fast.			pres-1s	entiendo
-48	pedir	to ask for	Pedí dos empanadas, por favor.	Order two empanadas, please.	voseo imperative		cmd-vos	pedí
-49	recibir	to receive	Recibí tu mensaje recién.	I just got your message.			cmd-vos	recibí
-50	recordar	to remember	No recuerdo su nombre.	I don't remember his name.			pres-1s	recuerdo
-51	terminar	to finish	Termino de trabajar a las seis.	I finish work at six.			pres-1s	termino
-52	permitir	to allow	No me permiten entrar sin documento.	They don't let me in without ID.			pres-3p	permiten
-53	aparecer	to appear	Apareció justo cuando lo necesitaba.	He showed up right when I needed him.			pret-3s	apareció
-54	conseguir	to get / to obtain	¿Dónde consigo una tarjeta SIM?	Where do I get a SIM card?			pres-1s	consigo
-55	comenzar	to start	Comenzamos el lunes que viene.	We start next Monday.			pres-1p	comenzamos
-56	servir	to serve / to be useful	Esto no me sirve para nada.	This is no use to me at all.			pres-3s	sirve
-57	sacar	to take out	Sacá plata del cajero antes.	Take money out of the ATM first.	voseo imperative		cmd-vos	sacá
-58	necesitar	to need	Necesito ayuda con esto.	I need help with this.			pres-1s	necesito
-59	mantener	to maintain	Es difícil mantener la calma acá.	It's hard to keep calm here.			inf	mantener
-60	resultar	to turn out	Resultó más fácil de lo que pensaba.	It turned out easier than I thought.			pret-3s	resultó
-61	leer	to read	Leo el diario todas las mañanas.	I read the newspaper every morning.			pres-1s	leo
-62	caer	to fall	Se me cayó el teléfono.	I dropped my phone.			pret-3s	cayó
-63	cambiar	to change	¿Dónde puedo cambiar dólares?	Where can I change dollars?			inf	cambiar
-64	presentar	to present / to introduce	Te presento a mi amigo Juan.	Let me introduce you to my friend Juan.			pres-1s	presento
-65	crear	to create	Creamos el grupo la semana pasada.	We created the group last week.			pret-1p	creamos
-66	abrir	to open	¿A qué hora abren?	What time do you open?			pres-3p	abren
-67	considerar	to consider	Lo estoy considerando seriamente.	I'm seriously considering it.			prog	considerando
-68	oír	to hear	No te oigo bien, hay mucho ruido.	I can't hear you well, there's a lot of noise.			pres-1s	oigo
-69	acabar	to finish / to have just	Acabo de llegar.	I've just arrived.	acabar de = to have just		pres-1s	acabo
-70	convertir	to convert / to turn into	Se convirtió en mi lugar favorito.	It became my favourite place.			pret-3s	convirtió
-71	ganar	to win / to earn	Gano lo suficiente para vivir bien.	I earn enough to live well.			pres-1s	gano
-72	formar	to form	Formamos un equipo bastante bueno.	We make a pretty good team.			pres-1p	formamos
-73	traer	to bring	Traeme un vaso de agua, porfa.	Bring me a glass of water, please.	voseo imperative; porfa = please (colloquial)		cmd-vos	traeme
-74	partir	to leave / to split	El vuelo parte a medianoche.	The flight leaves at midnight.			pres-3s	parte
-75	morir	to die	Me muero de hambre.	I'm starving.	lit. I'm dying of hunger		pres-1s	muero
-76	aceptar	to accept	¿Aceptan tarjeta acá?	Do you take card here?			pres-3p	aceptan
-77	realizar	to carry out	Realizamos el trámite ayer.	We did the paperwork yesterday.	trámite = bureaucratic procedure		pret-1p	realizamos
-78	suponer	to suppose	Supongo que sí.	I suppose so.			pres-1s	supongo
-79	comprender	to understand	Comprendo lo que querés decir.	I understand what you mean.	voseo: querés		pres-1s	comprendo
-80	lograr	to manage to	Logré entender casi todo.	I managed to understand almost everything.			pret-1s	logré
-81	explicar	to explain	¿Me lo explicás otra vez?	Can you explain it to me again?	voseo: explicás		pres-2s	explicás
-82	preguntar	to ask	Preguntale a él, él sabe.	Ask him, he knows.	voseo imperative		cmd-vos	preguntale
-83	tocar	to touch / to play	Toca la guitarra muy bien.	He plays the guitar very well.			pres-3s	toca
-84	reconocer	to recognise	No te reconocí con barba.	I didn't recognise you with a beard.			pret-1s	reconocí
-85	estudiar	to study	Estudio español todos los días.	I study Spanish every day.			pres-1s	estudio
-86	alcanzar	to reach / to be enough	No me alcanza la plata.	I don't have enough money.			pres-3s	alcanza
-87	nacer	to be born	Nació en Encarnación.	She was born in Encarnación.			pret-3s	nació
-88	dirigir	to direct	Él dirige la empresa.	He runs the company.			pres-3s	dirige
-89	correr	to run	Corro en el parque por la mañana.	I run in the park in the morning.			pres-1s	corro
-90	utilizar	to use	Utilizo el celular para todo.	I use my phone for everything.	celular = mobile phone		pres-1s	utilizo
-91	pagar	to pay	¿Puedo pagar en efectivo?	Can I pay in cash?			inf	pagar
-92	ayudar	to help	¿En qué te puedo ayudar?	How can I help you?			inf	ayudar
-93	gustar	to be pleasing (to like)	Me gusta mucho la comida de acá.	I really like the food here.			pres-3s	gusta
-94	jugar	to play	Jugamos al fútbol los sábados.	We play football on Saturdays.			pres-1p	jugamos
-95	escuchar	to listen	Escuchá bien lo que te digo.	Listen carefully to what I'm telling you.	voseo imperative		cmd-vos	escuchá
-96	cumplir	to fulfil / to turn (age)	Mañana cumplo treinta años.	Tomorrow I turn thirty.			pres-1s	cumplo
-97	ofrecer	to offer	Me ofrecieron un trabajo.	They offered me a job.			pret-3p	ofrecieron
-98	descubrir	to discover	Descubrí un café buenísimo.	I found a really great café.			cmd-vos	descubrí
-99	levantar	to lift / to raise	Me levanto temprano todos los días.	I get up early every day.			pres-1s	levanto
-100	intentar	to try	Voy a intentarlo de nuevo.	I'm going to try it again.			inf	intentarlo
+1	ser	to be (permanent)	Soy de Inglaterra pero ahora vivo acá.	I'm from England but now I live here.		being-feeling	pres-1s	soy
+2	haber	to have (auxiliary)	Hay mucha gente en el mercado hoy.	There are a lot of people at the market today.	hay = impersonal form	being-feeling	impersonal	hay
+3	estar	to be (state/location)	Estoy cansado, pero estoy bien.	I'm tired, but I'm fine.		being-feeling	pres-1s	estoy
+4	tener	to have	¿Tenés cambio de cincuenta mil?	Do you have change for fifty thousand?	voseo: tenés	yes-no-maybe	pres-2s	tenés
+5	hacer	to do / to make	Hace mucho calor en Asunción.	It's very hot in Asunción.		being-feeling	pres-3s	hace
+6	poder	to be able to	¿Podés ayudarme un momento?	Can you help me for a moment?	voseo: podés	yes-no-maybe	pres-2s	podés
+7	decir	to say	Siempre dice la verdad.	He always tells the truth.		conversation-opinion	pres-3s	dice
+8	ir	to go	Mañana voy al centro.	Tomorrow I'm going downtown.		transport-colectivo	pres-1s	voy
+9	ver	to see	No veo nada sin mis lentes.	I can't see anything without my glasses.		seeing-noticing	pres-1s	veo
+10	dar	to give	¿Me das una mano, por favor?	Can you give me a hand, please?		being-feeling	pres-2s	das
+11	saber	to know (facts)	No sé cómo se dice eso en español.	I don't know how you say that in Spanish.		thinking-knowing	pres-1s	sé
+12	querer	to want / to love	Quiero aprender español rápido.	I want to learn Spanish fast.		yes-no-maybe	pres-1s	quiero
+13	llegar	to arrive	El colectivo llega en diez minutos.	The bus arrives in ten minutes.	colectivo = bus (PY/AR)	transport-colectivo	pres-3s	llega
+14	pasar	to pass / to happen	¿Qué pasó anoche?	What happened last night?		directions-places	pret-3s	pasó
+15	deber	to owe / must	Debo ir al banco mañana.	I have to go to the bank tomorrow.		yes-no-maybe	pres-1s	debo
+16	poner	to put	Poné la plata en la mesa.	Put the money on the table.	voseo imperative; plata = money	doing-handling	cmd-vos	poné
+17	parecer	to seem	Me parece una buena idea.	That seems like a good idea to me.		being-feeling	pres-3s	parece
+18	quedar	to stay / to remain	Quedamos en vernos a las ocho.	We agreed to meet at eight.		being-feeling	pres-1p	quedamos
+19	creer	to believe	Creo que tenés razón.	I think you're right.		thinking-knowing	pres-1s	creo
+20	hablar	to speak	Hablo muy poco español todavía.	I speak very little Spanish still.		conversation-opinion	pres-1s	hablo
+21	llevar	to carry / to take	¿Me llevás hasta la esquina?	Can you take me to the corner?	voseo: llevás	doing-handling	pres-2s	llevás
+22	dejar	to leave / to let	Dejá tus cosas acá, no pasa nada.	Leave your things here, it's fine.	voseo imperative	yes-no-maybe	cmd-vos	dejá
+23	seguir	to follow / to continue	Seguí derecho dos cuadras.	Keep going straight for two blocks.	voseo imperative	directions-places	cmd-vos	seguí
+24	encontrar	to find	No encuentro mis llaves.	I can't find my keys.		seeing-noticing	pres-1s	encuentro
+25	llamar	to call	Te llamo más tarde.	I'll call you later.		greeting-small-talk	pres-1s	llamo
+26	venir	to come	¿Venís conmigo al mercado?	Are you coming with me to the market?	voseo: venís	transport-colectivo	pres-2s	venís
+27	pensar	to think	Estoy pensando en mudarme.	I'm thinking about moving.		thinking-knowing	prog	pensando
+28	salir	to leave / to go out	Salimos de casa a las siete.	We leave the house at seven.		transport-colectivo	pres-1p	salimos
+29	volver	to return	Vuelvo en cinco minutos.	I'll be back in five minutes.		transport-colectivo	pres-1s	vuelvo
+30	tomar	to take / to drink	Tomamos tereré todas las tardes.	We drink tereré every afternoon.	tereré = PY cold yerba mate	ordering-eating	pres-1p	tomamos
+31	conocer	to know (people/places)	¿Conocés un buen lugar para comer?	Do you know a good place to eat?	voseo: conocés	greeting-small-talk	pres-2s	conocés
+32	vivir	to live	Vivo cerca del centro.	I live near the centre.		house-renting	pres-1s	vivo
+33	sentir	to feel	Me siento mucho mejor hoy.	I feel much better today.		being-feeling	pres-1s	siento
+34	tratar	to try / to treat	Trato de hablar solo en español.	I try to speak only in Spanish.		yes-no-maybe	pres-1s	trato
+35	mirar	to look / to watch	Mirá eso, qué lindo.	Look at that, how lovely.	voseo imperative	seeing-noticing	cmd-vos	mirá
+36	contar	to count / to tell	Contame qué hiciste el finde.	Tell me what you did at the weekend.	voseo imperative; finde = weekend	haggling-quantities	cmd-vos	contame
+37	empezar	to begin	La clase empieza a las nueve.	The class starts at nine.		work-tasks	pres-3s	empieza
+38	esperar	to wait / to hope	Esperame un ratito, ya vengo.	Wait for me a moment, I'll be right back.	voseo imperative	arranging-to-meet	cmd-vos	esperame
+39	buscar	to look for	Estoy buscando una farmacia.	I'm looking for a pharmacy.		seeing-noticing	prog	buscando
+40	existir	to exist	No existe otra manera de hacerlo.	There's no other way to do it.		being-feeling	pres-3s	existe
+41	entrar	to enter	Entrá, la puerta está abierta.	Come in, the door is open.	voseo imperative	directions-places	cmd-vos	entrá
+42	trabajar	to work	Trabajo desde casa todos los días.	I work from home every day.		work-tasks	pres-1s	trabajo
+43	escribir	to write	Escribime cuando llegues.	Write to me when you arrive.	voseo imperative	phone-computer	cmd-vos	escribime
+44	perder	to lose	Perdí el micro por dos minutos.	I missed the bus by two minutes.		doing-handling	pret-1s	perdí
+45	producir	to produce	Este país produce mucha soja.	This country produces a lot of soy.		change-cause	pres-3s	produce
+46	ocurrir	to occur	Se me ocurrió una idea.	An idea occurred to me.		change-cause	pret-3s	ocurrió
+47	entender	to understand	No entiendo nada cuando hablan rápido.	I don't understand anything when they speak fast.		asking-understanding	pres-1s	entiendo
+48	pedir	to ask for	Pedí dos empanadas, por favor.	Order two empanadas, please.	voseo imperative	ordering-eating	cmd-vos	pedí
+49	recibir	to receive	Recibí tu mensaje recién.	I just got your message.		greeting-small-talk	cmd-vos	recibí
+50	recordar	to remember	No recuerdo su nombre.	I don't remember his name.		thinking-knowing	pres-1s	recuerdo
+51	terminar	to finish	Termino de trabajar a las seis.	I finish work at six.		work-tasks	pres-1s	termino
+52	permitir	to allow	No me permiten entrar sin documento.	They don't let me in without ID.		yes-no-maybe	pres-3p	permiten
+53	aparecer	to appear	Apareció justo cuando lo necesitaba.	He showed up right when I needed him.		seeing-noticing	pret-3s	apareció
+54	conseguir	to get / to obtain	¿Dónde consigo una tarjeta SIM?	Where do I get a SIM card?		yes-no-maybe	pres-1s	consigo
+55	comenzar	to start	Comenzamos el lunes que viene.	We start next Monday.		work-tasks	pres-1p	comenzamos
+56	servir	to serve / to be useful	Esto no me sirve para nada.	This is no use to me at all.		ordering-eating	pres-3s	sirve
+57	sacar	to take out	Sacá plata del cajero antes.	Take money out of the ATM first.	voseo imperative	doing-handling	cmd-vos	sacá
+58	necesitar	to need	Necesito ayuda con esto.	I need help with this.		yes-no-maybe	pres-1s	necesito
+59	mantener	to maintain	Es difícil mantener la calma acá.	It's hard to keep calm here.		change-cause	inf	mantener
+60	resultar	to turn out	Resultó más fácil de lo que pensaba.	It turned out easier than I thought.		being-feeling	pret-3s	resultó
+61	leer	to read	Leo el diario todas las mañanas.	I read the newspaper every morning.		free-time	pres-1s	leo
+62	caer	to fall	Se me cayó el teléfono.	I dropped my phone.		emergencies	pret-3s	cayó
+63	cambiar	to change	¿Dónde puedo cambiar dólares?	Where can I change dollars?		buying-paying	inf	cambiar
+64	presentar	to present / to introduce	Te presento a mi amigo Juan.	Let me introduce you to my friend Juan.		greeting-small-talk	pres-1s	presento
+65	crear	to create	Creamos el grupo la semana pasada.	We created the group last week.		ordering-eating	pret-1p	creamos
+66	abrir	to open	¿A qué hora abren?	What time do you open?		doing-handling	pres-3p	abren
+67	considerar	to consider	Lo estoy considerando seriamente.	I'm seriously considering it.		thinking-knowing	prog	considerando
+68	oír	to hear	No te oigo bien, hay mucho ruido.	I can't hear you well, there's a lot of noise.		conversation-opinion	pres-1s	oigo
+69	acabar	to finish / to have just	Acabo de llegar.	I've just arrived.	acabar de = to have just	doing-handling	pres-1s	acabo
+70	convertir	to convert / to turn into	Se convirtió en mi lugar favorito.	It became my favourite place.		bank-cash-credit	pret-3s	convirtió
+71	ganar	to win / to earn	Gano lo suficiente para vivir bien.	I earn enough to live well.		work-tasks	pres-1s	gano
+72	formar	to form	Formamos un equipo bastante bueno.	We make a pretty good team.		paperwork-bureaucracy	pres-1p	formamos
+73	traer	to bring	Traeme un vaso de agua, porfa.	Bring me a glass of water, please.	voseo imperative; porfa = please (colloquial)	doing-handling	cmd-vos	traeme
+74	partir	to leave / to split	El vuelo parte a medianoche.	The flight leaves at midnight.		transport-colectivo	pres-3s	parte
+75	morir	to die	Me muero de hambre.	I'm starving.	lit. I'm dying of hunger	family-friends	pres-1s	muero
+76	aceptar	to accept	¿Aceptan tarjeta acá?	Do you take card here?		yes-no-maybe	pres-3p	aceptan
+77	realizar	to carry out	Realizamos el trámite ayer.	We did the paperwork yesterday.	trámite = bureaucratic procedure	doing-handling	pret-1p	realizamos
+78	suponer	to suppose	Supongo que sí.	I suppose so.		thinking-knowing	pres-1s	supongo
+79	comprender	to understand	Comprendo lo que querés decir.	I understand what you mean.	voseo: querés	asking-understanding	pres-1s	comprendo
+80	lograr	to manage to	Logré entender casi todo.	I managed to understand almost everything.		yes-no-maybe	pret-1s	logré
+81	explicar	to explain	¿Me lo explicás otra vez?	Can you explain it to me again?	voseo: explicás	asking-understanding	pres-2s	explicás
+82	preguntar	to ask	Preguntale a él, él sabe.	Ask him, he knows.	voseo imperative	asking-understanding	cmd-vos	preguntale
+83	tocar	to touch / to play	Toca la guitarra muy bien.	He plays the guitar very well.		doing-handling	pres-3s	toca
+84	reconocer	to recognise	No te reconocí con barba.	I didn't recognise you with a beard.		seeing-noticing	pret-1s	reconocí
+85	estudiar	to study	Estudio español todos los días.	I study Spanish every day.		free-time	pres-1s	estudio
+86	alcanzar	to reach / to be enough	No me alcanza la plata.	I don't have enough money.		haggling-quantities	pres-3s	alcanza
+87	nacer	to be born	Nació en Encarnación.	She was born in Encarnación.		family-friends	pret-3s	nació
+88	dirigir	to direct	Él dirige la empresa.	He runs the company.		work-tasks	pres-3s	dirige
+89	correr	to run	Corro en el parque por la mañana.	I run in the park in the morning.		free-time	pres-1s	corro
+90	utilizar	to use	Utilizo el celular para todo.	I use my phone for everything.	celular = mobile phone	doing-handling	pres-1s	utilizo
+91	pagar	to pay	¿Puedo pagar en efectivo?	Can I pay in cash?		buying-paying	inf	pagar
+92	ayudar	to help	¿En qué te puedo ayudar?	How can I help you?		family-friends	inf	ayudar
+93	gustar	to be pleasing (to like)	Me gusta mucho la comida de acá.	I really like the food here.		being-feeling	pres-3s	gusta
+94	jugar	to play	Jugamos al fútbol los sábados.	We play football on Saturdays.		free-time	pres-1p	jugamos
+95	escuchar	to listen	Escuchá bien lo que te digo.	Listen carefully to what I'm telling you.	voseo imperative	conversation-opinion	cmd-vos	escuchá
+96	cumplir	to fulfil / to turn (age)	Mañana cumplo treinta años.	Tomorrow I turn thirty.		work-tasks	pres-1s	cumplo
+97	ofrecer	to offer	Me ofrecieron un trabajo.	They offered me a job.		buying-paying	pret-3p	ofrecieron
+98	descubrir	to discover	Descubrí un café buenísimo.	I found a really great café.		seeing-noticing	cmd-vos	descubrí
+99	levantar	to lift / to raise	Me levanto temprano todos los días.	I get up early every day.		doing-handling	pres-1s	levanto
+100	intentar	to try	Voy a intentarlo de nuevo.	I'm going to try it again.		yes-no-maybe	inf	intentarlo

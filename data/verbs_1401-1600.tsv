@@ -1,201 +1,201 @@
 rank	verb_es	verb_en	sentence_es	sentence_en	note	topic	form	verb_token
-1401	acentuar	to accentuate	El calor acentúa el cansancio.	The heat accentuates the tiredness.			pres-3s	acentúa
-1402	atenuar	to lessen	La sombra atenúa un poco el calor.	The shade lessens the heat a little.			pres-3s	atenúa
-1403	suavizar	to soften	Suavizó el tono al final.	He softened his tone at the end.			pret-3s	suavizó
-1404	endurecer	to harden	Se endureció el pan.	The bread went hard.			pret-3s	endureció
-1405	ablandar	to soften (food)	Ablandá la carne con el mazo.	Tenderise the meat with the mallet.	voseo imperative		cmd-vos	ablandá
-1406	espesar	to thicken	Espesá la salsa con harina.	Thicken the sauce with flour.	voseo imperative		cmd-vos	espesá
-1407	diluir	to dilute	Diluí el jugo con agua.	I diluted the juice with water.			cmd-vos	diluí
-1408	disolverse	to dissolve	Se disuelve en agua fría.	It dissolves in cold water.			pres-3s	disuelve
-1409	saturar	to saturate	Se saturó el mercado.	The market became saturated.			pret-3s	saturó
-1410	impregnar	to permeate	El olor impregnó toda la casa.	The smell permeated the whole house.			pret-3s	impregnó
-1411	empaparse	to be soaked through	Se empapó el colchón.	The mattress got soaked through.	always reflexive: se empapó		pret-3s	empapó
-1412	chorrear	to pour off	Chorreaba agua del techo.	Water was pouring off the roof.			imperf-3s	chorreaba
-1413	salpicar	to splash	Me salpicó un auto en la calle.	A car splashed me in the street.			pret-3s	salpicó
-1414	rociar	to spray	Rociaron el patio con repelente.	They sprayed the yard with repellent.			pret-3p	rociaron
-1415	fumigar	to fumigate	Fumigan contra el mosquito.	They fumigate against mosquitoes.			pres-3p	fumigan
-1416	exterminar	to exterminate	Exterminaron las hormigas.	They exterminated the ants.			pret-3p	exterminaron
-1417	ahuyentar	to drive away	El humo ahuyenta los mosquitos.	Smoke drives the mosquitoes away.			pres-3s	ahuyenta
-1418	espantar	to scare off	Espantó a los pájaros.	He scared the birds off.			pret-3s	espantó
-1419	acechar	to lurk	Un perro acechaba en la esquina.	A dog was lurking on the corner.			imperf-3s	acechaba
-1420	emboscar	to ambush	Los emboscaron en el camino.	They were ambushed on the road.			pret-3p	emboscaron
-1421	asaltar	to hold up	Asaltaron la tienda de noche.	They held up the shop at night.			pret-3p	asaltaron
-1422	hurtar	to pilfer	Hurtaron cosas pequeñas.	They pilfered small things.			pret-3p	hurtaron
-1423	saquear	to loot	Saquearon el depósito.	They looted the warehouse.			pret-3p	saquearon
-1424	despojar	to strip of	Lo despojaron de todo.	They stripped him of everything.			pret-3p	despojaron
-1425	usurpar	to usurp	Usurparon las tierras.	They seized the land.			pret-3p	usurparon
-1426	invadir	to invade	Invadieron el terreno vacío.	They occupied the empty plot.			pret-3p	invadieron
-1427	ocupar (ilegalmente)	to squat	Ocuparon la casa abandonada.	They squatted in the abandoned house.			pret-3p	ocuparon
-1428	expulsar	to expel	Lo expulsaron del colegio.	He was expelled from school.			pret-3p	expulsaron
-1429	deportar	to deport	Lo deportaron por papeles vencidos.	He was deported over expired papers.			pret-3p	deportaron
-1430	exiliar	to exile	Se exiliaron en los setenta.	They went into exile in the seventies.			pret-3p	exiliaron
-1431	repatriar	to repatriate	Los repatriaron en avión.	They were repatriated by plane.			pret-3p	repatriaron
-1432	asilar	to grant asylum	Les asilaron el año pasado.	They were granted asylum last year.			pret-3p	asilaron
-1433	naturalizarse	to become a citizen	Me naturalicé después de cinco años.	I became a citizen after five years.			pret-1s	naturalicé
-1434	empadronar	to put on the register	Empadronaron a todos los nuevos.	They registered all the new arrivals.			pret-3p	empadronaron
-1435	legalizar	to legalise	Legalizaron mi título.	They legalised my qualification.			pret-3p	legalizaron
-1436	apostillar	to apostille	Hay que apostillar el documento.	The document needs an apostille.			inf	apostillar
-1437	traducirse	to be translated	Se traduce distinto en guaraní.	It translates differently into Guaraní.			pres-3s	traduce
-1438	transcribir	to transcribe	Transcribí la entrevista entera.	I transcribed the whole interview.			cmd-vos	transcribí
-1439	interpretar (idioma)	to interpret	Interpretó del guaraní al español.	She interpreted from Guaraní into Spanish.			pret-3s	interpretó
-1440	deletrearse	to be spelled	Se deletrea con hache.	It's spelled with an h.			pres-3s	deletrea
-1441	acentuarse	to be accented	Se acentúa en la última sílaba.	It's stressed on the last syllable.			pres-3s	acentúa
-1442	pronunciarse	to be pronounced	La elle se pronuncia distinto acá.	The 'll' is pronounced differently here.	key PY feature		pres-3s	pronuncia
-1443	conjugar	to conjugate	Conjugá el verbo en voseo.	Conjugate the verb in voseo.	voseo imperative		cmd-vos	conjugá
-1444	declinar	to decline (grammar)	El guaraní no declina como el latín.	Guaraní doesn't decline like Latin.			pres-3s	declina
-1445	derivarse	to be derived	Muchas palabras se derivan del guaraní.	Many words derive from Guaraní.			pres-3p	derivan
-1446	prestarse (idioma)	to be borrowed	Se prestan palabras en los dos sentidos.	Words are borrowed in both directions.			pres-3p	prestan
-1447	mezclarse	to get mixed	Se mezclan los dos idiomas naturalmente.	The two languages mix naturally.	jopara		pres-3p	mezclan
-1448	alternar	to alternate	Alternan guaraní y español en la misma frase.	They alternate Guaraní and Spanish in one sentence.			pres-3p	alternan
-1449	intercalar	to intersperse	Intercala palabras en guaraní.	He intersperses Guaraní words.			pres-3s	intercala
-1450	balbucear	to babble	Balbuceé una respuesta.	I stammered out an answer.			pret-1s	balbuceé
-1451	farfullar	to mumble	Farfulló algo y se fue.	He mumbled something and left.			pret-3s	farfulló
-1452	vocalizar	to enunciate	Vocalizá más, no te entiendo.	Enunciate more, I can't understand you.	voseo imperative		cmd-vos	vocalizá
-1453	entonar	to intone	Entona distinto que un español.	He intones differently from a Spaniard.			pres-3s	entona
-1454	recitar	to recite	Recitó un poema en guaraní.	He recited a poem in Guaraní.			pret-3s	recitó
-1455	declamar	to declaim	Declamó frente a toda la escuela.	He declaimed in front of the whole school.			pret-3s	declamó
-1456	improvisar	to improvise	Improvisé toda la respuesta.	I improvised the whole answer.			pret-1s	improvisé
-1457	ensayarse	to be rehearsed	Se ensaya dos veces por semana.	It's rehearsed twice a week.			pres-3s	ensaya
-1458	afinar	to tune	Afinó la guitarra antes de tocar.	He tuned the guitar before playing.			pret-3s	afinó
-1459	desafinar	to be out of tune	Desafina un poco pero canta lindo.	He's a bit flat but sings nicely.			pres-3s	desafina
-1460	tararear	to hum	Tarareaba una canción vieja.	She was humming an old song.			imperf-3s	tarareaba
-1461	silbar	to whistle	Silba todo el día trabajando.	He whistles all day while working.			pres-3s	silba
-1462	aplaudirse	to be applauded	Se aplaudió de pie.	It got a standing ovation.			pret-3s	aplaudió
-1463	abuchear	to boo	Abuchearon al árbitro.	They booed the referee.			pret-3p	abuchearon
-1464	ovacionar	to give an ovation	Ovacionaron al equipo.	They gave the team an ovation.			pret-3p	ovacionaron
-1465	alentar	to cheer on	Alentaron hasta el final.	They cheered until the end.			pret-3p	alentaron
-1466	hinchar por	to support (a team)	Hincho por el equipo local.	I support the local team.	hincha = fan (PY/AR)		pres-1s	hincho
-1467	clasificarse	to qualify	Se clasificaron para la final.	They qualified for the final.			pret-3p	clasificaron
-1468	descalificar	to disqualify	Lo descalificaron por doping.	He was disqualified for doping.			pret-3p	descalificaron
-1469	eliminar	to knock out	Los eliminaron en cuartos.	They were knocked out in the quarters.			pret-3p	eliminaron
-1470	golear	to thrash	Nos golearon cuatro a cero.	They thrashed us four nil.			pret-3p	golearon
-1471	marcar (gol)	to score	Marcó en el último minuto.	He scored in the last minute.			pret-3s	marcó
-1472	atajar	to save (goalkeeping)	Atajó un penal increíble.	He made an incredible penalty save.			pret-3s	atajó
-1473	driblar	to dribble past	Dribló a tres jugadores.	He dribbled past three players.			pret-3s	dribló
-1474	rematar (fútbol)	to shoot	Remató desde afuera del área.	He shot from outside the box.			pret-3s	remató
-1475	empatarse	to be drawn	Se empató sobre la hora.	It was levelled at the death.			pret-3s	empató
-1476	prorrogarse	to go to extra time	Se prorrogó el partido.	The match went to extra time.			pret-3s	prorrogó
-1477	entrenarse para	to train for	Me entreno para una carrera.	I'm training for a race.			pres-1s	entreno
-1478	calentar (deporte)	to warm up	Calentaron veinte minutos.	They warmed up for twenty minutes.			pret-3p	calentaron
-1479	lesionarse	to get injured	Se lesionó en el primer tiempo.	He got injured in the first half.			pret-3s	lesionó
-1480	recuperarse de	to recover from	Se recuperó de la lesión.	He recovered from the injury.			pret-3s	recuperó
-1481	jubilarse	to retire (sport/work)	Se jubiló a los sesenta.	He retired at sixty.			pret-3s	jubiló
-1482	relevar	to relieve (duty)	Lo relevaron a medianoche.	They relieved him at midnight.			pret-3p	relevaron
-1483	turnarse	to take turns	Nos turnamos para manejar.	We took turns driving.			pres-1p	turnamos
-1484	alternarse	to rotate	Se alternan cada semana.	They rotate every week.			pres-3p	alternan
-1485	sustituirse	to be replaced	Se sustituye cada seis meses.	It's replaced every six months.			pres-3s	sustituye
-1486	renovarse	to be renewed	Se renueva automáticamente.	It renews automatically.			pres-3s	renueva
-1487	reciclarse	to retrain	Me reciclé en otra área.	I retrained in another field.			pret-1s	reciclé
-1488	especializarse	to specialise	Se especializó en derecho laboral.	He specialised in labour law.			pret-3s	especializó
-1489	diversificar	to diversify	Diversificaron la producción.	They diversified production.			pret-3p	diversificaron
-1490	expandirse	to grow (business)	Se expandieron al interior.	They expanded into the interior.	interior: outside Asunción		pret-3p	expandieron
-1491	consolidar	to consolidate	Consolidaron el negocio en dos años.	They consolidated the business in two years.			pret-3p	consolidaron
-1492	estancarse	to stagnate	Se estancó el proyecto.	The project stalled.			pret-3s	estancó
-1493	declinar	to decline	Declinó la oferta amablemente.	He politely declined the offer.			pret-3s	declinó
-1494	decaer	to decline / to flag	Decayó el ánimo en invierno.	Spirits flagged in winter.			pret-3s	decayó
-1495	repuntar	to pick up	Repuntó la economía.	The economy picked up.			pret-3s	repuntó
-1496	recuperar	to recoup	Recuperamos lo invertido.	We recouped what we invested.			pres-1p	recuperamos
-1497	rentabilizar	to make profitable	Rentabilizaron el local en un año.	They made the shop profitable in a year.			pret-3p	rentabilizaron
-1498	capitalizar	to capitalise on	Capitalizaron la oportunidad.	They capitalised on the opportunity.			pret-3p	capitalizaron
-1499	especular	to speculate	Especulan con el precio de la tierra.	They speculate on land prices.			pres-3p	especulan
-1500	devaluar	to devalue	Devaluaron la moneda.	They devalued the currency.			pret-3p	devaluaron
-1501	inflacionar	to inflate (prices)	Se inflacionaron los alquileres.	Rents became inflated.			pret-3p	inflacionaron
-1502	indexar	to index-link	Indexaron los salarios.	They index-linked wages.			pret-3p	indexaron
-1503	cotizar	to quote (a price)	Cotizaron el trabajo en dólares.	They quoted the job in dollars.			pret-3p	cotizaron
-1504	presupuestarse	to be budgeted	Se presupuestó mal la obra.	The works were badly budgeted.			pret-3s	presupuestó
-1505	auditar	to audit	Auditaron las cuentas.	They audited the accounts.			pret-3p	auditaron
-1506	fiscalizar	to oversee	Fiscalizan el gasto público.	They oversee public spending.			pres-3p	fiscalizan
-1507	recaudar	to collect (revenue)	Recaudaron menos este año.	They collected less this year.			pret-3p	recaudaron
-1508	tributar	to pay tax	Tributan en el país de origen.	They pay tax in their home country.			pres-3p	tributan
-1509	evadir	to evade	Evadieron impuestos durante años.	They evaded taxes for years.			pret-3p	evadieron
-1510	blanquear	to launder / to legalise	Blanquearon los fondos.	They laundered the funds.			pret-3p	blanquearon
-1511	sobornar	to bribe	Intentaron sobornar al inspector.	They tried to bribe the inspector.			inf	sobornar
-1512	coimear	to pay a bribe	Acá se coimea seguido.	Bribes are common here.	coima: very common PY/AR word		pres-3s	coimea
-1513	corromper	to corrupt	La plata corrompe rápido.	Money corrupts quickly.			pres-3s	corrompe
-1514	denunciarse	to be reported	Se denunció el caso en la prensa.	The case was reported in the press.			pret-3s	denunció
-1515	investigarse	to be investigated	Se investiga el origen del dinero.	The source of the money is under investigation.			pres-3s	investiga
-1516	destituir	to remove from office	Destituyeron al funcionario.	They removed the official from office.			pret-3p	destituyeron
-1517	renunciar (cargo)	to step down	Renunció al cargo en marzo.	He stepped down from the post in March.			pret-3s	renunció
-1518	asumir (cargo)	to take office	Asumió el cargo en agosto.	He took office in August.			pret-3s	asumió
-1519	posesionarse	to be sworn in	Se posesionó ante el congreso.	He was sworn in before congress.			pret-3s	posesionó
-1520	jurar (cargo)	to be sworn in	Juró el cargo esa misma tarde.	He was sworn in that same afternoon.			pret-3s	juró
-1521	proclamar	to proclaim	Proclamaron los resultados.	They announced the results.			pret-3p	proclamaron
-1522	promulgar	to enact	Promulgaron la ley en junio.	They enacted the law in June.			pret-3p	promulgaron
-1523	derogar	to repeal	Derogaron la norma anterior.	They repealed the previous rule.			pret-3p	derogaron
-1524	vetar	to veto	Vetó el proyecto de ley.	He vetoed the bill.			pret-3s	vetó
-1525	ratificar	to ratify	Ratificaron el acuerdo.	They ratified the agreement.			pret-3p	ratificaron
-1526	suscribir	to sign (an agreement)	Suscribieron el convenio.	They signed the agreement.			pret-3p	suscribieron
-1527	adherir	to sign up to	Adhirieron al tratado.	They signed up to the treaty.			pret-3p	adhirieron
-1528	retirarse de	to withdraw from	Se retiraron del acuerdo.	They withdrew from the agreement.			pret-3p	retiraron
-1529	romper (relaciones)	to break off	Rompieron relaciones en los ochenta.	They broke off relations in the eighties.			pret-3p	rompieron
-1530	restablecer	to restore (relations)	Restablecieron relaciones el año pasado.	They restored relations last year.			pret-3p	restablecieron
-1531	normalizar	to normalise	Se normalizó la situación.	The situation returned to normal.			pret-3s	normalizó
-1532	regularizar	to regularise	Regularicé mi situación migratoria.	I regularised my immigration status.			pret-1s	regularicé
-1533	formalizar	to formalise	Formalizamos el acuerdo por escrito.	We put the agreement in writing.			pres-1p	formalizamos
-1534	oficializar	to make official	Oficializaron el guaraní en el ochenta y nueve.	Guaraní was made official in eighty-nine.			pret-3p	oficializaron
-1535	reconocerse	to be recognised	Se reconoce como lengua oficial.	It is recognised as an official language.			pres-3s	reconoce
-1536	difundir	to spread	Difundieron la noticia rápido.	They spread the news quickly.			pret-3p	difundieron
-1537	divulgar	to disclose	Divulgaron los datos sin permiso.	They disclosed the data without permission.			pret-3p	divulgaron
-1538	propagar	to propagate	Se propagó el rumor en horas.	The rumour spread in hours.			pret-3s	propagó
-1539	viralizarse	to go viral	Se viralizó el video.	The video went viral.			pret-3s	viralizó
-1540	tendenciar	to trend	Fue tendencia todo el día.	It trended all day.	more usual: ser tendencia		pres-3s	tendencia
-1541	censurar	to censor	Censuraron el programa.	They censored the programme.			pret-3p	censuraron
-1542	silenciarse	to be silenced	Se silenció el tema por años.	The matter was hushed up for years.			pret-3s	silenció
-1543	desmentir	to deny (a report)	Desmintieron la versión oficial.	They denied the official version.			pret-3p	desmintieron
-1544	rectificar	to correct (publicly)	Rectificaron la nota al día siguiente.	They corrected the article the next day.			pret-3p	rectificaron
-1545	aclarar (públicamente)	to put on record	Aclaró su posición en la radio.	He clarified his position on the radio.			pret-3s	aclaró
-1546	polemizar	to argue publicly	Polemizaron en los diarios.	They argued it out in the papers.			pret-3p	polemizaron
-1547	criticarse	to be criticised	Se criticó mucho la decisión.	The decision was heavily criticised.			pret-3s	criticó
-1548	elogiarse	to be praised	Se elogió su trabajo.	His work was praised.			pret-3s	elogió
-1549	premiarse	to be awarded	Se premió al mejor proyecto.	The best project was given the award.			pret-3s	premió
-1550	nominar	to nominate	Nominaron tres candidatos.	They nominated three candidates.			pret-3p	nominaron
-1551	postularse	to stand (for office)	Se postuló para intendente.	He stood for mayor.			pret-3s	postuló
-1552	hacer campaña	to campaign	Hicieron campaña en todo el interior.	They campaigned all over the interior.	fixed expression		pret-3p	hicieron
-1553	militar	to be politically active	Milita desde joven.	He's been politically active since he was young.			pres-3s	milita
-1554	manifestarse	to demonstrate	Se manifestaron frente al congreso.	They demonstrated outside congress.			pret-3p	manifestaron
-1555	marchar	to march	Marcharon hasta la plaza.	They marched to the square.			pret-3p	marcharon
-1556	bloquear (ruta)	to blockade	Bloquearon la ruta dos días.	They blockaded the highway for two days.			pret-3p	bloquearon
-1557	hacer huelga	to strike	Hicieron huelga una semana.	They went on strike for a week.	huelga is the noun; the verb is hacer		pret-3p	hicieron
-1558	paralizar	to bring to a standstill	El paro paralizó la ciudad.	The strike brought the city to a standstill.	paro = strike		pret-3s	paralizó
-1559	reprimir	to repress	Reprimieron la manifestación.	They put down the demonstration.			pret-3p	reprimieron
-1560	dispersar	to disperse	Dispersaron a la gente.	They dispersed the crowd.			pret-3p	dispersaron
-1561	concentrarse (gente)	to gather	Se concentraron en la plaza.	They gathered in the square.			pret-3p	concentraron
-1562	congregar	to bring together	Congregó a miles de personas.	It brought together thousands of people.			pret-3s	congregó
-1563	aglomerarse	to crowd together	Se aglomeró la gente en la puerta.	People crowded at the door.			pret-3s	aglomeró
-1564	amontonarse	to pile in	Se amontonaron en el colectivo.	They piled into the bus.			pret-3p	amontonaron
-1565	apretujarse	to squeeze together	Nos apretujamos adentro.	We squeezed in together.			pres-1p	apretujamos
-1566	dispersarse	to scatter	Se dispersaron con la lluvia.	They scattered in the rain.			pret-3p	dispersaron
-1567	evacuar	to evacuate	Evacuaron el edificio.	They evacuated the building.			pret-3p	evacuaron
-1568	desalojarse	to be cleared	Se desalojó la zona por la crecida.	The area was cleared because of the flooding.	crecida: river rise, common in PY		pret-3s	desalojó
-1569	inundarse	to be flooded	Se inundaron los barrios bajos.	The low-lying neighbourhoods flooded.			pret-3p	inundaron
-1570	anegarse	to be waterlogged	Se anegó todo el patio.	The whole yard was waterlogged.			pret-3s	anegó
-1571	drenar	to drain	Drenaron el agua con bombas.	They pumped the water out.			pret-3p	drenaron
-1572	bombear	to pump	Bombean agua del pozo.	They pump water from the well.			pres-3p	bombean
-1573	canalizar	to channel	Canalizaron el arroyo.	They channelled the stream.			pret-3p	canalizaron
-1574	represar	to dam	Represaron el río en los setenta.	They dammed the river in the seventies.	Itaipú context		pret-3p	represaron
-1575	generar (energía)	to generate	Generan energía con la represa.	They generate power with the dam.			pres-3p	generan
-1576	abastecerse	to be supplied	Se abastece de Itaipú.	It's supplied from Itaipú.	Itaipú: PY/Brazil dam		pres-3s	abastece
-1577	racionar	to ration	Racionaron el agua en septiembre.	They rationed water in September.			pret-3p	racionaron
-1578	restringir	to restrict	Restringieron el consumo.	They restricted consumption.			pret-3p	restringieron
-1579	limitarse	to be limited	Se limita a dos horas por día.	It's limited to two hours a day.			pres-3s	limita
-1580	ampliar	to widen / to extend	Ampliaron la ruta a cuatro carriles.	They widened the highway to four lanes.			pret-3p	ampliaron
-1581	estrechar	to narrow	Se estrecha el camino más adelante.	The road narrows further on.			pres-3s	estrecha
-1582	pavimentar	to pave	Pavimentaron la calle recién.	They only just paved the street.			pret-3p	pavimentaron
-1583	asfaltar	to asphalt	Asfaltaron hasta la entrada.	They asphalted up to the entrance.			pret-3p	asfaltaron
-1584	empedrar	to cobble	Empedraron el centro histórico.	They cobbled the historic centre.			pret-3p	empedraron
-1585	señalizar	to signpost	Señalizaron mal el desvío.	They signposted the diversion badly.			pret-3p	señalizaron
-1586	demarcar	to mark out	Demarcaron los límites del terreno.	They marked out the plot boundaries.			pret-3p	demarcaron
-1587	medir (terreno)	to survey	Midieron el terreno con GPS.	They surveyed the plot with GPS.			pret-3p	midieron
-1588	lotear	to divide into plots	Lotearon todo el campo.	They divided the whole field into plots.			pret-3p	lotearon
-1589	urbanizar	to develop (land)	Urbanizaron la zona en diez años.	They developed the area in ten years.			pret-3p	urbanizaron
-1590	poblar	to populate	Poblaron la región hace siglos.	They settled the region centuries ago.			pret-3p	poblaron
-1591	despoblarse	to become depopulated	Se despobló el pueblo.	The village emptied out.			pret-3s	despobló
-1592	migrar	to migrate	Migran a la capital por trabajo.	They migrate to the capital for work.			pres-3p	migran
-1593	asentarse	to settle	Se asentaron cerca del río.	They settled near the river.			pret-3p	asentaron
-1594	colonizar	to colonise	Colonizaron la zona en el siglo diecinueve.	They colonised the area in the nineteenth century.			pret-3p	colonizaron
-1595	evangelizar	to evangelise	Los jesuitas evangelizaron la región.	The Jesuits evangelised the region.	PY Jesuit missions		pret-3p	evangelizaron
-1596	catequizar	to teach catechism	Catequizan a los chicos los sábados.	They teach the children catechism on Saturdays.			pres-3p	catequizan
-1597	bautizar	to baptise	Lo bautizaron en la iglesia del pueblo.	He was baptised in the village church.			pret-3p	bautizaron
-1598	confirmar (sacramento)	to confirm	Se confirmó a los quince.	She was confirmed at fifteen.			pret-3s	confirmó
-1599	casarse por iglesia	to marry in church	Se casaron por iglesia y por civil.	They married in church and at the registry.			pret-3p	casaron
-1600	velar	to hold a wake	Lo velaron toda la noche.	They held a wake for him all night.			pret-3p	velaron
+1401	acentuar	to accentuate	El calor acentúa el cansancio.	The heat accentuates the tiredness.		change-cause	pres-3s	acentúa
+1402	atenuar	to lessen	La sombra atenúa un poco el calor.	The shade lessens the heat a little.		change-cause	pres-3s	atenúa
+1403	suavizar	to soften	Suavizó el tono al final.	He softened his tone at the end.		change-cause	pret-3s	suavizó
+1404	endurecer	to harden	Se endureció el pan.	The bread went hard.		change-cause	pret-3s	endureció
+1405	ablandar	to soften (food)	Ablandá la carne con el mazo.	Tenderise the meat with the mallet.	voseo imperative	cooking-kitchen	cmd-vos	ablandá
+1406	espesar	to thicken	Espesá la salsa con harina.	Thicken the sauce with flour.	voseo imperative	cooking-kitchen	cmd-vos	espesá
+1407	diluir	to dilute	Diluí el jugo con agua.	I diluted the juice with water.		cooking-kitchen	cmd-vos	diluí
+1408	disolverse	to dissolve	Se disuelve en agua fría.	It dissolves in cold water.		change-cause	pres-3s	disuelve
+1409	saturar	to saturate	Se saturó el mercado.	The market became saturated.		change-cause	pret-3s	saturó
+1410	impregnar	to permeate	El olor impregnó toda la casa.	The smell permeated the whole house.		ordering-eating	pret-3s	impregnó
+1411	empaparse	to be soaked through	Se empapó el colchón.	The mattress got soaked through.	always reflexive: se empapó	weather-heat	pret-3s	empapó
+1412	chorrear	to pour off	Chorreaba agua del techo.	Water was pouring off the roof.		cooking-kitchen	imperf-3s	chorreaba
+1413	salpicar	to splash	Me salpicó un auto en la calle.	A car splashed me in the street.		cooking-kitchen	pret-3s	salpicó
+1414	rociar	to spray	Rociaron el patio con repelente.	They sprayed the yard with repellent.		house-renting	pret-3p	rociaron
+1415	fumigar	to fumigate	Fumigan contra el mosquito.	They fumigate against mosquitoes.		house-renting	pres-3p	fumigan
+1416	exterminar	to exterminate	Exterminaron las hormigas.	They exterminated the ants.		house-renting	pret-3p	exterminaron
+1417	ahuyentar	to drive away	El humo ahuyenta los mosquitos.	Smoke drives the mosquitoes away.		driving-moto	pres-3s	ahuyenta
+1418	espantar	to scare off	Espantó a los pájaros.	He scared the birds off.		house-renting	pret-3s	espantó
+1419	acechar	to lurk	Un perro acechaba en la esquina.	A dog was lurking on the corner.		emergencies	imperf-3s	acechaba
+1420	emboscar	to ambush	Los emboscaron en el camino.	They were ambushed on the road.		transport-colectivo	pret-3p	emboscaron
+1421	asaltar	to hold up	Asaltaron la tienda de noche.	They held up the shop at night.		emergencies	pret-3p	asaltaron
+1422	hurtar	to pilfer	Hurtaron cosas pequeñas.	They pilfered small things.		emergencies	pret-3p	hurtaron
+1423	saquear	to loot	Saquearon el depósito.	They looted the warehouse.		emergencies	pret-3p	saquearon
+1424	despojar	to strip of	Lo despojaron de todo.	They stripped him of everything.		emergencies	pret-3p	despojaron
+1425	usurpar	to usurp	Usurparon las tierras.	They seized the land.		news-institutions	pret-3p	usurparon
+1426	invadir	to invade	Invadieron el terreno vacío.	They occupied the empty plot.		news-institutions	pret-3p	invadieron
+1427	ocupar (ilegalmente)	to squat	Ocuparon la casa abandonada.	They squatted in the abandoned house.		news-institutions	pret-3p	ocuparon
+1428	expulsar	to expel	Lo expulsaron del colegio.	He was expelled from school.		news-institutions	pret-3p	expulsaron
+1429	deportar	to deport	Lo deportaron por papeles vencidos.	He was deported over expired papers.		paperwork-bureaucracy	pret-3p	deportaron
+1430	exiliar	to exile	Se exiliaron en los setenta.	They went into exile in the seventies.		news-institutions	pret-3p	exiliaron
+1431	repatriar	to repatriate	Los repatriaron en avión.	They were repatriated by plane.		paperwork-bureaucracy	pret-3p	repatriaron
+1432	asilar	to grant asylum	Les asilaron el año pasado.	They were granted asylum last year.		news-institutions	pret-3p	asilaron
+1433	naturalizarse	to become a citizen	Me naturalicé después de cinco años.	I became a citizen after five years.		paperwork-bureaucracy	pret-1s	naturalicé
+1434	empadronar	to put on the register	Empadronaron a todos los nuevos.	They registered all the new arrivals.		paperwork-bureaucracy	pret-3p	empadronaron
+1435	legalizar	to legalise	Legalizaron mi título.	They legalised my qualification.		paperwork-bureaucracy	pret-3p	legalizaron
+1436	apostillar	to apostille	Hay que apostillar el documento.	The document needs an apostille.		paperwork-bureaucracy	inf	apostillar
+1437	traducirse	to be translated	Se traduce distinto en guaraní.	It translates differently into Guaraní.		asking-understanding	pres-3s	traduce
+1438	transcribir	to transcribe	Transcribí la entrevista entera.	I transcribed the whole interview.		work-tasks	cmd-vos	transcribí
+1439	interpretar (idioma)	to interpret	Interpretó del guaraní al español.	She interpreted from Guaraní into Spanish.		asking-understanding	pret-3s	interpretó
+1440	deletrearse	to be spelled	Se deletrea con hache.	It's spelled with an h.		asking-understanding	pres-3s	deletrea
+1441	acentuarse	to be accented	Se acentúa en la última sílaba.	It's stressed on the last syllable.		asking-understanding	pres-3s	acentúa
+1442	pronunciarse	to be pronounced	La elle se pronuncia distinto acá.	The 'll' is pronounced differently here.	key PY feature	asking-understanding	pres-3s	pronuncia
+1443	conjugar	to conjugate	Conjugá el verbo en voseo.	Conjugate the verb in voseo.	voseo imperative	asking-understanding	cmd-vos	conjugá
+1444	declinar	to decline (grammar)	El guaraní no declina como el latín.	Guaraní doesn't decline like Latin.		asking-understanding	pres-3s	declina
+1445	derivarse	to be derived	Muchas palabras se derivan del guaraní.	Many words derive from Guaraní.		change-cause	pres-3p	derivan
+1446	prestarse (idioma)	to be borrowed	Se prestan palabras en los dos sentidos.	Words are borrowed in both directions.		bank-cash-credit	pres-3p	prestan
+1447	mezclarse	to get mixed	Se mezclan los dos idiomas naturalmente.	The two languages mix naturally.	jopara	change-cause	pres-3p	mezclan
+1448	alternar	to alternate	Alternan guaraní y español en la misma frase.	They alternate Guaraní and Spanish in one sentence.		change-cause	pres-3p	alternan
+1449	intercalar	to intersperse	Intercala palabras en guaraní.	He intersperses Guaraní words.		doing-handling	pres-3s	intercala
+1450	balbucear	to babble	Balbuceé una respuesta.	I stammered out an answer.		asking-understanding	pret-1s	balbuceé
+1451	farfullar	to mumble	Farfulló algo y se fue.	He mumbled something and left.		asking-understanding	pret-3s	farfulló
+1452	vocalizar	to enunciate	Vocalizá más, no te entiendo.	Enunciate more, I can't understand you.	voseo imperative	asking-understanding	cmd-vos	vocalizá
+1453	entonar	to intone	Entona distinto que un español.	He intones differently from a Spaniard.		free-time	pres-3s	entona
+1454	recitar	to recite	Recitó un poema en guaraní.	He recited a poem in Guaraní.		free-time	pret-3s	recitó
+1455	declamar	to declaim	Declamó frente a toda la escuela.	He declaimed in front of the whole school.		free-time	pret-3s	declamó
+1456	improvisar	to improvise	Improvisé toda la respuesta.	I improvised the whole answer.		free-time	pret-1s	improvisé
+1457	ensayarse	to be rehearsed	Se ensaya dos veces por semana.	It's rehearsed twice a week.		conversation-opinion	pres-3s	ensaya
+1458	afinar	to tune	Afinó la guitarra antes de tocar.	He tuned the guitar before playing.		free-time	pret-3s	afinó
+1459	desafinar	to be out of tune	Desafina un poco pero canta lindo.	He's a bit flat but sings nicely.		free-time	pres-3s	desafina
+1460	tararear	to hum	Tarareaba una canción vieja.	She was humming an old song.		free-time	imperf-3s	tarareaba
+1461	silbar	to whistle	Silba todo el día trabajando.	He whistles all day while working.		free-time	pres-3s	silba
+1462	aplaudirse	to be applauded	Se aplaudió de pie.	It got a standing ovation.		free-time	pret-3s	aplaudió
+1463	abuchear	to boo	Abuchearon al árbitro.	They booed the referee.		free-time	pret-3p	abuchearon
+1464	ovacionar	to give an ovation	Ovacionaron al equipo.	They gave the team an ovation.		free-time	pret-3p	ovacionaron
+1465	alentar	to cheer on	Alentaron hasta el final.	They cheered until the end.		free-time	pret-3p	alentaron
+1466	hinchar por	to support (a team)	Hincho por el equipo local.	I support the local team.	hincha = fan (PY/AR)	free-time	pres-1s	hincho
+1467	clasificarse	to qualify	Se clasificaron para la final.	They qualified for the final.		free-time	pret-3p	clasificaron
+1468	descalificar	to disqualify	Lo descalificaron por doping.	He was disqualified for doping.		free-time	pret-3p	descalificaron
+1469	eliminar	to knock out	Los eliminaron en cuartos.	They were knocked out in the quarters.		doing-handling	pret-3p	eliminaron
+1470	golear	to thrash	Nos golearon cuatro a cero.	They thrashed us four nil.		free-time	pret-3p	golearon
+1471	marcar (gol)	to score	Marcó en el último minuto.	He scored in the last minute.		phone-computer	pret-3s	marcó
+1472	atajar	to save (goalkeeping)	Atajó un penal increíble.	He made an incredible penalty save.		free-time	pret-3s	atajó
+1473	driblar	to dribble past	Dribló a tres jugadores.	He dribbled past three players.		free-time	pret-3s	dribló
+1474	rematar (fútbol)	to shoot	Remató desde afuera del área.	He shot from outside the box.		free-time	pret-3s	remató
+1475	empatarse	to be drawn	Se empató sobre la hora.	It was levelled at the death.		free-time	pret-3s	empató
+1476	prorrogarse	to go to extra time	Se prorrogó el partido.	The match went to extra time.		free-time	pret-3s	prorrogó
+1477	entrenarse para	to train for	Me entreno para una carrera.	I'm training for a race.		weather-heat	pres-1s	entreno
+1478	calentar (deporte)	to warm up	Calentaron veinte minutos.	They warmed up for twenty minutes.		cooking-kitchen	pret-3p	calentaron
+1479	lesionarse	to get injured	Se lesionó en el primer tiempo.	He got injured in the first half.		emergencies	pret-3s	lesionó
+1480	recuperarse de	to recover from	Se recuperó de la lesión.	He recovered from the injury.		body-illness-pharmacy	pret-3s	recuperó
+1481	jubilarse	to retire (sport/work)	Se jubiló a los sesenta.	He retired at sixty.		work-tasks	pret-3s	jubiló
+1482	relevar	to relieve (duty)	Lo relevaron a medianoche.	They relieved him at midnight.		work-tasks	pret-3p	relevaron
+1483	turnarse	to take turns	Nos turnamos para manejar.	We took turns driving.		directions-places	pres-1p	turnamos
+1484	alternarse	to rotate	Se alternan cada semana.	They rotate every week.		work-tasks	pres-3p	alternan
+1485	sustituirse	to be replaced	Se sustituye cada seis meses.	It's replaced every six months.		work-tasks	pres-3s	sustituye
+1486	renovarse	to be renewed	Se renueva automáticamente.	It renews automatically.		paperwork-bureaucracy	pres-3s	renueva
+1487	reciclarse	to retrain	Me reciclé en otra área.	I retrained in another field.		weather-heat	pret-1s	reciclé
+1488	especializarse	to specialise	Se especializó en derecho laboral.	He specialised in labour law.		work-tasks	pret-3s	especializó
+1489	diversificar	to diversify	Diversificaron la producción.	They diversified production.		work-tasks	pret-3p	diversificaron
+1490	expandirse	to grow (business)	Se expandieron al interior.	They expanded into the interior.	interior: outside Asunción	transport-colectivo	pret-3p	expandieron
+1491	consolidar	to consolidate	Consolidaron el negocio en dos años.	They consolidated the business in two years.		work-tasks	pret-3p	consolidaron
+1492	estancarse	to stagnate	Se estancó el proyecto.	The project stalled.		news-institutions	pret-3s	estancó
+1493	declinar	to decline	Declinó la oferta amablemente.	He politely declined the offer.		news-institutions	pret-3s	declinó
+1494	decaer	to decline / to flag	Decayó el ánimo en invierno.	Spirits flagged in winter.		change-cause	pret-3s	decayó
+1495	repuntar	to pick up	Repuntó la economía.	The economy picked up.		news-institutions	pret-3s	repuntó
+1496	recuperar	to recoup	Recuperamos lo invertido.	We recouped what we invested.		change-cause	pres-1p	recuperamos
+1497	rentabilizar	to make profitable	Rentabilizaron el local en un año.	They made the shop profitable in a year.		yes-no-maybe	pret-3p	rentabilizaron
+1498	capitalizar	to capitalise on	Capitalizaron la oportunidad.	They capitalised on the opportunity.		news-institutions	pret-3p	capitalizaron
+1499	especular	to speculate	Especulan con el precio de la tierra.	They speculate on land prices.		news-institutions	pres-3p	especulan
+1500	devaluar	to devalue	Devaluaron la moneda.	They devalued the currency.		news-institutions	pret-3p	devaluaron
+1501	inflacionar	to inflate (prices)	Se inflacionaron los alquileres.	Rents became inflated.		buying-paying	pret-3p	inflacionaron
+1502	indexar	to index-link	Indexaron los salarios.	They index-linked wages.		news-institutions	pret-3p	indexaron
+1503	cotizar	to quote (a price)	Cotizaron el trabajo en dólares.	They quoted the job in dollars.		bank-cash-credit	pret-3p	cotizaron
+1504	presupuestarse	to be budgeted	Se presupuestó mal la obra.	The works were badly budgeted.		bank-cash-credit	pret-3s	presupuestó
+1505	auditar	to audit	Auditaron las cuentas.	They audited the accounts.		news-institutions	pret-3p	auditaron
+1506	fiscalizar	to oversee	Fiscalizan el gasto público.	They oversee public spending.		news-institutions	pres-3p	fiscalizan
+1507	recaudar	to collect (revenue)	Recaudaron menos este año.	They collected less this year.		news-institutions	pret-3p	recaudaron
+1508	tributar	to pay tax	Tributan en el país de origen.	They pay tax in their home country.		bank-cash-credit	pres-3p	tributan
+1509	evadir	to evade	Evadieron impuestos durante años.	They evaded taxes for years.		news-institutions	pret-3p	evadieron
+1510	blanquear	to launder / to legalise	Blanquearon los fondos.	They laundered the funds.		news-institutions	pret-3p	blanquearon
+1511	sobornar	to bribe	Intentaron sobornar al inspector.	They tried to bribe the inspector.		news-institutions	inf	sobornar
+1512	coimear	to pay a bribe	Acá se coimea seguido.	Bribes are common here.	coima: very common PY/AR word	news-institutions	pres-3s	coimea
+1513	corromper	to corrupt	La plata corrompe rápido.	Money corrupts quickly.		news-institutions	pres-3s	corrompe
+1514	denunciarse	to be reported	Se denunció el caso en la prensa.	The case was reported in the press.		news-institutions	pret-3s	denunció
+1515	investigarse	to be investigated	Se investiga el origen del dinero.	The source of the money is under investigation.		bank-cash-credit	pres-3s	investiga
+1516	destituir	to remove from office	Destituyeron al funcionario.	They removed the official from office.		news-institutions	pret-3p	destituyeron
+1517	renunciar (cargo)	to step down	Renunció al cargo en marzo.	He stepped down from the post in March.		work-tasks	pret-3s	renunció
+1518	asumir (cargo)	to take office	Asumió el cargo en agosto.	He took office in August.		thinking-knowing	pret-3s	asumió
+1519	posesionarse	to be sworn in	Se posesionó ante el congreso.	He was sworn in before congress.		news-institutions	pret-3s	posesionó
+1520	jurar (cargo)	to be sworn in	Juró el cargo esa misma tarde.	He was sworn in that same afternoon.		news-institutions	pret-3s	juró
+1521	proclamar	to proclaim	Proclamaron los resultados.	They announced the results.		news-institutions	pret-3p	proclamaron
+1522	promulgar	to enact	Promulgaron la ley en junio.	They enacted the law in June.		news-institutions	pret-3p	promulgaron
+1523	derogar	to repeal	Derogaron la norma anterior.	They repealed the previous rule.		formal-written	pret-3p	derogaron
+1524	vetar	to veto	Vetó el proyecto de ley.	He vetoed the bill.		news-institutions	pret-3s	vetó
+1525	ratificar	to ratify	Ratificaron el acuerdo.	They ratified the agreement.		news-institutions	pret-3p	ratificaron
+1526	suscribir	to sign (an agreement)	Suscribieron el convenio.	They signed the agreement.		formal-written	pret-3p	suscribieron
+1527	adherir	to sign up to	Adhirieron al tratado.	They signed up to the treaty.		paperwork-bureaucracy	pret-3p	adhirieron
+1528	retirarse de	to withdraw from	Se retiraron del acuerdo.	They withdrew from the agreement.		work-tasks	pret-3p	retiraron
+1529	romper (relaciones)	to break off	Rompieron relaciones en los ochenta.	They broke off relations in the eighties.		fixing-breaking-power	pret-3p	rompieron
+1530	restablecer	to restore (relations)	Restablecieron relaciones el año pasado.	They restored relations last year.		daily-routine	pret-3p	restablecieron
+1531	normalizar	to normalise	Se normalizó la situación.	The situation returned to normal.		change-cause	pret-3s	normalizó
+1532	regularizar	to regularise	Regularicé mi situación migratoria.	I regularised my immigration status.		paperwork-bureaucracy	pret-1s	regularicé
+1533	formalizar	to formalise	Formalizamos el acuerdo por escrito.	We put the agreement in writing.		paperwork-bureaucracy	pres-1p	formalizamos
+1534	oficializar	to make official	Oficializaron el guaraní en el ochenta y nueve.	Guaraní was made official in eighty-nine.		news-institutions	pret-3p	oficializaron
+1535	reconocerse	to be recognised	Se reconoce como lengua oficial.	It is recognised as an official language.		paperwork-bureaucracy	pres-3s	reconoce
+1536	difundir	to spread	Difundieron la noticia rápido.	They spread the news quickly.		news-institutions	pret-3p	difundieron
+1537	divulgar	to disclose	Divulgaron los datos sin permiso.	They disclosed the data without permission.		news-institutions	pret-3p	divulgaron
+1538	propagar	to propagate	Se propagó el rumor en horas.	The rumour spread in hours.		news-institutions	pret-3s	propagó
+1539	viralizarse	to go viral	Se viralizó el video.	The video went viral.		phone-computer	pret-3s	viralizó
+1540	tendenciar	to trend	Fue tendencia todo el día.	It trended all day.	more usual: ser tendencia	phone-computer	pres-3s	tendencia
+1541	censurar	to censor	Censuraron el programa.	They censored the programme.		news-institutions	pret-3p	censuraron
+1542	silenciarse	to be silenced	Se silenció el tema por años.	The matter was hushed up for years.		news-institutions	pret-3s	silenció
+1543	desmentir	to deny (a report)	Desmintieron la versión oficial.	They denied the official version.		news-institutions	pret-3p	desmintieron
+1544	rectificar	to correct (publicly)	Rectificaron la nota al día siguiente.	They corrected the article the next day.		news-institutions	pret-3p	rectificaron
+1545	aclarar (públicamente)	to put on record	Aclaró su posición en la radio.	He clarified his position on the radio.		asking-understanding	pret-3s	aclaró
+1546	polemizar	to argue publicly	Polemizaron en los diarios.	They argued it out in the papers.		news-institutions	pret-3p	polemizaron
+1547	criticarse	to be criticised	Se criticó mucho la decisión.	The decision was heavily criticised.		conversation-opinion	pret-3s	criticó
+1548	elogiarse	to be praised	Se elogió su trabajo.	His work was praised.		family-friends	pret-3s	elogió
+1549	premiarse	to be awarded	Se premió al mejor proyecto.	The best project was given the award.		work-tasks	pret-3s	premió
+1550	nominar	to nominate	Nominaron tres candidatos.	They nominated three candidates.		news-institutions	pret-3p	nominaron
+1551	postularse	to stand (for office)	Se postuló para intendente.	He stood for mayor.		news-institutions	pret-3s	postuló
+1552	hacer campaña	to campaign	Hicieron campaña en todo el interior.	They campaigned all over the interior.	fixed expression	news-institutions	pret-3p	hicieron
+1553	militar	to be politically active	Milita desde joven.	He's been politically active since he was young.		news-institutions	pres-3s	milita
+1554	manifestarse	to demonstrate	Se manifestaron frente al congreso.	They demonstrated outside congress.		news-institutions	pret-3p	manifestaron
+1555	marchar	to march	Marcharon hasta la plaza.	They marched to the square.		news-institutions	pret-3p	marcharon
+1556	bloquear (ruta)	to blockade	Bloquearon la ruta dos días.	They blockaded the highway for two days.		phone-computer	pret-3p	bloquearon
+1557	hacer huelga	to strike	Hicieron huelga una semana.	They went on strike for a week.	huelga is the noun; the verb is hacer	news-institutions	pret-3p	hicieron
+1558	paralizar	to bring to a standstill	El paro paralizó la ciudad.	The strike brought the city to a standstill.	paro = strike	news-institutions	pret-3s	paralizó
+1559	reprimir	to repress	Reprimieron la manifestación.	They put down the demonstration.		news-institutions	pret-3p	reprimieron
+1560	dispersar	to disperse	Dispersaron a la gente.	They dispersed the crowd.		news-institutions	pret-3p	dispersaron
+1561	concentrarse (gente)	to gather	Se concentraron en la plaza.	They gathered in the square.		doing-handling	pret-3p	concentraron
+1562	congregar	to bring together	Congregó a miles de personas.	It brought together thousands of people.		doing-handling	pret-3s	congregó
+1563	aglomerarse	to crowd together	Se aglomeró la gente en la puerta.	People crowded at the door.		news-institutions	pret-3s	aglomeró
+1564	amontonarse	to pile in	Se amontonaron en el colectivo.	They piled into the bus.		transport-colectivo	pret-3p	amontonaron
+1565	apretujarse	to squeeze together	Nos apretujamos adentro.	We squeezed in together.		doing-handling	pres-1p	apretujamos
+1566	dispersarse	to scatter	Se dispersaron con la lluvia.	They scattered in the rain.		news-institutions	pret-3p	dispersaron
+1567	evacuar	to evacuate	Evacuaron el edificio.	They evacuated the building.		emergencies	pret-3p	evacuaron
+1568	desalojarse	to be cleared	Se desalojó la zona por la crecida.	The area was cleared because of the flooding.	crecida: river rise, common in PY	emergencies	pret-3s	desalojó
+1569	inundarse	to be flooded	Se inundaron los barrios bajos.	The low-lying neighbourhoods flooded.		weather-heat	pret-3p	inundaron
+1570	anegarse	to be waterlogged	Se anegó todo el patio.	The whole yard was waterlogged.		weather-heat	pret-3s	anegó
+1571	drenar	to drain	Drenaron el agua con bombas.	They pumped the water out.		weather-heat	pret-3p	drenaron
+1572	bombear	to pump	Bombean agua del pozo.	They pump water from the well.		fixing-breaking-power	pres-3p	bombean
+1573	canalizar	to channel	Canalizaron el arroyo.	They channelled the stream.		house-renting	pret-3p	canalizaron
+1574	represar	to dam	Represaron el río en los setenta.	They dammed the river in the seventies.	Itaipú context	news-institutions	pret-3p	represaron
+1575	generar (energía)	to generate	Generan energía con la represa.	They generate power with the dam.		change-cause	pres-3p	generan
+1576	abastecerse	to be supplied	Se abastece de Itaipú.	It's supplied from Itaipú.	Itaipú: PY/Brazil dam	buying-paying	pres-3s	abastece
+1577	racionar	to ration	Racionaron el agua en septiembre.	They rationed water in September.		haggling-quantities	pret-3p	racionaron
+1578	restringir	to restrict	Restringieron el consumo.	They restricted consumption.		daily-routine	pret-3p	restringieron
+1579	limitarse	to be limited	Se limita a dos horas por día.	It's limited to two hours a day.		haggling-quantities	pres-3s	limita
+1580	ampliar	to widen / to extend	Ampliaron la ruta a cuatro carriles.	They widened the highway to four lanes.		change-cause	pret-3p	ampliaron
+1581	estrechar	to narrow	Se estrecha el camino más adelante.	The road narrows further on.		change-cause	pres-3s	estrecha
+1582	pavimentar	to pave	Pavimentaron la calle recién.	They only just paved the street.		directions-places	pret-3p	pavimentaron
+1583	asfaltar	to asphalt	Asfaltaron hasta la entrada.	They asphalted up to the entrance.		directions-places	pret-3p	asfaltaron
+1584	empedrar	to cobble	Empedraron el centro histórico.	They cobbled the historic centre.		directions-places	pret-3p	empedraron
+1585	señalizar	to signpost	Señalizaron mal el desvío.	They signposted the diversion badly.		paperwork-bureaucracy	pret-3p	señalizaron
+1586	demarcar	to mark out	Demarcaron los límites del terreno.	They marked out the plot boundaries.		directions-places	pret-3p	demarcaron
+1587	medir (terreno)	to survey	Midieron el terreno con GPS.	They surveyed the plot with GPS.		haggling-quantities	pret-3p	midieron
+1588	lotear	to divide into plots	Lotearon todo el campo.	They divided the whole field into plots.		house-renting	pret-3p	lotearon
+1589	urbanizar	to develop (land)	Urbanizaron la zona en diez años.	They developed the area in ten years.		change-cause	pret-3p	urbanizaron
+1590	poblar	to populate	Poblaron la región hace siglos.	They settled the region centuries ago.		news-institutions	pret-3p	poblaron
+1591	despoblarse	to become depopulated	Se despobló el pueblo.	The village emptied out.		news-institutions	pret-3s	despobló
+1592	migrar	to migrate	Migran a la capital por trabajo.	They migrate to the capital for work.		cooking-kitchen	pres-3p	migran
+1593	asentarse	to settle	Se asentaron cerca del río.	They settled near the river.		house-renting	pret-3p	asentaron
+1594	colonizar	to colonise	Colonizaron la zona en el siglo diecinueve.	They colonised the area in the nineteenth century.		news-institutions	pret-3p	colonizaron
+1595	evangelizar	to evangelise	Los jesuitas evangelizaron la región.	The Jesuits evangelised the region.	PY Jesuit missions	family-friends	pret-3p	evangelizaron
+1596	catequizar	to teach catechism	Catequizan a los chicos los sábados.	They teach the children catechism on Saturdays.		family-friends	pres-3p	catequizan
+1597	bautizar	to baptise	Lo bautizaron en la iglesia del pueblo.	He was baptised in the village church.		family-friends	pret-3p	bautizaron
+1598	confirmar (sacramento)	to confirm	Se confirmó a los quince.	She was confirmed at fifteen.		arranging-to-meet	pret-3s	confirmó
+1599	casarse por iglesia	to marry in church	Se casaron por iglesia y por civil.	They married in church and at the registry.		family-friends	pret-3p	casaron
+1600	velar	to hold a wake	Lo velaron toda la noche.	They held a wake for him all night.		family-friends	pret-3p	velaron
