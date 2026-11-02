@@ -39,7 +39,8 @@ LEVELS = ['A1', 'A2', 'B1']          # B2/C1 slots reserved, not yet filled
 # LAST stressable vowel of the stem. Unpredictable from spelling - curated.
 STEM = {
     'ie': """acertar acordarse_X advertir alentar apretar arrendar ascender
-        atender atravesar calentar cegar cerrar comenzar concertar confesar
+        adherir adherirse arrepentirse atender atravesar calentar cegar cerrar
+        comenzar concertar confesar sosegar tener venir
         consentir convertir defender descender despertar despertarse divertir
         divertirse empezar encender encerrar encomendar entender enterrar
         extender fregar gobernar helar herir hervir invertir manifestar mentir
@@ -52,8 +53,9 @@ STEM = {
         doler dormir encontrar envolver esforzarse forzar llover moler morder
         morir mostrar mover poblar poder probar promover recordar remover
         renovar resolver resonar revolver rodar rogar soler soltar sonar soñar
-        tostar tronar volar volcar volver""",
-    'i': """competir concebir conseguir corregir derretir despedir despedirse
+        tostar tronar volar volcar volver oler""",
+    'i': """decir regir rendir rendirse competir concebir conseguir corregir
+        derretir despedir despedirse
         elegir freír gemir impedir medir pedir perseguir reír reñir repetir
         seguir servir sonreír teñir vestir vestirse""",
     'ue-u': 'jugar',
@@ -82,7 +84,8 @@ IRREG = {
     'estar': dict(pres=['estoy', 'estás', 'estás', 'está', 'estamos', 'están'],
                   pret_stem='estuv', subj=['esté', 'estés', 'estés', 'esté', 'estemos', 'estén']),
     'haber': dict(pres=['he', 'has', 'has', 'ha', 'hemos', 'han'],
-                  pret_stem='hub', fut_stem='habr', subj_stem='hay', cmd=''),
+                  pret_stem='hub', fut_stem='habr', subj_stem='hay', cmd='',
+                  extra={'impersonal': 'hay'}),
     'ir': dict(pres=['voy', 'vas', 'vas', 'va', 'vamos', 'van'],
                pret=['fui', 'fuiste', 'fue', 'fuimos', 'fueron'],
                imperf=['iba', 'ibas', 'iba', 'íbamos', 'iban'],
@@ -130,7 +133,12 @@ IRREG = {
 
 # Prefixed verbs that do NOT inherit their base verb's irregularity.
 NO_INHERIT = {'compensar', 'contestar', 'prestar', 'molestar', 'protestar',
-              'repasar', 'traspasar', 'retomar', 'contratar', 'exterminar'}
+              'repasar', 'traspasar', 'retomar', 'contratar', 'exterminar',
+              # look derived from a stem-changer but are regular. Note that
+              # presentir IS e->ie: presiento (I sense) against presento
+              # (I present) is a real pair, not a bug.
+              'presentar', 'presentarse', 'representar', 'intentar',
+              'pretender', 'conjugar', 'derogar', 'derogarse'}
 # Prefixed verbs that inherit some of it but keep a regular future.
 REGULAR_FUTURE = {'predecir', 'bendecir', 'maldecir'}
 # bendecir/maldecir keep a regular participle in modern use: bendecido, not
@@ -159,16 +167,21 @@ def accent_syllable(word, target):
     return word[:i] + ACCENT.get(word[i], word[i]) + word[i + 1:]
 
 
-def base_of(inf, known):
-    """The verb `inf` is derived from, if any: detener -> tener."""
+def base_of(inf, known, _depth=0):
+    """The verb `inf` is derived from, if any: detener -> tener. Strips
+    repeatedly, so indisponer finds poner through disponer."""
     for p in ('des', 'contra', 'entre', 'sobre', 'ante', 'tras', 'super',
               'con', 'com', 'pre', 'pro', 'per', 'pos', 'sos', 'sub', 'su', 'son',
-              'ben', 'mal',
+              'ben', 'mal', 'dis', 'abs',
               're', 'de', 'ob', 'ex', 'en', 'in', 'im', 'a', 'man', 'co'):
         if inf.startswith(p) and len(inf) > len(p) + 3:
             cand = inf[len(p):]
             if cand in known:
                 return p, cand
+            if _depth < 2:
+                p2, base = base_of(cand, known, _depth + 1)
+                if base:
+                    return p + p2, base
     return None, None
 
 
@@ -186,6 +199,10 @@ class Verb:
         self.ir = self.ending in ('ir', 'ír')
         self.irr = self._irregular()
         self.change = STEM_OF.get(self.inf) or STEM_OF.get(inf)
+        if not self.change and self.inf not in NO_INHERIT:
+            _, _base = base_of(self.inf, STEM_OF)
+            if _base:
+                self.change = STEM_OF[_base]
         if not self.change and (
                 self.inf in ACCENT_IAR or self.inf in ACCENT_OTHER
                 or (self.inf.endswith('uar') and not self.inf.endswith('guar'))):
@@ -202,7 +219,9 @@ class Verb:
         d = {}
         for k, v in IRREG[base].items():
             if isinstance(v, str):
-                d[k] = pre + v if k.endswith('stem') or k in ('yo', 'part', 'ger', 'cmd') else v
+                d[k] = (pre + v if k.endswith('stem')
+                        or k in ('yo', 'part', 'ger', 'cmd', 'pret_3s', 'pret_3p')
+                        else v)
             elif isinstance(v, list):
                 d[k] = [pre + x for x in v]
         if self.inf in REGULAR_FUTURE:
@@ -233,6 +252,12 @@ class Verb:
         if ch == 'accent':
             return self.stem[:i] + ACCENT[v] + self.stem[i + 1:]
         return self.stem
+
+    def _h_rule(self, s):
+        return 'h' + s if s.startswith('ue') else s
+
+    def stressed(self):
+        return self._h_rule(self.stressed_stem())
 
     def weak_stem(self):
         """-ir verbs raise e->i / o->u in the gerund and 3rd preterite."""
@@ -267,14 +292,14 @@ class Verb:
         return s
 
     def yo_stem(self):
-        return self.spell(self.stressed_stem())
+        return self.spell(self.stressed())
 
     def subj_stem(self, stressed):
         """Subjunctive stem. Unstressed - the vos ending carries the stress -
         means -ar/-er verbs drop their stem change and -ir verbs weaken it:
         no pensés, no volvás, but no pidás and no durmás."""
         if stressed:
-            return self.spell(self.stressed_stem(), self.ar)
+            return self.spell(self.stressed(), self.ar)
         return self.spell(self.weak_stem() if self.ir else self.stem, self.ar)
 
     # ---- forms -------------------------------------------------------
@@ -286,7 +311,7 @@ class Verb:
         e = (['o', 'ás', 'as', 'a', 'amos', 'an'] if self.ar else
              ['o', 'és', 'es', 'e', 'emos', 'en'] if self.er else
              ['o', 'ís', 'es', 'e', 'imos', 'en'])
-        st, un = self.stressed_stem(), self.stem
+        st, un = self.stressed(), self.stem
         yo = self.irr.get('yo') or self.yo_stem() + e[0]
         ystem = self.yo_stem() if self.inf.endswith('uir') and not self.inf.endswith(('guir', 'quir')) else st
         f = [yo, un + e[1], ystem + e[2], ystem + e[3], un + e[4], ystem + e[5]]
@@ -444,3 +469,131 @@ def pattern_of(inf):
     if v.change:
         return {'ie': 'pensar', 'ue': 'volver', 'i': 'pedir'}[v.change]
     return 'hablar' if v.ar else 'comer' if v.er else 'vivir'
+
+
+# ---------------------------------------------------------------------------
+# Full paradigms. The app displays 16 slots; identifying which form a sentence
+# actually uses needs every person of every tense.
+# ---------------------------------------------------------------------------
+
+PERSONS = ['1s', '2s', '2s-tu', '3s', '1p', '3p']
+# Irregular tú imperatives. Every other verb's is its 3s present, and every
+# vos imperative is regular, which is one of voseo's small mercies.
+CMD_TU = {'tener': 'ten', 'venir': 'ven', 'poner': 'pon', 'salir': 'sal',
+          'hacer': 'haz', 'decir': 'di', 'ser': 'sé', 'ir': 've', 'ver': 've',
+          'dar': 'da', 'estar': 'está', 'saber': 'sabe'}
+
+
+def _expand5(a):
+    """[1s, 2s, 3s, 1p, 3p] -> the six-person shape (vos takes the tú form)."""
+    return [a[0], a[1], a[1], a[2], a[3], a[4]]
+
+
+class _Para:
+    """Full paradigm for a simple (single-word, non-reflexive) infinitive."""
+
+    def __init__(self, v):
+        self.v = v
+
+    def present(self):
+        return self.v.present()
+
+    def preterite(self):
+        v, irr = self.v, self.v.irr
+        if 'pret' in irr:
+            return _expand5(irr['pret'])
+        strong = irr.get('pret_stem') or v.ducir_stem()
+        if strong:
+            f = [strong + 'e', strong + 'iste', strong + 'iste', strong + 'o',
+                 strong + 'imos', strong + ('eron' if strong.endswith('j') else 'ieron')]
+        elif v.ar:
+            st = v.stem
+            f = [v.spell(st, True) + 'é', st + 'aste', st + 'aste', st + 'ó',
+                 st + 'amos', st + 'aron']
+        else:
+            st, w = v.stem, v.weak_stem()
+            # a vowel before the ending turns i into y: leyó, construyó, oyó
+            y = (st and st[-1] in 'aeiou'
+                 and not v.inf.endswith(('guir', 'quir', 'ñir', 'llir')))
+            h = 'í' if (st and st[-1] in 'aeo') else 'i'   # hiatus accent
+            f = [st + 'í', st + h + 'ste', st + h + 'ste',
+                 w + ('yó' if y else 'ió'), st + h + 'mos',
+                 w + ('yeron' if y else 'ieron')]
+        for k, i in (('pret_3s', 3), ('pret_3p', 5)):
+            if k in irr:
+                f[i] = irr[k]
+        return f
+
+    def imperfect(self):
+        v, irr = self.v, self.v.irr
+        if 'imperf' in irr:
+            return _expand5(irr['imperf'])
+        if v.ar:
+            e = ['aba', 'abas', 'abas', 'aba', 'ábamos', 'aban']
+        else:
+            e = ['ía', 'ías', 'ías', 'ía', 'íamos', 'ían']
+        return [v.stem + x for x in e]
+
+    def future(self):
+        st = self.v.future_stem()
+        return [st + x for x in ('é', 'ás', 'ás', 'á', 'emos', 'án')]
+
+    def conditional(self):
+        st = self.v.future_stem()
+        return [st + x for x in ('ía', 'ías', 'ías', 'ía', 'íamos', 'ían')]
+
+    def subjunctive(self):
+        v, irr = self.v, self.v.irr
+        if 'subj' in irr and len(irr['subj']) == 6:
+            return list(irr['subj'])
+        one = v.subjunctive_1s()
+        base = one[:-1]
+        weak = v.subj_stem(False)
+        e = 'e' if v.ar else 'a'
+        # the stem change survives where the stem is stressed, and 1p is not
+        return [one, base + e + 's', base + e + 's', one,
+                weak + e + 'mos', base + e + 'n']
+
+    def subjunctive_voseo(self):
+        """no hablés / que vos hablés - the spoken Rioplatense variant."""
+        return self.v.command_vos_negative_voseo()
+
+    def subjunctive_imperfect(self):
+        st = self.preterite()[5]
+        if st.endswith('ron'):
+            st = st[:-3]
+        out = [st + x for x in ('ra', 'ras', 'ras', 'ra', 'ramos', 'ran')]
+        i = _last_vowel_index(st)
+        if i >= 0:
+            out[4] = accent_syllable(st, i) + 'ramos'
+        return out
+
+    def imperatives(self):
+        v = self.v
+        return {'cmd-vos': v.command_vos(),
+                'cmd-tu': CMD_TU.get(v.inf) or self.present()[3],
+                'cmd-ud': self.subjunctive()[3],
+                'cmd-uds': self.subjunctive()[5]}
+
+
+def paradigm(inf):
+    """Every form of one verb, as {label: form}. Labels are tense-person,
+    e.g. pres-3s, pret-1p, plus the non-finite and imperative forms."""
+    if ' ' in inf.strip():
+        head, _, tail = inf.strip().partition(' ')
+        return {k: f'{x} {tail}' for k, x in paradigm(head).items() if x}
+    v = Verb(inf)
+    p = _Para(v)
+    out = {}
+    for tense, vals in (('pres', p.present()), ('pret', p.preterite()),
+                        ('imperf', p.imperfect()), ('fut', p.future()),
+                        ('cond', p.conditional()), ('subj', p.subjunctive()),
+                        ('subjimp', p.subjunctive_imperfect())):
+        for person, form in zip(PERSONS, vals):
+            out[f'{tense}-{person}'] = form
+    out.update(p.imperatives())
+    out.update(v.irr.get('extra') or {})
+    out['subj-2s-voseo'] = p.subjunctive_voseo()
+    out['ger'] = v.gerund()
+    out['part'] = v.participle()
+    return {k: x for k, x in out.items() if x}
