@@ -596,9 +596,12 @@ async function downloadPack(meta, btn){
   btn.disabled=true; const label=btn.textContent;
   try{
     btn.textContent='…';
+    // ?v carries a hash of the pack's index, so a corrected pack is a new URL
+    // and the year-long immutable cache on /audio/* stays safe.
+    const v = meta.v ? `?v=${encodeURIComponent(meta.v)}` : '';
     const [mp3, idx] = await Promise.all([
-      fetch(`audio/${meta.stem}.mp3`).then(r=>{ if(!r.ok) throw new Error(r.status); return r.blob(); }),
-      fetch(`audio/${meta.stem}.json`).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+      fetch(`audio/${meta.stem}.mp3${v}`).then(r=>{ if(!r.ok) throw new Error(r.status); return r.blob(); }),
+      fetch(`audio/${meta.stem}.json${v}`).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
     ]);
     const rec = {meta, blob:mp3, index:idx, savedAt:Date.now()};
     await idbPut(meta.stem, rec);
@@ -624,15 +627,17 @@ function renderPacks(){
       h.className = 'picksec'; h.textContent = sec;
       box.appendChild(h);
     }
-    const has = !!saved[m.stem];
+    const rec = saved[m.stem];
+    const has = !!rec;
+    const outdated = has && m.v && rec.meta && rec.meta.v && rec.meta.v !== m.v;
     const row=document.createElement('div'); row.className='packrow';
     const name = m.title || (m.kind === 'tables' ? 'Basics tables' : m.stem);
     row.innerHTML=`<div class="pname">${name}
         <div class="psize">${Math.round((m.duration||0)/60)} min${m.mb?` · ${m.mb} MB`:''}</div></div>`;
     const b=document.createElement('button');
-    b.textContent = has ? '✓ Saved' : 'Download';
-    if(has) b.className='saved';
-    b.onclick = () => { if(!has) downloadPack(m, b); };
+    b.textContent = outdated ? 'Update' : has ? '✓ Saved' : 'Download';
+    if(has && !outdated) b.className='saved';
+    b.onclick = () => { if(!has || outdated) downloadPack(m, b); };
     row.appendChild(b); box.appendChild(row);
   });
   const stale = stalePacks();

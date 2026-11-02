@@ -167,6 +167,13 @@ if edges:
 # packs.json: what the app offers for offline download, built from whatever
 # tracks have actually been generated into dist/audio/.
 adir = os.path.join(DIST, 'audio')
+def pack_version(json_path):
+    """Short hash of the pack's index. The mp3 and its index are always
+    regenerated together, so this changes exactly when the audio does - which
+    is what lets the URL carry it and the cache stay immutable."""
+    return hashlib.sha1(open(json_path, 'rb').read()).hexdigest()[:8]
+
+
 packs = []
 order = {t['slug']: i for i, t in enumerate(topics)}
 tfiles = sorted(glob.glob(os.path.join(adir, 'topic_*.json')),
@@ -179,7 +186,7 @@ for jf in tfiles:
         continue
     packs.append({'stem': meta['stem'], 'topic': meta['topic'],
                   'title': meta['title'], 'section': meta.get('section', ''),
-                  'duration': meta['duration'],
+                  'duration': meta['duration'], 'v': pack_version(jf),
                   'mb': round(os.path.getsize(mp3) / 1e6, 1)})
 
 cj = os.path.join(adir, 'conj.json')
@@ -187,7 +194,7 @@ cm = os.path.join(adir, 'conj.mp3')
 if os.path.exists(cj) and os.path.exists(cm):
     meta = json.load(open(cj, encoding='utf-8'))
     packs.append({'stem': 'conj', 'kind': 'conj', 'title': 'Conjugation forms',
-                  'section': 'Reference',
+                  'section': 'Reference', 'v': pack_version(cj),
                   'duration': meta['duration'],
                   'mb': round(os.path.getsize(cm) / 1e6, 1)})
 
@@ -196,7 +203,7 @@ tm = os.path.join(adir, 'tables.mp3')
 if os.path.exists(tj) and os.path.exists(tm):
     meta = json.load(open(tj, encoding='utf-8'))
     packs.append({'stem': 'tables', 'kind': 'tables', 'title': 'Basics tables',
-                  'section': 'Reference',
+                  'section': 'Reference', 'v': pack_version(tj),
                   'duration': meta['duration'],
                   'mb': round(os.path.getsize(tm) / 1e6, 1)})
 if packs:
