@@ -146,6 +146,14 @@ for name in ('sw.js', 'manifest.webmanifest', 'icon.svg'):
     else:
         shutil.copy2(src, os.path.join(DIST, name))
 
+# A one-line stamp the deployed site can be asked for. Without it there is no
+# way to tell from outside whether what is live matches the repo - a CDN will
+# happily serve a cached response that looks exactly like a fresh one.
+# Deterministic: it is a hash of the page, so rebuilding unchanged input
+# rewrites the same bytes rather than dirtying the tree.
+with open(os.path.join(DIST, 'build.json'), 'w') as fh:
+    json.dump({'build': build_id}, fh)
+
 # Android's install prompt wants raster icons; the SVG alone isn't reliably enough.
 svg = os.path.join(DIST, 'icon.svg')
 if os.path.exists(svg) and shutil.which('rsvg-convert'):

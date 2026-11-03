@@ -109,6 +109,18 @@ suite('delivery', async () => {
     check(`GET ${path} -> 200`, r.status === 200, `got ${r.status}`);
     if (type) check(`GET ${path} content-type ~ ${type}`, ct.includes(type), `got ${ct}`);
   }
+  // what is actually deployed, which a CDN response otherwise hides
+  const stamp = await fetch(BASE + '/build.json?cb=' + Date.now())
+    .then(r => r.ok ? r.json() : null).catch(() => null);
+  check('build.json is served', !!stamp && !!stamp.build, JSON.stringify(stamp));
+  if (stamp) {
+    const sw = await fetch(BASE + '/sw.js?cb=' + Date.now()).then(r => r.text());
+    const inSw = (sw.match(/BUILD\s*=\s*'([0-9a-f]+)'/) || [])[1];
+    check('deployed page and service worker are from the same build',
+      inSw === stamp.build, `build.json ${stamp.build}, sw.js ${inSw}`);
+    console.log(`         deployed build: ${stamp.build}`);
+  }
+
   // the manifest's type is its own case: browsers want manifest+json
   const m = await fetch(BASE + '/manifest.webmanifest');
   const mct = m.headers.get('content-type') || '';

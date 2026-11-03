@@ -38,6 +38,13 @@
   [headers.values]
     Cache-Control = "no-cache"
 
+# The deploy stamp exists to be asked "what is live". A cached answer to that
+# question is worse than no answer.
+[[headers]]
+  for = "/build.json"
+  [headers.values]
+    Cache-Control = "no-store"
+
 # Served as application/octet-stream by default, and some browsers refuse to
 # install the PWA unless the manifest carries its own type.
 [[headers]]
