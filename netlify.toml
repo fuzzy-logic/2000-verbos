@@ -44,6 +44,7 @@
   for = "/build.json"
   [headers.values]
     Cache-Control = "no-store"
+    X-Config-Probe = "v1"
 
 # Served as application/octet-stream by default, and some browsers refuse to
 # install the PWA unless the manifest carries its own type.
