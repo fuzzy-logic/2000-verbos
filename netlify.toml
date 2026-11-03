@@ -32,3 +32,15 @@
   for = "/edges.json"
   [headers.values]
     Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/pron.json"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# Served as application/octet-stream by default, and some browsers refuse to
+# install the PWA unless the manifest carries its own type.
+[[headers]]
+  for = "/manifest.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"
