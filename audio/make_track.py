@@ -214,11 +214,15 @@ async def build_topic(a, slug, meta, rows):
             fh.write("file '" + p.replace("'", r"'\''") + "'\n")
 
     out = os.path.join(a.outdir, stem + '.mp3')
-    # VBR, not CBR: about two thirds of this track is deliberate silence, which at a
-    # constant bitrate costs exactly as much to store as speech. VBR makes it nearly free.
+    # Stream copy, not re-encode. The parts are already mono 24kHz VBR mp3 - the
+    # clips at q6, the silences at q9, which is why two thirds of the track being
+    # deliberate silence costs almost nothing. Re-encoding would decode them
+    # first, and the decoder honours the LAME gapless tags, dropping a frame per
+    # input (0.048s at 24kHz). On ffmpeg 6.1 that put the index minutes out over
+    # a long track. Copying keeps the offsets exact and the audio first-generation.
     subprocess.run(
         ['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', listfile,
-         '-c:a', 'libmp3lame', '-q:a', '6', '-ar', '24000', '-ac', '1',
+         '-c', 'copy',
          '-metadata', f'title={meta["title"]}',
          '-metadata', 'artist=2000 Verbos', out],
         check=True)

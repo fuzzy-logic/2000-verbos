@@ -136,8 +136,13 @@ async def main():
         for p in seq:
             fh.write("file '" + p.replace("'", r"'\''") + "'\n")
     out = os.path.join(a.outdir, 'conj.mp3')
+    # Stream copy, not re-encode. Re-encoding decodes each input first, and the
+    # decoder honours the LAME gapless tags, dropping a frame per file - 0.048s
+    # at 24kHz, which over 12,798 inputs came to twelve minutes of index drift.
+    # Copying concatenates the frames untouched, so the offsets are exact, the
+    # audio keeps its first generation, and the join takes seconds.
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', listfile,
-                    '-c:a', 'libmp3lame', '-q:a', '6', '-ar', '24000', '-ac', '1',
+                    '-c', 'copy',
                     '-metadata', 'title=Conjugation forms', '-metadata', 'artist=2000 Verbos', out],
                    check=True)
     os.remove(listfile)
