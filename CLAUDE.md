@@ -1,26 +1,36 @@
 # Notes for Claude
 
-## Resuming the conjugation audio pack
+## Building an audio pack
 
-The one outstanding build. Renders all 6,399 forms in `data/conjugations.tsv`
-(6,325 distinct strings) into `dist/audio/conj.mp3` plus a `verb|slot` seek
-index in `conj.json`. The app already reads it — `playForm()` in
-`src/template.html` falls back to the device voice when it isn't downloaded.
+All 34 packs are built and committed: 33 topic tracks and `conj.mp3` (every
+one of the 6,399 forms in `data/conjugations.tsv`, 116 min, 29 MB, with a
+`verb|slot` seek index). **Do not rebuild them** without a reason — each is
+hours of synthesis.
 
 ```sh
 .venv/bin/python3 audio/make_conj_track.py --concurrency 10   # ~35 min from cold
 python3 build.py
-git add dist/audio/conj.mp3 dist/audio/conj.json && git commit && git push
 ```
 
 Safe to re-run: clips are cached by `sha1(voice|rate|text)`. Delete any
 `audio/clips/*.part` first if a run was interrupted.
 
-**`audio/clips/` does not travel.** It is gitignored and container-local
-(~146 MB when full). A fresh container re-synthesises every clip. As of the
-last run, 2,995 of 6,325 were cached in the then-current container.
+### Concatenate by stream copy, never by re-encode
 
-Do NOT rebuild the 33 topic packs — they are already built and committed.
+`-c copy`, which is what both builders now do. Re-encoding on concat decodes
+each input first, and the decoder honours the LAME gapless tags, so **every
+input loses one frame** — 0.048s at 24 kHz. Over the 12,798 clips and gaps in
+conj.mp3 that was 757 seconds of index drift, and the seek index was useless.
+
+The 33 topic packs do not show this because they were built on a machine
+whose ffmpeg did not trim. On ffmpeg 6.1 the same script drifts. If a drift
+figure comes out large and negative, this is why.
+
+Stream copy also keeps the audio first-generation and joins in seconds. The
+Xing header survives it, so browsers still seek accurately.
+
+**`audio/clips/` does not travel.** It is gitignored and container-local
+(~146 MB when full). A fresh container re-synthesises every clip.
 
 ### Prerequisites that have each cost an hour
 
@@ -64,15 +74,16 @@ python3 build.py              # fails loudly on broken references
 - Netlify deploys from `master`; keep the working branch fast-forwarded into
   it or the site does not update.
 - `dist/audio` is tracked in git because Netlify serves it from the repo.
-  `.git` is ~216 MB and growing. The user has agreed to a shrink (history
-  rewrite, or moving the audio off the repo) as a later piece of work.
+  `.git` is ~240 MB. The user has agreed to a shrink (history rewrite, or
+  moving the audio off the repo) as a later piece of work.
 - Never commit `PLAN.local.md` — gitignored, holds personal details.
 
 ## Still open
 
 - Repo shrink, as above.
-- "Wander" mode: a study mode where a card offers three sideways jumps
-  instead of next/prev, keeping the trail. `jumpToVerb()` is the primitive
-  and the edges exist.
 - Family trees: small radial SVGs for the ~20 prefix families with 3+ members
   (tener -> mantener/detener/retener/sostener), which share a conjugation.
+- More hand-written edges. `data/edges-manual.tsv` has 116 pairs; the graph is
+  still thin, and Wander tops up from the same topic because only 179 of 1,919
+  verbs have three real links. Every pair added there is a door that means
+  something. `build.py` fails loudly if either end is not in the corpus.
