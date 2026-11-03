@@ -87,6 +87,35 @@ parallel shards to stay fast, or trace/video capture on failure. Then move to
 - **iOS Safari.** The PWA install path and audio behaviour differ there and are
   not covered by Chromium.
 
+## What testing the live site taught us
+
+**You cannot see a header change take effect.** Netlify's CDN stores a
+response's headers against the body's ETag. A header-only config change leaves
+that ETag untouched, so revalidation returns 304 and the *stored* headers keep
+being served — indefinitely, for a file whose body never changes. Four deploys
+and a deliberate probe header confirmed it: file content went live in 30
+seconds every time while headers never moved.
+
+Consequences worth remembering:
+
+- A `Content-Type` override in `netlify.toml` is not a reliable fix. The
+  manifest is served from `manifest.json` instead, which gets
+  `application/json` from Netlify's own MIME map. A new path is a new cache
+  entry with no stored headers to go stale.
+- `pron.json` and `build.json` still answer with Netlify's default
+  `public, max-age=0, must-revalidate` rather than the `no-cache` and
+  `no-store` in the config. This is not worth chasing: both force
+  revalidation before use, so the behaviour is already what the rule asks
+  for, and the explicit header will appear the next time either body changes.
+- Query-string cache busters do not help — the CDN ignores them — and neither
+  does a `Cache-Control: no-cache` request header.
+
+**A deployed site needs to be able to say what it is.** Without
+`dist/build.json` there was no way to tell a fresh response from a cached one
+that looked identical, which made "has the fix deployed?" unanswerable. The
+suite now reports the deployed build and checks the page and service worker
+came from the same one.
+
 ## Next
 
 1. Run `--base http://localhost:8137` before every push, as a pre-deploy gate.

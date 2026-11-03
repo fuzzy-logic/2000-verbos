@@ -78,7 +78,7 @@ node test/site.mjs --base http://localhost:8137   # before pushing
 node test/site.mjs                                # the live deploy
 ```
 
-133 checks over 14 suites; `--only <suite>` narrows it, `--headed` shows it.
+136 checks over 14 suites; `--only <suite>` narrows it, `--headed` shows it.
 See TEST-PLAN.md for what it covers and what it deliberately does not.
 
 `lib/pron.py` is the only respeller — it feeds the Forms panel, the Verbs tab
