@@ -70,6 +70,17 @@ python3 -I lib/check_extra.py
 python3 build.py              # fails loudly on broken references
 ```
 
+And the browser suite, which drives the built site in Chromium:
+
+```sh
+cd dist && python3 -m http.server 8137 &
+node test/site.mjs --base http://localhost:8137   # before pushing
+node test/site.mjs                                # the live deploy
+```
+
+133 checks over 14 suites; `--only <suite>` narrows it, `--headed` shows it.
+See TEST-PLAN.md for what it covers and what it deliberately does not.
+
 `lib/pron.py` is the only respeller — it feeds the Forms panel, the Verbs tab
 and, via `dist/pron.json`, every card. Do not add a JavaScript copy of the
 rules; the page reads the generated file. `say()` always marks the stress;
