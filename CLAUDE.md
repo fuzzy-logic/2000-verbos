@@ -65,9 +65,15 @@ twice now.
 
 ```sh
 python3 -I lib/test_conjugate.py
+python3 -I lib/test_pron.py
 python3 -I lib/check_extra.py
 python3 build.py              # fails loudly on broken references
 ```
+
+`lib/pron.py` is the only respeller — it feeds the Forms panel, the Verbs tab
+and, via `dist/pron.json`, every card. Do not add a JavaScript copy of the
+rules; the page reads the generated file. `say()` always marks the stress;
+`sentence()` is the one that leaves grammatical and one-syllable words alone.
 
 ## Repo conventions
 
