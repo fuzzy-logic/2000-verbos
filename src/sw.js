@@ -11,7 +11,7 @@ const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
 // card panel. They are cached best-effort: addAll rejects atomically, so a
 // missing data file would otherwise fail the whole install and silently lose
 // offline support for the page itself.
-const DATA = ['./conjugations.json', './edges.json'];
+const DATA = ['./conjugations.json', './edges.json', './pron.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(

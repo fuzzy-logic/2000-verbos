@@ -9,8 +9,10 @@ import re
 import unicodedata
 
 STRONG = set('aeoáéó')
-WEAK = set('iu')
-WEAK_ACC = set('íúü')
+WEAK = set('iuü')
+# an accent on a weak vowel breaks the diphthong (te-ní-a). The dieresis does
+# not: it only cancels the silence of u after g, leaving an ordinary glide.
+WEAK_ACC = set('íú')
 VOWELS = STRONG | WEAK | WEAK_ACC
 ACCENTED = set('áéíóú')
 # consonant + l/r that never splits across a syllable boundary
@@ -30,7 +32,7 @@ def nuclei(word):
         if word[i] not in VOWELS:
             i += 1
             continue
-        if word[i] in 'uü' and i > 0 and word[i - 1] in 'qg':
+        if word[i] == 'u' and i > 0 and word[i - 1] in 'qg':
             i += 1                       # silent or glided: que, gui, gua
             continue
         j = i + 1
@@ -136,9 +138,28 @@ def _coda(coda):
                    for c in coda).replace('ks', 'ks')
 
 
+# Guaraní, not Spanish. Its vowels and the glottal stop do not exist in
+# Spanish orthography, and Spanish rules mangle the words that carry them
+# (Iporã, Mba'éichapa). Left exactly as written.
+GUARANI = set('ãẽĩõũỹ') | set("'’ʼ")
+# x between vowels is [ks] and splits across the syllable break: ek-SAH-men,
+# not eh-KSAH-men. Rewriting it before syllabifying gets the break right.
+_XV = re.compile(r'(?<=[aeiouáéíóú])x(?=[aeiouáéíóú])')
+# Mexican x is an h-sound. Respelling it as j routes it through the normal map.
+MEX = {'méxico': 'méjico', 'mexico': 'méjico', 'mexicano': 'mejicano',
+       'mexicana': 'mejicana', 'mexicanos': 'mejicanos', 'mexicanas': 'mejicanas'}
+
+
 def say(word, stressed=True):
     """Respell one word. stressed=False renders it without emphasis."""
     w = word.lower()
+    if any(c in GUARANI for c in w):
+        return word
+    # the conjunction y is the vowel [i]; y is not in the vowel table
+    if w == 'y':
+        return 'ee' if stressed else 'ee'
+    w = MEX.get(w, w)
+    w = _XV.sub('ks', w)
     if not any(c in VOWELS for c in w):
         return w
     syls = syllables(w)
@@ -183,3 +204,46 @@ def phrase(text):
     # in a multi-word form the last word carries the phrase stress
     return ' '.join(say(w, stressed=(i == len(words) - 1))
                     for i, w in enumerate(words))
+
+
+# Grammatical words, which lean on the word beside them instead of carrying a
+# stress of their own. Accents keep the pairs apart by themselves: el/él,
+# que/qué, si/sí, tu/tú, mi/mí, se/sé, de/dé, mas/más - only the unaccented
+# member is listed, so the accented one stays stressed.
+UNSTRESSED = {
+    'el', 'la', 'los', 'las', 'lo', 'un', 'una', 'unos', 'unas', 'al', 'del',
+    'a', 'ante', 'bajo', 'con', 'contra', 'de', 'desde', 'durante', 'en',
+    'entre', 'hacia', 'hasta', 'para', 'por', 'según', 'sin', 'sobre', 'tras',
+    'y', 'e', 'o', 'u', 'ni', 'que', 'si', 'como', 'cuando', 'donde', 'porque',
+    'aunque', 'mientras', 'pues',
+    'me', 'te', 'se', 'nos', 'os', 'le', 'les',
+    'mi', 'mis', 'tu', 'tus', 'su', 'sus', 'nuestro', 'nuestra', 'cada',
+}
+WORD_RE = re.compile(r"[^\W\d_]+(?:['’ʼ][^\W\d_]+)*", re.UNICODE)
+
+
+def sentence(text):
+    """Respell a whole sentence, keeping its punctuation where it was.
+
+    Three things separate this from phrase(), which exists for conjugated
+    forms and is wrong for prose:
+
+    - Punctuation is held aside rather than carried into the word. phrase()
+      splits on whitespace, so the token is «punto.», which ends in a
+      consonant and therefore takes final stress by rule - pun-TO, not
+      PUN-toh.
+    - Every word gets its own stress, not only the last one.
+    - Grammatical words, and every word of one syllable, are left unmarked.
+      The capitals say WHICH syllable is stressed, so on a word that has only
+      one they add nothing and cost a lot of quiet.
+    """
+    out, last = [], 0
+    for m in WORD_RE.finditer(text):
+        out.append(text[last:m.start()])
+        w = m.group(0)
+        lower = w.lower()
+        mark = lower not in UNSTRESSED and len(syllables(lower)) > 1
+        out.append(say(w, stressed=mark))
+        last = m.end()
+    out.append(text[last:])
+    return ''.join(out)

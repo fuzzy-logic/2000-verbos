@@ -164,6 +164,23 @@ if edges:
     json.dump(edges, open(os.path.join(DIST, 'edges.json'), 'w'),
               separators=(',', ':'), ensure_ascii=False)
 
+# ---- pronunciation (the respelling under every Spanish line) ----
+# Generated here from lib/pron.py rather than in the page: one implementation
+# behind one test gate, instead of a Python original and a JavaScript twin
+# that drift apart without anyone noticing.
+from pron import sentence as respell                    # noqa: E402
+# Genuine Guarani. Spanish rules mangle it, and the table itself says how it
+# sounds, so it is left alone.
+PRON_SKIP = {'jopara-guarani'}
+pron = {
+    's': {r['k']: respell(r['s']) for r in rows},
+    'v': {v: respell(v) for v in sorted({r['v'] for r in rows})},
+    't': {tr['i']: respell(tr['s']) for t in tables
+          if t['slug'] not in PRON_SKIP for tr in t['rows']},
+}
+json.dump(pron, open(os.path.join(DIST, 'pron.json'), 'w'),
+          separators=(',', ':'), ensure_ascii=False)
+
 # packs.json: what the app offers for offline download, built from whatever
 # tracks have actually been generated into dist/audio/.
 adir = os.path.join(DIST, 'audio')

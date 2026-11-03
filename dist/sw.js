@@ -4,14 +4,14 @@
 // deploy gets its own cache and the old one is deleted on activate. Without
 // that, a hardcoded cache name plus cache-first HTML means a returning visitor
 // is pinned to whatever build they first loaded, forever.
-const BUILD = '0b9b6bfb920c';
+const BUILD = '7a3b344dc05f';
 const CACHE = 'verbos-shell-' + BUILD;
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
 // Conjugations and edges are large and only needed by the Verbs tab and the
 // card panel. They are cached best-effort: addAll rejects atomically, so a
 // missing data file would otherwise fail the whole install and silently lose
 // offline support for the page itself.
-const DATA = ['./conjugations.json', './edges.json'];
+const DATA = ['./conjugations.json', './edges.json', './pron.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
