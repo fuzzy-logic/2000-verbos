@@ -43,11 +43,14 @@ header{
 .iconbtn:active{transform:scale(.94)}
 .tabs{display:flex;gap:6px;padding-bottom:10px}
 .tab{
-  flex:1;padding:9px 4px;text-align:center;border-radius:10px;cursor:pointer;
+  flex:1;min-width:0;padding:9px 3px;text-align:center;border-radius:10px;cursor:pointer;
   background:var(--surface-2);border:1px solid var(--line);color:var(--muted);
-  font-size:13px;font-weight:600;user-select:none;
+  font-size:12.5px;font-weight:600;user-select:none;white-space:nowrap;
+  overflow:hidden;text-overflow:clip;
 }
 .tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#14161b}
+/* six tabs on a narrow phone: shrink the type rather than wrap or scroll */
+@media (max-width:380px){ .tabs{gap:4px} .tab{font-size:11px;padding:9px 2px;letter-spacing:-.2px} }
 
 /* ---------- chunk bar ---------- */
 .chunkbar{display:flex;align-items:center;gap:8px;padding:10px 0 4px}
@@ -145,6 +148,49 @@ header{
 }
 .sideways button b{color:var(--text);font-weight:600}
 .sideways button:active{transform:scale(.97)}
+
+/* ---------- wander ---------- */
+.trail{
+  display:flex;flex-wrap:wrap;align-items:center;gap:4px;
+  font-size:12px;color:var(--muted);min-height:20px;margin-bottom:10px;
+}
+.trail button{
+  background:transparent;border:0;padding:2px 3px;cursor:pointer;
+  color:var(--muted);font-family:inherit;font-size:12px;
+}
+.trail button:last-child{color:var(--accent);font-weight:700}
+.trail .sep{opacity:.45}
+.wcard{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px 18px;text-align:center;display:flex;flex-direction:column;gap:10px;
+}
+.wverb{font-size:26px;font-weight:700;letter-spacing:-.01em}
+.wgloss{font-size:14px;color:var(--muted)}
+.wsent{font-size:17px;line-height:1.45;margin-top:4px}
+.wsent-en{font-size:13px;color:var(--muted)}
+.whead{
+  font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted);margin:16px 0 8px;display:flex;align-items:center;gap:8px;
+}
+.whead button{
+  margin-left:auto;background:transparent;border:1px solid var(--line);
+  border-radius:999px;color:var(--muted);font-family:inherit;font-size:11px;
+  padding:2px 9px;cursor:pointer;letter-spacing:0;text-transform:none;
+}
+.wchoice{
+  display:block;width:100%;text-align:left;margin-bottom:8px;cursor:pointer;
+  background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:12px 14px;font-family:inherit;color:var(--text);
+}
+.wchoice:active{transform:scale(.99)}
+.wchoice .rel{
+  font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--accent);display:block;margin-bottom:3px;
+}
+.wchoice .tgt{display:block;font-size:17px;font-weight:600}
+.wchoice .tgt span{font-size:13px;font-weight:400;color:var(--muted);margin-left:7px}
+.wchoice .why{font-size:12.5px;color:var(--muted);margin-top:4px;line-height:1.4}
+.wempty{color:var(--muted);font-size:13px;text-align:center;padding:16px 0}
 
 /* ---------- card ---------- */
 .card{
@@ -297,6 +343,7 @@ header{
     <div class="tabs" role="tablist">
       <div class="tab" role="tab" data-mode="listen" aria-selected="true">Listen</div>
       <div class="tab" role="tab" data-mode="recall" aria-selected="false">Recall</div>
+      <div class="tab" role="tab" data-mode="wander" aria-selected="false">Wander</div>
       <div class="tab" role="tab" data-mode="deck"   aria-selected="false">Deck</div>
       <div class="tab" role="tab" data-mode="verbs"  aria-selected="false">Verbs</div>
       <div class="tab" role="tab" data-mode="basics" aria-selected="false">Basics</div>
@@ -336,6 +383,18 @@ header{
       <button class="btn small warn" id="shakyBtn">↻ Shaky</button>
       <button class="btn small" id="conjBtn">▾ Forms</button>
       <button class="btn small" id="autoBtn">⏯ Auto</button>
+    </div>
+  </div>
+
+  <div id="wanderView" style="display:none">
+    <div class="trail" id="wTrail"></div>
+    <div class="wcard" id="wCard"></div>
+    <div class="whead" id="wHead"></div>
+    <div id="wChoices"></div>
+    <div class="controls">
+      <button class="btn" id="wBack">← Back</button>
+      <button class="btn wide primary" id="wPlay">▶ Play</button>
+      <button class="btn" id="wRandom">⤭ New</button>
     </div>
   </div>
 
@@ -458,7 +517,7 @@ const LS = 'verbos2000';
 const save = () => { try{ localStorage.setItem(LS, JSON.stringify(state)); }catch(e){} };
 let state = { mode:'listen', view:'topic', group:'', idx:0, rate:1, gap:1.2, reps:1,
               chunkSize:100, level:'A1', conjOpen:false,
-              voice:'', theme:'dark', marks:{} };
+              voice:'', theme:'dark', marks:{}, trail:[] };
 try { const s = localStorage.getItem(LS); if(s) state = Object.assign(state, JSON.parse(s)); } catch(e){}
 // 'table' was the deck's mode key before the Basics tab existed.
 if(state.mode === 'table') state.mode = 'deck';
@@ -468,6 +527,9 @@ if(!state.openTables) state.openTables = {};
 if(state.view !== 'topic' && state.view !== 'form') state.view = 'topic';
 if(!state.level || LEVELS.indexOf(state.level) < 0) state.level = 'A1';
 if(!state.openVerbs) state.openVerbs = {};
+// a trail from an older deploy may name verbs this build no longer carries
+if(!Array.isArray(state.trail)) state.trail = [];
+state.trail = state.trail.filter(v => DATA.some(x => x.v === v));
 
 const $ = id => document.getElementById(id);
 let auto = false, autoTimer = null, voices = [], voice = null;
@@ -937,6 +999,159 @@ function jumpToVerb(verb){
   save();
 }
 
+/* ---------- wander ----------
+   A walk through the verbs by how they relate, instead of by rank or topic.
+   Each card offers three doors out; the trail along the top is where you have
+   been, and every step of it is clickable, so a wrong turn costs one tap. */
+const REL = {
+  'confusable':       ['≠', 'Easily mixed up'],
+  'opposite':         ['↔', 'The opposite'],
+  'reflexive':        ['⇄', 'Reflexive twin'],
+  'family':           ['↳', 'Same family'],
+  'pattern':          ['≈', 'Conjugates like'],
+  'takes-infinitive': ['→', 'Takes an infinitive'],
+  'topic':            ['◎', 'Same topic'],
+  'near':             ['#', 'Next in frequency'],
+};
+// hand-written kinds first: ser/estar is worth more than a shared conjugation
+const WANDER_WANT = ['confusable', 'opposite', 'reflexive', 'family',
+                     'pattern', 'takes-infinitive'];
+let wSalt = 0;
+
+const rowFor = verb => DATA.find(x => x.v === verb);
+
+// FNV-1a. The three doors are a function of the verb, so the same verb always
+// offers the same three and the map stays learnable; ↻ reshuffles on request.
+function hash(s){
+  let h = 2166136261;
+  for(let i = 0; i < s.length; i++){ h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return h >>> 0;
+}
+
+function wanderChoices(verb){
+  const row = rowFor(verb);
+  const es = (EDGES[verb] || []).filter(e => rowFor(e.to));
+  const seen = new Set(state.trail);
+  const byType = {};
+  for(const e of es) (byType[e.t] = byType[e.t] || []).push(e);
+  const h = hash(verb + '|' + wSalt);
+  const pick = [], taken = new Set([verb]);
+
+  // The verb we just came from is usually the top-priority door back (estar
+  // links to ser as surely as ser links to estar), which turns the walk into a
+  // two-verb bounce. Hold it back unless there is nothing else to offer.
+  const prev = state.trail[state.trail.length - 2];
+
+  // deterministic draw from a pool, preferring somewhere the trail has not been
+  const draw = (pool, allowPrev) => {
+    pool = pool.filter(e => !taken.has(e.to) && (allowPrev || e.to !== prev));
+    if(!pool.length) return false;
+    const fresh = pool.filter(e => !seen.has(e.to));
+    const use = fresh.length ? fresh : pool;
+    const e = use[(h + pick.length * 7919) % use.length];
+    taken.add(e.to); pick.push(e);
+    return true;
+  };
+
+  // one of each kind in priority order, then round again for a second of the
+  // best kinds, so a spare «easily mixed up» beats a second family member
+  for(let pass = 0; pass < 2 && pick.length < 3; pass++)
+    for(const t of WANDER_WANT){
+      if(pick.length >= 3) break;
+      if(byType[t]) draw(byType[t]);
+    }
+
+  // The graph is thin on purpose - the edges are only the ones that mean
+  // something, and half the commonest verbs have just one or two. Rather than
+  // show a dead end, top up from the same topic, which is a real connection
+  // and always there, then from the neighbouring ranks.
+  const mates = row ? DATA.filter(x => x.tp === row.tp && x.v !== verb)
+    .map(x => ({to: x.v, t: 'topic', n: TOPIC_TITLE[row.tp] || ''})) : [];
+  while(pick.length < 3 && draw(mates)) ;
+  if(row){
+    const near = DATA.filter(x => x.v !== verb && Math.abs(x.r - row.r) <= 15)
+      .map(x => ({to: x.v, t: 'near', n: 'rank ' + x.r}));
+    while(pick.length < 3 && draw(near)) ;
+  }
+  // nothing left but the way we came
+  for(const t of WANDER_WANT){
+    if(pick.length >= 3) break;
+    if(byType[t]) draw(byType[t], true);
+  }
+
+  // more doors than we are showing? then ↻ has something to offer
+  const universe = new Set([...es, ...mates].map(e => e.to));
+  universe.delete(verb);
+  return { pick, more: universe.size > pick.length };
+}
+
+/** Somewhere worth starting: a common verb that actually links out. */
+function wanderSeed(){
+  const pool = DATA.slice(0, 300).map(r => r.v)
+    .filter(v => ((EDGES || {})[v] || []).length >= 2);
+  const from = pool.length ? pool : DATA.map(r => r.v);
+  return from[Math.floor(Math.random() * from.length)];
+}
+
+function wanderTo(verb){
+  if(!rowFor(verb)) return;
+  state.trail.push(verb);
+  if(state.trail.length > 60) state.trail = state.trail.slice(-60);
+  wSalt = 0;
+  renderWander();
+  save();
+}
+
+function renderWander(){
+  if(!EDGES){
+    $('wCard').innerHTML = '<div class="wempty">Loading the map…</div>';
+    $('wChoices').innerHTML = ''; $('wHead').textContent = ''; $('wTrail').innerHTML = '';
+    return;
+  }
+  if(!state.trail.length) state.trail = [wanderSeed()];
+  const verb = state.trail[state.trail.length - 1];
+  const row = rowFor(verb);
+  if(!row){ state.trail = []; return renderWander(); }
+
+  // the trail, newest last; only the tail fits on a phone
+  const tr = $('wTrail');
+  const from = Math.max(0, state.trail.length - 8);
+  tr.innerHTML = state.trail.slice(from).map((v, i) =>
+    (i ? '<span class="sep">›</span>' : '') +
+    `<button data-i="${from + i}">${esc(v)}</button>`).join('');
+  tr.querySelectorAll('button').forEach(b => {
+    b.onclick = () => { state.trail = state.trail.slice(0, +b.dataset.i + 1);
+                        wSalt = 0; renderWander(); save(); };
+  });
+
+  $('wCard').innerHTML =
+    `<div><div class="wverb">${esc(verb)}</div>` +
+    `<div class="wgloss">${esc(row.ve)}</div></div>` +
+    `<div class="wsent">${esc(row.s)}</div>` +
+    `<div class="wsent-en">${esc(row.t)}</div>`;
+  $('wCard').onclick = () => play(row, 'full');
+
+  const { pick: ch, more } = wanderChoices(verb);
+  $('wHead').innerHTML = 'Where next' +
+    (more ? '<button id="wShuffle" type="button">↻ other doors</button>' : '');
+  const sh = $('wShuffle');
+  if(sh) sh.onclick = () => { wSalt++; renderWander(); };
+
+  $('wChoices').innerHTML = ch.length ? ch.map(e => {
+    const [sym, label] = REL[e.t] || ['·', 'Related'];
+    // "≈ Conjugates like / comer / conjugates like comer" says it three times
+    const why = e.n && e.n.toLowerCase() !== (label + ' ' + e.to).toLowerCase() ? e.n : '';
+    return `<button class="wchoice" type="button" data-verb="${esc(e.to)}">` +
+      `<span class="rel">${sym} ${esc(label)}</span>` +
+      `<span class="tgt">${esc(e.to)}<span>${esc(rowFor(e.to).ve)}</span></span>` +
+      (why ? `<div class="why">${esc(why)}</div>` : '') + '</button>';
+  }).join('') : '<div class="wempty">Nothing links out of this one — ⤭ New starts somewhere else.</div>';
+  $('wChoices').querySelectorAll('.wchoice').forEach(b => {
+    b.onclick = () => wanderTo(b.dataset.verb);
+  });
+  save();
+}
+
 function renderConj(r){
   const panel = $('conjPanel');
   if(!state.conjOpen){ panel.style.display = 'none'; return; }
@@ -1242,14 +1457,16 @@ document.querySelectorAll('.tab').forEach(t=>{
     t.setAttribute('aria-selected','true');
     state.mode = t.dataset.mode;
     const deck = state.mode === 'deck', basics = state.mode === 'basics',
-          verbs = state.mode === 'verbs';
-    $('studyView').style.display = (deck || basics || verbs) ? 'none' : '';
+          verbs = state.mode === 'verbs', wander = state.mode === 'wander';
+    $('studyView').style.display = (deck || basics || verbs || wander) ? 'none' : '';
     $('tableView').style.display = deck ? '' : 'none';
     $('basicsView').style.display = basics ? '' : 'none';
     $('verbsView').style.display = verbs ? '' : 'none';
+    $('wanderView').style.display = wander ? '' : 'none';
     if(deck) renderTable();
     else if(basics) renderBasics();
     else if(verbs) renderVerbs();
+    else if(wander){ renderWander(); if(!EDGES) loadExtra().then(renderWander); }
     else render();
     save();
   };
@@ -1277,6 +1494,17 @@ $('knownBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx]
 $('shakyBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx];
   const k = r.k || r.r;
   state.marks[k] = state.marks[k]==='shaky' ? null : 'shaky'; render(); };
+
+$('wBack').onclick = () => {
+  if(state.trail.length > 1) state.trail.pop();
+  wSalt = 0; renderWander(); save();
+};
+$('wRandom').onclick = () => { state.trail = [wanderSeed()]; wSalt = 0; renderWander(); save(); };
+$('wPlay').onclick = e => {
+  e.stopPropagation();
+  const r = rowFor(state.trail[state.trail.length - 1]);
+  if(r) play(r, 'full');
+};
 
 $('chunkPrev').onclick = () => goChunk(-1);
 $('chunkNext').onclick = () => goChunk(1);
@@ -1343,6 +1571,16 @@ $('conjBtn').onclick = () => {
 document.addEventListener('keydown', e=>{
   if(state.mode==='deck' || state.mode==='basics' || state.mode==='verbs' ||
      e.target.tagName==='INPUT') return;
+  if(state.mode==='wander'){
+    // 1-3 take a door, backspace walks the trail back one step
+    if(e.key>='1' && e.key<='3'){
+      const b = $('wChoices').querySelectorAll('.wchoice')[+e.key-1];
+      if(b) b.click();
+    }
+    if(e.key==='Backspace'){ e.preventDefault(); $('wBack').click(); }
+    if(e.key===' '){ e.preventDefault(); $('wPlay').click(); }
+    return;
+  }
   if(e.key==='ArrowRight'){ stopAuto(); go(1); }
   if(e.key==='ArrowLeft'){ stopAuto(); go(-1); }
   if(e.key===' '){ e.preventDefault(); $('card').click(); }
@@ -1375,7 +1613,10 @@ if(!state.group || !activeGroups().some(g => g.key === state.group))
 buildChunkSel();
 document.querySelector(`.tab[data-mode="${state.mode}"]`)?.click();
 // the sideways row and the form panel both need these; fetch them quietly
-loadExtra().then(() => { if(state.mode === 'listen' || state.mode === 'recall') render(); });
+loadExtra().then(() => {
+  if(state.mode === 'listen' || state.mode === 'recall') render();
+  else if(state.mode === 'wander') renderWander();
+});
 render();
 </script>
 </body>
