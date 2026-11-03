@@ -101,7 +101,7 @@ suite('delivery', async () => {
     ['/', 'text/html'], ['/pron.json', 'application/json'],
     ['/edges.json', 'application/json'], ['/conjugations.json', 'application/json'],
     ['/audio/packs.json', 'application/json'], ['/sw.js', 'javascript'],
-    ['/manifest.webmanifest', null], ['/icon.svg', 'svg'],
+    ['/manifest.json', null], ['/icon.svg', 'svg'],
   ];
   for (const [path, type] of files) {
     const r = await fetch(BASE + path);
@@ -121,11 +121,18 @@ suite('delivery', async () => {
     console.log(`         deployed build: ${stamp.build}`);
   }
 
-  // the manifest's type is its own case: browsers want manifest+json
-  const m = await fetch(BASE + '/manifest.webmanifest');
+  // The manifest's type is its own case. manifest+json is ideal and
+  // application/json is accepted; application/octet-stream, which is what
+  // Netlify sends for a .webmanifest, is what stops a PWA installing.
+  const m = await fetch(BASE + '/manifest.json');
   const mct = m.headers.get('content-type') || '';
-  check('manifest served as manifest+json', mct.includes('manifest+json'),
+  check('manifest has a JSON content-type',
+    mct.includes('manifest+json') || mct.includes('application/json'),
     `got ${mct} - some browsers refuse to install the PWA with this`);
+  // the page must point at the file that is actually served
+  const html = await fetch(BASE + '/').then(r => r.text());
+  const href = (html.match(/<link rel="manifest" href="([^"]+)"/) || [])[1];
+  check('page links the manifest it serves', href === 'manifest.json', `links ${href}`);
   const man = await m.json().catch(() => null);
   check('manifest parses as JSON', !!man);
   if (man) {

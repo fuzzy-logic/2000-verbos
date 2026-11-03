@@ -6,7 +6,7 @@
 // is pinned to whatever build they first loaded, forever.
 const BUILD = '__BUILD__';
 const CACHE = 'verbos-shell-' + BUILD;
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
+const SHELL = ['./', './index.html', './manifest.json', './icon.svg'];
 // Conjugations and edges are large and only needed by the Verbs tab and the
 // card panel. They are cached best-effort: addAll rejects atomically, so a
 // missing data file would otherwise fail the whole install and silently lose

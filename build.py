@@ -133,6 +133,10 @@ with open(dest, 'w', encoding='utf-8') as fh:
 # Static PWA assets alongside the page. sw.js gets the build hash stamped in so
 # each deploy uses a fresh cache name and the previous one is purged.
 build_id = hashlib.sha1(out.encode()).hexdigest()[:12]
+# The manifest ships as manifest.json: Netlify has no MIME type for
+# .webmanifest and serves it as application/octet-stream, which some browsers
+# refuse to install a PWA from. See the note in netlify.toml.
+MANIFEST_AS = {'manifest.webmanifest': 'manifest.json'}
 for name in ('sw.js', 'manifest.webmanifest', 'icon.svg'):
     src = os.path.join(ROOT, 'src', name)
     if not os.path.exists(src):
@@ -144,7 +148,7 @@ for name in ('sw.js', 'manifest.webmanifest', 'icon.svg'):
         with open(os.path.join(DIST, name), 'w', encoding='utf-8') as fh:
             fh.write(sw.replace('__BUILD__', build_id))
     else:
-        shutil.copy2(src, os.path.join(DIST, name))
+        shutil.copy2(src, os.path.join(DIST, MANIFEST_AS.get(name, name)))
 
 # A one-line stamp the deployed site can be asked for. Without it there is no
 # way to tell from outside whether what is live matches the repo - a CDN will

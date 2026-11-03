@@ -44,11 +44,11 @@
   for = "/build.json"
   [headers.values]
     Cache-Control = "no-store"
-    X-Config-Probe = "v1"
 
-# Served as application/octet-stream by default, and some browsers refuse to
-# install the PWA unless the manifest carries its own type.
-[[headers]]
-  for = "/manifest.webmanifest"
-  [headers.values]
-    Content-Type = "application/manifest+json"
+# The manifest is served from manifest.json, not manifest.webmanifest, because
+# Netlify has no MIME mapping for .webmanifest and sends application/octet-stream,
+# which some browsers refuse to install a PWA from. A Content-Type override here
+# does not reliably fix it: the CDN stores the response headers against the body's
+# ETag, and a header-only config change leaves that ETag untouched, so
+# revalidation returns 304 and the old headers keep being served. The .json
+# extension gets application/json from Netlify's own map, which browsers accept.
