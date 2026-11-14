@@ -105,7 +105,11 @@ rules; the page reads the generated file. `say()` always marks the stress;
 - Netlify deploys from `master`; keep the working branch fast-forwarded into
   it or the site does not update.
 - `dist/audio` is tracked in git because Netlify serves it from the repo.
-  `.git` is ~470 MB; see the shrink under Still open.
+  `.git` is ~140 MB, of which ~135 MB is that audio. The history was squashed
+  to a single commit on 2026-11-14 to drop two dead generations of packs;
+  HISTORY.md holds the 59 old commit messages. **A rebuild of all packs adds
+  roughly another 135 MB that cannot be reclaimed without squashing again**,
+  so batch audio changes rather than drip-feeding them.
 - Never commit `PLAN.local.md` — gitignored, holds personal details.
 
 ## Classification
@@ -140,11 +144,6 @@ it.
 - **Surface the tags.** They are recorded and gated but nothing in the app
   reads them: no filter by `drill:hacer`, nothing on the card. Until that
   exists they buy correctness, not a feature.
-- **Repo shrink.** `.git` is ~470 MB. `dist/audio` is tracked because Netlify
-  serves it from the repo, and the packs have now been rebuilt three times,
-  so three generations of pack blobs are dead weight in the history. A rewrite (or moving the
-  audio off the repo) would drop them. The user has agreed to this as a
-  later piece of work.
 - Family trees: small radial SVGs for the ~20 prefix families with 3+ members
   (tener -> mantener/detener/retener/sostener), which share a conjugation.
 - More hand-written edges. `data/edges-manual.tsv` has 116 pairs; the graph is
