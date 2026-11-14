@@ -77,10 +77,13 @@ header{
 /* ---------- group picker ---------- */
 .segrow{display:flex;gap:8px;margin-bottom:14px}
 .seg{
-  flex:1;padding:10px;border-radius:10px;border:1px solid var(--line);
-  background:var(--surface-2);color:var(--muted);font-size:14px;font-weight:600;
-  font-family:inherit;cursor:pointer;
+  flex:1;min-width:0;padding:10px 6px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--muted);font-size:13px;font-weight:600;
+  font-family:inherit;cursor:pointer;line-height:1.25;
 }
+/* three segments, one of them two words, on a narrow phone: let it wrap
+   rather than shrink the type below readable */
+@media (max-width:380px){ .segrow{gap:5px} .seg{font-size:12px;padding:9px 4px} }
 .seg[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#14161b}
 .picksec{
   font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);
@@ -378,6 +381,7 @@ header{
       <div class="note" id="noteText"></div>
       <div class="reveal-hint" id="hint"></div>
       <div class="sideways" id="sideways"></div>
+      <div class="meta" id="tagRow"></div>
     </div>
 
     <div class="conjpanel" id="conjPanel" style="display:none"></div>
@@ -433,6 +437,7 @@ header{
     <div class="segrow">
       <button class="seg" id="segTopic" data-view="topic" aria-selected="true">By topic</button>
       <button class="seg" id="segForm" data-view="form" aria-selected="false">By tense</button>
+      <button class="seg" id="segTag" data-view="tag" aria-selected="false">By verb family</button>
     </div>
     <input class="search" id="pickSearch" placeholder="Filter…" autocomplete="off">
     <div id="pickList"></div>
@@ -542,7 +547,7 @@ if(state.mode === 'table') state.mode = 'deck';
 if(!state.openTables) state.openTables = {};
 // The deck used to be sliced into blocks of 100 by rank. Anyone carrying that
 // state lands on the first topic instead.
-if(state.view !== 'topic' && state.view !== 'form') state.view = 'topic';
+if(!['topic', 'form', 'tag'].includes(state.view)) state.view = 'topic';
 if(!state.level || LEVELS.indexOf(state.level) < 0) state.level = 'A1';
 if(!state.openVerbs) state.openVerbs = {};
 // a trail from an older deploy may name verbs this build no longer carries
@@ -848,7 +853,20 @@ function playTrack(row){
    Two ways of cutting the same 2000 cards: by topic (what you need first in
    Asunción) or by the tense the sentence uses. Frequency survives as the sort
    order inside every group, so the common verbs still come first. */
-const GROUPS = { topic: [], form: [] };
+const GROUPS = { topic: [], form: [], tag: [] };
+
+// The six core-verb families used to be topics of their own. They are tags
+// now, because their sentences belong in the scenes they are actually about -
+// "Hace mucho calor" is weather. These titles put the family back together,
+// which is the thing those topics were good for.
+const DRILL_TITLE = {
+  'being-feeling': 'Being & feeling',
+  'doing-handling': 'Doing & handling things',
+  'yes-no-maybe': 'Yes, no, maybe',
+  'seeing-noticing': 'Seeing, hearing & noticing',
+  'thinking-knowing': 'Thinking & knowing',
+  'change-cause': 'Change & cause',
+};
 
 function buildGroups(){
   const byTopic = new Map(TOPICS.map(t => [t.slug, []]));
@@ -873,6 +891,29 @@ function buildGroups(){
   // anything the label table does not cover still gets a home
   for(const [key, rows] of byForm)
     if(!FORM_META[key]) GROUPS.form.push({ key, title:key, section:'Other forms', blurb:'', rows });
+
+  // --- by tag: the verb families, and the second reading of a sentence
+  const byTag = new Map();
+  for(const r of DATA)
+    for(const t of (r.tg || [])){
+      if(!byTag.has(t)) byTag.set(t, []);
+      byTag.get(t).push(r);
+    }
+  GROUPS.tag = [];
+  for(const [key, rows] of byTag){
+    const drill = key.startsWith('drill:');
+    const slug = drill ? key.slice(6) : key;
+    GROUPS.tag.push({
+      key, rows,
+      title: drill ? (DRILL_TITLE[slug] || slug) : (TOPIC_TITLE[slug] || slug),
+      section: drill ? 'Core verbs, wherever they ended up' : 'Also about',
+      blurb: drill ? 'one family, across every scene' : '',
+    });
+  }
+  // families first, then the biggest second-readings
+  GROUPS.tag.sort((a, b) =>
+    (a.section === b.section) ? b.rows.length - a.rows.length
+                              : (a.section > b.section ? -1 : 1));
 }
 
 const TOPIC_TITLE = {};
@@ -989,6 +1030,28 @@ const EDGE_LABEL = {
   'family': '↳', 'pattern': '≈', 'reflexive': '⇄', 'takes-infinitive': '→',
   'confusable': '≠', 'opposite': '↔'
 };
+
+/** The scene a sentence sits in, and whatever else is also true about it. */
+function tagLabel(t){
+  return t.startsWith('drill:') ? (DRILL_TITLE[t.slice(6)] || t.slice(6))
+                                : (TOPIC_TITLE[t] || t);
+}
+
+function renderTags(r){
+  const box = $('tagRow');
+  if(!box) return;
+  const chips = [];
+  // the scene itself, so there is always one way back out of the card
+  chips.push({ view: 'topic', key: r.tp, label: TOPIC_TITLE[r.tp] || r.tp });
+  for(const t of (r.tg || []))
+    chips.push({ view: 'tag', key: t, label: tagLabel(t) });
+  box.innerHTML = chips.map(c =>
+    `<button class="metabtn" data-view="${esc(c.view)}" data-key="${esc(c.key)}">` +
+    `${esc(c.label)}</button>`).join('');
+  box.querySelectorAll('button').forEach(b => {
+    b.onclick = ev => { ev.stopPropagation(); openGroup(b.dataset.view, b.dataset.key, r); };
+  });
+}
 
 function renderSideways(r){
   const box = $('sideways');
@@ -1256,6 +1319,7 @@ function render(){
   $('verbTag').innerHTML =
     `<span class="inf">${esc(r.v)}</span> <b>· ${esc(r.ve)}</b>` +
     (fm ? ` <span class="formtag">${esc(fm[2])}</span>` : '');
+  renderTags(r);
   renderSideways(r);
   renderConj(r);
   $('conjBtn').textContent = (state.conjOpen ? '▴' : '▾') + ' Forms';
@@ -1347,6 +1411,8 @@ function renderTable(){
         <div class="meta">
           <button class="metabtn" data-topic="${esc(r.tp)}">${esc(TOPIC_TITLE[r.tp] || r.tp)}</button>
           <button class="metabtn" data-form="${esc(r.f)}">${esc((FORM_META[r.f]||[,,r.f])[2])}</button>
+          ${(r.tg || []).map(t =>
+            `<button class="metabtn" data-tag="${esc(t)}">${esc(tagLabel(t))}</button>`).join('')}
         </div>
       </div>
       <button class="spk" aria-label="Speak">🔊</button>`;
@@ -1354,6 +1420,8 @@ function renderTable(){
     // tapping either chip opens that group in the study view
     d.querySelector('[data-topic]').onclick = () => openGroup('topic', r.tp, r);
     d.querySelector('[data-form]').onclick = () => openGroup('form', r.f, r);
+    d.querySelectorAll('[data-tag]').forEach(b =>
+      b.onclick = () => openGroup('tag', b.dataset.tag, r));
     frag.appendChild(d);
   });
   box.appendChild(frag);

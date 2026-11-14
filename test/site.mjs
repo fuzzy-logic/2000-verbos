@@ -283,6 +283,45 @@ suite('wander', async () => {
   check('no console errors in wander', consoleErrors.length === 0, consoleErrors.join('\n'));
 });
 
+suite('tags', async () => {
+  await newPage(); await open('/');
+  const groups = await page.evaluate(() => GROUPS.tag.map(g => ({ k: g.key, n: g.rows.length })));
+  atLeast('tag groups are built', groups.length, 10);
+  const drills = groups.filter(g => g.k.startsWith('drill:'));
+  eq('six core-verb families', drills.length, 6);
+  check('every family has its sentences', drills.every(g => g.n > 50),
+    JSON.stringify(drills));
+
+  // the card names its scene and its tags, and both are a way out
+  check('card shows scene and tag chips', await count('#tagRow button') >= 1);
+  const jumped = await page.evaluate(() => {
+    const b = [...document.querySelectorAll('#tagRow button')]
+      .find(x => x.dataset.view === 'tag');
+    if(!b) return null;
+    const key = b.dataset.key; b.click();
+    return { key, view: state.view, group: state.group, n: current().length };
+  });
+  if(jumped){
+    eq('a tag chip opens that tag', jumped.group, jumped.key);
+    eq('and switches the view', jumped.view, 'tag');
+    atLeast('with its sentences', jumped.n, 1);
+  } else {
+    check('a tag chip opens that tag', false, 'no tag chip on the first card');
+  }
+
+  // the picker's third segment
+  await page.click('#groupBtn'); await page.waitForTimeout(300);
+  await page.click('.seg[data-view="tag"]'); await page.waitForTimeout(400);
+  atLeast('picker lists tag groups', await count('#pickList .pickrow'), 10);
+  has('families come first', await text('#pickList .picksec'), 'Core verbs');
+  await page.evaluate(() => document.getElementById('pickSheet').classList.remove('open'));
+
+  // deck rows carry them too
+  await tab('deck');
+  atLeast('deck rows carry tag chips', await count('.rowitem [data-tag]'), 500);
+  check('no console errors in tags', consoleErrors.length === 0, consoleErrors.join('\n'));
+});
+
 suite('deck', async () => {
   await newPage(); await open('/');
   await tab('deck');
@@ -413,6 +452,15 @@ suite('responsive', async () => {
       return { scroll: t.scrollWidth, client: t.clientWidth };
     });
     check(`${w}px: all six tabs fit`, tabs.scroll <= tabs.client + 1, JSON.stringify(tabs));
+    // the picker's three segments, one of which is two words
+    await page.click('#groupBtn'); await page.waitForTimeout(250);
+    const seg = await page.evaluate(() => {
+      const r = document.querySelector('.segrow');
+      return { scroll: r.scrollWidth, client: r.clientWidth };
+    });
+    check(`${w}px: the three segments fit`, seg.scroll <= seg.client + 1, JSON.stringify(seg));
+    await page.evaluate(() => document.getElementById('pickSheet').classList.remove('open'));
+
     await tab('wander');
     const o2 = await page.evaluate(() =>
       document.documentElement.scrollWidth > window.innerWidth + 1);
