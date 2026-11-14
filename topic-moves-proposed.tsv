@@ -1,0 +1,330 @@
+key	rank	kind	verb	sentence_es	from_topic	to_topic	why
+1034	1034	head	pactar	Pactaron un precio justo.	arranging-to-meet	buying-paying	agreed a fair price
+207	207	head	reunir	La familia se reúne los domingos.	arranging-to-meet	family-friends	family gathers on Sundays
+759	759	head	suspender	Suspendieron el partido.	arranging-to-meet	free-time	the match was called off
+757	757	head	atrasar	Se atrasó todo por la lluvia.	arranging-to-meet	weather-heat	everything delayed by rain
+755	755	head	posponer	Pospusieron la reunión.	arranging-to-meet	work-tasks	the meeting was postponed
+317	317	head	averiguar	Voy a averiguar el precio.	asking-understanding	buying-paying	find out the price
+1674	1674	head	depreciar	El auto se deprecia rápido.	bank-cash-credit	driving-moto	a car depreciates fast
+70x4	70	extra	convertir	Me he convertido en uno más del barrio.	bank-cash-credit	migration-abroad	become one of the neighbourhood
+1683	1683	head	exonerar	Exoneraron del impuesto a los pequeños.	bank-cash-credit	news-institutions	tax exemption
+70x2	70	extra	convertir	Me convertí en un fanático del tereré.	bank-cash-credit	terere-drinking	became a tereré fanatic
+916	916	head	quebrar	La empresa quebró el año pasado.	bank-cash-credit	work-tasks	the company went bust
+1186	1186	head	rellenar	Rellené el formulario dos veces.	body-illness-pharmacy	paperwork-bureaucracy	filled in the form twice
+1962	1962	head	oscilar	Oscila entre treinta y cuarenta grados.	body-illness-pharmacy	weather-heat	temperature range
+63x1	63	extra	cambiar	Cambio plata en la casa de cambio.	buying-paying	bank-cash-credit	changing money
+233	233	head	ahorrar	Estoy ahorrando para un auto.	buying-paying	bank-cash-credit	saving up for a car
+1020	1020	head	amortizar	Amortizamos el préstamo en cinco años.	buying-paying	bank-cash-credit	paying off a loan
+97x4	97	extra	ofrecer	Ofrecía descuento los martes.	buying-paying	haggling-quantities	discount on Tuesdays
+111	111	head	comprar	Compré fruta en el mercado.	buying-paying	haggling-quantities	fruit at the market
+111x1	111	extra	comprar	Compro la verdura en la feria.	buying-paying	haggling-quantities	veg at the feria
+111x4	111	extra	comprar	Comprá en la feria, sale la mitad.	buying-paying	haggling-quantities	half price at the feria
+683	683	head	canjear	Canjeé los puntos por un descuento.	buying-paying	haggling-quantities	points for a discount
+63x3	63	extra	cambiar	Cambié de barrio el mes pasado.	buying-paying	house-renting	changed neighbourhood
+91x4	91	extra	pagar	Pagaba el alquiler el día uno.	buying-paying	house-renting	paying the rent
+149x3	149	extra	elegir	Elegí mal el barrio la primera vez.	buying-paying	house-renting	picked the wrong barrio
+1695	1695	head	anticipar	Anticipé dos meses de alquiler.	buying-paying	house-renting	two months' rent up front
+231	231	head	costar	¿Cuánto cuesta el pasaje?	buying-paying	transport-colectivo	what the fare costs
+497	497	head	regañar	Mi mamá me regañaba por eso.	conversation-opinion	family-friends	mum told me off
+1868	1868	head	puntualizarse	Se puntualizó en el contrato.	conversation-opinion	formal-written	set out in the contract
+95x4	95	extra	escuchar	Escuchaba podcasts en el colectivo.	conversation-opinion	free-time	podcasts on the bus
+485	485	head	ensayar	Ensayan los jueves.	conversation-opinion	free-time	rehearsals on Thursdays
+1457	1457	head	ensayarse	Se ensaya dos veces por semana.	conversation-opinion	free-time	rehearses twice a week
+140x3	140	extra	discutir	Discutí el precio y bajó.	conversation-opinion	haggling-quantities	argued the price down
+287	287	head	exigir	Exigen comprobante de domicilio.	conversation-opinion	paperwork-bureaucracy	they demand proof of address
+679	679	head	agregar	Agregame a tu grupo.	conversation-opinion	phone-computer	add me to your group
+1138	1138	head	responder a	Respondí a todos los correos.	conversation-opinion	phone-computer	answered all the emails
+420	420	head	picar	Me picaron los mosquitos.	cooking-kitchen	body-illness-pharmacy	mosquito bites
+989	989	head	quemarse	Me quemé la espalda.	cooking-kitchen	body-illness-pharmacy	sunburnt back
+1175	1175	head	resumirse	Se resume en una frase.	cooking-kitchen	conversation-opinion	summing up
+1413	1413	head	salpicar	Me salpicó un auto en la calle.	cooking-kitchen	driving-moto	splashed by a car
+1412	1412	head	chorrear	Chorreaba agua del techo.	cooking-kitchen	fixing-breaking-power	water running off the roof
+1478	1478	head	calentar (deporte)	Calentaron veinte minutos.	cooking-kitchen	free-time	warming up for sport
+996	996	head	escurrir	Escurrí bien la ropa.	cooking-kitchen	house-chores	wringing out laundry
+581	581	head	quemar	Quemaron la basura atrás.	cooking-kitchen	house-renting	burning rubbish out back
+703	703	head	emigrar	Muchos emigraron a España.	cooking-kitchen	migration-abroad	emigrating to Spain
+704	704	head	inmigrar	Sus abuelos inmigraron de Alemania.	cooking-kitchen	migration-abroad	grandparents immigrated
+786	786	head	integrarse	Me costó integrarme al principio.	cooking-kitchen	migration-abroad	settling in
+1592	1592	head	migrar	Migran a la capital por trabajo.	cooking-kitchen	migration-abroad	moving to the capital for work
+1772	1772	head	migrar (datos)	Migraron los datos al servidor nuevo.	cooking-kitchen	phone-computer	migrating data to a server
+1295	1295	head	triturar	Trituraron el hielo para el tereré.	cooking-kitchen	terere-drinking	crushed ice for tereré
+1938	1938	head	denigrar	Denigraron su trabajo sin razón.	cooking-kitchen	work-tasks	belittling someone's work
+762	762	head	detener	La policía lo detuvo.	daily-routine	emergencies	the police stopped him
+23x4	23	extra	seguir	Seguía sin entender el acento.	directions-places	asking-understanding	still not getting the accent
+909	909	head	devolverse	No se devuelve el dinero.	directions-places	buying-paying	no refunds
+14	14	head	pasar	¿Qué pasó anoche?	directions-places	conversation-opinion	what happened last night
+23x3	23	extra	seguir	Seguí el consejo y salió bien.	directions-places	conversation-opinion	took the advice
+23x5	23	extra	seguir	He seguido tu consejo al pie de la letra.	directions-places	conversation-opinion	followed your advice
+160	160	head	seguir	Seguí hablando, te escucho.	directions-places	conversation-opinion	keep talking, I'm listening
+513	513	head	atravesar	Atravesamos el país en auto.	directions-places	driving-moto	drove across the country
+1054	1054	head	atravesarse	Se me atravesó una moto.	directions-places	driving-moto	a moto cut me up
+1483	1483	head	turnarse	Nos turnamos para manejar.	directions-places	driving-moto	took turns driving
+1001	1001	head	acudir	Acudieron todos al llamado.	directions-places	emergencies	everyone came when called
+14x6	14	extra	pasar	He pasado por eso también.	directions-places	feelings-conflict	I've been through that too
+871	871	head	enfadarse	Se enfada por nada.	directions-places	feelings-conflict	gets annoyed over nothing
+256	256	head	encender	Encendé el ventilador, por favor.	directions-places	fixing-breaking-power	switch the fan on
+14x4	14	extra	pasar	Pasaba las tardes leyendo.	directions-places	free-time	afternoons reading
+1168	1168	head	retroceder (media)	Retrocedé diez segundos.	directions-places	free-time	skip back ten seconds
+1170	1170	head	doblar (cine)	Doblan las películas al español.	directions-places	free-time	films dubbed into Spanish
+14x5	14	extra	pasar	Pasá, no te quedes en la puerta.	directions-places	greeting-small-talk	come in, don't stand at the door
+41	41	head	entrar	Entrá, la puerta está abierta.	directions-places	greeting-small-talk	come in, the door's open
+563	563	head	doblar	Doblá la ropa, por favor.	directions-places	house-chores	fold the washing
+23x2	23	extra	seguir	¿Seguís viviendo en el mismo lugar?	directions-places	house-renting	still living in the same place
+512	512	head	rodear	Un muro rodea toda la casa.	directions-places	house-renting	a wall around the house
+1052	1052	head	colindar	Nuestro terreno colinda con el suyo.	directions-places	house-renting	our plot adjoins theirs
+1582	1582	head	pavimentar	Pavimentaron la calle recién.	directions-places	infrastructure-building	they paved the street
+1583	1583	head	asfaltar	Asfaltaron hasta la entrada.	directions-places	infrastructure-building	asphalted to the entrance
+1584	1584	head	empedrar	Empedraron el centro histórico.	directions-places	infrastructure-building	cobbled the old centre
+1586	1586	head	demarcar	Demarcaron los límites del terreno.	directions-places	infrastructure-building	marked out the plot
+14x3	14	extra	pasar	Pasé toda la mañana en la fila.	directions-places	paperwork-bureaucracy	a morning in the queue
+1180	1180	head	tachar	Tachá lo que no corresponde.	directions-places	paperwork-bureaucracy	cross out what doesn't apply
+1064	1064	head	localizar	No lo pude localizar.	directions-places	phone-computer	couldn't reach him
+23x1	23	extra	seguir	Sigo estudiando todas las noches.	directions-places	study-school	still studying every night
+41x1	41	extra	entrar	Entro a las ocho todos los días.	directions-places	work-tasks	I start at eight
+509	509	head	avanzar	Avanzamos bastante hoy.	directions-places	work-tasks	we got a lot done
+798	798	head	volcar	Se volcó el vaso.	driving-moto	cooking-kitchen	the glass tipped over
+1417	1417	head	ahuyentar	El humo ahuyenta los mosquitos.	driving-moto	house-renting	smoke keeps mosquitoes off
+1156	1156	head	fallarse	Se falla el sistema seguido.	driving-moto	phone-computer	the system keeps failing
+1362	1362	head	remolcarse	Se remolcó hasta la costa.	driving-moto	travel-trips	towed itself to the shore
+1694	1694	head	adelantar (dinero)	Me adelantaron medio sueldo.	driving-moto	work-tasks	advanced half my wages
+1081	1081	head	arder	Me arde la garganta.	emergencies	body-illness-pharmacy	burning throat
+394	394	head	caer	Me cae muy bien tu hermana.	emergencies	family-friends	I like your sister
+62x1	62	extra	caer	Me caigo mal con ese calor.	emergencies	weather-heat	the heat disagrees with me
+1085	1085	head	asfixiar	El calor asfixia a esta hora.	emergencies	weather-heat	the heat is suffocating
+1266	1266	head	refugiarse	Nos refugiamos de la lluvia.	emergencies	weather-heat	sheltered from the rain
+1350	1350	head	trasladar	Trasladaron la oficina al centro.	emergencies	work-tasks	the office moved
+770	770	head	enterrar	Lo enterraron en el cementerio del pueblo.	family-friends	celebration-religion	buried in the village cemetery
+771	771	head	rezar	Reza todas las noches.	family-friends	celebration-religion	prays every night
+772	772	head	bendecir	El cura bendijo la casa.	family-friends	celebration-religion	the priest blessed the house
+775	775	head	venerar	Veneran a la Virgen de Caacupé.	family-friends	celebration-religion	the Virgin of Caacupé
+776	776	head	peregrinar	Peregrinan a pie en diciembre.	family-friends	celebration-religion	the December pilgrimage
+577	577	head	criar	Crían ganado en el Chaco.	family-friends	countryside-farming	cattle in the Chaco
+145x3	145	extra	extrañar	Extrañaba el frío, aunque no lo crean.	family-friends	migration-abroad	missed the cold back home
+612	612	head	echar de menos	Echo de menos la comida de casa.	family-friends	migration-abroad	missing home cooking
+1601	1601	head	enlutar	La noticia enlutó al pueblo entero.	family-friends	news-institutions	the news put the town in mourning
+75	75	head	morir	Me muero de hambre.	family-friends	ordering-eating	starving
+75x1	75	extra	morir	¿Te morís de calor vos también?	family-friends	weather-heat	dying of heat
+87x4	87	extra	nacer	He nacido de nuevo con este clima.	family-friends	weather-heat	reborn in this climate
+415	415	head	crecer	El pasto crece rapidísimo con la lluvia.	family-friends	weather-heat	grass grows fast with rain
+693	693	head	engañar	Me engañaron con el precio.	feelings-conflict	buying-paying	cheated on the price
+129	129	head	llorar	El bebé llora cuando tiene hambre.	feelings-conflict	family-friends	the baby cries when hungry
+139x2	139	extra	pelear	¿Peleás seguido con tu hermano?	feelings-conflict	family-friends	fighting with your brother
+303	303	head	defender	Siempre defiende a su hermano.	feelings-conflict	family-friends	always defends his brother
+875	875	head	celar	Cela a su novia todo el tiempo.	feelings-conflict	family-friends	jealous of his girlfriend
+1602	1602	head	consolarse	Se consoló con la familia.	feelings-conflict	family-friends	comforted by family
+1907	1907	head	reconciliarse con	Se reconcilió con su hermano.	feelings-conflict	family-friends	made up with his brother
+328	328	head	emocionar	Me emocioné con la película.	feelings-conflict	free-time	moved by the film
+1955	1955	head	desquitarse	Se desquitó en el partido.	feelings-conflict	free-time	got his own back in the match
+139x3	139	extra	pelear	Peleé con el casero por el alquiler.	feelings-conflict	house-renting	row with the landlord over rent
+1221	1221	head	añorar	Añoro el invierno de allá.	feelings-conflict	migration-abroad	missing winter back home
+1973	1973	head	excederse	Me excedí con el asado.	feelings-conflict	ordering-eating	overdid it at the asado
+1152	1152	head	encriptar	Encriptan los mensajes.	feelings-conflict	phone-computer	messages are encrypted
+809	809	head	abandonar	Abandonó el curso a la mitad.	feelings-conflict	study-school	dropped out of the course halfway
+144x4	144	extra	alegrar	Me alegraba el día un tereré.	feelings-conflict	terere-drinking	a tereré made my day
+1256	1256	head	sosegar	El mate sosiega bastante.	feelings-conflict	terere-drinking	mate calms you down
+147x1	147	extra	odiar	¿Odiás el calor o te acostumbraste?	feelings-conflict	weather-heat	hating the heat
+175	175	head	soportar	No soporto el calor del mediodía.	feelings-conflict	weather-heat	can't stand the midday heat
+604	604	head	quejarse	Se queja del calor todo el verano.	feelings-conflict	weather-heat	complains about the heat
+1223	1223	head	ansiar	Ansío un poco de sombra.	feelings-conflict	weather-heat	longing for shade
+1965	1965	head	trastornar	La lluvia trastornó todos los planes.	feelings-conflict	weather-heat	rain wrecked the plans
+545	545	head	reclamar	Reclamé en la empresa.	feelings-conflict	work-tasks	complained at the company
+1989	1989	head	modificarse	Se modificó el artículo tres.	fixing-breaking-power	formal-written	article three was amended
+205	205	head	armar	Armemos el asado para el domingo.	fixing-breaking-power	ordering-eating	setting up the asado
+582	582	head	encender	Encendieron el fuego para el asado.	fixing-breaking-power	ordering-eating	lit the fire for the asado
+1703	1703	head	trabarse	Se trabó el trámite por un papel.	fixing-breaking-power	paperwork-bureaucracy	the process jammed over a paper
+193	193	head	romper	Se me rompió el celular.	fixing-breaking-power	phone-computer	my phone broke
+777	777	head	festejarse	Se festeja el ocho de diciembre.	free-time	celebration-religion	the eighth of December
+778	778	head	conmemorar	Conmemoran la independencia en mayo.	free-time	celebration-religion	independence commemorated in May
+85	85	head	estudiar	Estudio español todos los días.	free-time	study-school	studying Spanish every day
+224	224	head	practicar	Practico todos los días.	free-time	study-school	practising every day
+264	264	head	grabar	¿Puedo grabar la clase?	free-time	study-school	may I record the class
+737	737	head	memorizar	Memoricé las primeras cien frases.	free-time	study-school	memorised the first hundred phrases
+738	738	head	repasar	Repaso todas las noches.	free-time	study-school	revising every night
+1181	1181	head	subrayar	Subrayá las palabras nuevas.	free-time	study-school	underline the new words
+1231	1231	head	imitar	Imito el acento para practicar.	free-time	study-school	copying the accent to practise
+1232	1232	head	remedar	Remedaba a su profesor.	free-time	study-school	mimicked his teacher
+1455	1455	head	declamar	Declamó frente a toda la escuela.	free-time	study-school	recited in front of the school
+588	588	head	flotar	Flotaba todo en el patio.	free-time	weather-heat	everything floating in the yard
+125x5	125	extra	invitar	Me han invitado a un asado el sábado.	greeting-small-talk	arranging-to-meet	invited to an asado Saturday
+244	244	head	recibir	Recibí la factura ayer.	greeting-small-talk	buying-paying	received the invoice
+1802	1802	head	aguaratear	No me aguaratees con el precio.	greeting-small-talk	haggling-quantities	don't cheat me on the price
+1801	1801	head	acriollarse	Me acriollé rápido con el tereré.	greeting-small-talk	migration-abroad	went native with tereré
+64x2	64	extra	presentar	Presenté los papeles en migraciones.	greeting-small-talk	paperwork-bureaucracy	papers at immigration
+64x5	64	extra	presentar	He presentado la solicitud ya.	greeting-small-talk	paperwork-bureaucracy	submitted the application
+125	125	head	invitar	Te invito un tereré.	greeting-small-talk	terere-drinking	offering a tereré
+125x1	125	extra	invitar	¿Me invitás un tereré?	greeting-small-talk	terere-drinking	asking for a tereré
+49x1	49	extra	recibir	Recibo el sueldo el día cinco.	greeting-small-talk	work-tasks	payday is the fifth
+1238	1238	head	adular	Adula al jefe todo el tiempo.	greeting-small-talk	work-tasks	sucks up to the boss
+1646	1646	head	atender (un negocio)	Atiende el almacén su mamá.	greeting-small-talk	work-tasks	his mum runs the shop
+86	86	head	alcanzar	No me alcanza la plata.	haggling-quantities	bank-cash-credit	not enough money
+86x1	86	extra	alcanzar	¿Te alcanza la plata hasta fin de mes?	haggling-quantities	bank-cash-credit	money lasting to month end
+86x2	86	extra	alcanzar	No me alcanzaba el sueldo.	haggling-quantities	bank-cash-credit	salary didn't stretch
+153	153	head	faltar	Me falta un poco de plata.	haggling-quantities	bank-cash-credit	short of money
+370	370	head	contar	Conté mal la plata.	haggling-quantities	bank-cash-credit	miscounted the money
+668	668	head	equivaler	Un dólar equivale a varios miles de guaraníes.	haggling-quantities	bank-cash-credit	exchange rate
+981	981	head	adelgazar	Adelgacé con el calor.	haggling-quantities	body-illness-pharmacy	lost weight
+36x3	36	extra	contar	Mi abuela contaba historias en guaraní.	haggling-quantities	family-friends	grandmother's stories
+153x2	153	extra	faltar	Faltó plata para el alquiler.	haggling-quantities	house-renting	short for the rent
+522	522	head	aumentar	Aumentó mucho el alquiler.	haggling-quantities	house-renting	the rent went up
+154	154	head	sobrar	Sobró comida de anoche.	haggling-quantities	ordering-eating	leftovers from last night
+1117	1117	head	agotar	Me agota este clima.	haggling-quantities	weather-heat	this climate wears me out
+411	411	head	sembrar	Siembran soja en toda esta zona.	house-renting	countryside-farming	soya all over this area
+412	412	head	cosechar	Cosechan en marzo.	house-renting	countryside-farming	harvest in March
+413	413	head	podar	Hay que podar ese árbol.	house-renting	countryside-farming	that tree needs pruning
+576	576	head	ordeñar	Ordeñan las vacas a las cinco.	house-renting	countryside-farming	milking at five
+578	578	head	arar	Araron el campo en septiembre.	house-renting	countryside-farming	ploughed in September
+580	580	head	talar	Talaron todos los árboles.	house-renting	countryside-farming	felled all the trees
+1024	1024	head	arrendar	Arriendan campo por hectárea.	house-renting	countryside-farming	renting land by the hectare
+1124	1124	head	almacenar	Almacenan grano en el silo.	house-renting	countryside-farming	grain stored in the silo
+470	470	head	decorar	Decoraron todo para la fiesta.	house-renting	free-time	decorated for the party
+121	121	head	limpiar	Limpiá la mesa, por favor.	house-renting	house-chores	wipe the table
+278	278	head	ordenar	Ordená tu cuarto.	house-renting	house-chores	tidy your room
+410	410	head	regar	Riego las plantas cada mañana.	house-renting	house-chores	watering the plants
+565	565	head	estrujar	Estrujá bien el trapo.	house-renting	house-chores	wring out the cloth
+566	566	head	barrer	Barro el patio todas las mañanas.	house-renting	house-chores	sweeping the yard
+567	567	head	fregar	Fregué el piso entero.	house-renting	house-chores	scrubbed the whole floor
+568	568	head	planchar	Odio planchar camisas.	house-renting	house-chores	hate ironing shirts
+575	575	head	ensuciar	Los chicos ensuciaron todo.	house-renting	house-chores	the kids made a mess
+596	596	head	reciclar	Acá casi no se recicla.	house-renting	house-chores	hardly any recycling here
+993	993	head	ventilar	Ventilá la pieza un rato.	house-renting	house-chores	air the room
+1095	1095	head	asolear	Asoleá las sábanas un rato.	house-renting	house-chores	put the sheets in the sun
+1414	1414	head	rociar	Rociaron el patio con repelente.	house-renting	house-chores	sprayed the yard with repellent
+192	192	head	construir	Están construyendo un edificio enfrente.	house-renting	infrastructure-building	a building going up opposite
+467	467	head	excavar	Excavaron para el pozo.	house-renting	infrastructure-building	dug for the well
+468	468	head	demoler	Van a demoler el edificio viejo.	house-renting	infrastructure-building	demolishing the old building
+469	469	head	reformar	Estamos reformando la cocina.	house-renting	infrastructure-building	remodelling the kitchen
+1380	1380	head	agrietarse	Se agrietó la pared.	house-renting	infrastructure-building	the wall cracked
+1381	1381	head	desmoronarse	Se desmoronó el muro viejo.	house-renting	infrastructure-building	the old wall crumbled
+1382	1382	head	derrumbarse	Se derrumbó el techo con la lluvia.	house-renting	infrastructure-building	the roof came down
+1383	1383	head	ceder (estructura)	Cedió el piso de madera.	house-renting	infrastructure-building	the wooden floor gave way
+1384	1384	head	apuntalar	Apuntalaron la pared.	house-renting	infrastructure-building	propped up the wall
+1385	1385	head	reforzar	Reforzaron los cimientos.	house-renting	infrastructure-building	reinforced the foundations
+1386	1386	head	cimentar	Cimentaron en una semana.	house-renting	infrastructure-building	foundations in a week
+1388	1388	head	techar	Techaron con chapa.	house-renting	infrastructure-building	roofed with sheeting
+1389	1389	head	revocar	Revocaron las paredes de afuera.	house-renting	infrastructure-building	rendered the outside walls
+1390	1390	head	azulejar	Azulejaron el baño entero.	house-renting	infrastructure-building	tiled the whole bathroom
+1391	1391	head	empapelar	Empapelaron el dormitorio.	house-renting	infrastructure-building	wallpapered the bedroom
+1392	1392	head	barnizar	Barnizó la mesa a mano.	house-renting	infrastructure-building	varnished the table
+1393	1393	head	lijar	Lijá antes de pintar.	house-renting	infrastructure-building	sand before painting
+1394	1394	head	cercar	Cercaron todo el terreno.	house-renting	infrastructure-building	fenced the plot
+1395	1395	head	alambrar	Alambraron el campo.	house-renting	infrastructure-building	wired the field
+1396	1396	head	amurallar	Amurallaron la propiedad.	house-renting	infrastructure-building	walled the property
+574	574	head	manchar	Me manché la camisa con tereré.	house-renting	terere-drinking	tereré stain
+1090	1090	head	germinar	Germinan rápido con esta humedad.	house-renting	weather-heat	seeds germinate in the humidity
+1093	1093	head	reverdecer	Reverdeció todo con la lluvia.	house-renting	weather-heat	everything greened up after rain
+937	937	head	multar	Me multaron por estacionar mal.	news-institutions	driving-moto	fined for bad parking
+1161	1161	head	transmitir	Transmiten el partido a las nueve.	news-institutions	free-time	the match is broadcast at nine
+1162	1162	head	emitir	Emiten el programa los jueves.	news-institutions	free-time	the programme airs on Thursdays
+1015	1015	head	licitar	Licitaron la construcción del puente.	news-institutions	infrastructure-building	tendered the bridge
+1042	1042	head	inaugurar	Inauguraron el puente en mayo.	news-institutions	infrastructure-building	opened the bridge in May
+1708	1708	head	expedir	Expidieron el certificado el mismo día.	news-institutions	paperwork-bureaucracy	certificate issued same day
+943	943	head	declarar	Declaré todo en la aduana.	news-institutions	travel-trips	declared everything at customs
+1492	1492	head	estancarse	Se estancó el proyecto.	news-institutions	work-tasks	the project stalled
+48x4	48	extra	pedir	Pedía ayuda a cada rato al principio.	ordering-eating	asking-understanding	asking for help
+1786	1786	head	debitarse	Se debita el día cinco.	ordering-eating	bank-cash-credit	a direct debit
+56	56	head	servir	Esto no me sirve para nada.	ordering-eating	being-feeling	usefulness, not serving food
+56x4	56	extra	servir	No servía para nada ese aparato.	ordering-eating	being-feeling	a device being useless
+56x6	56	extra	servir	Me ha servido muchísimo ese consejo.	ordering-eating	being-feeling	advice being useful
+366	366	head	tragar	Me cuesta tragar las pastillas.	ordering-eating	body-illness-pharmacy	swallowing pills
+436	436	head	respirar	Respirá hondo.	ordering-eating	body-illness-pharmacy	breathe deeply
+65x5	65	extra	crear	He creado una rutina que funciona.	ordering-eating	daily-routine	building a routine
+419	419	head	morder	Cuidado, ese perro muerde.	ordering-eating	emergencies	a dog that bites
+533	533	head	amenazar	Lo amenazaron por teléfono.	ordering-eating	emergencies	threatened by phone
+1027	1027	head	legar	Legó todo a sus nietos.	ordering-eating	family-friends	leaving an inheritance
+1268	1268	head	preservar	Preservan el idioma en casa.	ordering-eating	family-friends	keeping the language at home
+65x4	65	extra	crear	Creaba problemas donde no había.	ordering-eating	feelings-conflict	causing trouble
+688	688	head	merecer	Te merecés unas vacaciones.	ordering-eating	free-time	deserving a holiday
+1642	1642	head	conservarse (ruinas)	Se conservan las ruinas de Trinidad.	ordering-eating	free-time	the ruins at Trinidad
+1410	1410	head	impregnar	El olor impregnó toda la casa.	ordering-eating	house-renting	a smell through the house
+1053	1053	head	limitar	Limita al sur con Argentina.	ordering-eating	news-institutions	a country border
+1721	1721	head	desacatar	Desacató la orden judicial.	ordering-eating	news-institutions	defying a court order
+48x5	48	extra	pedir	He pedido el certificado dos veces.	ordering-eating	paperwork-bureaucracy	requesting a certificate
+65	65	head	crear	Creamos el grupo la semana pasada.	ordering-eating	phone-computer	creating a group chat
+65x1	65	extra	crear	Creo un grupo para organizarnos.	ordering-eating	phone-computer	creating a group to organise
+65x3	65	extra	crear	Creé una cuenta nueva.	ordering-eating	phone-computer	creating an account
+30	30	head	tomar	Tomamos tereré todas las tardes.	ordering-eating	terere-drinking	tereré every afternoon
+30x1	30	extra	tomar	Tomo tereré todas las mañanas.	ordering-eating	terere-drinking	tereré every morning
+30x2	30	extra	tomar	¿Tomás mate o tereré?	ordering-eating	terere-drinking	mate or tereré
+30x4	30	extra	tomar	Tomaba café antes, ahora tereré.	ordering-eating	terere-drinking	coffee before, tereré now
+30x3	30	extra	tomar	Tomé el colectivo equivocado.	ordering-eating	transport-colectivo	took the wrong bus
+30x6	30	extra	tomar	He tomado mucho sol hoy.	ordering-eating	weather-heat	sunbathing
+65x2	65	extra	crear	¿Creás vos el documento o yo?	ordering-eating	work-tasks	who writes the document
+975	975	head	caducar	Caducó el yogur.	paperwork-bureaucracy	cooking-kitchen	the yoghurt went off
+1585	1585	head	señalizar	Señalizaron mal el desvío.	paperwork-bureaucracy	driving-moto	the diversion was badly signed
+692	692	head	incumplir	Incumplieron el contrato.	paperwork-bureaucracy	formal-written	breached the contract
+1035	1035	head	firmarse	Se firmó el contrato el lunes.	paperwork-bureaucracy	formal-written	contract signed Monday
+1036	1036	head	rescindir	Rescindieron el contrato.	paperwork-bureaucracy	formal-written	contract rescinded
+1188	1188	head	constar en	Consta en el acta.	paperwork-bureaucracy	formal-written	it's in the minutes
+1718	1718	head	notificar	Notificaron la resolución.	paperwork-bureaucracy	formal-written	the resolution was served
+449	449	head	tramitar	Estoy tramitando la residencia.	paperwork-bureaucracy	migration-abroad	applying for residency
+702	702	head	radicarse	Se radicó acá hace veinte años.	paperwork-bureaucracy	migration-abroad	settled here twenty years ago
+1429	1429	head	deportar	Lo deportaron por papeles vencidos.	paperwork-bureaucracy	migration-abroad	deported over expired papers
+1431	1431	head	repatriar	Los repatriaron en avión.	paperwork-bureaucracy	migration-abroad	repatriated by plane
+1433	1433	head	naturalizarse	Me naturalicé después de cinco años.	paperwork-bureaucracy	migration-abroad	naturalised after five years
+1532	1532	head	regularizar	Regularicé mi situación migratoria.	paperwork-bureaucracy	migration-abroad	regularised my migration status
+1136	1136	head	adjuntar	Adjunté el archivo al correo.	paperwork-bureaucracy	phone-computer	attached the file
+1148	1148	head	formatear	Formateé la computadora.	paperwork-bureaucracy	phone-computer	formatted the computer
+453	453	head	inscribir	Me inscribí en un curso.	paperwork-bureaucracy	study-school	enrolled on a course
+978	978	head	degustar	Degustamos vinos de la zona.	paperwork-bureaucracy	terere-drinking	wine tasting
+724	724	head	asignar	Me asignaron otro proyecto.	paperwork-bureaucracy	work-tasks	assigned another project
+1026	1026	head	traspasar	Traspasó el negocio a su hijo.	paperwork-bureaucracy	work-tasks	handed the business to his son
+483	483	head	publicar	Publicó su primer libro.	phone-computer	free-time	published his first book
+1769	1769	head	informatizar	Informatizaron la oficina.	phone-computer	work-tasks	the office was computerised
+376	376	head	compartir	Compartimos un departamento.	terere-drinking	house-renting	sharing a flat
+159	159	head	parar	Pará un segundo.	transport-colectivo	asking-understanding	hang on a second
+113x5	113	extra	subir	Ha subido mucho el precio.	transport-colectivo	buying-paying	the price has gone up
+29x5	29	extra	volver	He vuelto a empezar de cero.	transport-colectivo	change-cause	started again from zero
+74x5	74	extra	partir	He partido de cero varias veces.	transport-colectivo	change-cause	started from scratch several times
+74x1	74	extra	partir	Parto el pan en dos.	transport-colectivo	cooking-kitchen	breaking bread in two
+1349	1349	head	desplazarse	Me desplazo en moto.	transport-colectivo	driving-moto	I get around by moto
+1420	1420	head	emboscar	Los emboscaron en el camino.	transport-colectivo	emergencies	ambushed on the road
+1976	1976	head	abusar	No abuses de la confianza.	transport-colectivo	feelings-conflict	don't abuse the trust
+28x4	28	extra	salir	Salía a correr antes de que hiciera calor.	transport-colectivo	free-time	going out running
+393	393	head	parar	Me paré para saludarlo.	transport-colectivo	greeting-small-talk	stood up to greet him
+74x4	74	extra	partir	Partilo por la mitad.	transport-colectivo	haggling-quantities	split it in half
+114x5	114	extra	bajar	He bajado el precio todo lo que pude.	transport-colectivo	haggling-quantities	brought the price down
+113	113	head	subir	Subí al segundo piso.	transport-colectivo	house-renting	up to the second floor
+13x6	13	extra	llegar	He llegado a conocer bien el barrio.	transport-colectivo	migration-abroad	come to know the barrio well
+28x6	28	extra	salir	He salido poco desde que llegué.	transport-colectivo	migration-abroad	been out little since I arrived
+1490	1490	head	expandirse	Se expandieron al interior.	transport-colectivo	news-institutions	expanded into the interior
+1805	1805	head	zafar	Zafé del examen por poco.	transport-colectivo	study-school	scraped out of the exam
+74	74	head	partir	El vuelo parte a medianoche.	transport-colectivo	travel-trips	the flight leaves at midnight
+274	274	head	despegar	El avión despegó tarde.	transport-colectivo	travel-trips	the plane took off late
+275	275	head	aterrizar	Aterrizamos a las seis de la mañana.	transport-colectivo	travel-trips	we landed at six
+590	590	head	empacar	Empaqué todo en dos valijas.	transport-colectivo	travel-trips	packed two suitcases
+1347	1347	head	pernoctar	Pernoctamos en Encarnación.	transport-colectivo	travel-trips	overnighted in Encarnación
+1348	1348	head	hospedarse	Nos hospedamos con una familia.	transport-colectivo	travel-trips	stayed with a family
+1354	1354	head	embarcar	Embarcamos a las seis.	transport-colectivo	travel-trips	we board at six
+1355	1355	head	desembarcar	Desembarcaron en el puerto.	transport-colectivo	travel-trips	disembarked at the port
+1356	1356	head	zarpar	El barco zarpa al mediodía.	transport-colectivo	travel-trips	the boat sails at midday
+1357	1357	head	atracar	Atracaron en el muelle viejo.	transport-colectivo	travel-trips	moored at the old jetty
+1360	1360	head	encallar	Encalló en el banco de arena.	transport-colectivo	travel-trips	ran aground on the sandbank
+1363	1363	head	aterrizar (forzoso)	Aterrizaron de emergencia.	transport-colectivo	travel-trips	emergency landing
+1364	1364	head	sobrevolar	Sobrevolamos el Chaco.	transport-colectivo	travel-trips	flew over the Chaco
+422	422	head	volar	Los pájaros vuelan bajo antes de la lluvia.	transport-colectivo	weather-heat	birds fly low before rain
+26x1	26	extra	venir	Vengo de la oficina, estoy muerto.	transport-colectivo	work-tasks	coming from the office
+1647	1647	head	regentear	Regentea dos locales.	transport-colectivo	work-tasks	runs two shops
+694	694	head	estafar	Lo estafaron por internet.	weather-heat	phone-computer	scammed online
+1740	1740	head	capacitarse	Me capacité por internet.	weather-heat	study-school	trained online
+971	971	head	enfriarse	Dejá que se enfríe el tereré.	weather-heat	terere-drinking	let the tereré cool
+96	96	head	cumplir	Mañana cumplo treinta años.	work-tasks	family-friends	turning thirty tomorrow
+1759	1759	head	improvisarse	Se improvisó una fiesta.	work-tasks	free-time	a party sprang up
+749	749	head	triunfar	Triunfó en el extranjero.	work-tasks	migration-abroad	made it abroad
+1222	1222	head	anhelar	Anhelaba volver algún día.	work-tasks	migration-abroad	longed to go back one day
+51x2	51	extra	terminar	Terminé el trámite por fin.	work-tasks	paperwork-bureaucracy	finally finished the paperwork
+37	37	head	empezar	La clase empieza a las nueve.	work-tasks	study-school	class starts at nine
+222	222	head	aprender	Estoy aprendiendo de a poco.	work-tasks	study-school	learning bit by bit
+223	223	head	enseñar	¿Me enseñás una palabra en guaraní?	work-tasks	study-school	teach me a word in Guaraní
+227	227	head	corregir	Corregime si digo algo mal.	work-tasks	study-school	correct me if I say it wrong
+710	710	head	asistir	Asistí a todas las clases.	work-tasks	study-school	attended every class
+731	731	head	capacitar	Nos capacitaron una semana.	work-tasks	study-school	a week's training
+732	732	head	evaluar	Evalúan el desempeño cada año.	work-tasks	study-school	performance assessed
+733	733	head	calificar	Califican del uno al diez.	work-tasks	study-school	graded one to ten
+734	734	head	aprobar	Aprobé el examen.	work-tasks	study-school	passed the exam
+735	735	head	reprobar	Reprobó matemática.	work-tasks	study-school	failed maths
+736	736	head	graduarse	Se gradúa en diciembre.	work-tasks	study-school	graduating in December
+751	751	head	sobresalir	Sobresale en matemática.	work-tasks	study-school	excels at maths
+1177	1177	head	plagiar	Lo acusaron de plagiar.	work-tasks	study-school	accused of plagiarism
+1179	1179	head	corregirse	Se corrige solo con la práctica.	work-tasks	study-school	corrects itself with practice
+1225	1225	head	aspirar a	Aspiro a hablar sin pensar.	work-tasks	study-school	aiming to speak without thinking
+37x4	37	extra	empezar	Empezaba a acostumbrarme al calor.	work-tasks	weather-heat	getting used to the heat

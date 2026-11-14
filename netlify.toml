@@ -1,0 +1,54 @@
+[build]
+  publish = "dist"
+
+# No build step: dist/ is committed ready to serve.
+
+[[headers]]
+  for = "/audio/*"
+  [headers.values]
+    # A topic pack DOES change in place when a sentence in it is corrected, so
+    # the app fetches it with ?v=<hash of its index>. That makes the URL change
+    # with the content, which is what makes keeping it forever safe.
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# The service worker precaches these at install, so a stale browser copy would
+# be baked into the new cache. They must always be revalidated.
+[[headers]]
+  for = "/conjugations.json"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/edges.json"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/pron.json"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# The deploy stamp exists to be asked "what is live". A cached answer to that
+# question is worse than no answer.
+[[headers]]
+  for = "/build.json"
+  [headers.values]
+    Cache-Control = "no-store"
+
+# The manifest is served from manifest.json, not manifest.webmanifest, because
+# Netlify has no MIME mapping for .webmanifest and sends application/octet-stream,
+# which some browsers refuse to install a PWA from. A Content-Type override here
+# does not reliably fix it: the CDN stores the response headers against the body's
+# ETag, and a header-only config change leaves that ETag untouched, so
+# revalidation returns 304 and the old headers keep being served. The .json
+# extension gets application/json from Netlify's own map, which browsers accept.

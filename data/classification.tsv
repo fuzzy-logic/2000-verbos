@@ -1,0 +1,2767 @@
+key	scene	tags
+1	migration-abroad	drill:being-feeling
+1x1	migration-abroad	drill:being-feeling
+1x2	work-tasks	drill:being-feeling
+1x3	family-friends	drill:being-feeling
+1x4	paperwork-bureaucracy	drill:being-feeling
+1x5	conversation-opinion	drill:being-feeling
+2	haggling-quantities	drill:being-feeling
+2x1	transport-colectivo	drill:being-feeling
+2x2	fixing-breaking-power	drill:being-feeling
+2x3	weather-heat	drill:being-feeling
+3	greeting-small-talk	drill:being-feeling
+3x1	arranging-to-meet	drill:being-feeling
+3x2	travel-trips	drill:being-feeling
+3x3	arranging-to-meet	drill:being-feeling
+3x4	arranging-to-meet	drill:being-feeling
+3x5	travel-trips	drill:being-feeling
+4	buying-paying	drill:yes-no-maybe
+4x1	greeting-small-talk	drill:yes-no-maybe
+4x2	driving-moto	drill:yes-no-maybe
+4x3	phone-computer	drill:yes-no-maybe
+4x4	emergencies	drill:yes-no-maybe
+4x5	body-illness-pharmacy	drill:yes-no-maybe
+5	weather-heat	drill:being-feeling
+5x1	study-school	drill:being-feeling
+5x2	free-time	drill:being-feeling
+5x3	paperwork-bureaucracy	drill:being-feeling
+5x4	weather-heat	drill:being-feeling
+5x5	feelings-conflict	drill:being-feeling
+5x6	work-tasks	drill:being-feeling
+6	asking-understanding	drill:yes-no-maybe
+6x1	arranging-to-meet	drill:yes-no-maybe
+6x2	arranging-to-meet	drill:yes-no-maybe
+6x3	weather-heat	drill:yes-no-maybe
+6x4	directions-places	drill:yes-no-maybe
+7	conversation-opinion	
+7x1	conversation-opinion	
+7x2	conversation-opinion	
+7x3	conversation-opinion	
+7x4	conversation-opinion	
+7x5	conversation-opinion	
+7x6	conversation-opinion	
+8	transport-colectivo	
+8x1	transport-colectivo	
+8x2	transport-colectivo	haggling-quantities
+8x3	transport-colectivo	
+8x4	transport-colectivo	
+8x5	transport-colectivo	
+9	body-illness-pharmacy	drill:seeing-noticing
+9x1	directions-places	drill:seeing-noticing
+9x2	family-friends	drill:seeing-noticing
+9x3	free-time	drill:seeing-noticing
+9x4	weather-heat	drill:seeing-noticing
+10	asking-understanding	drill:being-feeling
+10x1	phone-computer	drill:being-feeling
+10x2	house-renting	drill:being-feeling
+10x3	study-school	drill:being-feeling
+10x4	asking-understanding	drill:being-feeling
+10x5	feelings-conflict	drill:being-feeling
+11	study-school	drill:thinking-knowing
+11x1	directions-places	drill:thinking-knowing
+11x2	conversation-opinion	drill:thinking-knowing
+11x3	celebration-religion	drill:thinking-knowing
+11x4	family-friends	drill:thinking-knowing
+11x5	asking-understanding	drill:thinking-knowing
+12	study-school	drill:yes-no-maybe
+12x1	terere-drinking	drill:yes-no-maybe
+12x2	phone-computer	drill:yes-no-maybe
+12x3	asking-understanding	drill:yes-no-maybe
+12x4	family-friends	drill:yes-no-maybe
+12x5	study-school	drill:yes-no-maybe
+13	transport-colectivo	
+13x1	transport-colectivo	
+13x2	transport-colectivo	
+13x3	transport-colectivo	
+13x4	transport-colectivo	work-tasks
+13x5	transport-colectivo	
+13x6	migration-abroad	directions-places
+14	conversation-opinion	
+14x1	conversation-opinion	
+14x2	conversation-opinion	
+14x3	paperwork-bureaucracy	
+14x4	free-time	
+14x5	greeting-small-talk	
+14x6	feelings-conflict	
+15	bank-cash-credit	drill:yes-no-maybe
+15x1	arranging-to-meet	drill:yes-no-maybe
+15x2	paperwork-bureaucracy	drill:yes-no-maybe
+15x3	bank-cash-credit	drill:yes-no-maybe
+15x4	migration-abroad	drill:yes-no-maybe
+16	buying-paying	drill:doing-handling
+16x1	terere-drinking	drill:doing-handling
+16x2	daily-routine	drill:doing-handling
+16x3	buying-paying	drill:doing-handling
+16x4	phone-computer	drill:doing-handling
+16x5	house-renting	drill:doing-handling
+17	conversation-opinion	drill:being-feeling
+17x1	greeting-small-talk	drill:being-feeling
+17x2	family-friends	drill:being-feeling
+17x3	feelings-conflict	drill:being-feeling
+17x4	directions-places	drill:being-feeling
+17x5	conversation-opinion	drill:being-feeling
+18	arranging-to-meet	drill:being-feeling
+18x1	arranging-to-meet	drill:being-feeling
+18x2	arranging-to-meet	drill:being-feeling
+18x3	arranging-to-meet	drill:being-feeling
+18x4	bank-cash-credit	drill:being-feeling
+18x5	greeting-small-talk	drill:being-feeling
+18x6	bank-cash-credit	drill:being-feeling
+19	conversation-opinion	drill:thinking-knowing
+19x1	weather-heat	drill:thinking-knowing
+19x2	celebration-religion	drill:thinking-knowing
+19x3	study-school	drill:thinking-knowing
+19x4	feelings-conflict	drill:thinking-knowing
+19x5	conversation-opinion	drill:thinking-knowing
+20	conversation-opinion	
+20x1	conversation-opinion	
+20x2	conversation-opinion	
+20x3	conversation-opinion	
+20x4	conversation-opinion	
+20x5	conversation-opinion	
+21	driving-moto	drill:doing-handling
+21x1	migration-abroad	drill:doing-handling
+21x2	driving-moto	drill:doing-handling
+21x3	weather-heat	drill:doing-handling
+21x4	house-chores	drill:doing-handling
+21x5	study-school	drill:doing-handling
+22	greeting-small-talk	drill:yes-no-maybe
+22x1	house-renting	drill:yes-no-maybe
+22x2	greeting-small-talk	drill:yes-no-maybe
+22x3	body-illness-pharmacy	drill:yes-no-maybe
+22x4	house-renting	drill:yes-no-maybe
+22x5	work-tasks	drill:yes-no-maybe
+23	directions-places	
+23x1	study-school	
+23x2	house-renting	
+23x3	conversation-opinion	
+23x4	asking-understanding	
+23x5	conversation-opinion	
+24	daily-routine	drill:seeing-noticing
+24x1	daily-routine	drill:seeing-noticing
+24x2	greeting-small-talk	drill:seeing-noticing
+24x3	directions-places	drill:seeing-noticing
+24x4	arranging-to-meet	drill:seeing-noticing
+24x5	free-time	drill:seeing-noticing
+25	greeting-small-talk	
+25x1	greeting-small-talk	
+25x2	greeting-small-talk	
+25x3	greeting-small-talk	
+25x4	greeting-small-talk	
+25x5	greeting-small-talk	
+26	transport-colectivo	haggling-quantities
+26x1	work-tasks	
+26x2	transport-colectivo	
+26x3	transport-colectivo	
+26x4	transport-colectivo	
+26x5	transport-colectivo	
+27	house-renting	drill:thinking-knowing
+27x1	conversation-opinion	drill:thinking-knowing
+27x2	directions-places	drill:thinking-knowing
+27x3	migration-abroad	drill:thinking-knowing
+27x4	paperwork-bureaucracy	drill:thinking-knowing
+27x5	conversation-opinion	drill:thinking-knowing
+28	transport-colectivo	
+28x1	transport-colectivo	
+28x2	transport-colectivo	
+28x3	transport-colectivo	
+28x4	free-time	weather-heat
+28x5	transport-colectivo	
+28x6	migration-abroad	
+29	transport-colectivo	
+29x1	transport-colectivo	
+29x2	transport-colectivo	
+29x3	transport-colectivo	
+29x4	transport-colectivo	
+29x5	migration-abroad	drill:change-cause
+30	terere-drinking	
+30x1	terere-drinking	
+30x2	terere-drinking	
+30x3	transport-colectivo	
+30x4	terere-drinking	
+30x5	terere-drinking	
+30x6	weather-heat	
+31	greeting-small-talk	
+31x1	greeting-small-talk	
+31x2	greeting-small-talk	
+31x3	greeting-small-talk	
+31x4	greeting-small-talk	
+32	house-renting	
+32x1	house-renting	
+32x2	house-renting	
+32x3	house-renting	
+32x4	house-renting	
+32x5	house-renting	
+33	body-illness-pharmacy	drill:being-feeling
+33x1	weather-heat	drill:being-feeling
+33x2	body-illness-pharmacy	drill:being-feeling
+33x3	study-school	drill:being-feeling
+33x4	greeting-small-talk	drill:being-feeling
+33x5	migration-abroad	drill:being-feeling
+34	study-school	drill:yes-no-maybe
+34x1	study-school	drill:yes-no-maybe
+34x2	asking-understanding	drill:yes-no-maybe
+34x3	study-school	drill:yes-no-maybe
+34x4	arranging-to-meet	drill:yes-no-maybe
+34x5	conversation-opinion	drill:yes-no-maybe
+35	conversation-opinion	drill:seeing-noticing
+35x1	study-school	drill:seeing-noticing
+35x2	free-time	drill:seeing-noticing
+35x3	buying-paying	drill:seeing-noticing
+35x4	transport-colectivo	drill:seeing-noticing
+35x5	daily-routine	drill:seeing-noticing
+36	haggling-quantities	
+36x1	haggling-quantities	
+36x2	haggling-quantities	
+36x3	family-friends	
+36x4	haggling-quantities	
+37	study-school	
+37x1	study-school	
+37x2	study-school	
+37x3	study-school	
+37x4	weather-heat	
+37x5	study-school	
+37x6	study-school	
+38	arranging-to-meet	
+38x1	arranging-to-meet	
+38x2	arranging-to-meet	
+38x3	arranging-to-meet	
+38x4	arranging-to-meet	
+39	body-illness-pharmacy	drill:seeing-noticing
+39x1	house-renting	drill:seeing-noticing
+39x2	asking-understanding	drill:seeing-noticing
+39x3	daily-routine	drill:seeing-noticing
+39x4	work-tasks	drill:seeing-noticing
+39x5	house-chores	drill:seeing-noticing
+39x6	study-school	drill:seeing-noticing
+40	conversation-opinion	drill:being-feeling
+40x1	directions-places	drill:being-feeling
+40x2	conversation-opinion	drill:being-feeling
+40x3	news-institutions	drill:being-feeling
+41	greeting-small-talk	
+41x1	work-tasks	
+41x2	greeting-small-talk	
+41x3	greeting-small-talk	
+41x4	greeting-small-talk	
+41x5	greeting-small-talk	
+42	work-tasks	
+42x1	work-tasks	
+42x2	work-tasks	
+42x3	work-tasks	
+42x4	work-tasks	
+42x5	work-tasks	
+43	phone-computer	
+43x1	phone-computer	
+43x2	phone-computer	directions-places
+43x3	phone-computer	
+43x4	phone-computer	
+43x5	phone-computer	
+44	transport-colectivo	drill:doing-handling
+44x1	transport-colectivo	drill:doing-handling
+44x2	driving-moto	drill:doing-handling
+44x3	daily-routine	drill:doing-handling
+44x4	study-school	drill:doing-handling
+44x5	paperwork-bureaucracy	drill:doing-handling
+45	countryside-farming	drill:change-cause
+45x1	work-tasks	drill:change-cause
+45x2	house-renting	drill:change-cause
+45x3	countryside-farming	drill:change-cause
+46	conversation-opinion	drill:change-cause
+46x1	migration-abroad	drill:change-cause
+46x2	weather-heat	drill:change-cause
+46x3	conversation-opinion	drill:change-cause
+47	asking-understanding	
+47x1	asking-understanding	
+47x2	asking-understanding	
+47x3	asking-understanding	
+47x4	asking-understanding	
+47x5	asking-understanding	
+48	ordering-eating	
+48x1	ordering-eating	
+48x2	ordering-eating	
+48x3	ordering-eating	
+48x4	asking-understanding	
+48x5	paperwork-bureaucracy	
+49	greeting-small-talk	
+49x1	work-tasks	
+49x2	greeting-small-talk	
+49x3	greeting-small-talk	
+49x4	greeting-small-talk	
+49x5	greeting-small-talk	
+50	greeting-small-talk	drill:thinking-knowing
+50x1	daily-routine	drill:thinking-knowing
+50x2	phone-computer	drill:thinking-knowing
+50x3	greeting-small-talk	drill:thinking-knowing
+50x4	paperwork-bureaucracy	drill:thinking-knowing
+50x5	conversation-opinion	drill:thinking-knowing
+51	work-tasks	
+51x1	work-tasks	
+51x2	paperwork-bureaucracy	
+51x3	work-tasks	
+51x4	work-tasks	
+51x5	work-tasks	
+52	paperwork-bureaucracy	drill:yes-no-maybe
+52x1	terere-drinking	drill:yes-no-maybe
+52x2	greeting-small-talk	drill:yes-no-maybe
+52x3	work-tasks	drill:yes-no-maybe
+52x4	house-renting	drill:yes-no-maybe
+52x5	free-time	drill:yes-no-maybe
+53	family-friends	drill:seeing-noticing
+53x1	arranging-to-meet	drill:seeing-noticing
+53x2	work-tasks	drill:seeing-noticing
+53x3	arranging-to-meet	drill:seeing-noticing
+53x4	arranging-to-meet	drill:seeing-noticing
+53x5	news-institutions	drill:seeing-noticing
+54	phone-computer	drill:yes-no-maybe
+54x1	terere-drinking	drill:yes-no-maybe
+54x2	body-illness-pharmacy	drill:yes-no-maybe
+54x3	asking-understanding	drill:yes-no-maybe
+54x4	paperwork-bureaucracy	drill:yes-no-maybe
+54x5	migration-abroad	drill:yes-no-maybe
+55	work-tasks	
+55x1	work-tasks	
+55x2	work-tasks	
+55x3	work-tasks	
+55x4	work-tasks	
+55x5	work-tasks	
+56	conversation-opinion	drill:being-feeling
+56x1	ordering-eating	drill:being-feeling
+56x2	ordering-eating	drill:being-feeling
+56x3	ordering-eating	drill:being-feeling
+56x4	fixing-breaking-power	drill:being-feeling
+56x5	ordering-eating	drill:being-feeling
+56x6	conversation-opinion	drill:being-feeling
+57	bank-cash-credit	drill:doing-handling
+57x1	bank-cash-credit	drill:doing-handling
+57x2	free-time	drill:doing-handling
+57x3	phone-computer	drill:doing-handling
+57x4	house-chores	drill:doing-handling
+57x5	travel-trips	drill:doing-handling
+58	asking-understanding	drill:yes-no-maybe
+58x1	paperwork-bureaucracy	drill:yes-no-maybe
+58x2	house-renting	drill:yes-no-maybe
+58x3	conversation-opinion	drill:yes-no-maybe
+58x4	migration-abroad	drill:yes-no-maybe
+59	feelings-conflict	drill:change-cause
+59x1	work-tasks	drill:change-cause
+59x2	family-friends	drill:change-cause
+59x3	feelings-conflict	drill:change-cause
+59x4	work-tasks	drill:change-cause
+59x5	terere-drinking	drill:change-cause
+60	conversation-opinion	drill:being-feeling
+60x1	buying-paying	drill:being-feeling
+60x2	study-school	drill:being-feeling
+60x3	buying-paying	drill:being-feeling
+61	free-time	news-institutions
+61x1	free-time	
+61x2	free-time	formal-written
+61x3	free-time	news-institutions
+61x4	free-time	
+61x5	free-time	
+62	emergencies	
+62x1	weather-heat	
+62x2	emergencies	
+62x3	emergencies	
+62x4	emergencies	
+62x5	emergencies	
+63	buying-paying	
+63x1	bank-cash-credit	
+63x2	buying-paying	
+63x3	house-renting	directions-places
+63x4	buying-paying	
+63x5	buying-paying	
+63x6	buying-paying	
+64	greeting-small-talk	
+64x1	greeting-small-talk	
+64x2	paperwork-bureaucracy	
+64x3	greeting-small-talk	
+64x4	greeting-small-talk	
+64x5	paperwork-bureaucracy	
+65	phone-computer	
+65x1	phone-computer	
+65x2	work-tasks	
+65x3	phone-computer	
+65x4	feelings-conflict	
+65x5	daily-routine	
+66	buying-paying	drill:doing-handling
+66x1	work-tasks	drill:doing-handling
+66x2	work-tasks	drill:doing-handling
+66x3	bank-cash-credit	drill:doing-handling
+66x4	weather-heat	drill:doing-handling
+66x5	house-renting	drill:doing-handling
+66x6	daily-routine	drill:doing-handling
+67	conversation-opinion	drill:thinking-knowing
+67x1	house-renting	drill:thinking-knowing
+67x2	migration-abroad	drill:thinking-knowing
+67x3	work-tasks	drill:thinking-knowing
+67x4	migration-abroad	drill:thinking-knowing
+67x5	conversation-opinion	drill:thinking-knowing
+68	conversation-opinion	
+68x1	conversation-opinion	
+68x2	conversation-opinion	
+68x3	conversation-opinion	
+68x4	conversation-opinion	
+68x5	conversation-opinion	
+69	travel-trips	drill:doing-handling
+69x1	greeting-small-talk	drill:doing-handling
+69x2	paperwork-bureaucracy	drill:doing-handling
+69x3	daily-routine	drill:doing-handling
+69x4	feelings-conflict	drill:doing-handling
+69x5	study-school	drill:doing-handling
+70	bank-cash-credit	
+70x1	bank-cash-credit	
+70x2	terere-drinking	
+70x3	bank-cash-credit	
+70x4	migration-abroad	directions-places
+71	work-tasks	
+71x1	work-tasks	
+71x2	work-tasks	
+71x3	work-tasks	
+71x4	work-tasks	
+71x5	work-tasks	
+72	paperwork-bureaucracy	
+72x1	paperwork-bureaucracy	
+72x2	paperwork-bureaucracy	
+72x3	paperwork-bureaucracy	
+72x4	paperwork-bureaucracy	
+72x5	paperwork-bureaucracy	
+73	ordering-eating	drill:doing-handling
+73x1	terere-drinking	drill:doing-handling
+73x2	terere-drinking	drill:doing-handling
+73x3	paperwork-bureaucracy	drill:doing-handling
+73x4	terere-drinking	drill:doing-handling
+73x5	buying-paying	drill:doing-handling
+74	travel-trips	
+74x1	cooking-kitchen	
+74x2	travel-trips	
+74x3	travel-trips	transport-colectivo
+74x4	haggling-quantities	
+74x5	migration-abroad	drill:change-cause
+75	ordering-eating	
+75x1	weather-heat	
+75x2	ordering-eating	
+75x3	ordering-eating	
+75x4	ordering-eating	
+76	buying-paying	drill:yes-no-maybe
+76x1	buying-paying	drill:yes-no-maybe
+76x2	haggling-quantities	drill:yes-no-maybe
+76x3	conversation-opinion	drill:yes-no-maybe
+76x4	feelings-conflict	drill:yes-no-maybe
+76x5	conversation-opinion	drill:yes-no-maybe
+76x6	study-school	drill:yes-no-maybe
+77	paperwork-bureaucracy	drill:doing-handling
+77x1	bank-cash-credit	drill:doing-handling
+77x2	paperwork-bureaucracy	drill:doing-handling
+77x3	paperwork-bureaucracy	drill:doing-handling
+77x4	haggling-quantities	drill:doing-handling
+77x5	bank-cash-credit	drill:doing-handling
+78	conversation-opinion	drill:thinking-knowing
+78x1	arranging-to-meet	drill:thinking-knowing
+78x2	buying-paying	drill:thinking-knowing
+78x3	study-school	drill:thinking-knowing
+78x4	arranging-to-meet	drill:thinking-knowing
+78x5	conversation-opinion	drill:thinking-knowing
+79	asking-understanding	
+79x1	asking-understanding	
+79x2	asking-understanding	
+79x3	asking-understanding	
+79x4	asking-understanding	
+79x5	asking-understanding	
+80	study-school	drill:yes-no-maybe
+80x1	study-school	drill:yes-no-maybe
+80x2	study-school	drill:yes-no-maybe
+80x3	study-school	drill:yes-no-maybe
+80x4	study-school	drill:yes-no-maybe
+80x5	study-school	drill:yes-no-maybe
+81	asking-understanding	
+81x1	asking-understanding	
+81x2	asking-understanding	
+81x3	asking-understanding	
+81x4	asking-understanding	
+81x5	asking-understanding	
+82	asking-understanding	
+82x1	asking-understanding	
+82x2	asking-understanding	
+82x3	asking-understanding	directions-places
+82x4	asking-understanding	
+82x5	asking-understanding	
+83	free-time	drill:doing-handling
+83x1	free-time	drill:doing-handling
+83x2	free-time	drill:doing-handling
+83x3	arranging-to-meet	drill:doing-handling
+83x4	paperwork-bureaucracy	drill:doing-handling
+83x5	arranging-to-meet	drill:doing-handling
+83x6	study-school	drill:doing-handling
+84	greeting-small-talk	drill:seeing-noticing
+84x1	feelings-conflict	drill:seeing-noticing
+84x2	asking-understanding	drill:seeing-noticing
+84x3	family-friends	drill:seeing-noticing
+84x4	conversation-opinion	drill:seeing-noticing
+84x5	study-school	drill:seeing-noticing
+85	study-school	
+85x1	study-school	
+85x2	study-school	
+85x3	study-school	
+85x4	study-school	
+85x5	study-school	
+86	bank-cash-credit	
+86x1	bank-cash-credit	
+86x2	bank-cash-credit	work-tasks
+86x3	bank-cash-credit	
+86x4	bank-cash-credit	
+87	family-friends	
+87x1	family-friends	
+87x2	family-friends	
+87x3	family-friends	
+87x4	weather-heat	
+88	work-tasks	
+88x1	work-tasks	
+88x2	work-tasks	
+88x3	work-tasks	
+88x4	work-tasks	
+88x5	work-tasks	
+89	free-time	
+89x1	free-time	
+89x2	free-time	transport-colectivo
+89x3	free-time	weather-heat
+89x4	free-time	
+89x5	free-time	
+90	phone-computer	drill:doing-handling
+90x1	phone-computer	drill:doing-handling
+90x2	study-school	drill:doing-handling
+90x3	study-school	drill:doing-handling
+90x4	paperwork-bureaucracy	drill:doing-handling
+90x5	study-school	drill:doing-handling
+91	buying-paying	
+91x1	buying-paying	haggling-quantities
+91x2	buying-paying	
+91x3	buying-paying	
+91x4	house-renting	
+91x5	buying-paying	
+91x6	buying-paying	
+92	family-friends	
+92x1	family-friends	haggling-quantities
+92x2	family-friends	
+92x3	family-friends	house-renting
+92x4	family-friends	
+92x5	family-friends	
+92x6	family-friends	
+93	ordering-eating	drill:being-feeling
+93x1	terere-drinking	drill:being-feeling
+93x2	feelings-conflict	drill:being-feeling
+93x3	free-time	drill:being-feeling
+93x4	ordering-eating	drill:being-feeling
+93x5	migration-abroad	drill:being-feeling
+94	free-time	
+94x1	free-time	
+94x2	free-time	
+94x3	free-time	
+94x4	free-time	
+94x5	free-time	
+94x6	free-time	
+95	conversation-opinion	
+95x1	conversation-opinion	
+95x2	conversation-opinion	
+95x3	conversation-opinion	
+95x4	free-time	transport-colectivo
+95x5	conversation-opinion	
+96	family-friends	
+96x1	family-friends	
+96x2	family-friends	
+96x3	family-friends	
+96x4	family-friends	
+96x5	family-friends	
+97	buying-paying	
+97x1	buying-paying	
+97x2	buying-paying	
+97x3	buying-paying	
+97x4	haggling-quantities	
+97x5	buying-paying	
+97x6	buying-paying	
+98	ordering-eating	drill:seeing-noticing
+98x1	migration-abroad	drill:seeing-noticing
+98x2	directions-places	drill:seeing-noticing
+98x3	ordering-eating	drill:seeing-noticing
+98x4	study-school	drill:seeing-noticing
+98x5	study-school	drill:seeing-noticing
+99	daily-routine	drill:doing-handling
+99x1	daily-routine	drill:doing-handling
+99x2	daily-routine	drill:doing-handling
+99x3	daily-routine	drill:doing-handling
+99x4	daily-routine	drill:doing-handling
+100	conversation-opinion	drill:yes-no-maybe
+100x1	study-school	drill:yes-no-maybe
+100x2	study-school	drill:yes-no-maybe
+100x3	asking-understanding	drill:yes-no-maybe
+100x4	study-school	drill:yes-no-maybe
+100x5	study-school	drill:yes-no-maybe
+100x6	study-school	drill:yes-no-maybe
+101	greeting-small-talk	drill:doing-handling
+101x1	transport-colectivo	drill:doing-handling
+101x2	body-illness-pharmacy	drill:doing-handling
+101x3	driving-moto	drill:doing-handling
+101x4	weather-heat	drill:doing-handling
+101x5	weather-heat	drill:doing-handling
+101x6	buying-paying	drill:doing-handling
+102	conversation-opinion	drill:thinking-knowing
+102x1	arranging-to-meet	drill:thinking-knowing
+102x2	conversation-opinion	drill:thinking-knowing
+102x3	migration-abroad	drill:thinking-knowing
+102x4	house-renting	drill:thinking-knowing
+102x5	migration-abroad	drill:thinking-knowing
+103	asking-understanding	
+103x1	asking-understanding	
+103x2	asking-understanding	
+103x3	asking-understanding	
+103x4	asking-understanding	
+103x5	asking-understanding	
+104	daily-routine	drill:thinking-knowing
+104x1	greeting-small-talk	drill:thinking-knowing
+104x2	daily-routine	drill:thinking-knowing
+104x3	greeting-small-talk	drill:thinking-knowing
+104x4	feelings-conflict	drill:thinking-knowing
+104x5	phone-computer	drill:thinking-knowing
+105	buying-paying	drill:being-feeling
+105x1	haggling-quantities	drill:being-feeling
+105x2	travel-trips	drill:being-feeling
+105x3	buying-paying	drill:being-feeling
+105x4	haggling-quantities	drill:being-feeling
+106	ordering-eating	
+106x1	ordering-eating	
+106x2	ordering-eating	
+106x3	ordering-eating	
+106x4	ordering-eating	
+106x5	ordering-eating	
+106x6	ordering-eating	
+107	phone-computer	drill:doing-handling
+107x1	study-school	drill:doing-handling
+107x2	phone-computer	drill:doing-handling
+107x3	travel-trips	drill:doing-handling
+107x4	directions-places	drill:doing-handling
+107x5	directions-places	drill:doing-handling
+108	buying-paying	drill:change-cause
+108x1	travel-trips	drill:change-cause
+108x2	ordering-eating	drill:change-cause
+108x3	work-tasks	drill:change-cause
+108x4	house-renting	drill:change-cause
+108x5	paperwork-bureaucracy	drill:change-cause
+109	work-tasks	drill:change-cause
+109x1	study-school	drill:change-cause
+109x2	study-school	drill:change-cause
+109x3	work-tasks	drill:change-cause
+109x4	weather-heat	drill:change-cause
+109x5	daily-routine	drill:change-cause
+110	buying-paying	drill:doing-handling
+110x1	work-tasks	drill:doing-handling
+110x2	work-tasks	drill:doing-handling
+110x3	bank-cash-credit	drill:doing-handling
+110x4	buying-paying	drill:doing-handling
+110x5	house-renting	drill:doing-handling
+110x6	house-renting	drill:doing-handling
+111	haggling-quantities	
+111x1	haggling-quantities	
+111x2	haggling-quantities	terere-drinking
+111x3	haggling-quantities	buying-paying
+111x4	haggling-quantities	
+111x5	haggling-quantities	
+112	buying-paying	
+112x1	buying-paying	driving-moto
+112x2	buying-paying	
+112x3	buying-paying	
+112x4	buying-paying	ordering-eating
+112x5	buying-paying	
+112x6	buying-paying	
+113	house-renting	
+113x1	house-renting	
+113x2	house-renting	
+113x3	transport-colectivo	
+113x4	house-renting	
+113x5	buying-paying	
+114	transport-colectivo	
+114x1	transport-colectivo	directions-places
+114x2	transport-colectivo	
+114x3	transport-colectivo	directions-places
+114x4	transport-colectivo	
+114x5	haggling-quantities	buying-paying
+115	directions-places	
+115x1	directions-places	weather-heat
+115x2	directions-places	
+115x3	directions-places	
+115x4	directions-places	
+115x5	directions-places	
+115x6	directions-places	
+116	daily-routine	
+116x1	daily-routine	fixing-breaking-power
+116x2	daily-routine	weather-heat
+116x3	daily-routine	
+116x4	daily-routine	
+116x5	daily-routine	
+117	daily-routine	
+117x1	daily-routine	
+117x2	daily-routine	weather-heat
+117x3	daily-routine	
+117x4	daily-routine	
+117x5	daily-routine	
+118	daily-routine	weather-heat
+118x1	daily-routine	
+118x2	daily-routine	
+118x3	daily-routine	
+118x4	daily-routine	
+118x5	daily-routine	
+119	daily-routine	
+119x1	daily-routine	
+119x2	daily-routine	
+119x3	daily-routine	
+119x4	daily-routine	
+119x5	daily-routine	
+119x6	daily-routine	
+120	cooking-kitchen	family-friends
+120x1	cooking-kitchen	
+120x2	cooking-kitchen	
+120x3	cooking-kitchen	
+120x4	cooking-kitchen	
+120x5	cooking-kitchen	
+120x6	cooking-kitchen	
+121	house-chores	
+121x1	house-chores	
+121x2	house-chores	house-renting
+121x3	house-chores	
+121x4	house-chores	
+121x5	house-chores	
+122	driving-moto	
+122x1	driving-moto	
+122x2	driving-moto	
+122x3	driving-moto	
+122x4	driving-moto	
+122x5	driving-moto	
+123	transport-colectivo	
+123x1	transport-colectivo	
+123x2	transport-colectivo	
+123x3	transport-colectivo	
+123x4	transport-colectivo	
+123x5	transport-colectivo	
+124	family-friends	
+124x1	family-friends	
+124x2	family-friends	
+124x3	family-friends	
+124x4	family-friends	
+124x5	family-friends	
+124x6	family-friends	
+125	terere-drinking	
+125x1	terere-drinking	
+125x2	terere-drinking	
+125x3	terere-drinking	
+125x4	terere-drinking	
+125x5	arranging-to-meet	ordering-eating
+126	free-time	
+126x1	free-time	
+126x2	free-time	
+126x3	free-time	
+126x4	free-time	
+126x5	free-time	
+126x6	free-time	
+127	free-time	
+127x1	free-time	daily-routine
+127x2	free-time	
+127x3	free-time	
+127x4	free-time	
+127x5	free-time	
+127x6	free-time	
+128	feelings-conflict	
+128x1	feelings-conflict	
+128x2	feelings-conflict	
+128x3	feelings-conflict	
+128x4	feelings-conflict	
+128x5	feelings-conflict	
+128x6	feelings-conflict	
+129	family-friends	ordering-eating
+129x1	family-friends	
+129x2	family-friends	
+129x3	family-friends	
+129x4	family-friends	
+129x5	family-friends	
+129x6	family-friends	
+130	feelings-conflict	
+130x1	feelings-conflict	
+130x2	feelings-conflict	
+130x3	feelings-conflict	
+130x4	feelings-conflict	
+130x5	feelings-conflict	
+130x6	feelings-conflict	
+131	conversation-opinion	
+131x1	conversation-opinion	
+131x2	conversation-opinion	
+131x3	conversation-opinion	
+131x4	conversation-opinion	
+131x5	conversation-opinion	
+131x6	conversation-opinion	
+132	conversation-opinion	
+132x1	conversation-opinion	
+132x2	conversation-opinion	
+132x3	conversation-opinion	
+132x4	conversation-opinion	
+132x5	conversation-opinion	
+133	greeting-small-talk	family-friends
+133x1	greeting-small-talk	
+133x2	greeting-small-talk	
+133x3	greeting-small-talk	
+133x4	greeting-small-talk	
+133x5	greeting-small-talk	
+134	greeting-small-talk	
+134x1	greeting-small-talk	
+134x2	greeting-small-talk	
+134x3	greeting-small-talk	
+134x4	greeting-small-talk	
+134x5	greeting-small-talk	
+135	feelings-conflict	
+135x1	feelings-conflict	
+135x2	feelings-conflict	
+135x3	feelings-conflict	
+135x4	feelings-conflict	
+135x5	feelings-conflict	
+136	feelings-conflict	
+136x1	feelings-conflict	
+136x2	feelings-conflict	
+136x3	feelings-conflict	
+136x4	feelings-conflict	
+136x5	feelings-conflict	
+137	conversation-opinion	
+137x1	conversation-opinion	
+137x2	conversation-opinion	
+137x3	conversation-opinion	
+137x4	conversation-opinion	
+137x5	conversation-opinion	
+138	conversation-opinion	
+138x1	conversation-opinion	
+138x2	conversation-opinion	
+138x3	conversation-opinion	
+138x4	conversation-opinion	
+138x5	conversation-opinion	
+138x6	conversation-opinion	
+139	feelings-conflict	
+139x1	feelings-conflict	
+139x2	family-friends	
+139x3	house-renting	
+139x4	feelings-conflict	
+139x5	feelings-conflict	
+139x6	feelings-conflict	
+140	conversation-opinion	
+140x1	conversation-opinion	
+140x2	conversation-opinion	
+140x3	haggling-quantities	buying-paying
+140x4	conversation-opinion	
+140x5	conversation-opinion	
+140x6	conversation-opinion	
+141	feelings-conflict	
+141x1	feelings-conflict	
+141x2	feelings-conflict	
+141x3	feelings-conflict	
+141x4	feelings-conflict	
+141x5	feelings-conflict	
+141x6	feelings-conflict	
+142	feelings-conflict	
+142x1	feelings-conflict	
+142x2	feelings-conflict	paperwork-bureaucracy
+142x3	feelings-conflict	
+142x4	feelings-conflict	
+142x5	feelings-conflict	
+142x6	feelings-conflict	
+143	feelings-conflict	
+143x1	feelings-conflict	
+143x2	feelings-conflict	
+143x3	feelings-conflict	
+143x4	feelings-conflict	
+143x5	feelings-conflict	house-renting
+144	feelings-conflict	
+144x1	feelings-conflict	
+144x2	feelings-conflict	news-institutions
+144x3	feelings-conflict	
+144x4	terere-drinking	
+144x5	feelings-conflict	
+144x6	feelings-conflict	
+145	family-friends	
+145x1	family-friends	
+145x2	family-friends	
+145x3	migration-abroad	weather-heat
+145x4	family-friends	
+145x5	family-friends	
+146	family-friends	
+146x1	family-friends	
+146x2	family-friends	
+146x3	family-friends	
+146x4	family-friends	
+146x5	family-friends	
+147	feelings-conflict	
+147x1	weather-heat	
+147x2	feelings-conflict	
+147x3	feelings-conflict	
+147x4	feelings-conflict	
+147x5	feelings-conflict	
+148	free-time	drill:yes-no-maybe
+148x1	terere-drinking	drill:yes-no-maybe
+148x2	free-time	drill:yes-no-maybe
+148x3	study-school	drill:yes-no-maybe
+148x4	study-school	drill:yes-no-maybe
+148x5	haggling-quantities	drill:yes-no-maybe
+149	buying-paying	
+149x1	buying-paying	
+149x2	buying-paying	
+149x3	house-renting	directions-places
+149x4	buying-paying	
+149x5	buying-paying	
+150	buying-paying	
+151	conversation-opinion	drill:thinking-knowing
+152	paperwork-bureaucracy	drill:yes-no-maybe
+153	bank-cash-credit	
+153x1	bank-cash-credit	
+153x2	house-renting	bank-cash-credit
+153x3	bank-cash-credit	
+153x4	bank-cash-credit	
+153x5	bank-cash-credit	
+154	ordering-eating	
+155	haggling-quantities	
+156	work-tasks	drill:change-cause
+157	arranging-to-meet	
+158	daily-routine	
+159	asking-understanding	
+160	conversation-opinion	
+161	formal-written	drill:doing-handling
+162	house-chores	drill:doing-handling
+163	transport-colectivo	drill:doing-handling
+164	family-friends	drill:doing-handling
+165	arranging-to-meet	drill:doing-handling
+166	greeting-small-talk	
+167	greeting-small-talk	
+168	free-time	drill:seeing-noticing
+169	feelings-conflict	drill:seeing-noticing
+170	study-school	drill:seeing-noticing
+171	fixing-breaking-power	
+172	migration-abroad	drill:thinking-knowing
+173	free-time	
+174	free-time	
+175	weather-heat	
+176	free-time	
+177	daily-routine	
+178	free-time	
+179	free-time	
+180	feelings-conflict	
+181	body-illness-pharmacy	weather-heat
+182	body-illness-pharmacy	
+183	body-illness-pharmacy	
+184	body-illness-pharmacy	
+185	body-illness-pharmacy	
+186	family-friends	
+187	family-friends	
+188	family-friends	
+189	family-friends	
+190	family-friends	drill:doing-handling
+191	house-renting	drill:change-cause
+192	infrastructure-building	
+193	phone-computer	
+194	house-renting	
+195	fixing-breaking-power	
+196	ordering-eating	
+197	greeting-small-talk	drill:being-feeling
+198	buying-paying	drill:being-feeling
+199	ordering-eating	drill:yes-no-maybe
+200	weather-heat	drill:being-feeling
+201	migration-abroad	drill:thinking-knowing
+202	work-tasks	
+203	work-tasks	
+204	cooking-kitchen	
+205	ordering-eating	
+206	free-time	drill:doing-handling
+207	family-friends	
+208	greeting-small-talk	bank-cash-credit
+209	greeting-small-talk	
+210	greeting-small-talk	family-friends
+211	greeting-small-talk	
+212	conversation-opinion	
+213	conversation-opinion	
+214	haggling-quantities	
+215	arranging-to-meet	
+216	greeting-small-talk	
+217	asking-understanding	
+218	asking-understanding	
+219	asking-understanding	
+220	phone-computer	
+221	asking-understanding	
+222	study-school	
+223	study-school	
+224	study-school	
+225	study-school	drill:change-cause
+226	body-illness-pharmacy	
+227	study-school	
+228	asking-understanding	
+229	fixing-breaking-power	phone-computer
+230	fixing-breaking-power	
+231	transport-colectivo	
+232	buying-paying	
+233	bank-cash-credit	driving-moto
+234	bank-cash-credit	
+235	family-friends	drill:yes-no-maybe
+236	buying-paying	
+237	house-renting	
+238	paperwork-bureaucracy	
+239	buying-paying	
+240	arranging-to-meet	drill:doing-handling
+241	buying-paying	drill:seeing-noticing
+242	phone-computer	directions-places
+243	phone-computer	
+244	buying-paying	
+245	buying-paying	
+246	buying-paying	drill:doing-handling
+247	haggling-quantities	
+248	greeting-small-talk	drill:seeing-noticing
+249	daily-routine	drill:doing-handling
+250	family-friends	drill:seeing-noticing
+251	ordering-eating	
+252	ordering-eating	
+253	ordering-eating	
+254	ordering-eating	
+255	terere-drinking	
+256	fixing-breaking-power	
+257	fixing-breaking-power	
+258	fixing-breaking-power	
+259	phone-computer	
+260	bank-cash-credit	phone-computer
+261	phone-computer	bank-cash-credit
+262	phone-computer	
+263	phone-computer	
+264	study-school	
+265	phone-computer	
+266	phone-computer	
+267	driving-moto	
+268	driving-moto	
+269	driving-moto	
+270	driving-moto	
+271	directions-places	
+272	directions-places	
+273	transport-colectivo	
+274	travel-trips	
+275	travel-trips	
+276	buying-paying	
+277	greeting-small-talk	
+278	house-chores	
+279	work-tasks	
+280	work-tasks	
+281	work-tasks	
+282	haggling-quantities	buying-paying
+283	arranging-to-meet	
+284	buying-paying	
+285	formal-written	drill:yes-no-maybe
+286	conversation-opinion	drill:yes-no-maybe
+287	paperwork-bureaucracy	
+288	conversation-opinion	
+289	fixing-breaking-power	
+290	conversation-opinion	
+291	conversation-opinion	
+292	paperwork-bureaucracy	
+293	news-institutions	
+294	feelings-conflict	
+295	feelings-conflict	
+296	feelings-conflict	drill:yes-no-maybe
+297	paperwork-bureaucracy	drill:yes-no-maybe
+298	asking-understanding	
+299	family-friends	drill:thinking-knowing
+300	feelings-conflict	drill:thinking-knowing
+301	feelings-conflict	
+302	feelings-conflict	
+303	family-friends	
+304	family-friends	
+305	family-friends	
+306	work-tasks	
+307	family-friends	
+308	family-friends	
+309	feelings-conflict	
+310	conversation-opinion	
+311	greeting-small-talk	
+312	free-time	
+313	free-time	
+314	terere-drinking	
+315	work-tasks	drill:thinking-knowing
+316	bank-cash-credit	
+317	buying-paying	
+318	paperwork-bureaucracy	drill:thinking-knowing
+319	paperwork-bureaucracy	drill:thinking-knowing
+320	arranging-to-meet	
+321	conversation-opinion	
+322	buying-paying	
+323	conversation-opinion	drill:thinking-knowing
+324	asking-understanding	
+325	conversation-opinion	
+326	work-tasks	drill:thinking-knowing
+327	conversation-opinion	drill:thinking-knowing
+328	free-time	
+329	feelings-conflict	
+330	feelings-conflict	
+331	feelings-conflict	
+332	feelings-conflict	
+333	feelings-conflict	
+334	feelings-conflict	
+335	feelings-conflict	
+336	feelings-conflict	
+337	family-friends	drill:doing-handling
+338	weather-heat	drill:change-cause
+339	migration-abroad	drill:change-cause
+340	house-renting	
+341	phone-computer	
+342	formal-written	work-tasks
+343	conversation-opinion	drill:being-feeling
+344	conversation-opinion	drill:change-cause
+345	asking-understanding	
+346	conversation-opinion	drill:being-feeling
+347	daily-routine	
+348	conversation-opinion	drill:being-feeling
+349	asking-understanding	drill:yes-no-maybe
+350	conversation-opinion	
+351	house-renting	drill:doing-handling
+352	paperwork-bureaucracy	drill:doing-handling
+353	house-chores	drill:doing-handling
+354	phone-computer	
+355	cooking-kitchen	drill:doing-handling
+356	free-time	drill:doing-handling
+357	cooking-kitchen	
+358	cooking-kitchen	
+359	cooking-kitchen	
+360	cooking-kitchen	ordering-eating
+361	cooking-kitchen	ordering-eating
+362	cooking-kitchen	
+363	cooking-kitchen	
+364	terere-drinking	drill:yes-no-maybe
+365	ordering-eating	
+366	body-illness-pharmacy	
+367	bank-cash-credit	
+368	haggling-quantities	
+369	haggling-quantities	
+370	bank-cash-credit	
+371	haggling-quantities	
+372	haggling-quantities	
+373	haggling-quantities	
+374	haggling-quantities	
+375	ordering-eating	drill:doing-handling
+376	house-renting	
+377	asking-understanding	
+378	weather-heat	drill:doing-handling
+379	haggling-quantities	
+380	buying-paying	
+381	daily-routine	
+382	arranging-to-meet	drill:doing-handling
+383	cooking-kitchen	drill:doing-handling
+384	conversation-opinion	drill:being-feeling
+385	haggling-quantities	
+386	driving-moto	drill:doing-handling
+387	haggling-quantities	
+388	asking-understanding	drill:doing-handling
+389	emergencies	drill:doing-handling
+390	daily-routine	
+391	house-chores	drill:doing-handling
+392	daily-routine	
+393	greeting-small-talk	
+394	family-friends	
+395	buying-paying	drill:doing-handling
+396	weather-heat	drill:doing-handling
+397	greeting-small-talk	drill:doing-handling
+398	daily-routine	
+399	daily-routine	
+400	daily-routine	
+401	weather-heat	
+402	weather-heat	
+403	weather-heat	
+404	weather-heat	
+405	weather-heat	
+406	weather-heat	
+407	weather-heat	
+408	weather-heat	
+409	weather-heat	
+410	house-chores	
+411	countryside-farming	
+412	countryside-farming	
+413	countryside-farming	
+414	weather-heat	
+415	weather-heat	
+416	cooking-kitchen	weather-heat
+417	cooking-kitchen	
+418	house-renting	
+419	emergencies	
+420	body-illness-pharmacy	
+421	body-illness-pharmacy	
+422	weather-heat	
+423	free-time	
+424	free-time	
+425	free-time	
+426	free-time	
+427	free-time	
+428	free-time	
+429	free-time	drill:doing-handling
+430	free-time	drill:doing-handling
+431	free-time	
+432	free-time	
+433	free-time	
+434	body-illness-pharmacy	
+435	body-illness-pharmacy	
+436	body-illness-pharmacy	
+437	weather-heat	
+438	body-illness-pharmacy	
+439	body-illness-pharmacy	weather-heat
+440	body-illness-pharmacy	
+441	body-illness-pharmacy	
+442	body-illness-pharmacy	
+443	body-illness-pharmacy	
+444	body-illness-pharmacy	
+445	bank-cash-credit	
+446	bank-cash-credit	
+447	bank-cash-credit	
+448	bank-cash-credit	
+449	migration-abroad	paperwork-bureaucracy
+450	paperwork-bureaucracy	
+451	paperwork-bureaucracy	driving-moto
+452	paperwork-bureaucracy	directions-places
+453	study-school	
+454	paperwork-bureaucracy	
+455	paperwork-bureaucracy	
+456	emergencies	
+457	news-institutions	
+458	news-institutions	
+459	family-friends	
+460	countryside-farming	drill:being-feeling
+461	buying-paying	
+462	house-renting	
+463	fixing-breaking-power	
+464	fixing-breaking-power	
+465	work-tasks	drill:doing-handling
+466	fixing-breaking-power	
+467	infrastructure-building	
+468	infrastructure-building	
+469	infrastructure-building	
+470	free-time	
+471	phone-computer	
+472	phone-computer	
+473	phone-computer	
+474	daily-routine	
+475	phone-computer	
+476	phone-computer	
+477	phone-computer	
+478	phone-computer	
+479	free-time	
+480	free-time	
+481	free-time	
+482	phone-computer	
+483	free-time	
+484	free-time	
+485	free-time	
+486	free-time	
+487	asking-understanding	
+488	free-time	
+489	free-time	
+490	family-friends	
+491	family-friends	
+492	family-friends	
+493	family-friends	
+494	family-friends	
+495	family-friends	
+496	family-friends	
+497	family-friends	
+498	family-friends	
+499	work-tasks	
+500	conversation-opinion	drill:thinking-knowing
+501	free-time	
+502	study-school	drill:thinking-knowing
+503	study-school	drill:thinking-knowing
+504	asking-understanding	
+505	arranging-to-meet	drill:thinking-knowing
+506	weather-heat	drill:thinking-knowing
+507	conversation-opinion	drill:thinking-knowing
+508	study-school	drill:thinking-knowing
+509	work-tasks	
+510	directions-places	
+511	fixing-breaking-power	drill:doing-handling
+512	house-renting	
+513	driving-moto	
+514	transport-colectivo	
+515	emergencies	
+516	emergencies	
+517	emergencies	
+518	feelings-conflict	drill:seeing-noticing
+519	free-time	
+520	infrastructure-building	drill:change-cause
+521	haggling-quantities	drill:change-cause
+522	house-renting	
+523	driving-moto	drill:change-cause
+524	haggling-quantities	
+525	work-tasks	drill:change-cause
+526	house-chores	drill:change-cause
+527	daily-routine	
+528	cooking-kitchen	
+529	weather-heat	drill:change-cause
+530	fixing-breaking-power	weather-heat
+531	conversation-opinion	
+532	conversation-opinion	
+533	emergencies	
+534	feelings-conflict	
+535	family-friends	
+536	feelings-conflict	
+537	conversation-opinion	
+538	conversation-opinion	
+539	conversation-opinion	
+540	conversation-opinion	
+541	asking-understanding	
+542	feelings-conflict	
+543	feelings-conflict	
+544	news-institutions	
+545	work-tasks	
+546	conversation-opinion	
+547	conversation-opinion	
+548	greeting-small-talk	driving-moto
+549	directions-places	
+550	directions-places	
+551	buying-paying	drill:doing-handling
+552	feelings-conflict	drill:doing-handling
+553	conversation-opinion	
+554	greeting-small-talk	
+555	cooking-kitchen	drill:doing-handling
+556	terere-drinking	drill:doing-handling
+557	buying-paying	drill:doing-handling
+558	celebration-religion	drill:doing-handling
+559	buying-paying	drill:doing-handling
+560	house-chores	drill:doing-handling
+561	fixing-breaking-power	drill:doing-handling
+562	fixing-breaking-power	drill:doing-handling
+563	house-chores	
+564	directions-places	drill:doing-handling
+565	house-chores	
+566	house-chores	house-renting
+567	house-chores	
+568	house-chores	
+569	daily-routine	
+570	free-time	family-friends
+571	free-time	
+572	free-time	
+573	fixing-breaking-power	
+574	terere-drinking	
+575	house-chores	
+576	countryside-farming	
+577	countryside-farming	
+578	countryside-farming	
+579	buying-paying	
+580	countryside-farming	
+581	house-renting	
+582	ordering-eating	
+583	weather-heat	
+584	body-illness-pharmacy	
+585	fixing-breaking-power	
+586	fixing-breaking-power	
+587	travel-trips	drill:change-cause
+588	weather-heat	house-renting
+589	weather-heat	drill:doing-handling
+590	travel-trips	
+591	house-renting	
+592	house-chores	drill:doing-handling
+593	house-renting	drill:doing-handling
+594	house-chores	drill:doing-handling
+595	house-chores	drill:doing-handling
+596	house-chores	
+597	fixing-breaking-power	house-renting,weather-heat
+598	fixing-breaking-power	drill:doing-handling
+599	fixing-breaking-power	
+600	driving-moto	drill:seeing-noticing
+601	migration-abroad	drill:change-cause
+602	work-tasks	drill:yes-no-maybe
+603	feelings-conflict	
+604	weather-heat	
+605	feelings-conflict	
+606	conversation-opinion	drill:thinking-knowing
+607	arranging-to-meet	
+608	work-tasks	drill:yes-no-maybe
+609	free-time	drill:being-feeling
+610	conversation-opinion	drill:being-feeling
+611	travel-trips	drill:being-feeling
+612	migration-abroad	ordering-eating
+613	travel-trips	drill:change-cause
+614	study-school	drill:change-cause
+615	weather-heat	drill:change-cause
+616	body-illness-pharmacy	drill:change-cause
+617	feelings-conflict	drill:yes-no-maybe
+618	arranging-to-meet	
+619	daily-routine	drill:change-cause
+620	greeting-small-talk	drill:thinking-knowing
+621	buying-paying	drill:seeing-noticing
+622	conversation-opinion	drill:yes-no-maybe
+623	asking-understanding	
+624	feelings-conflict	
+625	feelings-conflict	
+626	work-tasks	drill:change-cause
+627	feelings-conflict	drill:being-feeling
+628	free-time	drill:being-feeling
+629	transport-colectivo	
+630	family-friends	
+631	family-friends	drill:seeing-noticing
+632	daily-routine	drill:change-cause
+633	conversation-opinion	
+634	asking-understanding	drill:being-feeling
+635	migration-abroad	drill:doing-handling
+636	work-tasks	
+637	work-tasks	
+638	feelings-conflict	
+639	work-tasks	
+640	conversation-opinion	
+641	paperwork-bureaucracy	drill:yes-no-maybe
+642	study-school	drill:doing-handling
+643	formal-written	
+644	weather-heat	
+645	feelings-conflict	
+646	feelings-conflict	
+647	buying-paying	
+648	conversation-opinion	drill:thinking-knowing
+649	free-time	
+650	work-tasks	
+651	work-tasks	
+652	work-tasks	
+653	conversation-opinion	drill:change-cause
+654	paperwork-bureaucracy	drill:change-cause
+655	conversation-opinion	drill:change-cause
+656	weather-heat	drill:change-cause
+657	conversation-opinion	drill:yes-no-maybe
+658	directions-places	drill:yes-no-maybe
+659	body-illness-pharmacy	
+660	fixing-breaking-power	drill:change-cause
+661	conversation-opinion	drill:change-cause
+662	feelings-conflict	drill:change-cause
+663	emergencies	drill:change-cause
+664	conversation-opinion	drill:change-cause
+665	conversation-opinion	drill:change-cause
+666	conversation-opinion	
+667	formal-written	
+668	bank-cash-credit	
+669	conversation-opinion	drill:thinking-knowing
+670	study-school	drill:seeing-noticing
+671	house-renting	
+672	paperwork-bureaucracy	drill:thinking-knowing
+673	work-tasks	drill:thinking-knowing
+674	news-institutions	
+675	work-tasks	drill:thinking-knowing
+676	buying-paying	drill:doing-handling
+677	work-tasks	drill:thinking-knowing
+678	cooking-kitchen	drill:doing-handling
+679	phone-computer	
+680	cooking-kitchen	drill:doing-handling
+681	cooking-kitchen	drill:doing-handling
+682	phone-computer	drill:doing-handling
+683	haggling-quantities	
+684	family-friends	
+685	family-friends	
+686	family-friends	
+687	arranging-to-meet	drill:yes-no-maybe
+688	free-time	
+689	formal-written	
+690	fixing-breaking-power	
+691	work-tasks	
+692	formal-written	
+693	buying-paying	
+694	phone-computer	
+695	emergencies	transport-colectivo,phone-computer
+696	bank-cash-credit	
+697	house-renting	
+698	travel-trips	drill:doing-handling
+699	travel-trips	drill:being-feeling
+700	house-renting	
+701	house-renting	
+702	migration-abroad	
+703	migration-abroad	
+704	migration-abroad	
+705	transport-colectivo	
+706	feelings-conflict	
+707	ordering-eating	drill:change-cause
+708	weather-heat	drill:change-cause
+709	free-time	
+710	study-school	
+711	haggling-quantities	
+712	emergencies	drill:seeing-noticing
+713	free-time	
+714	work-tasks	
+715	work-tasks	
+716	conversation-opinion	
+717	news-institutions	
+718	news-institutions	work-tasks
+719	work-tasks	
+720	paperwork-bureaucracy	phone-computer
+721	work-tasks	
+722	arranging-to-meet	phone-computer
+723	work-tasks	
+724	work-tasks	
+725	buying-paying	
+726	paperwork-bureaucracy	
+727	work-tasks	
+728	work-tasks	
+729	work-tasks	
+730	work-tasks	drill:doing-handling
+731	study-school	
+732	study-school	
+733	study-school	
+734	study-school	
+735	study-school	
+736	study-school	
+737	study-school	
+738	study-school	
+739	work-tasks	
+740	conversation-opinion	
+741	feelings-conflict	
+742	conversation-opinion	
+743	conversation-opinion	
+744	conversation-opinion	drill:change-cause
+745	feelings-conflict	
+746	feelings-conflict	
+747	feelings-conflict	
+748	fixing-breaking-power	
+749	migration-abroad	
+750	work-tasks	
+751	study-school	
+752	study-school	drill:change-cause
+753	haggling-quantities	
+754	arranging-to-meet	drill:doing-handling
+755	work-tasks	
+756	driving-moto	
+757	weather-heat	
+758	arranging-to-meet	
+759	free-time	
+760	study-school	drill:change-cause
+761	conversation-opinion	
+762	emergencies	
+763	emergencies	drill:doing-handling
+764	house-renting	drill:doing-handling
+765	emergencies	
+766	emergencies	
+767	emergencies	
+768	emergencies	
+769	family-friends	
+770	celebration-religion	
+771	celebration-religion	
+772	celebration-religion	
+773	celebration-religion	drill:thinking-knowing
+774	family-friends	
+775	celebration-religion	
+776	celebration-religion	
+777	celebration-religion	
+778	celebration-religion	
+779	family-friends	
+780	celebration-religion	drill:change-cause
+781	directions-places	
+782	directions-places	
+783	directions-places	
+784	directions-places	
+785	family-friends	
+786	migration-abroad	
+787	family-friends	
+788	family-friends	
+789	greeting-small-talk	
+790	family-friends	
+791	family-friends	
+792	feelings-conflict	
+793	greeting-small-talk	
+794	weather-heat	drill:change-cause
+795	family-friends	drill:being-feeling
+796	terere-drinking	drill:change-cause
+797	terere-drinking	drill:doing-handling
+798	cooking-kitchen	
+799	cooking-kitchen	
+800	ordering-eating	
+801	driving-moto	
+802	infrastructure-building	drill:doing-handling
+803	daily-routine	weather-heat
+804	transport-colectivo	
+805	conversation-opinion	drill:being-feeling
+806	fixing-breaking-power	drill:change-cause
+807	conversation-opinion	
+808	conversation-opinion	drill:yes-no-maybe
+809	study-school	
+810	conversation-opinion	drill:doing-handling
+811	feelings-conflict	
+812	work-tasks	
+813	family-friends	
+814	weather-heat	
+815	daily-routine	
+816	phone-computer	drill:change-cause
+817	conversation-opinion	drill:thinking-knowing
+818	arranging-to-meet	
+819	family-friends	
+820	family-friends	
+821	family-friends	
+822	feelings-conflict	
+823	greeting-small-talk	
+824	greeting-small-talk	
+825	greeting-small-talk	
+826	arranging-to-meet	
+827	arranging-to-meet	terere-drinking
+828	greeting-small-talk	
+829	family-friends	
+830	family-friends	
+831	conversation-opinion	
+832	conversation-opinion	
+833	conversation-opinion	
+834	fixing-breaking-power	
+835	conversation-opinion	
+836	study-school	drill:seeing-noticing
+837	phone-computer	drill:seeing-noticing
+838	house-renting	
+839	arranging-to-meet	drill:doing-handling
+840	greeting-small-talk	
+841	driving-moto	
+842	feelings-conflict	
+843	emergencies	
+844	emergencies	
+845	emergencies	
+846	daily-routine	
+847	daily-routine	
+848	daily-routine	
+849	daily-routine	
+850	daily-routine	
+851	daily-routine	
+852	daily-routine	
+853	free-time	
+854	daily-routine	
+855	daily-routine	transport-colectivo
+856	daily-routine	
+857	daily-routine	
+858	daily-routine	
+859	free-time	
+860	free-time	
+861	feelings-conflict	
+862	greeting-small-talk	
+863	feelings-conflict	
+864	feelings-conflict	
+865	feelings-conflict	
+866	feelings-conflict	
+867	feelings-conflict	
+868	feelings-conflict	
+869	feelings-conflict	
+870	feelings-conflict	
+871	feelings-conflict	
+872	feelings-conflict	
+873	feelings-conflict	
+874	feelings-conflict	
+875	family-friends	
+876	haggling-quantities	drill:thinking-knowing
+877	feelings-conflict	
+878	feelings-conflict	
+879	feelings-conflict	
+880	feelings-conflict	
+881	feelings-conflict	
+882	feelings-conflict	
+883	family-friends	
+884	feelings-conflict	
+885	feelings-conflict	
+886	feelings-conflict	
+887	weather-heat	drill:seeing-noticing
+888	fixing-breaking-power	house-renting
+889	fixing-breaking-power	
+890	fixing-breaking-power	
+891	fixing-breaking-power	
+892	daily-routine	
+893	fixing-breaking-power	cooking-kitchen
+894	fixing-breaking-power	weather-heat
+895	fixing-breaking-power	free-time,weather-heat
+896	house-chores	drill:change-cause
+897	fixing-breaking-power	
+898	fixing-breaking-power	
+899	fixing-breaking-power	
+900	buying-paying	drill:doing-handling
+901	weather-heat	drill:doing-handling
+902	family-friends	
+903	cooking-kitchen	drill:doing-handling
+904	terere-drinking	drill:doing-handling
+905	daily-routine	
+906	daily-routine	
+907	daily-routine	
+908	buying-paying	
+909	buying-paying	
+910	buying-paying	drill:change-cause
+911	haggling-quantities	
+912	haggling-quantities	
+913	buying-paying	
+914	buying-paying	
+915	bank-cash-credit	
+916	work-tasks	
+917	work-tasks	
+918	work-tasks	
+919	weather-heat	drill:doing-handling
+920	work-tasks	
+921	bank-cash-credit	
+922	bank-cash-credit	
+923	bank-cash-credit	
+924	haggling-quantities	
+925	haggling-quantities	
+926	haggling-quantities	
+927	haggling-quantities	
+928	haggling-quantities	
+929	news-institutions	
+930	buying-paying	
+931	news-institutions	
+932	news-institutions	
+933	formal-written	
+934	formal-written	
+935	formal-written	
+936	news-institutions	
+937	driving-moto	
+938	news-institutions	
+939	news-institutions	
+940	news-institutions	
+941	news-institutions	
+942	news-institutions	
+943	travel-trips	
+944	emergencies	
+945	emergencies	drill:seeing-noticing
+946	emergencies	
+947	emergencies	
+948	emergencies	
+949	emergencies	
+950	body-illness-pharmacy	
+951	body-illness-pharmacy	
+952	body-illness-pharmacy	
+953	body-illness-pharmacy	
+954	body-illness-pharmacy	
+955	body-illness-pharmacy	
+956	body-illness-pharmacy	
+957	body-illness-pharmacy	
+958	body-illness-pharmacy	
+959	cooking-kitchen	
+960	cooking-kitchen	
+961	cooking-kitchen	
+962	cooking-kitchen	drill:doing-handling
+963	cooking-kitchen	
+964	cooking-kitchen	ordering-eating
+965	cooking-kitchen	
+966	cooking-kitchen	
+967	cooking-kitchen	
+968	cooking-kitchen	
+969	cooking-kitchen	
+970	cooking-kitchen	
+971	terere-drinking	
+972	cooking-kitchen	
+973	cooking-kitchen	
+974	cooking-kitchen	
+975	cooking-kitchen	
+976	ordering-eating	drill:seeing-noticing
+977	ordering-eating	
+978	terere-drinking	
+979	ordering-eating	
+980	ordering-eating	
+981	body-illness-pharmacy	weather-heat
+982	body-illness-pharmacy	
+983	ordering-eating	
+984	ordering-eating	
+985	body-illness-pharmacy	
+986	weather-heat	
+987	weather-heat	
+988	weather-heat	
+989	body-illness-pharmacy	
+990	weather-heat	
+991	daily-routine	
+992	weather-heat	
+993	house-chores	house-renting
+994	weather-heat	
+995	weather-heat	
+996	house-chores	
+997	weather-heat	drill:change-cause
+998	countryside-farming	drill:change-cause
+999	haggling-quantities	
+1000	haggling-quantities	
+1001	emergencies	
+1002	work-tasks	
+1003	work-tasks	
+1004	arranging-to-meet	
+1005	arranging-to-meet	
+1006	conversation-opinion	
+1007	conversation-opinion	
+1008	conversation-opinion	
+1009	family-friends	
+1010	paperwork-bureaucracy	
+1011	paperwork-bureaucracy	
+1012	formal-written	paperwork-bureaucracy,migration-abroad
+1013	formal-written	
+1014	news-institutions	work-tasks
+1015	infrastructure-building	
+1016	buying-paying	
+1017	buying-paying	
+1018	buying-paying	
+1019	bank-cash-credit	
+1020	bank-cash-credit	
+1021	bank-cash-credit	
+1022	news-institutions	driving-moto
+1023	house-renting	
+1024	countryside-farming	
+1025	driving-moto	drill:doing-handling
+1026	work-tasks	family-friends
+1027	family-friends	
+1028	haggling-quantities	
+1029	free-time	
+1030	news-institutions	
+1031	news-institutions	
+1032	free-time	
+1033	haggling-quantities	
+1034	buying-paying	
+1035	formal-written	
+1036	formal-written	
+1037	paperwork-bureaucracy	
+1038	paperwork-bureaucracy	
+1039	paperwork-bureaucracy	
+1040	work-tasks	drill:yes-no-maybe
+1041	news-institutions	ordering-eating
+1042	infrastructure-building	
+1043	news-institutions	
+1044	formal-written	
+1045	work-tasks	drill:change-cause
+1046	news-institutions	
+1047	news-institutions	
+1048	news-institutions	work-tasks
+1049	news-institutions	
+1050	news-institutions	
+1051	emergencies	
+1052	house-renting	
+1053	news-institutions	
+1054	driving-moto	
+1055	greeting-small-talk	bank-cash-credit
+1056	greeting-small-talk	
+1057	arranging-to-meet	
+1058	greeting-small-talk	
+1059	directions-places	
+1060	directions-places	transport-colectivo
+1061	paperwork-bureaucracy	drill:doing-handling
+1062	daily-routine	drill:seeing-noticing
+1063	buying-paying	drill:seeing-noticing
+1064	phone-computer	
+1065	directions-places	haggling-quantities
+1066	study-school	drill:doing-handling
+1067	asking-understanding	
+1068	formal-written	drill:being-feeling
+1069	formal-written	
+1070	work-tasks	drill:doing-handling
+1071	free-time	drill:being-feeling
+1072	family-friends	drill:being-feeling
+1073	formal-written	
+1074	study-school	drill:change-cause
+1075	study-school	drill:change-cause
+1076	conversation-opinion	drill:change-cause
+1077	news-institutions	drill:change-cause
+1078	news-institutions	drill:doing-handling
+1079	fixing-breaking-power	weather-heat
+1080	emergencies	
+1081	body-illness-pharmacy	
+1082	emergencies	
+1083	emergencies	
+1084	emergencies	
+1085	weather-heat	
+1086	emergencies	
+1087	free-time	
+1088	free-time	drill:change-cause
+1089	house-renting	
+1090	weather-heat	
+1091	house-renting	
+1092	weather-heat	
+1093	weather-heat	
+1094	weather-heat	
+1095	house-chores	
+1096	weather-heat	
+1097	weather-heat	
+1098	weather-heat	
+1099	weather-heat	
+1100	weather-heat	
+1101	weather-heat	
+1102	weather-heat	
+1103	weather-heat	
+1104	weather-heat	driving-moto
+1105	bank-cash-credit	drill:change-cause
+1106	feelings-conflict	drill:change-cause
+1107	house-renting	drill:change-cause
+1108	body-illness-pharmacy	weather-heat
+1109	body-illness-pharmacy	
+1110	weather-heat	drill:change-cause
+1111	body-illness-pharmacy	
+1112	body-illness-pharmacy	
+1113	body-illness-pharmacy	
+1114	body-illness-pharmacy	
+1115	body-illness-pharmacy	
+1116	body-illness-pharmacy	
+1117	weather-heat	
+1118	feelings-conflict	
+1119	body-illness-pharmacy	drill:doing-handling
+1120	daily-routine	
+1121	buying-paying	
+1122	buying-paying	
+1123	work-tasks	drill:doing-handling
+1124	countryside-farming	
+1125	house-renting	drill:doing-handling
+1126	free-time	drill:doing-handling
+1127	free-time	
+1128	phone-computer	
+1129	paperwork-bureaucracy	
+1130	paperwork-bureaucracy	
+1131	paperwork-bureaucracy	
+1132	paperwork-bureaucracy	
+1133	paperwork-bureaucracy	work-tasks
+1134	paperwork-bureaucracy	
+1135	phone-computer	
+1136	phone-computer	
+1137	phone-computer	
+1138	phone-computer	
+1139	phone-computer	
+1140	arranging-to-meet	
+1141	paperwork-bureaucracy	
+1142	phone-computer	
+1143	phone-computer	
+1144	phone-computer	
+1145	phone-computer	
+1146	phone-computer	
+1147	phone-computer	
+1148	phone-computer	
+1149	phone-computer	
+1150	phone-computer	
+1151	phone-computer	
+1152	phone-computer	
+1153	phone-computer	
+1154	phone-computer	
+1155	phone-computer	drill:doing-handling
+1156	phone-computer	
+1157	phone-computer	
+1158	phone-computer	
+1159	phone-computer	
+1160	phone-computer	
+1161	free-time	
+1162	free-time	
+1163	free-time	
+1164	free-time	
+1165	free-time	
+1166	phone-computer	
+1167	phone-computer	
+1168	free-time	
+1169	free-time	
+1170	free-time	
+1171	conversation-opinion	
+1172	haggling-quantities	
+1173	conversation-opinion	
+1174	conversation-opinion	
+1175	conversation-opinion	
+1176	arranging-to-meet	
+1177	study-school	
+1178	formal-written	
+1179	study-school	
+1180	paperwork-bureaucracy	
+1181	study-school	
+1182	work-tasks	
+1183	work-tasks	directions-places
+1184	paperwork-bureaucracy	
+1185	haggling-quantities	
+1186	paperwork-bureaucracy	
+1187	paperwork-bureaucracy	
+1188	formal-written	
+1189	paperwork-bureaucracy	drill:change-cause
+1190	paperwork-bureaucracy	
+1191	paperwork-bureaucracy	
+1192	news-institutions	directions-places
+1193	news-institutions	
+1194	news-institutions	
+1195	news-institutions	
+1196	haggling-quantities	
+1197	body-illness-pharmacy	
+1198	free-time	
+1199	transport-colectivo	
+1200	conversation-opinion	
+1201	asking-understanding	
+1202	news-institutions	drill:thinking-knowing
+1203	news-institutions	drill:thinking-knowing
+1204	emergencies	
+1205	paperwork-bureaucracy	
+1206	asking-understanding	
+1207	work-tasks	
+1208	directions-places	
+1209	study-school	drill:thinking-knowing
+1210	feelings-conflict	drill:thinking-knowing
+1211	feelings-conflict	drill:thinking-knowing
+1212	arranging-to-meet	drill:thinking-knowing
+1213	conversation-opinion	drill:seeing-noticing
+1214	study-school	drill:seeing-noticing
+1215	conversation-opinion	drill:thinking-knowing
+1216	study-school	drill:doing-handling
+1217	study-school	drill:thinking-knowing
+1218	study-school	drill:thinking-knowing
+1219	free-time	drill:thinking-knowing
+1220	family-friends	drill:thinking-knowing
+1221	migration-abroad	
+1222	migration-abroad	
+1223	weather-heat	
+1224	work-tasks	
+1225	study-school	
+1226	study-school	drill:thinking-knowing
+1227	feelings-conflict	
+1228	feelings-conflict	drill:being-feeling
+1229	greeting-small-talk	drill:change-cause
+1230	emergencies	drill:thinking-knowing
+1231	study-school	
+1232	study-school	
+1233	free-time	
+1234	free-time	news-institutions
+1235	feelings-conflict	
+1236	feelings-conflict	
+1237	greeting-small-talk	
+1238	work-tasks	
+1239	family-friends	
+1240	family-friends	
+1241	family-friends	
+1242	family-friends	
+1243	paperwork-bureaucracy	
+1244	conversation-opinion	drill:yes-no-maybe
+1245	emergencies	drill:thinking-knowing
+1246	house-renting	drill:thinking-knowing
+1247	paperwork-bureaucracy	drill:thinking-knowing
+1248	news-institutions	drill:thinking-knowing
+1249	conversation-opinion	
+1250	haggling-quantities	
+1251	conversation-opinion	
+1252	conversation-opinion	
+1253	conversation-opinion	
+1254	feelings-conflict	
+1255	feelings-conflict	
+1256	terere-drinking	
+1257	body-illness-pharmacy	
+1258	feelings-conflict	
+1259	feelings-conflict	
+1260	family-friends	
+1261	feelings-conflict	
+1262	emergencies	
+1263	migration-abroad	drill:doing-handling
+1264	house-renting	
+1265	emergencies	
+1266	weather-heat	
+1267	emergencies	
+1268	family-friends	
+1269	emergencies	
+1270	body-illness-pharmacy	
+1271	emergencies	drill:doing-handling
+1272	bank-cash-credit	transport-colectivo
+1273	bank-cash-credit	
+1274	news-institutions	
+1275	fixing-breaking-power	
+1276	conversation-opinion	drill:seeing-noticing
+1277	conversation-opinion	drill:thinking-knowing
+1278	conversation-opinion	
+1279	body-illness-pharmacy	drill:thinking-knowing
+1280	body-illness-pharmacy	drill:thinking-knowing
+1281	conversation-opinion	drill:thinking-knowing
+1282	free-time	
+1283	study-school	drill:yes-no-maybe
+1284	paperwork-bureaucracy	
+1285	feelings-conflict	
+1286	conversation-opinion	
+1287	weather-heat	drill:change-cause
+1288	feelings-conflict	
+1289	news-institutions	
+1290	cooking-kitchen	
+1291	cooking-kitchen	
+1292	cooking-kitchen	
+1293	cooking-kitchen	ordering-eating
+1294	cooking-kitchen	
+1295	terere-drinking	
+1296	cooking-kitchen	
+1297	cooking-kitchen	ordering-eating
+1298	cooking-kitchen	
+1299	cooking-kitchen	
+1300	cooking-kitchen	
+1301	cooking-kitchen	
+1302	cooking-kitchen	
+1303	cooking-kitchen	
+1304	cooking-kitchen	
+1305	cooking-kitchen	
+1306	body-illness-pharmacy	
+1307	cooking-kitchen	
+1308	cooking-kitchen	
+1309	cooking-kitchen	
+1310	countryside-farming	drill:yes-no-maybe
+1311	cooking-kitchen	
+1312	buying-paying	
+1313	cooking-kitchen	
+1314	cooking-kitchen	weather-heat
+1315	cooking-kitchen	
+1316	ordering-eating	
+1317	ordering-eating	
+1318	ordering-eating	drill:doing-handling
+1319	terere-drinking	
+1320	terere-drinking	
+1321	terere-drinking	
+1322	terere-drinking	free-time
+1323	terere-drinking	
+1324	daily-routine	
+1325	daily-routine	
+1326	daily-routine	
+1327	daily-routine	
+1328	daily-routine	
+1329	daily-routine	weather-heat
+1330	free-time	
+1331	free-time	
+1332	free-time	
+1333	body-illness-pharmacy	
+1334	body-illness-pharmacy	emergencies
+1335	body-illness-pharmacy	
+1336	family-friends	
+1337	family-friends	
+1338	free-time	
+1339	phone-computer	
+1340	free-time	
+1341	free-time	
+1342	free-time	
+1343	free-time	
+1344	free-time	
+1345	directions-places	
+1346	free-time	
+1347	travel-trips	
+1348	travel-trips	family-friends
+1349	driving-moto	
+1350	work-tasks	
+1351	transport-colectivo	
+1352	infrastructure-building	drill:doing-handling
+1353	driving-moto	
+1354	travel-trips	
+1355	travel-trips	
+1356	travel-trips	
+1357	travel-trips	
+1358	emergencies	
+1359	emergencies	
+1360	travel-trips	
+1361	emergencies	
+1362	travel-trips	
+1363	travel-trips	emergencies
+1364	travel-trips	
+1365	fixing-breaking-power	
+1366	fixing-breaking-power	
+1367	fixing-breaking-power	
+1368	infrastructure-building	drill:doing-handling
+1369	fixing-breaking-power	house-renting
+1370	asking-understanding	drill:doing-handling
+1371	house-renting	drill:doing-handling
+1372	driving-moto	drill:doing-handling
+1373	asking-understanding	drill:doing-handling
+1374	fixing-breaking-power	
+1375	fixing-breaking-power	weather-heat
+1376	fixing-breaking-power	
+1377	fixing-breaking-power	weather-heat
+1378	fixing-breaking-power	
+1379	fixing-breaking-power	
+1380	infrastructure-building	
+1381	infrastructure-building	
+1382	infrastructure-building	house-renting,weather-heat
+1383	infrastructure-building	
+1384	infrastructure-building	
+1385	infrastructure-building	
+1386	infrastructure-building	
+1387	infrastructure-building	drill:doing-handling
+1388	infrastructure-building	
+1389	infrastructure-building	
+1390	infrastructure-building	
+1391	infrastructure-building	
+1392	infrastructure-building	
+1393	infrastructure-building	
+1394	infrastructure-building	
+1395	infrastructure-building	
+1396	infrastructure-building	
+1397	house-renting	
+1398	house-renting	
+1399	house-renting	
+1400	house-renting	
+1401	weather-heat	drill:change-cause
+1402	weather-heat	drill:change-cause
+1403	conversation-opinion	drill:change-cause
+1404	cooking-kitchen	drill:change-cause
+1405	cooking-kitchen	
+1406	cooking-kitchen	
+1407	cooking-kitchen	
+1408	cooking-kitchen	drill:change-cause
+1409	work-tasks	drill:change-cause
+1410	house-renting	
+1411	weather-heat	
+1412	fixing-breaking-power	house-renting
+1413	driving-moto	
+1414	house-chores	house-renting
+1415	house-renting	
+1416	house-renting	
+1417	house-renting	
+1418	house-renting	
+1419	emergencies	
+1420	emergencies	
+1421	emergencies	buying-paying
+1422	emergencies	
+1423	emergencies	
+1424	emergencies	
+1425	news-institutions	
+1426	news-institutions	
+1427	news-institutions	
+1428	news-institutions	
+1429	migration-abroad	
+1430	news-institutions	
+1431	migration-abroad	
+1432	news-institutions	
+1433	migration-abroad	
+1434	paperwork-bureaucracy	
+1435	paperwork-bureaucracy	
+1436	paperwork-bureaucracy	
+1437	asking-understanding	
+1438	work-tasks	
+1439	asking-understanding	
+1440	asking-understanding	
+1441	asking-understanding	
+1442	asking-understanding	
+1443	asking-understanding	
+1444	asking-understanding	
+1445	study-school	drill:change-cause
+1446	bank-cash-credit	
+1447	study-school	drill:change-cause
+1448	study-school	drill:change-cause
+1449	study-school	drill:doing-handling
+1450	asking-understanding	
+1451	asking-understanding	
+1452	asking-understanding	
+1453	free-time	
+1454	free-time	
+1455	study-school	
+1456	free-time	
+1457	free-time	
+1458	free-time	
+1459	free-time	
+1460	free-time	
+1461	free-time	
+1462	free-time	
+1463	free-time	
+1464	free-time	
+1465	free-time	
+1466	free-time	
+1467	free-time	
+1468	free-time	
+1469	free-time	drill:doing-handling
+1470	free-time	
+1471	phone-computer	
+1472	free-time	
+1473	free-time	
+1474	free-time	
+1475	free-time	
+1476	free-time	
+1477	weather-heat	
+1478	free-time	
+1479	emergencies	
+1480	body-illness-pharmacy	
+1481	work-tasks	
+1482	work-tasks	
+1483	driving-moto	
+1484	work-tasks	
+1485	work-tasks	
+1486	paperwork-bureaucracy	
+1487	weather-heat	
+1488	work-tasks	
+1489	work-tasks	
+1490	news-institutions	
+1491	work-tasks	
+1492	work-tasks	
+1493	news-institutions	
+1494	feelings-conflict	drill:change-cause
+1495	news-institutions	
+1496	work-tasks	drill:change-cause
+1497	work-tasks	drill:yes-no-maybe
+1498	news-institutions	
+1499	news-institutions	buying-paying
+1500	news-institutions	
+1501	buying-paying	
+1502	news-institutions	
+1503	bank-cash-credit	
+1504	bank-cash-credit	
+1505	news-institutions	
+1506	news-institutions	
+1507	news-institutions	
+1508	bank-cash-credit	
+1509	news-institutions	
+1510	news-institutions	
+1511	news-institutions	
+1512	news-institutions	
+1513	news-institutions	
+1514	news-institutions	
+1515	bank-cash-credit	
+1516	news-institutions	
+1517	work-tasks	
+1518	work-tasks	drill:thinking-knowing
+1519	news-institutions	
+1520	news-institutions	
+1521	news-institutions	
+1522	news-institutions	
+1523	formal-written	
+1524	news-institutions	work-tasks
+1525	news-institutions	
+1526	formal-written	
+1527	paperwork-bureaucracy	
+1528	work-tasks	
+1529	fixing-breaking-power	
+1530	daily-routine	
+1531	news-institutions	drill:change-cause
+1532	migration-abroad	
+1533	paperwork-bureaucracy	
+1534	news-institutions	
+1535	paperwork-bureaucracy	
+1536	news-institutions	
+1537	news-institutions	
+1538	news-institutions	
+1539	phone-computer	
+1540	phone-computer	
+1541	news-institutions	
+1542	news-institutions	
+1543	news-institutions	
+1544	news-institutions	
+1545	asking-understanding	
+1546	news-institutions	
+1547	conversation-opinion	
+1548	family-friends	
+1549	work-tasks	
+1550	news-institutions	
+1551	news-institutions	
+1552	news-institutions	
+1553	news-institutions	
+1554	news-institutions	
+1555	news-institutions	
+1556	phone-computer	
+1557	news-institutions	
+1558	news-institutions	
+1559	news-institutions	
+1560	news-institutions	
+1561	news-institutions	drill:doing-handling
+1562	celebration-religion	drill:doing-handling
+1563	news-institutions	
+1564	transport-colectivo	
+1565	transport-colectivo	drill:doing-handling
+1566	news-institutions	
+1567	emergencies	
+1568	emergencies	
+1569	weather-heat	
+1570	weather-heat	house-renting
+1571	weather-heat	
+1572	fixing-breaking-power	
+1573	house-renting	
+1574	news-institutions	
+1575	infrastructure-building	drill:change-cause
+1576	buying-paying	
+1577	haggling-quantities	
+1578	daily-routine	
+1579	haggling-quantities	
+1580	infrastructure-building	drill:change-cause
+1581	directions-places	drill:change-cause
+1582	infrastructure-building	
+1583	infrastructure-building	
+1584	infrastructure-building	
+1585	driving-moto	
+1586	infrastructure-building	
+1587	haggling-quantities	
+1588	house-renting	
+1589	infrastructure-building	drill:change-cause
+1590	news-institutions	
+1591	news-institutions	
+1592	migration-abroad	
+1593	house-renting	
+1594	news-institutions	
+1595	family-friends	
+1596	family-friends	
+1597	family-friends	
+1598	arranging-to-meet	
+1599	family-friends	
+1600	family-friends	
+1601	news-institutions	
+1602	family-friends	
+1603	paperwork-bureaucracy	
+1604	feelings-conflict	
+1605	work-tasks	
+1606	bank-cash-credit	
+1607	formal-written	
+1608	formal-written	
+1609	family-friends	
+1610	family-friends	
+1611	family-friends	
+1612	family-friends	
+1613	family-friends	
+1614	family-friends	
+1615	conversation-opinion	drill:yes-no-maybe
+1616	family-friends	drill:yes-no-maybe
+1617	family-friends	
+1618	family-friends	
+1619	greeting-small-talk	
+1620	family-friends	
+1621	family-friends	
+1622	family-friends	
+1623	family-friends	
+1624	family-friends	
+1625	family-friends	
+1626	family-friends	
+1627	family-friends	
+1628	family-friends	
+1629	family-friends	
+1630	celebration-religion	drill:change-cause
+1631	celebration-religion	drill:change-cause
+1632	celebration-religion	drill:change-cause
+1633	study-school	drill:change-cause
+1634	family-friends	
+1635	study-school	drill:change-cause
+1636	celebration-religion	drill:change-cause
+1637	emergencies	
+1638	work-tasks	
+1639	paperwork-bureaucracy	
+1640	paperwork-bureaucracy	
+1641	daily-routine	
+1642	free-time	
+1643	fixing-breaking-power	
+1644	work-tasks	
+1645	work-tasks	
+1646	work-tasks	family-friends
+1647	work-tasks	
+1648	work-tasks	
+1649	work-tasks	
+1650	paperwork-bureaucracy	
+1651	paperwork-bureaucracy	
+1652	haggling-quantities	
+1653	news-institutions	
+1654	phone-computer	
+1655	news-institutions	
+1656	news-institutions	
+1657	news-institutions	
+1658	work-tasks	drill:seeing-noticing
+1659	emergencies	
+1660	emergencies	
+1661	emergencies	
+1662	news-institutions	
+1663	news-institutions	
+1664	news-institutions	
+1665	news-institutions	
+1666	buying-paying	
+1667	news-institutions	
+1668	news-institutions	
+1669	news-institutions	
+1670	news-institutions	
+1671	news-institutions	
+1672	family-friends	
+1673	bank-cash-credit	
+1674	driving-moto	
+1675	bank-cash-credit	
+1676	bank-cash-credit	buying-paying
+1677	news-institutions	
+1678	bank-cash-credit	
+1679	news-institutions	
+1680	bank-cash-credit	
+1681	bank-cash-credit	
+1682	bank-cash-credit	
+1683	news-institutions	
+1684	bank-cash-credit	
+1685	news-institutions	
+1686	bank-cash-credit	
+1687	work-tasks	drill:thinking-knowing
+1688	bank-cash-credit	
+1689	bank-cash-credit	
+1690	buying-paying	
+1691	body-illness-pharmacy	
+1692	bank-cash-credit	
+1693	bank-cash-credit	
+1694	work-tasks	
+1695	house-renting	
+1696	arranging-to-meet	
+1697	paperwork-bureaucracy	
+1698	formal-written	bank-cash-credit
+1699	paperwork-bureaucracy	
+1700	arranging-to-meet	
+1701	paperwork-bureaucracy	
+1702	paperwork-bureaucracy	
+1703	paperwork-bureaucracy	
+1704	paperwork-bureaucracy	
+1705	paperwork-bureaucracy	drill:change-cause
+1706	formal-written	
+1707	formal-written	drill:thinking-knowing
+1708	paperwork-bureaucracy	
+1709	news-institutions	
+1710	haggling-quantities	
+1711	paperwork-bureaucracy	
+1712	paperwork-bureaucracy	
+1713	paperwork-bureaucracy	
+1714	formal-written	
+1715	formal-written	
+1716	news-institutions	
+1717	arranging-to-meet	
+1718	formal-written	
+1719	paperwork-bureaucracy	
+1720	formal-written	
+1721	news-institutions	
+1722	formal-written	
+1723	migration-abroad	drill:thinking-knowing
+1724	paperwork-bureaucracy	
+1725	paperwork-bureaucracy	
+1726	work-tasks	
+1727	work-tasks	
+1728	work-tasks	
+1729	work-tasks	
+1730	work-tasks	
+1731	study-school	drill:doing-handling
+1732	work-tasks	
+1733	work-tasks	
+1734	paperwork-bureaucracy	
+1735	work-tasks	
+1736	fixing-breaking-power	
+1737	asking-understanding	
+1738	work-tasks	
+1739	study-school	drill:change-cause
+1740	study-school	phone-computer
+1741	work-tasks	
+1742	phone-computer	
+1743	study-school	drill:thinking-knowing
+1744	conversation-opinion	drill:thinking-knowing
+1745	work-tasks	drill:thinking-knowing
+1746	study-school	drill:thinking-knowing
+1747	study-school	drill:thinking-knowing
+1748	study-school	drill:thinking-knowing
+1749	study-school	drill:thinking-knowing
+1750	study-school	drill:thinking-knowing
+1751	work-tasks	
+1752	arranging-to-meet	
+1753	arranging-to-meet	
+1754	arranging-to-meet	
+1755	work-tasks	
+1756	work-tasks	
+1757	transport-colectivo	drill:thinking-knowing
+1758	work-tasks	drill:thinking-knowing
+1759	free-time	
+1760	house-renting	
+1761	house-renting	
+1762	work-tasks	
+1763	buying-paying	
+1764	paperwork-bureaucracy	
+1765	work-tasks	
+1766	work-tasks	
+1767	work-tasks	
+1768	phone-computer	
+1769	work-tasks	
+1770	work-tasks	drill:change-cause
+1771	phone-computer	
+1772	phone-computer	
+1773	phone-computer	
+1774	body-illness-pharmacy	
+1775	phone-computer	
+1776	phone-computer	
+1777	phone-computer	
+1778	phone-computer	
+1779	phone-computer	
+1780	paperwork-bureaucracy	
+1781	paperwork-bureaucracy	
+1782	paperwork-bureaucracy	
+1783	bank-cash-credit	drill:yes-no-maybe
+1784	bank-cash-credit	drill:thinking-knowing
+1785	bank-cash-credit	
+1786	bank-cash-credit	
+1787	bank-cash-credit	
+1788	bank-cash-credit	drill:change-cause
+1789	haggling-quantities	
+1790	haggling-quantities	
+1791	buying-paying	
+1792	buying-paying	
+1793	buying-paying	
+1794	buying-paying	
+1795	paperwork-bureaucracy	
+1796	paperwork-bureaucracy	
+1797	paperwork-bureaucracy	
+1798	paperwork-bureaucracy	
+1799	phone-computer	
+1800	paperwork-bureaucracy	
+1801	migration-abroad	terere-drinking
+1802	haggling-quantities	buying-paying
+1803	conversation-opinion	
+1804	feelings-conflict	
+1805	study-school	
+1806	feelings-conflict	
+1807	free-time	
+1808	work-tasks	
+1809	ordering-eating	
+1810	work-tasks	
+1811	work-tasks	
+1812	work-tasks	
+1813	work-tasks	
+1814	work-tasks	
+1815	work-tasks	
+1816	work-tasks	
+1817	free-time	
+1818	work-tasks	
+1819	work-tasks	
+1820	work-tasks	
+1821	free-time	
+1822	free-time	
+1823	directions-places	
+1824	emergencies	
+1825	feelings-conflict	drill:seeing-noticing
+1826	house-renting	drill:seeing-noticing
+1827	conversation-opinion	
+1828	conversation-opinion	
+1829	conversation-opinion	
+1830	conversation-opinion	
+1831	news-institutions	
+1832	fixing-breaking-power	
+1833	fixing-breaking-power	
+1834	news-institutions	drill:doing-handling
+1835	news-institutions	drill:doing-handling
+1836	news-institutions	
+1837	feelings-conflict	
+1838	news-institutions	
+1839	formal-written	
+1840	feelings-conflict	
+1841	feelings-conflict	
+1842	news-institutions	
+1843	conversation-opinion	drill:change-cause
+1844	news-institutions	drill:change-cause
+1845	conversation-opinion	drill:change-cause
+1846	work-tasks	
+1847	news-institutions	
+1848	body-illness-pharmacy	
+1849	news-institutions	
+1850	news-institutions	
+1851	news-institutions	
+1852	news-institutions	
+1853	news-institutions	
+1854	fixing-breaking-power	
+1855	emergencies	
+1856	emergencies	
+1857	emergencies	
+1858	emergencies	
+1859	emergencies	
+1860	emergencies	
+1861	conversation-opinion	drill:doing-handling
+1862	study-school	drill:change-cause
+1863	family-friends	
+1864	conversation-opinion	
+1865	conversation-opinion	
+1866	conversation-opinion	
+1867	conversation-opinion	
+1868	formal-written	
+1869	formal-written	
+1870	conversation-opinion	
+1871	conversation-opinion	drill:thinking-knowing
+1872	conversation-opinion	drill:thinking-knowing
+1873	conversation-opinion	
+1874	body-illness-pharmacy	
+1875	work-tasks	drill:thinking-knowing
+1876	conversation-opinion	
+1877	conversation-opinion	
+1878	conversation-opinion	
+1879	conversation-opinion	
+1880	conversation-opinion	
+1881	conversation-opinion	
+1882	work-tasks	
+1883	work-tasks	drill:doing-handling
+1884	formal-written	
+1885	formal-written	
+1886	formal-written	
+1887	formal-written	
+1888	paperwork-bureaucracy	
+1889	formal-written	
+1890	formal-written	
+1891	conversation-opinion	
+1892	conversation-opinion	
+1893	asking-understanding	
+1894	asking-understanding	
+1895	conversation-opinion	
+1896	conversation-opinion	
+1897	asking-understanding	
+1898	feelings-conflict	
+1899	family-friends	
+1900	family-friends	
+1901	feelings-conflict	
+1902	feelings-conflict	
+1903	family-friends	
+1904	feelings-conflict	bank-cash-credit
+1905	feelings-conflict	
+1906	feelings-conflict	
+1907	family-friends	
+1908	feelings-conflict	
+1909	feelings-conflict	drill:thinking-knowing
+1910	feelings-conflict	
+1911	feelings-conflict	
+1912	feelings-conflict	
+1913	feelings-conflict	
+1914	conversation-opinion	drill:thinking-knowing
+1915	daily-routine	
+1916	arranging-to-meet	
+1917	arranging-to-meet	
+1918	conversation-opinion	drill:thinking-knowing
+1919	arranging-to-meet	
+1920	arranging-to-meet	
+1921	body-illness-pharmacy	
+1922	formal-written	
+1923	formal-written	
+1924	formal-written	
+1925	free-time	
+1926	free-time	
+1927	free-time	
+1928	free-time	
+1929	news-institutions	
+1930	news-institutions	
+1931	news-institutions	
+1932	work-tasks	drill:seeing-noticing
+1933	news-institutions	
+1934	news-institutions	
+1935	conversation-opinion	
+1936	conversation-opinion	
+1937	work-tasks	drill:change-cause
+1938	work-tasks	
+1939	feelings-conflict	
+1940	daily-routine	
+1941	daily-routine	
+1942	feelings-conflict	drill:thinking-knowing
+1943	feelings-conflict	
+1944	feelings-conflict	
+1945	work-tasks	drill:seeing-noticing
+1946	greeting-small-talk	
+1947	formal-written	
+1948	buying-paying	
+1949	buying-paying	
+1950	family-friends	drill:yes-no-maybe
+1951	bank-cash-credit	
+1952	bank-cash-credit	
+1953	feelings-conflict	
+1954	feelings-conflict	
+1955	free-time	
+1956	feelings-conflict	
+1957	conversation-opinion	drill:change-cause
+1958	bank-cash-credit	drill:change-cause
+1959	feelings-conflict	drill:change-cause
+1960	news-institutions	drill:change-cause
+1961	news-institutions	
+1962	weather-heat	
+1963	conversation-opinion	drill:change-cause
+1964	feelings-conflict	
+1965	weather-heat	
+1966	feelings-conflict	
+1967	feelings-conflict	
+1968	feelings-conflict	
+1969	feelings-conflict	
+1970	feelings-conflict	drill:change-cause
+1971	conversation-opinion	drill:change-cause
+1972	haggling-quantities	
+1973	ordering-eating	
+1974	feelings-conflict	
+1975	feelings-conflict	
+1976	feelings-conflict	
+1977	feelings-conflict	
+1978	work-tasks	
+1979	work-tasks	
+1980	work-tasks	
+1981	work-tasks	
+1982	work-tasks	drill:thinking-knowing
+1983	formal-written	drill:thinking-knowing
+1984	paperwork-bureaucracy	
+1985	formal-written	
+1986	formal-written	
+1987	formal-written	
+1988	formal-written	
+1989	formal-written	
+1990	fixing-breaking-power	
+1991	formal-written	
+1992	conversation-opinion	drill:change-cause
+1993	news-institutions	drill:change-cause
+1994	news-institutions	drill:change-cause
+1995	conversation-opinion	drill:change-cause
+1996	body-illness-pharmacy	
+1997	house-renting	
+1998	work-tasks	
+1999	work-tasks	drill:change-cause
+2000	work-tasks	

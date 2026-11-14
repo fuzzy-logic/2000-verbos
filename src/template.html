@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<link rel="manifest" href="manifest.json">
+<title>2000 Verbos</title>
+<style>
+:root{
+  --bg:#0f1115; --surface:#171a21; --surface-2:#1e222b; --line:#2a2f3a;
+  --text:#e8eaf0; --muted:#949cad; --accent:#f2a93b; --accent-2:#4ea1ff;
+  --good:#3fb950; --warn:#e5534b;
+  --radius:14px; --gutter:16px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+:root[data-theme="light"]{
+  --bg:#f7f8fa; --surface:#ffffff; --surface-2:#eef0f4; --line:#dcdfe6;
+  --text:#14161b; --muted:#5e6672; --accent:#b87315; --accent-2:#1b6fd0;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--text); font-family:var(--font);
+  font-size:17px; line-height:1.5; overscroll-behavior-y:contain;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 var(--gutter)}
+
+/* ---------- header ---------- */
+header{
+  position:sticky;top:0;z-index:20;background:var(--bg);
+  border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top);
+}
+.hrow{display:flex;align-items:center;gap:10px;padding:10px 0}
+.brand{font-weight:700;font-size:15px;letter-spacing:.02em;margin-right:auto}
+.brand span{color:var(--accent)}
+.iconbtn{
+  background:var(--surface-2);border:1px solid var(--line);color:var(--text);
+  width:38px;height:38px;border-radius:10px;font-size:16px;cursor:pointer;
+  display:grid;place-items:center;flex:none;
+}
+.iconbtn:active{transform:scale(.94)}
+.tabs{display:flex;gap:6px;padding-bottom:10px}
+.tab{
+  flex:1;min-width:0;padding:9px 3px;text-align:center;border-radius:10px;cursor:pointer;
+  background:var(--surface-2);border:1px solid var(--line);color:var(--muted);
+  font-size:12.5px;font-weight:600;user-select:none;white-space:nowrap;
+  overflow:hidden;text-overflow:clip;
+}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#14161b}
+/* six tabs on a narrow phone: shrink the type rather than wrap or scroll */
+@media (max-width:380px){ .tabs{gap:4px} .tab{font-size:11px;padding:9px 2px;letter-spacing:-.2px} }
+
+/* ---------- chunk bar ---------- */
+.chunkbar{display:flex;align-items:center;gap:8px;padding:10px 0 4px}
+.chunknav{
+  flex:none;width:40px;height:38px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--text);font-size:20px;line-height:1;
+  font-family:inherit;cursor:pointer;
+}
+.chunknav:active{transform:scale(.94)}
+.chunknav:disabled{opacity:.3;cursor:default}
+.chunklabel{
+  flex:1;text-align:center;font-size:14px;font-weight:600;
+  font-variant-numeric:tabular-nums;white-space:nowrap;
+  background:var(--surface-2);color:var(--text);border:1px solid var(--line);
+  border-radius:10px;padding:9px 10px;font-family:inherit;cursor:pointer;
+  overflow:hidden;text-overflow:ellipsis;
+}
+.chunklabel:active{transform:scale(.98)}
+.chunklabel small{display:block;font-size:11px;font-weight:500;color:var(--muted)}
+.counter{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
+.bar{height:4px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin:8px 0 14px}
+.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .25s}
+
+/* ---------- group picker ---------- */
+.segrow{display:flex;gap:8px;margin-bottom:14px}
+.seg{
+  flex:1;padding:10px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--muted);font-size:14px;font-weight:600;
+  font-family:inherit;cursor:pointer;
+}
+.seg[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#14161b}
+.picksec{
+  font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);
+  font-weight:700;margin:16px 0 6px;
+}
+.picksec:first-child{margin-top:0}
+.pickrow{
+  display:flex;align-items:baseline;gap:10px;width:100%;text-align:left;
+  padding:11px 12px;margin-bottom:5px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--text);font-family:inherit;cursor:pointer;
+}
+.pickrow[aria-current="true"]{border-color:var(--accent)}
+.pickrow b{font-size:15px;font-weight:600;flex:1}
+.pickrow i{font-style:normal;font-size:13px;color:var(--muted);
+  font-variant-numeric:tabular-nums;flex:none}
+.pickrow span{display:block;font-size:12px;color:var(--muted);line-height:1.45;
+  font-weight:400;margin-top:3px}
+
+/* ---------- conjugation panel ---------- */
+.conjpanel{
+  background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:4px 0 2px;margin:-6px 0 14px;overflow:hidden;
+}
+.conjhead{
+  display:flex;align-items:baseline;gap:8px;padding:9px 14px 7px;
+  font-size:12px;color:var(--muted);
+}
+.conjhead b{color:var(--text);font-size:13px}
+.conjrow{
+  display:grid;grid-template-columns:minmax(74px,.9fr) 1.15fr 1.3fr;gap:8px;
+  padding:7px 14px;align-items:baseline;border-top:1px solid var(--line);
+}
+.conjrow.here{background:var(--surface-2)}
+.conjrow .lbl{font-size:12px;color:var(--muted);line-height:1.3}
+.conjrow .frm{font-size:15px;font-weight:600}
+.conjrow.here .frm{color:var(--accent)}
+.conjrow .pr{font-size:12px;color:var(--muted);letter-spacing:.02em}
+/* the respelling line: quieter than the translation, so the eye goes to the
+   Spanish first and comes here only when it needs to */
+.pron{font-size:13px;color:var(--muted);letter-spacing:.02em;opacity:.85}
+.check{display:flex;align-items:center;gap:9px;font-size:14px;color:var(--text);
+  cursor:pointer;margin-top:2px}
+.check input{width:17px;height:17px;accent-color:var(--accent);flex:none}
+.card .pron{font-size:14px}
+.rowitem .pron,.brow .pron{font-size:12px;margin-top:1px}
+.conjrow .en{font-size:12px;color:var(--muted);grid-column:2/4;margin-top:-3px}
+.conjrow .nt{grid-column:1/4;font-size:11px;color:var(--muted);font-style:italic;margin-top:2px}
+.conjmore{
+  display:flex;gap:8px;padding:9px 14px 10px;border-top:1px solid var(--line);flex-wrap:wrap;
+}
+.conjmore button{
+  padding:6px 11px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--muted);font-size:12px;font-family:inherit;cursor:pointer;
+}
+.conjmore button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+
+/* ---------- sideways links ---------- */
+.meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:5px}
+.metabtn{
+  font-size:11px;color:var(--muted);background:transparent;border:1px solid var(--line);
+  border-radius:999px;padding:2px 8px;font-family:inherit;cursor:pointer;
+}
+.metabtn:active{transform:scale(.97)}
+.formtag{
+  font-size:11px;font-weight:600;color:var(--muted);border:1px solid var(--line);
+  border-radius:999px;padding:2px 8px;white-space:nowrap;
+}
+.sideways{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.sideways button{
+  padding:5px 10px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--muted);font-size:12px;
+  font-family:inherit;cursor:pointer;max-width:100%;
+}
+.sideways button b{color:var(--text);font-weight:600}
+.sideways button:active{transform:scale(.97)}
+
+/* ---------- wander ---------- */
+.trail{
+  display:flex;flex-wrap:wrap;align-items:center;gap:4px;
+  font-size:12px;color:var(--muted);min-height:20px;margin-bottom:10px;
+}
+.trail button{
+  background:transparent;border:0;padding:2px 3px;cursor:pointer;
+  color:var(--muted);font-family:inherit;font-size:12px;
+}
+.trail button:last-child{color:var(--accent);font-weight:700}
+.trail .sep{opacity:.45}
+.wcard{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px 18px;text-align:center;display:flex;flex-direction:column;gap:10px;
+}
+.wverb{font-size:26px;font-weight:700;letter-spacing:-.01em}
+.wgloss{font-size:14px;color:var(--muted)}
+.wsent{font-size:17px;line-height:1.45;margin-top:4px}
+.wsent-en{font-size:13px;color:var(--muted)}
+.whead{
+  font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted);margin:16px 0 8px;display:flex;align-items:center;gap:8px;
+}
+.whead button{
+  margin-left:auto;background:transparent;border:1px solid var(--line);
+  border-radius:999px;color:var(--muted);font-family:inherit;font-size:11px;
+  padding:2px 9px;cursor:pointer;letter-spacing:0;text-transform:none;
+}
+.wchoice{
+  display:block;width:100%;text-align:left;margin-bottom:8px;cursor:pointer;
+  background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:12px 14px;font-family:inherit;color:var(--text);
+}
+.wchoice:active{transform:scale(.99)}
+.wchoice .rel{
+  font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--accent);display:block;margin-bottom:3px;
+}
+.wchoice .tgt{display:block;font-size:17px;font-weight:600}
+.wchoice .tgt span{font-size:13px;font-weight:400;color:var(--muted);margin-left:7px}
+.wchoice .why{font-size:12.5px;color:var(--muted);margin-top:4px;line-height:1.4}
+.wempty{color:var(--muted);font-size:13px;text-align:center;padding:16px 0}
+
+/* ---------- card ---------- */
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px 18px;min-height:230px;display:flex;flex-direction:column;
+  justify-content:center;gap:14px;text-align:center;
+}
+.verbtag{
+  font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--accent);
+}
+.verbtag b{color:var(--muted);font-weight:600}
+.verbtag .inf{font-size:14px;letter-spacing:.04em}
+.es{
+  font-size:25px;font-weight:600;line-height:1.35;
+  /* blur(0), never the `none` keyword. Some Chrome builds fail to interpolate
+     filter to or from `none` and leave the property stuck at its old value -
+     which showed up as the answer staying blurred after reveal, and as the
+     blur never applying in the first place. blur(0) keeps both ends animatable. */
+  filter:blur(0);
+  transition:filter .18s,opacity .18s,color .18s,text-shadow .18s;
+}
+.en{font-size:17px;color:var(--muted);line-height:1.4}
+.note{font-size:12.5px;color:var(--accent-2);font-style:italic}
+.es.hidden-text{
+  /* Obscured two independent ways on purpose. filter:blur alone is a single
+     point of failure - if it is unsupported or stripped, the answer renders
+     perfectly readable and the exercise silently breaks. Transparent text with
+     a shadow hides it even with no filter support at all. */
+  color:transparent;
+  text-shadow:0 0 13px var(--text);
+  filter:blur(3px);
+  transition:none;
+  cursor:pointer;
+  user-select:none;
+}
+.reveal-hint{font-size:13px;color:var(--muted)}
+
+.controls{display:flex;gap:8px;margin:14px 0}
+.btn{
+  flex:1;padding:14px 8px;border-radius:12px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--text);font-size:15px;font-weight:600;
+  font-family:inherit;cursor:pointer;
+}
+.btn:active{transform:scale(.97)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#14161b}
+.btn.wide{flex:2}
+.btn:disabled{opacity:.4}
+.markrow{display:flex;gap:8px;margin-bottom:18px}
+.btn.small{font-size:13.5px;padding:11px 6px}
+.btn.good{color:var(--good)} .btn.warn{color:var(--warn)}
+
+/* ---------- table ---------- */
+.search{
+  width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--text);font-size:16px;font-family:inherit;
+  margin-bottom:10px;
+}
+.rowitem{
+  display:flex;gap:10px;align-items:flex-start;padding:12px 0;
+  border-bottom:1px solid var(--line);
+}
+.rowitem .n{font-size:12px;color:var(--muted);min-width:34px;font-variant-numeric:tabular-nums;padding-top:3px}
+.rowitem .txt{flex:1;min-width:0}
+.rowitem .txt .v{font-size:11.5px;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.rowitem .txt .s{font-size:16px;margin-top:2px}
+.rowitem .txt .t{font-size:14px;color:var(--muted);margin-top:2px}
+.rowitem .spk{
+  flex:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--accent);font-size:16px;cursor:pointer;
+}
+.empty{text-align:center;color:var(--muted);padding:40px 0;font-size:15px}
+.tablecount{font-size:12.5px;color:var(--muted);margin:-2px 0 6px;font-variant-numeric:tabular-nums}
+.bsection{font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);margin:22px 0 8px}
+.bgroup{border:1px solid var(--line);border-radius:var(--radius);margin-bottom:8px;
+  background:var(--surface);overflow:hidden}
+.bhead{display:flex;align-items:center;gap:10px;padding:13px 14px;cursor:pointer;user-select:none}
+.bhead:active{background:var(--surface-2)}
+.bhead .bt{flex:1;min-width:0}
+.bhead .btitle{font-size:15px;font-weight:600}
+.bhead .bblurb{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.4}
+.bhead .bn{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;flex:none}
+.bhead .bchev{flex:none;color:var(--muted);font-size:13px;transition:transform .15s}
+.bgroup.open .bchev{transform:rotate(90deg)}
+.bbody{display:none;padding:0 14px 6px}
+.bgroup.open .bbody{display:block}
+.brow{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line)}
+.brow .bes{font-size:16px;font-weight:600}
+.brow .ben{font-size:14px;color:var(--muted);margin-top:1px}
+.brow .bnote{font-size:12px;color:var(--accent-2);font-style:italic;margin-top:2px;line-height:1.4}
+.brow .btx{flex:1;min-width:0}
+.brow .spk{flex:none;width:36px;height:36px;border-radius:9px;border:1px solid var(--line);
+  background:var(--surface-2);color:var(--accent);font-size:15px;cursor:pointer}
+
+/* ---------- settings ---------- */
+.sheet{
+  position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:50;display:none;
+  align-items:flex-end;
+}
+.sheet.open{display:flex}
+.sheetinner{
+  background:var(--surface);width:100%;max-height:88vh;overflow:auto;
+  border-radius:18px 18px 0 0;padding:20px var(--gutter) calc(28px + env(safe-area-inset-bottom));
+  max-width:760px;margin:0 auto;
+}
+.sheetinner h2{margin:0 0 16px;font-size:17px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px;font-weight:600}
+.field select,.field input[type=range]{width:100%}
+.field select{
+  background:var(--surface-2);color:var(--text);border:1px solid var(--line);
+  border-radius:10px;padding:10px;font-size:15px;font-family:inherit;
+}
+.val{float:right;color:var(--accent);font-variant-numeric:tabular-nums}
+.foot{font-size:12.5px;color:var(--muted);line-height:1.6;margin-top:18px;
+  border-top:1px solid var(--line);padding-top:14px}
+.foot b{color:var(--text)}
+.linkbtn{background:none;border:none;color:var(--accent-2);font-size:13px;
+  cursor:pointer;padding:0;font-family:inherit;text-decoration:underline}
+.packlist{display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
+.packrow{display:flex;align-items:center;gap:10px;background:var(--surface-2);
+  border:1px solid var(--line);border-radius:10px;padding:9px 11px;font-size:14px}
+.packrow .pname{flex:1;min-width:0}
+.packrow .psize{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.packrow button{background:var(--accent);border:none;color:#14161b;border-radius:8px;
+  padding:7px 12px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;flex:none}
+.packrow button.saved{background:var(--surface);color:var(--good);border:1px solid var(--line)}
+.packrow button:disabled{opacity:.6}
+.packnote{font-size:12px;color:var(--muted);line-height:1.5;margin:0}
+.stalebtn{
+  display:block;margin-top:9px;padding:7px 12px;border-radius:8px;
+  border:1px solid var(--line);background:var(--surface-2);color:var(--text);
+  font-size:12px;font-family:inherit;cursor:pointer;
+}
+.stalebtn:disabled{opacity:.5}
+.warnbox{background:var(--surface-2);border:1px solid var(--line);border-left:3px solid var(--warn);
+  padding:10px 12px;border-radius:8px;font-size:13px;color:var(--muted);margin-bottom:14px;display:none}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="hrow">
+      <div class="brand">2000 <span>VERBOS</span></div>
+      <button class="iconbtn" id="themeBtn" title="Theme">◐</button>
+      <button class="iconbtn" id="setBtn" title="Settings">⚙</button>
+    </div>
+    <div class="tabs" role="tablist">
+      <div class="tab" role="tab" data-mode="listen" aria-selected="true">Listen</div>
+      <div class="tab" role="tab" data-mode="recall" aria-selected="false">Recall</div>
+      <div class="tab" role="tab" data-mode="wander" aria-selected="false">Wander</div>
+      <div class="tab" role="tab" data-mode="deck"   aria-selected="false">Deck</div>
+      <div class="tab" role="tab" data-mode="verbs"  aria-selected="false">Verbs</div>
+      <div class="tab" role="tab" data-mode="basics" aria-selected="false">Basics</div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div id="studyView">
+    <div class="chunkbar">
+      <button class="chunknav" id="chunkPrev" aria-label="Previous group">‹</button>
+      <button class="chunklabel" id="groupBtn" aria-label="Choose a group">—</button>
+      <button class="chunknav" id="chunkNext" aria-label="Next group">›</button>
+      <div class="counter" id="counter">0 / 0</div>
+    </div>
+    <div class="bar"><i id="progBar"></i></div>
+
+    <div class="card" id="card">
+      <div class="verbtag" id="verbTag"></div>
+      <div class="es" id="esText"></div>
+      <div class="pron" id="pronText"></div>
+      <div class="en" id="enText"></div>
+      <div class="note" id="noteText"></div>
+      <div class="reveal-hint" id="hint"></div>
+      <div class="sideways" id="sideways"></div>
+    </div>
+
+    <div class="conjpanel" id="conjPanel" style="display:none"></div>
+
+    <div class="controls">
+      <button class="btn" id="prevBtn">←</button>
+      <button class="btn wide primary" id="playBtn">▶ Play</button>
+      <button class="btn" id="nextBtn">→</button>
+    </div>
+    <div class="markrow">
+      <button class="btn small good" id="knownBtn">✓ Got it</button>
+      <button class="btn small warn" id="shakyBtn">↻ Shaky</button>
+      <button class="btn small" id="conjBtn">▾ Forms</button>
+      <button class="btn small" id="autoBtn">⏯ Auto</button>
+    </div>
+  </div>
+
+  <div id="wanderView" style="display:none">
+    <div class="trail" id="wTrail"></div>
+    <div class="wcard" id="wCard"></div>
+    <div class="whead" id="wHead"></div>
+    <div id="wChoices"></div>
+    <div class="controls">
+      <button class="btn" id="wBack">← Back</button>
+      <button class="btn wide primary" id="wPlay">▶ Play</button>
+      <button class="btn" id="wRandom">⤭ New</button>
+    </div>
+  </div>
+
+  <div id="verbsView" style="display:none">
+    <input class="search" id="vSearch" placeholder="Search a verb or its meaning…" autocomplete="off">
+    <div class="tablecount" id="vCount"></div>
+    <div id="vList"></div>
+  </div>
+
+  <div id="basicsView" style="display:none">
+    <input class="search" id="bSearch" placeholder="Search the tables…" autocomplete="off">
+    <div class="tablecount" id="bCount"></div>
+    <div id="bSections"></div>
+  </div>
+
+  <div id="tableView" style="display:none">
+    <input class="search" id="search" placeholder="Search Spanish, English or verb…" autocomplete="off">
+    <div class="tablecount" id="tableCount"></div>
+    <div id="rows"></div>
+  </div>
+
+</main>
+
+<div class="sheet" id="pickSheet">
+  <div class="sheetinner">
+    <h2>What do you want to work on?</h2>
+    <div class="segrow">
+      <button class="seg" id="segTopic" data-view="topic" aria-selected="true">By topic</button>
+      <button class="seg" id="segForm" data-view="form" aria-selected="false">By tense</button>
+    </div>
+    <input class="search" id="pickSearch" placeholder="Filter…" autocomplete="off">
+    <div id="pickList"></div>
+  </div>
+</div>
+
+<div class="sheet" id="sheet">
+  <div class="sheetinner">
+    <h2>Settings</h2>
+    <div class="warnbox" id="voiceWarn"></div>
+    <div class="field">
+      <label>Offline audio <span class="val" id="packSummary"></span></label>
+      <div id="packList" class="packlist"></div>
+      <p class="packnote">Downloads the real Paraguayan recordings to this device. Once a pack
+      is saved, every speak button plays it instead of a synthetic voice, and the walking
+      track works offline with the screen off. Use wifi.</p>
+    </div>
+    <div class="field">
+      <label for="pronChk">Pronunciation <span class="val" id="pronVal">shown</span></label>
+      <label class="check"><input type="checkbox" id="pronChk" checked>
+        Show a respelling under every Spanish line</label>
+      <p class="packnote">A hint for an English reader, with the stressed syllable in
+      capitals — <i>al-mor-SAH-mos</i>. Paraguayan values: <i>ll</i> and <i>y</i> stay apart,
+      <i>c</i> and <i>z</i> are <i>s</i>, <i>v</i> is read as <i>b</i>. It stays hidden in
+      Recall until you reveal the Spanish.</p>
+    </div>
+    <div class="field">
+      <label for="voiceSel">Fallback voice <span class="val">used only when no pack is saved</span></label>
+      <select id="voiceSel"></select>
+    </div>
+    <div class="field">
+      <label for="rate">Speed <span class="val" id="rateVal">1.0×</span></label>
+      <input type="range" id="rate" min="0.5" max="2" step="0.05" value="1">
+    </div>
+    <div class="field">
+      <label for="gap">Auto-advance gap <span class="val" id="gapVal">1.2s</span></label>
+      <input type="range" id="gap" min="0" max="5" step="0.1" value="1.2">
+    </div>
+    <div class="field">
+      <label for="reps">Repeats per sentence <span class="val" id="repsVal">1</span></label>
+      <input type="range" id="reps" min="1" max="4" step="1" value="1">
+    </div>
+    <div class="field">
+      <label for="chunkSize">Chunk size <span class="val" id="chunkVal">100</span></label>
+      <input type="range" id="chunkSize" min="25" max="250" step="25" value="100">
+    </div>
+    <div class="foot">
+      <p><b>Listen</b> — read the Spanish while you hear it, glance at the English. Fast, no pressure. This is wave one.</p>
+      <p><b>Recall</b> — the Spanish is blurred. Read the English, say it out loud in Spanish, then tap to check. You will get most wrong at first. That is the exercise working, not failing.</p>
+      <p><b>The sandwich</b> — once these feel easy, push the speed to 1.25–1.5× and alternate: five minutes of a real Paraguayan podcast, then back here when it gets tiring. Repeat. That gap is where listening comprehension is actually built.</p>
+      <p style="margin-bottom:0">
+        <button class="linkbtn" id="exportBtn">Export CSV</button> &nbsp;·&nbsp;
+        <button class="linkbtn" id="resetBtn">Reset progress</button>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/[];
+const TABLES = /*__TABLES__*/[];
+const TOPICS = /*__TOPICS__*/[];
+
+// Which tense/person each sentence uses, as the by-tense view labels them.
+// Section first, then the label, with a model verb so the shape is visible.
+const FORM_META = {
+  'pres-1s':    ['Present',     'yo — hablo',                    'present · yo'],
+  'pres-2s':    ['Present',     'vos — hablás',                  'present · vos'],
+  'pres-2s-tu': ['Present',     'tú — hablas',                   'present · tú'],
+  'pres-3s':    ['Present',     'él / ella / usted — habla',     'present · él/ella'],
+  'pres-1p':    ['Present',     'nosotros — hablamos',           'present · nosotros'],
+  'pres-3p':    ['Present',     'ellos / ustedes — hablan',      'present · ellos'],
+  'cmd-vos':    ['Commands',    '¡vení! ¡mirá! ¡tomá!',          'command (vos)'],
+  'pret-1s':    ['Preterite',   'yo — hablé',                    'preterite · yo'],
+  'pret-2s':    ['Preterite',   'vos — hablaste',                'preterite · vos'],
+  'pret-3s':    ['Preterite',   'él / ella — habló',             'preterite · él/ella'],
+  'pret-1p':    ['Preterite',   'nosotros — hablamos',           'preterite · nosotros'],
+  'pret-3p':    ['Preterite',   'ellos / ustedes — hablaron',    'preterite · ellos'],
+  'imperf-1s':  ['Imperfect',   'yo — hablaba',                  'imperfect · yo'],
+  'imperf-3s':  ['Imperfect',   'él / ella — hablaba',           'imperfect · él/ella'],
+  'imperf-3p':  ['Imperfect',   'ellos — hablaban',              'imperfect · ellos'],
+  'perf-1s':    ['Perfect',     'yo — he hablado',               'perfect · yo'],
+  'subj-2s':    ['Subjunctive', 'negative command — no hables',  'negative command'],
+  'subj-2s-voseo': ['Subjunctive', 'negative command, as spoken — no hablés',
+                                                                  'negative command (vos)'],
+  'subj-3s':    ['Subjunctive', 'él / ella — hable',             'subjunctive · él/ella'],
+  'subj-1p':    ['Subjunctive', 'nosotros — hablemos',           'subjunctive · nosotros'],
+  'inf':        ['Other forms', 'infinitive after another verb',  'infinitive'],
+  'prog':       ['Other forms', 'estoy + -ando / -iendo',        'progressive'],
+  'part':       ['Other forms', 'participle — hablado',          'participle'],
+  'cond-1s':    ['Other forms', 'conditional — hablaría',        'conditional'],
+  'impersonal': ['Other forms', 'hay',                           'impersonal'],
+};
+const FORM_SECTIONS = ['Present','Commands','Preterite','Imperfect','Perfect',
+                       'Subjunctive','Other forms'];
+const LEVELS = ['A1','A2','B1'];
+
+/* ---------- state ---------- */
+const LS = 'verbos2000';
+const save = () => { try{ localStorage.setItem(LS, JSON.stringify(state)); }catch(e){} };
+let state = { mode:'listen', view:'topic', group:'', idx:0, rate:1, gap:1.2, reps:1,
+              chunkSize:100, level:'A1', conjOpen:false,
+              voice:'', theme:'dark', marks:{}, trail:[], pron:true };
+try { const s = localStorage.getItem(LS); if(s) state = Object.assign(state, JSON.parse(s)); } catch(e){}
+// 'table' was the deck's mode key before the Basics tab existed.
+if(state.mode === 'table') state.mode = 'deck';
+if(!state.openTables) state.openTables = {};
+// The deck used to be sliced into blocks of 100 by rank. Anyone carrying that
+// state lands on the first topic instead.
+if(state.view !== 'topic' && state.view !== 'form') state.view = 'topic';
+if(!state.level || LEVELS.indexOf(state.level) < 0) state.level = 'A1';
+if(!state.openVerbs) state.openVerbs = {};
+// a trail from an older deploy may name verbs this build no longer carries
+if(typeof state.pron !== 'boolean') state.pron = true;
+if(!Array.isArray(state.trail)) state.trail = [];
+state.trail = state.trail.filter(v => DATA.some(x => x.v === v));
+
+const $ = id => document.getElementById(id);
+let auto = false, autoTimer = null, voices = [], voice = null;
+
+/* ---------- voices ---------- */
+// Preference order: Paraguay first, then the other voseo countries, then
+// neutral Latin American, then anything Spanish at all.
+const VOICE_RANK = ['es-py','es-ar','es-uy','es-bo','es-419','es-mx','es-co','es-cl','es-pe','es-us','es-es','es'];
+function voiceScore(v){
+  const l = (v.lang||'').toLowerCase().replace('_','-');
+  for(let i=0;i<VOICE_RANK.length;i++){ if(l.startsWith(VOICE_RANK[i])) return i; }
+  return 99;
+}
+function loadVoices(){
+  voices = (speechSynthesis.getVoices()||[]).filter(v=>(v.lang||'').toLowerCase().startsWith('es'));
+  voices.sort((a,b)=>voiceScore(a)-voiceScore(b));
+  const sel = $('voiceSel'); sel.innerHTML='';
+  if(!voices.length){
+    sel.innerHTML = '<option>No Spanish voice found</option>';
+    const w = $('voiceWarn');
+    w.style.display='block';
+    w.textContent = 'No Spanish voice is installed on this device. On Android install Google Text-to-Speech + the Spanish voice; on Linux install a Spanish speech-dispatcher voice; iOS has them built in (Settings → Accessibility → Spoken Content → Voices).';
+    return;
+  }
+  voices.forEach((v,i)=>{
+    const o=document.createElement('option');
+    o.value=v.voiceURI; o.textContent=`${v.name} (${v.lang})`;
+    sel.appendChild(o);
+  });
+  voice = voices.find(v=>v.voiceURI===state.voice) || voices[0];
+  sel.value = voice.voiceURI;
+}
+speechSynthesis.onvoiceschanged = loadVoices;
+loadVoices();
+
+/* ---------- offline audio packs (IndexedDB) ---------- */
+// Blobs in IndexedDB rather than Cache Storage: a media element seeks by issuing
+// Range requests, which a cached Response does not satisfy without the service
+// worker hand-rolling 206 replies. An object URL over a Blob seeks natively.
+const DB='verbos-audio', STORE='packs';
+let packs=[], saved={}, urls={};
+
+function idb(){
+  return new Promise((res,rej)=>{
+    const rq=indexedDB.open(DB,1);
+    rq.onupgradeneeded=()=>{ if(!rq.result.objectStoreNames.contains(STORE)) rq.result.createObjectStore(STORE); };
+    rq.onsuccess=()=>res(rq.result); rq.onerror=()=>rej(rq.error);
+  });
+}
+async function idbGet(k){ const d=await idb(); return new Promise((res,rej)=>{
+  const r=d.transaction(STORE,'readonly').objectStore(STORE).get(k);
+  r.onsuccess=()=>res(r.result); r.onerror=()=>rej(r.error); }); }
+async function idbPut(k,v){ const d=await idb(); return new Promise((res,rej)=>{
+  const t=d.transaction(STORE,'readwrite'); t.objectStore(STORE).put(v,k);
+  t.oncomplete=()=>res(); t.onerror=()=>rej(t.error); }); }
+async function idbDel(k){ const d=await idb(); return new Promise((res,rej)=>{
+  const r=d.transaction(STORE,'readwrite').objectStore(STORE).delete(k);
+  r.onsuccess=()=>res(true); r.onerror=()=>rej(r.error); }); }
+async function idbKeys(){ const d=await idb(); return new Promise((res,rej)=>{
+  const r=d.transaction(STORE,'readonly').objectStore(STORE).getAllKeys();
+  r.onsuccess=()=>res(r.result||[]); r.onerror=()=>rej(r.error); }); }
+
+async function loadPacks(){
+  try{
+    const r = await fetch('audio/packs.json', {cache:'no-cache'});
+    if(r.ok) packs = await r.json();
+  }catch(e){ packs = []; }
+  try{
+    const keys = await idbKeys();
+    for(const k of keys){ const v = await idbGet(k); if(v) saved[k]=v; }
+  }catch(e){}
+  if(!packs.length) packs = Object.values(saved).map(v=>v.meta).filter(Boolean);
+  renderPacks();
+}
+
+/* Packs saved before the deck was reorganised are keyed by rank range and
+   point at files that no longer exist. Rather than let them fail silently at
+   play time, say so and offer to clear them. */
+function stalePacks(){
+  const live = new Set(packs.map(p => p.stem));
+  return Object.keys(saved).filter(k => !live.has(k));
+}
+
+async function clearStale(btn){
+  btn.disabled = true;
+  for(const k of stalePacks()){
+    try{ await idbDel(k); }catch(e){}
+    if(urls[k]){ URL.revokeObjectURL(urls[k]); delete urls[k]; }
+    delete saved[k];
+  }
+  renderPacks();
+  render();
+}
+
+// A pack holds one topic. Its index is keyed by the sentence key, so a lookup
+// map is built once per pack rather than scanning the list on every play.
+function packIndex(pack){
+  if(!pack._by){
+    pack._by = {};
+    for(const e of (pack.index.sentences || [])) pack._by[e.k] = e;
+  }
+  return pack._by;
+}
+function packFor(key){
+  for(const k in saved){
+    const p = saved[k];
+    if(p.meta && p.meta.topic && packIndex(p)[key]) return p;
+  }
+  return null;
+}
+function clipOf(pack, key, which){
+  const e = packIndex(pack)[key];
+  return e ? e[which] : null;
+}
+function namedPack(stem){
+  for(const k in saved){ if(saved[k].meta && saved[k].meta.stem === stem) return saved[k]; }
+  return null;
+}
+function urlFor(pack){
+  const k = pack.meta.stem;
+  if(!urls[k]) urls[k] = URL.createObjectURL(pack.blob);
+  return urls[k];
+}
+
+async function downloadPack(meta, btn){
+  btn.disabled=true; const label=btn.textContent;
+  try{
+    btn.textContent='…';
+    // ?v carries a hash of the pack's index, so a corrected pack is a new URL
+    // and the year-long immutable cache on /audio/* stays safe.
+    const v = meta.v ? `?v=${encodeURIComponent(meta.v)}` : '';
+    const [mp3, idx] = await Promise.all([
+      fetch(`audio/${meta.stem}.mp3${v}`).then(r=>{ if(!r.ok) throw new Error(r.status); return r.blob(); }),
+      fetch(`audio/${meta.stem}.json${v}`).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+    ]);
+    const rec = {meta, blob:mp3, index:idx, savedAt:Date.now()};
+    await idbPut(meta.stem, rec);
+    saved[meta.stem]=rec;
+    renderPacks(); render();
+  }catch(e){
+    btn.textContent='failed'; setTimeout(()=>{ btn.textContent=label; btn.disabled=false; }, 2000);
+    return;
+  }
+  btn.disabled=false;
+}
+
+function renderPacks(){
+  const box=$('packList'); if(!box) return;
+  if(!packs.length){ box.innerHTML='<div class="packnote">No audio packs published yet.</div>';
+    $('packSummary').textContent=''; return; }
+  box.innerHTML='';
+  let sec = null;
+  packs.forEach(m=>{
+    if(m.section && m.section !== sec){
+      sec = m.section;
+      const h = document.createElement('div');
+      h.className = 'picksec'; h.textContent = sec;
+      box.appendChild(h);
+    }
+    const rec = saved[m.stem];
+    const has = !!rec;
+    const outdated = has && m.v && rec.meta && rec.meta.v && rec.meta.v !== m.v;
+    const row=document.createElement('div'); row.className='packrow';
+    const name = m.title || (m.kind === 'tables' ? 'Basics tables' : m.stem);
+    row.innerHTML=`<div class="pname">${name}
+        <div class="psize">${Math.round((m.duration||0)/60)} min${m.mb?` · ${m.mb} MB`:''}</div></div>`;
+    const b=document.createElement('button');
+    b.textContent = outdated ? 'Update' : has ? '✓ Saved' : 'Download';
+    if(has && !outdated) b.className='saved';
+    b.onclick = () => { if(!has || outdated) downloadPack(m, b); };
+    row.appendChild(b); box.appendChild(row);
+  });
+  const stale = stalePacks();
+  if(stale.length){
+    const warn = document.createElement('div');
+    warn.className = 'packnote';
+    warn.style.cssText = 'border-left:3px solid var(--warn);padding-left:10px;margin-bottom:10px';
+    const many = stale.length > 1;
+    warn.innerHTML = `<b>${stale.length} saved pack${many?'s':''} ${many?'are':'is'} from the ` +
+      `old rank layout</b> and no longer play${many?'':'s'}. The audio is now one pack ` +
+      `per topic, matching the deck.`;
+    const b = document.createElement('button');
+    b.textContent = many ? 'Remove them' : 'Remove it';
+    b.className = 'stalebtn';
+    b.onclick = () => clearStale(b);
+    warn.appendChild(b);
+    box.prepend(warn);
+  }
+  const n = Object.keys(saved).length - stale.length;
+  $('packSummary').textContent = n ? `${n} of ${packs.length} saved` : '';
+}
+
+/* ---------- playback ---------- */
+const el = new Audio();
+el.preload='auto';
+let stopAt=null, seqTimer=null;
+
+// Safari/iOS drops long queues and pauses when backgrounded; nudging resume()
+// keeps a synthetic-speech sequence alive. Real audio does not need this.
+setInterval(()=>{ if(speechSynthesis.speaking && !speechSynthesis.paused) speechSynthesis.resume(); }, 8000);
+
+function speak(text, done){
+  try{ speechSynthesis.cancel(); }catch(e){}
+  let n = 0;
+  const once = () => {
+    const u = new SpeechSynthesisUtterance(text);
+    if(voice){ u.voice = voice; u.lang = voice.lang; } else { u.lang = 'es-419'; }
+    u.rate = state.rate;
+    u.onend = () => { n++; if(n < state.reps){ setTimeout(once, 260); } else if(done) done(); };
+    u.onerror = () => { if(done) done(); };
+    speechSynthesis.speak(u);
+  };
+  once();
+}
+
+function stopAudio(){
+  clearTimeout(seqTimer); seqTimer=null; stopAt=null; follow=null;
+  try{ el.pause(); }catch(e){}
+  try{ speechSynthesis.cancel(); }catch(e){}
+}
+
+let follow = null;
+el.addEventListener('timeupdate', ()=>{
+  if(stopAt!==null && el.currentTime >= stopAt){ el.pause(); stopAt=null; }
+  if(follow) follow();
+});
+el.addEventListener('ended', ()=>{ if(auto) stopAuto(); });
+
+/** Play one clip of one row: real recording when a pack is saved, else TTS. */
+function play(row, which, done){
+  stopAudio();
+  const key = row.k || String(row.r);
+  const pack = packFor(key);
+  const seg = pack && clipOf(pack, key, which||'full');
+  if(!seg){ speak(which==='en' ? row.t : row.s, done); return; }
+  const [start, dur] = seg;
+  el.src = urlFor(pack);
+  el.playbackRate = state.rate;
+  el.currentTime = start;
+  stopAt = start + dur + 0.05;
+  el.play().catch(()=>{ speak(row.s, done); });
+  if(done) seqTimer = setTimeout(done, ((dur+0.12)/state.rate)*1000);
+}
+
+const tablesPack = () => namedPack('tables');
+
+/** Speak one reference-table row: the recording if saved, else device TTS. */
+function playTableRow(row){
+  stopAudio();
+  const pack = tablesPack();
+  const seg = pack && pack.index.map && pack.index.map[row.i];
+  if(!seg){ speak(row.s); return; }
+  el.src = urlFor(pack);
+  el.playbackRate = state.rate;
+  el.currentTime = seg[0];
+  stopAt = seg[0] + seg[1] + 0.05;
+  el.play().catch(()=>speak(row.s));
+}
+
+/** Walking mode: let the pre-rendered track run on from here, screen off. */
+function playForm(verb, slot, text){
+  stopAudio();
+  const pack = namedPack('conj');
+  const seg = pack && pack.index.map && pack.index.map[verb + '|' + slot];
+  if(!seg){ speak(text); return; }
+  el.src = urlFor(pack);
+  el.playbackRate = state.rate;
+  el.currentTime = seg[0];
+  stopAt = seg[0] + seg[1] + 0.05;
+  el.play().catch(()=>speak(text));
+}
+
+function playTrack(row){
+  const key = row.k || String(row.r);
+  const pack = packFor(key);
+  const entry = pack && packIndex(pack)[key];
+  if(!entry) return false;
+  stopAudio();
+  el.src = urlFor(pack);
+  el.playbackRate = state.rate;
+  el.currentTime = entry.verb[0];
+  el.play().catch(()=>{});
+  if('mediaSession' in navigator){
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: row.s, artist: `${row.v} · ${row.ve}`,
+      album: TOPIC_TITLE[row.tp] || '2000 Verbos'
+    });
+    navigator.mediaSession.setActionHandler('play', ()=>el.play());
+    navigator.mediaSession.setActionHandler('pause', ()=>el.pause());
+    navigator.mediaSession.setActionHandler('previoustrack', ()=>{ stopAuto(); go(-1); startAuto(); });
+    navigator.mediaSession.setActionHandler('nexttrack', ()=>{ stopAuto(); go(1); startAuto(); });
+  }
+  return true;
+}
+
+/* ---------- groups ----------
+   Two ways of cutting the same 2000 cards: by topic (what you need first in
+   Asunción) or by the tense the sentence uses. Frequency survives as the sort
+   order inside every group, so the common verbs still come first. */
+const GROUPS = { topic: [], form: [] };
+
+function buildGroups(){
+  const byTopic = new Map(TOPICS.map(t => [t.slug, []]));
+  const byForm = new Map();
+  for(const r of DATA){
+    if(byTopic.has(r.tp)) byTopic.get(r.tp).push(r);
+    if(!byForm.has(r.f)) byForm.set(r.f, []);
+    byForm.get(r.f).push(r);
+  }
+  GROUPS.topic = TOPICS
+    .map(t => ({ key:t.slug, title:t.title, section:t.section,
+                 blurb:t.blurb, rows:byTopic.get(t.slug) || [] }))
+    .filter(g => g.rows.length);
+  GROUPS.form = [];
+  for(const sec of FORM_SECTIONS){
+    for(const key of Object.keys(FORM_META)){
+      const m = FORM_META[key];
+      if(m[0] === sec && byForm.has(key))
+        GROUPS.form.push({ key, title:m[1], section:sec, blurb:'', rows:byForm.get(key) });
+    }
+  }
+  // anything the label table does not cover still gets a home
+  for(const [key, rows] of byForm)
+    if(!FORM_META[key]) GROUPS.form.push({ key, title:key, section:'Other forms', blurb:'', rows });
+}
+
+const TOPIC_TITLE = {};
+TOPICS.forEach(t => { TOPIC_TITLE[t.slug] = t.title; });
+
+/* Jump straight from a Deck row into the group it belongs to. */
+function openGroup(view, key, row){
+  stopAuto();
+  state.view = view;
+  state.group = key;
+  const g = (GROUPS[view] || []).find(x => x.key === key);
+  state.idx = g && row ? Math.max(0, g.rows.indexOf(row)) : 0;
+  document.querySelector('.tab[data-mode="listen"]').click();
+  buildChunkSel();
+  render();
+  save();
+}
+
+const activeGroups = () => GROUPS[state.view].length ? GROUPS[state.view] : GROUPS.topic;
+
+function groupIndex(){
+  const gs = activeGroups();
+  const i = gs.findIndex(g => g.key === state.group);
+  return i < 0 ? 0 : i;
+}
+
+const current = () => (activeGroups()[groupIndex()] || { rows:[] }).rows;
+
+function buildChunkSel(){
+  const gs = activeGroups(), g = gs[groupIndex()];
+  if(!g){ $('groupBtn').textContent = '—'; return; }
+  state.group = g.key;
+  $('groupBtn').innerHTML =
+    `${esc(g.title)}<small>${esc(g.section)} · ${g.rows.length} cards</small>`;
+  $('chunkPrev').disabled = groupIndex() === 0;
+  $('chunkNext').disabled = groupIndex() >= gs.length - 1;
+}
+
+function goChunk(d){
+  const gs = activeGroups(), next = groupIndex() + d;
+  if(next < 0 || next >= gs.length) return;
+  stopAuto();
+  state.group = gs[next].key;
+  state.idx = 0;
+  buildChunkSel();
+  render();
+  if(state.mode === 'deck') renderTable();
+  save();
+}
+
+/* ---------- the group picker ---------- */
+function renderPicker(){
+  const q = ($('pickSearch').value || '').trim().toLowerCase();
+  const gs = GROUPS[state.view];
+  const out = [];
+  let sec = null;
+  for(const g of gs){
+    if(q && !(g.title + ' ' + g.section + ' ' + g.blurb).toLowerCase().includes(q)) continue;
+    if(g.section !== sec){ sec = g.section; out.push(`<div class="picksec">${esc(sec)}</div>`); }
+    out.push(
+      `<button class="pickrow" data-key="${esc(g.key)}"` +
+      ` aria-current="${g.key === state.group}">` +
+      `<b>${esc(g.title)}${g.blurb ? `<span>${esc(g.blurb)}</span>` : ''}</b>` +
+      `<i>${g.rows.length}</i></button>`);
+  }
+  $('pickList').innerHTML = out.join('') || '<p class="packnote">Nothing matches.</p>';
+  $('pickList').querySelectorAll('.pickrow').forEach(b => {
+    b.onclick = () => {
+      stopAuto();
+      state.group = b.dataset.key;
+      state.idx = 0;
+      $('pickSheet').classList.remove('open');
+      buildChunkSel();
+      render();
+      if(state.mode === 'deck') renderTable();
+      save();
+    };
+  });
+  document.querySelectorAll('.seg').forEach(x =>
+    x.setAttribute('aria-selected', String(x.dataset.view === state.view)));
+}
+
+function openPicker(){
+  $('pickSearch').value = '';
+  renderPicker();
+  $('pickSheet').classList.add('open');
+}
+
+/* ---------- conjugations and edges ----------
+   Both are fetched rather than inlined: together they are nearly a megabyte,
+   and the first paint should not wait for them. The service worker precaches
+   them, so offline still works. */
+let CONJ = null, EDGES = null, PRON = null, extraPromise = null;
+
+function loadExtra(){
+  if(extraPromise) return extraPromise;
+  const get = u => fetch(u).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+  extraPromise = Promise.all([get('conjugations.json'), get('edges.json'),
+                              get('pron.json')])
+    .then(([c, e, p]) => { CONJ = c; EDGES = e; PRON = p; });
+  return extraPromise;
+}
+
+/* ---------- pronunciation ----------
+   Respellings are generated by lib/pron.py at build time and fetched with the
+   other extras, so the page carries no second copy of the rules. */
+const pronOf = (kind, key) => (state.pron && PRON && PRON[kind]) ? (PRON[kind][key] || '') : '';
+const pronRow = (kind, key) => {
+  const p = pronOf(kind, key);
+  return p ? `<div class="pron">${esc(p)}</div>` : '';
+};
+
+const EDGE_LABEL = {
+  'family': '↳', 'pattern': '≈', 'reflexive': '⇄', 'takes-infinitive': '→',
+  'confusable': '≠', 'opposite': '↔'
+};
+
+function renderSideways(r){
+  const box = $('sideways');
+  if(!EDGES){ box.innerHTML = ''; return; }
+  const es = (EDGES[r.v] || []);
+  // one of each kind, most useful first: what it conjugates like, its
+  // reflexive twin, the family it belongs to, what it takes after it
+  // the hand-written pairs first: mixing up ser/estar costs more than not
+  // knowing what a verb conjugates like. Four buttons is all the row fits.
+  let pick = [];
+  const want = ['confusable', 'opposite', 'pattern', 'reflexive',
+                'takes-infinitive', 'family'];
+  for(const t of want){
+    const e = es.find(x => x.t === t);
+    if(e) pick.push(e);
+  }
+  pick = pick.slice(0, 4);
+  box.innerHTML = pick.map(e =>
+    `<button data-verb="${esc(e.to)}" title="${esc(e.n)}">` +
+    `${EDGE_LABEL[e.t] || '·'} <b>${esc(e.to)}</b></button>`).join('');
+  box.querySelectorAll('button').forEach(b => {
+    b.onclick = ev => { ev.stopPropagation(); jumpToVerb(b.dataset.verb); };
+  });
+}
+
+function jumpToVerb(verb){
+  const row = DATA.find(x => x.v === verb);
+  if(!row) return;
+  stopAuto();
+  // follow the link in whichever view is open, switching group if need be
+  const gs = activeGroups();
+  const key = state.view === 'form' ? row.f : row.tp;
+  const g = gs.find(x => x.key === key);
+  if(g){ state.group = g.key; state.idx = Math.max(0, g.rows.indexOf(row)); }
+  buildChunkSel();
+  render();
+  save();
+}
+
+/* ---------- wander ----------
+   A walk through the verbs by how they relate, instead of by rank or topic.
+   Each card offers three doors out; the trail along the top is where you have
+   been, and every step of it is clickable, so a wrong turn costs one tap. */
+const REL = {
+  'confusable':       ['≠', 'Easily mixed up'],
+  'opposite':         ['↔', 'The opposite'],
+  'reflexive':        ['⇄', 'Reflexive twin'],
+  'family':           ['↳', 'Same family'],
+  'pattern':          ['≈', 'Conjugates like'],
+  'takes-infinitive': ['→', 'Takes an infinitive'],
+  'topic':            ['◎', 'Same topic'],
+  'near':             ['#', 'Next in frequency'],
+};
+// hand-written kinds first: ser/estar is worth more than a shared conjugation
+const WANDER_WANT = ['confusable', 'opposite', 'reflexive', 'family',
+                     'pattern', 'takes-infinitive'];
+let wSalt = 0;
+
+const rowFor = verb => DATA.find(x => x.v === verb);
+
+// FNV-1a. The three doors are a function of the verb, so the same verb always
+// offers the same three and the map stays learnable; ↻ reshuffles on request.
+function hash(s){
+  let h = 2166136261;
+  for(let i = 0; i < s.length; i++){ h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return h >>> 0;
+}
+
+function wanderChoices(verb){
+  const row = rowFor(verb);
+  const es = (EDGES[verb] || []).filter(e => rowFor(e.to));
+  const seen = new Set(state.trail);
+  const byType = {};
+  for(const e of es) (byType[e.t] = byType[e.t] || []).push(e);
+  const h = hash(verb + '|' + wSalt);
+  const pick = [], taken = new Set([verb]);
+
+  // The verb we just came from is usually the top-priority door back (estar
+  // links to ser as surely as ser links to estar), which turns the walk into a
+  // two-verb bounce. Hold it back unless there is nothing else to offer.
+  const prev = state.trail[state.trail.length - 2];
+
+  // deterministic draw from a pool, preferring somewhere the trail has not been
+  const draw = (pool, allowPrev) => {
+    pool = pool.filter(e => !taken.has(e.to) && (allowPrev || e.to !== prev));
+    if(!pool.length) return false;
+    const fresh = pool.filter(e => !seen.has(e.to));
+    const use = fresh.length ? fresh : pool;
+    const e = use[(h + pick.length * 7919) % use.length];
+    taken.add(e.to); pick.push(e);
+    return true;
+  };
+
+  // one of each kind in priority order, then round again for a second of the
+  // best kinds, so a spare «easily mixed up» beats a second family member
+  for(let pass = 0; pass < 2 && pick.length < 3; pass++)
+    for(const t of WANDER_WANT){
+      if(pick.length >= 3) break;
+      if(byType[t]) draw(byType[t]);
+    }
+
+  // The graph is thin on purpose - the edges are only the ones that mean
+  // something, and half the commonest verbs have just one or two. Rather than
+  // show a dead end, top up from the same topic, which is a real connection
+  // and always there, then from the neighbouring ranks.
+  const mates = row ? DATA.filter(x => x.tp === row.tp && x.v !== verb)
+    .map(x => ({to: x.v, t: 'topic', n: TOPIC_TITLE[row.tp] || ''})) : [];
+  while(pick.length < 3 && draw(mates)) ;
+  if(row){
+    const near = DATA.filter(x => x.v !== verb && Math.abs(x.r - row.r) <= 15)
+      .map(x => ({to: x.v, t: 'near', n: 'rank ' + x.r}));
+    while(pick.length < 3 && draw(near)) ;
+  }
+  // nothing left but the way we came
+  for(const t of WANDER_WANT){
+    if(pick.length >= 3) break;
+    if(byType[t]) draw(byType[t], true);
+  }
+
+  // more doors than we are showing? then ↻ has something to offer
+  const universe = new Set([...es, ...mates].map(e => e.to));
+  universe.delete(verb);
+  return { pick, more: universe.size > pick.length };
+}
+
+/** Somewhere worth starting: a common verb that actually links out. */
+function wanderSeed(){
+  const pool = DATA.slice(0, 300).map(r => r.v)
+    .filter(v => ((EDGES || {})[v] || []).length >= 2);
+  const from = pool.length ? pool : DATA.map(r => r.v);
+  return from[Math.floor(Math.random() * from.length)];
+}
+
+function wanderTo(verb){
+  if(!rowFor(verb)) return;
+  state.trail.push(verb);
+  if(state.trail.length > 60) state.trail = state.trail.slice(-60);
+  wSalt = 0;
+  renderWander();
+  save();
+}
+
+function renderWander(){
+  if(!EDGES){
+    $('wCard').innerHTML = '<div class="wempty">Loading the map…</div>';
+    $('wChoices').innerHTML = ''; $('wHead').textContent = ''; $('wTrail').innerHTML = '';
+    return;
+  }
+  if(!state.trail.length) state.trail = [wanderSeed()];
+  const verb = state.trail[state.trail.length - 1];
+  const row = rowFor(verb);
+  if(!row){ state.trail = []; return renderWander(); }
+
+  // the trail, newest last; only the tail fits on a phone
+  const tr = $('wTrail');
+  const from = Math.max(0, state.trail.length - 8);
+  tr.innerHTML = state.trail.slice(from).map((v, i) =>
+    (i ? '<span class="sep">›</span>' : '') +
+    `<button data-i="${from + i}">${esc(v)}</button>`).join('');
+  tr.querySelectorAll('button').forEach(b => {
+    b.onclick = () => { state.trail = state.trail.slice(0, +b.dataset.i + 1);
+                        wSalt = 0; renderWander(); save(); };
+  });
+
+  $('wCard').innerHTML =
+    `<div><div class="wverb">${esc(verb)}</div>` +
+    pronRow('v', verb) +
+    `<div class="wgloss">${esc(row.ve)}</div></div>` +
+    `<div class="wsent">${esc(row.s)}</div>` +
+    pronRow('s', row.k || String(row.r)) +
+    `<div class="wsent-en">${esc(row.t)}</div>`;
+  $('wCard').onclick = () => play(row, 'full');
+
+  const { pick: ch, more } = wanderChoices(verb);
+  $('wHead').innerHTML = 'Where next' +
+    (more ? '<button id="wShuffle" type="button">↻ other doors</button>' : '');
+  const sh = $('wShuffle');
+  if(sh) sh.onclick = () => { wSalt++; renderWander(); };
+
+  $('wChoices').innerHTML = ch.length ? ch.map(e => {
+    const [sym, label] = REL[e.t] || ['·', 'Related'];
+    // "≈ Conjugates like / comer / conjugates like comer" says it three times
+    const why = e.n && e.n.toLowerCase() !== (label + ' ' + e.to).toLowerCase() ? e.n : '';
+    return `<button class="wchoice" type="button" data-verb="${esc(e.to)}">` +
+      `<span class="rel">${sym} ${esc(label)}</span>` +
+      `<span class="tgt">${esc(e.to)}<span>${esc(rowFor(e.to).ve)}</span></span>` +
+      (why ? `<div class="why">${esc(why)}</div>` : '') + '</button>';
+  }).join('') : '<div class="wempty">Nothing links out of this one — ⤭ New starts somewhere else.</div>';
+  $('wChoices').querySelectorAll('.wchoice').forEach(b => {
+    b.onclick = () => wanderTo(b.dataset.verb);
+  });
+  save();
+}
+
+function renderConj(r){
+  const panel = $('conjPanel');
+  if(!state.conjOpen){ panel.style.display = 'none'; return; }
+  panel.style.display = '';
+  if(!CONJ){ panel.innerHTML = '<div class="conjhead">Loading forms…</div>'; return; }
+  const rows = CONJ[r.v];
+  if(!rows){
+    panel.innerHTML = '<div class="conjhead">No table for this verb yet — ' +
+      'the first 400 have one. <b>' + esc(r.v) + '</b> conjugates regularly.</div>';
+    return;
+  }
+  const upto = LEVELS.indexOf(state.level);
+  const show = rows.filter(c => LEVELS.indexOf(c.lv) <= upto);
+  const out = [`<div class="conjhead"><b>${esc(r.v)}</b> · ${esc(r.ve)}</div>`];
+  for(const c of show){
+    const here = c.s === r.f;
+    out.push(
+      `<div class="conjrow${here ? ' here' : ''}" data-form="${esc(c.f)}"` +
+      ` data-slot="${esc(c.s)}">` +
+      `<div class="lbl">${esc(c.l)}</div>` +
+      `<div class="frm">${esc(c.f)}</div>` +
+      `<div class="pr">${esc(c.p)}</div>` +
+      `<div class="en">${esc(c.e)}</div>` +
+      (c.n ? `<div class="nt">${esc(c.n)}</div>` : '') +
+      `</div>`);
+  }
+  out.push('<div class="conjmore">' + LEVELS.map(l =>
+    `<button data-level="${l}" aria-pressed="${l === state.level}">` +
+    (l === 'A1' ? 'A1 only' : 'show ' + l) + '</button>').join('') + '</div>');
+  panel.innerHTML = out.join('');
+  panel.querySelectorAll('[data-level]').forEach(b => {
+    b.onclick = () => { state.level = b.dataset.level; renderConj(r); save(); };
+  });
+  panel.querySelectorAll('.conjrow').forEach(d => {
+    d.onclick = () => playForm(r.v, d.dataset.slot, d.dataset.form);
+  });
+}
+
+/* ---------- render ---------- */
+function render(){
+  const list = current();
+  if(!list.length){ $('esText').textContent='No data'; return; }
+  if(state.idx >= list.length) state.idx = 0;
+  if(state.idx < 0) state.idx = list.length-1;
+  const r = list[state.idx];
+  const recall = state.mode === 'recall';
+
+  $('esText').textContent = r.s;
+  $('enText').textContent = r.t;
+  $('noteText').textContent = r.n || '';
+  $('noteText').style.display = r.n ? '' : 'none';
+
+  $('esText').className = 'es' + (recall ? ' hidden-text' : '');
+  $('hint').textContent = recall ? 'Say it in Spanish, then tap to check' : '';
+
+  // The respelling hides with the Spanish in Recall - left showing it would
+  // hand over the answer, which is the one thing Recall is for.
+  const pr = pronOf('s', r.k || String(r.r));
+  $('pronText').textContent = pr;
+  $('pronText').style.display = (pr && !recall) ? '' : 'none';
+
+  $('counter').textContent = `${state.idx+1} / ${list.length}`;
+  $('progBar').style.width = ((state.idx+1)/list.length*100) + '%';
+
+  const key = r.k || r.r, m = state.marks[key];
+  $('knownBtn').style.opacity = m==='known' ? 1 : .55;
+  $('shakyBtn').style.opacity = m==='shaky' ? 1 : .55;
+
+  // the form this sentence uses, named on the card, and the table behind it
+  const fm = FORM_META[r.f];
+  $('verbTag').innerHTML =
+    `<span class="inf">${esc(r.v)}</span> <b>· ${esc(r.ve)}</b>` +
+    (fm ? ` <span class="formtag">${esc(fm[2])}</span>` : '');
+  renderSideways(r);
+  renderConj(r);
+  $('conjBtn').textContent = (state.conjOpen ? '▴' : '▾') + ' Forms';
+  save();
+}
+
+function go(d){
+  const list = current();
+  state.idx += d;
+  if(state.idx >= list.length){
+    if(auto){ stopAuto(); state.idx = list.length-1; render(); return; }
+    state.idx = 0;
+  }
+  if(state.idx < 0) state.idx = list.length-1;
+  render();
+}
+
+/* ---------- auto play ---------- */
+function stopAuto(){ auto=false; clearTimeout(autoTimer); stopAudio();
+  $('autoBtn').textContent='⏯ Auto'; $('autoBtn').style.color=''; }
+function startAuto(){
+  auto=true; $('autoBtn').textContent='■ Stop'; $('autoBtn').style.color='var(--warn)';
+  const list = current(), r0 = list[state.idx];
+
+  // Walking mode. One continuous media element keeps playing with the screen off;
+  // a JS-driven speech sequence would be throttled to a halt in your pocket.
+  const pack = r0 && packFor(r0.r);
+  if(pack && playTrack(r0)){
+    follow = () => {
+      if(!auto) return;
+      const t = el.currentTime;
+      const i = list.findIndex(x => {
+        const e = pack.index.sentences.find(y => y.r === x.r);
+        return e && t >= e.verb[0] && t < e.end;
+      });
+      if(i >= 0 && i !== state.idx){ state.idx = i; render(); }
+    };
+    return;
+  }
+
+  const step = () => {
+    if(!auto) return;
+    const r = current()[state.idx]; if(!r) return stopAuto();
+    play(r, 'full', () => {
+      if(!auto) return;
+      autoTimer = setTimeout(()=>{
+        if(!auto) return;
+        const l = current();
+        if(state.idx >= l.length-1){ stopAuto(); return; }
+        state.idx++; render(); step();
+      }, state.gap*1000);
+    });
+  };
+  step();
+}
+
+/* ---------- table ---------- */
+function tableMatches(){
+  const q = $('search').value.trim().toLowerCase();
+  if(!q) return DATA;
+  // the topic title and the form are searchable too, so "shopping" or
+  // "preterite" narrows the deck the same way a Spanish word does
+  return DATA.filter(r => (r.s + ' ' + r.t + ' ' + r.v + ' ' + r.ve + ' ' +
+    (TOPIC_TITLE[r.tp] || '') + ' ' + ((FORM_META[r.f] || [,,''])[2] || ''))
+    .toLowerCase().includes(q));
+}
+
+function renderTable(){
+  const matches = tableMatches();
+  const box = $('rows');
+  box.innerHTML = '';
+  $('tableCount').textContent = matches.length === DATA.length
+    ? `all ${DATA.length} sentences`
+    : `${matches.length} of ${DATA.length}`;
+  if(!matches.length){ box.innerHTML = '<div class="empty">Nothing matches that.</div>'; return; }
+
+  // All rows at once. A fragment keeps it to a single reflow, which is what makes
+  // two thousand rows cheap enough to skip virtualising.
+  const frag = document.createDocumentFragment();
+  matches.forEach(r=>{
+    const d = document.createElement('div');
+    d.className='rowitem';
+    d.innerHTML = `<div class="n">${r.r}${r.sq ? '<sup>+</sup>' : ''}</div>
+      <div class="txt">
+        <div class="v">${esc(r.v)} · ${esc(r.ve)}</div>
+        <div class="s">${esc(r.s)}</div>
+        ${pronRow('s', r.k || String(r.r))}
+        <div class="t">${esc(r.t)}</div>
+        <div class="meta">
+          <button class="metabtn" data-topic="${esc(r.tp)}">${esc(TOPIC_TITLE[r.tp] || r.tp)}</button>
+          <button class="metabtn" data-form="${esc(r.f)}">${esc((FORM_META[r.f]||[,,r.f])[2])}</button>
+        </div>
+      </div>
+      <button class="spk" aria-label="Speak">🔊</button>`;
+    d.querySelector('.spk').onclick = () => play(r,'full');
+    // tapping either chip opens that group in the study view
+    d.querySelector('[data-topic]').onclick = () => openGroup('topic', r.tp, r);
+    d.querySelector('[data-form]').onclick = () => openGroup('form', r.f, r);
+    frag.appendChild(d);
+  });
+  box.appendChild(frag);
+}
+function renderBasics(){
+  const q = $('bSearch').value.trim().toLowerCase();
+  const box = $('bSections');
+  box.innerHTML = '';
+  let shown = 0, total = 0, lastSection = null;
+  const frag = document.createDocumentFragment();
+
+  TABLES.forEach(t => {
+    total += t.rows.length;
+    const rows = q ? t.rows.filter(r => (r.s+' '+r.e+' '+r.n).toLowerCase().includes(q)) : t.rows;
+    if(q && !rows.length) return;
+    shown += rows.length;
+
+    if(t.section !== lastSection){
+      const h = document.createElement('div');
+      h.className = 'bsection'; h.textContent = t.section;
+      frag.appendChild(h); lastSection = t.section;
+    }
+
+    const g = document.createElement('div');
+    // A search opens every group that matched, so hits are never hidden behind a tap.
+    g.className = 'bgroup' + ((q || state.openTables[t.slug]) ? ' open' : '');
+    const head = document.createElement('div');
+    head.className = 'bhead';
+    head.innerHTML = `<div class="bt"><div class="btitle">${esc(t.title)}</div>
+        <div class="bblurb">${esc(t.blurb)}</div></div>
+      <div class="bn">${rows.length}</div><div class="bchev">&#9654;</div>`;
+    head.onclick = () => {
+      g.classList.toggle('open');
+      state.openTables[t.slug] = g.classList.contains('open');
+      save();
+    };
+
+    const body = document.createElement('div');
+    body.className = 'bbody';
+    rows.forEach(r => {
+      const d = document.createElement('div');
+      d.className = 'brow';
+      d.innerHTML = `<div class="btx"><div class="bes">${esc(r.s)}</div>
+          ${pronRow('t', r.i)}
+          <div class="ben">${esc(r.e)}</div>
+          ${r.n ? `<div class="bnote">${esc(r.n)}</div>` : ''}</div>
+        <button class="spk" aria-label="Speak">&#128266;</button>`;
+      d.querySelector('.spk').onclick = e => { e.stopPropagation(); playTableRow(r); };
+      body.appendChild(d);
+    });
+
+    g.appendChild(head); g.appendChild(body); frag.appendChild(g);
+  });
+
+  box.appendChild(frag);
+  $('bCount').textContent = q ? `${shown} of ${total}`
+    : `${total} entries across ${TABLES.length} tables`;
+  if(q && !shown) box.innerHTML = '<div class="empty">Nothing matches that.</div>';
+}
+
+/* ---------- the Verbs tab ---------- */
+function renderVerbs(){
+  const box = $('vList'), count = $('vCount');
+  if(!CONJ){
+    count.textContent = '';
+    box.innerHTML = '<p class="packnote">Loading the tables…</p>';
+    loadExtra().then(renderVerbs);
+    return;
+  }
+  const gloss = {};
+  for(const r of DATA) if(!(r.v in gloss)) gloss[r.v] = r.ve;
+  const q = ($('vSearch').value || '').trim().toLowerCase();
+  const verbs = Object.keys(CONJ).filter(v => {
+    if(!q) return true;
+    if((v + ' ' + (gloss[v] || '')).toLowerCase().includes(q)) return true;
+    // searching a conjugated form should find its verb: "tuve" -> tener
+    return CONJ[v].some(c => c.f.toLowerCase().includes(q));
+  });
+  count.textContent = `${verbs.length} of ${Object.keys(CONJ).length} verbs`;
+  const upto = LEVELS.indexOf(state.level);
+  const frag = document.createDocumentFragment();
+  for(const v of verbs){
+    const open = !!state.openVerbs[v];
+    const d = document.createElement('div');
+    let html = `<button class="pickrow" data-verb="${esc(v)}">` +
+      `<b>${esc(v)}<span>${esc(gloss[v] || '')}</span></b>` +
+      `<i>${open ? '▴' : '▾'}</i></button>`;
+    if(open){
+      html += '<div class="conjpanel">';
+      for(const c of CONJ[v]){
+        if(LEVELS.indexOf(c.lv) > upto) continue;
+        html += `<div class="conjrow" data-form="${esc(c.f)}" data-slot="${esc(c.s)}" ` +
+          `data-verb="${esc(v)}">` +
+          `<div class="lbl">${esc(c.l)}</div><div class="frm">${esc(c.f)}</div>` +
+          `<div class="pr">${esc(c.p)}</div><div class="en">${esc(c.e)}</div>` +
+          (c.n ? `<div class="nt">${esc(c.n)}</div>` : '') + '</div>';
+      }
+      html += '<div class="conjmore">' + LEVELS.map(l =>
+        `<button data-level="${l}" aria-pressed="${l === state.level}">` +
+        (l === 'A1' ? 'A1 only' : 'show ' + l) + '</button>').join('') + '</div></div>';
+    }
+    d.innerHTML = html;
+    frag.appendChild(d);
+  }
+  box.innerHTML = '';
+  box.appendChild(frag);
+  box.querySelectorAll('[data-verb]').forEach(b => {
+    b.onclick = () => {
+      const v = b.dataset.verb;
+      state.openVerbs[v] = !state.openVerbs[v];
+      save(); renderVerbs();
+    };
+  });
+  box.querySelectorAll('[data-level]').forEach(b => {
+    b.onclick = () => { state.level = b.dataset.level; save(); renderVerbs(); };
+  });
+  box.querySelectorAll('.conjrow').forEach(d => {
+    d.onclick = () => playForm(d.dataset.verb, d.dataset.slot, d.dataset.form);
+  });
+}
+
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+/* ---------- export ---------- */
+function exportCSV(){
+  const q = s => '"' + String(s==null?'':s).replace(/"/g,'""') + '"';
+  const head = ['rank','verb_es','verb_en','sentence_es','sentence_en','note','topic','form'].map(q).join(',');
+  const body = DATA.map(r=>[r.r,r.v,r.ve,r.s,r.t,r.n||'',r.tp||'',r.f||''].map(q).join(',')).join('\n');
+  const blob = new Blob(['﻿'+head+'\n'+body], {type:'text/csv;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = '2000-verbos.csv';
+  document.body.appendChild(a); a.click(); a.remove();
+}
+
+/* ---------- wiring ---------- */
+document.querySelectorAll('.tab').forEach(t=>{
+  t.onclick = () => {
+    stopAuto();
+    document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected','false'));
+    t.setAttribute('aria-selected','true');
+    state.mode = t.dataset.mode;
+    const deck = state.mode === 'deck', basics = state.mode === 'basics',
+          verbs = state.mode === 'verbs', wander = state.mode === 'wander';
+    $('studyView').style.display = (deck || basics || verbs || wander) ? 'none' : '';
+    $('tableView').style.display = deck ? '' : 'none';
+    $('basicsView').style.display = basics ? '' : 'none';
+    $('verbsView').style.display = verbs ? '' : 'none';
+    $('wanderView').style.display = wander ? '' : 'none';
+    if(deck) renderTable();
+    else if(basics) renderBasics();
+    else if(verbs) renderVerbs();
+    else if(wander){ renderWander(); if(!EDGES) loadExtra().then(renderWander); }
+    else render();
+    save();
+  };
+});
+
+$('card').onclick = () => {
+  if(state.mode==='recall'){
+    const el = $('esText');
+    if(el.classList.contains('hidden-text')){
+      el.classList.remove('hidden-text');
+      $('hint').textContent='';
+      // the respelling comes back with the Spanish it was hidden alongside
+      if($('pronText').textContent) $('pronText').style.display = '';
+      play(current()[state.idx], 'full');
+    } else { go(1); }
+  } else {
+    play(current()[state.idx], 'full');
+  }
+};
+$('playBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx]; if(r) play(r,'full'); };
+$('prevBtn').onclick = e => { e.stopPropagation(); stopAuto(); go(-1); };
+$('nextBtn').onclick = e => { e.stopPropagation(); stopAuto(); go(1); };
+$('autoBtn').onclick = e => { e.stopPropagation(); auto ? stopAuto() : startAuto(); };
+$('knownBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx];
+  const k = r.k || r.r;
+  state.marks[k] = state.marks[k]==='known' ? null : 'known'; render(); };
+$('shakyBtn').onclick = e => { e.stopPropagation(); const r=current()[state.idx];
+  const k = r.k || r.r;
+  state.marks[k] = state.marks[k]==='shaky' ? null : 'shaky'; render(); };
+
+$('wBack').onclick = () => {
+  if(state.trail.length > 1) state.trail.pop();
+  wSalt = 0; renderWander(); save();
+};
+$('wRandom').onclick = () => { state.trail = [wanderSeed()]; wSalt = 0; renderWander(); save(); };
+$('wPlay').onclick = e => {
+  e.stopPropagation();
+  const r = rowFor(state.trail[state.trail.length - 1]);
+  if(r) play(r, 'full');
+};
+
+$('chunkPrev').onclick = () => goChunk(-1);
+$('chunkNext').onclick = () => goChunk(1);
+$('search').oninput = renderTable;
+$('bSearch').oninput = renderBasics;
+
+$('pronChk').checked = state.pron;
+$('pronVal').textContent = state.pron ? 'shown' : 'hidden';
+$('pronChk').onchange = e => {
+  state.pron = e.target.checked;
+  $('pronVal').textContent = state.pron ? 'shown' : 'hidden';
+  save();
+  if(!PRON) loadExtra().then(redrawAll); else redrawAll();
+};
+function redrawAll(){
+  if(state.mode === 'deck') renderTable();
+  else if(state.mode === 'basics') renderBasics();
+  else if(state.mode === 'wander') renderWander();
+  else render();
+}
+
+$('setBtn').onclick = () => $('sheet').classList.add('open');
+$('sheet').onclick = e => { if(e.target===$('sheet')) $('sheet').classList.remove('open'); };
+$('voiceSel').onchange = e => { voice = voices.find(v=>v.voiceURI===e.target.value);
+  state.voice = e.target.value; save(); if(voice) speak('Hola, vamos a practicar.'); };
+
+function slider(id, key, fmt, after){
+  const el = $(id);
+  el.value = state[key];
+  $(id+'Val') && ($(id+'Val').textContent = fmt(state[key]));
+  el.oninput = () => { state[key] = +el.value;
+    $(id+'Val') && ($(id+'Val').textContent = fmt(state[key])); save(); after && after(); };
+}
+slider('rate','rate', v=>v.toFixed(2).replace(/0$/,'')+'×');
+slider('gap','gap', v=>v.toFixed(1)+'s');
+slider('reps','reps', v=>String(v));
+slider('chunkSize','chunkSize', v=>String(v), ()=>{ state.chunk=0; state.idx=0;
+  buildChunkSel(); render(); if(state.mode==='deck') renderTable(); });
+$('rateVal').textContent = state.rate.toFixed(2).replace(/0$/,'')+'×';
+$('chunkVal').textContent = String(state.chunkSize);
+
+$('exportBtn').onclick = exportCSV;
+$('resetBtn').onclick = () => {
+  if(confirm('Clear all progress marks and settings on this device?')){
+    state.marks = {}; state.idx = 0; state.group = ''; save();
+    buildChunkSel(); render();
+  }
+};
+$('themeBtn').onclick = () => {
+  state.theme = state.theme==='dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', state.theme); save();
+};
+document.documentElement.setAttribute('data-theme', state.theme);
+
+$('groupBtn').onclick = openPicker;
+$('pickSheet').onclick = e => { if(e.target.id === 'pickSheet') e.currentTarget.classList.remove('open'); };
+$('pickSearch').oninput = renderPicker;
+document.querySelectorAll('.seg').forEach(b => {
+  b.onclick = () => {
+    state.view = b.dataset.view;
+    // the group key only means something inside one view, so reset it
+    state.group = (GROUPS[state.view][0] || {}).key || '';
+    state.idx = 0;
+    $('pickSearch').value = '';     // a filter from the other view is noise here
+    renderPicker();
+    buildChunkSel();
+    render();
+    if(state.mode === 'deck') renderTable();
+    save();
+  };
+});
+$('conjBtn').onclick = () => {
+  state.conjOpen = !state.conjOpen;
+  save();
+  if(state.conjOpen && !CONJ) loadExtra().then(() => render());
+  render();
+};
+
+document.addEventListener('keydown', e=>{
+  if(state.mode==='deck' || state.mode==='basics' || state.mode==='verbs' ||
+     e.target.tagName==='INPUT') return;
+  if(state.mode==='wander'){
+    // 1-3 take a door, backspace walks the trail back one step
+    if(e.key>='1' && e.key<='3'){
+      const b = $('wChoices').querySelectorAll('.wchoice')[+e.key-1];
+      if(b) b.click();
+    }
+    if(e.key==='Backspace'){ e.preventDefault(); $('wBack').click(); }
+    if(e.key===' '){ e.preventDefault(); $('wPlay').click(); }
+    return;
+  }
+  if(e.key==='ArrowRight'){ stopAuto(); go(1); }
+  if(e.key==='ArrowLeft'){ stopAuto(); go(-1); }
+  if(e.key===' '){ e.preventDefault(); $('card').click(); }
+});
+
+if('serviceWorker' in navigator){
+  // 'load' may already have fired by the time this runs, in which case a listener
+  // would never be called and the app would silently never go offline-capable.
+  const reg = () => navigator.serviceWorker.register('sw.js').catch(()=>{});
+  if(document.readyState === 'complete') reg();
+  else window.addEventListener('load', reg);
+
+  // If a NEW worker takes over a page that already had one, the HTML currently
+  // running came from the old cache. Reload once so the page matches the deploy.
+  // Guarded on hadController so a first-ever registration doesn't reload.
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if(!hadController || reloaded) return;
+    reloaded = true;
+    location.reload();
+  });
+}
+loadPacks();
+$('vSearch').oninput = renderVerbs;
+
+buildGroups();
+if(!state.group || !activeGroups().some(g => g.key === state.group))
+  state.group = (activeGroups()[0] || {}).key || '';
+buildChunkSel();
+document.querySelector(`.tab[data-mode="${state.mode}"]`)?.click();
+// the sideways row and the form panel both need these; fetch them quietly
+// Deck and Basics paint from inlined data before this resolves, so they are
+// redrawn too - otherwise their respellings only appear on the next tab switch.
+loadExtra().then(redrawAll);
+render();
+</script>
+</body>
+</html>
